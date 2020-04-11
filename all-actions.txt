@@ -16,6 +16,8 @@ a4b:GetProfile
 a4b:GetRoom
 a4b:GetRoomSkillParameter
 a4b:GetSkillGroup
+a4b:ListSkills
+a4b:ListTags
 a4b:PutRoomSkillParameter
 a4b:ResolveRoom
 a4b:RevokeInvitation
