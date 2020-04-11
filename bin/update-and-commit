@@ -11,8 +11,10 @@ make update
 
 git add all-actions.txt
 
-if ! git diff --cached --exit-code > /dev/null ; then
+if [[ $(git status -s) ]]; then
 	git commit -m "Automatic commit of updated actions"
 	git push
 	git diff HEAD^..HEAD
+else
+	echo "Nothing new..."
 fi
