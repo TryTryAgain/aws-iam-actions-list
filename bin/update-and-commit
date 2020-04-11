@@ -4,7 +4,7 @@ set -eu
 
 cd "$( dirname "$0" )"/..
 
-git pull
+git pull origin master
 
 echo Updating ...
 make update
@@ -13,7 +13,7 @@ git add all-actions.txt
 
 if [[ $(git status -s) ]]; then
 	git commit -m "Automatic commit of updated actions"
-	git push
+	git push origin master
 	git diff HEAD^..HEAD
 else
 	echo "Nothing new..."
