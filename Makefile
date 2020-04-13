@@ -22,7 +22,7 @@ var/app.json: var/policies.js
 
 var/policies.js:
 	mkdir -p var
-	curl -o $@.tmp https://awsiamconsole.s3.amazonaws.com/iam/assets/js/bundles/policies.js && mv $@.tmp $@
+	curl -o $@.tmp https://awspolicygen.s3.amazonaws.com/js/policies.js && mv $@.tmp $@
 
 update:
 	rm -f var/policies.js
