@@ -951,6 +951,7 @@ cloudfront:GetStreamingDistribution
 cloudfront:GetStreamingDistributionConfig
 cloudfront:ListCloudFrontOriginAccessIdentities
 cloudfront:ListDistributions
+cloudfront:ListDistributionsByLambdaFunction
 cloudfront:ListDistributionsByWebACLId
 cloudfront:ListFieldLevelEncryptionConfigs
 cloudfront:ListFieldLevelEncryptionProfiles
@@ -1660,6 +1661,7 @@ cur:DescribeReportDefinitions
 cur:ModifyReportDefinition
 cur:PutReportDefinition
 dataexchange:CancelJob
+dataexchange:CreateAsset
 dataexchange:CreateDataSet
 dataexchange:CreateJob
 dataexchange:CreateRevision
@@ -6004,6 +6006,7 @@ securityhub:AcceptInvitation
 securityhub:BatchDisableStandards
 securityhub:BatchEnableStandards
 securityhub:BatchImportFindings
+securityhub:BatchUpdateFindings
 securityhub:CreateActionTarget
 securityhub:CreateInsight
 securityhub:CreateMembers
@@ -6836,16 +6839,20 @@ textract:StartDocumentAnalysis
 textract:StartDocumentTextDetection
 transcribe:CreateVocabulary
 transcribe:CreateVocabularyFilter
+transcribe:DeleteMedicalTranscriptionJob
 transcribe:DeleteTranscriptionJob
 transcribe:DeleteVocabulary
 transcribe:DeleteVocabularyFilter
+transcribe:GetMedicalTranscriptionJob
 transcribe:GetTranscriptionJob
 transcribe:GetVocabulary
 transcribe:GetVocabularyFilter
+transcribe:ListMedicalTranscriptionJobs
 transcribe:ListTranscriptionJobs
 transcribe:ListVocabularies
 transcribe:ListVocabularyFilters
 transcribe:StartMedicalStreamTranscription
+transcribe:StartMedicalTranscriptionJob
 transcribe:StartStreamTranscription
 transcribe:StartTranscriptionJob
 transcribe:UpdateVocabulary
