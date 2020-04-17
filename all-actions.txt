@@ -4118,6 +4118,7 @@ iot:UpdateThingGroup
 iot:UpdateThingGroupsForThing
 iot:UpdateThingShadow
 iot:ValidateSecurityProfileBehaviors
+iq:CreateProject
 kafka:CreateCluster
 kafka:CreateConfiguration
 kafka:DeleteCluster
