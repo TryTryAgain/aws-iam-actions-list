@@ -3020,8 +3020,10 @@ frauddetector:CreateDetectorVersion
 frauddetector:CreateModelVersion
 frauddetector:CreateRule
 frauddetector:CreateVariable
+frauddetector:DeleteDetector
 frauddetector:DeleteDetectorVersion
 frauddetector:DeleteEvent
+frauddetector:DeleteRuleVersion
 frauddetector:DescribeDetector
 frauddetector:DescribeModelVersions
 frauddetector:GetDetectors
@@ -4322,6 +4324,7 @@ lambda:GetFunctionConcurrency
 lambda:GetFunctionConfiguration
 lambda:GetFunctionEventInvokeConfig
 lambda:GetLayerVersion
+lambda:GetLayerVersionByArn
 lambda:GetLayerVersionPolicy
 lambda:GetPolicy
 lambda:GetProvisionedConcurrencyConfig
