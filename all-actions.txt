@@ -4137,8 +4137,10 @@ kafka:ListNodes
 kafka:ListTagsForResource
 kafka:TagResource
 kafka:UntagResource
+kafka:UpdateBrokerCount
 kafka:UpdateBrokerStorage
 kafka:UpdateClusterConfiguration
+kafka:UpdateMonitoring
 kendra:BatchDeleteDocument
 kendra:BatchPutDocument
 kendra:CreateDataSource
