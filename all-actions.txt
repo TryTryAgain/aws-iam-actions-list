@@ -4634,6 +4634,8 @@ managedblockchain:ListNodes
 managedblockchain:ListProposals
 managedblockchain:ListProposalVotes
 managedblockchain:RejectInvitation
+managedblockchain:UpdateMember
+managedblockchain:UpdateNode
 managedblockchain:VoteOnProposal
 mechanicalturk:AcceptQualificationRequest
 mechanicalturk:ApproveAssignment
@@ -6848,7 +6850,8 @@ swf:UntagResource
 synthetics:CreateCanary
 synthetics:DeleteCanary
 synthetics:DescribeCanaries
-synthetics:DescribeTestRuns
+synthetics:DescribeCanariesLastRun
+synthetics:GetCanaryRuns
 synthetics:ListTagsForResource
 synthetics:StartCanary
 synthetics:StopCanary
