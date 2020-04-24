@@ -5207,6 +5207,8 @@ polly:SynthesizeSpeech
 pricing:DescribeServices
 pricing:GetAttributeValues
 pricing:GetProducts
+purchase-orders:ModifyPurchaseOrders
+purchase-orders:ViewPurchaseOrders
 qldb:CreateLedger
 qldb:DeleteLedger
 qldb:DescribeJournalS3Export
