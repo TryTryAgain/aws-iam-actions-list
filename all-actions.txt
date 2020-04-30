@@ -1874,6 +1874,7 @@ detective:ListInvitations
 detective:ListMembers
 detective:RejectInvitation
 detective:SearchGraph
+detective:StartMonitoringMember
 devicefarm:CreateDevicePool
 devicefarm:CreateInstanceProfile
 devicefarm:CreateNetworkProfile
@@ -3990,6 +3991,7 @@ iot:Publish
 iot:Receive
 iot:RegisterCACertificate
 iot:RegisterCertificate
+iot:RegisterCertificateWithoutCA
 iot:RegisterThing
 iot:RejectCertificateTransfer
 iot:RemoveThingFromBillingGroup
