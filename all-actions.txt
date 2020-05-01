@@ -5975,6 +5975,7 @@ schemas:CreateRegistry
 schemas:CreateSchema
 schemas:DeleteDiscoverer
 schemas:DeleteRegistry
+schemas:DeleteResourcePolicy
 schemas:DeleteSchema
 schemas:DeleteSchemaVersion
 schemas:DescribeCodeBinding
@@ -5983,12 +5984,14 @@ schemas:DescribeRegistry
 schemas:DescribeSchema
 schemas:GetCodeBindingSource
 schemas:GetDiscoveredSchema
+schemas:GetResourcePolicy
 schemas:ListDiscoverers
 schemas:ListRegistries
 schemas:ListSchemas
 schemas:ListSchemaVersions
 schemas:ListTagsForResource
 schemas:PutCodeBinding
+schemas:PutResourcePolicy
 schemas:SearchSchemas
 schemas:StartDiscoverer
 schemas:StopDiscoverer
