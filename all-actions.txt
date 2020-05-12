@@ -1282,6 +1282,7 @@ codeguru-profiler:GetFindingsReport
 codeguru-profiler:GetFindingsReportAccountSummary
 codeguru-profiler:GetPolicy
 codeguru-profiler:GetProfile
+codeguru-profiler:GetRecommendations
 codeguru-profiler:ListFindingsReports
 codeguru-profiler:ListProfileTimes
 codeguru-profiler:ListProfilingGroups
