@@ -2354,6 +2354,7 @@ ec2:DeleteVpnConnectionRoute
 ec2:DeleteVpnGateway
 ec2:DeprovisionByoipCidr
 ec2:DeregisterImage
+ec2:DeregisterInstanceEventNotificationAttributes
 ec2:DeregisterTransitGatewayMulticastGroupMembers
 ec2:DeregisterTransitGatewayMulticastGroupSources
 ec2:DescribeAccountAttributes
@@ -2395,8 +2396,10 @@ ec2:DescribeImportImageTasks
 ec2:DescribeImportSnapshotTasks
 ec2:DescribeInstanceAttribute
 ec2:DescribeInstanceCreditSpecifications
+ec2:DescribeInstanceEventNotificationAttributes
 ec2:DescribeInstances
 ec2:DescribeInstanceStatus
+ec2:DescribeInstanceTypeOfferings
 ec2:DescribeInstanceTypes
 ec2:DescribeInternetGateways
 ec2:DescribeKeyPairs
@@ -2568,6 +2571,7 @@ ec2:PurchaseReservedInstancesOffering
 ec2:PurchaseScheduledInstances
 ec2:RebootInstances
 ec2:RegisterImage
+ec2:RegisterInstanceEventNotificationAttributes
 ec2:RegisterTransitGatewayMulticastGroupMembers
 ec2:RegisterTransitGatewayMulticastGroupSources
 ec2:RejectTransitGatewayPeeringAttachment
