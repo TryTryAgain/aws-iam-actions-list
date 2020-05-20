@@ -5180,6 +5180,7 @@ organizations:DeclineHandshake
 organizations:DeleteOrganization
 organizations:DeleteOrganizationalUnit
 organizations:DeletePolicy
+organizations:DeregisterDelegatedAdministrator
 organizations:DescribeAccount
 organizations:DescribeCreateAccountStatus
 organizations:DescribeEffectivePolicy
@@ -5200,6 +5201,8 @@ organizations:ListAccountsForParent
 organizations:ListAWSServiceAccessForOrganization
 organizations:ListChildren
 organizations:ListCreateAccountStatus
+organizations:ListDelegatedAdministrators
+organizations:ListDelegatedServicesForAccount
 organizations:ListHandshakesForAccount
 organizations:ListHandshakesForOrganization
 organizations:ListOrganizationalUnitsForParent
@@ -5210,6 +5213,7 @@ organizations:ListRoots
 organizations:ListTagsForResource
 organizations:ListTargetsForPolicy
 organizations:MoveAccount
+organizations:RegisterDelegatedAdministrator
 organizations:RemoveAccountFromOrganization
 organizations:TagResource
 organizations:UntagResource
