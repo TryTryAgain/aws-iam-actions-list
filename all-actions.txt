@@ -722,6 +722,7 @@ chime:GetPhoneNumber
 chime:GetPhoneNumberOrder
 chime:GetPhoneNumberSettings
 chime:GetProxySession
+chime:GetRetentionSettings
 chime:GetRoom
 chime:GetTelephonyLimits
 chime:GetUser
@@ -767,12 +768,15 @@ chime:ListVoiceConnectors
 chime:ListVoiceConnectorTerminationCredentials
 chime:LogoutUser
 chime:PutEventsConfiguration
+chime:PutRetentionSettings
 chime:PutVoiceConnectorLoggingConfiguration
 chime:PutVoiceConnectorOrigination
 chime:PutVoiceConnectorProxy
 chime:PutVoiceConnectorStreamingConfiguration
 chime:PutVoiceConnectorTermination
 chime:PutVoiceConnectorTerminationCredentials
+chime:RedactConversationMessage
+chime:RedactRoomMessage
 chime:RegenerateSecurityToken
 chime:RenameAccount
 chime:RenewDelegate
