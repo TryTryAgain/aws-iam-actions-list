@@ -7351,6 +7351,7 @@ workmail:DeleteMobileDevice
 workmail:DeleteOrganization
 workmail:DeleteOutboundMailFlowRule
 workmail:DeleteResource
+workmail:DeleteRetentionPolicy
 workmail:DeleteSmtpGateway
 workmail:DeleteUser
 workmail:DeregisterFromWorkMail
@@ -7375,6 +7376,7 @@ workmail:EnableMailDomain
 workmail:EnableMailGroups
 workmail:EnableMailUsers
 workmail:GetAccessControlEffect
+workmail:GetDefaultRetentionPolicy
 workmail:GetJournalingRules
 workmail:GetMailboxDetails
 workmail:GetMailDomainDetails
@@ -7400,6 +7402,7 @@ workmail:ListUsers
 workmailmessageflow:GetRawMessageContent
 workmail:PutAccessControlRule
 workmail:PutMailboxPermissions
+workmail:PutRetentionPolicy
 workmail:RegisterToWorkMail
 workmail:RemoveMembersFromGroup
 workmail:ResetPassword
