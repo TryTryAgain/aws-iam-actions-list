@@ -7322,11 +7322,14 @@ worklink:DisassociateWebsiteCertificateAuthority
 worklink:ListDevices
 worklink:ListDomains
 worklink:ListFleets
+worklink:ListTagsForResource
 worklink:ListWebsiteAuthorizationProviders
 worklink:ListWebsiteCertificateAuthorities
 worklink:RestoreDomainAccess
 worklink:RevokeDomainAccess
 worklink:SignOutUser
+worklink:TagResource
+worklink:UntagResource
 worklink:UpdateAuditStreamConfiguration
 worklink:UpdateCompanyNetworkConfiguration
 worklink:UpdateDevicePolicyConfiguration
