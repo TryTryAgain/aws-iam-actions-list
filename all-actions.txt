@@ -5707,6 +5707,9 @@ rekognition:StartStreamProcessor
 rekognition:StartTextDetection
 rekognition:StopProjectVersion
 rekognition:StopStreamProcessor
+resource-explorer:ListResources
+resource-explorer:ListResourceTypes
+resource-explorer:ListTags
 resource-groups:CreateGroup
 resource-groups:DeleteGroup
 resource-groups:GetGroup
