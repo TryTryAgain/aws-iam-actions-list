@@ -1300,11 +1300,17 @@ codeguru-profiler:RemovePermission
 codeguru-profiler:UpdateProfilingGroup
 codeguru-reviewer:AssociateRepository
 codeguru-reviewer:CreateConnectionToken
+codeguru-reviewer:DescribeCodeReview
+codeguru-reviewer:DescribeRecommendationFeedback
 codeguru-reviewer:DescribeRepositoryAssociation
 codeguru-reviewer:DisassociateRepository
 codeguru-reviewer:GetMetricsData
+codeguru-reviewer:ListCodeReviews
+codeguru-reviewer:ListRecommendationFeedback
+codeguru-reviewer:ListRecommendations
 codeguru-reviewer:ListRepositoryAssociations
 codeguru-reviewer:ListThirdPartyRepositories
+codeguru-reviewer:PutRecommendationFeedback
 codepipeline:AcknowledgeJob
 codepipeline:AcknowledgeThirdPartyJob
 codepipeline:CreateCustomActionType
