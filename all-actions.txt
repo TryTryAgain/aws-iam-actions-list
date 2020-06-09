@@ -6908,6 +6908,7 @@ sts:DecodeAuthorizationMessage
 sts:GetAccessKeyInfo
 sts:GetCallerIdentity
 sts:GetFederationToken
+sts:GetServiceBearerToken
 sts:GetSessionToken
 sts:TagSession
 sumerian:Login
