@@ -1589,6 +1589,9 @@ comprehend:StopTrainingEntityRecognizer
 comprehend:TagResource
 comprehend:UntagResource
 comprehend:UpdateEndpoint
+compute-optimizer:DescribeRecommendationExportJobs
+compute-optimizer:ExportAutoScalingGroupRecommendations
+compute-optimizer:ExportEC2InstanceRecommendations
 compute-optimizer:GetAutoScalingGroupRecommendations
 compute-optimizer:GetEC2InstanceRecommendations
 compute-optimizer:GetEC2RecommendationProjectedMetrics
@@ -6325,7 +6328,10 @@ servicediscovery:ListInstances
 servicediscovery:ListNamespaces
 servicediscovery:ListOperations
 servicediscovery:ListServices
+servicediscovery:ListTagsForResource
 servicediscovery:RegisterInstance
+servicediscovery:TagResource
+servicediscovery:UntagResource
 servicediscovery:UpdateInstanceCustomHealthStatus
 servicediscovery:UpdateService
 servicequotas:AssociateServiceQuotaTemplate
