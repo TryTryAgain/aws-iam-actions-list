@@ -4058,6 +4058,7 @@ iot:ListJobExecutionsForJob
 iot:ListJobExecutionsForThing
 iot:ListJobs
 iot:ListMitigationActions
+iot:ListNamedShadowsForThing
 iot:ListOTAUpdates
 iot:ListOutgoingCertificates
 iot:ListPolicies
