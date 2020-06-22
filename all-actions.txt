@@ -5733,6 +5733,7 @@ rekognition:GetFaceDetection
 rekognition:GetFaceSearch
 rekognition:GetLabelDetection
 rekognition:GetPersonTracking
+rekognition:GetSegmentDetection
 rekognition:GetTextDetection
 rekognition:IndexFaces
 rekognition:ListCollections
@@ -5748,6 +5749,7 @@ rekognition:StartFaceSearch
 rekognition:StartLabelDetection
 rekognition:StartPersonTracking
 rekognition:StartProjectVersion
+rekognition:StartSegmentDetection
 rekognition:StartStreamProcessor
 rekognition:StartTextDetection
 rekognition:StopProjectVersion
