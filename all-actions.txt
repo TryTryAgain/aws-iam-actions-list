@@ -427,6 +427,7 @@ autoscaling:AttachLoadBalancers
 autoscaling:AttachLoadBalancerTargetGroups
 autoscaling:BatchDeleteScheduledAction
 autoscaling:BatchPutScheduledUpdateGroupAction
+autoscaling:CancelInstanceRefresh
 autoscaling:CompleteLifecycleAction
 autoscaling:CreateAutoScalingGroup
 autoscaling:CreateLaunchConfiguration
@@ -443,6 +444,7 @@ autoscaling:DescribeAdjustmentTypes
 autoscaling:DescribeAutoScalingGroups
 autoscaling:DescribeAutoScalingInstances
 autoscaling:DescribeAutoScalingNotificationTypes
+autoscaling:DescribeInstanceRefreshes
 autoscaling:DescribeLaunchConfigurations
 autoscaling:DescribeLifecycleHooks
 autoscaling:DescribeLifecycleHookTypes
@@ -479,6 +481,7 @@ autoscaling:ResumeProcesses
 autoscaling:SetDesiredCapacity
 autoscaling:SetInstanceHealth
 autoscaling:SetInstanceProtection
+autoscaling:StartInstanceRefresh
 autoscaling:SuspendProcesses
 autoscaling:TerminateInstanceInAutoScalingGroup
 autoscaling:UpdateAutoScalingGroup
@@ -1211,6 +1214,7 @@ codecommit:GetApprovalRuleTemplate
 codecommit:GetBlob
 codecommit:GetBranch
 codecommit:GetComment
+codecommit:GetCommentReactions
 codecommit:GetCommentsForComparedCommit
 codecommit:GetCommentsForPullRequest
 codecommit:GetCommit
@@ -1250,6 +1254,7 @@ codecommit:OverridePullRequestApprovalRules
 codecommit:PostCommentForComparedCommit
 codecommit:PostCommentForPullRequest
 codecommit:PostCommentReply
+codecommit:PutCommentReaction
 codecommit:PutFile
 codecommit:PutRepositoryTriggers
 codecommit:TagResource
@@ -3625,6 +3630,11 @@ health:DescribeEventTypes
 health:DescribeHealthServiceStatusForOrganization
 health:DisableHealthServiceAccessForOrganization
 health:EnableHealthServiceAccessForOrganization
+honeycode:ApproveTeamAssociation
+honeycode:GetScreenData
+honeycode:InvokeScreenAutomation
+honeycode:ListTeamAssociations
+honeycode:RejectTeamAssociation
 iam:AddClientIDToOpenIDConnectProvider
 iam:AddRoleToInstanceProfile
 iam:AddUserToGroup
