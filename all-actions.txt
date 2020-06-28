@@ -1326,12 +1326,14 @@ codedeploy:UntagResource
 codedeploy:UpdateApplication
 codedeploy:UpdateDeploymentGroup
 codeguru:GetCodeGuruFreeTrialSummary
+codeguru-profiler:AddNotificationChannels
+codeguru-profiler:BatchGetFrameMetricData
 codeguru-profiler:ConfigureAgent
 codeguru-profiler:CreateProfilingGroup
 codeguru-profiler:DeleteProfilingGroup
 codeguru-profiler:DescribeProfilingGroup
-codeguru-profiler:GetFindingsReport
 codeguru-profiler:GetFindingsReportAccountSummary
+codeguru-profiler:GetNotificationConfiguration
 codeguru-profiler:GetPolicy
 codeguru-profiler:GetProfile
 codeguru-profiler:GetRecommendations
@@ -1340,7 +1342,9 @@ codeguru-profiler:ListProfileTimes
 codeguru-profiler:ListProfilingGroups
 codeguru-profiler:PostAgentProfile
 codeguru-profiler:PutPermission
+codeguru-profiler:RemoveNotificationChannel
 codeguru-profiler:RemovePermission
+codeguru-profiler:SubmitFeedback
 codeguru-profiler:UpdateProfilingGroup
 codeguru-reviewer:AssociateRepository
 codeguru-reviewer:CreateConnectionToken
