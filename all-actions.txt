@@ -1700,8 +1700,6 @@ config:GetDiscoveredResourceCounts
 config:GetOrganizationConfigRuleDetailedStatus
 config:GetOrganizationConformancePackDetailedStatus
 config:GetResourceConfigHistory
-config:GetResources
-config:GetTagKeys
 config:ListAggregateDiscoveredResources
 config:ListDiscoveredResources
 config:ListTagsForResource
