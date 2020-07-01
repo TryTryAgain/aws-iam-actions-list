@@ -704,6 +704,7 @@ chime:DeleteProxySession
 chime:DeleteRoom
 chime:DeleteRoomMembership
 chime:DeleteVoiceConnector
+chime:DeleteVoiceConnectorEmergencyCallingConfiguration
 chime:DeleteVoiceConnectorGroup
 chime:DeleteVoiceConnectorOrigination
 chime:DeleteVoiceConnectorProxy
@@ -739,6 +740,7 @@ chime:GetUserActivityReportData
 chime:GetUserByEmail
 chime:GetUserSettings
 chime:GetVoiceConnector
+chime:GetVoiceConnectorEmergencyCallingConfiguration
 chime:GetVoiceConnectorGroup
 chime:GetVoiceConnectorLoggingConfiguration
 chime:GetVoiceConnectorOrigination
@@ -778,6 +780,7 @@ chime:ListVoiceConnectorTerminationCredentials
 chime:LogoutUser
 chime:PutEventsConfiguration
 chime:PutRetentionSettings
+chime:PutVoiceConnectorEmergencyCallingConfiguration
 chime:PutVoiceConnectorLoggingConfiguration
 chime:PutVoiceConnectorOrigination
 chime:PutVoiceConnectorProxy
@@ -5936,6 +5939,7 @@ s3:DeleteAccessPointPolicy
 s3:DeleteBucket
 s3:DeleteBucketPolicy
 s3:DeleteBucketWebsite
+s3:DeleteJobTagging
 s3:DeleteObject
 s3:DeleteObjectTagging
 s3:DeleteObjectVersion
@@ -5962,6 +5966,7 @@ s3:GetBucketVersioning
 s3:GetBucketWebsite
 s3:GetEncryptionConfiguration
 s3:GetInventoryConfiguration
+s3:GetJobTagging
 s3:GetLifecycleConfiguration
 s3:GetMetricsConfiguration
 s3:GetObject
@@ -6002,6 +6007,7 @@ s3:PutBucketVersioning
 s3:PutBucketWebsite
 s3:PutEncryptionConfiguration
 s3:PutInventoryConfiguration
+s3:PutJobTagging
 s3:PutLifecycleConfiguration
 s3:PutMetricsConfiguration
 s3:PutObject
