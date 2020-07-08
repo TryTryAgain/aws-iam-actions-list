@@ -3158,7 +3158,10 @@ forecast:ListDatasets
 forecast:ListForecastExportJobs
 forecast:ListForecasts
 forecast:ListPredictors
+forecast:ListTagsForResource
 forecast:QueryForecast
+forecast:TagResource
+forecast:UntagResource
 forecast:UpdateDatasetGroup
 frauddetector:BatchCreateVariable
 frauddetector:BatchGetVariable
@@ -5442,6 +5445,8 @@ quicksight:CreateIAMPolicyAssignment
 quicksight:CreateReader
 quicksight:CreateTemplate
 quicksight:CreateTemplateAlias
+quicksight:CreateTheme
+quicksight:CreateThemeAlias
 quicksight:CreateUser
 quicksight:DeleteDashboard
 quicksight:DeleteGroup
@@ -5449,6 +5454,8 @@ quicksight:DeleteGroupMembership
 quicksight:DeleteIAMPolicyAssignment
 quicksight:DeleteTemplate
 quicksight:DeleteTemplateAlias
+quicksight:DeleteTheme
+quicksight:DeleteThemeAlias
 quicksight:DeleteUser
 quicksight:DeleteUserByPrincipalId
 quicksight:DescribeDashboard
@@ -5458,6 +5465,9 @@ quicksight:DescribeIAMPolicyAssignment
 quicksight:DescribeTemplate
 quicksight:DescribeTemplateAlias
 quicksight:DescribeTemplatePermissions
+quicksight:DescribeTheme
+quicksight:DescribeThemeAlias
+quicksight:DescribeThemePermissions
 quicksight:DescribeUser
 quicksight:GetAuthCode
 quicksight:GetDashboardEmbedUrl
@@ -5472,6 +5482,9 @@ quicksight:ListTagsForResource
 quicksight:ListTemplateAliases
 quicksight:ListTemplates
 quicksight:ListTemplateVersions
+quicksight:ListThemeAliases
+quicksight:ListThemes
+quicksight:ListThemeVersions
 quicksight:ListUserGroups
 quicksight:ListUsers
 quicksight:RegisterUser
@@ -5489,6 +5502,9 @@ quicksight:UpdateIAMPolicyAssignment
 quicksight:UpdateTemplate
 quicksight:UpdateTemplateAlias
 quicksight:UpdateTemplatePermissions
+quicksight:UpdateTheme
+quicksight:UpdateThemeAlias
+quicksight:UpdateThemePermissions
 quicksight:UpdateUser
 ram:AcceptResourceShareInvitation
 ram:AssociateResourceShare
