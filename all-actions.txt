@@ -2853,6 +2853,7 @@ elasticache:TestFailover
 elasticbeanstalk:AbortEnvironmentUpdate
 elasticbeanstalk:AddTags
 elasticbeanstalk:ApplyEnvironmentManagedAction
+elasticbeanstalk:AssociateEnvironmentOperationsRole
 elasticbeanstalk:CheckDNSAvailability
 elasticbeanstalk:ComposeEnvironments
 elasticbeanstalk:CreateApplication
@@ -2879,6 +2880,7 @@ elasticbeanstalk:DescribeEnvironments
 elasticbeanstalk:DescribeEvents
 elasticbeanstalk:DescribeInstancesHealth
 elasticbeanstalk:DescribePlatformVersion
+elasticbeanstalk:DisassociateEnvironmentOperationsRole
 elasticbeanstalk:ListAvailableSolutionStacks
 elasticbeanstalk:ListPlatformBranches
 elasticbeanstalk:ListPlatformVersions
