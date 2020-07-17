@@ -1771,9 +1771,13 @@ connect:ListTagsForResource
 connect:ListUserHierarchyGroups
 connect:ListUsers
 connect:ModifyInstance
+connect:ResumeContactRecording
 connect:StartChatContact
+connect:StartContactRecording
 connect:StartOutboundVoiceContact
 connect:StopContact
+connect:StopContactRecording
+connect:SuspendContactRecording
 connect:TagResource
 connect:UntagResource
 connect:UpdateContactAttributes
