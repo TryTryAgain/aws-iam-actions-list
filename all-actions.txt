@@ -589,6 +589,7 @@ backup:DescribeBackupVault
 backup:DescribeCopyJob
 backup:DescribeProtectedResource
 backup:DescribeRecoveryPoint
+backup:DescribeRegionSettings
 backup:DescribeRestoreJob
 backup:ExportBackupPlanTemplate
 backup:GetBackupPlan
@@ -622,6 +623,7 @@ backup:TagResource
 backup:UntagResource
 backup:UpdateBackupPlan
 backup:UpdateRecoveryPointLifecycle
+backup:UpdateRegionSettings
 batch:CancelJob
 batch:CreateComputeEnvironment
 batch:CreateJobQueue
@@ -2745,16 +2747,19 @@ ecr:StartLifecyclePolicyPreview
 ecr:TagResource
 ecr:UntagResource
 ecr:UploadLayerPart
+ecs:CreateCapacityProvider
 ecs:CreateCluster
 ecs:CreateService
 ecs:CreateTaskSet
 ecs:DeleteAccountSetting
 ecs:DeleteAttributes
+ecs:DeleteCapacityProvider
 ecs:DeleteCluster
 ecs:DeleteService
 ecs:DeleteTaskSet
 ecs:DeregisterContainerInstance
 ecs:DeregisterTaskDefinition
+ecs:DescribeCapacityProviders
 ecs:DescribeClusters
 ecs:DescribeContainerInstances
 ecs:DescribeServices
@@ -2775,6 +2780,7 @@ ecs:Poll
 ecs:PutAccountSetting
 ecs:PutAccountSettingDefault
 ecs:PutAttributes
+ecs:PutClusterCapacityProviders
 ecs:RegisterContainerInstance
 ecs:RegisterTaskDefinition
 ecs:RunTask
@@ -2786,6 +2792,7 @@ ecs:SubmitContainerStateChange
 ecs:SubmitTaskStateChange
 ecs:TagResource
 ecs:UntagResource
+ecs:UpdateClusterSettings
 ecs:UpdateContainerAgent
 ecs:UpdateContainerInstancesState
 ecs:UpdateService
@@ -3040,6 +3047,13 @@ elastictranscoder:TestRole
 elastictranscoder:UpdatePipeline
 elastictranscoder:UpdatePipelineNotifications
 elastictranscoder:UpdatePipelineStatus
+elemental-appliances-software:CreateQuote
+elemental-appliances-software:GetQuote
+elemental-appliances-software:ListQuotes
+elemental-appliances-software:ListTagsForResource
+elemental-appliances-software:TagResource
+elemental-appliances-software:UntagResource
+elemental-appliances-software:UpdateQuote
 es:AcceptInboundCrossClusterSearchConnection
 es:AddTags
 es:CreateElasticsearchDomain
@@ -3832,6 +3846,10 @@ iam:UpdateUser
 iam:UploadServerCertificate
 iam:UploadSigningCertificate
 iam:UploadSSHPublicKey
+identitystore:DescribeGroup
+identitystore:DescribeUser
+identitystore:ListGroups
+identitystore:ListUsers
 imagebuilder:CancelImageCreation
 imagebuilder:CreateComponent
 imagebuilder:CreateDistributionConfiguration
