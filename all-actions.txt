@@ -1366,11 +1366,14 @@ codeguru-profiler:GetRecommendations
 codeguru-profiler:ListFindingsReports
 codeguru-profiler:ListProfileTimes
 codeguru-profiler:ListProfilingGroups
+codeguru-profiler:ListTagsForResource
 codeguru-profiler:PostAgentProfile
 codeguru-profiler:PutPermission
 codeguru-profiler:RemoveNotificationChannel
 codeguru-profiler:RemovePermission
 codeguru-profiler:SubmitFeedback
+codeguru-profiler:TagResource
+codeguru-profiler:UntagResource
 codeguru-profiler:UpdateProfilingGroup
 codeguru-reviewer:AssociateRepository
 codeguru-reviewer:CreateConnectionToken
@@ -3846,10 +3849,6 @@ iam:UpdateUser
 iam:UploadServerCertificate
 iam:UploadSigningCertificate
 iam:UploadSSHPublicKey
-identitystore:DescribeGroup
-identitystore:DescribeUser
-identitystore:ListGroups
-identitystore:ListUsers
 imagebuilder:CancelImageCreation
 imagebuilder:CreateComponent
 imagebuilder:CreateDistributionConfiguration
