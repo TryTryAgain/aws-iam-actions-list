@@ -2926,6 +2926,7 @@ elasticfilesystem:DeleteFileSystemPolicy
 elasticfilesystem:DeleteMountTarget
 elasticfilesystem:DeleteTags
 elasticfilesystem:DescribeAccessPoints
+elasticfilesystem:DescribeBackupPolicy
 elasticfilesystem:DescribeFileSystemPolicy
 elasticfilesystem:DescribeFileSystems
 elasticfilesystem:DescribeLifecycleConfiguration
@@ -2934,6 +2935,7 @@ elasticfilesystem:DescribeMountTargetSecurityGroups
 elasticfilesystem:DescribeTags
 elasticfilesystem:ListTagsForResource
 elasticfilesystem:ModifyMountTargetSecurityGroups
+elasticfilesystem:PutBackupPolicy
 elasticfilesystem:PutFileSystemPolicy
 elasticfilesystem:PutLifecycleConfiguration
 elasticfilesystem:Restore
