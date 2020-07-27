@@ -3213,7 +3213,6 @@ frauddetector:GetLabels
 frauddetector:GetModels
 frauddetector:GetModelVersion
 frauddetector:GetOutcomes
-frauddetector:GetPrediction
 frauddetector:GetRules
 frauddetector:GetVariables
 frauddetector:ListTagsForResource
@@ -6158,6 +6157,7 @@ sagemaker:CreateTransformJob
 sagemaker:CreateTrial
 sagemaker:CreateTrialComponent
 sagemaker:CreateUserProfile
+sagemaker:CreateWorkforce
 sagemaker:CreateWorkteam
 sagemaker:DeleteAlgorithm
 sagemaker:DeleteApp
@@ -6177,6 +6177,7 @@ sagemaker:DeleteTags
 sagemaker:DeleteTrial
 sagemaker:DeleteTrialComponent
 sagemaker:DeleteUserProfile
+sagemaker:DeleteWorkforce
 sagemaker:DeleteWorkteam
 sagemaker:DescribeAlgorithm
 sagemaker:DescribeApp
@@ -6240,6 +6241,7 @@ sagemaker:ListTransformJobs
 sagemaker:ListTrialComponents
 sagemaker:ListTrials
 sagemaker:ListUserProfiles
+sagemaker:ListWorkforces
 sagemaker:ListWorkteams
 sagemaker:RenderUiTemplate
 sagemaker:Search
