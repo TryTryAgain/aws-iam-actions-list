@@ -6395,6 +6395,7 @@ securityhub:UntagResource
 securityhub:UpdateActionTarget
 securityhub:UpdateFindings
 securityhub:UpdateInsight
+securityhub:UpdateSecurityHubConfiguration
 securityhub:UpdateStandardsControl
 serverlessrepo:CreateApplication
 serverlessrepo:CreateApplicationVersion
