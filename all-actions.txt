@@ -6354,6 +6354,7 @@ secretsmanager:TagResource
 secretsmanager:UntagResource
 secretsmanager:UpdateSecret
 secretsmanager:UpdateSecretVersionStage
+secretsmanager:ValidateResourcePolicy
 securityhub:AcceptInvitation
 securityhub:BatchDisableStandards
 securityhub:BatchEnableStandards
@@ -6688,6 +6689,7 @@ sms:GetMessages
 sms:GetReplicationJobs
 sms:GetReplicationRuns
 sms:GetServers
+sms:ImportAppCatalog
 sms:ImportServerCatalog
 sms:LaunchApp
 sms:ListApps
@@ -7446,6 +7448,7 @@ wafv2:DeleteRegexPatternSet
 wafv2:DeleteRuleGroup
 wafv2:DeleteWebACL
 wafv2:DescribeManagedRuleGroup
+wafv2:DisassociateFirewallManager
 wafv2:DisassociateWebACL
 wafv2:GetIPSet
 wafv2:GetLoggingConfiguration
@@ -7464,6 +7467,7 @@ wafv2:ListResourcesForWebACL
 wafv2:ListRuleGroups
 wafv2:ListTagsForResource
 wafv2:ListWebACLs
+wafv2:PutFirewallManagerRuleGroups
 wafv2:PutLoggingConfiguration
 wafv2:PutPermissionPolicy
 wafv2:TagResource
