@@ -3025,6 +3025,7 @@ elasticmapreduce:DescribeJobFlows
 elasticmapreduce:DescribeSecurityConfiguration
 elasticmapreduce:DescribeStep
 elasticmapreduce:GetBlockPublicAccessConfiguration
+elasticmapreduce:GetManagedScalingPolicy
 elasticmapreduce:ListBootstrapActions
 elasticmapreduce:ListClusters
 elasticmapreduce:ListEditors
@@ -3039,7 +3040,9 @@ elasticmapreduce:ModifyInstanceGroups
 elasticmapreduce:OpenEditorInConsole
 elasticmapreduce:PutAutoScalingPolicy
 elasticmapreduce:PutBlockPublicAccessConfiguration
+elasticmapreduce:PutManagedScalingPolicy
 elasticmapreduce:RemoveAutoScalingPolicy
+elasticmapreduce:RemoveManagedScalingPolicy
 elasticmapreduce:RemoveTags
 elasticmapreduce:RunJobFlow
 elasticmapreduce:SetTerminationProtection
