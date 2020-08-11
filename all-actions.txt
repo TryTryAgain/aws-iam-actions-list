@@ -2387,6 +2387,7 @@ ec2:CreateLaunchTemplate
 ec2:CreateLaunchTemplateVersion
 ec2:CreateLocalGatewayRoute
 ec2:CreateLocalGatewayRouteTableVpcAssociation
+ec2:CreateManagedPrefixList
 ec2:CreateNatGateway
 ec2:CreateNetworkAcl
 ec2:CreateNetworkAclEntry
@@ -2435,6 +2436,7 @@ ec2:DeleteLaunchTemplate
 ec2:DeleteLaunchTemplateVersions
 ec2:DeleteLocalGatewayRoute
 ec2:DeleteLocalGatewayRouteTableVpcAssociation
+ec2:DeleteManagedPrefixList
 ec2:DeleteNatGateway
 ec2:DeleteNetworkAcl
 ec2:DeleteNetworkAclEntry
@@ -2527,6 +2529,7 @@ ec2:DescribeLocalGatewayRouteTableVpcAssociations
 ec2:DescribeLocalGateways
 ec2:DescribeLocalGatewayVirtualInterfaceGroups
 ec2:DescribeLocalGatewayVirtualInterfaces
+ec2:DescribeManagedPrefixLists
 ec2:DescribeMovingAddresses
 ec2:DescribeNatGateways
 ec2:DescribeNetworkAcls
@@ -2623,6 +2626,8 @@ ec2:GetEbsDefaultKmsKeyId
 ec2:GetEbsEncryptionByDefault
 ec2:GetHostReservationPurchasePreview
 ec2:GetLaunchTemplateData
+ec2:GetManagedPrefixListAssociations
+ec2:GetManagedPrefixListEntries
 ec2:GetPasswordData
 ec2:GetReservedInstancesExchangeQuote
 ec2:GetTransitGatewayAttachmentPropagations
@@ -2659,6 +2664,7 @@ ec2:ModifyInstanceEventStartTime
 ec2:ModifyInstanceMetadataOptions
 ec2:ModifyInstancePlacement
 ec2:ModifyLaunchTemplate
+ec2:ModifyManagedPrefixList
 ec2:ModifyNetworkInterfaceAttribute
 ec2:ModifyReservedInstances
 ec2:ModifySnapshotAttribute
@@ -2713,6 +2719,7 @@ ec2:ResetInstanceAttribute
 ec2:ResetNetworkInterfaceAttribute
 ec2:ResetSnapshotAttribute
 ec2:RestoreAddressToClassic
+ec2:RestoreManagedPrefixListVersion
 ec2:RevokeClientVpnIngress
 ec2:RevokeSecurityGroupEgress
 ec2:RevokeSecurityGroupIngress
@@ -3067,6 +3074,12 @@ elastictranscoder:TestRole
 elastictranscoder:UpdatePipeline
 elastictranscoder:UpdatePipelineNotifications
 elastictranscoder:UpdatePipelineStatus
+elemental-activations:DownloadSoftware
+elemental-activations:GenerateLicenses
+elemental-activations:GetActivation
+elemental-activations:ListTagsForResource
+elemental-activations:TagResource
+elemental-activations:UntagResource
 elemental-appliances-software:CreateQuote
 elemental-appliances-software:GetQuote
 elemental-appliances-software:ListQuotes
