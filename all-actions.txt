@@ -640,6 +640,12 @@ batch:SubmitJob
 batch:TerminateJob
 batch:UpdateComputeEnvironment
 batch:UpdateJobQueue
+braket:CancelQuantumTask
+braket:CreateQuantumTask
+braket:GetDevice
+braket:GetQuantumTask
+braket:SearchDevices
+braket:SearchQuantumTasks
 budgets:ModifyBudget
 budgets:ViewBudget
 cassandra:Alter
