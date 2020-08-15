@@ -3606,6 +3606,7 @@ greengrass:DeleteResourceDefinition
 greengrass:DeleteSubscriptionDefinition
 greengrass:DisassociateRoleFromGroup
 greengrass:DisassociateServiceRoleFromAccount
+greengrass:Discover
 greengrass:GetAssociatedRole
 greengrass:GetBulkDeploymentStatus
 greengrass:GetConnectivityInfo
