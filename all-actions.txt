@@ -3911,6 +3911,10 @@ iam:UpdateUser
 iam:UploadServerCertificate
 iam:UploadSigningCertificate
 iam:UploadSSHPublicKey
+identitystore:DescribeGroup
+identitystore:DescribeUser
+identitystore:ListGroups
+identitystore:ListUsers
 imagebuilder:CancelImageCreation
 imagebuilder:CreateComponent
 imagebuilder:CreateDistributionConfiguration
@@ -4380,11 +4384,15 @@ ivs:BatchGetStreamKey
 ivs:CreateChannel
 ivs:CreateStreamKey
 ivs:DeleteChannel
+ivs:DeletePlaybackKeyPair
 ivs:DeleteStreamKey
 ivs:GetChannel
+ivs:GetPlaybackKeyPair
 ivs:GetStream
 ivs:GetStreamKey
+ivs:ImportPlaybackKeyPair
 ivs:ListChannels
+ivs:ListPlaybackKeyPairs
 ivs:ListStreamKeys
 ivs:ListStreams
 ivs:ListTagsForResource
