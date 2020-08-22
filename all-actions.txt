@@ -5055,6 +5055,7 @@ medialive:DeleteTags
 medialive:DescribeChannel
 medialive:DescribeInput
 medialive:DescribeInputDevice
+medialive:DescribeInputDeviceThumbnail
 medialive:DescribeInputSecurityGroup
 medialive:DescribeMultiplex
 medialive:DescribeOffering
