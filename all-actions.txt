@@ -4404,6 +4404,7 @@ ivs:UpdateChannel
 kafka:CreateCluster
 kafka:CreateConfiguration
 kafka:DeleteCluster
+kafka:DeleteConfiguration
 kafka:DescribeCluster
 kafka:DescribeClusterOperation
 kafka:DescribeConfiguration
@@ -4421,6 +4422,7 @@ kafka:UpdateBrokerCount
 kafka:UpdateBrokerStorage
 kafka:UpdateClusterConfiguration
 kafka:UpdateClusterKafkaVersion
+kafka:UpdateConfiguration
 kafka:UpdateMonitoring
 kendra:BatchDeleteDocument
 kendra:BatchPutDocument
