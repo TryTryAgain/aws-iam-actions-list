@@ -3323,9 +3323,11 @@ fsx:TagResource
 fsx:UntagResource
 fsx:UpdateFileSystem
 gamelift:AcceptMatch
+gamelift:ClaimGameServer
 gamelift:CreateAlias
 gamelift:CreateBuild
 gamelift:CreateFleet
+gamelift:CreateGameServerGroup
 gamelift:CreateGameSession
 gamelift:CreateGameSessionQueue
 gamelift:CreateMatchmakingConfiguration
@@ -3338,6 +3340,7 @@ gamelift:CreateVpcPeeringConnection
 gamelift:DeleteAlias
 gamelift:DeleteBuild
 gamelift:DeleteFleet
+gamelift:DeleteGameServerGroup
 gamelift:DeleteGameSessionQueue
 gamelift:DeleteMatchmakingConfiguration
 gamelift:DeleteMatchmakingRuleSet
@@ -3345,6 +3348,7 @@ gamelift:DeleteScalingPolicy
 gamelift:DeleteScript
 gamelift:DeleteVpcPeeringAuthorization
 gamelift:DeleteVpcPeeringConnection
+gamelift:DeregisterGameServer
 gamelift:DescribeAlias
 gamelift:DescribeBuild
 gamelift:DescribeEC2InstanceLimits
@@ -3353,6 +3357,9 @@ gamelift:DescribeFleetCapacity
 gamelift:DescribeFleetEvents
 gamelift:DescribeFleetPortSettings
 gamelift:DescribeFleetUtilization
+gamelift:DescribeGameServer
+gamelift:DescribeGameServerGroup
+gamelift:DescribeGameServerInstances
 gamelift:DescribeGameSessionDetails
 gamelift:DescribeGameSessionPlacement
 gamelift:DescribeGameSessionQueues
@@ -3372,11 +3379,15 @@ gamelift:GetInstanceAccess
 gamelift:ListAliases
 gamelift:ListBuilds
 gamelift:ListFleets
+gamelift:ListGameServerGroups
+gamelift:ListGameServers
 gamelift:ListScripts
 gamelift:ListTagsForResource
 gamelift:PutScalingPolicy
+gamelift:RegisterGameServer
 gamelift:RequestUploadCredentials
 gamelift:ResolveAlias
+gamelift:ResumeGameServerGroup
 gamelift:SearchGameSessions
 gamelift:StartFleetActions
 gamelift:StartGameSessionPlacement
@@ -3385,6 +3396,7 @@ gamelift:StartMatchmaking
 gamelift:StopFleetActions
 gamelift:StopGameSessionPlacement
 gamelift:StopMatchmaking
+gamelift:SuspendGameServerGroup
 gamelift:TagResource
 gamelift:UntagResource
 gamelift:UpdateAlias
@@ -3392,6 +3404,8 @@ gamelift:UpdateBuild
 gamelift:UpdateFleetAttributes
 gamelift:UpdateFleetCapacity
 gamelift:UpdateFleetPortSettings
+gamelift:UpdateGameServer
+gamelift:UpdateGameServerGroup
 gamelift:UpdateGameSession
 gamelift:UpdateGameSessionQueue
 gamelift:UpdateMatchmakingConfiguration
