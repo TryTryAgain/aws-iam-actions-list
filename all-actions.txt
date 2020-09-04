@@ -7790,6 +7790,10 @@ xray:DeleteSamplingRule
 xray:GetEncryptionConfig
 xray:GetGroup
 xray:GetGroups
+xray:GetInsight
+xray:GetInsightEvents
+xray:GetInsightImpactGraph
+xray:GetInsightSummaries
 xray:GetSamplingRules
 xray:GetSamplingStatisticSummaries
 xray:GetSamplingTargets
@@ -7797,8 +7801,11 @@ xray:GetServiceGraph
 xray:GetTimeSeriesServiceStatistics
 xray:GetTraceGraph
 xray:GetTraceSummaries
+xray:ListTagsForResource
 xray:PutEncryptionConfig
 xray:PutTelemetryRecords
 xray:PutTraceSegments
+xray:TagResource
+xray:UntagResource
 xray:UpdateGroup
 xray:UpdateSamplingRule
