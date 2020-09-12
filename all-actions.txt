@@ -4446,6 +4446,8 @@ ivs:StopStream
 ivs:TagResource
 ivs:UntagResource
 ivs:UpdateChannel
+kafka:BatchAssociateScramSecret
+kafka:BatchDisassociateScramSecret
 kafka:CreateCluster
 kafka:CreateConfiguration
 kafka:DeleteCluster
@@ -4460,6 +4462,7 @@ kafka:ListClusterOperations
 kafka:ListClusters
 kafka:ListConfigurations
 kafka:ListNodes
+kafka:ListScramSecrets
 kafka:ListTagsForResource
 kafka:TagResource
 kafka:UntagResource
