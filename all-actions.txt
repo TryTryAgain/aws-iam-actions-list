@@ -1904,6 +1904,7 @@ datasync:CreateAgent
 datasync:CreateLocationEfs
 datasync:CreateLocationFsxWindows
 datasync:CreateLocationNfs
+datasync:CreateLocationObjectStorage
 datasync:CreateLocationS3
 datasync:CreateLocationSmb
 datasync:CreateTask
@@ -1914,6 +1915,7 @@ datasync:DescribeAgent
 datasync:DescribeLocationEfs
 datasync:DescribeLocationFsxWindows
 datasync:DescribeLocationNfs
+datasync:DescribeLocationObjectStorage
 datasync:DescribeLocationS3
 datasync:DescribeLocationSmb
 datasync:DescribeTask
