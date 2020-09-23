@@ -667,9 +667,16 @@ cassandra:Restore
 cassandra:Select
 cassandra:TagResource
 cassandra:UntagResource
+ce:CreateAnomalyMonitor
+ce:CreateAnomalySubscription
 ce:CreateCostCategoryDefinition
+ce:DeleteAnomalyMonitor
+ce:DeleteAnomalySubscription
 ce:DeleteCostCategoryDefinition
 ce:DescribeCostCategoryDefinition
+ce:GetAnomalies
+ce:GetAnomalyMonitors
+ce:GetAnomalySubscriptions
 ce:GetCostAndUsage
 ce:GetCostAndUsageWithResources
 ce:GetCostForecast
@@ -685,6 +692,9 @@ ce:GetSavingsPlansUtilizationDetails
 ce:GetTags
 ce:GetUsageForecast
 ce:ListCostCategoryDefinitions
+ce:ProvideAnomalyFeedback
+ce:UpdateAnomalyMonitor
+ce:UpdateAnomalySubscription
 ce:UpdateCostCategoryDefinition
 chatbot:CreateChimeWebhookConfiguration
 chatbot:CreateSlackChannelConfiguration
@@ -1735,6 +1745,7 @@ config:DeleteOrganizationConformancePack
 config:DeletePendingAggregationRequest
 config:DeleteRemediationConfiguration
 config:DeleteRemediationExceptions
+config:DeleteResourceConfig
 config:DeleteRetentionConfiguration
 config:DeliverConfigSnapshot
 config:DescribeAggregateComplianceByConfigRules
@@ -1789,6 +1800,7 @@ config:PutOrganizationConfigRule
 config:PutOrganizationConformancePack
 config:PutRemediationConfigurations
 config:PutRemediationExceptions
+config:PutResourceConfig
 config:PutRetentionConfiguration
 config:SelectAggregateResourceConfig
 config:SelectResourceConfig
@@ -4134,10 +4146,12 @@ iot:CancelJobExecution
 iot:ClearDefaultAuthorizer
 iot:CloseTunnel
 iot:Connect
+iot:CreateAuditSuppression
 iot:CreateAuthorizer
 iot:CreateBillingGroup
 iot:CreateCertificateFromCsr
 iot:CreateDimension
+iot:CreateDomainConfiguration
 iot:CreateDynamicThingGroup
 iot:CreateJob
 iot:CreateKeysAndCertificate
@@ -4157,11 +4171,13 @@ iot:CreateThingGroup
 iot:CreateThingType
 iot:CreateTopicRule
 iot:DeleteAccountAuditConfiguration
+iot:DeleteAuditSuppression
 iot:DeleteAuthorizer
 iot:DeleteBillingGroup
 iot:DeleteCACertificate
 iot:DeleteCertificate
 iot:DeleteDimension
+iot:DeleteDomainConfiguration
 iot:DeleteDynamicThingGroup
 iot:DeleteJob
 iot:DeleteJobExecution
@@ -4184,7 +4200,9 @@ iot:DeleteTopicRule
 iot:DeleteV2LoggingLevel
 iot:DeprecateThingType
 iot:DescribeAccountAuditConfiguration
+iot:DescribeAuditFinding
 iot:DescribeAuditMitigationActionsTask
+iot:DescribeAuditSuppression
 iot:DescribeAuditTask
 iot:DescribeAuthorizer
 iot:DescribeBillingGroup
@@ -4192,6 +4210,7 @@ iot:DescribeCACertificate
 iot:DescribeCertificate
 iot:DescribeDefaultAuthorizer
 iot:DescribeDimension
+iot:DescribeDomainConfiguration
 iot:DescribeEndpoint
 iot:DescribeEventConfigurations
 iot:DescribeIndex
@@ -4261,6 +4280,7 @@ iot:ListAttachedPolicies
 iot:ListAuditFindings
 iot:ListAuditMitigationActionsExecutions
 iot:ListAuditMitigationActionsTasks
+iot:ListAuditSuppressions
 iot:ListAuditTasks
 iot:ListAuthorizers
 iot:ListBillingGroups
@@ -4268,6 +4288,7 @@ iot:ListCACertificates
 iot:ListCertificates
 iot:ListCertificatesByCA
 iot:ListDimensions
+iot:ListDomainConfigurations
 iot:ListIndices
 iot:ListJobExecutionsForJob
 iot:ListJobExecutionsForThing
@@ -4422,11 +4443,13 @@ iotthingsgraph:UploadEntityDefinitions
 iot:TransferCertificate
 iot:UntagResource
 iot:UpdateAccountAuditConfiguration
+iot:UpdateAuditSuppression
 iot:UpdateAuthorizer
 iot:UpdateBillingGroup
 iot:UpdateCACertificate
 iot:UpdateCertificate
 iot:UpdateDimension
+iot:UpdateDomainConfiguration
 iot:UpdateDynamicThingGroup
 iot:UpdateEventConfigurations
 iot:UpdateIndexingConfiguration
