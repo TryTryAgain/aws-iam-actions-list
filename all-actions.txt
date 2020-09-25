@@ -6455,6 +6455,7 @@ sagemaker:UpdateUserProfile
 sagemaker:UpdateWorkforce
 sagemaker:UpdateWorkteam
 savingsplans:CreateSavingsPlan
+savingsplans:DeleteQueuedSavingsPlan
 savingsplans:DescribeSavingsPlanRates
 savingsplans:DescribeSavingsPlans
 savingsplans:DescribeSavingsPlansOfferingRates
