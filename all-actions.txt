@@ -2388,9 +2388,12 @@ dynamodb:UpdateItem
 dynamodb:UpdateTable
 dynamodb:UpdateTableReplicaAutoScaling
 dynamodb:UpdateTimeToLive
+ebs:CompleteSnapshot
 ebs:GetSnapshotBlock
 ebs:ListChangedBlocks
 ebs:ListSnapshotBlocks
+ebs:PutSnapshotBlock
+ebs:StartSnapshot
 ec2:AcceptReservedInstancesExchangeQuote
 ec2:AcceptTransitGatewayPeeringAttachment
 ec2:AcceptTransitGatewayVpcAttachment
@@ -7009,6 +7012,7 @@ ssm:DescribePatchGroupState
 ssm:DescribePatchProperties
 ssm:DescribeSessions
 ssm:GetAutomationExecution
+ssm:GetCalendarState
 ssm:GetCommandInvocation
 ssm:GetConnectionStatus
 ssm:GetDefaultPatchBaseline
