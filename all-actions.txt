@@ -3816,6 +3816,7 @@ guardduty:ListDetectors
 guardduty:ListFilters
 guardduty:ListFindings
 guardduty:ListInvitations
+guardduty:ListIPSets
 guardduty:ListMembers
 guardduty:ListOrganizationAdminAccounts
 guardduty:ListPublishingDestinations
