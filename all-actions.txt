@@ -670,10 +670,16 @@ cassandra:UntagResource
 ce:CreateAnomalyMonitor
 ce:CreateAnomalySubscription
 ce:CreateCostCategoryDefinition
+ce:CreateNotificationSubscription
+ce:CreateReport
 ce:DeleteAnomalyMonitor
 ce:DeleteAnomalySubscription
 ce:DeleteCostCategoryDefinition
+ce:DeleteNotificationSubscription
+ce:DeleteReport
 ce:DescribeCostCategoryDefinition
+ce:DescribeNotificationSubscription
+ce:DescribeReport
 ce:GetAnomalies
 ce:GetAnomalyMonitors
 ce:GetAnomalySubscriptions
@@ -681,6 +687,7 @@ ce:GetCostAndUsage
 ce:GetCostAndUsageWithResources
 ce:GetCostForecast
 ce:GetDimensionValues
+ce:GetPreferences
 ce:GetReservationCoverage
 ce:GetReservationPurchaseRecommendation
 ce:GetReservationUtilization
@@ -696,6 +703,9 @@ ce:ProvideAnomalyFeedback
 ce:UpdateAnomalyMonitor
 ce:UpdateAnomalySubscription
 ce:UpdateCostCategoryDefinition
+ce:UpdateNotificationSubscription
+ce:UpdatePreferences
+ce:UpdateReport
 chatbot:CreateChimeWebhookConfiguration
 chatbot:CreateSlackChannelConfiguration
 chatbot:DeleteChimeWebhookConfiguration
