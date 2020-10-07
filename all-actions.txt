@@ -2939,6 +2939,8 @@ elasticache:CreateCacheSubnetGroup
 elasticache:CreateGlobalReplicationGroup
 elasticache:CreateReplicationGroup
 elasticache:CreateSnapshot
+elasticache:CreateUser
+elasticache:CreateUserGroup
 elasticache:DecreaseNodeGroupsInGlobalReplicationGroup
 elasticache:DecreaseReplicaCount
 elasticache:DeleteCacheCluster
@@ -2948,6 +2950,8 @@ elasticache:DeleteCacheSubnetGroup
 elasticache:DeleteGlobalReplicationGroup
 elasticache:DeleteReplicationGroup
 elasticache:DeleteSnapshot
+elasticache:DeleteUser
+elasticache:DeleteUserGroup
 elasticache:DescribeCacheClusters
 elasticache:DescribeCacheEngineVersions
 elasticache:DescribeCacheParameterGroups
@@ -2963,6 +2967,8 @@ elasticache:DescribeReservedCacheNodesOfferings
 elasticache:DescribeServiceUpdates
 elasticache:DescribeSnapshots
 elasticache:DescribeUpdateActions
+elasticache:DescribeUserGroups
+elasticache:DescribeUsers
 elasticache:DisassociateGlobalReplicationGroup
 elasticache:FailoverGlobalReplicationGroup
 elasticache:IncreaseNodeGroupsInGlobalReplicationGroup
@@ -2975,6 +2981,8 @@ elasticache:ModifyCacheSubnetGroup
 elasticache:ModifyGlobalReplicationGroup
 elasticache:ModifyReplicationGroup
 elasticache:ModifyReplicationGroupShardConfiguration
+elasticache:ModifyUser
+elasticache:ModifyUserGroup
 elasticache:PurchaseReservedCacheNodesOffering
 elasticache:RebalanceSlotsInGlobalReplicationGroup
 elasticache:RebootCacheCluster
