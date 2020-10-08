@@ -646,9 +646,12 @@ batch:DescribeJobDefinitions
 batch:DescribeJobQueues
 batch:DescribeJobs
 batch:ListJobs
+batch:ListTagsForResource
 batch:RegisterJobDefinition
 batch:SubmitJob
+batch:TagResource
 batch:TerminateJob
+batch:UntagResource
 batch:UpdateComputeEnvironment
 batch:UpdateJobQueue
 braket:CancelQuantumTask
