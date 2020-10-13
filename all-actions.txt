@@ -414,6 +414,7 @@ appsync:ListResolvers
 appsync:ListResolversByFunction
 appsync:ListTagsForResource
 appsync:ListTypes
+appsync:SetWebACL
 appsync:StartSchemaCreation
 appsync:TagResource
 appsync:UntagResource
