@@ -6078,6 +6078,7 @@ rekognition:DetectCustomLabels
 rekognition:DetectFaces
 rekognition:DetectLabels
 rekognition:DetectModerationLabels
+rekognition:DetectProtectiveEquipment
 rekognition:DetectText
 rekognition:GetCelebrityInfo
 rekognition:GetCelebrityRecognition
