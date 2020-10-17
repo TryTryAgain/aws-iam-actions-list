@@ -5182,11 +5182,13 @@ medialive:CreateChannel
 medialive:CreateInput
 medialive:CreateInputSecurityGroup
 medialive:CreateMultiplex
+medialive:CreateMultiplexProgram
 medialive:CreateTags
 medialive:DeleteChannel
 medialive:DeleteInput
 medialive:DeleteInputSecurityGroup
 medialive:DeleteMultiplex
+medialive:DeleteMultiplexProgram
 medialive:DeleteReservation
 medialive:DeleteTags
 medialive:DescribeChannel
@@ -5195,6 +5197,7 @@ medialive:DescribeInputDevice
 medialive:DescribeInputDeviceThumbnail
 medialive:DescribeInputSecurityGroup
 medialive:DescribeMultiplex
+medialive:DescribeMultiplexProgram
 medialive:DescribeOffering
 medialive:DescribeReservation
 medialive:DescribeSchedule
@@ -5203,6 +5206,7 @@ medialive:ListInputDevices
 medialive:ListInputs
 medialive:ListInputSecurityGroups
 medialive:ListMultiplexes
+medialive:ListMultiplexPrograms
 medialive:ListOfferings
 medialive:ListReservations
 medialive:ListTagsForResource
@@ -5217,6 +5221,7 @@ medialive:UpdateInput
 medialive:UpdateInputDevice
 medialive:UpdateInputSecurityGroup
 medialive:UpdateMultiplex
+medialive:UpdateMultiplexProgram
 medialive:UpdateReservation
 mediapackage:CreateChannel
 mediapackage:CreateOriginEndpoint
