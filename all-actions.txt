@@ -7298,6 +7298,8 @@ sso:ProvisionPermissionSet
 sso:PutInlinePolicyToPermissionSet
 sso:PutMfaDeviceManagementForDirectory
 sso:PutPermissionsPolicy
+sso:SearchGroups
+sso:SearchUsers
 sso:StartSSO
 sso:TagResource
 sso:UntagResource
