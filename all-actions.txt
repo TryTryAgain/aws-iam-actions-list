@@ -5501,8 +5501,11 @@ opsworks-cm:DescribeEvents
 opsworks-cm:DescribeNodeAssociationStatus
 opsworks-cm:DescribeServers
 opsworks-cm:DisassociateNode
+opsworks-cm:ListTagsForResource
 opsworks-cm:RestoreServer
 opsworks-cm:StartMaintenance
+opsworks-cm:TagResource
+opsworks-cm:UntagResource
 opsworks-cm:UpdateServer
 opsworks-cm:UpdateServerEngineAttributes
 opsworks:CreateApp
@@ -5847,6 +5850,7 @@ rds:CreateDBSubnetGroup
 rds:CreateEventSubscription
 rds:CreateGlobalCluster
 rds:CreateOptionGroup
+rds:CrossRegionCommunication
 rds-data:BatchExecuteStatement
 rds-data:BeginTransaction
 rds-data:CommitTransaction
