@@ -1195,6 +1195,7 @@ cloudwatch:ListDashboards
 cloudwatch:ListMetrics
 cloudwatch:ListTagsForResource
 cloudwatch:PutAnomalyDetector
+cloudwatch:PutCompositeAlarm
 cloudwatch:PutDashboard
 cloudwatch:PutInsightRule
 cloudwatch:PutMetricAlarm
@@ -5819,6 +5820,8 @@ ram:ListPermissions
 ram:ListPrincipals
 ram:ListResources
 ram:ListResourceSharePermissions
+ram:ListResourceTypes
+ram:PromoteResourceShareCreatedFromPolicy
 ram:RejectResourceShareInvitation
 ram:TagResource
 ram:UntagResource
@@ -6254,6 +6257,7 @@ route53:ListGeoLocations
 route53:ListHealthChecks
 route53:ListHostedZones
 route53:ListHostedZonesByName
+route53:ListHostedZonesByVPC
 route53:ListQueryLoggingConfigs
 route53:ListResourceRecordSets
 route53:ListReusableDelegationSets
