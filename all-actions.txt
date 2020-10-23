@@ -4060,6 +4060,7 @@ imagebuilder:ListComponentBuildVersions
 imagebuilder:ListComponents
 imagebuilder:ListDistributionConfigurations
 imagebuilder:ListImageBuildVersions
+imagebuilder:ListImagePipelineImages
 imagebuilder:ListImagePipelines
 imagebuilder:ListImageRecipes
 imagebuilder:ListImages
@@ -7242,6 +7243,7 @@ sso-directory:CreateGroup
 sso-directory:CreateProvisioningTenant
 sso-directory:CreateUser
 sso-directory:DeleteBearerToken
+sso-directory:DeleteExternalIdPCertificate
 sso-directory:DeleteExternalIdPConfigurationForDirectory
 sso-directory:DeleteGroup
 sso-directory:DeleteMfaDeviceForUser
@@ -7249,13 +7251,17 @@ sso-directory:DeleteProvisioningTenant
 sso-directory:DeleteUser
 sso-directory:DescribeDirectory
 sso-directory:DescribeGroups
+sso-directory:DescribeUser
 sso-directory:DescribeUsers
 sso-directory:DisableExternalIdPConfigurationForDirectory
 sso-directory:DisableUser
 sso-directory:EnableExternalIdPConfigurationForDirectory
 sso-directory:EnableUser
 sso-directory:GetAWSSPConfigurationForDirectory
+sso-directory:ImportExternalIdPCertificate
+sso-directory:IsMemberInGroup
 sso-directory:ListBearerTokens
+sso-directory:ListExternalIdPCertificates
 sso-directory:ListExternalIdPConfigurationsForDirectory
 sso-directory:ListGroupsForUser
 sso-directory:ListMembersInGroup
@@ -7910,6 +7916,7 @@ worklink:UpdateIdentityProviderConfiguration
 workmail:AddMembersToGroup
 workmail:AssociateDelegateToResource
 workmail:AssociateMemberToGroup
+workmail:CancelMailboxExportJob
 workmail:CreateAlias
 workmail:CreateGroup
 workmail:CreateInboundMailFlowRule
@@ -7938,6 +7945,7 @@ workmail:DescribeDirectories
 workmail:DescribeGroup
 workmail:DescribeInboundMailFlowRule
 workmail:DescribeKmsKeys
+workmail:DescribeMailboxExportJob
 workmail:DescribeMailDomains
 workmail:DescribeMailGroups
 workmail:DescribeMailUsers
@@ -7969,6 +7977,7 @@ workmail:ListAliases
 workmail:ListGroupMembers
 workmail:ListGroups
 workmail:ListInboundMailFlowRules
+workmail:ListMailboxExportJobs
 workmail:ListMailboxPermissions
 workmail:ListMembersInMailGroup
 workmail:ListOrganizations
@@ -7993,6 +8002,7 @@ workmail:SetJournalingRules
 workmail:SetMailGroupDetails
 workmail:SetMailUserDetails
 workmail:SetMobilePolicyDetails
+workmail:StartMailboxExportJob
 workmail:TagResource
 workmail:TestInboundMailFlowRules
 workmail:TestOutboundMailFlowRules
