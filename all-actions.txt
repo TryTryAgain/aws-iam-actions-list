@@ -5679,6 +5679,8 @@ personalize:ListSchemas
 personalize:ListSolutions
 personalize:ListSolutionVersions
 personalize:PutEvents
+personalize:PutItems
+personalize:PutUsers
 personalize:UpdateCampaign
 pi:DescribeDimensionKeys
 pi:GetResourceMetrics
