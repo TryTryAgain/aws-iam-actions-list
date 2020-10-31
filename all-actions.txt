@@ -659,8 +659,11 @@ braket:CancelQuantumTask
 braket:CreateQuantumTask
 braket:GetDevice
 braket:GetQuantumTask
+braket:ListTagsForResource
 braket:SearchDevices
 braket:SearchQuantumTasks
+braket:TagResource
+braket:UntagResource
 budgets:CreateBudgetAction
 budgets:DeleteBudgetAction
 budgets:DescribeBudgetAction
@@ -5226,12 +5229,15 @@ medialive:UpdateMultiplex
 medialive:UpdateMultiplexProgram
 medialive:UpdateReservation
 mediapackage:CreateChannel
+mediapackage:CreateHarvestJob
 mediapackage:CreateOriginEndpoint
 mediapackage:DeleteChannel
 mediapackage:DeleteOriginEndpoint
 mediapackage:DescribeChannel
+mediapackage:DescribeHarvestJob
 mediapackage:DescribeOriginEndpoint
 mediapackage:ListChannels
+mediapackage:ListHarvestJobs
 mediapackage:ListOriginEndpoints
 mediapackage:ListTagsForResource
 mediapackage:RotateIngestEndpointCredentials
