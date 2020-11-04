@@ -7365,7 +7365,9 @@ storagegateway:AddCache
 storagegateway:AddTagsToResource
 storagegateway:AddUploadBuffer
 storagegateway:AddWorkingStorage
+storagegateway:AssignTapePool
 storagegateway:AttachVolume
+storagegateway:BypassGovernanceRetention
 storagegateway:CancelArchival
 storagegateway:CancelRetrieval
 storagegateway:CreateCachediSCSIVolume
@@ -7374,8 +7376,10 @@ storagegateway:CreateSMBFileShare
 storagegateway:CreateSnapshot
 storagegateway:CreateSnapshotFromVolumeRecoveryPoint
 storagegateway:CreateStorediSCSIVolume
+storagegateway:CreateTapePool
 storagegateway:CreateTapes
 storagegateway:CreateTapeWithBarcode
+storagegateway:DeleteAutomaticTapeCreationPolicy
 storagegateway:DeleteBandwidthRateLimit
 storagegateway:DeleteChapCredentials
 storagegateway:DeleteFileShare
@@ -7383,6 +7387,7 @@ storagegateway:DeleteGateway
 storagegateway:DeleteSnapshotSchedule
 storagegateway:DeleteTape
 storagegateway:DeleteTapeArchive
+storagegateway:DeleteTapePool
 storagegateway:DeleteVolume
 storagegateway:DescribeBandwidthRateLimit
 storagegateway:DescribeCache
@@ -7404,10 +7409,12 @@ storagegateway:DescribeWorkingStorage
 storagegateway:DetachVolume
 storagegateway:DisableGateway
 storagegateway:JoinDomain
+storagegateway:ListAutomaticTapeCreationPolicies
 storagegateway:ListFileShares
 storagegateway:ListGateways
 storagegateway:ListLocalDisks
 storagegateway:ListTagsForResource
+storagegateway:ListTapePools
 storagegateway:ListTapes
 storagegateway:ListVolumeInitiators
 storagegateway:ListVolumeRecoveryPoints
@@ -7422,6 +7429,7 @@ storagegateway:SetLocalConsolePassword
 storagegateway:SetSMBGuestPassword
 storagegateway:ShutdownGateway
 storagegateway:StartGateway
+storagegateway:UpdateAutomaticTapeCreationPolicy
 storagegateway:UpdateBandwidthRateLimit
 storagegateway:UpdateChapCredentials
 storagegateway:UpdateGatewayInformation
