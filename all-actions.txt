@@ -78,6 +78,7 @@ a4b:UpdateDevice
 a4b:UpdateProfile
 a4b:UpdateRoom
 a4b:UpdateSkillGroup
+access-analyzer:ApplyArchiveRule
 access-analyzer:CreateAnalyzer
 access-analyzer:CreateArchiveRule
 access-analyzer:DeleteAnalyzer
@@ -6450,6 +6451,7 @@ sagemaker:BatchGetMetrics
 sagemaker:BatchPutMetrics
 sagemaker:CreateAlgorithm
 sagemaker:CreateApp
+sagemaker:CreateAppImageConfig
 sagemaker:CreateAutoMLJob
 sagemaker:CreateCodeRepository
 sagemaker:CreateCompilationJob
@@ -6460,6 +6462,8 @@ sagemaker:CreateExperiment
 sagemaker:CreateFlowDefinition
 sagemaker:CreateHumanTaskUi
 sagemaker:CreateHyperParameterTuningJob
+sagemaker:CreateImage
+sagemaker:CreateImageVersion
 sagemaker:CreateLabelingJob
 sagemaker:CreateModel
 sagemaker:CreateModelPackage
@@ -6478,6 +6482,7 @@ sagemaker:CreateWorkforce
 sagemaker:CreateWorkteam
 sagemaker:DeleteAlgorithm
 sagemaker:DeleteApp
+sagemaker:DeleteAppImageConfig
 sagemaker:DeleteCodeRepository
 sagemaker:DeleteDomain
 sagemaker:DeleteEndpoint
@@ -6485,6 +6490,8 @@ sagemaker:DeleteEndpointConfig
 sagemaker:DeleteExperiment
 sagemaker:DeleteFlowDefinition
 sagemaker:DeleteHumanLoop
+sagemaker:DeleteImage
+sagemaker:DeleteImageVersion
 sagemaker:DeleteModel
 sagemaker:DeleteModelPackage
 sagemaker:DeleteMonitoringSchedule
@@ -6498,6 +6505,7 @@ sagemaker:DeleteWorkforce
 sagemaker:DeleteWorkteam
 sagemaker:DescribeAlgorithm
 sagemaker:DescribeApp
+sagemaker:DescribeAppImageConfig
 sagemaker:DescribeAutoMLJob
 sagemaker:DescribeCodeRepository
 sagemaker:DescribeCompilationJob
@@ -6509,6 +6517,8 @@ sagemaker:DescribeFlowDefinition
 sagemaker:DescribeHumanLoop
 sagemaker:DescribeHumanTaskUi
 sagemaker:DescribeHyperParameterTuningJob
+sagemaker:DescribeImage
+sagemaker:DescribeImageVersion
 sagemaker:DescribeLabelingJob
 sagemaker:DescribeModel
 sagemaker:DescribeModelPackage
@@ -6528,6 +6538,7 @@ sagemaker:DisassociateTrialComponent
 sagemaker:GetSearchSuggestions
 sagemaker:InvokeEndpoint
 sagemaker:ListAlgorithms
+sagemaker:ListAppImageConfigs
 sagemaker:ListApps
 sagemaker:ListAutoMLJobs
 sagemaker:ListCandidatesForAutoMLJob
@@ -6541,6 +6552,8 @@ sagemaker:ListFlowDefinitions
 sagemaker:ListHumanLoops
 sagemaker:ListHumanTaskUis
 sagemaker:ListHyperParameterTuningJobs
+sagemaker:ListImages
+sagemaker:ListImageVersions
 sagemaker:ListLabelingJobs
 sagemaker:ListLabelingJobsForWorkteam
 sagemaker:ListModelPackages
@@ -6575,11 +6588,13 @@ sagemaker:StopNotebookInstance
 sagemaker:StopProcessingJob
 sagemaker:StopTrainingJob
 sagemaker:StopTransformJob
+sagemaker:UpdateAppImageConfig
 sagemaker:UpdateCodeRepository
 sagemaker:UpdateDomain
 sagemaker:UpdateEndpoint
 sagemaker:UpdateEndpointWeightsAndCapacities
 sagemaker:UpdateExperiment
+sagemaker:UpdateImage
 sagemaker:UpdateMonitoringSchedule
 sagemaker:UpdateNotebookInstance
 sagemaker:UpdateNotebookInstanceLifecycleConfig
