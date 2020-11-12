@@ -1926,7 +1926,7 @@ databrew:ListRecipeVersions
 databrew:ListSchedules
 databrew:ListTagsForResource
 databrew:PublishRecipe
-databrew:SetProjectSessionAction
+databrew:SendProjectSessionAction
 databrew:StartJobRun
 databrew:StartProjectSession
 databrew:StopJobRun
