@@ -136,6 +136,14 @@ acm:RenewCertificate
 acm:RequestCertificate
 acm:ResendValidationEmail
 acm:UpdateCertificateOptions
+activate:CreateForm
+activate:GetAccountContact
+activate:GetContentInfo
+activate:GetCosts
+activate:GetCredits
+activate:GetMemberInfo
+activate:GetProgram
+activate:PutMemberInfo
 amplify:CreateApp
 amplify:CreateBackendEnvironment
 amplify:CreateBranch
@@ -587,6 +595,7 @@ aws-portal:ViewAccount
 aws-portal:ViewBilling
 aws-portal:ViewPaymentMethods
 aws-portal:ViewUsage
+backup:CopyFromBackupVault
 backup:CopyIntoBackupVault
 backup:CreateBackupPlan
 backup:CreateBackupSelection
@@ -600,6 +609,7 @@ backup:DeleteRecoveryPoint
 backup:DescribeBackupJob
 backup:DescribeBackupVault
 backup:DescribeCopyJob
+backup:DescribeGlobalSettings
 backup:DescribeProtectedResource
 backup:DescribeRecoveryPoint
 backup:DescribeRegionSettings
@@ -635,6 +645,7 @@ backup-storage:MountCapsule
 backup:TagResource
 backup:UntagResource
 backup:UpdateBackupPlan
+backup:UpdateGlobalSettings
 backup:UpdateRecoveryPointLifecycle
 backup:UpdateRegionSettings
 batch:CancelJob
@@ -758,11 +769,15 @@ chime:CreateBot
 chime:CreateBotMembership
 chime:CreateCDRBucket
 chime:CreateMeeting
+chime:CreateMeetingDialOut
 chime:CreateMeetingWithAttendees
 chime:CreatePhoneNumberOrder
 chime:CreateProxySession
 chime:CreateRoom
 chime:CreateRoomMembership
+chime:CreateSipMediaApplication
+chime:CreateSipMediaApplicationCall
+chime:CreateSipRule
 chime:CreateUser
 chime:CreateVoiceConnector
 chime:CreateVoiceConnectorGroup
@@ -780,6 +795,8 @@ chime:DeletePhoneNumber
 chime:DeleteProxySession
 chime:DeleteRoom
 chime:DeleteRoomMembership
+chime:DeleteSipMediaApplication
+chime:DeleteSipRule
 chime:DeleteVoiceConnector
 chime:DeleteVoiceConnectorEmergencyCallingConfiguration
 chime:DeleteVoiceConnectorGroup
@@ -811,6 +828,9 @@ chime:GetPhoneNumberSettings
 chime:GetProxySession
 chime:GetRetentionSettings
 chime:GetRoom
+chime:GetSipMediaApplication
+chime:GetSipMediaApplicationLoggingConfiguration
+chime:GetSipRule
 chime:GetTelephonyLimits
 chime:GetUser
 chime:GetUserActivityReportData
@@ -849,6 +869,8 @@ chime:ListPhoneNumbers
 chime:ListProxySessions
 chime:ListRoomMemberships
 chime:ListRooms
+chime:ListSipMediaApplications
+chime:ListSipRules
 chime:ListTagsForResource
 chime:ListUsers
 chime:ListVoiceConnectorGroups
@@ -857,6 +879,7 @@ chime:ListVoiceConnectorTerminationCredentials
 chime:LogoutUser
 chime:PutEventsConfiguration
 chime:PutRetentionSettings
+chime:PutSipMediaApplicationLoggingConfiguration
 chime:PutVoiceConnectorEmergencyCallingConfiguration
 chime:PutVoiceConnectorLoggingConfiguration
 chime:PutVoiceConnectorOrigination
@@ -896,6 +919,8 @@ chime:UpdatePhoneNumberSettings
 chime:UpdateProxySession
 chime:UpdateRoom
 chime:UpdateRoomMembership
+chime:UpdateSipMediaApplication
+chime:UpdateSipRule
 chime:UpdateSupportedLicenses
 chime:UpdateUser
 chime:UpdateUserLicenses
@@ -1235,11 +1260,14 @@ codeartifact:ListPackageVersionDependencies
 codeartifact:ListPackageVersions
 codeartifact:ListRepositories
 codeartifact:ListRepositoriesInDomain
+codeartifact:ListTagsForResource
 codeartifact:PublishPackageVersion
 codeartifact:PutDomainPermissionsPolicy
 codeartifact:PutPackageMetadata
 codeartifact:PutRepositoryPermissionsPolicy
 codeartifact:ReadFromRepository
+codeartifact:TagResource
+codeartifact:UntagResource
 codeartifact:UpdatePackageVersionsStatus
 codeartifact:UpdateRepository
 codebuild:BatchDeleteBuilds
@@ -6744,6 +6772,7 @@ schemas:DescribeCodeBinding
 schemas:DescribeDiscoverer
 schemas:DescribeRegistry
 schemas:DescribeSchema
+schemas:ExportSchema
 schemas:GetCodeBindingSource
 schemas:GetDiscoveredSchema
 schemas:GetResourcePolicy
