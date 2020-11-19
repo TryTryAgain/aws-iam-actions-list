@@ -3975,9 +3975,11 @@ health:DescribeHealthServiceStatusForOrganization
 health:DisableHealthServiceAccessForOrganization
 health:EnableHealthServiceAccessForOrganization
 honeycode:ApproveTeamAssociation
+honeycode:CreateTenant
 honeycode:GetScreenData
 honeycode:InvokeScreenAutomation
 honeycode:ListTeamAssociations
+honeycode:ListTenants
 honeycode:RejectTeamAssociation
 iam:AddClientIDToOpenIDConnectProvider
 iam:AddRoleToInstanceProfile
@@ -6480,6 +6482,8 @@ s3:DeleteObject
 s3:DeleteObjectTagging
 s3:DeleteObjectVersion
 s3:DeleteObjectVersionTagging
+s3:DeleteStorageLensConfiguration
+s3:DeleteStorageLensConfigurationTagging
 s3:DescribeJob
 s3:GetAccelerateConfiguration
 s3:GetAccessPoint
@@ -6518,6 +6522,9 @@ s3:GetObjectVersionForReplication
 s3:GetObjectVersionTagging
 s3:GetObjectVersionTorrent
 s3:GetReplicationConfiguration
+s3:GetStorageLensConfiguration
+s3:GetStorageLensConfigurationTagging
+s3:GetStorageLensDashboard
 s3:ListAccessPoints
 s3:ListAllMyBuckets
 s3:ListBucket
@@ -6525,6 +6532,7 @@ s3:ListBucketMultipartUploads
 s3:ListBucketVersions
 s3:ListJobs
 s3:ListMultipartUploadParts
+s3:ListStorageLensConfigurations
 s3:ObjectOwnerOverrideToBucketOwner
 s3-outposts:AbortMultipartUpload
 s3-outposts:CreateAccessPoint
@@ -6587,6 +6595,8 @@ s3:PutObjectTagging
 s3:PutObjectVersionAcl
 s3:PutObjectVersionTagging
 s3:PutReplicationConfiguration
+s3:PutStorageLensConfiguration
+s3:PutStorageLensConfigurationTagging
 s3:ReplicateDelete
 s3:ReplicateObject
 s3:ReplicateTags
