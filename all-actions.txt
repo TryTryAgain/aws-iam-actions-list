@@ -2510,6 +2510,7 @@ ec2:AssignPrivateIpAddresses
 ec2:AssociateAddress
 ec2:AssociateClientVpnTargetNetwork
 ec2:AssociateDhcpOptions
+ec2:AssociateEnclaveCertificateIamRole
 ec2:AssociateIamInstanceProfile
 ec2:AssociateRouteTable
 ec2:AssociateSubnetCidrBlock
@@ -2774,6 +2775,7 @@ ec2:DisableVpcClassicLink
 ec2:DisableVpcClassicLinkDnsSupport
 ec2:DisassociateAddress
 ec2:DisassociateClientVpnTargetNetwork
+ec2:DisassociateEnclaveCertificateIamRole
 ec2:DisassociateIamInstanceProfile
 ec2:DisassociateRouteTable
 ec2:DisassociateSubnetCidrBlock
@@ -2791,6 +2793,7 @@ ec2:ExportClientVpnClientCertificateRevocationList
 ec2:ExportClientVpnClientConfiguration
 ec2:ExportImage
 ec2:ExportTransitGatewayRoutes
+ec2:GetAssociatedEnclaveCertificateIamRoles
 ec2:GetCapacityReservationUsage
 ec2:GetCoipPoolUsage
 ec2:GetConsoleOutput
@@ -3288,6 +3291,11 @@ elemental-appliances-software:ListTagsForResource
 elemental-appliances-software:TagResource
 elemental-appliances-software:UntagResource
 elemental-appliances-software:UpdateQuote
+elemental-support-cases:CreateCase
+elemental-support-cases:GetCase
+elemental-support-cases:GetCases
+elemental-support-cases:UpdateCase
+elemental-support-content:Query
 es:AcceptInboundCrossClusterSearchConnection
 es:AddTags
 es:CreateElasticsearchDomain
@@ -3674,6 +3682,7 @@ glue:BatchGetTriggers
 glue:BatchGetWorkflows
 glue:BatchStopJobRun
 glue:CancelMLTaskRun
+glue:CheckSchemaVersionValidity
 glue:CreateClassifier
 glue:CreateConnection
 glue:CreateCrawler
@@ -3682,6 +3691,8 @@ glue:CreateDevEndpoint
 glue:CreateJob
 glue:CreateMLTransform
 glue:CreatePartition
+glue:CreateRegistry
+glue:CreateSchema
 glue:CreateScript
 glue:CreateSecurityConfiguration
 glue:CreateTable
@@ -3696,7 +3707,10 @@ glue:DeleteDevEndpoint
 glue:DeleteJob
 glue:DeleteMLTransform
 glue:DeletePartition
+glue:DeleteRegistry
 glue:DeleteResourcePolicy
+glue:DeleteSchema
+glue:DeleteSchemaVersions
 glue:DeleteSecurityConfiguration
 glue:DeleteTable
 glue:DeleteTableVersion
@@ -3730,7 +3744,12 @@ glue:GetMLTransforms
 glue:GetPartition
 glue:GetPartitions
 glue:GetPlan
+glue:GetRegistry
 glue:GetResourcePolicy
+glue:GetSchema
+glue:GetSchemaByDefinition
+glue:GetSchemaVersion
+glue:GetSchemaVersionsDiff
 glue:GetSecurityConfiguration
 glue:GetSecurityConfigurations
 glue:GetTable
@@ -3751,11 +3770,18 @@ glue:ListCrawlers
 glue:ListDevEndpoints
 glue:ListJobs
 glue:ListMLTransforms
+glue:ListRegistries
+glue:ListSchemas
+glue:ListSchemaVersions
 glue:ListTriggers
 glue:ListWorkflows
 glue:PutDataCatalogEncryptionSettings
 glue:PutResourcePolicy
+glue:PutSchemaVersionMetadata
 glue:PutWorkflowRunProperties
+glue:QuerySchemaVersionMetadata
+glue:RegisterSchemaVersion
+glue:RemoveSchemaVersionMetadata
 glue:ResetJobBookmark
 glue:SearchTables
 glue:StartCrawler
@@ -3781,6 +3807,8 @@ glue:UpdateDevEndpoint
 glue:UpdateJob
 glue:UpdateMLTransform
 glue:UpdatePartition
+glue:UpdateRegistry
+glue:UpdateSchema
 glue:UpdateTable
 glue:UpdateTrigger
 glue:UpdateUserDefinedFunction
@@ -7435,6 +7463,7 @@ sso:DescribeRegisteredRegions
 sso:DetachManagedPolicyFromPermissionSet
 sso-directory:AddMemberToGroup
 sso-directory:CompleteVirtualMfaDeviceRegistration
+sso-directory:CompleteWebAuthnDeviceRegistration
 sso-directory:CreateAlias
 sso-directory:CreateBearerToken
 sso-directory:CreateExternalIdPConfigurationForDirectory
@@ -7470,8 +7499,10 @@ sso-directory:RemoveMemberFromGroup
 sso-directory:SearchGroups
 sso-directory:SearchUsers
 sso-directory:StartVirtualMfaDeviceRegistration
+sso-directory:StartWebAuthnDeviceRegistration
 sso-directory:UpdateExternalIdPConfigurationForDirectory
 sso-directory:UpdateGroup
+sso-directory:UpdateMfaDeviceForUser
 sso-directory:UpdatePassword
 sso-directory:UpdateUser
 sso-directory:VerifyEmail
