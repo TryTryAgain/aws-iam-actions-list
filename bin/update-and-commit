@@ -11,14 +11,12 @@ make update
 
 git add all-actions.txt
 
-# Better 'Automatic commit of updated actions' commit messages
-STAGED=$(git diff --staged)
-
+### Better 'Automatic commit of updated actions' commit messages
 # Check for new actions
-NEW_ACTIONS=($($STAGED | grep -e ^+.*$ | grep -v "+++" | tr -d '+' | cut -d':' -f1 | sort | uniq))
+NEW_ACTIONS=($(git diff --staged | grep -e ^+.*$ | grep -v "+++" | tr -d '+' | cut -d':' -f1 | sort | uniq))
 NEW_SERVICE=()
 NEWS="FALSE"
-if [[ -n "${NEW_ACTIONS}" ]]; then # If there are new actions found
+if [[ -n "${NEW_ACTIONS[@]}" ]]; then # If there are new actions found
 	# Check for new services
 	for SERVICE in "${NEW_ACTIONS[@]}"; do
 		if [[ ! $($STAGED | grep $SERVICE | grep -v +) ]]; then
@@ -35,11 +33,11 @@ if [[ -n "${NEW_ACTIONS}" ]]; then # If there are new actions found
 fi
 
 # Check for removed actions
-REMOVED_ACTIONS=($($STAGED | grep -e ^-.*$ | grep -v "\---" | tr -d '-' | cut -d':' -f1 | sort | uniq))
+REMOVED_ACTIONS=($(git diff --staged | grep -e ^-.*$ | grep -v "\---" | tr -d '-' | cut -d':' -f1 | sort | uniq))
 REMOVED_SERVICE=()
 REMS="FALSE"
 # Removed actions commit message
-if [[ -n "${REMOVED_ACTIONS}" ]];then
+if [[ -n "${REMOVED_ACTIONS[@]}" ]];then
 	# Check for removed services
 	for SERVICE in "${REMOVED_ACTIONS[@]}"; do
 		if [[ ! $($STAGED | grep $SERVICE | grep -v \-) ]]; then
