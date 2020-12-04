@@ -11,18 +11,56 @@ make update
 
 git add all-actions.txt
 
-NEW_ACTIONS=$(git diff --staged | grep -e ^+.*$ | grep -v "+++" | tr -d '+' | cut -d':' -f1 | sort | uniq | tr '\n' ',' | sed 's/\(.*\),/\1./')
-REMOVED_ACTIONS=$(git diff --staged | grep -e ^-.*$ | grep -v "\---" | tr -d '-' | cut -d':' -f1 | sort | uniq | tr '\n' ',' | sed 's/\(.*\),/\1./')
-if [ -n "${NEW_ACTIONS}" ] && [ -n "${REMOVED_ACTIONS}" ];then 
-	COMMIT_MESSAGE=$(echo "Added actions to '$NEW_ACTIONS' Removed actions from '$REMOVED_ACTIONS'")
-elif [ -n "${NEW_ACTIONS}" ] && [ -z "${REMOVED_ACTIONS}" ]; then
-	COMMIT_MESSAGE=$(echo "Added actions to '$NEW_ACTIONS'")
-elif [ -z "${NEW_ACTIONS}" ] && [ -n "${REMOVED_ACTIONS}" ]; then
-	COMMIT_MESSAGE=$(echo "Removed actions from '$NEW_ACTIONS'")
+# Better 'Automatic commit of updated actions' commit messages
+STAGED=$(git diff --staged)
+
+# Check for new actions
+NEW_ACTIONS=($($STAGED | grep -e ^+.*$ | grep -v "+++" | tr -d '+' | cut -d':' -f1 | sort | uniq))
+NEW_SERVICE=()
+NEW_SERVICES_COMMIT=""
+NEWS="FALSE"
+if [ -n "${NEW_ACTIONS}" ]; then # If there are new actions found
+	# Check for new services
+	for SERVICE in "${NEW_ACTIONS[@]}"; do
+		if [[ ! $($STAGED | grep $SERVICE | grep -v +) ]]; then
+			NEWS="TRUE"
+			NEW_SERVICE+=$(echo "$SERVICE ")
+		fi
+	done
+	if [ "$NEWS" == "TRUE" ]; then
+		# New services commit message
+		COMMIT_MESSAGE="New Services: '$(echo ${NEW_SERVICE[@]} | tr ' ' ',')'. Added actions to '$(echo ${NEW_ACTIONS[@]} | tr ' ' ',')'. "
+	else
+		COMMIT_MESSAGE="Added actions to '$(echo ${NEW_ACTIONS[@]} | tr ' ' ',')'. "
+	fi
 fi
 
+# Check for removed actions
+REMOVED_ACTIONS=($($STAGED | grep -e ^-.*$ | grep -v "\---" | tr -d '-' | cut -d':' -f1 | sort | uniq))
+REMOVED_SERVICE=()
+REMOVED_SERVICES_COMMIT=""
+REMS="FALSE"
+# Removed actions commit message
+if [ -n "${REMOVED_ACTIONS}" ];then
+	# Check for removed services
+	for SERVICE in "${REMOVED_ACTIONS[@]}"; do
+		if [[ ! $($STAGED | grep $SERVICE | grep -v \-) ]]; then
+			REMS="TRUE"
+			REMOVED_SERVICE+=$(echo "$SERVICE ")
+		fi
+	done
+	if [ "$REMS" == "TRUE" ]; then
+		# Removed services commit message
+		COMMIT_MESSAGE+="Removed Services: '$(echo ${REMOVED_SERVICE[@]} | tr ' ' ',')'. Removed actions from '$(echo ${REMOVED_ACTIONS[@]} | tr ' ' ',')'. "
+	else
+		COMMIT_MESSAGE+="Removed actions from '$(echo ${REMOVED_ACTIONS[@]} | tr ' ' ',')'. "
+	fi
+fi
+
+echo $COMMIT_MESSAGE
+
 if [[ $(git status -s) ]]; then
-	git commit -m "$COMMIT_MESSAGE"
+	git commit -m "$(echo $COMMIT_MESSAGE)"
 	git push origin master
 	git diff HEAD^..HEAD
 else
