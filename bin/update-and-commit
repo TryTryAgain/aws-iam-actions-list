@@ -17,9 +17,8 @@ STAGED=$(git diff --staged)
 # Check for new actions
 NEW_ACTIONS=($($STAGED | grep -e ^+.*$ | grep -v "+++" | tr -d '+' | cut -d':' -f1 | sort | uniq))
 NEW_SERVICE=()
-NEW_SERVICES_COMMIT=""
 NEWS="FALSE"
-if [ -n "${NEW_ACTIONS}" ]; then # If there are new actions found
+if [[ -n "${NEW_ACTIONS}" ]]; then # If there are new actions found
 	# Check for new services
 	for SERVICE in "${NEW_ACTIONS[@]}"; do
 		if [[ ! $($STAGED | grep $SERVICE | grep -v +) ]]; then
@@ -27,7 +26,7 @@ if [ -n "${NEW_ACTIONS}" ]; then # If there are new actions found
 			NEW_SERVICE+=$(echo "$SERVICE ")
 		fi
 	done
-	if [ "$NEWS" == "TRUE" ]; then
+	if [[ "$NEWS" == "TRUE" ]]; then
 		# New services commit message
 		COMMIT_MESSAGE="New Services: '$(echo ${NEW_SERVICE[@]} | tr ' ' ',')'. Added actions to '$(echo ${NEW_ACTIONS[@]} | tr ' ' ',')'. "
 	else
@@ -38,10 +37,9 @@ fi
 # Check for removed actions
 REMOVED_ACTIONS=($($STAGED | grep -e ^-.*$ | grep -v "\---" | tr -d '-' | cut -d':' -f1 | sort | uniq))
 REMOVED_SERVICE=()
-REMOVED_SERVICES_COMMIT=""
 REMS="FALSE"
 # Removed actions commit message
-if [ -n "${REMOVED_ACTIONS}" ];then
+if [[ -n "${REMOVED_ACTIONS}" ]];then
 	# Check for removed services
 	for SERVICE in "${REMOVED_ACTIONS[@]}"; do
 		if [[ ! $($STAGED | grep $SERVICE | grep -v \-) ]]; then
@@ -49,7 +47,7 @@ if [ -n "${REMOVED_ACTIONS}" ];then
 			REMOVED_SERVICE+=$(echo "$SERVICE ")
 		fi
 	done
-	if [ "$REMS" == "TRUE" ]; then
+	if [[ "$REMS" == "TRUE" ]]; then
 		# Removed services commit message
 		COMMIT_MESSAGE+="Removed Services: '$(echo ${REMOVED_SERVICE[@]} | tr ' ' ',')'. Removed actions from '$(echo ${REMOVED_ACTIONS[@]} | tr ' ' ',')'. "
 	else
