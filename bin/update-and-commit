@@ -15,14 +15,18 @@ NEW_ACTIONS=($(git diff --staged | grep -e ^+.*$ | grep -v "+++" | tr -d '+' | c
 NEW_SERVICE=()
 NEWS="FALSE"
 if [[ -n "${NEW_ACTIONS[@]}" ]]; then # If there are new actions found
+    echo "Found new actions: '${NEW_ACTIONS[@]}'"
 	# Check for new services
 	for SERVICE in "${NEW_ACTIONS[@]}"; do
-		if [[ ! $($STAGED | grep $SERVICE | grep -v +) ]]; then
+		echo "Checking if the service '$SERVICE' is new..."
+		if [[ ! $(git diff --staged | grep $SERVICE | grep -v +) ]]; then
 			NEWS="TRUE"
 			NEW_SERVICE+=$(echo "$SERVICE ")
+			echo "New services: ${NEW_SERVICE[@]}"
 		fi
 	done
 	if [[ "$NEWS" == "TRUE" ]]; then
+		echo "Found new services!"
 		# New services commit message
 		COMMIT_MESSAGE="New Services: '$(echo ${NEW_SERVICE[@]} | tr ' ' ',')'. Added actions to '$(echo ${NEW_ACTIONS[@]} | tr ' ' ',')'. "
 	else
@@ -38,7 +42,7 @@ REMS="FALSE"
 if [[ -n "${REMOVED_ACTIONS[@]}" ]];then
 	# Check for removed services
 	for SERVICE in "${REMOVED_ACTIONS[@]}"; do
-		if [[ ! $($STAGED | grep $SERVICE | grep -v \-) ]]; then
+		if [[ ! $(git diff --staged | grep $SERVICE | grep -v \-) ]]; then
 			REMS="TRUE"
 			REMOVED_SERVICE+=$(echo "$SERVICE ")
 		fi
@@ -54,9 +58,9 @@ fi
 echo $COMMIT_MESSAGE
 
 if [[ $(git status -s) ]]; then
-	git commit -m "$(echo $COMMIT_MESSAGE)"
-	git push origin master
-	git diff HEAD^..HEAD
+    echo "Would commit $COMMIT_MESSAGE"
+	#git commit -m "$(echo $COMMIT_MESSAGE)"
+	#git push origin master
 else
 	echo "Nothing new..."
 fi
