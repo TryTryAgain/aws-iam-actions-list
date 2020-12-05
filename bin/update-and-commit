@@ -2,8 +2,6 @@
 
 cd "$( dirname "$0" )"/..
 
-git pull origin master
-
 echo Updating ...
 make update
 
