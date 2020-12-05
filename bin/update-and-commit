@@ -24,7 +24,7 @@ if [[ -n "${NEW_ACTIONS[@]}" ]]; then # If there are new actions found
 		fi
 	done
 	if [[ "$NEWS" == "TRUE" ]]; then
-		echo "Found new services!"
+		echo "Found new services"
 		# New services commit message
 		COMMIT_MESSAGE="New Services: '$(echo ${NEW_SERVICE[@]} | tr ' ' ',')'. Added actions to '$(echo ${NEW_ACTIONS[@]} | tr ' ' ',')'. "
 	else
@@ -38,14 +38,17 @@ REMOVED_SERVICE=()
 REMS="FALSE"
 # Removed actions commit message
 if [[ -n "${REMOVED_ACTIONS[@]}" ]];then
+	echo "Found removed actions: '${REMOVED_ACTIONS[@]}'"
 	# Check for removed services
 	for SERVICE in "${REMOVED_ACTIONS[@]}"; do
+		echo "Checking if the service '$SERVICE' is deprecated..."
 		if [[ ! $(git diff --staged | grep $SERVICE | grep -v \-) ]]; then
 			REMS="TRUE"
 			REMOVED_SERVICE+=$(echo "$SERVICE ")
 		fi
 	done
 	if [[ "$REMS" == "TRUE" ]]; then
+		echo "Found deprecated services"
 		# Removed services commit message
 		COMMIT_MESSAGE+="Removed Services: '$(echo ${REMOVED_SERVICE[@]} | tr ' ' ',')'. Removed actions from '$(echo ${REMOVED_ACTIONS[@]} | tr ' ' ',')'. "
 	else
@@ -56,9 +59,9 @@ fi
 echo $COMMIT_MESSAGE
 
 if [[ $(git status -s) ]]; then
-    echo "Would commit $COMMIT_MESSAGE"
-	#git commit -m "$(echo $COMMIT_MESSAGE)"
-	#git push origin master
+    echo "Commit message should be: $COMMIT_MESSAGE"
+	git commit -m "$(echo $COMMIT_MESSAGE)"
+	git push origin master
 else
-	echo "Nothing new..."
+	echo "Nothing new to commit..."
 fi
