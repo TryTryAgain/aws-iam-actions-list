@@ -7703,6 +7703,7 @@ ssm:CreateAssociationBatch
 ssm:CreateDocument
 ssm:CreateMaintenanceWindow
 ssm:CreateOpsItem
+ssm:CreateOpsMetadata
 ssm:CreatePatchBaseline
 ssm:CreateResourceDataSync
 ssm:DeleteActivation
@@ -7710,6 +7711,7 @@ ssm:DeleteAssociation
 ssm:DeleteDocument
 ssm:DeleteInventory
 ssm:DeleteMaintenanceWindow
+ssm:DeleteOpsMetadata
 ssm:DeleteParameter
 ssm:DeleteParameters
 ssm:DeletePatchBaseline
@@ -7768,6 +7770,7 @@ ssm:GetMaintenanceWindowExecutionTaskInvocation
 ssm:GetMaintenanceWindowTask
 ssm:GetManifest
 ssm:GetOpsItem
+ssm:GetOpsMetadata
 ssm:GetOpsSummary
 ssm:GetParameter
 ssm:GetParameterHistory
@@ -7787,6 +7790,7 @@ ssm:ListDocuments
 ssm:ListDocumentVersions
 ssm:ListInstanceAssociations
 ssm:ListInventoryEntries
+ssm:ListOpsMetadata
 ssm:ListResourceComplianceSummaries
 ssm:ListResourceDataSync
 ssm:ListTagsForResource
@@ -7824,6 +7828,7 @@ ssm:UpdateMaintenanceWindowTarget
 ssm:UpdateMaintenanceWindowTask
 ssm:UpdateManagedInstanceRole
 ssm:UpdateOpsItem
+ssm:UpdateOpsMetadata
 ssm:UpdatePatchBaseline
 ssm:UpdateResourceDataSync
 ssm:UpdateServiceSetting
