@@ -3474,6 +3474,17 @@ elemental-support-cases:GetCase
 elemental-support-cases:GetCases
 elemental-support-cases:UpdateCase
 elemental-support-content:Query
+emr-containers:CancelJobRun
+emr-containers:CreateVirtualCluster
+emr-containers:DeleteVirtualCluster
+emr-containers:DescribeJobRun
+emr-containers:DescribeVirtualCluster
+emr-containers:ListJobRuns
+emr-containers:ListTagsForResource
+emr-containers:ListVirtualClusters
+emr-containers:StartJobRun
+emr-containers:TagResource
+emr-containers:UntagResource
 es:AcceptInboundCrossClusterSearchConnection
 es:AddTags
 es:CreateElasticsearchDomain
