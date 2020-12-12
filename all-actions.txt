@@ -4763,6 +4763,7 @@ iotsitewise:GetAssetPropertyValue
 iotsitewise:GetAssetPropertyValueHistory
 iotsitewise:ListAccessPolicies
 iotsitewise:ListAssetModels
+iotsitewise:ListAssetRelationships
 iotsitewise:ListAssets
 iotsitewise:ListAssociatedAssets
 iotsitewise:ListDashboards
@@ -5502,6 +5503,8 @@ managedblockchain:RejectInvitation
 managedblockchain:UpdateMember
 managedblockchain:UpdateNode
 managedblockchain:VoteOnProposal
+marketplacecommerceanalytics:GenerateDataSet
+marketplacecommerceanalytics:StartSupportDataExport
 mechanicalturk:AcceptQualificationRequest
 mechanicalturk:ApproveAssignment
 mechanicalturk:AssociateQualificationWithWorker
