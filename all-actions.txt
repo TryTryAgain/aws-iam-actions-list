@@ -4591,6 +4591,7 @@ iot:CreateCertificateFromCsr
 iot:CreateDimension
 iot:CreateDomainConfiguration
 iot:CreateDynamicThingGroup
+iot:CreateFleetMetric
 iot:CreateJob
 iot:CreateKeysAndCertificate
 iot:CreateMitigationAction
@@ -4617,6 +4618,7 @@ iot:DeleteCertificate
 iot:DeleteDimension
 iot:DeleteDomainConfiguration
 iot:DeleteDynamicThingGroup
+iot:DeleteFleetMetric
 iot:DeleteJob
 iot:DeleteJobExecution
 iot:DeleteMitigationAction
@@ -4651,6 +4653,7 @@ iot:DescribeDimension
 iot:DescribeDomainConfiguration
 iot:DescribeEndpoint
 iot:DescribeEventConfigurations
+iot:DescribeFleetMetric
 iot:DescribeIndex
 iot:DescribeJob
 iot:DescribeJobExecution
@@ -4711,6 +4714,20 @@ iotevents:UpdateAlarmModel
 iotevents:UpdateDetectorModel
 iotevents:UpdateInput
 iotevents:UpdateInputRouting
+iotfleethub:CreateApplication
+iotfleethub:CreateDashboard
+iotfleethub:DeleteApplication
+iotfleethub:DeleteDashboard
+iotfleethub:DescribeApplication
+iotfleethub:DescribeDashboard
+iotfleethub:ListApplications
+iotfleethub:ListDashboards
+iotfleethub:ListTagsForResource
+iotfleethub:TagResource
+iotfleethub:UntagResource
+iotfleethub:UpdateApplication
+iotfleethub:UpdateDashboard
+iot:GetBucketsAggregation
 iot:GetCardinality
 iot:GetEffectivePolicies
 iot:GetIndexingConfiguration
@@ -4740,6 +4757,7 @@ iot:ListCertificates
 iot:ListCertificatesByCA
 iot:ListDimensions
 iot:ListDomainConfigurations
+iot:ListFleetMetrics
 iot:ListIndices
 iot:ListJobExecutionsForJob
 iot:ListJobExecutionsForThing
@@ -4904,6 +4922,7 @@ iot:UpdateDimension
 iot:UpdateDomainConfiguration
 iot:UpdateDynamicThingGroup
 iot:UpdateEventConfigurations
+iot:UpdateFleetMetric
 iot:UpdateIndexingConfiguration
 iot:UpdateJob
 iot:UpdateJobExecution
