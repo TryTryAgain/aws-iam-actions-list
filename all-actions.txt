@@ -2772,6 +2772,7 @@ ec2:CreateManagedPrefixList
 ec2:CreateNatGateway
 ec2:CreateNetworkAcl
 ec2:CreateNetworkAclEntry
+ec2:CreateNetworkInsightsPath
 ec2:CreateNetworkInterface
 ec2:CreateNetworkInterfacePermission
 ec2:CreatePlacementGroup
@@ -2823,9 +2824,12 @@ ec2:DeleteManagedPrefixList
 ec2:DeleteNatGateway
 ec2:DeleteNetworkAcl
 ec2:DeleteNetworkAclEntry
+ec2:DeleteNetworkInsightsAnalysis
+ec2:DeleteNetworkInsightsPath
 ec2:DeleteNetworkInterface
 ec2:DeleteNetworkInterfacePermission
 ec2:DeletePlacementGroup
+ec2:DeleteQueuedReservedInstances
 ec2:DeleteRoute
 ec2:DeleteRouteTable
 ec2:DeleteSecurityGroup
@@ -2838,6 +2842,8 @@ ec2:DeleteTrafficMirrorFilterRule
 ec2:DeleteTrafficMirrorSession
 ec2:DeleteTrafficMirrorTarget
 ec2:DeleteTransitGateway
+ec2:DeleteTransitGatewayConnect
+ec2:DeleteTransitGatewayConnectPeer
 ec2:DeleteTransitGatewayMulticastDomain
 ec2:DeleteTransitGatewayPeeringAttachment
 ec2:DeleteTransitGatewayPrefixListReference
@@ -2905,6 +2911,7 @@ ec2:DescribeInstanceStatus
 ec2:DescribeInstanceTypeOfferings
 ec2:DescribeInstanceTypes
 ec2:DescribeInternetGateways
+ec2:DescribeIpv6Pools
 ec2:DescribeKeyPairs
 ec2:DescribeLaunchTemplates
 ec2:DescribeLaunchTemplateVersions
@@ -3004,6 +3011,7 @@ ec2:ExportClientVpnClientConfiguration
 ec2:ExportImage
 ec2:ExportTransitGatewayRoutes
 ec2:GetAssociatedEnclaveCertificateIamRoles
+ec2:GetAssociatedIpv6PoolCidrs
 ec2:GetCapacityReservationUsage
 ec2:GetCoipPoolUsage
 ec2:GetConsoleOutput
@@ -3011,6 +3019,7 @@ ec2:GetConsoleScreenshot
 ec2:GetDefaultCreditSpecification
 ec2:GetEbsDefaultKmsKeyId
 ec2:GetEbsEncryptionByDefault
+ec2:GetGroupsForCapacityReservation
 ec2:GetHostReservationPurchasePreview
 ec2:GetLaunchTemplateData
 ec2:GetManagedPrefixListAssociations
@@ -3035,6 +3044,7 @@ ec2messages:FailMessage
 ec2messages:GetEndpoint
 ec2messages:GetMessages
 ec2messages:SendReply
+ec2:ModifyAvailabilityZoneGroup
 ec2:ModifyCapacityReservation
 ec2:ModifyClientVpnEndpoint
 ec2:ModifyDefaultCreditSpecification
@@ -3074,6 +3084,7 @@ ec2:ModifyVpcEndpointServicePermissions
 ec2:ModifyVpcPeeringConnectionOptions
 ec2:ModifyVpcTenancy
 ec2:ModifyVpnConnection
+ec2:ModifyVpnConnectionOptions
 ec2:ModifyVpnTunnelCertificate
 ec2:ModifyVpnTunnelOptions
 ec2:MonitorInstances
@@ -3087,6 +3098,7 @@ ec2:RegisterImage
 ec2:RegisterInstanceEventNotificationAttributes
 ec2:RegisterTransitGatewayMulticastGroupMembers
 ec2:RegisterTransitGatewayMulticastGroupSources
+ec2:RejectTransitGatewayMulticastDomainAssociations
 ec2:RejectTransitGatewayPeeringAttachment
 ec2:RejectTransitGatewayVpcAttachment
 ec2:RejectVpcEndpointConnections
@@ -3120,6 +3132,7 @@ ec2:SearchTransitGatewayMulticastGroups
 ec2:SearchTransitGatewayRoutes
 ec2:SendDiagnosticInterrupt
 ec2:StartInstances
+ec2:StartNetworkInsightsAnalysis
 ec2:StartVpcEndpointServicePrivateDnsVerification
 ec2:StopInstances
 ec2:TerminateClientVpnConnections
