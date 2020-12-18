@@ -4498,12 +4498,14 @@ identitystore:ListGroups
 identitystore:ListUsers
 imagebuilder:CancelImageCreation
 imagebuilder:CreateComponent
+imagebuilder:CreateContainerRecipe
 imagebuilder:CreateDistributionConfiguration
 imagebuilder:CreateImage
 imagebuilder:CreateImagePipeline
 imagebuilder:CreateImageRecipe
 imagebuilder:CreateInfrastructureConfiguration
 imagebuilder:DeleteComponent
+imagebuilder:DeleteContainerRecipe
 imagebuilder:DeleteDistributionConfiguration
 imagebuilder:DeleteImage
 imagebuilder:DeleteImagePipeline
@@ -4511,6 +4513,8 @@ imagebuilder:DeleteImageRecipe
 imagebuilder:DeleteInfrastructureConfiguration
 imagebuilder:GetComponent
 imagebuilder:GetComponentPolicy
+imagebuilder:GetContainerRecipe
+imagebuilder:GetContainerRecipePolicy
 imagebuilder:GetDistributionConfiguration
 imagebuilder:GetImage
 imagebuilder:GetImagePipeline
@@ -4520,6 +4524,7 @@ imagebuilder:GetImageRecipePolicy
 imagebuilder:GetInfrastructureConfiguration
 imagebuilder:ListComponentBuildVersions
 imagebuilder:ListComponents
+imagebuilder:ListContainerRecipes
 imagebuilder:ListDistributionConfigurations
 imagebuilder:ListImageBuildVersions
 imagebuilder:ListImagePipelineImages
@@ -4529,6 +4534,7 @@ imagebuilder:ListImages
 imagebuilder:ListInfrastructureConfigurations
 imagebuilder:ListTagsForResource
 imagebuilder:PutComponentPolicy
+imagebuilder:PutContainerRecipePolicy
 imagebuilder:PutImagePolicy
 imagebuilder:PutImageRecipePolicy
 imagebuilder:StartImagePipelineExecution
