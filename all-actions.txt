@@ -5111,10 +5111,13 @@ kafka:GetBootstrapBrokers
 kafka:GetCompatibleKafkaVersions
 kafka:ListClusterOperations
 kafka:ListClusters
+kafka:ListConfigurationRevisions
 kafka:ListConfigurations
+kafka:ListKafkaVersions
 kafka:ListNodes
 kafka:ListScramSecrets
 kafka:ListTagsForResource
+kafka:RebootBroker
 kafka:TagResource
 kafka:UntagResource
 kafka:UpdateBrokerCount
@@ -7119,6 +7122,7 @@ route53resolver:DeleteResolverRule
 route53resolver:DisassociateResolverEndpointIpAddress
 route53resolver:DisassociateResolverQueryLogConfig
 route53resolver:DisassociateResolverRule
+route53resolver:GetResolverDnssecConfig
 route53resolver:GetResolverEndpoint
 route53resolver:GetResolverQueryLogConfig
 route53resolver:GetResolverQueryLogConfigAssociation
@@ -7126,6 +7130,7 @@ route53resolver:GetResolverQueryLogConfigPolicy
 route53resolver:GetResolverRule
 route53resolver:GetResolverRuleAssociation
 route53resolver:GetResolverRulePolicy
+route53resolver:ListResolverDnssecConfigs
 route53resolver:ListResolverEndpointIpAddresses
 route53resolver:ListResolverEndpoints
 route53resolver:ListResolverQueryLogConfigAssociations
@@ -7137,6 +7142,7 @@ route53resolver:PutResolverQueryLogConfigPolicy
 route53resolver:PutResolverRulePolicy
 route53resolver:TagResource
 route53resolver:UntagResource
+route53resolver:UpdateResolverDnssecConfig
 route53resolver:UpdateResolverEndpoint
 route53resolver:UpdateResolverRule
 route53:TestDNSAnswer
