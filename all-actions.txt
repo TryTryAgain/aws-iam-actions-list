@@ -2662,6 +2662,7 @@ dynamodb:DescribeContributorInsights
 dynamodb:DescribeExport
 dynamodb:DescribeGlobalTable
 dynamodb:DescribeGlobalTableSettings
+dynamodb:DescribeKinesisStreamingDestination
 dynamodb:DescribeLimits
 dynamodb:DescribeReservedCapacity
 dynamodb:DescribeReservedCapacityOfferings
@@ -2669,6 +2670,8 @@ dynamodb:DescribeStream
 dynamodb:DescribeTable
 dynamodb:DescribeTableReplicaAutoScaling
 dynamodb:DescribeTimeToLive
+dynamodb:DisableKinesisStreamingDestination
+dynamodb:EnableKinesisStreamingDestination
 dynamodb:ExportTableToPointInTime
 dynamodb:GetItem
 dynamodb:GetRecords
@@ -4077,6 +4080,7 @@ glue:GetPartition
 glue:GetPartitions
 glue:GetPlan
 glue:GetRegistry
+glue:GetResourcePolicies
 glue:GetResourcePolicy
 glue:GetSchema
 glue:GetSchemaByDefinition
