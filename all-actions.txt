@@ -1946,6 +1946,7 @@ compute-optimizer:GetEBSVolumeRecommendations
 compute-optimizer:GetEC2InstanceRecommendations
 compute-optimizer:GetEC2RecommendationProjectedMetrics
 compute-optimizer:GetEnrollmentStatus
+compute-optimizer:GetLambdaFunctionRecommendations
 compute-optimizer:GetRecommendationSummaries
 compute-optimizer:UpdateEnrollmentStatus
 config:BatchGetAggregateResourceConfig
