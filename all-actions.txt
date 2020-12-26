@@ -5451,7 +5451,7 @@ license-manager:ListLicenses
 license-manager:ListLicenseSpecificationsForResource
 license-manager:ListLicenseVersions
 license-manager:ListReceivedGrants
-license-manager:ListReceivedLicensess
+license-manager:ListReceivedLicenses
 license-manager:ListResourceInventory
 license-manager:ListTagsForResource
 license-manager:ListTokens
