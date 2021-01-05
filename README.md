@@ -32,6 +32,7 @@ unsupported method though, so the update scripts might need updating from time
 to time.
 
 # License
+Original project: https://github.com/rvedotrc/aws-iam-reference
 
 Licensed under the Apache License, Version 2.0.  See the LICENSE file.
 
