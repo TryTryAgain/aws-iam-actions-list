@@ -818,6 +818,7 @@ ce:GetAnomalyMonitors
 ce:GetAnomalySubscriptions
 ce:GetCostAndUsage
 ce:GetCostAndUsageWithResources
+ce:GetCostCategories
 ce:GetCostForecast
 ce:GetDimensionValues
 ce:GetPreferences
