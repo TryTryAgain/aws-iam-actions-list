@@ -3553,10 +3553,12 @@ elastictranscoder:TestRole
 elastictranscoder:UpdatePipeline
 elastictranscoder:UpdatePipelineNotifications
 elastictranscoder:UpdatePipelineStatus
+elemental-activations:CompleteFileUpload
 elemental-activations:DownloadSoftware
 elemental-activations:GenerateLicenses
 elemental-activations:GetActivation
 elemental-activations:ListTagsForResource
+elemental-activations:StartFileUpload
 elemental-activations:TagResource
 elemental-activations:UntagResource
 elemental-appliances-software:CreateQuote
