@@ -6344,6 +6344,9 @@ outposts:GetOutpost
 outposts:GetOutpostInstanceTypes
 outposts:ListOutposts
 outposts:ListSites
+outposts:ListTagsForResource
+outposts:TagResource
+outposts:UntagResource
 panorama:CreateApp
 panorama:CreateAppDeployment
 panorama:CreateAppVersion
