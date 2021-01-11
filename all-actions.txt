@@ -5681,7 +5681,6 @@ machinelearning:UpdateDataSource
 machinelearning:UpdateEvaluation
 machinelearning:UpdateMLModel
 macie2:AcceptInvitation
-macie2:ArchiveFindings
 macie2:BatchGetCustomDataIdentifiers
 macie2:CreateClassificationJob
 macie2:CreateCustomDataIdentifier
@@ -5722,11 +5721,10 @@ macie2:ListFindingsFilters
 macie2:ListInvitations
 macie2:ListMembers
 macie2:ListOrganizationAdminAccounts
-macie2:ListTagsForResources
+macie2:ListTagsForResource
 macie2:PutClassificationExportConfiguration
 macie2:TagResource
 macie2:TestCustomDataIdentifier
-macie2:UnarchiveFindings
 macie2:UntagResource
 macie2:UpdateClassificationJob
 macie2:UpdateFindingsFilter
