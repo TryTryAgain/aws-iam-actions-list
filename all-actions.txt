@@ -2731,6 +2731,7 @@ ebs:ListSnapshotBlocks
 ebs:PutSnapshotBlock
 ebs:StartSnapshot
 ec2:AcceptReservedInstancesExchangeQuote
+ec2:AcceptTransitGatewayMulticastDomainAssociations
 ec2:AcceptTransitGatewayPeeringAttachment
 ec2:AcceptTransitGatewayVpcAttachment
 ec2:AcceptVpcEndpointConnections
@@ -2814,6 +2815,8 @@ ec2:CreateTrafficMirrorFilterRule
 ec2:CreateTrafficMirrorSession
 ec2:CreateTrafficMirrorTarget
 ec2:CreateTransitGateway
+ec2:CreateTransitGatewayConnect
+ec2:CreateTransitGatewayConnectPeer
 ec2:CreateTransitGatewayMulticastDomain
 ec2:CreateTransitGatewayPeeringAttachment
 ec2:CreateTransitGatewayPrefixListReference
@@ -2949,6 +2952,8 @@ ec2:DescribeManagedPrefixLists
 ec2:DescribeMovingAddresses
 ec2:DescribeNatGateways
 ec2:DescribeNetworkAcls
+ec2:DescribeNetworkInsightsAnalyses
+ec2:DescribeNetworkInsightsPaths
 ec2:DescribeNetworkInterfaceAttribute
 ec2:DescribeNetworkInterfacePermissions
 ec2:DescribeNetworkInterfaces
@@ -2981,6 +2986,8 @@ ec2:DescribeTrafficMirrorFilters
 ec2:DescribeTrafficMirrorSessions
 ec2:DescribeTrafficMirrorTargets
 ec2:DescribeTransitGatewayAttachments
+ec2:DescribeTransitGatewayConnectPeers
+ec2:DescribeTransitGatewayConnects
 ec2:DescribeTransitGatewayMulticastDomains
 ec2:DescribeTransitGatewayPeeringAttachments
 ec2:DescribeTransitGatewayRouteTables
