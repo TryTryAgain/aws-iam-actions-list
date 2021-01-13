@@ -1976,6 +1976,7 @@ config:DeleteRemediationConfiguration
 config:DeleteRemediationExceptions
 config:DeleteResourceConfig
 config:DeleteRetentionConfiguration
+config:DeleteStoredQuery
 config:DeliverConfigSnapshot
 config:DescribeAggregateComplianceByConfigRules
 config:DescribeAggregationAuthorizations
@@ -2015,8 +2016,10 @@ config:GetDiscoveredResourceCounts
 config:GetOrganizationConfigRuleDetailedStatus
 config:GetOrganizationConformancePackDetailedStatus
 config:GetResourceConfigHistory
+config:GetStoredQuery
 config:ListAggregateDiscoveredResources
 config:ListDiscoveredResources
+config:ListStoredQueries
 config:ListTagsForResource
 config:PutAggregationAuthorization
 config:PutConfigRule
@@ -2025,12 +2028,14 @@ config:PutConfigurationRecorder
 config:PutConformancePack
 config:PutDeliveryChannel
 config:PutEvaluations
+config:PutExternalEvaluation
 config:PutOrganizationConfigRule
 config:PutOrganizationConformancePack
 config:PutRemediationConfigurations
 config:PutRemediationExceptions
 config:PutResourceConfig
 config:PutRetentionConfiguration
+config:PutStoredQuery
 config:SelectAggregateResourceConfig
 config:SelectResourceConfig
 config:StartConfigRulesEvaluation
