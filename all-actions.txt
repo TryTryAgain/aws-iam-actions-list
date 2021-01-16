@@ -7242,6 +7242,7 @@ s3:GetBucketTagging
 s3:GetBucketVersioning
 s3:GetBucketWebsite
 s3:GetEncryptionConfiguration
+s3:GetIntelligentTieringConfiguration
 s3:GetInventoryConfiguration
 s3:GetJobTagging
 s3:GetLifecycleConfiguration
@@ -7319,6 +7320,7 @@ s3:PutBucketTagging
 s3:PutBucketVersioning
 s3:PutBucketWebsite
 s3:PutEncryptionConfiguration
+s3:PutIntelligentTieringConfiguration
 s3:PutInventoryConfiguration
 s3:PutJobTagging
 s3:PutLifecycleConfiguration
