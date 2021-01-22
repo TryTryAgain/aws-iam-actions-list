@@ -424,8 +424,6 @@ appstream:DisableUser
 appstream:DisassociateFleet
 appstream:EnableUser
 appstream:ExpireSession
-appstream:GetImageBuilders
-appstream:GetParametersForThemeAssetUpload
 appstream:ListAssociatedFleets
 appstream:ListAssociatedStacks
 appstream:ListTagsForResource
@@ -4180,6 +4178,13 @@ glue:UpdateTrigger
 glue:UpdateUserDefinedFunction
 glue:UpdateWorkflow
 glue:UseMLTransforms
+grafana:CreateWorkspace
+grafana:DeleteWorkspace
+grafana:DescribeWorkspace
+grafana:ListPermissions
+grafana:ListWorkspaces
+grafana:UpdatePermissions
+grafana:UpdateWorkspace
 greengrass:AssociateRoleToGroup
 greengrass:AssociateServiceRoleToAccount
 greengrass:CancelDeployment
@@ -5169,6 +5174,7 @@ kafka:TagResource
 kafka:UntagResource
 kafka:UpdateBrokerCount
 kafka:UpdateBrokerStorage
+kafka:UpdateBrokerType
 kafka:UpdateClusterConfiguration
 kafka:UpdateClusterKafkaVersion
 kafka:UpdateConfiguration
