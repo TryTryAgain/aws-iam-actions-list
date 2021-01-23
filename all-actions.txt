@@ -278,6 +278,17 @@ appflow:TagResource
 appflow:UntagResource
 appflow:UpdateConnectorProfile
 appflow:UpdateFlow
+app-integrations:CreateEventIntegration
+app-integrations:CreateEventIntegrationAssociation
+app-integrations:DeleteEventIntegration
+app-integrations:DeleteEventIntegrationAssociation
+app-integrations:GetEventIntegration
+app-integrations:ListEventIntegrationAssociations
+app-integrations:ListEventIntegrations
+app-integrations:ListTagsForResource
+app-integrations:TagResource
+app-integrations:UntagResource
+app-integrations:UpdateEventIntegration
 application-autoscaling:DeleteScalingPolicy
 application-autoscaling:DeleteScheduledAction
 application-autoscaling:DeregisterScalableTarget
