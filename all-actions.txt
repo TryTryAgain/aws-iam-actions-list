@@ -2057,10 +2057,12 @@ connect:AssociateApprovedOrigin
 connect:AssociateInstanceStorageConfig
 connect:AssociateLambdaFunction
 connect:AssociateLexBot
+connect:AssociateQueueQuickConnects
 connect:AssociateRoutingProfileQueues
 connect:AssociateSecurityKey
 connect:CreateContactFlow
 connect:CreateInstance
+connect:CreateQueue
 connect:CreateQuickConnect
 connect:CreateRoutingProfile
 connect:CreateUser
@@ -2070,9 +2072,11 @@ connect:DeleteQuickConnect
 connect:DeleteUser
 connect:DeleteUserHierarchyGroup
 connect:DescribeContactFlow
+connect:DescribeHoursOfOperation
 connect:DescribeInstance
 connect:DescribeInstanceAttribute
 connect:DescribeInstanceStorageConfig
+connect:DescribeQueue
 connect:DescribeQuickConnect
 connect:DescribeRoutingProfile
 connect:DescribeUser
@@ -2082,6 +2086,7 @@ connect:DisassociateApprovedOrigin
 connect:DisassociateInstanceStorageConfig
 connect:DisassociateLambdaFunction
 connect:DisassociateLexBot
+connect:DisassociateQueueQuickConnects
 connect:DisassociateRoutingProfileQueues
 connect:DisassociateSecurityKey
 connect:GetContactAttributes
@@ -2099,6 +2104,7 @@ connect:ListLambdaFunctions
 connect:ListLexBots
 connect:ListPhoneNumbers
 connect:ListPrompts
+connect:ListQueueQuickConnects
 connect:ListQueues
 connect:ListQuickConnects
 connect:ListRoutingProfileQueues
@@ -2123,6 +2129,11 @@ connect:UpdateContactFlowContent
 connect:UpdateContactFlowName
 connect:UpdateInstanceAttribute
 connect:UpdateInstanceStorageConfig
+connect:UpdateQueueHoursOfOperation
+connect:UpdateQueueMaxContacts
+connect:UpdateQueueName
+connect:UpdateQueueOutboundCallerConfig
+connect:UpdateQueueStatus
 connect:UpdateQuickConnectConfig
 connect:UpdateQuickConnectName
 connect:UpdateRoutingProfileConcurrency
