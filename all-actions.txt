@@ -520,6 +520,7 @@ athena:GetTableMetadata
 athena:GetWorkGroup
 athena:ListDatabases
 athena:ListDataCatalogs
+athena:ListEngineVersions
 athena:ListNamedQueries
 athena:ListQueryExecutions
 athena:ListTableMetadata
