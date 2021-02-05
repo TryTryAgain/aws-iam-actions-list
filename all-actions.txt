@@ -4274,6 +4274,7 @@ greengrass:GetResourceDefinitionVersion
 greengrass:GetServiceRoleForAccount
 greengrass:GetSubscriptionDefinition
 greengrass:GetSubscriptionDefinitionVersion
+greengrass:GetThingRuntimeConfiguration
 greengrass:ListBulkDeploymentDetailedReports
 greengrass:ListBulkDeployments
 greengrass:ListComponents
@@ -4315,6 +4316,7 @@ greengrass:UpdateGroupCertificateConfiguration
 greengrass:UpdateLoggerDefinition
 greengrass:UpdateResourceDefinition
 greengrass:UpdateSubscriptionDefinition
+greengrass:UpdateThingRuntimeConfiguration
 groundstation:CancelContact
 groundstation:CreateConfig
 groundstation:CreateDataflowEndpointGroup
