@@ -5751,10 +5751,13 @@ lookoutvision:DetectAnomalies
 lookoutvision:ListDatasetEntries
 lookoutvision:ListModels
 lookoutvision:ListProjects
+lookoutvision:ListTagsForResource
 lookoutvision:ListTrialDetections
 lookoutvision:StartModel
 lookoutvision:StartTrialDetection
 lookoutvision:StopModel
+lookoutvision:TagResource
+lookoutvision:UntagResource
 lookoutvision:UpdateDatasetEntries
 machinelearning:AddTags
 machinelearning:CreateBatchPrediction
