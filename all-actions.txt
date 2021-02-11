@@ -8724,6 +8724,9 @@ timestream:UntagResource
 timestream:UpdateDatabase
 timestream:UpdateTable
 timestream:WriteRecords
+tiros:CreateQuery
+tiros:GetQueryAnswer
+tiros:GetQueryExplanation
 transcribe:CreateLanguageModel
 transcribe:CreateMedicalVocabulary
 transcribe:CreateVocabulary
