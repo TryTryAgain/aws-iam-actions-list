@@ -1352,9 +1352,13 @@ cloudsearch:UpdateScalingParameters
 cloudsearch:UpdateServiceAccessPolicies
 cloudshell:CreateEnvironment
 cloudshell:CreateSession
+cloudshell:DeleteEnvironment
+cloudshell:GetEnvironmentStatus
 cloudshell:GetFileDownloadUrls
 cloudshell:GetFileUploadUrls
 cloudshell:PutCredentials
+cloudshell:StartEnvironment
+cloudshell:StopEnvironment
 cloudtrail:AddTags
 cloudtrail:CreateTrail
 cloudtrail:DeleteTrail
