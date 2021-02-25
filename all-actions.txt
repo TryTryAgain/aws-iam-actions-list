@@ -6966,6 +6966,7 @@ rds:DescribeSourceRegions
 rds:DescribeValidDBInstanceModifications
 rds:DownloadDBLogFilePortion
 rds:FailoverDBCluster
+rds:FailoverGlobalCluster
 rds:ListTagsForResource
 rds:ModifyCurrentDBClusterCapacity
 rds:ModifyDBCluster
