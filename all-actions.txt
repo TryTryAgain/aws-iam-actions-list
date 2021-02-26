@@ -4647,6 +4647,7 @@ imagebuilder:ListComponents
 imagebuilder:ListContainerRecipes
 imagebuilder:ListDistributionConfigurations
 imagebuilder:ListImageBuildVersions
+imagebuilder:ListImagePackages
 imagebuilder:ListImagePipelineImages
 imagebuilder:ListImagePipelines
 imagebuilder:ListImageRecipes
