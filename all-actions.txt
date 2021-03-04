@@ -104,6 +104,7 @@ acm:AddTagsToCertificate
 acm:DeleteCertificate
 acm:DescribeCertificate
 acm:ExportCertificate
+acm:GetAccountConfiguration
 acm:GetCertificate
 acm:ImportCertificate
 acm:ListCertificates
@@ -131,6 +132,7 @@ acm-pca:RevokeCertificate
 acm-pca:TagCertificateAuthority
 acm-pca:UntagCertificateAuthority
 acm-pca:UpdateCertificateAuthority
+acm:PutAccountConfiguration
 acm:RemoveTagsFromCertificate
 acm:RenewCertificate
 acm:RequestCertificate
@@ -9107,8 +9109,11 @@ wellarchitected:ListLensReviews
 wellarchitected:ListMilestones
 wellarchitected:ListNotifications
 wellarchitected:ListShareInvitations
+wellarchitected:ListTagsForResource
 wellarchitected:ListWorkloads
 wellarchitected:ListWorkloadShares
+wellarchitected:TagResource
+wellarchitected:UntagResource
 wellarchitected:UpdateAnswer
 wellarchitected:UpdateLensReview
 wellarchitected:UpdateShareInvitation
