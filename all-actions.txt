@@ -2939,6 +2939,7 @@ ec2:DeregisterTransitGatewayMulticastGroupMembers
 ec2:DeregisterTransitGatewayMulticastGroupSources
 ec2:DescribeAccountAttributes
 ec2:DescribeAddresses
+ec2:DescribeAddressesAttribute
 ec2:DescribeAggregateIdFormat
 ec2:DescribeAvailabilityZones
 ec2:DescribeBundleTasks
@@ -3121,6 +3122,7 @@ ec2messages:FailMessage
 ec2messages:GetEndpoint
 ec2messages:GetMessages
 ec2messages:SendReply
+ec2:ModifyAddressAttribute
 ec2:ModifyAvailabilityZoneGroup
 ec2:ModifyCapacityReservation
 ec2:ModifyClientVpnEndpoint
@@ -3191,6 +3193,7 @@ ec2:ReplaceTransitGatewayRoute
 ec2:ReportInstanceStatus
 ec2:RequestSpotFleet
 ec2:RequestSpotInstances
+ec2:ResetAddressAttribute
 ec2:ResetEbsDefaultKmsKeyId
 ec2:ResetFpgaImageAttribute
 ec2:ResetImageAttribute
