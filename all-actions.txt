@@ -732,6 +732,7 @@ backup:DescribeProtectedResource
 backup:DescribeRecoveryPoint
 backup:DescribeRegionSettings
 backup:DescribeRestoreJob
+backup:DisassociateRecoveryPoint
 backup:ExportBackupPlanTemplate
 backup:GetBackupPlan
 backup:GetBackupPlanFromJSON
@@ -3330,6 +3331,8 @@ ecs:UpdateService
 ecs:UpdateServicePrimaryTaskSet
 ecs:UpdateTaskSet
 eks:AccessKubernetesApi
+eks:AssociateEncryptionConfig
+eks:AssociateIdentityProviderConfig
 eks:CreateAddon
 eks:CreateCluster
 eks:CreateFargateProfile
@@ -3342,11 +3345,14 @@ eks:DescribeAddon
 eks:DescribeAddonVersions
 eks:DescribeCluster
 eks:DescribeFargateProfile
+eks:DescribeIdentityProviderConfig
 eks:DescribeNodegroup
 eks:DescribeUpdate
+eks:DisassociateIdentityProviderConfig
 eks:ListAddons
 eks:ListClusters
 eks:ListFargateProfiles
+eks:ListIdentityProviderConfigs
 eks:ListNodegroups
 eks:ListTagsForResource
 eks:ListUpdates
