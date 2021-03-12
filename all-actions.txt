@@ -1778,12 +1778,14 @@ cognito-identity:GetId
 cognito-identity:GetIdentityPoolRoles
 cognito-identity:GetOpenIdToken
 cognito-identity:GetOpenIdTokenForDeveloperIdentity
+cognito-identity:GetPrincipalTagAttributeMap
 cognito-identity:ListIdentities
 cognito-identity:ListIdentityPools
 cognito-identity:ListTagsForResource
 cognito-identity:LookupDeveloperIdentity
 cognito-identity:MergeDeveloperIdentities
 cognito-identity:SetIdentityPoolRoles
+cognito-identity:SetPrincipalTagAttributeMap
 cognito-identity:TagResource
 cognito-identity:UnlinkDeveloperIdentity
 cognito-identity:UnlinkIdentity
@@ -1914,6 +1916,7 @@ comprehend:BatchDetectKeyPhrases
 comprehend:BatchDetectSentiment
 comprehend:BatchDetectSyntax
 comprehend:ClassifyDocument
+comprehend:ContainsPiiEntities
 comprehend:CreateDocumentClassifier
 comprehend:CreateEndpoint
 comprehend:CreateEntityRecognizer
