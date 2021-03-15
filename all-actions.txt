@@ -2298,6 +2298,7 @@ datasync:TagResource
 datasync:UntagResource
 datasync:UpdateAgent
 datasync:UpdateTask
+datasync:UpdateTaskExecution
 dax:BatchGetItem
 dax:BatchWriteItem
 dax:ConditionCheckItem
@@ -8129,6 +8130,7 @@ ses:GetDedicatedIp
 ses:GetDedicatedIps
 ses:GetDeliverabilityDashboardOptions
 ses:GetDeliverabilityTestReport
+ses:GetDomainDeliverabilityCampaign
 ses:GetDomainStatisticsReport
 ses:GetEmailIdentity
 ses:GetIdentityDkimAttributes
@@ -8143,6 +8145,7 @@ ses:ListConfigurationSets
 ses:ListCustomVerificationEmailTemplates
 ses:ListDedicatedIpPools
 ses:ListDeliverabilityTestReports
+ses:ListDomainDeliverabilityCampaigns
 ses:ListEmailIdentities
 ses:ListIdentities
 ses:ListIdentityPolicies
