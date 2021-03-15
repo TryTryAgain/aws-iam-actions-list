@@ -15,7 +15,7 @@
 .PHONY: update
 
 all-actions.txt: var/policies.js bin/extract-app.js
-	node bin/extract-app.js | sort | uniq > $@.tmp && mv $@.tmp $@
+	node bin/extract-app.js | LC_COLLATE=C sort | uniq > $@.tmp && mv $@.tmp $@
 
 var/policies.js:
 	mkdir -p var
