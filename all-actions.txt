@@ -6753,6 +6753,9 @@ proton:ListServiceTemplateMajorVersions
 proton:ListServiceTemplateMinorVersions
 proton:ListServiceTemplates
 proton:ListServices
+proton:ListTagsForResource
+proton:TagResource
+proton:UntagResource
 proton:UpdateAccountRoles
 proton:UpdateEnvironment
 proton:UpdateEnvironmentTemplate
