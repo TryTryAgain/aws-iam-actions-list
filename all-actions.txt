@@ -7461,10 +7461,13 @@ s3-outposts:PutObjectTagging
 s3:AbortMultipartUpload
 s3:BypassGovernanceRetention
 s3:CreateAccessPoint
+s3:CreateAccessPointForObjectLambda
 s3:CreateBucket
 s3:CreateJob
 s3:DeleteAccessPoint
+s3:DeleteAccessPointForObjectLambda
 s3:DeleteAccessPointPolicy
+s3:DeleteAccessPointPolicyForObjectLambda
 s3:DeleteBucket
 s3:DeleteBucketOwnershipControls
 s3:DeleteBucketPolicy
@@ -7479,8 +7482,12 @@ s3:DeleteStorageLensConfigurationTagging
 s3:DescribeJob
 s3:GetAccelerateConfiguration
 s3:GetAccessPoint
+s3:GetAccessPointConfigurationForObjectLambda
+s3:GetAccessPointForObjectLambda
 s3:GetAccessPointPolicy
+s3:GetAccessPointPolicyForObjectLambda
 s3:GetAccessPointPolicyStatus
+s3:GetAccessPointPolicyStatusForObjectLambda
 s3:GetAccountPublicAccessBlock
 s3:GetAnalyticsConfiguration
 s3:GetBucketAcl
@@ -7519,6 +7526,7 @@ s3:GetStorageLensConfiguration
 s3:GetStorageLensConfigurationTagging
 s3:GetStorageLensDashboard
 s3:ListAccessPoints
+s3:ListAccessPointsForObjectLambda
 s3:ListAllMyBuckets
 s3:ListBucket
 s3:ListBucketMultipartUploads
@@ -7528,7 +7536,9 @@ s3:ListMultipartUploadParts
 s3:ListStorageLensConfigurations
 s3:ObjectOwnerOverrideToBucketOwner
 s3:PutAccelerateConfiguration
+s3:PutAccessPointConfigurationForObjectLambda
 s3:PutAccessPointPolicy
+s3:PutAccessPointPolicyForObjectLambda
 s3:PutAccountPublicAccessBlock
 s3:PutAnalyticsConfiguration
 s3:PutBucketAcl
