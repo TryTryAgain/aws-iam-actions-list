@@ -3930,6 +3930,7 @@ gamelift:ClaimGameServer
 gamelift:CreateAlias
 gamelift:CreateBuild
 gamelift:CreateFleet
+gamelift:CreateFleetLocations
 gamelift:CreateGameServerGroup
 gamelift:CreateGameSession
 gamelift:CreateGameSessionQueue
@@ -3943,6 +3944,7 @@ gamelift:CreateVpcPeeringConnection
 gamelift:DeleteAlias
 gamelift:DeleteBuild
 gamelift:DeleteFleet
+gamelift:DeleteFleetLocations
 gamelift:DeleteGameServerGroup
 gamelift:DeleteGameSessionQueue
 gamelift:DeleteMatchmakingConfiguration
@@ -3958,6 +3960,9 @@ gamelift:DescribeEC2InstanceLimits
 gamelift:DescribeFleetAttributes
 gamelift:DescribeFleetCapacity
 gamelift:DescribeFleetEvents
+gamelift:DescribeFleetLocationAttributes
+gamelift:DescribeFleetLocationCapacity
+gamelift:DescribeFleetLocationUtilization
 gamelift:DescribeFleetPortSettings
 gamelift:DescribeFleetUtilization
 gamelift:DescribeGameServer
