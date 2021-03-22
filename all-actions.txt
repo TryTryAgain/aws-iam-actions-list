@@ -513,13 +513,16 @@ athena:BatchGetNamedQuery
 athena:BatchGetQueryExecution
 athena:CreateDataCatalog
 athena:CreateNamedQuery
+athena:CreatePreparedStatement
 athena:CreateWorkGroup
 athena:DeleteDataCatalog
 athena:DeleteNamedQuery
+athena:DeletePreparedStatement
 athena:DeleteWorkGroup
 athena:GetDataCatalog
 athena:GetDatabase
 athena:GetNamedQuery
+athena:GetPreparedStatement
 athena:GetQueryExecution
 athena:GetQueryResults
 athena:GetQueryResultsStream
@@ -529,6 +532,7 @@ athena:ListDataCatalogs
 athena:ListDatabases
 athena:ListEngineVersions
 athena:ListNamedQueries
+athena:ListPreparedStatements
 athena:ListQueryExecutions
 athena:ListTableMetadata
 athena:ListTagsForResource
@@ -538,6 +542,7 @@ athena:StopQueryExecution
 athena:TagResource
 athena:UntagResource
 athena:UpdateDataCatalog
+athena:UpdatePreparedStatement
 athena:UpdateWorkGroup
 auditmanager:AssociateAssessmentReportEvidenceFolder
 auditmanager:BatchAssociateAssessmentReportEvidence
