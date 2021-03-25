@@ -5877,7 +5877,10 @@ lookoutmetrics:ListAnomalyDetectors
 lookoutmetrics:ListAnomalyGroupSummaries
 lookoutmetrics:ListAnomalyGroupTimeSeries
 lookoutmetrics:ListMetricSets
+lookoutmetrics:ListTagsForResource
 lookoutmetrics:PutFeedback
+lookoutmetrics:TagResource
+lookoutmetrics:UntagResource
 lookoutmetrics:UpdateAnomalyDetector
 lookoutmetrics:UpdateMetricSet
 lookoutvision:CreateDataset
