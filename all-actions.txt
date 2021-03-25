@@ -222,11 +222,13 @@ amplifybackend:UpdateBackendAPI
 amplifybackend:UpdateBackendAuth
 amplifybackend:UpdateBackendConfig
 amplifybackend:UpdateBackendJob
+apigateway:AddCertificateToDomain
 apigateway:DELETE
 apigateway:GET
 apigateway:PATCH
 apigateway:POST
 apigateway:PUT
+apigateway:RemoveCertificateFromDomain
 apigateway:SetWebACL
 apigateway:UpdateRestApiPolicy
 app-integrations:CreateEventIntegration
