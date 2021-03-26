@@ -8745,6 +8745,7 @@ storagegateway:AddTagsToResource
 storagegateway:AddUploadBuffer
 storagegateway:AddWorkingStorage
 storagegateway:AssignTapePool
+storagegateway:AssociateFileSystem
 storagegateway:AttachVolume
 storagegateway:BypassGovernanceRetention
 storagegateway:CancelArchival
@@ -8774,6 +8775,7 @@ storagegateway:DescribeBandwidthRateLimitSchedule
 storagegateway:DescribeCache
 storagegateway:DescribeCachediSCSIVolumes
 storagegateway:DescribeChapCredentials
+storagegateway:DescribeFileSystemAssociations
 storagegateway:DescribeGatewayInformation
 storagegateway:DescribeMaintenanceStartTime
 storagegateway:DescribeNFSFileShares
@@ -8789,9 +8791,11 @@ storagegateway:DescribeVTLDevices
 storagegateway:DescribeWorkingStorage
 storagegateway:DetachVolume
 storagegateway:DisableGateway
+storagegateway:DisassociateFileSystem
 storagegateway:JoinDomain
 storagegateway:ListAutomaticTapeCreationPolicies
 storagegateway:ListFileShares
+storagegateway:ListFileSystemAssociations
 storagegateway:ListGateways
 storagegateway:ListLocalDisks
 storagegateway:ListTagsForResource
@@ -8815,6 +8819,7 @@ storagegateway:UpdateAutomaticTapeCreationPolicy
 storagegateway:UpdateBandwidthRateLimit
 storagegateway:UpdateBandwidthRateLimitSchedule
 storagegateway:UpdateChapCredentials
+storagegateway:UpdateFileSystemAssociation
 storagegateway:UpdateGatewayInformation
 storagegateway:UpdateGatewaySoftwareNow
 storagegateway:UpdateMaintenanceStartTime
