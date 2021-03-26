@@ -3656,6 +3656,7 @@ elemental-appliances-software:ListTagsForResource
 elemental-appliances-software:TagResource
 elemental-appliances-software:UntagResource
 elemental-appliances-software:UpdateQuote
+elemental-support-cases:CheckCasePermission
 elemental-support-cases:CreateCase
 elemental-support-cases:GetCase
 elemental-support-cases:GetCases
