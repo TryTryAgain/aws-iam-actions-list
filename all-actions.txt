@@ -4839,6 +4839,7 @@ iot:CancelJob
 iot:CancelJobExecution
 iot:ClearDefaultAuthorizer
 iot:CloseTunnel
+iot:ConfirmTopicRuleDestination
 iot:Connect
 iot:CreateAuditSuppression
 iot:CreateAuthorizer
@@ -4865,6 +4866,7 @@ iot:CreateThing
 iot:CreateThingGroup
 iot:CreateThingType
 iot:CreateTopicRule
+iot:CreateTopicRuleDestination
 iot:DeleteAccountAuditConfiguration
 iot:DeleteAuditSuppression
 iot:DeleteAuthorizer
@@ -4893,6 +4895,7 @@ iot:DeleteThingGroup
 iot:DeleteThingShadow
 iot:DeleteThingType
 iot:DeleteTopicRule
+iot:DeleteTopicRuleDestination
 iot:DeleteV2LoggingLevel
 iot:DeprecateThingType
 iot:DescribeAccountAuditConfiguration
@@ -4946,6 +4949,7 @@ iot:GetRegistrationCode
 iot:GetStatistics
 iot:GetThingShadow
 iot:GetTopicRule
+iot:GetTopicRuleDestination
 iot:GetV2LoggingOptions
 iot:ListActiveViolations
 iot:ListAttachedPolicies
@@ -4994,6 +4998,7 @@ iot:ListThingTypes
 iot:ListThings
 iot:ListThingsInBillingGroup
 iot:ListThingsInThingGroup
+iot:ListTopicRuleDestinations
 iot:ListTopicRules
 iot:ListTunnels
 iot:ListV2LoggingLevels
@@ -5050,6 +5055,7 @@ iot:UpdateThing
 iot:UpdateThingGroup
 iot:UpdateThingGroupsForThing
 iot:UpdateThingShadow
+iot:UpdateTopicRuleDestination
 iot:ValidateSecurityProfileBehaviors
 iotanalytics:BatchPutMessage
 iotanalytics:CancelPipelineReprocessing
