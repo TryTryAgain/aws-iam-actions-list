@@ -2033,6 +2033,7 @@ config:DeleteRetentionConfiguration
 config:DeleteStoredQuery
 config:DeliverConfigSnapshot
 config:DescribeAggregateComplianceByConfigRules
+config:DescribeAggregateComplianceByConformancePacks
 config:DescribeAggregationAuthorizations
 config:DescribeComplianceByConfigRule
 config:DescribeComplianceByResource
@@ -2058,6 +2059,7 @@ config:DescribeRemediationExecutionStatus
 config:DescribeRetentionConfigurations
 config:GetAggregateComplianceDetailsByConfigRule
 config:GetAggregateConfigRuleComplianceSummary
+config:GetAggregateConformancePackComplianceSummary
 config:GetAggregateDiscoveredResourceCounts
 config:GetAggregateResourceConfig
 config:GetComplianceDetailsByConfigRule
@@ -2801,6 +2803,7 @@ ebs:ListSnapshotBlocks
 ebs:PutSnapshotBlock
 ebs:StartSnapshot
 ec2-instance-connect:SendSSHPublicKey
+ec2-instance-connect:SendSerialConsoleSSHPublicKey
 ec2:AcceptReservedInstancesExchangeQuote
 ec2:AcceptTransitGatewayMulticastDomainAssociations
 ec2:AcceptTransitGatewayPeeringAttachment
