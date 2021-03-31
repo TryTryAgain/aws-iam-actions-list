@@ -1396,6 +1396,7 @@ cloudwatch:DeleteAlarms
 cloudwatch:DeleteAnomalyDetector
 cloudwatch:DeleteDashboards
 cloudwatch:DeleteInsightRules
+cloudwatch:DeleteMetricStream
 cloudwatch:DescribeAlarmHistory
 cloudwatch:DescribeAlarms
 cloudwatch:DescribeAlarmsForMetric
@@ -1409,8 +1410,10 @@ cloudwatch:GetDashboard
 cloudwatch:GetInsightRuleReport
 cloudwatch:GetMetricData
 cloudwatch:GetMetricStatistics
+cloudwatch:GetMetricStream
 cloudwatch:GetMetricWidgetImage
 cloudwatch:ListDashboards
+cloudwatch:ListMetricStreams
 cloudwatch:ListMetrics
 cloudwatch:ListTagsForResource
 cloudwatch:PutAnomalyDetector
@@ -1419,7 +1422,10 @@ cloudwatch:PutDashboard
 cloudwatch:PutInsightRule
 cloudwatch:PutMetricAlarm
 cloudwatch:PutMetricData
+cloudwatch:PutMetricStream
 cloudwatch:SetAlarmState
+cloudwatch:StartMetricStreams
+cloudwatch:StopMetricStreams
 cloudwatch:TagResource
 cloudwatch:UntagResource
 codeartifact:AssociateExternalConnection
