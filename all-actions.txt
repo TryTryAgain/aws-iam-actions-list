@@ -3867,11 +3867,14 @@ forecast:UntagResource
 forecast:UpdateDatasetGroup
 frauddetector:BatchCreateVariable
 frauddetector:BatchGetVariable
+frauddetector:CancelBatchPredictionJob
+frauddetector:CreateBatchPredictionJob
 frauddetector:CreateDetectorVersion
 frauddetector:CreateModel
 frauddetector:CreateModelVersion
 frauddetector:CreateRule
 frauddetector:CreateVariable
+frauddetector:DeleteBatchPredictionJob
 frauddetector:DeleteDetector
 frauddetector:DeleteDetectorVersion
 frauddetector:DeleteEntityType
@@ -3886,6 +3889,7 @@ frauddetector:DeleteRule
 frauddetector:DeleteVariable
 frauddetector:DescribeDetector
 frauddetector:DescribeModelVersions
+frauddetector:GetBatchPredictionJobs
 frauddetector:GetDetectorVersion
 frauddetector:GetDetectors
 frauddetector:GetEntityTypes
