@@ -3939,6 +3939,7 @@ freertos:ListHardwarePlatforms
 freertos:ListHardwareVendors
 freertos:ListSoftwareConfigurations
 freertos:UpdateSoftwareConfiguration
+fsx:AssociateFileGateway
 fsx:AssociateFileSystemAliases
 fsx:CancelDataRepositoryTask
 fsx:CreateBackup
@@ -3947,10 +3948,12 @@ fsx:CreateFileSystem
 fsx:CreateFileSystemFromBackup
 fsx:DeleteBackup
 fsx:DeleteFileSystem
+fsx:DescribeAssociatedFileGateways
 fsx:DescribeBackups
 fsx:DescribeDataRepositoryTasks
 fsx:DescribeFileSystemAliases
 fsx:DescribeFileSystems
+fsx:DisassociateFileGateway
 fsx:DisassociateFileSystemAliases
 fsx:ListTagsForResource
 fsx:TagResource
