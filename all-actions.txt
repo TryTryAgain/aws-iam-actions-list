@@ -7317,6 +7317,7 @@ rekognition:IndexFaces
 rekognition:ListCollections
 rekognition:ListFaces
 rekognition:ListStreamProcessors
+rekognition:ListTagsForResource
 rekognition:RecognizeCelebrities
 rekognition:SearchFaces
 rekognition:SearchFacesByImage
@@ -7332,6 +7333,8 @@ rekognition:StartStreamProcessor
 rekognition:StartTextDetection
 rekognition:StopProjectVersion
 rekognition:StopStreamProcessor
+rekognition:TagResource
+rekognition:UntagResource
 resource-explorer:ListResourceTypes
 resource-explorer:ListResources
 resource-explorer:ListTags
