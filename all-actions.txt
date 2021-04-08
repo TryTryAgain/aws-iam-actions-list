@@ -2355,13 +2355,17 @@ dax:UpdateParameterGroup
 dax:UpdateSubnetGroup
 dbqms:CreateFavoriteQuery
 dbqms:CreateQueryHistory
+dbqms:CreateTab
 dbqms:DeleteFavoriteQueries
 dbqms:DeleteQueryHistory
+dbqms:DeleteTab
 dbqms:DescribeFavoriteQueries
 dbqms:DescribeQueryHistory
+dbqms:DescribeTabs
 dbqms:GetQueryString
 dbqms:UpdateFavoriteQuery
 dbqms:UpdateQueryHistory
+dbqms:UpdateTab
 deepcomposer:AssociateCoupon
 deepcomposer:CreateAudio
 deepcomposer:CreateComposition
