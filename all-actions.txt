@@ -3950,6 +3950,7 @@ freertos:UpdateSoftwareConfiguration
 fsx:AssociateFileGateway
 fsx:AssociateFileSystemAliases
 fsx:CancelDataRepositoryTask
+fsx:CopyBackup
 fsx:CreateBackup
 fsx:CreateDataRepositoryTask
 fsx:CreateFileSystem
@@ -3964,6 +3965,7 @@ fsx:DescribeFileSystems
 fsx:DisassociateFileGateway
 fsx:DisassociateFileSystemAliases
 fsx:ListTagsForResource
+fsx:ManageBackupPrincipalAssociations
 fsx:TagResource
 fsx:UntagResource
 fsx:UpdateFileSystem
@@ -4464,6 +4466,7 @@ groundstation:TagResource
 groundstation:UntagResource
 groundstation:UpdateConfig
 groundstation:UpdateMissionProfile
+groundtruthlabeling:AssociatePatchToManifestJob
 groundtruthlabeling:DescribeConsoleJob
 groundtruthlabeling:ListDatasetObjects
 groundtruthlabeling:RunFilterOrSampleDatasetJob
