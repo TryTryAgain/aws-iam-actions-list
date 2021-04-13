@@ -4888,6 +4888,7 @@ iot:AttachThingPrincipal
 iot:CancelAuditMitigationActionsTask
 iot:CancelAuditTask
 iot:CancelCertificateTransfer
+iot:CancelDetectMitigationActionsTask
 iot:CancelJob
 iot:CancelJobExecution
 iot:ClearDefaultAuthorizer
@@ -4898,6 +4899,7 @@ iot:CreateAuditSuppression
 iot:CreateAuthorizer
 iot:CreateBillingGroup
 iot:CreateCertificateFromCsr
+iot:CreateCustomMetric
 iot:CreateDimension
 iot:CreateDomainConfiguration
 iot:CreateDynamicThingGroup
@@ -4926,6 +4928,7 @@ iot:DeleteAuthorizer
 iot:DeleteBillingGroup
 iot:DeleteCACertificate
 iot:DeleteCertificate
+iot:DeleteCustomMetric
 iot:DeleteDimension
 iot:DeleteDomainConfiguration
 iot:DeleteDynamicThingGroup
@@ -4960,7 +4963,9 @@ iot:DescribeAuthorizer
 iot:DescribeBillingGroup
 iot:DescribeCACertificate
 iot:DescribeCertificate
+iot:DescribeCustomMetric
 iot:DescribeDefaultAuthorizer
+iot:DescribeDetectMitigationActionsTask
 iot:DescribeDimension
 iot:DescribeDomainConfiguration
 iot:DescribeEndpoint
@@ -4987,6 +4992,7 @@ iot:DetachSecurityProfile
 iot:DetachThingPrincipal
 iot:DisableTopicRule
 iot:EnableTopicRule
+iot:GetBehaviorModelTrainingSummaries
 iot:GetBucketsAggregation
 iot:GetCardinality
 iot:GetEffectivePolicies
@@ -5016,6 +5022,9 @@ iot:ListBillingGroups
 iot:ListCACertificates
 iot:ListCertificates
 iot:ListCertificatesByCA
+iot:ListCustomMetrics
+iot:ListDetectMitigationActionsExecutions
+iot:ListDetectMitigationActionsTasks
 iot:ListDimensions
 iot:ListDomainConfigurations
 iot:ListFleetMetrics
@@ -5074,6 +5083,7 @@ iot:SetLoggingOptions
 iot:SetV2LoggingLevel
 iot:SetV2LoggingOptions
 iot:StartAuditMitigationActionsTask
+iot:StartDetectMitigationActionsTask
 iot:StartNextPendingJobExecution
 iot:StartOnDemandAuditTask
 iot:StartThingRegistrationTask
@@ -5090,6 +5100,7 @@ iot:UpdateAuthorizer
 iot:UpdateBillingGroup
 iot:UpdateCACertificate
 iot:UpdateCertificate
+iot:UpdateCustomMetric
 iot:UpdateDimension
 iot:UpdateDomainConfiguration
 iot:UpdateDynamicThingGroup
@@ -9044,6 +9055,7 @@ sts:GetCallerIdentity
 sts:GetFederationToken
 sts:GetServiceBearerToken
 sts:GetSessionToken
+sts:SetSourceIdentity
 sts:TagSession
 sumerian:Login
 sumerian:ViewRelease
