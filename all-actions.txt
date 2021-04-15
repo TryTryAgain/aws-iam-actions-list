@@ -4391,6 +4391,7 @@ greengrass:Discover
 greengrass:GetAssociatedRole
 greengrass:GetBulkDeploymentStatus
 greengrass:GetComponent
+greengrass:GetComponentVersionArtifact
 greengrass:GetConnectivityInfo
 greengrass:GetConnectorDefinition
 greengrass:GetConnectorDefinitionVersion
@@ -4442,6 +4443,7 @@ greengrass:ListSubscriptionDefinitionVersions
 greengrass:ListSubscriptionDefinitions
 greengrass:ListTagsForResource
 greengrass:ResetDeployments
+greengrass:ResolveComponentCandidates
 greengrass:StartBulkDeployment
 greengrass:StopBulkDeployment
 greengrass:TagResource
@@ -8251,6 +8253,7 @@ servicecatalog:DescribeConstraint
 servicecatalog:DescribeCopyProductStatus
 servicecatalog:DescribePortfolio
 servicecatalog:DescribePortfolioShareStatus
+servicecatalog:DescribePortfolioShares
 servicecatalog:DescribeProduct
 servicecatalog:DescribeProductAsAdmin
 servicecatalog:DescribeProductView
@@ -8276,6 +8279,7 @@ servicecatalog:ExecuteProvisionedProductServiceAction
 servicecatalog:GetAWSOrganizationsAccessStatus
 servicecatalog:GetApplication
 servicecatalog:GetAttributeGroup
+servicecatalog:GetProvisionedProductOutputs
 servicecatalog:ImportAsProvisionedProduct
 servicecatalog:ListAcceptedPortfolioShares
 servicecatalog:ListApplications
@@ -8314,6 +8318,7 @@ servicecatalog:UpdateApplication
 servicecatalog:UpdateAttributeGroup
 servicecatalog:UpdateConstraint
 servicecatalog:UpdatePortfolio
+servicecatalog:UpdatePortfolioShare
 servicecatalog:UpdateProduct
 servicecatalog:UpdateProvisionedProduct
 servicecatalog:UpdateProvisionedProductProperties
