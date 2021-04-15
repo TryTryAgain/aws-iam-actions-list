@@ -7451,6 +7451,7 @@ resource-groups:GetTags
 resource-groups:GroupResources
 resource-groups:ListGroupResources
 resource-groups:ListGroups
+resource-groups:PutGroupConfiguration
 resource-groups:PutGroupPolicy
 resource-groups:SearchResources
 resource-groups:Tag
