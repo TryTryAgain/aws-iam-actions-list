@@ -4838,6 +4838,7 @@ importexport:UpdateJob
 inspector:AddAttributesToFindings
 inspector:CreateAssessmentTarget
 inspector:CreateAssessmentTemplate
+inspector:CreateExclusionsPreview
 inspector:CreateResourceGroup
 inspector:DeleteAssessmentRun
 inspector:DeleteAssessmentTarget
@@ -4846,15 +4847,19 @@ inspector:DescribeAssessmentRuns
 inspector:DescribeAssessmentTargets
 inspector:DescribeAssessmentTemplates
 inspector:DescribeCrossAccountAccessRole
+inspector:DescribeExclusions
 inspector:DescribeFindings
 inspector:DescribeResourceGroups
 inspector:DescribeRulesPackages
+inspector:GetAssessmentReport
+inspector:GetExclusionsPreview
 inspector:GetTelemetryMetadata
 inspector:ListAssessmentRunAgents
 inspector:ListAssessmentRuns
 inspector:ListAssessmentTargets
 inspector:ListAssessmentTemplates
 inspector:ListEventSubscriptions
+inspector:ListExclusions
 inspector:ListFindings
 inspector:ListRulesPackages
 inspector:ListTagsForResource
