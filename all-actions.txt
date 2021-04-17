@@ -208,6 +208,7 @@ amplify:ListBackendEnvironments
 amplify:ListBranches
 amplify:ListDomainAssociations
 amplify:ListJobs
+amplify:ListTagsForResource
 amplify:ListWebHooks
 amplify:StartDeployment
 amplify:StartJob
@@ -4332,6 +4333,7 @@ glue:QuerySchemaVersionMetadata
 glue:RegisterSchemaVersion
 glue:RemoveSchemaVersionMetadata
 glue:ResetJobBookmark
+glue:ResumeWorkflowRun
 glue:SearchTables
 glue:StartCrawler
 glue:StartCrawlerSchedule
@@ -4345,6 +4347,7 @@ glue:StartWorkflowRun
 glue:StopCrawler
 glue:StopCrawlerSchedule
 glue:StopTrigger
+glue:StopWorkflowRun
 glue:TagResource
 glue:UntagResource
 glue:UpdateClassifier
@@ -4363,9 +4366,11 @@ glue:UpdateTrigger
 glue:UpdateUserDefinedFunction
 glue:UpdateWorkflow
 glue:UseMLTransforms
+grafana:AssociateLicense
 grafana:CreateWorkspace
 grafana:DeleteWorkspace
 grafana:DescribeWorkspace
+grafana:DisassociateLicense
 grafana:ListPermissions
 grafana:ListWorkspaces
 grafana:UpdatePermissions
