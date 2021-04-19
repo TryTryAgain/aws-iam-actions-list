@@ -2197,6 +2197,7 @@ connect:ListPrompts
 connect:ListQueueQuickConnects
 connect:ListQueues
 connect:ListQuickConnects
+connect:ListRealtimeContactAnalysisSegments
 connect:ListRoutingProfileQueues
 connect:ListRoutingProfiles
 connect:ListSecurityKeys
@@ -7395,6 +7396,7 @@ redshift:ListDatabases
 redshift:ListSavedQueries
 redshift:ListSchemas
 redshift:ListTables
+redshift:ModifyAquaConfiguration
 redshift:ModifyCluster
 redshift:ModifyClusterDbRevision
 redshift:ModifyClusterIamRoles
