@@ -6378,6 +6378,7 @@ mgh:DisassociateCreatedArtifact
 mgh:DisassociateDiscoveredResource
 mgh:GetHomeRegion
 mgh:ImportMigrationTask
+mgh:ListApplicationStates
 mgh:ListCreatedArtifacts
 mgh:ListDiscoveredResources
 mgh:ListMigrationTasks
