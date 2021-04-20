@@ -1363,6 +1363,8 @@ cloudhsm:ListHsms
 cloudhsm:ListLunaClients
 cloudhsm:ListTags
 cloudhsm:ListTagsForResource
+cloudhsm:ModifyBackupAttributes
+cloudhsm:ModifyCluster
 cloudhsm:ModifyHapg
 cloudhsm:ModifyHsm
 cloudhsm:ModifyLunaClient
