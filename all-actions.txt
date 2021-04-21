@@ -4546,8 +4546,10 @@ guardduty:GetFindingsStatistics
 guardduty:GetIPSet
 guardduty:GetInvitationsCount
 guardduty:GetMasterAccount
+guardduty:GetMemberDetectors
 guardduty:GetMembers
 guardduty:GetThreatIntelSet
+guardduty:GetUsageStatistics
 guardduty:InviteMembers
 guardduty:ListDetectors
 guardduty:ListFilters
@@ -4568,6 +4570,7 @@ guardduty:UpdateDetector
 guardduty:UpdateFilter
 guardduty:UpdateFindingsFeedback
 guardduty:UpdateIPSet
+guardduty:UpdateMemberDetectors
 guardduty:UpdateOrganizationConfiguration
 guardduty:UpdatePublishingDestination
 guardduty:UpdateThreatIntelSet
