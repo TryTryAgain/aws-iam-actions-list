@@ -1257,6 +1257,7 @@ cloudformation:ListStacks
 cloudformation:ListTypeRegistrations
 cloudformation:ListTypeVersions
 cloudformation:ListTypes
+cloudformation:RecordHandlerProgress
 cloudformation:RegisterType
 cloudformation:SetStackPolicy
 cloudformation:SetTypeDefaultVersion
@@ -6522,11 +6523,13 @@ mobiletargeting:GetApnsSandboxChannel
 mobiletargeting:GetApnsVoipChannel
 mobiletargeting:GetApnsVoipSandboxChannel
 mobiletargeting:GetApp
+mobiletargeting:GetApplicationDateRangeKpi
 mobiletargeting:GetApplicationSettings
 mobiletargeting:GetApps
 mobiletargeting:GetBaiduChannel
 mobiletargeting:GetCampaign
 mobiletargeting:GetCampaignActivities
+mobiletargeting:GetCampaignDateRangeKpi
 mobiletargeting:GetCampaignVersion
 mobiletargeting:GetCampaignVersions
 mobiletargeting:GetCampaigns
@@ -6541,6 +6544,9 @@ mobiletargeting:GetGcmChannel
 mobiletargeting:GetImportJob
 mobiletargeting:GetImportJobs
 mobiletargeting:GetJourney
+mobiletargeting:GetJourneyDateRangeKpi
+mobiletargeting:GetJourneyExecutionActivityMetrics
+mobiletargeting:GetJourneyExecutionMetrics
 mobiletargeting:GetPushTemplate
 mobiletargeting:GetRecommenderConfiguration
 mobiletargeting:GetRecommenderConfigurations
