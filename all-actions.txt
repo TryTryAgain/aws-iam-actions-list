@@ -2577,9 +2577,11 @@ devops-guru:AddNotificationChannel
 devops-guru:DescribeAccountHealth
 devops-guru:DescribeAccountOverview
 devops-guru:DescribeAnomaly
+devops-guru:DescribeFeedback
 devops-guru:DescribeInsight
 devops-guru:DescribeResourceCollectionHealth
 devops-guru:DescribeServiceIntegration
+devops-guru:GetCostEstimation
 devops-guru:GetResourceCollection
 devops-guru:ListAnomaliesForInsight
 devops-guru:ListEvents
@@ -2589,6 +2591,7 @@ devops-guru:ListRecommendations
 devops-guru:PutFeedback
 devops-guru:RemoveNotificationChannel
 devops-guru:SearchInsights
+devops-guru:StartCostEstimation
 devops-guru:UpdateResourceCollection
 devops-guru:UpdateServiceIntegration
 directconnect:AcceptDirectConnectGatewayAssociationProposal
@@ -6349,6 +6352,7 @@ mediapackage:ListChannels
 mediapackage:ListHarvestJobs
 mediapackage:ListOriginEndpoints
 mediapackage:ListTagsForResource
+mediapackage:RotateChannelCredentials
 mediapackage:RotateIngestEndpointCredentials
 mediapackage:TagResource
 mediapackage:UntagResource
