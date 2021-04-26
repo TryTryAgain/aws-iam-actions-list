@@ -2152,6 +2152,7 @@ config:StopConfigurationRecorder
 config:TagResource
 config:UntagResource
 connect:AssociateApprovedOrigin
+connect:AssociateCustomerProfilesDomain
 connect:AssociateInstanceStorageConfig
 connect:AssociateLambdaFunction
 connect:AssociateLexBot
@@ -2160,13 +2161,17 @@ connect:AssociateRoutingProfileQueues
 connect:AssociateSecurityKey
 connect:CreateContactFlow
 connect:CreateInstance
+connect:CreateIntegrationAssociation
 connect:CreateQueue
 connect:CreateQuickConnect
 connect:CreateRoutingProfile
+connect:CreateUseCase
 connect:CreateUser
 connect:CreateUserHierarchyGroup
 connect:DeleteInstance
+connect:DeleteIntegrationAssociation
 connect:DeleteQuickConnect
+connect:DeleteUseCase
 connect:DeleteUser
 connect:DeleteUserHierarchyGroup
 connect:DescribeContactFlow
@@ -2181,6 +2186,7 @@ connect:DescribeUser
 connect:DescribeUserHierarchyGroup
 connect:DescribeUserHierarchyStructure
 connect:DisassociateApprovedOrigin
+connect:DisassociateCustomerProfilesDomain
 connect:DisassociateInstanceStorageConfig
 connect:DisassociateLambdaFunction
 connect:DisassociateLexBot
@@ -2198,6 +2204,7 @@ connect:ListHoursOfOperations
 connect:ListInstanceAttributes
 connect:ListInstanceStorageConfigs
 connect:ListInstances
+connect:ListIntegrationAssociations
 connect:ListLambdaFunctions
 connect:ListLexBots
 connect:ListPhoneNumbers
@@ -2211,6 +2218,7 @@ connect:ListRoutingProfiles
 connect:ListSecurityKeys
 connect:ListSecurityProfiles
 connect:ListTagsForResource
+connect:ListUseCases
 connect:ListUserHierarchyGroups
 connect:ListUsers
 connect:ResumeContactRecording
@@ -5285,6 +5293,7 @@ iotsitewise:DescribeAsset
 iotsitewise:DescribeAssetModel
 iotsitewise:DescribeAssetProperty
 iotsitewise:DescribeDashboard
+iotsitewise:DescribeDefaultEncryptionConfiguration
 iotsitewise:DescribeGateway
 iotsitewise:DescribeGatewayCapabilityConfiguration
 iotsitewise:DescribeLoggingOptions
@@ -5305,6 +5314,7 @@ iotsitewise:ListPortals
 iotsitewise:ListProjectAssets
 iotsitewise:ListProjects
 iotsitewise:ListTagsForResource
+iotsitewise:PutDefaultEncryptionConfiguration
 iotsitewise:PutLoggingOptions
 iotsitewise:TagResource
 iotsitewise:UntagResource
@@ -7377,6 +7387,7 @@ redshift:CreateScheduledAction
 redshift:CreateSnapshotCopyGrant
 redshift:CreateSnapshotSchedule
 redshift:CreateTags
+redshift:CreateUsageLimit
 redshift:DeleteCluster
 redshift:DeleteClusterParameterGroup
 redshift:DeleteClusterSecurityGroup
@@ -7390,6 +7401,7 @@ redshift:DeleteScheduledAction
 redshift:DeleteSnapshotCopyGrant
 redshift:DeleteSnapshotSchedule
 redshift:DeleteTags
+redshift:DeleteUsageLimit
 redshift:DescribeAccountAttributes
 redshift:DescribeClusterDbRevisions
 redshift:DescribeClusterParameterGroups
@@ -7421,6 +7433,7 @@ redshift:DescribeStorage
 redshift:DescribeTable
 redshift:DescribeTableRestoreStatus
 redshift:DescribeTags
+redshift:DescribeUsageLimits
 redshift:DisableLogging
 redshift:DisableSnapshotCopy
 redshift:EnableLogging
@@ -7448,6 +7461,7 @@ redshift:ModifySavedQuery
 redshift:ModifyScheduledAction
 redshift:ModifySnapshotCopyRetentionPeriod
 redshift:ModifySnapshotSchedule
+redshift:ModifyUsageLimit
 redshift:PauseCluster
 redshift:PurchaseReservedNodeOffering
 redshift:RebootCluster
