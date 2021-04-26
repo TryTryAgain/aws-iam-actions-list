@@ -7220,6 +7220,7 @@ rds:CopyDBClusterSnapshot
 rds:CopyDBParameterGroup
 rds:CopyDBSnapshot
 rds:CopyOptionGroup
+rds:CreateCustomAvailabilityZone
 rds:CreateDBCluster
 rds:CreateDBClusterEndpoint
 rds:CreateDBClusterParameterGroup
@@ -7236,6 +7237,7 @@ rds:CreateEventSubscription
 rds:CreateGlobalCluster
 rds:CreateOptionGroup
 rds:CrossRegionCommunication
+rds:DeleteCustomAvailabilityZone
 rds:DeleteDBCluster
 rds:DeleteDBClusterEndpoint
 rds:DeleteDBClusterParameterGroup
@@ -7250,10 +7252,12 @@ rds:DeleteDBSnapshot
 rds:DeleteDBSubnetGroup
 rds:DeleteEventSubscription
 rds:DeleteGlobalCluster
+rds:DeleteInstallationMedia
 rds:DeleteOptionGroup
 rds:DeregisterDBProxyTargets
 rds:DescribeAccountAttributes
 rds:DescribeCertificates
+rds:DescribeCustomAvailabilityZones
 rds:DescribeDBClusterBacktracks
 rds:DescribeDBClusterEndpoints
 rds:DescribeDBClusterParameterGroups
@@ -7282,6 +7286,7 @@ rds:DescribeEventSubscriptions
 rds:DescribeEvents
 rds:DescribeExportTasks
 rds:DescribeGlobalClusters
+rds:DescribeInstallationMedia
 rds:DescribeOptionGroupOptions
 rds:DescribeOptionGroups
 rds:DescribeOrderableDBInstanceOptions
@@ -7293,7 +7298,9 @@ rds:DescribeValidDBInstanceModifications
 rds:DownloadDBLogFilePortion
 rds:FailoverDBCluster
 rds:FailoverGlobalCluster
+rds:ImportInstallationMedia
 rds:ListTagsForResource
+rds:ModifyCertificates
 rds:ModifyCurrentDBClusterCapacity
 rds:ModifyDBCluster
 rds:ModifyDBClusterEndpoint
@@ -7332,10 +7339,12 @@ rds:RevokeDBSecurityGroupIngress
 rds:StartActivityStream
 rds:StartDBCluster
 rds:StartDBInstance
+rds:StartDBInstanceAutomatedBackupsReplication
 rds:StartExportTask
 rds:StopActivityStream
 rds:StopDBCluster
 rds:StopDBInstance
+rds:StopDBInstanceAutomatedBackupsReplication
 redshift-data:CancelStatement
 redshift-data:DescribeStatement
 redshift-data:DescribeTable
@@ -8745,6 +8754,7 @@ sqs:SendMessageBatch
 sqs:SetQueueAttributes
 sqs:TagQueue
 sqs:UntagQueue
+ssm-incidents:StartIncident
 ssm:AddTagsToResource
 ssm:CancelCommand
 ssm:CancelMaintenanceWindowExecution
