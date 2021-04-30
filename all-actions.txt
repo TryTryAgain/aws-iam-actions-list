@@ -2774,6 +2774,7 @@ dms:StopReplicationTask
 dms:TestConnection
 ds:AcceptSharedDirectory
 ds:AddIpRoutes
+ds:AddRegion
 ds:AddTagsToResource
 ds:AuthorizeApplication
 ds:CancelSchemaExtension
@@ -2801,12 +2802,15 @@ ds:DescribeDirectories
 ds:DescribeDomainControllers
 ds:DescribeEventTopics
 ds:DescribeLDAPSSettings
+ds:DescribeRegions
 ds:DescribeSharedDirectories
 ds:DescribeSnapshots
 ds:DescribeTrusts
+ds:DisableClientAuthentication
 ds:DisableLDAPS
 ds:DisableRadius
 ds:DisableSso
+ds:EnableClientAuthentication
 ds:EnableLDAPS
 ds:EnableRadius
 ds:EnableSso
@@ -2823,6 +2827,7 @@ ds:RegisterCertificate
 ds:RegisterEventTopic
 ds:RejectSharedDirectory
 ds:RemoveIpRoutes
+ds:RemoveRegion
 ds:RemoveTagsFromResource
 ds:ResetUserPassword
 ds:RestoreFromSnapshot
