@@ -6432,6 +6432,10 @@ mediapackage-vod:DescribePackagingGroup
 mediapackage-vod:ListAssets
 mediapackage-vod:ListPackagingConfigurations
 mediapackage-vod:ListPackagingGroups
+mediapackage-vod:ListTagsForResource
+mediapackage-vod:TagResource
+mediapackage-vod:UntagResource
+mediapackage-vod:UpdatePackagingGroup
 mediapackage:CreateChannel
 mediapackage:CreateHarvestJob
 mediapackage:CreateOriginEndpoint
@@ -6888,6 +6892,7 @@ opsworks:DescribeInstances
 opsworks:DescribeLayers
 opsworks:DescribeLoadBasedAutoScaling
 opsworks:DescribeMyUserProfile
+opsworks:DescribeOperatingSystems
 opsworks:DescribePermissions
 opsworks:DescribeRaidArrays
 opsworks:DescribeRdsDbInstances
