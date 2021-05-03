@@ -1190,6 +1190,7 @@ clouddirectory:ListFacetAttributes
 clouddirectory:ListFacetNames
 clouddirectory:ListIncomingTypedLinks
 clouddirectory:ListIndex
+clouddirectory:ListManagedSchemaArns
 clouddirectory:ListObjectAttributes
 clouddirectory:ListObjectChildren
 clouddirectory:ListObjectParentPaths
@@ -2730,6 +2731,7 @@ dms:CreateReplicationInstance
 dms:CreateReplicationSubnetGroup
 dms:CreateReplicationTask
 dms:DeleteCertificate
+dms:DeleteConnection
 dms:DeleteEndpoint
 dms:DeleteEventSubscription
 dms:DeleteReplicationInstance
@@ -2763,6 +2765,7 @@ dms:ModifyEventSubscription
 dms:ModifyReplicationInstance
 dms:ModifyReplicationSubnetGroup
 dms:ModifyReplicationTask
+dms:MoveReplicationTask
 dms:RebootReplicationInstance
 dms:RefreshSchemas
 dms:ReloadTables
