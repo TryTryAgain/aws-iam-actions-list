@@ -1069,6 +1069,7 @@ chime:ListRoomMemberships
 chime:ListRooms
 chime:ListSipMediaApplications
 chime:ListSipRules
+chime:ListSupportedPhoneNumberCountries
 chime:ListTagsForResource
 chime:ListUsers
 chime:ListVoiceConnectorGroups
