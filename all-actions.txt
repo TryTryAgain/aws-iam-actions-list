@@ -6857,6 +6857,7 @@ opsworks-cm:DescribeEvents
 opsworks-cm:DescribeNodeAssociationStatus
 opsworks-cm:DescribeServers
 opsworks-cm:DisassociateNode
+opsworks-cm:ExportServerEngineAttribute
 opsworks-cm:ListTagsForResource
 opsworks-cm:RestoreServer
 opsworks-cm:StartMaintenance
