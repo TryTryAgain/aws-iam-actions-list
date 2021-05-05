@@ -3437,6 +3437,7 @@ ecs:DescribeTaskDefinition
 ecs:DescribeTaskSets
 ecs:DescribeTasks
 ecs:DiscoverPollEndpoint
+ecs:ExecuteCommand
 ecs:ListAccountSettings
 ecs:ListAttributes
 ecs:ListClusters
@@ -3462,6 +3463,8 @@ ecs:SubmitContainerStateChange
 ecs:SubmitTaskStateChange
 ecs:TagResource
 ecs:UntagResource
+ecs:UpdateCapacityProvider
+ecs:UpdateCluster
 ecs:UpdateClusterSettings
 ecs:UpdateContainerAgent
 ecs:UpdateContainerInstancesState
