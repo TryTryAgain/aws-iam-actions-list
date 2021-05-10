@@ -3639,6 +3639,7 @@ elasticfilesystem:DeleteFileSystemPolicy
 elasticfilesystem:DeleteMountTarget
 elasticfilesystem:DeleteTags
 elasticfilesystem:DescribeAccessPoints
+elasticfilesystem:DescribeAccountPreferences
 elasticfilesystem:DescribeBackupPolicy
 elasticfilesystem:DescribeFileSystemPolicy
 elasticfilesystem:DescribeFileSystems
@@ -3648,6 +3649,7 @@ elasticfilesystem:DescribeMountTargets
 elasticfilesystem:DescribeTags
 elasticfilesystem:ListTagsForResource
 elasticfilesystem:ModifyMountTargetSecurityGroups
+elasticfilesystem:PutAccountPreferences
 elasticfilesystem:PutBackupPolicy
 elasticfilesystem:PutFileSystemPolicy
 elasticfilesystem:PutLifecycleConfiguration
@@ -9923,6 +9925,7 @@ workmail:CreateGroup
 workmail:CreateInboundMailFlowRule
 workmail:CreateMailDomain
 workmail:CreateMailUser
+workmail:CreateMobileDeviceAccessRule
 workmail:CreateOrganization
 workmail:CreateOutboundMailFlowRule
 workmail:CreateResource
@@ -9935,6 +9938,7 @@ workmail:DeleteInboundMailFlowRule
 workmail:DeleteMailDomain
 workmail:DeleteMailboxPermissions
 workmail:DeleteMobileDevice
+workmail:DeleteMobileDeviceAccessRule
 workmail:DeleteOrganization
 workmail:DeleteOutboundMailFlowRule
 workmail:DeleteResource
@@ -9970,6 +9974,7 @@ workmail:GetMailDomainDetails
 workmail:GetMailGroupDetails
 workmail:GetMailUserDetails
 workmail:GetMailboxDetails
+workmail:GetMobileDeviceAccessEffect
 workmail:GetMobileDeviceDetails
 workmail:GetMobileDevicesForUser
 workmail:GetMobilePolicyDetails
@@ -9981,6 +9986,7 @@ workmail:ListInboundMailFlowRules
 workmail:ListMailboxExportJobs
 workmail:ListMailboxPermissions
 workmail:ListMembersInMailGroup
+workmail:ListMobileDeviceAccessRules
 workmail:ListOrganizations
 workmail:ListOutboundMailFlowRules
 workmail:ListResourceDelegates
@@ -10009,6 +10015,7 @@ workmail:TestOutboundMailFlowRules
 workmail:UntagResource
 workmail:UpdateInboundMailFlowRule
 workmail:UpdateMailboxQuota
+workmail:UpdateMobileDeviceAccessRule
 workmail:UpdateOutboundMailFlowRule
 workmail:UpdatePrimaryEmailAddress
 workmail:UpdateResource
