@@ -3822,6 +3822,7 @@ emr-containers:UntagResource
 es:AcceptInboundCrossClusterSearchConnection
 es:AddTags
 es:AssociatePackage
+es:CancelElasticsearchServiceSoftwareUpdate
 es:CreateElasticsearchDomain
 es:CreateElasticsearchServiceRole
 es:CreateOutboundCrossClusterSearchConnection
@@ -3862,6 +3863,7 @@ es:ListTags
 es:PurchaseReservedElasticsearchInstanceOffering
 es:RejectInboundCrossClusterSearchConnection
 es:RemoveTags
+es:StartElasticsearchServiceSoftwareUpdate
 es:UpdateElasticsearchDomainConfig
 es:UpdatePackage
 es:UpgradeElasticsearchDomain
