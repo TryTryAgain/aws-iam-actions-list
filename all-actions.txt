@@ -329,6 +329,12 @@ application-autoscaling:DescribeScheduledActions
 application-autoscaling:PutScalingPolicy
 application-autoscaling:PutScheduledAction
 application-autoscaling:RegisterScalableTarget
+application-cost-profiler:DeleteReportDefinition
+application-cost-profiler:GetReportDefinition
+application-cost-profiler:ImportApplicationUsage
+application-cost-profiler:ListReportDefinitions
+application-cost-profiler:PutReportDefinition
+application-cost-profiler:UpdateReportDefinition
 applicationinsights:CreateApplication
 applicationinsights:CreateComponent
 applicationinsights:CreateLogPattern
