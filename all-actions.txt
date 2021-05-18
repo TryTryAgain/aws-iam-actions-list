@@ -652,6 +652,7 @@ autoscaling:DeleteNotificationConfiguration
 autoscaling:DeletePolicy
 autoscaling:DeleteScheduledAction
 autoscaling:DeleteTags
+autoscaling:DeleteWarmPool
 autoscaling:DescribeAccountLimits
 autoscaling:DescribeAdjustmentTypes
 autoscaling:DescribeAutoScalingGroups
@@ -671,6 +672,7 @@ autoscaling:DescribeScalingProcessTypes
 autoscaling:DescribeScheduledActions
 autoscaling:DescribeTags
 autoscaling:DescribeTerminationPolicyTypes
+autoscaling:DescribeWarmPool
 autoscaling:DetachInstances
 autoscaling:DetachLoadBalancerTargetGroups
 autoscaling:DetachLoadBalancers
@@ -683,6 +685,7 @@ autoscaling:PutLifecycleHook
 autoscaling:PutNotificationConfiguration
 autoscaling:PutScalingPolicy
 autoscaling:PutScheduledUpdateGroupAction
+autoscaling:PutWarmPool
 autoscaling:RecordLifecycleActionHeartbeat
 autoscaling:ResumeProcesses
 autoscaling:SetDesiredCapacity
@@ -5300,8 +5303,8 @@ iotdeviceadvisor:GetSuiteRunReport
 iotdeviceadvisor:ListSuiteDefinitions
 iotdeviceadvisor:ListSuiteRuns
 iotdeviceadvisor:ListTagsForResource
-iotdeviceadvisor:ListTestCases
 iotdeviceadvisor:StartSuiteRun
+iotdeviceadvisor:StopSuiteRun
 iotdeviceadvisor:TagResource
 iotdeviceadvisor:UntagResource
 iotdeviceadvisor:UpdateSuiteDefinition
