@@ -4023,6 +4023,7 @@ forecast:DeleteForecast
 forecast:DeleteForecastExportJob
 forecast:DeletePredictor
 forecast:DeletePredictorBacktestExportJob
+forecast:DeleteResourceTree
 forecast:DescribeDataset
 forecast:DescribeDatasetGroup
 forecast:DescribeDatasetImportJob
