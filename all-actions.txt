@@ -5069,6 +5069,7 @@ iot:CreateDomainConfiguration
 iot:CreateDynamicThingGroup
 iot:CreateFleetMetric
 iot:CreateJob
+iot:CreateJobTemplate
 iot:CreateKeysAndCertificate
 iot:CreateMitigationAction
 iot:CreateOTAUpdate
@@ -5099,6 +5100,7 @@ iot:DeleteDynamicThingGroup
 iot:DeleteFleetMetric
 iot:DeleteJob
 iot:DeleteJobExecution
+iot:DeleteJobTemplate
 iot:DeleteMitigationAction
 iot:DeleteOTAUpdate
 iot:DeletePolicy
@@ -5138,6 +5140,7 @@ iot:DescribeFleetMetric
 iot:DescribeIndex
 iot:DescribeJob
 iot:DescribeJobExecution
+iot:DescribeJobTemplate
 iot:DescribeMitigationAction
 iot:DescribeProvisioningTemplate
 iot:DescribeProvisioningTemplateVersion
@@ -5195,6 +5198,7 @@ iot:ListFleetMetrics
 iot:ListIndices
 iot:ListJobExecutionsForJob
 iot:ListJobExecutionsForThing
+iot:ListJobTemplates
 iot:ListJobs
 iot:ListMitigationActions
 iot:ListNamedShadowsForThing
