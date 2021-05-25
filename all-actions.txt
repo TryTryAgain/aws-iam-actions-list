@@ -2369,6 +2369,7 @@ dataexchange:ListDataSets
 dataexchange:ListJobs
 dataexchange:ListRevisionAssets
 dataexchange:ListTagsForResource
+dataexchange:PublishDataSet
 dataexchange:StartJob
 dataexchange:TagResource
 dataexchange:UntagResource
