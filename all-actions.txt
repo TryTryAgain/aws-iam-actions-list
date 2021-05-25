@@ -5429,6 +5429,7 @@ iotsitewise:UntagResource
 iotsitewise:UpdateAccessPolicy
 iotsitewise:UpdateAsset
 iotsitewise:UpdateAssetModel
+iotsitewise:UpdateAssetModelPropertyRouting
 iotsitewise:UpdateAssetProperty
 iotsitewise:UpdateDashboard
 iotsitewise:UpdateGateway
