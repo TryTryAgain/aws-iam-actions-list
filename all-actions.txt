@@ -319,6 +319,7 @@ appflow:TagResource
 appflow:UntagResource
 appflow:UpdateConnectorProfile
 appflow:UpdateFlow
+appflow:UseConnectorProfile
 application-autoscaling:DeleteScalingPolicy
 application-autoscaling:DeleteScheduledAction
 application-autoscaling:DeregisterScalableTarget
