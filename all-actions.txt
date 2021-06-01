@@ -5507,6 +5507,7 @@ iotwireless:DisassociateWirelessGatewayFromCertificate
 iotwireless:DisassociateWirelessGatewayFromThing
 iotwireless:GetDestination
 iotwireless:GetDeviceProfile
+iotwireless:GetLogLevelsByResourceTypes
 iotwireless:GetPartnerAccount
 iotwireless:GetServiceEndpoint
 iotwireless:GetServiceProfile
@@ -5531,6 +5532,7 @@ iotwireless:TagResource
 iotwireless:TestWirelessDevice
 iotwireless:UntagResource
 iotwireless:UpdateDestination
+iotwireless:UpdateLogLevelsByResourceTypes
 iotwireless:UpdatePartnerAccount
 iotwireless:UpdateWirelessDevice
 iotwireless:UpdateWirelessGateway
@@ -8970,18 +8972,23 @@ sns:CheckIfPhoneNumberIsOptedOut
 sns:ConfirmSubscription
 sns:CreatePlatformApplication
 sns:CreatePlatformEndpoint
+sns:CreateSMSSandboxPhoneNumber
 sns:CreateTopic
 sns:DeleteEndpoint
 sns:DeletePlatformApplication
+sns:DeleteSMSSandboxPhoneNumber
 sns:DeleteTopic
 sns:GetEndpointAttributes
 sns:GetPlatformApplicationAttributes
 sns:GetSMSAttributes
+sns:GetSMSSandboxAccountStatus
 sns:GetSubscriptionAttributes
 sns:GetTopicAttributes
 sns:ListEndpointsByPlatformApplication
+sns:ListOriginationNumbers
 sns:ListPhoneNumbersOptedOut
 sns:ListPlatformApplications
+sns:ListSMSSandboxPhoneNumbers
 sns:ListSubscriptions
 sns:ListSubscriptionsByTopic
 sns:ListTagsForResource
@@ -8998,6 +9005,7 @@ sns:Subscribe
 sns:TagResource
 sns:Unsubscribe
 sns:UntagResource
+sns:VerifySMSSandboxPhoneNumber
 sqs:AddPermission
 sqs:ChangeMessageVisibility
 sqs:ChangeMessageVisibilityBatch
