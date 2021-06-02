@@ -937,6 +937,7 @@ chime:AssociatePhoneNumbersWithVoiceConnectorGroup
 chime:AssociateSigninDelegateGroupsWithAccount
 chime:AuthorizeDirectory
 chime:BatchCreateAttendee
+chime:BatchCreateChannelMembership
 chime:BatchCreateRoomMembership
 chime:BatchDeletePhoneNumber
 chime:BatchSuspendUser
