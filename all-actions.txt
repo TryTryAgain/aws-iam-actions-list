@@ -6312,16 +6312,19 @@ macie2:DescribeClassificationJob
 macie2:DescribeOrganizationConfiguration
 macie2:DisableMacie
 macie2:DisableOrganizationAdminAccount
+macie2:DisassociateFromAdministratorAccount
 macie2:DisassociateFromMasterAccount
 macie2:DisassociateMember
 macie2:EnableMacie
 macie2:EnableOrganizationAdminAccount
+macie2:GetAdministratorAccount
 macie2:GetBucketStatistics
 macie2:GetClassificationExportConfiguration
 macie2:GetCustomDataIdentifier
 macie2:GetFindingStatistics
 macie2:GetFindings
 macie2:GetFindingsFilter
+macie2:GetFindingsPublicationConfiguration
 macie2:GetInvitationsCount
 macie2:GetMacieSession
 macie2:GetMasterAccount
@@ -6337,6 +6340,8 @@ macie2:ListMembers
 macie2:ListOrganizationAdminAccounts
 macie2:ListTagsForResource
 macie2:PutClassificationExportConfiguration
+macie2:PutFindingsPublicationConfiguration
+macie2:SearchResources
 macie2:TagResource
 macie2:TestCustomDataIdentifier
 macie2:UntagResource
@@ -7190,6 +7195,7 @@ personalize:PutItems
 personalize:PutUsers
 personalize:UpdateCampaign
 pi:DescribeDimensionKeys
+pi:GetDimensionKeyDetails
 pi:GetResourceMetrics
 polly:DeleteLexicon
 polly:DescribeVoices
