@@ -8183,6 +8183,7 @@ sagemaker:AddAssociation
 sagemaker:AddTags
 sagemaker:AssociateTrialComponent
 sagemaker:BatchGetMetrics
+sagemaker:BatchGetRecord
 sagemaker:BatchPutMetrics
 sagemaker:CreateAction
 sagemaker:CreateAlgorithm
