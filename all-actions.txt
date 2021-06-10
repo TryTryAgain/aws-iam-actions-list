@@ -5510,6 +5510,7 @@ iotwireless:GetDestination
 iotwireless:GetDeviceProfile
 iotwireless:GetLogLevelsByResourceTypes
 iotwireless:GetPartnerAccount
+iotwireless:GetResourceLogLevel
 iotwireless:GetServiceEndpoint
 iotwireless:GetServiceProfile
 iotwireless:GetWirelessDevice
@@ -5528,6 +5529,9 @@ iotwireless:ListTagsForResource
 iotwireless:ListWirelessDevices
 iotwireless:ListWirelessGatewayTaskDefinitions
 iotwireless:ListWirelessGateways
+iotwireless:PutResourceLogLevel
+iotwireless:ResetAllResourceLogLevels
+iotwireless:ResetResourceLogLevel
 iotwireless:SendDataToWirelessDevice
 iotwireless:TagResource
 iotwireless:TestWirelessDevice
