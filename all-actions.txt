@@ -729,7 +729,6 @@ aws-marketplace:AssociateProductsWithPrivateMarketplace
 aws-marketplace:BatchMeterUsage
 aws-marketplace:CancelAgreementRequest
 aws-marketplace:CancelChangeSet
-aws-marketplace:CompleteTask
 aws-marketplace:CreatePrivateMarketplace
 aws-marketplace:CreatePrivateMarketplaceRequests
 aws-marketplace:DescribeAgreement
@@ -739,7 +738,6 @@ aws-marketplace:DescribeEntity
 aws-marketplace:DescribePrivateMarketplaceRequests
 aws-marketplace:DescribePrivateMarketplaceStatus
 aws-marketplace:DescribeProcurementSystemConfiguration
-aws-marketplace:DescribeTask
 aws-marketplace:DisassociateProductsFromPrivateMarketplace
 aws-marketplace:GetAgreementApprovalRequest
 aws-marketplace:GetAgreementRequest
@@ -751,7 +749,6 @@ aws-marketplace:ListBuilds
 aws-marketplace:ListChangeSets
 aws-marketplace:ListEntities
 aws-marketplace:ListPrivateMarketplaceRequests
-aws-marketplace:ListTasks
 aws-marketplace:MeterUsage
 aws-marketplace:PutProcurementSystemConfiguration
 aws-marketplace:RegisterUsage
@@ -763,7 +760,6 @@ aws-marketplace:StartChangeSet
 aws-marketplace:Subscribe
 aws-marketplace:Unsubscribe
 aws-marketplace:UpdateAgreementApprovalRequest
-aws-marketplace:UpdateTask
 aws-marketplace:ViewSubscriptions
 aws-portal:ModifyAccount
 aws-portal:ModifyBilling
