@@ -2180,6 +2180,7 @@ config:StopConfigurationRecorder
 config:TagResource
 config:UntagResource
 connect:AssociateApprovedOrigin
+connect:AssociateBot
 connect:AssociateCustomerProfilesDomain
 connect:AssociateInstanceStorageConfig
 connect:AssociateLambdaFunction
@@ -2214,6 +2215,7 @@ connect:DescribeUser
 connect:DescribeUserHierarchyGroup
 connect:DescribeUserHierarchyStructure
 connect:DisassociateApprovedOrigin
+connect:DisassociateBot
 connect:DisassociateCustomerProfilesDomain
 connect:DisassociateInstanceStorageConfig
 connect:DisassociateLambdaFunction
@@ -2227,6 +2229,7 @@ connect:GetFederationToken
 connect:GetFederationTokens
 connect:GetMetricData
 connect:ListApprovedOrigins
+connect:ListBots
 connect:ListContactFlows
 connect:ListHoursOfOperations
 connect:ListInstanceAttributes
