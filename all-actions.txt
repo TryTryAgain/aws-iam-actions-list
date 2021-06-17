@@ -1153,6 +1153,7 @@ chime:UpdateProxySession
 chime:UpdateRoom
 chime:UpdateRoomMembership
 chime:UpdateSipMediaApplication
+chime:UpdateSipMediaApplicationCall
 chime:UpdateSipRule
 chime:UpdateSupportedLicenses
 chime:UpdateUser
