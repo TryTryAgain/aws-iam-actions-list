@@ -3011,13 +3011,16 @@ ec2:CreateNetworkInsightsPath
 ec2:CreateNetworkInterface
 ec2:CreateNetworkInterfacePermission
 ec2:CreatePlacementGroup
+ec2:CreateReplaceRootVolumeTask
 ec2:CreateReservedInstancesListing
+ec2:CreateRestoreImageTask
 ec2:CreateRoute
 ec2:CreateRouteTable
 ec2:CreateSecurityGroup
 ec2:CreateSnapshot
 ec2:CreateSnapshots
 ec2:CreateSpotDatafeedSubscription
+ec2:CreateStoreImageTask
 ec2:CreateSubnet
 ec2:CreateTags
 ec2:CreateTrafficMirrorFilter
@@ -3173,6 +3176,7 @@ ec2:DescribePrefixLists
 ec2:DescribePrincipalIdFormat
 ec2:DescribePublicIpv4Pools
 ec2:DescribeRegions
+ec2:DescribeReplaceRootVolumeTasks
 ec2:DescribeReservedInstances
 ec2:DescribeReservedInstancesListings
 ec2:DescribeReservedInstancesModifications
@@ -3191,6 +3195,7 @@ ec2:DescribeSpotFleetRequests
 ec2:DescribeSpotInstanceRequests
 ec2:DescribeSpotPriceHistory
 ec2:DescribeStaleSecurityGroups
+ec2:DescribeStoreImageTasks
 ec2:DescribeSubnets
 ec2:DescribeTags
 ec2:DescribeTrafficMirrorFilters
@@ -3263,6 +3268,7 @@ ec2:GetConsoleScreenshot
 ec2:GetDefaultCreditSpecification
 ec2:GetEbsDefaultKmsKeyId
 ec2:GetEbsEncryptionByDefault
+ec2:GetFlowLogsIntegrationTemplate
 ec2:GetGroupsForCapacityReservation
 ec2:GetHostReservationPurchasePreview
 ec2:GetLaunchTemplateData
