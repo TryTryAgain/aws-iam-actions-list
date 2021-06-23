@@ -8546,6 +8546,7 @@ securityhub:EnableOrganizationAdminAccount
 securityhub:EnableSecurityHub
 securityhub:GetAdhocInsightResults
 securityhub:GetAdministratorAccount
+securityhub:GetControlFindingSummary
 securityhub:GetEnabledStandards
 securityhub:GetFindings
 securityhub:GetFreeTrialEndDate
@@ -8558,6 +8559,7 @@ securityhub:GetMasterAccount
 securityhub:GetMembers
 securityhub:GetUsage
 securityhub:InviteMembers
+securityhub:ListControlEvaluationSummaries
 securityhub:ListEnabledProductsForImport
 securityhub:ListInvitations
 securityhub:ListMembers
