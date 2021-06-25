@@ -1318,6 +1318,7 @@ cloudfront:CreateDistribution
 cloudfront:CreateDistributionWithTags
 cloudfront:CreateFieldLevelEncryptionConfig
 cloudfront:CreateFieldLevelEncryptionProfile
+cloudfront:CreateFunction
 cloudfront:CreateInvalidation
 cloudfront:CreateKeyGroup
 cloudfront:CreateMonitoringSubscription
@@ -1331,12 +1332,14 @@ cloudfront:DeleteCloudFrontOriginAccessIdentity
 cloudfront:DeleteDistribution
 cloudfront:DeleteFieldLevelEncryptionConfig
 cloudfront:DeleteFieldLevelEncryptionProfile
+cloudfront:DeleteFunction
 cloudfront:DeleteKeyGroup
 cloudfront:DeleteMonitoringSubscription
 cloudfront:DeleteOriginRequestPolicy
 cloudfront:DeletePublicKey
 cloudfront:DeleteRealtimeLogConfig
 cloudfront:DeleteStreamingDistribution
+cloudfront:DescribeFunction
 cloudfront:GetCachePolicy
 cloudfront:GetCachePolicyConfig
 cloudfront:GetCloudFrontOriginAccessIdentity
@@ -1347,6 +1350,7 @@ cloudfront:GetFieldLevelEncryption
 cloudfront:GetFieldLevelEncryptionConfig
 cloudfront:GetFieldLevelEncryptionProfile
 cloudfront:GetFieldLevelEncryptionProfileConfig
+cloudfront:GetFunction
 cloudfront:GetInvalidation
 cloudfront:GetKeyGroup
 cloudfront:GetKeyGroupConfig
@@ -1368,6 +1372,7 @@ cloudfront:ListDistributionsByRealtimeLogConfig
 cloudfront:ListDistributionsByWebACLId
 cloudfront:ListFieldLevelEncryptionConfigs
 cloudfront:ListFieldLevelEncryptionProfiles
+cloudfront:ListFunctions
 cloudfront:ListInvalidations
 cloudfront:ListKeyGroups
 cloudfront:ListOriginRequestPolicies
@@ -1375,13 +1380,16 @@ cloudfront:ListPublicKeys
 cloudfront:ListRealtimeLogConfigs
 cloudfront:ListStreamingDistributions
 cloudfront:ListTagsForResource
+cloudfront:PublishFunction
 cloudfront:TagResource
+cloudfront:TestFunction
 cloudfront:UntagResource
 cloudfront:UpdateCachePolicy
 cloudfront:UpdateCloudFrontOriginAccessIdentity
 cloudfront:UpdateDistribution
 cloudfront:UpdateFieldLevelEncryptionConfig
 cloudfront:UpdateFieldLevelEncryptionProfile
+cloudfront:UpdateFunction
 cloudfront:UpdateKeyGroup
 cloudfront:UpdateOriginRequestPolicy
 cloudfront:UpdatePublicKey
