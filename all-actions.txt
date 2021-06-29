@@ -6460,6 +6460,7 @@ mechanicalturk:UpdateHITReviewStatus
 mechanicalturk:UpdateHITTypeOfHIT
 mechanicalturk:UpdateNotificationSettings
 mechanicalturk:UpdateQualificationType
+mediaconnect:AddFlowMediaStreams
 mediaconnect:AddFlowOutputs
 mediaconnect:AddFlowSources
 mediaconnect:AddFlowVpcInterfaces
@@ -6475,6 +6476,7 @@ mediaconnect:ListOfferings
 mediaconnect:ListReservations
 mediaconnect:ListTagsForResource
 mediaconnect:PurchaseOffering
+mediaconnect:RemoveFlowMediaStream
 mediaconnect:RemoveFlowOutput
 mediaconnect:RemoveFlowSource
 mediaconnect:RemoveFlowVpcInterface
@@ -6485,6 +6487,7 @@ mediaconnect:TagResource
 mediaconnect:UntagResource
 mediaconnect:UpdateFlow
 mediaconnect:UpdateFlowEntitlement
+mediaconnect:UpdateFlowMediaStream
 mediaconnect:UpdateFlowOutput
 mediaconnect:UpdateFlowSource
 mediaconvert:AssociateCertificate
