@@ -973,6 +973,7 @@ chime:CreateChannel
 chime:CreateChannelBan
 chime:CreateChannelMembership
 chime:CreateChannelModerator
+chime:CreateMediaCapturePipeline
 chime:CreateMeeting
 chime:CreateMeetingDialOut
 chime:CreateMeetingWithAttendees
@@ -1004,6 +1005,7 @@ chime:DeleteDelegate
 chime:DeleteDomain
 chime:DeleteEventsConfiguration
 chime:DeleteGroups
+chime:DeleteMediaCapturePipeline
 chime:DeleteMeeting
 chime:DeletePhoneNumber
 chime:DeleteProxySession
@@ -1046,6 +1048,7 @@ chime:GetChannelMessage
 chime:GetDomain
 chime:GetEventsConfiguration
 chime:GetGlobalSettings
+chime:GetMediaCapturePipeline
 chime:GetMeeting
 chime:GetMeetingDetail
 chime:GetMessagingSessionEndpoint
@@ -1097,6 +1100,7 @@ chime:ListDelegates
 chime:ListDirectories
 chime:ListDomains
 chime:ListGroups
+chime:ListMediaCapturePipelines
 chime:ListMeetingEvents
 chime:ListMeetingTags
 chime:ListMeetings
