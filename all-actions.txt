@@ -1316,6 +1316,7 @@ cloudformation:UpdateStackInstances
 cloudformation:UpdateStackSet
 cloudformation:UpdateTerminationProtection
 cloudformation:ValidateTemplate
+cloudfront:AssociateAlias
 cloudfront:CreateCachePolicy
 cloudfront:CreateCloudFrontOriginAccessIdentity
 cloudfront:CreateDistribution
@@ -1368,6 +1369,7 @@ cloudfront:GetStreamingDistribution
 cloudfront:GetStreamingDistributionConfig
 cloudfront:ListCachePolicies
 cloudfront:ListCloudFrontOriginAccessIdentities
+cloudfront:ListConflictingAliases
 cloudfront:ListDistributions
 cloudfront:ListDistributionsByCachePolicyId
 cloudfront:ListDistributionsByKeyGroup
