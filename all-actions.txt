@@ -3215,6 +3215,7 @@ ec2:DescribeRouteTables
 ec2:DescribeScheduledInstanceAvailability
 ec2:DescribeScheduledInstances
 ec2:DescribeSecurityGroupReferences
+ec2:DescribeSecurityGroupRules
 ec2:DescribeSecurityGroups
 ec2:DescribeSnapshotAttribute
 ec2:DescribeSnapshots
@@ -3342,6 +3343,7 @@ ec2:ModifyLaunchTemplate
 ec2:ModifyManagedPrefixList
 ec2:ModifyNetworkInterfaceAttribute
 ec2:ModifyReservedInstances
+ec2:ModifySecurityGroupRules
 ec2:ModifySnapshotAttribute
 ec2:ModifySpotFleetRequest
 ec2:ModifySubnetAttribute
@@ -4777,11 +4779,16 @@ healthlake:DescribeFHIRExportJob
 healthlake:DescribeFHIRImportJob
 healthlake:GetCapabilities
 healthlake:ListFHIRDatastores
+healthlake:ListFHIRExportJobs
+healthlake:ListFHIRImportJobs
+healthlake:ListTagsForResource
 healthlake:ReadResource
 healthlake:SearchWithGet
 healthlake:SearchWithPost
 healthlake:StartFHIRExportJob
 healthlake:StartFHIRImportJob
+healthlake:TagResource
+healthlake:UntagResource
 healthlake:UpdateResource
 honeycode:ApproveTeamAssociation
 honeycode:BatchCreateTableRows
