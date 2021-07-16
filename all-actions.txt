@@ -8467,6 +8467,8 @@ sagemaker:RegisterDevices
 sagemaker:RenderUiTemplate
 sagemaker:Search
 sagemaker:SendHeartbeat
+sagemaker:SendPipelineExecutionStepFailure
+sagemaker:SendPipelineExecutionStepSuccess
 sagemaker:StartHumanLoop
 sagemaker:StartMonitoringSchedule
 sagemaker:StartNotebookInstance
