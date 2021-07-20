@@ -10059,6 +10059,7 @@ workdocs:GetDocumentPath
 workdocs:GetDocumentVersion
 workdocs:GetFolder
 workdocs:GetFolderPath
+workdocs:GetGroup
 workdocs:GetResources
 workdocs:InitiateDocumentVersionUpload
 workdocs:RegisterDirectory
