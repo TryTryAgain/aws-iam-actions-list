@@ -6071,6 +6071,8 @@ lightsail:AttachLoadBalancerTlsCertificate
 lightsail:AttachStaticIp
 lightsail:CloseInstancePublicPorts
 lightsail:CopySnapshot
+lightsail:CreateBucket
+lightsail:CreateBucketAccessKey
 lightsail:CreateCertificate
 lightsail:CreateCloudFormationStack
 lightsail:CreateContactMethod
@@ -6094,6 +6096,8 @@ lightsail:CreateRelationalDatabaseFromSnapshot
 lightsail:CreateRelationalDatabaseSnapshot
 lightsail:DeleteAlarm
 lightsail:DeleteAutoSnapshot
+lightsail:DeleteBucket
+lightsail:DeleteBucketAccessKey
 lightsail:DeleteCertificate
 lightsail:DeleteContactMethod
 lightsail:DeleteContainerImage
@@ -6123,6 +6127,10 @@ lightsail:GetActiveNames
 lightsail:GetAlarms
 lightsail:GetAutoSnapshots
 lightsail:GetBlueprints
+lightsail:GetBucketAccessKeys
+lightsail:GetBucketBundles
+lightsail:GetBucketMetricData
+lightsail:GetBuckets
 lightsail:GetBundles
 lightsail:GetCertificates
 lightsail:GetCloudFormationStackRecords
@@ -6190,6 +6198,7 @@ lightsail:ReleaseStaticIp
 lightsail:ResetDistributionCache
 lightsail:SendContactMethodVerification
 lightsail:SetIpAddressType
+lightsail:SetResourceAccessForBucket
 lightsail:StartInstance
 lightsail:StartRelationalDatabase
 lightsail:StopInstance
@@ -6198,6 +6207,8 @@ lightsail:TagResource
 lightsail:TestAlarm
 lightsail:UnpeerVpc
 lightsail:UntagResource
+lightsail:UpdateBucket
+lightsail:UpdateBucketBundle
 lightsail:UpdateContainerService
 lightsail:UpdateDistribution
 lightsail:UpdateDistributionBundle
