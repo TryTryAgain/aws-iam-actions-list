@@ -7474,6 +7474,8 @@ quicksight:DescribeTheme
 quicksight:DescribeThemeAlias
 quicksight:DescribeThemePermissions
 quicksight:DescribeUser
+quicksight:GenerateEmbedUrlForAnonymousUser
+quicksight:GenerateEmbedUrlForRegisteredUser
 quicksight:GetAnonymousUserEmbedUrl
 quicksight:GetAuthCode
 quicksight:GetDashboardEmbedUrl
