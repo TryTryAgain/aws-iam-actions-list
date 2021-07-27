@@ -7733,6 +7733,7 @@ rds:StopActivityStream
 rds:StopDBCluster
 rds:StopDBInstance
 rds:StopDBInstanceAutomatedBackupsReplication
+redshift-data:BatchExecuteStatement
 redshift-data:CancelStatement
 redshift-data:DescribeStatement
 redshift-data:DescribeTable
