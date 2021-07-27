@@ -236,6 +236,7 @@ amplifybackend:GetBackendAPIModels
 amplifybackend:GetBackendAuth
 amplifybackend:GetBackendJob
 amplifybackend:GetToken
+amplifybackend:ImportBackendAuth
 amplifybackend:ListBackendJobs
 amplifybackend:RemoveAllBackends
 amplifybackend:RemoveBackendConfig
