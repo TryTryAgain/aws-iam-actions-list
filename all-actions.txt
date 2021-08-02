@@ -879,6 +879,9 @@ bugbust:ListEventScores
 bugbust:ListEvents
 bugbust:ListProfilingGroups
 bugbust:ListPullRequests
+bugbust:ListTagsForResource
+bugbust:TagResource
+bugbust:UntagResource
 bugbust:UpdateEvent
 bugbust:UpdateWorkItem
 bugbust:UpdateWorkItemAdmin
