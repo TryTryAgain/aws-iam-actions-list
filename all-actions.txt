@@ -2223,7 +2223,9 @@ connect:AssociateLexBot
 connect:AssociateQueueQuickConnects
 connect:AssociateRoutingProfileQueues
 connect:AssociateSecurityKey
+connect:CreateAgentStatus
 connect:CreateContactFlow
+connect:CreateHoursOfOperation
 connect:CreateInstance
 connect:CreateIntegrationAssociation
 connect:CreateQueue
@@ -2232,12 +2234,14 @@ connect:CreateRoutingProfile
 connect:CreateUseCase
 connect:CreateUser
 connect:CreateUserHierarchyGroup
+connect:DeleteHoursOfOperation
 connect:DeleteInstance
 connect:DeleteIntegrationAssociation
 connect:DeleteQuickConnect
 connect:DeleteUseCase
 connect:DeleteUser
 connect:DeleteUserHierarchyGroup
+connect:DescribeAgentStatus
 connect:DescribeContactFlow
 connect:DescribeHoursOfOperation
 connect:DescribeInstance
@@ -2263,6 +2267,7 @@ connect:GetCurrentMetricData
 connect:GetFederationToken
 connect:GetFederationTokens
 connect:GetMetricData
+connect:ListAgentStatuses
 connect:ListApprovedOrigins
 connect:ListBots
 connect:ListContactFlows
@@ -2297,9 +2302,11 @@ connect:StopContactRecording
 connect:SuspendContactRecording
 connect:TagResource
 connect:UntagResource
+connect:UpdateAgentStatus
 connect:UpdateContactAttributes
 connect:UpdateContactFlowContent
 connect:UpdateContactFlowName
+connect:UpdateHoursOfOperation
 connect:UpdateInstanceAttribute
 connect:UpdateInstanceStorageConfig
 connect:UpdateQueueHoursOfOperation
