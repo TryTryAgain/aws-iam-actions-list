@@ -1620,6 +1620,7 @@ codebuild:StartBuildBatch
 codebuild:StopBuild
 codebuild:StopBuildBatch
 codebuild:UpdateProject
+codebuild:UpdateProjectVisibility
 codebuild:UpdateReport
 codebuild:UpdateReportGroup
 codebuild:UpdateWebhook
@@ -6063,8 +6064,8 @@ lex:PutBotAlias
 lex:PutIntent
 lex:PutSession
 lex:PutSlotType
-lex:RecognizeSpeech
 lex:RecognizeText
+lex:RecognizeUtterance
 lex:StartConversation
 lex:StartImport
 lex:TagResource
@@ -9183,6 +9184,19 @@ sms:StopAppReplication
 sms:TerminateApp
 sms:UpdateApp
 sms:UpdateReplicationJob
+snow-device-management:CancelTask
+snow-device-management:CreateTask
+snow-device-management:DescribeDevice
+snow-device-management:DescribeDeviceEc2Instances
+snow-device-management:DescribeExecution
+snow-device-management:DescribeTask
+snow-device-management:ListDeviceResources
+snow-device-management:ListDevices
+snow-device-management:ListExecutions
+snow-device-management:ListTagsForResource
+snow-device-management:ListTasks
+snow-device-management:TagResource
+snow-device-management:UntagResource
 snowball:CancelCluster
 snowball:CancelJob
 snowball:CreateAddress
