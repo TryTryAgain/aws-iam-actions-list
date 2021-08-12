@@ -8043,6 +8043,7 @@ route53-recovery-control-config:ListAssociatedRoute53HealthChecks
 route53-recovery-control-config:ListClusters
 route53-recovery-control-config:ListControlPanels
 route53-recovery-control-config:ListRoutingControls
+route53-recovery-control-config:ListSafetyRules
 route53-recovery-control-config:UpdateControlPanel
 route53-recovery-control-config:UpdateRoutingControl
 route53-recovery-control-config:UpdateSafetyRule
@@ -8063,7 +8064,7 @@ route53-recovery-readiness:GetReadinessCheck
 route53-recovery-readiness:GetReadinessCheckResourceStatus
 route53-recovery-readiness:GetReadinessCheckStatus
 route53-recovery-readiness:GetRecoveryGroup
-route53-recovery-readiness:GetRecoveryGroupReadinessStatus
+route53-recovery-readiness:GetRecoveryGroupReadinessSummary
 route53-recovery-readiness:GetResourceSet
 route53-recovery-readiness:ListCells
 route53-recovery-readiness:ListCrossAccountAuthorizations
