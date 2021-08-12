@@ -10378,6 +10378,7 @@ workmail:UpdateResource
 workmail:UpdateSmtpGateway
 workmail:WipeMobileDevice
 workmailmessageflow:GetRawMessageContent
+workmailmessageflow:PutRawMessageContent
 workspaces:AssociateConnectionAlias
 workspaces:AssociateIpGroups
 workspaces:AuthorizeIpRules
