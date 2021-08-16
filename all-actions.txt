@@ -937,6 +937,7 @@ chatbot:CreateChimeWebhookConfiguration
 chatbot:CreateSlackChannelConfiguration
 chatbot:DeleteChimeWebhookConfiguration
 chatbot:DeleteSlackChannelConfiguration
+chatbot:DeleteSlackWorkspaceAuthorization
 chatbot:DescribeChimeWebhookConfigurations
 chatbot:DescribeSlackChannelConfigurations
 chatbot:DescribeSlackChannels
@@ -2835,6 +2836,7 @@ dms:DescribeAccountAttributes
 dms:DescribeApplicableIndividualAssessments
 dms:DescribeCertificates
 dms:DescribeConnections
+dms:DescribeEndpointSettings
 dms:DescribeEndpointTypes
 dms:DescribeEndpoints
 dms:DescribeEventCategories
