@@ -2564,18 +2564,21 @@ deeplens:RegisterDevice
 deeplens:RemoveProject
 deeplens:UpdateProject
 deepracer:AddLeaderboardAccessPermission
+deepracer:AdminGetAccountConfig
+deepracer:AdminListAssociatedResources
+deepracer:AdminListAssociatedUsers
+deepracer:AdminManageUser
+deepracer:AdminSetAccountConfig
 deepracer:CloneReinforcementLearningModel
-deepracer:CreateAccountResources
 deepracer:CreateCar
 deepracer:CreateLeaderboard
 deepracer:CreateLeaderboardAccessToken
 deepracer:CreateLeaderboardSubmission
 deepracer:CreateReinforcementLearningModel
-deepracer:DeleteAccountResources
 deepracer:DeleteLeaderboard
 deepracer:DeleteModel
 deepracer:EditLeaderboard
-deepracer:GetAccountResources
+deepracer:GetAccountConfig
 deepracer:GetAlias
 deepracer:GetAssetUrl
 deepracer:GetCar
@@ -2600,6 +2603,7 @@ deepracer:ListTagsForResource
 deepracer:ListTracks
 deepracer:ListTrainingJobs
 deepracer:MigrateModels
+deepracer:PerformLeaderboardOperation
 deepracer:RemoveLeaderboardAccessPermission
 deepracer:SetAlias
 deepracer:StartEvaluation
@@ -5295,6 +5299,7 @@ iot:GetPercentiles
 iot:GetPolicy
 iot:GetPolicyVersion
 iot:GetRegistrationCode
+iot:GetRetainedMessage
 iot:GetStatistics
 iot:GetThingShadow
 iot:GetTopicRule
@@ -5334,6 +5339,7 @@ iot:ListPrincipalPolicies
 iot:ListPrincipalThings
 iot:ListProvisioningTemplateVersions
 iot:ListProvisioningTemplates
+iot:ListRetainedMessages
 iot:ListRoleAliases
 iot:ListScheduledAudits
 iot:ListSecurityProfiles
@@ -5367,6 +5373,7 @@ iot:RejectCertificateTransfer
 iot:RemoveThingFromBillingGroup
 iot:RemoveThingFromThingGroup
 iot:ReplaceTopicRule
+iot:RetainPublish
 iot:SearchIndex
 iot:SetDefaultAuthorizer
 iot:SetDefaultPolicyVersion
