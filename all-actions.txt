@@ -7771,6 +7771,7 @@ rds:DescribeReservedDBInstances
 rds:DescribeReservedDBInstancesOfferings
 rds:DescribeSourceRegions
 rds:DescribeValidDBInstanceModifications
+rds:DownloadCompleteDBLogFile
 rds:DownloadDBLogFilePortion
 rds:FailoverDBCluster
 rds:FailoverGlobalCluster
