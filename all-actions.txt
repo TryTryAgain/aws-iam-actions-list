@@ -4590,6 +4590,7 @@ glue:ListSchemaVersions
 glue:ListSchemas
 glue:ListTriggers
 glue:ListWorkflows
+glue:NotifyEvent
 glue:PutDataCatalogEncryptionSettings
 glue:PutResourcePolicy
 glue:PutSchemaVersionMetadata
@@ -5760,11 +5761,13 @@ kendra:CreateThesaurus
 kendra:DeleteDataSource
 kendra:DeleteFaq
 kendra:DeleteIndex
+kendra:DeletePrincipalMapping
 kendra:DeleteQuerySuggestionsBlockList
 kendra:DeleteThesaurus
 kendra:DescribeDataSource
 kendra:DescribeFaq
 kendra:DescribeIndex
+kendra:DescribePrincipalMapping
 kendra:DescribeQuerySuggestionsBlockList
 kendra:DescribeQuerySuggestionsConfig
 kendra:DescribeThesaurus
@@ -5772,10 +5775,12 @@ kendra:GetQuerySuggestions
 kendra:ListDataSourceSyncJobs
 kendra:ListDataSources
 kendra:ListFaqs
+kendra:ListGroupsOlderThanOrderingId
 kendra:ListIndices
 kendra:ListQuerySuggestionsBlockLists
 kendra:ListTagsForResource
 kendra:ListThesauri
+kendra:PutPrincipalMapping
 kendra:Query
 kendra:StartDataSourceSyncJob
 kendra:StopDataSourceSyncJob
