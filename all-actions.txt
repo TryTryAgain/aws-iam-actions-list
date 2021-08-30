@@ -1826,6 +1826,7 @@ codepipeline:DeleteWebhook
 codepipeline:DeregisterWebhookWithThirdParty
 codepipeline:DisableStageTransition
 codepipeline:EnableStageTransition
+codepipeline:GetActionType
 codepipeline:GetJobDetails
 codepipeline:GetPipeline
 codepipeline:GetPipelineExecution
@@ -1852,6 +1853,7 @@ codepipeline:StartPipelineExecution
 codepipeline:StopPipelineExecution
 codepipeline:TagResource
 codepipeline:UntagResource
+codepipeline:UpdateActionType
 codepipeline:UpdatePipeline
 codestar-connections:CreateConnection
 codestar-connections:CreateHost
