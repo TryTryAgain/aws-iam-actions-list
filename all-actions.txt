@@ -732,14 +732,12 @@ aws-marketplace:BatchMeterUsage
 aws-marketplace:CancelAgreementRequest
 aws-marketplace:CancelChangeSet
 aws-marketplace:CompleteTask
-aws-marketplace:CreatePrivateMarketplace
 aws-marketplace:CreatePrivateMarketplaceRequests
 aws-marketplace:DescribeAgreement
 aws-marketplace:DescribeBuilds
 aws-marketplace:DescribeChangeSet
 aws-marketplace:DescribeEntity
 aws-marketplace:DescribePrivateMarketplaceRequests
-aws-marketplace:DescribePrivateMarketplaceStatus
 aws-marketplace:DescribeProcurementSystemConfiguration
 aws-marketplace:DescribeTask
 aws-marketplace:DisassociateProductsFromPrivateMarketplace
@@ -1310,6 +1308,7 @@ cloudformation:ExecuteChangeSet
 cloudformation:GetStackPolicy
 cloudformation:GetTemplate
 cloudformation:GetTemplateSummary
+cloudformation:ImportStacksToStackSet
 cloudformation:ListChangeSets
 cloudformation:ListExports
 cloudformation:ListImports
@@ -4640,11 +4639,13 @@ grafana:AssociateLicense
 grafana:CreateWorkspace
 grafana:DeleteWorkspace
 grafana:DescribeWorkspace
+grafana:DescribeWorkspaceAuthentication
 grafana:DisassociateLicense
 grafana:ListPermissions
 grafana:ListWorkspaces
 grafana:UpdatePermissions
 grafana:UpdateWorkspace
+grafana:UpdateWorkspaceAuthentication
 greengrass:AssociateRoleToGroup
 greengrass:AssociateServiceRoleToAccount
 greengrass:CancelDeployment
