@@ -5505,8 +5505,10 @@ iotevents:DescribeAlarm
 iotevents:DescribeAlarmModel
 iotevents:DescribeDetector
 iotevents:DescribeDetectorModel
+iotevents:DescribeDetectorModelAnalysis
 iotevents:DescribeInput
 iotevents:DescribeLoggingOptions
+iotevents:GetDetectorModelAnalysisResults
 iotevents:ListAlarmModelVersions
 iotevents:ListAlarmModels
 iotevents:ListAlarms
@@ -5517,6 +5519,7 @@ iotevents:ListInputRoutings
 iotevents:ListInputs
 iotevents:ListTagsForResource
 iotevents:PutLoggingOptions
+iotevents:StartDetectorModelAnalysis
 iotevents:TagResource
 iotevents:UntagResource
 iotevents:UpdateAlarmModel
@@ -6074,6 +6077,8 @@ lex:GetImport
 lex:GetIntent
 lex:GetIntentVersions
 lex:GetIntents
+lex:GetMigration
+lex:GetMigrations
 lex:GetSession
 lex:GetSlotType
 lex:GetSlotTypeVersions
@@ -6103,6 +6108,7 @@ lex:RecognizeText
 lex:RecognizeUtterance
 lex:StartConversation
 lex:StartImport
+lex:StartMigration
 lex:TagResource
 lex:UntagResource
 lex:UpdateBot
@@ -9003,7 +9009,10 @@ servicediscovery:ListTagsForResource
 servicediscovery:RegisterInstance
 servicediscovery:TagResource
 servicediscovery:UntagResource
+servicediscovery:UpdateHttpNamespace
 servicediscovery:UpdateInstanceCustomHealthStatus
+servicediscovery:UpdatePrivateDnsNamespace
+servicediscovery:UpdatePublicDnsNamespace
 servicediscovery:UpdateService
 servicequotas:AssociateServiceQuotaTemplate
 servicequotas:DeleteServiceQuotaIncreaseRequestFromTemplate
