@@ -5884,16 +5884,20 @@ kinesisanalytics:DeleteApplicationSnapshot
 kinesisanalytics:DeleteApplicationVpcConfiguration
 kinesisanalytics:DescribeApplication
 kinesisanalytics:DescribeApplicationSnapshot
+kinesisanalytics:DescribeApplicationVersion
 kinesisanalytics:DiscoverInputSchema
 kinesisanalytics:GetApplicationState
 kinesisanalytics:ListApplicationSnapshots
+kinesisanalytics:ListApplicationVersions
 kinesisanalytics:ListApplications
 kinesisanalytics:ListTagsForResource
+kinesisanalytics:RollbackApplication
 kinesisanalytics:StartApplication
 kinesisanalytics:StopApplication
 kinesisanalytics:TagResource
 kinesisanalytics:UntagResource
 kinesisanalytics:UpdateApplication
+kinesisanalytics:UpdateApplicationMaintenanceConfiguration
 kinesisvideo:ConnectAsMaster
 kinesisvideo:ConnectAsViewer
 kinesisvideo:CreateSignalingChannel
@@ -7462,6 +7466,7 @@ profile:DeleteProfileObject
 profile:DeleteProfileObjectType
 profile:GetDomain
 profile:GetIntegration
+profile:GetMatches
 profile:GetProfileObjectType
 profile:GetProfileObjectTypeTemplate
 profile:ListAccountIntegrations
@@ -7471,6 +7476,7 @@ profile:ListProfileObjectTypeTemplates
 profile:ListProfileObjectTypes
 profile:ListProfileObjects
 profile:ListTagsForResource
+profile:MergeProfiles
 profile:PutIntegration
 profile:PutProfileObject
 profile:PutProfileObjectType
@@ -8666,6 +8672,7 @@ sagemaker:GetRecord
 sagemaker:GetSagemakerServicecatalogPortfolioStatus
 sagemaker:GetSearchSuggestions
 sagemaker:InvokeEndpoint
+sagemaker:InvokeEndpointAsync
 sagemaker:ListActions
 sagemaker:ListAlgorithms
 sagemaker:ListAppImageConfigs
