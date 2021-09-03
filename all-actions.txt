@@ -7395,6 +7395,7 @@ panorama:UpdateDevice
 personalize:CreateBatchInferenceJob
 personalize:CreateCampaign
 personalize:CreateDataset
+personalize:CreateDatasetExportJob
 personalize:CreateDatasetGroup
 personalize:CreateDatasetImportJob
 personalize:CreateEventTracker
@@ -7413,6 +7414,7 @@ personalize:DescribeAlgorithm
 personalize:DescribeBatchInferenceJob
 personalize:DescribeCampaign
 personalize:DescribeDataset
+personalize:DescribeDatasetExportJob
 personalize:DescribeDatasetGroup
 personalize:DescribeDatasetImportJob
 personalize:DescribeEventTracker
@@ -7427,6 +7429,7 @@ personalize:GetRecommendations
 personalize:GetSolutionMetrics
 personalize:ListBatchInferenceJobs
 personalize:ListCampaigns
+personalize:ListDatasetExportJobs
 personalize:ListDatasetGroups
 personalize:ListDatasetImportJobs
 personalize:ListDatasets
@@ -8414,6 +8417,7 @@ s3:CreateAccessPoint
 s3:CreateAccessPointForObjectLambda
 s3:CreateBucket
 s3:CreateJob
+s3:CreateMultiRegionAccessPoint
 s3:DeleteAccessPoint
 s3:DeleteAccessPointForObjectLambda
 s3:DeleteAccessPointPolicy
@@ -8423,6 +8427,7 @@ s3:DeleteBucketOwnershipControls
 s3:DeleteBucketPolicy
 s3:DeleteBucketWebsite
 s3:DeleteJobTagging
+s3:DeleteMultiRegionAccessPoint
 s3:DeleteObject
 s3:DeleteObjectTagging
 s3:DeleteObjectVersion
@@ -8430,6 +8435,7 @@ s3:DeleteObjectVersionTagging
 s3:DeleteStorageLensConfiguration
 s3:DeleteStorageLensConfigurationTagging
 s3:DescribeJob
+s3:DescribeMultiRegionAccessPointOperation
 s3:GetAccelerateConfiguration
 s3:GetAccessPoint
 s3:GetAccessPointConfigurationForObjectLambda
@@ -8460,6 +8466,9 @@ s3:GetInventoryConfiguration
 s3:GetJobTagging
 s3:GetLifecycleConfiguration
 s3:GetMetricsConfiguration
+s3:GetMultiRegionAccessPoint
+s3:GetMultiRegionAccessPointPolicy
+s3:GetMultiRegionAccessPointPolicyStatus
 s3:GetObject
 s3:GetObjectAcl
 s3:GetObjectLegalHold
@@ -8482,6 +8491,7 @@ s3:ListBucket
 s3:ListBucketMultipartUploads
 s3:ListBucketVersions
 s3:ListJobs
+s3:ListMultiRegionAccessPoints
 s3:ListMultipartUploadParts
 s3:ListStorageLensConfigurations
 s3:ObjectOwnerOverrideToBucketOwner
@@ -8509,6 +8519,7 @@ s3:PutInventoryConfiguration
 s3:PutJobTagging
 s3:PutLifecycleConfiguration
 s3:PutMetricsConfiguration
+s3:PutMultiRegionAccessPointPolicy
 s3:PutObject
 s3:PutObjectAcl
 s3:PutObjectLegalHold
