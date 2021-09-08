@@ -2508,6 +2508,9 @@ datasync:StartTaskExecution
 datasync:TagResource
 datasync:UntagResource
 datasync:UpdateAgent
+datasync:UpdateLocationNfs
+datasync:UpdateLocationObjectStorage
+datasync:UpdateLocationSmb
 datasync:UpdateTask
 datasync:UpdateTaskExecution
 dax:BatchGetItem
