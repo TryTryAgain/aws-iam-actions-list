@@ -5600,6 +5600,7 @@ iotsitewise:DescribeGatewayCapabilityConfiguration
 iotsitewise:DescribeLoggingOptions
 iotsitewise:DescribePortal
 iotsitewise:DescribeProject
+iotsitewise:DescribeStorageConfiguration
 iotsitewise:DisassociateAssets
 iotsitewise:GetAssetPropertyAggregates
 iotsitewise:GetAssetPropertyValue
@@ -5617,6 +5618,7 @@ iotsitewise:ListProjects
 iotsitewise:ListTagsForResource
 iotsitewise:PutDefaultEncryptionConfiguration
 iotsitewise:PutLoggingOptions
+iotsitewise:PutStorageConfiguration
 iotsitewise:TagResource
 iotsitewise:UntagResource
 iotsitewise:UpdateAccessPolicy
@@ -6696,6 +6698,7 @@ medialive:CreateInput
 medialive:CreateInputSecurityGroup
 medialive:CreateMultiplex
 medialive:CreateMultiplexProgram
+medialive:CreatePartnerInput
 medialive:CreateTags
 medialive:DeleteChannel
 medialive:DeleteInput
@@ -7469,6 +7472,7 @@ personalize:ListSolutions
 personalize:PutEvents
 personalize:PutItems
 personalize:PutUsers
+personalize:StopSolutionVersionCreation
 personalize:UpdateCampaign
 pi:DescribeDimensionKeys
 pi:GetDimensionKeyDetails
