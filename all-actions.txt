@@ -3992,7 +3992,7 @@ es:AcceptInboundCrossClusterSearchConnection
 es:AddTags
 es:AssociatePackage
 es:CancelElasticsearchServiceSoftwareUpdate
-es:CreateDataPrepperPipeline
+es:CancelServiceSoftwareUpdate
 es:CreateDomain
 es:CreateElasticsearchDomain
 es:CreateElasticsearchServiceRole
@@ -4000,7 +4000,6 @@ es:CreateOutboundConnection
 es:CreateOutboundCrossClusterSearchConnection
 es:CreatePackage
 es:CreateServiceRole
-es:DeleteDataPrepperPipeline
 es:DeleteDomain
 es:DeleteElasticsearchDomain
 es:DeleteElasticsearchServiceRole
@@ -4009,8 +4008,8 @@ es:DeleteInboundCrossClusterSearchConnection
 es:DeleteOutboundConnection
 es:DeleteOutboundCrossClusterSearchConnection
 es:DeletePackage
-es:DescribeDataPrepperPipeline
 es:DescribeDomain
+es:DescribeDomainAutoTunes
 es:DescribeDomainConfig
 es:DescribeDomains
 es:DescribeElasticsearchDomain
@@ -4040,8 +4039,6 @@ es:GetCompatibleVersions
 es:GetPackageVersionHistory
 es:GetUpgradeHistory
 es:GetUpgradeStatus
-es:IngestDataPrepperPipeline
-es:ListDataPrepperPipelines
 es:ListDomainNames
 es:ListDomainsForPackage
 es:ListElasticsearchInstanceTypeDetails
@@ -4058,10 +4055,11 @@ es:RejectInboundConnection
 es:RejectInboundCrossClusterSearchConnection
 es:RemoveTags
 es:StartElasticsearchServiceSoftwareUpdate
-es:UpdateDataPrepperPipeline
+es:StartServiceSoftwareUpdate
 es:UpdateDomainConfig
 es:UpdateElasticsearchDomainConfig
 es:UpdatePackage
+es:UpgradeDomain
 es:UpgradeElasticsearchDomain
 events:ActivateEventSource
 events:CancelReplay
@@ -6747,6 +6745,7 @@ medialive:UpdateInputSecurityGroup
 medialive:UpdateMultiplex
 medialive:UpdateMultiplexProgram
 medialive:UpdateReservation
+mediapackage-vod:ConfigureLogs
 mediapackage-vod:CreateAsset
 mediapackage-vod:CreatePackagingConfiguration
 mediapackage-vod:CreatePackagingGroup
@@ -6763,6 +6762,7 @@ mediapackage-vod:ListTagsForResource
 mediapackage-vod:TagResource
 mediapackage-vod:UntagResource
 mediapackage-vod:UpdatePackagingGroup
+mediapackage:ConfigureLogs
 mediapackage:CreateChannel
 mediapackage:CreateHarvestJob
 mediapackage:CreateOriginEndpoint
