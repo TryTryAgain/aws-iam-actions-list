@@ -1925,6 +1925,7 @@ codestar:UntagProject
 codestar:UpdateProject
 codestar:UpdateTeamMember
 codestar:UpdateUserProfile
+codestar:VerifyServiceRole
 cognito-identity:CreateIdentityPool
 cognito-identity:DeleteIdentities
 cognito-identity:DeleteIdentityPool
