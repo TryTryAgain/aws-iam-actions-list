@@ -559,9 +559,12 @@ aps:DescribeWorkspace
 aps:GetLabels
 aps:GetMetricMetadata
 aps:GetSeries
+aps:ListTagsForResource
 aps:ListWorkspaces
 aps:QueryMetrics
 aps:RemoteWrite
+aps:TagResource
+aps:UntagResource
 aps:UpdateWorkspaceAlias
 arsenal:RegisterOnPremisesAgent
 artifact:AcceptAgreement
