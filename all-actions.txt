@@ -3786,6 +3786,7 @@ elasticbeanstalk:UpdateApplicationResourceLifecycle
 elasticbeanstalk:UpdateApplicationVersion
 elasticbeanstalk:UpdateConfigurationTemplate
 elasticbeanstalk:UpdateEnvironment
+elasticbeanstalk:UpdateTagsForResource
 elasticbeanstalk:ValidateConfigurationSettings
 elasticfilesystem:Backup
 elasticfilesystem:ClientMount
@@ -10017,6 +10018,7 @@ tag:StartReportCreation
 tag:TagResources
 tag:UntagResources
 textract:AnalyzeDocument
+textract:AnalyzeExpense
 textract:DetectDocumentText
 textract:GetDocumentAnalysis
 textract:GetDocumentTextDetection
