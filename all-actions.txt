@@ -9389,6 +9389,7 @@ snowball:CancelJob
 snowball:CreateAddress
 snowball:CreateCluster
 snowball:CreateJob
+snowball:CreateLongTermPricing
 snowball:CreateReturnShippingLabel
 snowball:DescribeAddress
 snowball:DescribeAddresses
@@ -9403,9 +9404,11 @@ snowball:ListClusterJobs
 snowball:ListClusters
 snowball:ListCompatibleImages
 snowball:ListJobs
+snowball:ListLongTermPricing
 snowball:UpdateCluster
 snowball:UpdateJob
 snowball:UpdateJobShipmentState
+snowball:UpdateLongTermPricing
 sns:AddPermission
 sns:CheckIfPhoneNumberIsOptedOut
 sns:ConfirmSubscription
