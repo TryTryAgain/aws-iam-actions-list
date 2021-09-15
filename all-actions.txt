@@ -9450,10 +9450,8 @@ sns:UntagResource
 sns:VerifySMSSandboxPhoneNumber
 sqs:AddPermission
 sqs:ChangeMessageVisibility
-sqs:ChangeMessageVisibilityBatch
 sqs:CreateQueue
 sqs:DeleteMessage
-sqs:DeleteMessageBatch
 sqs:DeleteQueue
 sqs:GetQueueAttributes
 sqs:GetQueueUrl
@@ -9464,7 +9462,6 @@ sqs:PurgeQueue
 sqs:ReceiveMessage
 sqs:RemovePermission
 sqs:SendMessage
-sqs:SendMessageBatch
 sqs:SetQueueAttributes
 sqs:TagQueue
 sqs:UntagQueue
