@@ -5833,6 +5833,7 @@ kafkaconnect:ListCustomPlugins
 kafkaconnect:ListWorkerConfigurations
 kafkaconnect:UpdateConnector
 kendra:BatchDeleteDocument
+kendra:BatchGetDocumentStatus
 kendra:BatchPutDocument
 kendra:ClearQuerySuggestions
 kendra:CreateDataSource
