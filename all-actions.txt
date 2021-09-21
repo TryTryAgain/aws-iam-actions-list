@@ -2102,10 +2102,12 @@ comprehend:DetectPiiEntities
 comprehend:DetectSentiment
 comprehend:DetectSyntax
 comprehend:ListDocumentClassificationJobs
+comprehend:ListDocumentClassifierSummaries
 comprehend:ListDocumentClassifiers
 comprehend:ListDominantLanguageDetectionJobs
 comprehend:ListEndpoints
 comprehend:ListEntitiesDetectionJobs
+comprehend:ListEntityRecognizerSummaries
 comprehend:ListEntityRecognizers
 comprehend:ListEventsDetectionJobs
 comprehend:ListKeyPhrasesDetectionJobs
