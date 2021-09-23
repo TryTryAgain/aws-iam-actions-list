@@ -472,6 +472,7 @@ appstream:CreateImageBuilder
 appstream:CreateImageBuilderStreamingURL
 appstream:CreateStack
 appstream:CreateStreamingURL
+appstream:CreateUpdatedImage
 appstream:CreateUsageReportSubscription
 appstream:CreateUser
 appstream:DeleteDirectoryConfig
@@ -3573,6 +3574,7 @@ ecr:DeleteLifecyclePolicy
 ecr:DeleteRegistryPolicy
 ecr:DeleteRepository
 ecr:DeleteRepositoryPolicy
+ecr:DescribeImageReplicationStatus
 ecr:DescribeImageScanFindings
 ecr:DescribeImages
 ecr:DescribeRegistry
@@ -6223,6 +6225,7 @@ license-manager:CreateGrant
 license-manager:CreateGrantVersion
 license-manager:CreateLicense
 license-manager:CreateLicenseConfiguration
+license-manager:CreateLicenseConversionTaskForResource
 license-manager:CreateLicenseManagerReportGenerator
 license-manager:CreateLicenseVersion
 license-manager:CreateToken
@@ -6236,6 +6239,7 @@ license-manager:GetAccessToken
 license-manager:GetGrant
 license-manager:GetLicense
 license-manager:GetLicenseConfiguration
+license-manager:GetLicenseConversionTask
 license-manager:GetLicenseManagerReportGenerator
 license-manager:GetLicenseUsage
 license-manager:GetServiceSettings
@@ -6243,6 +6247,7 @@ license-manager:ListAssociationsForLicenseConfiguration
 license-manager:ListDistributedGrants
 license-manager:ListFailuresForLicenseConfigurationOperations
 license-manager:ListLicenseConfigurations
+license-manager:ListLicenseConversionTasks
 license-manager:ListLicenseManagerReportGenerators
 license-manager:ListLicenseSpecificationsForResource
 license-manager:ListLicenseVersions
