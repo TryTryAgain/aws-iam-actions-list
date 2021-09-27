@@ -7935,6 +7935,8 @@ rds:DescribeOptionGroupOptions
 rds:DescribeOptionGroups
 rds:DescribeOrderableDBInstanceOptions
 rds:DescribePendingMaintenanceActions
+rds:DescribeRecommendationGroups
+rds:DescribeRecommendations
 rds:DescribeReservedDBInstances
 rds:DescribeReservedDBInstancesOfferings
 rds:DescribeSourceRegions
@@ -7962,6 +7964,7 @@ rds:ModifyDBSubnetGroup
 rds:ModifyEventSubscription
 rds:ModifyGlobalCluster
 rds:ModifyOptionGroup
+rds:ModifyRecommendation
 rds:PromoteReadReplica
 rds:PromoteReadReplicaDBCluster
 rds:PurchaseReservedDBInstancesOffering
