@@ -4087,7 +4087,6 @@ es:ListElasticsearchInstanceTypeDetails
 es:ListElasticsearchInstanceTypes
 es:ListElasticsearchVersions
 es:ListInstanceTypeDetails
-es:ListInstanceTypes
 es:ListPackagesForDomain
 es:ListTags
 es:ListVersions
