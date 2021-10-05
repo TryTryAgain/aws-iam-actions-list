@@ -822,6 +822,7 @@ backup:DeleteBackupPlan
 backup:DeleteBackupSelection
 backup:DeleteBackupVault
 backup:DeleteBackupVaultAccessPolicy
+backup:DeleteBackupVaultLockConfiguration
 backup:DeleteBackupVaultNotifications
 backup:DeleteFramework
 backup:DeleteRecoveryPoint
@@ -863,6 +864,7 @@ backup:ListReportPlans
 backup:ListRestoreJobs
 backup:ListTags
 backup:PutBackupVaultAccessPolicy
+backup:PutBackupVaultLockConfiguration
 backup:PutBackupVaultNotifications
 backup:StartBackupJob
 backup:StartCopyJob
@@ -10711,6 +10713,7 @@ workmail:DeleteUser
 workmail:DeregisterFromWorkMail
 workmail:DescribeDirectories
 workmail:DescribeGroup
+workmail:DescribeInboundDmarcSettings
 workmail:DescribeInboundMailFlowRule
 workmail:DescribeKmsKeys
 workmail:DescribeMailDomains
@@ -10758,6 +10761,7 @@ workmail:ListSmtpGateways
 workmail:ListTagsForResource
 workmail:ListUsers
 workmail:PutAccessControlRule
+workmail:PutInboundDmarcSettings
 workmail:PutMailboxPermissions
 workmail:PutRetentionPolicy
 workmail:RegisterToWorkMail
