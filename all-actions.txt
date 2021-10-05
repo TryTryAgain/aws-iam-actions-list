@@ -1328,15 +1328,18 @@ clouddirectory:UpdateSchema
 clouddirectory:UpdateTypedLinkFacet
 cloudformation:ActivateType
 cloudformation:BatchDescribeTypeConfigurations
+cloudformation:CancelResourceRequest
 cloudformation:CancelUpdateStack
 cloudformation:ContinueUpdateRollback
 cloudformation:CreateChangeSet
+cloudformation:CreateResource
 cloudformation:CreateStack
 cloudformation:CreateStackInstances
 cloudformation:CreateStackSet
 cloudformation:CreateUploadBucket
 cloudformation:DeactivateType
 cloudformation:DeleteChangeSet
+cloudformation:DeleteResource
 cloudformation:DeleteStack
 cloudformation:DeleteStackInstances
 cloudformation:DeleteStackSet
@@ -1360,6 +1363,8 @@ cloudformation:DetectStackResourceDrift
 cloudformation:DetectStackSetDrift
 cloudformation:EstimateTemplateCost
 cloudformation:ExecuteChangeSet
+cloudformation:GetResource
+cloudformation:GetResourceRequestStatus
 cloudformation:GetStackPolicy
 cloudformation:GetTemplate
 cloudformation:GetTemplateSummary
@@ -1367,6 +1372,8 @@ cloudformation:ImportStacksToStackSet
 cloudformation:ListChangeSets
 cloudformation:ListExports
 cloudformation:ListImports
+cloudformation:ListResourceRequests
+cloudformation:ListResources
 cloudformation:ListStackInstances
 cloudformation:ListStackResources
 cloudformation:ListStackSetOperationResults
@@ -1388,6 +1395,7 @@ cloudformation:StopStackSetOperation
 cloudformation:TagResource
 cloudformation:TestType
 cloudformation:UntagResource
+cloudformation:UpdateResource
 cloudformation:UpdateStack
 cloudformation:UpdateStackInstances
 cloudformation:UpdateStackSet
