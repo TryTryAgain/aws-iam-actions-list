@@ -10806,6 +10806,7 @@ workspaces:CopyWorkspaceImage
 workspaces:CreateConnectionAlias
 workspaces:CreateIpGroup
 workspaces:CreateTags
+workspaces:CreateUpdatedWorkspaceImage
 workspaces:CreateWorkspaceBundle
 workspaces:CreateWorkspaces
 workspaces:DeleteConnectionAlias
