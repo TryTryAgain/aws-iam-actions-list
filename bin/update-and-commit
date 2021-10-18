@@ -61,7 +61,7 @@ echo $COMMIT_MESSAGE
 if [[ $(git status -s) ]]; then
     echo "Commit message should be: $COMMIT_MESSAGE"
 	git commit -m "$(echo $COMMIT_MESSAGE)"
-	git push origin master
+	git push -o ci-skip https://root:$TMP@$CI_SERVER_HOST/$CI_PROJECT_PATH.git HEAD:master
 else
 	echo "Nothing new to commit..."
 fi
