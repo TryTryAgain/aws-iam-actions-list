@@ -999,6 +999,7 @@ chime:AcceptDelegate
 chime:ActivateUsers
 chime:AddDomain
 chime:AddOrUpdateGroups
+chime:AssociateChannelFlow
 chime:AssociatePhoneNumberWithUser
 chime:AssociatePhoneNumbersWithVoiceConnector
 chime:AssociatePhoneNumbersWithVoiceConnectorGroup
@@ -1012,6 +1013,7 @@ chime:BatchSuspendUser
 chime:BatchUnsuspendUser
 chime:BatchUpdatePhoneNumber
 chime:BatchUpdateUser
+chime:ChannelFlowCallback
 chime:Connect
 chime:ConnectDirectory
 chime:CreateAccount
@@ -1025,6 +1027,7 @@ chime:CreateBotMembership
 chime:CreateCDRBucket
 chime:CreateChannel
 chime:CreateChannelBan
+chime:CreateChannelFlow
 chime:CreateChannelMembership
 chime:CreateChannelModerator
 chime:CreateMediaCapturePipeline
@@ -1052,6 +1055,7 @@ chime:DeleteAttendee
 chime:DeleteCDRBucket
 chime:DeleteChannel
 chime:DeleteChannelBan
+chime:DeleteChannelFlow
 chime:DeleteChannelMembership
 chime:DeleteChannelMessage
 chime:DeleteChannelModerator
@@ -1080,10 +1084,12 @@ chime:DescribeAppInstanceAdmin
 chime:DescribeAppInstanceUser
 chime:DescribeChannel
 chime:DescribeChannelBan
+chime:DescribeChannelFlow
 chime:DescribeChannelMembership
 chime:DescribeChannelMembershipForAppInstanceUser
 chime:DescribeChannelModeratedByAppInstanceUser
 chime:DescribeChannelModerator
+chime:DisassociateChannelFlow
 chime:DisassociatePhoneNumberFromUser
 chime:DisassociatePhoneNumbersFromVoiceConnector
 chime:DisassociatePhoneNumbersFromVoiceConnectorGroup
@@ -1099,6 +1105,7 @@ chime:GetAttendee
 chime:GetBot
 chime:GetCDRBucket
 chime:GetChannelMessage
+chime:GetChannelMessageStatus
 chime:GetDomain
 chime:GetEventsConfiguration
 chime:GetGlobalSettings
@@ -1144,11 +1151,13 @@ chime:ListBots
 chime:ListCDRBucket
 chime:ListCallingRegions
 chime:ListChannelBans
+chime:ListChannelFlows
 chime:ListChannelMemberships
 chime:ListChannelMembershipsForAppInstanceUser
 chime:ListChannelMessages
 chime:ListChannelModerators
 chime:ListChannels
+chime:ListChannelsAssociatedWithChannelFlow
 chime:ListChannelsModeratedByAppInstanceUser
 chime:ListDelegates
 chime:ListDirectories
@@ -1218,6 +1227,7 @@ chime:UpdateAppInstanceUser
 chime:UpdateBot
 chime:UpdateCDRSettings
 chime:UpdateChannel
+chime:UpdateChannelFlow
 chime:UpdateChannelMessage
 chime:UpdateChannelReadMarker
 chime:UpdateGlobalSettings
@@ -3981,6 +3991,7 @@ elasticmapreduce:DescribeSecurityConfiguration
 elasticmapreduce:DescribeStep
 elasticmapreduce:DescribeStudio
 elasticmapreduce:DetachEditor
+elasticmapreduce:GetAutoTerminationPolicy
 elasticmapreduce:GetBlockPublicAccessConfiguration
 elasticmapreduce:GetManagedScalingPolicy
 elasticmapreduce:GetOnClusterAppUIPresignedURL
@@ -4005,9 +4016,11 @@ elasticmapreduce:ModifyInstanceFleet
 elasticmapreduce:ModifyInstanceGroups
 elasticmapreduce:OpenEditorInConsole
 elasticmapreduce:PutAutoScalingPolicy
+elasticmapreduce:PutAutoTerminationPolicy
 elasticmapreduce:PutBlockPublicAccessConfiguration
 elasticmapreduce:PutManagedScalingPolicy
 elasticmapreduce:RemoveAutoScalingPolicy
+elasticmapreduce:RemoveAutoTerminationPolicy
 elasticmapreduce:RemoveManagedScalingPolicy
 elasticmapreduce:RemoveTags
 elasticmapreduce:RunJobFlow
