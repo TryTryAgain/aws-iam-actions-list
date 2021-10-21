@@ -3171,6 +3171,7 @@ ec2:AuthorizeSecurityGroupIngress
 ec2:BundleInstance
 ec2:CancelBundleTask
 ec2:CancelCapacityReservation
+ec2:CancelCapacityReservationFleets
 ec2:CancelConversionTask
 ec2:CancelExportTask
 ec2:CancelImportTask
@@ -3182,6 +3183,7 @@ ec2:CopyFpgaImage
 ec2:CopyImage
 ec2:CopySnapshot
 ec2:CreateCapacityReservation
+ec2:CreateCapacityReservationFleet
 ec2:CreateCarrierGateway
 ec2:CreateClientVpnEndpoint
 ec2:CreateClientVpnRoute
@@ -3492,6 +3494,8 @@ ec2:GetTransitGatewayMulticastDomainAssociations
 ec2:GetTransitGatewayPrefixListReferences
 ec2:GetTransitGatewayRouteTableAssociations
 ec2:GetTransitGatewayRouteTablePropagations
+ec2:GetVpnConnectionDeviceSampleConfiguration
+ec2:GetVpnConnectionDeviceTypes
 ec2:ImportClientVpnClientCertificateRevocationList
 ec2:ImportImage
 ec2:ImportInstance
@@ -3501,6 +3505,7 @@ ec2:ImportVolume
 ec2:ModifyAddressAttribute
 ec2:ModifyAvailabilityZoneGroup
 ec2:ModifyCapacityReservation
+ec2:ModifyCapacityReservationFleet
 ec2:ModifyClientVpnEndpoint
 ec2:ModifyDefaultCreditSpecification
 ec2:ModifyEbsDefaultKmsKeyId
@@ -3589,6 +3594,7 @@ ec2:SearchLocalGatewayRoutes
 ec2:SearchTransitGatewayMulticastGroups
 ec2:SearchTransitGatewayRoutes
 ec2:SendDiagnosticInterrupt
+ec2:SendSpotInstanceInterruptions
 ec2:StartInstances
 ec2:StartNetworkInsightsAnalysis
 ec2:StartVpcEndpointServicePrivateDnsVerification
