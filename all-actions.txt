@@ -650,6 +650,7 @@ auditmanager:CreateAssessmentReport
 auditmanager:CreateControl
 auditmanager:DeleteAssessment
 auditmanager:DeleteAssessmentFramework
+auditmanager:DeleteAssessmentFrameworkShare
 auditmanager:DeleteAssessmentReport
 auditmanager:DeleteControl
 auditmanager:DeregisterAccount
@@ -670,6 +671,7 @@ auditmanager:GetEvidenceFoldersByAssessmentControl
 auditmanager:GetOrganizationAdminAccount
 auditmanager:GetServicesInScope
 auditmanager:GetSettings
+auditmanager:ListAssessmentFrameworkShareRequests
 auditmanager:ListAssessmentFrameworks
 auditmanager:ListAssessmentReports
 auditmanager:ListAssessments
@@ -679,12 +681,14 @@ auditmanager:ListNotifications
 auditmanager:ListTagsForResource
 auditmanager:RegisterAccount
 auditmanager:RegisterOrganizationAdminAccount
+auditmanager:StartAssessmentFrameworkShare
 auditmanager:TagResource
 auditmanager:UntagResource
 auditmanager:UpdateAssessment
 auditmanager:UpdateAssessmentControl
 auditmanager:UpdateAssessmentControlSetStatus
 auditmanager:UpdateAssessmentFramework
+auditmanager:UpdateAssessmentFrameworkShare
 auditmanager:UpdateAssessmentStatus
 auditmanager:UpdateControl
 auditmanager:UpdateSettings
