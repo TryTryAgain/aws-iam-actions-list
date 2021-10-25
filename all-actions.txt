@@ -6833,12 +6833,14 @@ mediaconvert:CreateJobTemplate
 mediaconvert:CreatePreset
 mediaconvert:CreateQueue
 mediaconvert:DeleteJobTemplate
+mediaconvert:DeletePolicy
 mediaconvert:DeletePreset
 mediaconvert:DeleteQueue
 mediaconvert:DescribeEndpoints
 mediaconvert:DisassociateCertificate
 mediaconvert:GetJob
 mediaconvert:GetJobTemplate
+mediaconvert:GetPolicy
 mediaconvert:GetPreset
 mediaconvert:GetQueue
 mediaconvert:ListJobTemplates
@@ -6846,11 +6848,13 @@ mediaconvert:ListJobs
 mediaconvert:ListPresets
 mediaconvert:ListQueues
 mediaconvert:ListTagsForResource
+mediaconvert:PutPolicy
 mediaconvert:TagResource
 mediaconvert:UntagResource
 mediaconvert:UpdateJobTemplate
 mediaconvert:UpdatePreset
 mediaconvert:UpdateQueue
+mediaimport:CreateDatabaseBinarySnapshot
 medialive:AcceptInputDeviceTransfer
 medialive:BatchDelete
 medialive:BatchStart
@@ -8020,6 +8024,7 @@ rds:CopyDBParameterGroup
 rds:CopyDBSnapshot
 rds:CopyOptionGroup
 rds:CreateCustomAvailabilityZone
+rds:CreateCustomDBEngineVersion
 rds:CreateDBCluster
 rds:CreateDBClusterEndpoint
 rds:CreateDBClusterParameterGroup
@@ -8037,6 +8042,7 @@ rds:CreateGlobalCluster
 rds:CreateOptionGroup
 rds:CrossRegionCommunication
 rds:DeleteCustomAvailabilityZone
+rds:DeleteCustomDBEngineVersion
 rds:DeleteDBCluster
 rds:DeleteDBClusterEndpoint
 rds:DeleteDBClusterParameterGroup
@@ -8104,6 +8110,7 @@ rds:ImportInstallationMedia
 rds:ListTagsForResource
 rds:ModifyCertificates
 rds:ModifyCurrentDBClusterCapacity
+rds:ModifyCustomDBEngineVersion
 rds:ModifyDBCluster
 rds:ModifyDBClusterEndpoint
 rds:ModifyDBClusterParameterGroup
@@ -8685,7 +8692,6 @@ s3:DeleteAccessPointForObjectLambda
 s3:DeleteAccessPointPolicy
 s3:DeleteAccessPointPolicyForObjectLambda
 s3:DeleteBucket
-s3:DeleteBucketOwnershipControls
 s3:DeleteBucketPolicy
 s3:DeleteBucketWebsite
 s3:DeleteJobTagging
