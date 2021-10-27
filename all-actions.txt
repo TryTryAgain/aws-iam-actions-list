@@ -10285,8 +10285,10 @@ textract:AnalyzeExpense
 textract:DetectDocumentText
 textract:GetDocumentAnalysis
 textract:GetDocumentTextDetection
+textract:GetExpenseAnalysis
 textract:StartDocumentAnalysis
 textract:StartDocumentTextDetection
+textract:StartExpenseAnalysis
 timestream:CancelQuery
 timestream:CreateDatabase
 timestream:CreateTable
