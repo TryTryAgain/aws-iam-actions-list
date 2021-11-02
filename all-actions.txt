@@ -8296,15 +8296,18 @@ redshift:ViewQueriesFromConsole
 redshift:ViewQueriesInConsole
 rekognition:CompareFaces
 rekognition:CreateCollection
+rekognition:CreateDataset
 rekognition:CreateProject
 rekognition:CreateProjectVersion
 rekognition:CreateStreamProcessor
 rekognition:DeleteCollection
+rekognition:DeleteDataset
 rekognition:DeleteFaces
 rekognition:DeleteProject
 rekognition:DeleteProjectVersion
 rekognition:DeleteStreamProcessor
 rekognition:DescribeCollection
+rekognition:DescribeDataset
 rekognition:DescribeProjectVersions
 rekognition:DescribeProjects
 rekognition:DescribeStreamProcessor
@@ -8314,6 +8317,7 @@ rekognition:DetectLabels
 rekognition:DetectModerationLabels
 rekognition:DetectProtectiveEquipment
 rekognition:DetectText
+rekognition:DistributeDatasetEntries
 rekognition:GetCelebrityInfo
 rekognition:GetCelebrityRecognition
 rekognition:GetContentModeration
@@ -8325,6 +8329,8 @@ rekognition:GetSegmentDetection
 rekognition:GetTextDetection
 rekognition:IndexFaces
 rekognition:ListCollections
+rekognition:ListDatasetEntries
+rekognition:ListDatasetLabels
 rekognition:ListFaces
 rekognition:ListStreamProcessors
 rekognition:ListTagsForResource
@@ -8345,6 +8351,7 @@ rekognition:StopProjectVersion
 rekognition:StopStreamProcessor
 rekognition:TagResource
 rekognition:UntagResource
+rekognition:UpdateDatasetEntries
 resource-explorer:ListResourceTypes
 resource-explorer:ListResources
 resource-explorer:ListTags
@@ -10628,6 +10635,7 @@ wafv2:DisassociateFirewallManager
 wafv2:DisassociateWebACL
 wafv2:GetIPSet
 wafv2:GetLoggingConfiguration
+wafv2:GetManagedRuleSet
 wafv2:GetPermissionPolicy
 wafv2:GetRateBasedStatementManagedKeys
 wafv2:GetRegexPatternSet
@@ -10638,6 +10646,7 @@ wafv2:GetWebACLForResource
 wafv2:ListAvailableManagedRuleGroups
 wafv2:ListIPSets
 wafv2:ListLoggingConfigurations
+wafv2:ListManagedRuleSets
 wafv2:ListRegexPatternSets
 wafv2:ListResourcesForWebACL
 wafv2:ListRuleGroups
@@ -10645,10 +10654,12 @@ wafv2:ListTagsForResource
 wafv2:ListWebACLs
 wafv2:PutFirewallManagerRuleGroups
 wafv2:PutLoggingConfiguration
+wafv2:PutManagedRuleSetVersions
 wafv2:PutPermissionPolicy
 wafv2:TagResource
 wafv2:UntagResource
 wafv2:UpdateIPSet
+wafv2:UpdateManagedRuleSetVersionExpiryDate
 wafv2:UpdateRegexPatternSet
 wafv2:UpdateRuleGroup
 wafv2:UpdateWebACL
