@@ -8817,6 +8817,7 @@ s3:UpdateJobStatus
 sagemaker:AddAssociation
 sagemaker:AddTags
 sagemaker:AssociateTrialComponent
+sagemaker:BatchDescribeModelPackage
 sagemaker:BatchGetMetrics
 sagemaker:BatchGetRecord
 sagemaker:BatchPutMetrics
