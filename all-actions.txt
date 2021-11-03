@@ -6287,6 +6287,7 @@ lex:GetSlotType
 lex:GetSlotTypeVersions
 lex:GetSlotTypes
 lex:GetUtterancesView
+lex:ListAggregatedUtterances
 lex:ListBotAliases
 lex:ListBotChannels
 lex:ListBotLocales
