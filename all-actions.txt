@@ -7577,6 +7577,7 @@ organizations:TagResource
 organizations:UntagResource
 organizations:UpdateOrganizationalUnit
 organizations:UpdatePolicy
+outposts:CreateOrder
 outposts:CreateOutpost
 outposts:DeleteOutpost
 outposts:DeleteSite
