@@ -10836,6 +10836,7 @@ workmail:DeleteInboundMailFlowRule
 workmail:DeleteMailDomain
 workmail:DeleteMailboxPermissions
 workmail:DeleteMobileDevice
+workmail:DeleteMobileDeviceAccessOverride
 workmail:DeleteMobileDeviceAccessRule
 workmail:DeleteOrganization
 workmail:DeleteOutboundMailFlowRule
@@ -10844,6 +10845,7 @@ workmail:DeleteRetentionPolicy
 workmail:DeleteSmtpGateway
 workmail:DeleteUser
 workmail:DeregisterFromWorkMail
+workmail:DeregisterMailDomain
 workmail:DescribeDirectories
 workmail:DescribeGroup
 workmail:DescribeInboundDmarcSettings
@@ -10869,11 +10871,13 @@ workmail:EnableMailUsers
 workmail:GetAccessControlEffect
 workmail:GetDefaultRetentionPolicy
 workmail:GetJournalingRules
+workmail:GetMailDomain
 workmail:GetMailDomainDetails
 workmail:GetMailGroupDetails
 workmail:GetMailUserDetails
 workmail:GetMailboxDetails
 workmail:GetMobileDeviceAccessEffect
+workmail:GetMobileDeviceAccessOverride
 workmail:GetMobileDeviceDetails
 workmail:GetMobileDevicesForUser
 workmail:GetMobilePolicyDetails
@@ -10882,9 +10886,11 @@ workmail:ListAliases
 workmail:ListGroupMembers
 workmail:ListGroups
 workmail:ListInboundMailFlowRules
+workmail:ListMailDomains
 workmail:ListMailboxExportJobs
 workmail:ListMailboxPermissions
 workmail:ListMembersInMailGroup
+workmail:ListMobileDeviceAccessOverrides
 workmail:ListMobileDeviceAccessRules
 workmail:ListOrganizations
 workmail:ListOutboundMailFlowRules
@@ -10896,7 +10902,9 @@ workmail:ListUsers
 workmail:PutAccessControlRule
 workmail:PutInboundDmarcSettings
 workmail:PutMailboxPermissions
+workmail:PutMobileDeviceAccessOverride
 workmail:PutRetentionPolicy
+workmail:RegisterMailDomain
 workmail:RegisterToWorkMail
 workmail:RemoveMembersFromGroup
 workmail:ResetPassword
@@ -10913,6 +10921,7 @@ workmail:TagResource
 workmail:TestInboundMailFlowRules
 workmail:TestOutboundMailFlowRules
 workmail:UntagResource
+workmail:UpdateDefaultMailDomain
 workmail:UpdateInboundMailFlowRule
 workmail:UpdateMailboxQuota
 workmail:UpdateMobileDeviceAccessRule
