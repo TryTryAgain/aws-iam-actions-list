@@ -9153,10 +9153,12 @@ securityhub:BatchEnableStandards
 securityhub:BatchImportFindings
 securityhub:BatchUpdateFindings
 securityhub:CreateActionTarget
+securityhub:CreateFindingAggregator
 securityhub:CreateInsight
 securityhub:CreateMembers
 securityhub:DeclineInvitations
 securityhub:DeleteActionTarget
+securityhub:DeleteFindingAggregator
 securityhub:DeleteInsight
 securityhub:DeleteInvitations
 securityhub:DeleteMembers
@@ -9179,6 +9181,7 @@ securityhub:GetAdhocInsightResults
 securityhub:GetAdministratorAccount
 securityhub:GetControlFindingSummary
 securityhub:GetEnabledStandards
+securityhub:GetFindingAggregator
 securityhub:GetFindings
 securityhub:GetFreeTrialEndDate
 securityhub:GetFreeTrialUsage
@@ -9192,6 +9195,7 @@ securityhub:GetUsage
 securityhub:InviteMembers
 securityhub:ListControlEvaluationSummaries
 securityhub:ListEnabledProductsForImport
+securityhub:ListFindingAggregators
 securityhub:ListInvitations
 securityhub:ListMembers
 securityhub:ListOrganizationAdminAccounts
@@ -9201,6 +9205,7 @@ securityhub:SendInsightEvents
 securityhub:TagResource
 securityhub:UntagResource
 securityhub:UpdateActionTarget
+securityhub:UpdateFindingAggregator
 securityhub:UpdateFindings
 securityhub:UpdateInsight
 securityhub:UpdateOrganizationConfiguration
