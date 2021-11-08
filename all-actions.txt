@@ -2871,6 +2871,7 @@ directconnect:AssociateHostedConnection
 directconnect:AssociateMacSecKey
 directconnect:AssociateVirtualInterface
 directconnect:ConfirmConnection
+directconnect:ConfirmCustomerAgreement
 directconnect:ConfirmPrivateVirtualInterface
 directconnect:ConfirmPublicVirtualInterface
 directconnect:ConfirmTransitVirtualInterface
@@ -2895,6 +2896,7 @@ directconnect:DeleteVirtualInterface
 directconnect:DescribeConnectionLoa
 directconnect:DescribeConnections
 directconnect:DescribeConnectionsOnInterconnect
+directconnect:DescribeCustomerMetadata
 directconnect:DescribeDirectConnectGatewayAssociationProposals
 directconnect:DescribeDirectConnectGatewayAssociations
 directconnect:DescribeDirectConnectGatewayAttachments
@@ -2905,6 +2907,7 @@ directconnect:DescribeInterconnects
 directconnect:DescribeLags
 directconnect:DescribeLoa
 directconnect:DescribeLocations
+directconnect:DescribeRouterConfiguration
 directconnect:DescribeTags
 directconnect:DescribeVirtualGateways
 directconnect:DescribeVirtualInterfaces
@@ -2916,6 +2919,7 @@ directconnect:StopBgpFailoverTest
 directconnect:TagResource
 directconnect:UntagResource
 directconnect:UpdateConnection
+directconnect:UpdateDirectConnectGateway
 directconnect:UpdateDirectConnectGatewayAssociation
 directconnect:UpdateLag
 directconnect:UpdateVirtualInterfaceAttributes
@@ -7091,15 +7095,18 @@ mgn:BatchCreateVolumeSnapshotGroupForMgn
 mgn:BatchDeleteSnapshotRequestForMgn
 mgn:ChangeServerLifeCycleState
 mgn:CreateReplicationConfigurationTemplate
+mgn:CreateVcenterClientForMgn
 mgn:DeleteJob
 mgn:DeleteReplicationConfigurationTemplate
 mgn:DeleteSourceServer
+mgn:DeleteVcenterClient
 mgn:DescribeJobLogItems
 mgn:DescribeJobs
 mgn:DescribeReplicationConfigurationTemplates
 mgn:DescribeReplicationServerAssociationsForMgn
 mgn:DescribeSnapshotRequestsForMgn
 mgn:DescribeSourceServers
+mgn:DescribeVcenterClients
 mgn:DisconnectFromService
 mgn:FinalizeCutover
 mgn:GetAgentCommandForMgn
@@ -7111,6 +7118,7 @@ mgn:GetAgentSnapshotCreditsForMgn
 mgn:GetChannelCommandsForMgn
 mgn:GetLaunchConfiguration
 mgn:GetReplicationConfiguration
+mgn:GetVcenterClientCommandsForMgn
 mgn:InitializeService
 mgn:ListTagsForResource
 mgn:MarkAsArchived
@@ -7118,6 +7126,7 @@ mgn:NotifyAgentAuthenticationForMgn
 mgn:NotifyAgentConnectedForMgn
 mgn:NotifyAgentDisconnectedForMgn
 mgn:NotifyAgentReplicationProgressForMgn
+mgn:NotifyVcenterClientStartedForMgn
 mgn:RegisterAgentForMgn
 mgn:RetryDataReplication
 mgn:SendAgentLogsForMgn
@@ -7125,7 +7134,11 @@ mgn:SendAgentMetricsForMgn
 mgn:SendChannelCommandResultForMgn
 mgn:SendClientLogsForMgn
 mgn:SendClientMetricsForMgn
+mgn:SendVcenterClientCommandResultForMgn
+mgn:SendVcenterClientLogsForMgn
+mgn:SendVcenterClientMetricsForMgn
 mgn:StartCutover
+mgn:StartReplication
 mgn:StartTest
 mgn:TagResource
 mgn:TerminateTargetInstances
@@ -7138,6 +7151,7 @@ mgn:UpdateAgentSourcePropertiesForMgn
 mgn:UpdateLaunchConfiguration
 mgn:UpdateReplicationConfiguration
 mgn:UpdateReplicationConfigurationTemplate
+mgn:UpdateSourceServerReplicationType
 migrationhub-strategy:GetAntiPattern
 migrationhub-strategy:GetApplicationComponentDetails
 migrationhub-strategy:GetApplicationComponentStrategies
