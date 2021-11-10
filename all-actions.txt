@@ -2845,6 +2845,9 @@ devops-guru:DescribeAccountOverview
 devops-guru:DescribeAnomaly
 devops-guru:DescribeFeedback
 devops-guru:DescribeInsight
+devops-guru:DescribeOrganizationHealth
+devops-guru:DescribeOrganizationOverview
+devops-guru:DescribeOrganizationResourceCollectionHealth
 devops-guru:DescribeResourceCollectionHealth
 devops-guru:DescribeServiceIntegration
 devops-guru:GetCostEstimation
@@ -2853,10 +2856,12 @@ devops-guru:ListAnomaliesForInsight
 devops-guru:ListEvents
 devops-guru:ListInsights
 devops-guru:ListNotificationChannels
+devops-guru:ListOrganizationInsights
 devops-guru:ListRecommendations
 devops-guru:PutFeedback
 devops-guru:RemoveNotificationChannel
 devops-guru:SearchInsights
+devops-guru:SearchOrganizationInsights
 devops-guru:StartCostEstimation
 devops-guru:UpdateResourceCollection
 devops-guru:UpdateServiceIntegration
@@ -4830,6 +4835,8 @@ grafana:UpdateWorkspace
 grafana:UpdateWorkspaceAuthentication
 greengrass:AssociateRoleToGroup
 greengrass:AssociateServiceRoleToAccount
+greengrass:BatchAssociateClientDeviceWithCoreDevice
+greengrass:BatchDisassociateClientDeviceFromCoreDevice
 greengrass:CancelDeployment
 greengrass:CreateComponentVersion
 greengrass:CreateConnectorDefinition
@@ -4895,6 +4902,7 @@ greengrass:GetSubscriptionDefinitionVersion
 greengrass:GetThingRuntimeConfiguration
 greengrass:ListBulkDeploymentDetailedReports
 greengrass:ListBulkDeployments
+greengrass:ListClientDevicesAssociatedWithCoreDevice
 greengrass:ListComponentVersions
 greengrass:ListComponents
 greengrass:ListConnectorDefinitionVersions
