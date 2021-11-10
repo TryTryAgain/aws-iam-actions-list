@@ -886,14 +886,18 @@ backup:UpdateReportPlan
 batch:CancelJob
 batch:CreateComputeEnvironment
 batch:CreateJobQueue
+batch:CreateSchedulingPolicy
 batch:DeleteComputeEnvironment
 batch:DeleteJobQueue
+batch:DeleteSchedulingPolicy
 batch:DeregisterJobDefinition
 batch:DescribeComputeEnvironments
 batch:DescribeJobDefinitions
 batch:DescribeJobQueues
 batch:DescribeJobs
+batch:DescribeSchedulingPolicies
 batch:ListJobs
+batch:ListSchedulingPolicies
 batch:ListTagsForResource
 batch:RegisterJobDefinition
 batch:SubmitJob
@@ -902,6 +906,7 @@ batch:TerminateJob
 batch:UntagResource
 batch:UpdateComputeEnvironment
 batch:UpdateJobQueue
+batch:UpdateSchedulingPolicy
 braket:CancelQuantumTask
 braket:CreateQuantumTask
 braket:GetDevice
