@@ -1088,9 +1088,11 @@ chime:DeleteVoiceConnectorProxy
 chime:DeleteVoiceConnectorStreamingConfiguration
 chime:DeleteVoiceConnectorTermination
 chime:DeleteVoiceConnectorTerminationCredentials
+chime:DeregisterAppInstanceUserEndpoint
 chime:DescribeAppInstance
 chime:DescribeAppInstanceAdmin
 chime:DescribeAppInstanceUser
+chime:DescribeAppInstanceUserEndpoint
 chime:DescribeChannel
 chime:DescribeChannelBan
 chime:DescribeChannelFlow
@@ -1113,6 +1115,7 @@ chime:GetAppInstanceStreamingConfigurations
 chime:GetAttendee
 chime:GetBot
 chime:GetCDRBucket
+chime:GetChannelMembershipPreferences
 chime:GetChannelMessage
 chime:GetChannelMessageStatus
 chime:GetDomain
@@ -1152,6 +1155,7 @@ chime:ListAccountUsageReportData
 chime:ListAccounts
 chime:ListApiKeys
 chime:ListAppInstanceAdmins
+chime:ListAppInstanceUserEndpoints
 chime:ListAppInstanceUsers
 chime:ListAppInstances
 chime:ListAttendeeTags
@@ -1193,6 +1197,7 @@ chime:ListVoiceConnectors
 chime:LogoutUser
 chime:PutAppInstanceRetentionSettings
 chime:PutAppInstanceStreamingConfigurations
+chime:PutChannelMembershipPreferences
 chime:PutEventsConfiguration
 chime:PutRetentionSettings
 chime:PutSipMediaApplicationLoggingConfiguration
@@ -1207,6 +1212,7 @@ chime:RedactChannelMessage
 chime:RedactConversationMessage
 chime:RedactRoomMessage
 chime:RegenerateSecurityToken
+chime:RegisterAppInstanceUserEndpoint
 chime:RenameAccount
 chime:RenewDelegate
 chime:ResetAccountResource
@@ -1233,6 +1239,7 @@ chime:UpdateAccountResource
 chime:UpdateAccountSettings
 chime:UpdateAppInstance
 chime:UpdateAppInstanceUser
+chime:UpdateAppInstanceUserEndpoint
 chime:UpdateBot
 chime:UpdateCDRSettings
 chime:UpdateChannel
