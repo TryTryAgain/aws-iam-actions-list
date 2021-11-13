@@ -2366,6 +2366,7 @@ connect:CreateIntegrationAssociation
 connect:CreateQueue
 connect:CreateQuickConnect
 connect:CreateRoutingProfile
+connect:CreateSecurityProfile
 connect:CreateUseCase
 connect:CreateUser
 connect:CreateUserHierarchyGroup
@@ -2373,10 +2374,12 @@ connect:DeleteHoursOfOperation
 connect:DeleteInstance
 connect:DeleteIntegrationAssociation
 connect:DeleteQuickConnect
+connect:DeleteSecurityProfile
 connect:DeleteUseCase
 connect:DeleteUser
 connect:DeleteUserHierarchyGroup
 connect:DescribeAgentStatus
+connect:DescribeContact
 connect:DescribeContactFlow
 connect:DescribeHoursOfOperation
 connect:DescribeInstance
@@ -2385,6 +2388,7 @@ connect:DescribeInstanceStorageConfig
 connect:DescribeQueue
 connect:DescribeQuickConnect
 connect:DescribeRoutingProfile
+connect:DescribeSecurityProfile
 connect:DescribeUser
 connect:DescribeUserHierarchyGroup
 connect:DescribeUserHierarchyStructure
@@ -2406,6 +2410,7 @@ connect:ListAgentStatuses
 connect:ListApprovedOrigins
 connect:ListBots
 connect:ListContactFlows
+connect:ListContactReferences
 connect:ListHoursOfOperations
 connect:ListInstanceAttributes
 connect:ListInstanceStorageConfigs
@@ -2422,6 +2427,7 @@ connect:ListRealtimeContactAnalysisSegments
 connect:ListRoutingProfileQueues
 connect:ListRoutingProfiles
 connect:ListSecurityKeys
+connect:ListSecurityProfilePermissions
 connect:ListSecurityProfiles
 connect:ListTagsForResource
 connect:ListUseCases
@@ -2438,9 +2444,11 @@ connect:SuspendContactRecording
 connect:TagResource
 connect:UntagResource
 connect:UpdateAgentStatus
+connect:UpdateContact
 connect:UpdateContactAttributes
 connect:UpdateContactFlowContent
 connect:UpdateContactFlowName
+connect:UpdateContactSchedule
 connect:UpdateHoursOfOperation
 connect:UpdateInstanceAttribute
 connect:UpdateInstanceStorageConfig
@@ -2455,6 +2463,7 @@ connect:UpdateRoutingProfileConcurrency
 connect:UpdateRoutingProfileDefaultOutboundQueue
 connect:UpdateRoutingProfileName
 connect:UpdateRoutingProfileQueues
+connect:UpdateSecurityProfile
 connect:UpdateUserHierarchy
 connect:UpdateUserHierarchyGroupName
 connect:UpdateUserHierarchyStructure
