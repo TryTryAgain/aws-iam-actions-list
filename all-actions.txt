@@ -9180,6 +9180,7 @@ sagemaker:UpdateNotebookInstance
 sagemaker:UpdateNotebookInstanceLifecycleConfig
 sagemaker:UpdatePipeline
 sagemaker:UpdatePipelineExecution
+sagemaker:UpdateProject
 sagemaker:UpdateTrainingJob
 sagemaker:UpdateTrial
 sagemaker:UpdateTrialComponent
