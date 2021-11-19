@@ -473,10 +473,13 @@ apprunner:StartDeployment
 apprunner:TagResource
 apprunner:UntagResource
 apprunner:UpdateService
+appstream:AssociateApplicationFleet
 appstream:AssociateFleet
 appstream:BatchAssociateUserStack
 appstream:BatchDisassociateUserStack
 appstream:CopyImage
+appstream:CreateAppBlock
+appstream:CreateApplication
 appstream:CreateDirectoryConfig
 appstream:CreateFleet
 appstream:CreateImageBuilder
@@ -486,6 +489,8 @@ appstream:CreateStreamingURL
 appstream:CreateUpdatedImage
 appstream:CreateUsageReportSubscription
 appstream:CreateUser
+appstream:DeleteAppBlock
+appstream:DeleteApplication
 appstream:DeleteDirectoryConfig
 appstream:DeleteFleet
 appstream:DeleteImage
@@ -494,6 +499,9 @@ appstream:DeleteImagePermissions
 appstream:DeleteStack
 appstream:DeleteUsageReportSubscription
 appstream:DeleteUser
+appstream:DescribeAppBlocks
+appstream:DescribeApplicationFleetAssociations
+appstream:DescribeApplications
 appstream:DescribeDirectoryConfigs
 appstream:DescribeFleets
 appstream:DescribeImageBuilders
@@ -505,6 +513,7 @@ appstream:DescribeUsageReportSubscriptions
 appstream:DescribeUserStackAssociations
 appstream:DescribeUsers
 appstream:DisableUser
+appstream:DisassociateApplicationFleet
 appstream:DisassociateFleet
 appstream:EnableUser
 appstream:ExpireSession
@@ -518,6 +527,7 @@ appstream:StopImageBuilder
 appstream:Stream
 appstream:TagResource
 appstream:UntagResource
+appstream:UpdateApplication
 appstream:UpdateDirectoryConfig
 appstream:UpdateFleet
 appstream:UpdateImagePermissions
