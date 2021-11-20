@@ -6126,6 +6126,7 @@ kafka:UpdateBrokerType
 kafka:UpdateClusterConfiguration
 kafka:UpdateClusterKafkaVersion
 kafka:UpdateConfiguration
+kafka:UpdateConnectivity
 kafka:UpdateMonitoring
 kafka:UpdateSecurity
 kafkaconnect:CreateConnector
@@ -6352,6 +6353,7 @@ lambda:CreateAlias
 lambda:CreateCodeSigningConfig
 lambda:CreateEventSourceMapping
 lambda:CreateFunction
+lambda:CreateFunctionUrlConfig
 lambda:DeleteAlias
 lambda:DeleteCodeSigningConfig
 lambda:DeleteEventSourceMapping
@@ -6359,6 +6361,7 @@ lambda:DeleteFunction
 lambda:DeleteFunctionCodeSigningConfig
 lambda:DeleteFunctionConcurrency
 lambda:DeleteFunctionEventInvokeConfig
+lambda:DeleteFunctionUrlConfig
 lambda:DeleteLayerVersion
 lambda:DeleteProvisionedConcurrencyConfig
 lambda:DisableReplication
@@ -6372,16 +6375,19 @@ lambda:GetFunctionCodeSigningConfig
 lambda:GetFunctionConcurrency
 lambda:GetFunctionConfiguration
 lambda:GetFunctionEventInvokeConfig
+lambda:GetFunctionUrlConfig
 lambda:GetLayerVersion
 lambda:GetLayerVersionPolicy
 lambda:GetPolicy
 lambda:GetProvisionedConcurrencyConfig
 lambda:InvokeAsync
 lambda:InvokeFunction
+lambda:InvokeFunctionUrl
 lambda:ListAliases
 lambda:ListCodeSigningConfigs
 lambda:ListEventSourceMappings
 lambda:ListFunctionEventInvokeConfigs
+lambda:ListFunctionUrlConfigs
 lambda:ListFunctions
 lambda:ListFunctionsByCodeSigningConfig
 lambda:ListLayerVersions
@@ -6406,6 +6412,7 @@ lambda:UpdateFunctionCode
 lambda:UpdateFunctionCodeSigningConfig
 lambda:UpdateFunctionConfiguration
 lambda:UpdateFunctionEventInvokeConfig
+lambda:UpdateFunctionUrlConfig
 launchwizard:DeleteApp
 launchwizard:DescribeProvisionedApp
 launchwizard:DescribeProvisioningEvents
