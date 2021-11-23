@@ -10024,6 +10024,9 @@ ssm-contacts:UntagResource
 ssm-contacts:UpdateContact
 ssm-contacts:UpdateContactChannel
 ssm-contacts:UpdateContactPolicy
+ssm-guiconnect:CancelConnection
+ssm-guiconnect:GetConnection
+ssm-guiconnect:StartConnection
 ssm-incidents:CreateReplicationSet
 ssm-incidents:CreateResponsePlan
 ssm-incidents:CreateTimelineEvent
