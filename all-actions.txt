@@ -7424,6 +7424,7 @@ mobiletargeting:GetExportJobs
 mobiletargeting:GetGcmChannel
 mobiletargeting:GetImportJob
 mobiletargeting:GetImportJobs
+mobiletargeting:GetInAppMessages
 mobiletargeting:GetJourney
 mobiletargeting:GetJourneyDateRangeKpi
 mobiletargeting:GetJourneyExecutionActivityMetrics
@@ -8343,6 +8344,7 @@ rds:ModifyRecommendation
 rds:PromoteReadReplica
 rds:PromoteReadReplicaDBCluster
 rds:PurchaseReservedDBInstancesOffering
+rds:RebootDBCluster
 rds:RebootDBInstance
 rds:RegisterDBProxyTargets
 rds:RemoveFromGlobalCluster
