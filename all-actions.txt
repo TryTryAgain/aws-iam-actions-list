@@ -5899,6 +5899,7 @@ iotfleethub:TagResource
 iotfleethub:UntagResource
 iotfleethub:UpdateApplication
 iotsitewise:AssociateAssets
+iotsitewise:AssociateTimeSeriesToAssetProperty
 iotsitewise:BatchAssociateProjectAssets
 iotsitewise:BatchDisassociateProjectAssets
 iotsitewise:BatchPutAssetPropertyValue
@@ -5916,6 +5917,7 @@ iotsitewise:DeleteDashboard
 iotsitewise:DeleteGateway
 iotsitewise:DeletePortal
 iotsitewise:DeleteProject
+iotsitewise:DeleteTimeSeries
 iotsitewise:DescribeAccessPolicy
 iotsitewise:DescribeAsset
 iotsitewise:DescribeAssetModel
@@ -5928,10 +5930,13 @@ iotsitewise:DescribeLoggingOptions
 iotsitewise:DescribePortal
 iotsitewise:DescribeProject
 iotsitewise:DescribeStorageConfiguration
+iotsitewise:DescribeTimeSeries
 iotsitewise:DisassociateAssets
+iotsitewise:DisassociateTimeSeriesFromAssetProperty
 iotsitewise:GetAssetPropertyAggregates
 iotsitewise:GetAssetPropertyValue
 iotsitewise:GetAssetPropertyValueHistory
+iotsitewise:GetInterpolatedAssetPropertyValues
 iotsitewise:ListAccessPolicies
 iotsitewise:ListAssetModels
 iotsitewise:ListAssetRelationships
@@ -5943,6 +5948,7 @@ iotsitewise:ListPortals
 iotsitewise:ListProjectAssets
 iotsitewise:ListProjects
 iotsitewise:ListTagsForResource
+iotsitewise:ListTimeSeries
 iotsitewise:PutDefaultEncryptionConfiguration
 iotsitewise:PutLoggingOptions
 iotsitewise:PutStorageConfiguration
