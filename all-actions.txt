@@ -2394,6 +2394,7 @@ connect:AssociateRoutingProfileQueues
 connect:AssociateSecurityKey
 connect:CreateAgentStatus
 connect:CreateContactFlow
+connect:CreateContactFlowModule
 connect:CreateHoursOfOperation
 connect:CreateInstance
 connect:CreateIntegrationAssociation
@@ -2404,6 +2405,8 @@ connect:CreateSecurityProfile
 connect:CreateUseCase
 connect:CreateUser
 connect:CreateUserHierarchyGroup
+connect:DeleteContactFlow
+connect:DeleteContactFlowModule
 connect:DeleteHoursOfOperation
 connect:DeleteInstance
 connect:DeleteIntegrationAssociation
@@ -2415,6 +2418,7 @@ connect:DeleteUserHierarchyGroup
 connect:DescribeAgentStatus
 connect:DescribeContact
 connect:DescribeContactFlow
+connect:DescribeContactFlowModule
 connect:DescribeHoursOfOperation
 connect:DescribeInstance
 connect:DescribeInstanceAttribute
@@ -2443,6 +2447,7 @@ connect:GetMetricData
 connect:ListAgentStatuses
 connect:ListApprovedOrigins
 connect:ListBots
+connect:ListContactFlowModules
 connect:ListContactFlows
 connect:ListContactReferences
 connect:ListHoursOfOperations
@@ -2481,6 +2486,8 @@ connect:UpdateAgentStatus
 connect:UpdateContact
 connect:UpdateContactAttributes
 connect:UpdateContactFlowContent
+connect:UpdateContactFlowMetadata
+connect:UpdateContactFlowModuleMetadata
 connect:UpdateContactFlowName
 connect:UpdateContactSchedule
 connect:UpdateHoursOfOperation
@@ -2505,6 +2512,7 @@ connect:UpdateUserIdentityInfo
 connect:UpdateUserPhoneConfig
 connect:UpdateUserRoutingProfile
 connect:UpdateUserSecurityProfiles
+connect:UpdatedescribeContent
 controltower:CreateManagedAccount
 controltower:DeregisterManagedAccount
 controltower:DeregisterOrganizationalUnit
