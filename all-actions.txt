@@ -5654,6 +5654,7 @@ iot:DescribeIndex
 iot:DescribeJob
 iot:DescribeJobExecution
 iot:DescribeJobTemplate
+iot:DescribeManagedJobTemplate
 iot:DescribeMitigationAction
 iot:DescribeProvisioningTemplate
 iot:DescribeProvisioningTemplateVersion
@@ -5714,6 +5715,7 @@ iot:ListJobExecutionsForJob
 iot:ListJobExecutionsForThing
 iot:ListJobTemplates
 iot:ListJobs
+iot:ListManagedJobTemplates
 iot:ListMitigationActions
 iot:ListNamedShadowsForThing
 iot:ListOTAUpdates
@@ -8107,6 +8109,7 @@ quicksight:CreateCustomPermissions
 quicksight:CreateDashboard
 quicksight:CreateDataSet
 quicksight:CreateDataSource
+quicksight:CreateEmailCustomizationTemplate
 quicksight:CreateFolder
 quicksight:CreateFolderMembership
 quicksight:CreateGroup
@@ -8127,6 +8130,7 @@ quicksight:DeleteCustomPermissions
 quicksight:DeleteDashboard
 quicksight:DeleteDataSet
 quicksight:DeleteDataSource
+quicksight:DeleteEmailCustomizationTemplate
 quicksight:DeleteFolder
 quicksight:DeleteFolderMembership
 quicksight:DeleteGroup
@@ -8151,6 +8155,7 @@ quicksight:DescribeDataSet
 quicksight:DescribeDataSetPermissions
 quicksight:DescribeDataSource
 quicksight:DescribeDataSourcePermissions
+quicksight:DescribeEmailCustomizationTemplate
 quicksight:DescribeFolder
 quicksight:DescribeFolderPermissions
 quicksight:DescribeFolderResolvedPermissions
@@ -8221,6 +8226,7 @@ quicksight:UpdateDataSet
 quicksight:UpdateDataSetPermissions
 quicksight:UpdateDataSource
 quicksight:UpdateDataSourcePermissions
+quicksight:UpdateEmailCustomizationTemplate
 quicksight:UpdateFolder
 quicksight:UpdateFolderPermissions
 quicksight:UpdateGroup
