@@ -2620,6 +2620,7 @@ dataexchange:ListJobs
 dataexchange:ListRevisionAssets
 dataexchange:ListTagsForResource
 dataexchange:PublishDataSet
+dataexchange:SendApiAsset
 dataexchange:StartJob
 dataexchange:TagResource
 dataexchange:UntagResource
@@ -3798,15 +3799,19 @@ ecr-public:UploadLayerPart
 ecr:BatchCheckLayerAvailability
 ecr:BatchDeleteImage
 ecr:BatchGetImage
+ecr:BatchGetRepositoryScanningConfiguration
 ecr:CompleteLayerUpload
+ecr:CreatePullThroughCacheRule
 ecr:CreateRepository
 ecr:DeleteLifecyclePolicy
+ecr:DeletePullThroughCacheRule
 ecr:DeleteRegistryPolicy
 ecr:DeleteRepository
 ecr:DeleteRepositoryPolicy
 ecr:DescribeImageReplicationStatus
 ecr:DescribeImageScanFindings
 ecr:DescribeImages
+ecr:DescribePullThroughCacheRules
 ecr:DescribeRegistry
 ecr:DescribeRepositories
 ecr:GetAuthorizationToken
@@ -3814,6 +3819,7 @@ ecr:GetDownloadUrlForLayer
 ecr:GetLifecyclePolicy
 ecr:GetLifecyclePolicyPreview
 ecr:GetRegistryPolicy
+ecr:GetRegistryScanningConfiguration
 ecr:GetRepositoryPolicy
 ecr:InitiateLayerUpload
 ecr:ListImages
@@ -3823,6 +3829,7 @@ ecr:PutImageScanningConfiguration
 ecr:PutImageTagMutability
 ecr:PutLifecyclePolicy
 ecr:PutRegistryPolicy
+ecr:PutRegistryScanningConfiguration
 ecr:PutReplicationConfiguration
 ecr:ReplicateImage
 ecr:SetRepositoryPolicy
@@ -7977,6 +7984,7 @@ panorama:UpdateAppConfiguration
 panorama:UpdateDataSource
 panorama:UpdateDeviceMetadata
 personalize:CreateBatchInferenceJob
+personalize:CreateBatchSegmentJob
 personalize:CreateCampaign
 personalize:CreateDataset
 personalize:CreateDatasetExportJob
@@ -7984,6 +7992,7 @@ personalize:CreateDatasetGroup
 personalize:CreateDatasetImportJob
 personalize:CreateEventTracker
 personalize:CreateFilter
+personalize:CreateRecommender
 personalize:CreateSchema
 personalize:CreateSolution
 personalize:CreateSolutionVersion
@@ -7992,10 +8001,12 @@ personalize:DeleteDataset
 personalize:DeleteDatasetGroup
 personalize:DeleteEventTracker
 personalize:DeleteFilter
+personalize:DeleteRecommender
 personalize:DeleteSchema
 personalize:DeleteSolution
 personalize:DescribeAlgorithm
 personalize:DescribeBatchInferenceJob
+personalize:DescribeBatchSegmentJob
 personalize:DescribeCampaign
 personalize:DescribeDataset
 personalize:DescribeDatasetExportJob
@@ -8005,6 +8016,7 @@ personalize:DescribeEventTracker
 personalize:DescribeFeatureTransformation
 personalize:DescribeFilter
 personalize:DescribeRecipe
+personalize:DescribeRecommender
 personalize:DescribeSchema
 personalize:DescribeSolution
 personalize:DescribeSolutionVersion
@@ -8012,6 +8024,7 @@ personalize:GetPersonalizedRanking
 personalize:GetRecommendations
 personalize:GetSolutionMetrics
 personalize:ListBatchInferenceJobs
+personalize:ListBatchSegmentJobs
 personalize:ListCampaigns
 personalize:ListDatasetExportJobs
 personalize:ListDatasetGroups
@@ -8020,6 +8033,7 @@ personalize:ListDatasets
 personalize:ListEventTrackers
 personalize:ListFilters
 personalize:ListRecipes
+personalize:ListRecommenders
 personalize:ListSchemas
 personalize:ListSolutionVersions
 personalize:ListSolutions
@@ -8028,6 +8042,7 @@ personalize:PutItems
 personalize:PutUsers
 personalize:StopSolutionVersionCreation
 personalize:UpdateCampaign
+personalize:UpdateRecommender
 pi:DescribeDimensionKeys
 pi:GetDimensionKeyDetails
 pi:GetResourceMetrics
@@ -8346,6 +8361,14 @@ ram:RejectResourceShareInvitation
 ram:TagResource
 ram:UntagResource
 ram:UpdateResourceShare
+rbin:CreateRule
+rbin:DeleteRule
+rbin:GetRule
+rbin:ListRules
+rbin:ListTagsForResource
+rbin:TagResource
+rbin:UntagResource
+rbin:UpdateRule
 rds-data:BatchExecuteStatement
 rds-data:BeginTransaction
 rds-data:CommitTransaction
