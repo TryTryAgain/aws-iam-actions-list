@@ -247,6 +247,23 @@ amplifybackend:UpdateBackendAPI
 amplifybackend:UpdateBackendAuth
 amplifybackend:UpdateBackendConfig
 amplifybackend:UpdateBackendJob
+amplifyuibuilder:CreateComponent
+amplifyuibuilder:CreateTheme
+amplifyuibuilder:DeleteComponent
+amplifyuibuilder:DeleteTheme
+amplifyuibuilder:ExchangeCodeForToken
+amplifyuibuilder:ExportComponents
+amplifyuibuilder:ExportThemes
+amplifyuibuilder:GetComponent
+amplifyuibuilder:GetTheme
+amplifyuibuilder:ListComponents
+amplifyuibuilder:ListTagsForResource
+amplifyuibuilder:ListThemes
+amplifyuibuilder:RefreshToken
+amplifyuibuilder:TagResource
+amplifyuibuilder:UntagResource
+amplifyuibuilder:UpdateComponent
+amplifyuibuilder:UpdateTheme
 apigateway:AddCertificateToDomain
 apigateway:DELETE
 apigateway:GET
@@ -6656,6 +6673,7 @@ lex:DescribeBot
 lex:DescribeBotAlias
 lex:DescribeBotChannel
 lex:DescribeBotLocale
+lex:DescribeBotRecommendation
 lex:DescribeBotVersion
 lex:DescribeExport
 lex:DescribeImport
@@ -6689,6 +6707,7 @@ lex:ListAggregatedUtterances
 lex:ListBotAliases
 lex:ListBotChannels
 lex:ListBotLocales
+lex:ListBotRecommendations
 lex:ListBotVersions
 lex:ListBots
 lex:ListBuiltInIntents
@@ -6696,6 +6715,7 @@ lex:ListBuiltInSlotTypes
 lex:ListExports
 lex:ListImports
 lex:ListIntents
+lex:ListRecommendedIntents
 lex:ListSlotTypes
 lex:ListSlots
 lex:ListTagsForResource
@@ -6708,6 +6728,8 @@ lex:PutSession
 lex:PutSlotType
 lex:RecognizeText
 lex:RecognizeUtterance
+lex:SearchAssociatedTranscripts
+lex:StartBotRecommendation
 lex:StartConversation
 lex:StartImport
 lex:StartMigration
@@ -6716,6 +6738,7 @@ lex:UntagResource
 lex:UpdateBot
 lex:UpdateBotAlias
 lex:UpdateBotLocale
+lex:UpdateBotRecommendation
 lex:UpdateExport
 lex:UpdateIntent
 lex:UpdateResourcePolicy
@@ -9360,7 +9383,9 @@ sagemaker:CreateHumanTaskUi
 sagemaker:CreateHyperParameterTuningJob
 sagemaker:CreateImage
 sagemaker:CreateImageVersion
+sagemaker:CreateInferenceRecommendationsJob
 sagemaker:CreateLabelingJob
+sagemaker:CreateLineageGroupPolicy
 sagemaker:CreateModel
 sagemaker:CreateModelBiasJobDefinition
 sagemaker:CreateModelExplainabilityJobDefinition
@@ -9402,6 +9427,7 @@ sagemaker:DeleteHumanLoop
 sagemaker:DeleteHumanTaskUi
 sagemaker:DeleteImage
 sagemaker:DeleteImageVersion
+sagemaker:DeleteLineageGroupPolicy
 sagemaker:DeleteModel
 sagemaker:DeleteModelBiasJobDefinition
 sagemaker:DeleteModelExplainabilityJobDefinition
@@ -9446,7 +9472,9 @@ sagemaker:DescribeHumanTaskUi
 sagemaker:DescribeHyperParameterTuningJob
 sagemaker:DescribeImage
 sagemaker:DescribeImageVersion
+sagemaker:DescribeInferenceRecommendationsJob
 sagemaker:DescribeLabelingJob
+sagemaker:DescribeLineageGroup
 sagemaker:DescribeModel
 sagemaker:DescribeModelBiasJobDefinition
 sagemaker:DescribeModelExplainabilityJobDefinition
@@ -9474,6 +9502,7 @@ sagemaker:DisassociateTrialComponent
 sagemaker:EnableSagemakerServicecatalogPortfolio
 sagemaker:GetDeviceFleetReport
 sagemaker:GetDeviceRegistration
+sagemaker:GetLineageGroupPolicy
 sagemaker:GetModelPackageGroupPolicy
 sagemaker:GetRecord
 sagemaker:GetSagemakerServicecatalogPortfolioStatus
@@ -9506,10 +9535,13 @@ sagemaker:ListHumanTaskUis
 sagemaker:ListHyperParameterTuningJobs
 sagemaker:ListImageVersions
 sagemaker:ListImages
+sagemaker:ListInferenceRecommendationsJobs
 sagemaker:ListLabelingJobs
 sagemaker:ListLabelingJobsForWorkteam
+sagemaker:ListLineageGroups
 sagemaker:ListModelBiasJobDefinitions
 sagemaker:ListModelExplainabilityJobDefinitions
+sagemaker:ListModelMetadata
 sagemaker:ListModelPackageGroups
 sagemaker:ListModelPackages
 sagemaker:ListModelQualityJobDefinitions
@@ -9534,8 +9566,10 @@ sagemaker:ListTrials
 sagemaker:ListUserProfiles
 sagemaker:ListWorkforces
 sagemaker:ListWorkteams
+sagemaker:PutLineageGroupPolicy
 sagemaker:PutModelPackageGroupPolicy
 sagemaker:PutRecord
+sagemaker:QueryLineage
 sagemaker:RegisterDevices
 sagemaker:RenderUiTemplate
 sagemaker:Search
@@ -9551,6 +9585,7 @@ sagemaker:StopCompilationJob
 sagemaker:StopEdgePackagingJob
 sagemaker:StopHumanLoop
 sagemaker:StopHyperParameterTuningJob
+sagemaker:StopInferenceRecommendationsJob
 sagemaker:StopLabelingJob
 sagemaker:StopMonitoringSchedule
 sagemaker:StopNotebookInstance
