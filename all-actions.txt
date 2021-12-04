@@ -10542,6 +10542,7 @@ ssm:PutConfigurePackageResult
 ssm:PutInventory
 ssm:PutParameter
 ssm:RegisterDefaultPatchBaseline
+ssm:RegisterManagedInstance
 ssm:RegisterPatchBaselineForPatchGroup
 ssm:RegisterTargetWithMaintenanceWindow
 ssm:RegisterTaskWithMaintenanceWindow
@@ -10931,6 +10932,7 @@ tag:TagResources
 tag:UntagResources
 textract:AnalyzeDocument
 textract:AnalyzeExpense
+textract:AnalyzeID
 textract:DetectDocumentText
 textract:GetDocumentAnalysis
 textract:GetDocumentTextDetection
