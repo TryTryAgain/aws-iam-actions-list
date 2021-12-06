@@ -309,6 +309,7 @@ appconfig:GetDeployment
 appconfig:GetDeploymentStrategy
 appconfig:GetEnvironment
 appconfig:GetHostedConfigurationVersion
+appconfig:GetLatestConfiguration
 appconfig:ListApplications
 appconfig:ListConfigurationProfiles
 appconfig:ListDeploymentStrategies
@@ -316,6 +317,7 @@ appconfig:ListDeployments
 appconfig:ListEnvironments
 appconfig:ListHostedConfigurationVersions
 appconfig:ListTagsForResource
+appconfig:StartConfigurationSession
 appconfig:StartDeployment
 appconfig:StopDeployment
 appconfig:TagResource
