@@ -2850,7 +2850,10 @@ detective:CreateGraph
 detective:CreateMembers
 detective:DeleteGraph
 detective:DeleteMembers
+detective:DescribeOrganizationConfiguration
+detective:DisableOrganizationAdminAccount
 detective:DisassociateMembership
+detective:EnableOrganizationAdminAccount
 detective:GetFreeTrialEligibility
 detective:GetGraphIngestState
 detective:GetMembers
@@ -2859,12 +2862,14 @@ detective:GetUsageInformation
 detective:ListGraphs
 detective:ListInvitations
 detective:ListMembers
+detective:ListOrganizationAdminAccounts
 detective:ListTagsForResource
 detective:RejectInvitation
 detective:SearchGraph
 detective:StartMonitoringMember
 detective:TagResource
 detective:UntagResource
+detective:UpdateOrganizationConfiguration
 devicefarm:CreateDevicePool
 devicefarm:CreateInstanceProfile
 devicefarm:CreateNetworkProfile
@@ -9060,6 +9065,9 @@ route53-recovery-control-config:ListClusters
 route53-recovery-control-config:ListControlPanels
 route53-recovery-control-config:ListRoutingControls
 route53-recovery-control-config:ListSafetyRules
+route53-recovery-control-config:ListTagsForResource
+route53-recovery-control-config:TagResource
+route53-recovery-control-config:UntagResource
 route53-recovery-control-config:UpdateControlPanel
 route53-recovery-control-config:UpdateRoutingControl
 route53-recovery-control-config:UpdateSafetyRule
@@ -9163,6 +9171,7 @@ route53domains:AcceptDomainTransferFromAnotherAwsAccount
 route53domains:CancelDomainTransferToAnotherAwsAccount
 route53domains:CheckDomainAvailability
 route53domains:CheckDomainTransferability
+route53domains:DeleteDomain
 route53domains:DeleteTagsForDomain
 route53domains:DisableDomainAutoRenew
 route53domains:DisableDomainTransferLock
@@ -9174,6 +9183,7 @@ route53domains:GetDomainSuggestions
 route53domains:GetOperationDetail
 route53domains:ListDomains
 route53domains:ListOperations
+route53domains:ListPrices
 route53domains:ListTagsForDomain
 route53domains:RegisterDomain
 route53domains:RejectDomainTransferFromAnotherAwsAccount
