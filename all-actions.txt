@@ -8120,6 +8120,7 @@ outposts:ListSites
 outposts:ListTagsForResource
 outposts:TagResource
 outposts:UntagResource
+outposts:UpdateOutpost
 outposts:UpdateSite
 outposts:UpdateSiteAddress
 outposts:UpdateSiteRackPhysicalProperties
@@ -8747,6 +8748,7 @@ redshift:CancelQuery
 redshift:CancelQuerySession
 redshift:CancelResize
 redshift:CopyClusterSnapshot
+redshift:CreateAuthenticationProfile
 redshift:CreateCluster
 redshift:CreateClusterParameterGroup
 redshift:CreateClusterSecurityGroup
@@ -8763,6 +8765,7 @@ redshift:CreateSnapshotSchedule
 redshift:CreateTags
 redshift:CreateUsageLimit
 redshift:DeauthorizeDataShare
+redshift:DeleteAuthenticationProfile
 redshift:DeleteCluster
 redshift:DeleteClusterParameterGroup
 redshift:DeleteClusterSecurityGroup
@@ -8778,6 +8781,7 @@ redshift:DeleteSnapshotSchedule
 redshift:DeleteTags
 redshift:DeleteUsageLimit
 redshift:DescribeAccountAttributes
+redshift:DescribeAuthenticationProfiles
 redshift:DescribeClusterDbRevisions
 redshift:DescribeClusterParameterGroups
 redshift:DescribeClusterParameters
@@ -8827,6 +8831,7 @@ redshift:ListSavedQueries
 redshift:ListSchemas
 redshift:ListTables
 redshift:ModifyAquaConfiguration
+redshift:ModifyAuthenticationProfile
 redshift:ModifyCluster
 redshift:ModifyClusterDbRevision
 redshift:ModifyClusterIamRoles
