@@ -7107,6 +7107,7 @@ lookoutmetrics:GetFeedback
 lookoutmetrics:GetSampleData
 lookoutmetrics:ListAlerts
 lookoutmetrics:ListAnomalyDetectors
+lookoutmetrics:ListAnomalyGroupRelatedMetrics
 lookoutmetrics:ListAnomalyGroupSummaries
 lookoutmetrics:ListAnomalyGroupTimeSeries
 lookoutmetrics:ListMetricSets
@@ -10224,10 +10225,12 @@ shield:DescribeEmergencyContactSettings
 shield:DescribeProtection
 shield:DescribeProtectionGroup
 shield:DescribeSubscription
+shield:DisableApplicationLayerAutomaticResponse
 shield:DisableProactiveEngagement
 shield:DisassociateDRTLogBucket
 shield:DisassociateDRTRole
 shield:DisassociateHealthCheck
+shield:EnableApplicationLayerAutomaticResponse
 shield:EnableProactiveEngagement
 shield:GetSubscriptionState
 shield:ListAttacks
@@ -10237,6 +10240,7 @@ shield:ListResourcesInProtectionGroup
 shield:ListTagsForResource
 shield:TagResource
 shield:UntagResource
+shield:UpdateApplicationLayerAutomaticResponse
 shield:UpdateEmergencyContactSettings
 shield:UpdateProtectionGroup
 shield:UpdateSubscription
