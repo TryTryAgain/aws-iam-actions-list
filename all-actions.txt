@@ -4859,10 +4859,14 @@ geo:ListTrackerConsumers
 geo:ListTrackers
 geo:PutGeofence
 geo:SearchPlaceIndexForPosition
+geo:SearchPlaceIndexForSuggestions
 geo:SearchPlaceIndexForText
 geo:TagResource
 geo:UntagResource
 geo:UpdateGeofenceCollection
+geo:UpdateMap
+geo:UpdatePlaceIndex
+geo:UpdateRouteCalculator
 geo:UpdateTracker
 glacier:AbortMultipartUpload
 glacier:AbortVaultLock
