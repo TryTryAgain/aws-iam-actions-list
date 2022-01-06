@@ -493,6 +493,7 @@ apprunner:TagResource
 apprunner:UntagResource
 apprunner:UpdateService
 appstream:AssociateApplicationFleet
+appstream:AssociateApplicatonToEntitlement
 appstream:AssociateFleet
 appstream:BatchAssociateUserStack
 appstream:BatchDisassociateUserStack
@@ -500,6 +501,7 @@ appstream:CopyImage
 appstream:CreateAppBlock
 appstream:CreateApplication
 appstream:CreateDirectoryConfig
+appstream:CreateEntitlement
 appstream:CreateFleet
 appstream:CreateImageBuilder
 appstream:CreateImageBuilderStreamingURL
@@ -511,6 +513,7 @@ appstream:CreateUser
 appstream:DeleteAppBlock
 appstream:DeleteApplication
 appstream:DeleteDirectoryConfig
+appstream:DeleteEntitlement
 appstream:DeleteFleet
 appstream:DeleteImage
 appstream:DeleteImageBuilder
@@ -522,6 +525,7 @@ appstream:DescribeAppBlocks
 appstream:DescribeApplicationFleetAssociations
 appstream:DescribeApplications
 appstream:DescribeDirectoryConfigs
+appstream:DescribeEntitlements
 appstream:DescribeFleets
 appstream:DescribeImageBuilders
 appstream:DescribeImagePermissions
@@ -533,11 +537,13 @@ appstream:DescribeUserStackAssociations
 appstream:DescribeUsers
 appstream:DisableUser
 appstream:DisassociateApplicationFleet
+appstream:DisassociateApplicatonFromEntitlement
 appstream:DisassociateFleet
 appstream:EnableUser
 appstream:ExpireSession
 appstream:ListAssociatedFleets
 appstream:ListAssociatedStacks
+appstream:ListEntitledApplications
 appstream:ListTagsForResource
 appstream:StartFleet
 appstream:StartImageBuilder
@@ -548,6 +554,7 @@ appstream:TagResource
 appstream:UntagResource
 appstream:UpdateApplication
 appstream:UpdateDirectoryConfig
+appstream:UpdateEntitlement
 appstream:UpdateFleet
 appstream:UpdateImagePermissions
 appstream:UpdateStack
