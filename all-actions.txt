@@ -6296,6 +6296,7 @@ iotwireless:DeleteDestination
 iotwireless:DeleteDeviceProfile
 iotwireless:DeleteFuotaTask
 iotwireless:DeleteMulticastGroup
+iotwireless:DeleteQueuedMessages
 iotwireless:DeleteServiceProfile
 iotwireless:DeleteWirelessDevice
 iotwireless:DeleteWirelessGateway
@@ -6334,6 +6335,7 @@ iotwireless:ListFuotaTasks
 iotwireless:ListMulticastGroups
 iotwireless:ListMulticastGroupsByFuotaTask
 iotwireless:ListPartnerAccounts
+iotwireless:ListQueuedMessages
 iotwireless:ListServiceProfiles
 iotwireless:ListTagsForResource
 iotwireless:ListWirelessDevices
