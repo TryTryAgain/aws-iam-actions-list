@@ -4135,11 +4135,13 @@ elasticfilesystem:ClientWrite
 elasticfilesystem:CreateAccessPoint
 elasticfilesystem:CreateFileSystem
 elasticfilesystem:CreateMountTarget
+elasticfilesystem:CreateReplicationConfiguration
 elasticfilesystem:CreateTags
 elasticfilesystem:DeleteAccessPoint
 elasticfilesystem:DeleteFileSystem
 elasticfilesystem:DeleteFileSystemPolicy
 elasticfilesystem:DeleteMountTarget
+elasticfilesystem:DeleteReplicationConfiguration
 elasticfilesystem:DeleteTags
 elasticfilesystem:DescribeAccessPoints
 elasticfilesystem:DescribeAccountPreferences
@@ -4149,6 +4151,7 @@ elasticfilesystem:DescribeFileSystems
 elasticfilesystem:DescribeLifecycleConfiguration
 elasticfilesystem:DescribeMountTargetSecurityGroups
 elasticfilesystem:DescribeMountTargets
+elasticfilesystem:DescribeReplicationConfigurations
 elasticfilesystem:DescribeTags
 elasticfilesystem:ListTagsForResource
 elasticfilesystem:ModifyMountTargetSecurityGroups
@@ -6750,6 +6753,7 @@ lex:CreateBotAlias
 lex:CreateBotChannel
 lex:CreateBotLocale
 lex:CreateBotVersion
+lex:CreateCustomVocabulary
 lex:CreateExport
 lex:CreateIntent
 lex:CreateIntentVersion
@@ -6764,6 +6768,7 @@ lex:DeleteBotChannel
 lex:DeleteBotChannelAssociation
 lex:DeleteBotLocale
 lex:DeleteBotVersion
+lex:DeleteCustomVocabulary
 lex:DeleteExport
 lex:DeleteImport
 lex:DeleteIntent
@@ -6780,6 +6785,8 @@ lex:DescribeBotChannel
 lex:DescribeBotLocale
 lex:DescribeBotRecommendation
 lex:DescribeBotVersion
+lex:DescribeCustomVocabulary
+lex:DescribeCustomVocabularyMetadata
 lex:DescribeExport
 lex:DescribeImport
 lex:DescribeIntent
@@ -6844,6 +6851,7 @@ lex:UpdateBot
 lex:UpdateBotAlias
 lex:UpdateBotLocale
 lex:UpdateBotRecommendation
+lex:UpdateCustomVocabulary
 lex:UpdateExport
 lex:UpdateIntent
 lex:UpdateResourcePolicy
@@ -8299,7 +8307,10 @@ personalize:UpdateCampaign
 personalize:UpdateRecommender
 pi:DescribeDimensionKeys
 pi:GetDimensionKeyDetails
+pi:GetResourceMetadata
 pi:GetResourceMetrics
+pi:ListAvailableResourceDimensions
+pi:ListAvailableResourceMetrics
 polly:DeleteLexicon
 polly:DescribeVoices
 polly:GetLexicon
