@@ -3554,6 +3554,7 @@ ec2:DescribeEgressOnlyInternetGateways
 ec2:DescribeElasticGpus
 ec2:DescribeExportImageTasks
 ec2:DescribeExportTasks
+ec2:DescribeFastLaunchImages
 ec2:DescribeFastSnapshotRestores
 ec2:DescribeFleetHistory
 ec2:DescribeFleetInstances
@@ -3668,6 +3669,7 @@ ec2:DetachNetworkInterface
 ec2:DetachVolume
 ec2:DetachVpnGateway
 ec2:DisableEbsEncryptionByDefault
+ec2:DisableFastLaunch
 ec2:DisableFastSnapshotRestores
 ec2:DisableImageDeprecation
 ec2:DisableIpamOrganizationAdminAccount
@@ -3688,6 +3690,7 @@ ec2:DisassociateTransitGatewayRouteTable
 ec2:DisassociateTrunkInterface
 ec2:DisassociateVpcCidrBlock
 ec2:EnableEbsEncryptionByDefault
+ec2:EnableFastLaunch
 ec2:EnableFastSnapshotRestores
 ec2:EnableImageDeprecation
 ec2:EnableIpamOrganizationAdminAccount
@@ -3769,6 +3772,7 @@ ec2:ModifyIpamScope
 ec2:ModifyLaunchTemplate
 ec2:ModifyManagedPrefixList
 ec2:ModifyNetworkInterfaceAttribute
+ec2:ModifyPrivateDnsNameOptions
 ec2:ModifyReservedInstances
 ec2:ModifySecurityGroupRules
 ec2:ModifySnapshotAttribute
@@ -3787,6 +3791,7 @@ ec2:ModifyVpcAttribute
 ec2:ModifyVpcEndpoint
 ec2:ModifyVpcEndpointConnectionNotification
 ec2:ModifyVpcEndpointServiceConfiguration
+ec2:ModifyVpcEndpointServicePayerResponsibility
 ec2:ModifyVpcEndpointServicePermissions
 ec2:ModifyVpcPeeringConnectionOptions
 ec2:ModifyVpcTenancy
