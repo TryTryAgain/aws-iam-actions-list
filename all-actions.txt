@@ -558,9 +558,11 @@ appstream:UpdateEntitlement
 appstream:UpdateFleet
 appstream:UpdateImagePermissions
 appstream:UpdateStack
+appsync:AssociateApi
 appsync:CreateApiCache
 appsync:CreateApiKey
 appsync:CreateDataSource
+appsync:CreateDomainName
 appsync:CreateFunction
 appsync:CreateGraphqlApi
 appsync:CreateResolver
@@ -568,13 +570,17 @@ appsync:CreateType
 appsync:DeleteApiCache
 appsync:DeleteApiKey
 appsync:DeleteDataSource
+appsync:DeleteDomainName
 appsync:DeleteFunction
 appsync:DeleteGraphqlApi
 appsync:DeleteResolver
 appsync:DeleteType
+appsync:DisassociateApi
 appsync:FlushApiCache
+appsync:GetApiAssociation
 appsync:GetApiCache
 appsync:GetDataSource
+appsync:GetDomainName
 appsync:GetFunction
 appsync:GetGraphqlApi
 appsync:GetIntrospectionSchema
@@ -584,6 +590,7 @@ appsync:GetType
 appsync:GraphQL
 appsync:ListApiKeys
 appsync:ListDataSources
+appsync:ListDomainNames
 appsync:ListFunctions
 appsync:ListGraphqlApis
 appsync:ListResolvers
@@ -597,6 +604,7 @@ appsync:UntagResource
 appsync:UpdateApiCache
 appsync:UpdateApiKey
 appsync:UpdateDataSource
+appsync:UpdateDomainName
 appsync:UpdateFunction
 appsync:UpdateGraphqlApi
 appsync:UpdateResolver
@@ -4979,6 +4987,7 @@ glue:BatchDeleteConnection
 glue:BatchDeletePartition
 glue:BatchDeleteTable
 glue:BatchDeleteTableVersion
+glue:BatchGetBlueprints
 glue:BatchGetCrawlers
 glue:BatchGetDevEndpoints
 glue:BatchGetJobs
@@ -4990,6 +4999,7 @@ glue:BatchUpdatePartition
 glue:CancelMLTaskRun
 glue:CancelStatement
 glue:CheckSchemaVersionValidity
+glue:CreateBlueprint
 glue:CreateClassifier
 glue:CreateConnection
 glue:CreateCrawler
@@ -5008,6 +5018,7 @@ glue:CreateTable
 glue:CreateTrigger
 glue:CreateUserDefinedFunction
 glue:CreateWorkflow
+glue:DeleteBlueprint
 glue:DeleteClassifier
 glue:DeleteColumnStatisticsForPartition
 glue:DeleteColumnStatisticsForTable
@@ -5030,6 +5041,9 @@ glue:DeleteTableVersion
 glue:DeleteTrigger
 glue:DeleteUserDefinedFunction
 glue:DeleteWorkflow
+glue:GetBlueprint
+glue:GetBlueprintRun
+glue:GetBlueprintRuns
 glue:GetCatalogImportStatus
 glue:GetClassifier
 glue:GetClassifiers
@@ -5084,6 +5098,7 @@ glue:GetWorkflowRun
 glue:GetWorkflowRunProperties
 glue:GetWorkflowRuns
 glue:ImportCatalogToGlue
+glue:ListBlueprints
 glue:ListCrawlers
 glue:ListDevEndpoints
 glue:ListJobs
@@ -5107,6 +5122,7 @@ glue:ResetJobBookmark
 glue:ResumeWorkflowRun
 glue:RunStatement
 glue:SearchTables
+glue:StartBlueprintRun
 glue:StartCrawler
 glue:StartCrawlerSchedule
 glue:StartExportLabelsTaskRun
@@ -5123,6 +5139,7 @@ glue:StopTrigger
 glue:StopWorkflowRun
 glue:TagResource
 glue:UntagResource
+glue:UpdateBlueprint
 glue:UpdateClassifier
 glue:UpdateColumnStatisticsForPartition
 glue:UpdateColumnStatisticsForTable
