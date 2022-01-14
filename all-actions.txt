@@ -4008,6 +4008,7 @@ eks:DeleteAddon
 eks:DeleteCluster
 eks:DeleteFargateProfile
 eks:DeleteNodegroup
+eks:DeregisterCluster
 eks:DescribeAddon
 eks:DescribeAddonVersions
 eks:DescribeCluster
@@ -4023,6 +4024,7 @@ eks:ListIdentityProviderConfigs
 eks:ListNodegroups
 eks:ListTagsForResource
 eks:ListUpdates
+eks:RegisterCluster
 eks:TagResource
 eks:UntagResource
 eks:UpdateAddon
@@ -6032,6 +6034,7 @@ iotanalytics:UpdateDatastore
 iotanalytics:UpdatePipeline
 iotdeviceadvisor:CreateSuiteDefinition
 iotdeviceadvisor:DeleteSuiteDefinition
+iotdeviceadvisor:GetEndpoint
 iotdeviceadvisor:GetSuiteDefinition
 iotdeviceadvisor:GetSuiteRun
 iotdeviceadvisor:GetSuiteRunReport
