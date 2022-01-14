@@ -7170,6 +7170,7 @@ lookoutmetrics:BackTestAnomalyDetector
 lookoutmetrics:CreateAlert
 lookoutmetrics:CreateAnomalyDetector
 lookoutmetrics:CreateMetricSet
+lookoutmetrics:DeactivateAnomalyDetector
 lookoutmetrics:DeleteAlert
 lookoutmetrics:DeleteAnomalyDetector
 lookoutmetrics:DescribeAlert
