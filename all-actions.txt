@@ -4529,7 +4529,6 @@ execute-api:ManageConnections
 finspace:CreateEnvironment
 finspace:CreateUser
 finspace:DeleteEnvironment
-finspace:DeleteUser
 finspace:GetEnvironment
 finspace:GetLoadSampleDataSetGroupIntoEnvironmentStatus
 finspace:GetUser
@@ -4537,9 +4536,11 @@ finspace:ListEnvironments
 finspace:ListTagsForResource
 finspace:ListUsers
 finspace:LoadSampleDataSetGroupIntoEnvironment
+finspace:ResetUserPassword
 finspace:TagResource
 finspace:UntagResource
 finspace:UpdateEnvironment
+finspace:UpdateUser
 firehose:CreateDeliveryStream
 firehose:DeleteDeliveryStream
 firehose:DescribeDeliveryStream
