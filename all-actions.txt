@@ -2198,6 +2198,7 @@ cognito-idp:ListUsers
 cognito-idp:ListUsersInGroup
 cognito-idp:ResendConfirmationCode
 cognito-idp:RespondToAuthChallenge
+cognito-idp:RevokeToken
 cognito-idp:SetRiskConfiguration
 cognito-idp:SetUICustomization
 cognito-idp:SetUserMFAPreference
