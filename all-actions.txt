@@ -11628,6 +11628,7 @@ workmail:CreateSmtpGateway
 workmail:CreateUser
 workmail:DeleteAccessControlRule
 workmail:DeleteAlias
+workmail:DeleteEmailMonitoringConfiguration
 workmail:DeleteGroup
 workmail:DeleteInboundMailFlowRule
 workmail:DeleteMailDomain
@@ -11644,6 +11645,7 @@ workmail:DeleteUser
 workmail:DeregisterFromWorkMail
 workmail:DeregisterMailDomain
 workmail:DescribeDirectories
+workmail:DescribeEmailMonitoringConfiguration
 workmail:DescribeGroup
 workmail:DescribeInboundDmarcSettings
 workmail:DescribeInboundMailFlowRule
@@ -11697,6 +11699,7 @@ workmail:ListSmtpGateways
 workmail:ListTagsForResource
 workmail:ListUsers
 workmail:PutAccessControlRule
+workmail:PutEmailMonitoringConfiguration
 workmail:PutInboundDmarcSettings
 workmail:PutMailboxPermissions
 workmail:PutMobileDeviceAccessOverride
