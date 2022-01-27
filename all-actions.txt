@@ -493,7 +493,7 @@ apprunner:TagResource
 apprunner:UntagResource
 apprunner:UpdateService
 appstream:AssociateApplicationFleet
-appstream:AssociateApplicatonToEntitlement
+appstream:AssociateApplicationToEntitlement
 appstream:AssociateFleet
 appstream:BatchAssociateUserStack
 appstream:BatchDisassociateUserStack
@@ -537,7 +537,7 @@ appstream:DescribeUserStackAssociations
 appstream:DescribeUsers
 appstream:DisableUser
 appstream:DisassociateApplicationFleet
-appstream:DisassociateApplicatonFromEntitlement
+appstream:DisassociateApplicationFromEntitlement
 appstream:DisassociateFleet
 appstream:EnableUser
 appstream:ExpireSession
@@ -4683,6 +4683,7 @@ frauddetector:GetDetectors
 frauddetector:GetEntityTypes
 frauddetector:GetEvent
 frauddetector:GetEventPrediction
+frauddetector:GetEventPredictionMetadata
 frauddetector:GetEventTypes
 frauddetector:GetExternalModels
 frauddetector:GetKMSEncryptionKey
@@ -4692,6 +4693,7 @@ frauddetector:GetModels
 frauddetector:GetOutcomes
 frauddetector:GetRules
 frauddetector:GetVariables
+frauddetector:ListEventPredictions
 frauddetector:ListTagsForResource
 frauddetector:PutDetector
 frauddetector:PutEntityType
