@@ -331,6 +331,7 @@ appflow:CreateConnectorProfile
 appflow:CreateFlow
 appflow:DeleteConnectorProfile
 appflow:DeleteFlow
+appflow:DescribeConnector
 appflow:DescribeConnectorEntity
 appflow:DescribeConnectorFields
 appflow:DescribeConnectorProfiles
@@ -341,12 +342,15 @@ appflow:DescribeFlowExecutionRecords
 appflow:DescribeFlows
 appflow:ListConnectorEntities
 appflow:ListConnectorFields
+appflow:ListConnectors
 appflow:ListFlows
 appflow:ListTagsForResource
+appflow:RegisterConnector
 appflow:RunFlow
 appflow:StartFlow
 appflow:StopFlow
 appflow:TagResource
+appflow:UnRegisterConnector
 appflow:UntagResource
 appflow:UpdateConnectorProfile
 appflow:UpdateFlow
