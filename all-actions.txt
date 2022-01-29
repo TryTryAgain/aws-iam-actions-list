@@ -4630,8 +4630,8 @@ forecast:DescribeAutoPredictor
 forecast:DescribeDataset
 forecast:DescribeDatasetGroup
 forecast:DescribeDatasetImportJob
+forecast:DescribeExplainability
 forecast:DescribeExplainabilityExport
-forecast:DescribeExplainablity
 forecast:DescribeForecast
 forecast:DescribeForecastExportJob
 forecast:DescribePredictor
