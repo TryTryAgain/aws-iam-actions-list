@@ -4763,6 +4763,7 @@ fsx:DisassociateFileGateway
 fsx:DisassociateFileSystemAliases
 fsx:ListTagsForResource
 fsx:ManageBackupPrincipalAssociations
+fsx:ReleaseFileSystemNfsV3Locks
 fsx:RestoreVolumeFromSnapshot
 fsx:TagResource
 fsx:UntagResource
