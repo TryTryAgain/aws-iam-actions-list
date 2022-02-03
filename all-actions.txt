@@ -4578,6 +4578,7 @@ fis:DeleteExperimentTemplate
 fis:GetAction
 fis:GetExperiment
 fis:GetExperimentTemplate
+fis:GetTargetResourceType
 fis:InjectApiInternalError
 fis:InjectApiThrottleError
 fis:InjectApiUnavailableError
@@ -4585,6 +4586,7 @@ fis:ListActions
 fis:ListExperimentTemplates
 fis:ListExperiments
 fis:ListTagsForResource
+fis:ListTargetResourceTypes
 fis:StartExperiment
 fis:StopExperiment
 fis:TagResource
