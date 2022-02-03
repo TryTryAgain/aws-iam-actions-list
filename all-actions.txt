@@ -2260,6 +2260,7 @@ comprehend:CreateEntityRecognizer
 comprehend:DeleteDocumentClassifier
 comprehend:DeleteEndpoint
 comprehend:DeleteEntityRecognizer
+comprehend:DeleteResourcePolicy
 comprehend:DescribeDocumentClassificationJob
 comprehend:DescribeDocumentClassifier
 comprehend:DescribeDominantLanguageDetectionJob
@@ -2269,6 +2270,7 @@ comprehend:DescribeEntityRecognizer
 comprehend:DescribeEventsDetectionJob
 comprehend:DescribeKeyPhrasesDetectionJob
 comprehend:DescribePiiEntitiesDetectionJob
+comprehend:DescribeResourcePolicy
 comprehend:DescribeSentimentDetectionJob
 comprehend:DescribeTopicsDetectionJob
 comprehend:DetectDominantLanguage
@@ -2277,6 +2279,7 @@ comprehend:DetectKeyPhrases
 comprehend:DetectPiiEntities
 comprehend:DetectSentiment
 comprehend:DetectSyntax
+comprehend:ImportModel
 comprehend:ListDocumentClassificationJobs
 comprehend:ListDocumentClassifierSummaries
 comprehend:ListDocumentClassifiers
@@ -2291,6 +2294,7 @@ comprehend:ListPiiEntitiesDetectionJobs
 comprehend:ListSentimentDetectionJobs
 comprehend:ListTagsForResource
 comprehend:ListTopicsDetectionJobs
+comprehend:PutResourcePolicy
 comprehend:StartDocumentClassificationJob
 comprehend:StartDominantLanguageDetectionJob
 comprehend:StartEntitiesDetectionJob
@@ -2455,6 +2459,7 @@ connect-campaigns:UpdateCampaignOutboundCallConfig
 connect:AssociateApprovedOrigin
 connect:AssociateBot
 connect:AssociateCustomerProfilesDomain
+connect:AssociateDefaultVocabulary
 connect:AssociateInstanceStorageConfig
 connect:AssociateLambdaFunction
 connect:AssociateLexBot
@@ -2474,6 +2479,7 @@ connect:CreateSecurityProfile
 connect:CreateUseCase
 connect:CreateUser
 connect:CreateUserHierarchyGroup
+connect:CreateVocabulary
 connect:DeleteContactFlow
 connect:DeleteContactFlowModule
 connect:DeleteHoursOfOperation
@@ -2484,6 +2490,7 @@ connect:DeleteSecurityProfile
 connect:DeleteUseCase
 connect:DeleteUser
 connect:DeleteUserHierarchyGroup
+connect:DeleteVocabulary
 connect:DescribeAgentStatus
 connect:DescribeContact
 connect:DescribeContactFlow
@@ -2499,6 +2506,7 @@ connect:DescribeSecurityProfile
 connect:DescribeUser
 connect:DescribeUserHierarchyGroup
 connect:DescribeUserHierarchyStructure
+connect:DescribeVocabulary
 connect:DisassociateApprovedOrigin
 connect:DisassociateBot
 connect:DisassociateCustomerProfilesDomain
@@ -2519,6 +2527,7 @@ connect:ListBots
 connect:ListContactFlowModules
 connect:ListContactFlows
 connect:ListContactReferences
+connect:ListDefaultVocabularies
 connect:ListHoursOfOperations
 connect:ListInstanceAttributes
 connect:ListInstanceStorageConfigs
@@ -2542,6 +2551,7 @@ connect:ListUseCases
 connect:ListUserHierarchyGroups
 connect:ListUsers
 connect:ResumeContactRecording
+connect:SearchVocabularies
 connect:StartChatContact
 connect:StartContactRecording
 connect:StartOutboundVoiceContact
@@ -5634,6 +5644,7 @@ imagebuilder:GetImageRecipe
 imagebuilder:GetImageRecipePolicy
 imagebuilder:GetInfrastructureConfiguration
 imagebuilder:ImportComponent
+imagebuilder:ImportVmImage
 imagebuilder:ListComponentBuildVersions
 imagebuilder:ListComponents
 imagebuilder:ListContainerRecipes
