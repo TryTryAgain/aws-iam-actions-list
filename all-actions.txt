@@ -3423,6 +3423,7 @@ ec2:CreateCapacityReservationFleet
 ec2:CreateCarrierGateway
 ec2:CreateClientVpnEndpoint
 ec2:CreateClientVpnRoute
+ec2:CreateCoipPoolPermission
 ec2:CreateCustomerGateway
 ec2:CreateDefaultSubnet
 ec2:CreateDefaultVpc
@@ -3442,6 +3443,7 @@ ec2:CreateKeyPair
 ec2:CreateLaunchTemplate
 ec2:CreateLaunchTemplateVersion
 ec2:CreateLocalGatewayRoute
+ec2:CreateLocalGatewayRouteTablePermission
 ec2:CreateLocalGatewayRouteTableVpcAssociation
 ec2:CreateManagedPrefixList
 ec2:CreateNatGateway
@@ -3491,6 +3493,7 @@ ec2:CreateVpnGateway
 ec2:DeleteCarrierGateway
 ec2:DeleteClientVpnEndpoint
 ec2:DeleteClientVpnRoute
+ec2:DeleteCoipPoolPermission
 ec2:DeleteCustomerGateway
 ec2:DeleteDhcpOptions
 ec2:DeleteEgressOnlyInternetGateway
@@ -3506,6 +3509,7 @@ ec2:DeleteKeyPair
 ec2:DeleteLaunchTemplate
 ec2:DeleteLaunchTemplateVersions
 ec2:DeleteLocalGatewayRoute
+ec2:DeleteLocalGatewayRouteTablePermission
 ec2:DeleteLocalGatewayRouteTableVpcAssociation
 ec2:DeleteManagedPrefixList
 ec2:DeleteNatGateway
@@ -3615,6 +3619,7 @@ ec2:DescribeIpv6Pools
 ec2:DescribeKeyPairs
 ec2:DescribeLaunchTemplateVersions
 ec2:DescribeLaunchTemplates
+ec2:DescribeLocalGatewayRouteTablePermissions
 ec2:DescribeLocalGatewayRouteTableVirtualInterfaceGroupAssociations
 ec2:DescribeLocalGatewayRouteTableVpcAssociations
 ec2:DescribeLocalGatewayRouteTables
