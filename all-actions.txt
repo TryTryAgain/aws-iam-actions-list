@@ -8704,6 +8704,7 @@ ram:GetResourceShareAssociations
 ram:GetResourceShareInvitations
 ram:GetResourceShares
 ram:ListPendingInvitationResources
+ram:ListPermissionVersions
 ram:ListPermissions
 ram:ListPrincipals
 ram:ListResourceSharePermissions
@@ -9563,6 +9564,7 @@ s3:GetReplicationConfiguration
 s3:GetStorageLensConfiguration
 s3:GetStorageLensConfigurationTagging
 s3:GetStorageLensDashboard
+s3:InitiateReplication
 s3:ListAccessPoints
 s3:ListAccessPointsForObjectLambda
 s3:ListAllMyBuckets
