@@ -3264,6 +3264,7 @@ ds:DeleteTrust
 ds:DeregisterCertificate
 ds:DeregisterEventTopic
 ds:DescribeCertificate
+ds:DescribeClientAuthenticationSettings
 ds:DescribeConditionalForwarders
 ds:DescribeDirectories
 ds:DescribeDomainControllers
@@ -7493,6 +7494,7 @@ medialive:BatchStart
 medialive:BatchStop
 medialive:BatchUpdateSchedule
 medialive:CancelInputDeviceTransfer
+medialive:ClaimDevice
 medialive:CreateChannel
 medialive:CreateInput
 medialive:CreateInputSecurityGroup
@@ -8576,6 +8578,7 @@ qldb:TagResource
 qldb:UntagResource
 qldb:UpdateLedger
 qldb:UpdateLedgerPermissionsMode
+quicksight:AccountConfigurations
 quicksight:CancelIngestion
 quicksight:CreateAccountCustomization
 quicksight:CreateAdmin
@@ -8680,6 +8683,7 @@ quicksight:PassDataSet
 quicksight:PassDataSource
 quicksight:RegisterUser
 quicksight:RestoreAnalysis
+quicksight:ScopeDownPolicy
 quicksight:SearchAnalyses
 quicksight:SearchDashboards
 quicksight:SearchDirectoryGroups
