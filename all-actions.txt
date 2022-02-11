@@ -1454,6 +1454,7 @@ cloudformation:DeleteStackSet
 cloudformation:DeregisterType
 cloudformation:DescribeAccountLimits
 cloudformation:DescribeChangeSet
+cloudformation:DescribeChangeSetHook
 cloudformation:DescribePublisher
 cloudformation:DescribeStackDriftDetectionStatus
 cloudformation:DescribeStackEvents
