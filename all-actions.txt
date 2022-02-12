@@ -8263,6 +8263,7 @@ outposts:CreateSite
 outposts:DeleteOutpost
 outposts:DeleteSite
 outposts:GetCatalogItem
+outposts:GetOrder
 outposts:GetOutpost
 outposts:GetOutpostInstanceTypes
 outposts:GetSite
@@ -11501,6 +11502,7 @@ wafv2:GetRuleGroup
 wafv2:GetSampledRequests
 wafv2:GetWebACL
 wafv2:GetWebACLForResource
+wafv2:ListAvailableManagedRuleGroupVersions
 wafv2:ListAvailableManagedRuleGroups
 wafv2:ListIPSets
 wafv2:ListLoggingConfigurations
