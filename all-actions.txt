@@ -7813,6 +7813,7 @@ mobiletargeting:CreateCampaign
 mobiletargeting:CreateEmailTemplate
 mobiletargeting:CreateExportJob
 mobiletargeting:CreateImportJob
+mobiletargeting:CreateInAppTemplate
 mobiletargeting:CreateJourney
 mobiletargeting:CreatePushTemplate
 mobiletargeting:CreateRecommenderConfiguration
@@ -7832,6 +7833,7 @@ mobiletargeting:DeleteEmailTemplate
 mobiletargeting:DeleteEndpoint
 mobiletargeting:DeleteEventStream
 mobiletargeting:DeleteGcmChannel
+mobiletargeting:DeleteInAppTemplate
 mobiletargeting:DeleteJourney
 mobiletargeting:DeletePushTemplate
 mobiletargeting:DeleteRecommenderConfiguration
@@ -7868,6 +7870,7 @@ mobiletargeting:GetGcmChannel
 mobiletargeting:GetImportJob
 mobiletargeting:GetImportJobs
 mobiletargeting:GetInAppMessages
+mobiletargeting:GetInAppTemplate
 mobiletargeting:GetJourney
 mobiletargeting:GetJourneyDateRangeKpi
 mobiletargeting:GetJourneyExecutionActivityMetrics
@@ -7912,6 +7915,7 @@ mobiletargeting:UpdateEmailTemplate
 mobiletargeting:UpdateEndpoint
 mobiletargeting:UpdateEndpointsBatch
 mobiletargeting:UpdateGcmChannel
+mobiletargeting:UpdateInAppTemplate
 mobiletargeting:UpdateJourney
 mobiletargeting:UpdateJourneyState
 mobiletargeting:UpdatePushTemplate
@@ -7922,6 +7926,7 @@ mobiletargeting:UpdateSmsTemplate
 mobiletargeting:UpdateTemplateActiveVersion
 mobiletargeting:UpdateVoiceChannel
 mobiletargeting:UpdateVoiceTemplate
+mobiletargeting:VerifyOTPMessage
 monitron:AssociateProjectAdminUser
 monitron:CreateProject
 monitron:DeleteProject
