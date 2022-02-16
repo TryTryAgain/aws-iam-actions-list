@@ -5111,6 +5111,7 @@ glue:GetMLTransform
 glue:GetMLTransforms
 glue:GetMapping
 glue:GetPartition
+glue:GetPartitionIndexes
 glue:GetPartitions
 glue:GetPlan
 glue:GetRegistry
