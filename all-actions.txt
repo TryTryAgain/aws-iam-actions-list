@@ -4547,10 +4547,13 @@ evidently:ListExperiments
 evidently:ListFeatures
 evidently:ListLaunches
 evidently:ListProjects
+evidently:ListTagsForResource
 evidently:StartExperiment
 evidently:StartLaunch
 evidently:StopExperiment
 evidently:StopLaunch
+evidently:TagResource
+evidently:UntagResource
 evidently:UpdateExperiment
 evidently:UpdateFeature
 evidently:UpdateLaunch
@@ -8934,9 +8937,11 @@ redshift-data:ListSchemas
 redshift-data:ListStatements
 redshift-data:ListTables
 redshift:AcceptReservedNodeExchange
+redshift:AddPartner
 redshift:AssociateDataShareConsumer
 redshift:AuthorizeClusterSecurityGroupIngress
 redshift:AuthorizeDataShare
+redshift:AuthorizeEndpointAccess
 redshift:AuthorizeSnapshotAccess
 redshift:BatchDeleteClusterSnapshots
 redshift:BatchModifyClusterSnapshots
@@ -8951,6 +8956,7 @@ redshift:CreateClusterSecurityGroup
 redshift:CreateClusterSnapshot
 redshift:CreateClusterSubnetGroup
 redshift:CreateClusterUser
+redshift:CreateEndpointAccess
 redshift:CreateEventSubscription
 redshift:CreateHsmClientCertificate
 redshift:CreateHsmConfiguration
@@ -8967,9 +8973,11 @@ redshift:DeleteClusterParameterGroup
 redshift:DeleteClusterSecurityGroup
 redshift:DeleteClusterSnapshot
 redshift:DeleteClusterSubnetGroup
+redshift:DeleteEndpointAccess
 redshift:DeleteEventSubscription
 redshift:DeleteHsmClientCertificate
 redshift:DeleteHsmConfiguration
+redshift:DeletePartner
 redshift:DeleteSavedQueries
 redshift:DeleteScheduledAction
 redshift:DeleteSnapshotCopyGrant
@@ -8991,6 +8999,8 @@ redshift:DescribeDataShares
 redshift:DescribeDataSharesForConsumer
 redshift:DescribeDataSharesForProducer
 redshift:DescribeDefaultClusterParameters
+redshift:DescribeEndpointAccess
+redshift:DescribeEndpointAuthorization
 redshift:DescribeEventCategories
 redshift:DescribeEventSubscriptions
 redshift:DescribeEvents
@@ -8999,6 +9009,7 @@ redshift:DescribeHsmConfigurations
 redshift:DescribeLoggingStatus
 redshift:DescribeNodeConfigurationOptions
 redshift:DescribeOrderableClusterOptions
+redshift:DescribePartners
 redshift:DescribeQuery
 redshift:DescribeReservedNodeOfferings
 redshift:DescribeReservedNodes
@@ -9036,6 +9047,7 @@ redshift:ModifyClusterParameterGroup
 redshift:ModifyClusterSnapshot
 redshift:ModifyClusterSnapshotSchedule
 redshift:ModifyClusterSubnetGroup
+redshift:ModifyEndpointAccess
 redshift:ModifyEventSubscription
 redshift:ModifySavedQuery
 redshift:ModifyScheduledAction
@@ -9052,8 +9064,10 @@ redshift:RestoreFromClusterSnapshot
 redshift:RestoreTableFromClusterSnapshot
 redshift:ResumeCluster
 redshift:RevokeClusterSecurityGroupIngress
+redshift:RevokeEndpointAccess
 redshift:RevokeSnapshotAccess
 redshift:RotateEncryptionKey
+redshift:UpdatePartnerStatus
 redshift:ViewQueriesFromConsole
 redshift:ViewQueriesInConsole
 refactor-spaces:CreateApplication
