@@ -2559,10 +2559,12 @@ connect:ResumeContactRecording
 connect:SearchVocabularies
 connect:StartChatContact
 connect:StartContactRecording
+connect:StartContactStreaming
 connect:StartOutboundVoiceContact
 connect:StartTaskContact
 connect:StopContact
 connect:StopContactRecording
+connect:StopContactStreaming
 connect:SuspendContactRecording
 connect:TagResource
 connect:UntagResource
@@ -5449,6 +5451,7 @@ honeycode:BatchUpdateTableRows
 honeycode:BatchUpsertTableRows
 honeycode:CreateTeam
 honeycode:CreateTenant
+honeycode:DeleteDomains
 honeycode:DeregisterGroups
 honeycode:DescribeTableDataImportJob
 honeycode:DescribeTeam
@@ -5459,6 +5462,7 @@ honeycode:ListGroups
 honeycode:ListTableColumns
 honeycode:ListTableRows
 honeycode:ListTables
+honeycode:ListTagsForResource
 honeycode:ListTeamAssociations
 honeycode:ListTenants
 honeycode:QueryTableRows
@@ -5467,6 +5471,8 @@ honeycode:RegisterGroups
 honeycode:RejectTeamAssociation
 honeycode:RestartDomainVerification
 honeycode:StartTableDataImportJob
+honeycode:TagResource
+honeycode:UntagResource
 honeycode:UpdateTeam
 iam:AddClientIDToOpenIDConnectProvider
 iam:AddRoleToInstanceProfile
@@ -7609,13 +7615,16 @@ mediastore:StartAccessLogging
 mediastore:StopAccessLogging
 mediastore:TagResource
 mediastore:UntagResource
+mediatailor:ConfigureLogsForPlaybackConfiguration
 mediatailor:CreateChannel
+mediatailor:CreatePrefetchSchedule
 mediatailor:CreateProgram
 mediatailor:CreateSourceLocation
 mediatailor:CreateVodSource
 mediatailor:DeleteChannel
 mediatailor:DeleteChannelPolicy
 mediatailor:DeletePlaybackConfiguration
+mediatailor:DeletePrefetchSchedule
 mediatailor:DeleteProgram
 mediatailor:DeleteSourceLocation
 mediatailor:DeleteVodSource
@@ -7626,9 +7635,11 @@ mediatailor:DescribeVodSource
 mediatailor:GetChannelPolicy
 mediatailor:GetChannelSchedule
 mediatailor:GetPlaybackConfiguration
+mediatailor:GetPrefetchSchedule
 mediatailor:ListAlerts
 mediatailor:ListChannels
 mediatailor:ListPlaybackConfigurations
+mediatailor:ListPrefetchSchedules
 mediatailor:ListSourceLocations
 mediatailor:ListTagsForResource
 mediatailor:ListVodSources
@@ -11855,12 +11866,14 @@ workspaces:AssociateConnectionAlias
 workspaces:AssociateIpGroups
 workspaces:AuthorizeIpRules
 workspaces:CopyWorkspaceImage
+workspaces:CreateConnectClientAddIn
 workspaces:CreateConnectionAlias
 workspaces:CreateIpGroup
 workspaces:CreateTags
 workspaces:CreateUpdatedWorkspaceImage
 workspaces:CreateWorkspaceBundle
 workspaces:CreateWorkspaces
+workspaces:DeleteConnectClientAddIn
 workspaces:DeleteConnectionAlias
 workspaces:DeleteIpGroup
 workspaces:DeleteTags
@@ -11870,6 +11883,7 @@ workspaces:DeregisterWorkspaceDirectory
 workspaces:DescribeAccount
 workspaces:DescribeAccountModifications
 workspaces:DescribeClientProperties
+workspaces:DescribeConnectClientAddIns
 workspaces:DescribeConnectionAliasPermissions
 workspaces:DescribeConnectionAliases
 workspaces:DescribeIpGroups
@@ -11901,6 +11915,7 @@ workspaces:RevokeIpRules
 workspaces:StartWorkspaces
 workspaces:StopWorkspaces
 workspaces:TerminateWorkspaces
+workspaces:UpdateConnectClientAddIn
 workspaces:UpdateConnectionAliasPermission
 workspaces:UpdateRulesOfIpGroup
 workspaces:UpdateWorkspaceBundle
