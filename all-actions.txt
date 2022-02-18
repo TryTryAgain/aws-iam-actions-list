@@ -8544,6 +8544,7 @@ proton:ListServiceTemplateVersions
 proton:ListServiceTemplates
 proton:ListServices
 proton:ListTagsForResource
+proton:NotifyResourceDeploymentStatusChange
 proton:RejectEnvironmentAccountConnection
 proton:TagResource
 proton:UntagResource
