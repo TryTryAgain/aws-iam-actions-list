@@ -11209,6 +11209,7 @@ timestream:ListMeasures
 timestream:ListScheduledQueries
 timestream:ListTables
 timestream:ListTagsForResource
+timestream:PrepareQuery
 timestream:Select
 timestream:SelectValues
 timestream:TagResource
