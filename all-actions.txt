@@ -2730,7 +2730,9 @@ datapipeline:ValidatePipelineDefinition
 datasync:CancelTaskExecution
 datasync:CreateAgent
 datasync:CreateLocationEfs
+datasync:CreateLocationFsxLustre
 datasync:CreateLocationFsxWindows
+datasync:CreateLocationHdfs
 datasync:CreateLocationNfs
 datasync:CreateLocationObjectStorage
 datasync:CreateLocationS3
@@ -2741,7 +2743,9 @@ datasync:DeleteLocation
 datasync:DeleteTask
 datasync:DescribeAgent
 datasync:DescribeLocationEfs
+datasync:DescribeLocationFsxLustre
 datasync:DescribeLocationFsxWindows
+datasync:DescribeLocationHdfs
 datasync:DescribeLocationNfs
 datasync:DescribeLocationObjectStorage
 datasync:DescribeLocationS3
@@ -2757,6 +2761,7 @@ datasync:StartTaskExecution
 datasync:TagResource
 datasync:UntagResource
 datasync:UpdateAgent
+datasync:UpdateLocationHdfs
 datasync:UpdateLocationNfs
 datasync:UpdateLocationObjectStorage
 datasync:UpdateLocationSmb
