@@ -8448,6 +8448,7 @@ pricing:GetAttributeValues
 pricing:GetProducts
 profile:AddProfileKey
 profile:CreateDomain
+profile:CreateIntegrationWorkflow
 profile:CreateProfile
 profile:DeleteDomain
 profile:DeleteIntegration
@@ -8455,6 +8456,7 @@ profile:DeleteProfile
 profile:DeleteProfileKey
 profile:DeleteProfileObject
 profile:DeleteProfileObjectType
+profile:DeleteWorkflow
 profile:GetAutoMergingPreview
 profile:GetDomain
 profile:GetIdentityResolutionJob
@@ -8462,6 +8464,8 @@ profile:GetIntegration
 profile:GetMatches
 profile:GetProfileObjectType
 profile:GetProfileObjectTypeTemplate
+profile:GetWorkflow
+profile:GetWorkflowSteps
 profile:ListAccountIntegrations
 profile:ListDomains
 profile:ListIdentityResolutionJobs
@@ -8470,6 +8474,7 @@ profile:ListProfileObjectTypeTemplates
 profile:ListProfileObjectTypes
 profile:ListProfileObjects
 profile:ListTagsForResource
+profile:ListWorkflows
 profile:MergeProfiles
 profile:PutIntegration
 profile:PutProfileObject
