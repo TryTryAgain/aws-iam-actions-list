@@ -8296,6 +8296,7 @@ organizations:UpdatePolicy
 outposts:CancelOrder
 outposts:CreateOrder
 outposts:CreateOutpost
+outposts:CreatePrivateConnectivityConfig
 outposts:CreateSite
 outposts:DeleteOutpost
 outposts:DeleteSite
@@ -8303,6 +8304,7 @@ outposts:GetCatalogItem
 outposts:GetOrder
 outposts:GetOutpost
 outposts:GetOutpostInstanceTypes
+outposts:GetPrivateConnectivityConfig
 outposts:GetSite
 outposts:GetSiteAddress
 outposts:ListCatalogItems
