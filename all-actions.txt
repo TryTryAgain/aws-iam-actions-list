@@ -11350,7 +11350,11 @@ trustedadvisor:DescribeNotificationPreferences
 trustedadvisor:DescribeOrganization
 trustedadvisor:DescribeOrganizationAccounts
 trustedadvisor:DescribeReports
+trustedadvisor:DescribeRisk
+trustedadvisor:DescribeRiskResources
+trustedadvisor:DescribeRisks
 trustedadvisor:DescribeServiceMetadata
+trustedadvisor:DownloadRisk
 trustedadvisor:ExcludeCheckItems
 trustedadvisor:GenerateReport
 trustedadvisor:IncludeCheckItems
@@ -11361,6 +11365,7 @@ trustedadvisor:RefreshCheck
 trustedadvisor:SetAccountAccess
 trustedadvisor:SetOrganizationAccess
 trustedadvisor:UpdateNotificationPreferences
+trustedadvisor:UpdateRiskStatus
 voiceid:CreateDomain
 voiceid:DeleteDomain
 voiceid:DeleteFraudster
