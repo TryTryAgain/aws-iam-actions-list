@@ -11141,6 +11141,7 @@ support:RateCaseCommunication
 support:RefreshTrustedAdvisorCheck
 support:ResolveCase
 support:SearchForCases
+sustainability:GetCarbonFootprintSummary
 swf:CancelTimer
 swf:CancelWorkflowExecution
 swf:CompleteWorkflowExecution
@@ -11276,6 +11277,7 @@ transcribe:ListCallAnalyticsJobs
 transcribe:ListLanguageModels
 transcribe:ListMedicalTranscriptionJobs
 transcribe:ListMedicalVocabularies
+transcribe:ListTagsForResource
 transcribe:ListTranscriptionJobs
 transcribe:ListVocabularies
 transcribe:ListVocabularyFilters
@@ -11286,6 +11288,8 @@ transcribe:StartMedicalTranscriptionJob
 transcribe:StartStreamTranscription
 transcribe:StartStreamTranscriptionWebSocket
 transcribe:StartTranscriptionJob
+transcribe:TagResource
+transcribe:UntagResource
 transcribe:UpdateCallAnalyticsCategory
 transcribe:UpdateMedicalVocabulary
 transcribe:UpdateVocabulary
