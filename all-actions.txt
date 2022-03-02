@@ -3800,6 +3800,7 @@ ec2:ImportInstance
 ec2:ImportKeyPair
 ec2:ImportSnapshot
 ec2:ImportVolume
+ec2:ListImagesInRecycleBin
 ec2:ListSnapshotsInRecycleBin
 ec2:ModifyAddressAttribute
 ec2:ModifyAvailabilityZoneGroup
@@ -3894,6 +3895,7 @@ ec2:ResetInstanceAttribute
 ec2:ResetNetworkInterfaceAttribute
 ec2:ResetSnapshotAttribute
 ec2:RestoreAddressToClassic
+ec2:RestoreImageFromRecycleBin
 ec2:RestoreManagedPrefixListVersion
 ec2:RestoreSnapshotFromRecycleBin
 ec2:RestoreSnapshotTier
