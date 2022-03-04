@@ -4312,6 +4312,7 @@ elasticmapreduce:DeleteRepository
 elasticmapreduce:DeleteSecurityConfiguration
 elasticmapreduce:DeleteStudio
 elasticmapreduce:DeleteStudioSessionMapping
+elasticmapreduce:DeleteWorkspaceAccess
 elasticmapreduce:DescribeCluster
 elasticmapreduce:DescribeEditor
 elasticmapreduce:DescribeJobFlows
@@ -4343,6 +4344,7 @@ elasticmapreduce:ListSecurityConfigurations
 elasticmapreduce:ListSteps
 elasticmapreduce:ListStudioSessionMappings
 elasticmapreduce:ListStudios
+elasticmapreduce:ListWorkspaceAccessIdentities
 elasticmapreduce:ModifyCluster
 elasticmapreduce:ModifyInstanceFleet
 elasticmapreduce:ModifyInstanceGroups
@@ -4351,6 +4353,7 @@ elasticmapreduce:PutAutoScalingPolicy
 elasticmapreduce:PutAutoTerminationPolicy
 elasticmapreduce:PutBlockPublicAccessConfiguration
 elasticmapreduce:PutManagedScalingPolicy
+elasticmapreduce:PutWorkspaceAccess
 elasticmapreduce:RemoveAutoScalingPolicy
 elasticmapreduce:RemoveAutoTerminationPolicy
 elasticmapreduce:RemoveManagedScalingPolicy
@@ -4363,6 +4366,7 @@ elasticmapreduce:StopEditor
 elasticmapreduce:StopNotebookExecution
 elasticmapreduce:TerminateJobFlows
 elasticmapreduce:UnlinkRepository
+elasticmapreduce:UpdateEditor
 elasticmapreduce:UpdateRepository
 elasticmapreduce:UpdateStudio
 elasticmapreduce:UpdateStudioSessionMapping
@@ -9041,6 +9045,7 @@ redshift:DescribeNodeConfigurationOptions
 redshift:DescribeOrderableClusterOptions
 redshift:DescribePartners
 redshift:DescribeQuery
+redshift:DescribeReservedNodeExchangeStatus
 redshift:DescribeReservedNodeOfferings
 redshift:DescribeReservedNodes
 redshift:DescribeResize
@@ -9061,6 +9066,7 @@ redshift:EnableSnapshotCopy
 redshift:ExecuteQuery
 redshift:FetchResults
 redshift:GetClusterCredentials
+redshift:GetReservedNodeExchangeConfigurationOptions
 redshift:GetReservedNodeExchangeOfferings
 redshift:JoinGroup
 redshift:ListDatabases
@@ -9757,6 +9763,7 @@ sagemaker:CreatePresignedDomainUrl
 sagemaker:CreatePresignedNotebookInstanceUrl
 sagemaker:CreateProcessingJob
 sagemaker:CreateProject
+sagemaker:CreateStudioLifecycleConfig
 sagemaker:CreateTrainingJob
 sagemaker:CreateTransformJob
 sagemaker:CreateTrial
@@ -9798,6 +9805,7 @@ sagemaker:DeleteNotebookInstanceLifecycleConfig
 sagemaker:DeletePipeline
 sagemaker:DeleteProject
 sagemaker:DeleteRecord
+sagemaker:DeleteStudioLifecycleConfig
 sagemaker:DeleteTags
 sagemaker:DeleteTrial
 sagemaker:DeleteTrialComponent
@@ -9846,6 +9854,7 @@ sagemaker:DescribePipelineDefinitionForExecution
 sagemaker:DescribePipelineExecution
 sagemaker:DescribeProcessingJob
 sagemaker:DescribeProject
+sagemaker:DescribeStudioLifecycleConfig
 sagemaker:DescribeSubscribedWorkteam
 sagemaker:DescribeTrainingJob
 sagemaker:DescribeTransformJob
@@ -9913,6 +9922,7 @@ sagemaker:ListPipelineParametersForExecution
 sagemaker:ListPipelines
 sagemaker:ListProcessingJobs
 sagemaker:ListProjects
+sagemaker:ListStudioLifecycleConfigs
 sagemaker:ListSubscribedWorkteams
 sagemaker:ListTags
 sagemaker:ListTrainingJobs
@@ -9929,6 +9939,7 @@ sagemaker:PutRecord
 sagemaker:QueryLineage
 sagemaker:RegisterDevices
 sagemaker:RenderUiTemplate
+sagemaker:RetryPipelineExecution
 sagemaker:Search
 sagemaker:SendHeartbeat
 sagemaker:SendPipelineExecutionStepFailure
