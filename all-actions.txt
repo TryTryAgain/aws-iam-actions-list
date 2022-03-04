@@ -2584,6 +2584,7 @@ connect:UpdateContact
 connect:UpdateContactAttributes
 connect:UpdateContactFlowContent
 connect:UpdateContactFlowMetadata
+connect:UpdateContactFlowModuleContent
 connect:UpdateContactFlowModuleMetadata
 connect:UpdateContactFlowName
 connect:UpdateContactSchedule
@@ -3019,6 +3020,7 @@ devops-guru:AddNotificationChannel
 devops-guru:DescribeAccountHealth
 devops-guru:DescribeAccountOverview
 devops-guru:DescribeAnomaly
+devops-guru:DescribeEventSourcesConfig
 devops-guru:DescribeFeedback
 devops-guru:DescribeInsight
 devops-guru:DescribeOrganizationHealth
@@ -3039,6 +3041,7 @@ devops-guru:RemoveNotificationChannel
 devops-guru:SearchInsights
 devops-guru:SearchOrganizationInsights
 devops-guru:StartCostEstimation
+devops-guru:UpdateEventSourcesConfig
 devops-guru:UpdateResourceCollection
 devops-guru:UpdateServiceIntegration
 directconnect:AcceptDirectConnectGatewayAssociationProposal
