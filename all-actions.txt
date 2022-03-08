@@ -11582,9 +11582,11 @@ wafv2:DeleteWebACL
 wafv2:DescribeManagedRuleGroup
 wafv2:DisassociateFirewallManager
 wafv2:DisassociateWebACL
+wafv2:GenerateMobileSdkReleaseUrl
 wafv2:GetIPSet
 wafv2:GetLoggingConfiguration
 wafv2:GetManagedRuleSet
+wafv2:GetMobileSdkRelease
 wafv2:GetPermissionPolicy
 wafv2:GetRateBasedStatementManagedKeys
 wafv2:GetRegexPatternSet
@@ -11597,6 +11599,7 @@ wafv2:ListAvailableManagedRuleGroups
 wafv2:ListIPSets
 wafv2:ListLoggingConfigurations
 wafv2:ListManagedRuleSets
+wafv2:ListMobileSdkReleases
 wafv2:ListRegexPatternSets
 wafv2:ListResourcesForWebACL
 wafv2:ListRuleGroups
