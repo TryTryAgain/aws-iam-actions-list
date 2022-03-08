@@ -1402,6 +1402,7 @@ clouddirectory:DetachPolicy
 clouddirectory:DetachTypedLink
 clouddirectory:DisableDirectory
 clouddirectory:EnableDirectory
+clouddirectory:GetAppliedSchemaVersion
 clouddirectory:GetDirectory
 clouddirectory:GetFacet
 clouddirectory:GetLinkAttributes
@@ -1440,6 +1441,8 @@ clouddirectory:UpdateLinkAttributes
 clouddirectory:UpdateObjectAttributes
 clouddirectory:UpdateSchema
 clouddirectory:UpdateTypedLinkFacet
+clouddirectory:UpgradeAppliedSchema
+clouddirectory:UpgradePublishedSchema
 cloudformation:ActivateType
 cloudformation:BatchDescribeTypeConfigurations
 cloudformation:CancelResourceRequest
