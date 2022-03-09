@@ -9252,6 +9252,7 @@ resource-groups:UngroupResources
 resource-groups:Untag
 resource-groups:UpdateGroup
 resource-groups:UpdateGroupQuery
+rhelkb:GetRhelURL
 robomaker:BatchDeleteWorlds
 robomaker:BatchDescribeSimulationJob
 robomaker:CancelDeploymentJob
