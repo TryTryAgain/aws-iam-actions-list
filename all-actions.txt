@@ -11233,6 +11233,8 @@ tag:GetTagValues
 tag:StartReportCreation
 tag:TagResources
 tag:UntagResources
+tax:GetExemptions
+tax:UpdateExemptions
 textract:AnalyzeDocument
 textract:AnalyzeExpense
 textract:AnalyzeID
