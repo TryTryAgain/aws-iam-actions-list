@@ -6568,6 +6568,7 @@ kafkaconnect:CreateConnector
 kafkaconnect:CreateCustomPlugin
 kafkaconnect:CreateWorkerConfiguration
 kafkaconnect:DeleteConnector
+kafkaconnect:DeleteCustomPlugin
 kafkaconnect:DescribeConnector
 kafkaconnect:DescribeCustomPlugin
 kafkaconnect:DescribeWorkerConfiguration
