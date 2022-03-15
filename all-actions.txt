@@ -2713,6 +2713,7 @@ dataexchange:ListJobs
 dataexchange:ListRevisionAssets
 dataexchange:ListTagsForResource
 dataexchange:PublishDataSet
+dataexchange:RevokeRevision
 dataexchange:SendApiAsset
 dataexchange:StartJob
 dataexchange:TagResource
