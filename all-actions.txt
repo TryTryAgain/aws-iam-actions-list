@@ -1554,7 +1554,6 @@ cloudfront:AssociateAlias
 cloudfront:CreateCachePolicy
 cloudfront:CreateCloudFrontOriginAccessIdentity
 cloudfront:CreateDistribution
-cloudfront:CreateDistributionWithTags
 cloudfront:CreateFieldLevelEncryptionConfig
 cloudfront:CreateFieldLevelEncryptionProfile
 cloudfront:CreateFunction
