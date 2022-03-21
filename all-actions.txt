@@ -1100,7 +1100,10 @@ ce:GetSavingsPlansUtilizationDetails
 ce:GetTags
 ce:GetUsageForecast
 ce:ListCostCategoryDefinitions
+ce:ListTagsForResource
 ce:ProvideAnomalyFeedback
+ce:TagResource
+ce:UntagResource
 ce:UpdateAnomalyMonitor
 ce:UpdateAnomalySubscription
 ce:UpdateCostCategoryDefinition
