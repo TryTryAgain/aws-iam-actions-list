@@ -8735,6 +8735,7 @@ quicksight:DescribeFolder
 quicksight:DescribeFolderPermissions
 quicksight:DescribeFolderResolvedPermissions
 quicksight:DescribeGroup
+quicksight:DescribeGroupMembership
 quicksight:DescribeIAMPolicyAssignment
 quicksight:DescribeIngestion
 quicksight:DescribeIpRestriction
@@ -8785,6 +8786,7 @@ quicksight:SearchAnalyses
 quicksight:SearchDashboards
 quicksight:SearchDirectoryGroups
 quicksight:SearchFolders
+quicksight:SearchGroups
 quicksight:SetGroupMapping
 quicksight:Subscribe
 quicksight:TagResource
