@@ -3588,6 +3588,7 @@ ec2:DeleteNetworkInterfacePermission
 ec2:DeletePlacementGroup
 ec2:DeletePublicIpv4Pool
 ec2:DeleteQueuedReservedInstances
+ec2:DeleteResourcePolicy
 ec2:DeleteRoute
 ec2:DeleteRouteTable
 ec2:DeleteSecurityGroup
@@ -3824,6 +3825,7 @@ ec2:GetNetworkInsightsAccessScopeAnalysisFindings
 ec2:GetNetworkInsightsAccessScopeContent
 ec2:GetPasswordData
 ec2:GetReservedInstancesExchangeQuote
+ec2:GetResourcePolicy
 ec2:GetSerialConsoleAccessStatus
 ec2:GetSpotPlacementScores
 ec2:GetSubnetCidrReservations
@@ -3905,6 +3907,7 @@ ec2:ProvisionPublicIpv4PoolCidr
 ec2:PurchaseHostReservation
 ec2:PurchaseReservedInstancesOffering
 ec2:PurchaseScheduledInstances
+ec2:PutResourcePolicy
 ec2:RebootInstances
 ec2:RegisterImage
 ec2:RegisterInstanceEventNotificationAttributes
