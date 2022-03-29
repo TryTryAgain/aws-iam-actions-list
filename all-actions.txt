@@ -694,6 +694,7 @@ athena:StopQueryExecution
 athena:TagResource
 athena:UntagResource
 athena:UpdateDataCatalog
+athena:UpdateNamedQuery
 athena:UpdatePreparedStatement
 athena:UpdateWorkGroup
 auditmanager:AssociateAssessmentReportEvidenceFolder
@@ -8344,6 +8345,7 @@ opsworks:UpdateVolume
 organizations:AcceptHandshake
 organizations:AttachPolicy
 organizations:CancelHandshake
+organizations:CloseAccount
 organizations:CreateAccount
 organizations:CreateGovCloudAccount
 organizations:CreateOrganization
