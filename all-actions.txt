@@ -2320,6 +2320,7 @@ comprehend:DescribeKeyPhrasesDetectionJob
 comprehend:DescribePiiEntitiesDetectionJob
 comprehend:DescribeResourcePolicy
 comprehend:DescribeSentimentDetectionJob
+comprehend:DescribeTargetedSentimentDetectionJob
 comprehend:DescribeTopicsDetectionJob
 comprehend:DetectDominantLanguage
 comprehend:DetectEntities
@@ -2341,6 +2342,7 @@ comprehend:ListKeyPhrasesDetectionJobs
 comprehend:ListPiiEntitiesDetectionJobs
 comprehend:ListSentimentDetectionJobs
 comprehend:ListTagsForResource
+comprehend:ListTargetedSentimentDetectionJobs
 comprehend:ListTopicsDetectionJobs
 comprehend:PutResourcePolicy
 comprehend:StartDocumentClassificationJob
@@ -2350,6 +2352,7 @@ comprehend:StartEventsDetectionJob
 comprehend:StartKeyPhrasesDetectionJob
 comprehend:StartPiiEntitiesDetectionJob
 comprehend:StartSentimentDetectionJob
+comprehend:StartTargetedSentimentDetectionJob
 comprehend:StartTopicsDetectionJob
 comprehend:StopDominantLanguageDetectionJob
 comprehend:StopEntitiesDetectionJob
@@ -2357,6 +2360,7 @@ comprehend:StopEventsDetectionJob
 comprehend:StopKeyPhrasesDetectionJob
 comprehend:StopPiiEntitiesDetectionJob
 comprehend:StopSentimentDetectionJob
+comprehend:StopTargetedSentimentDetectionJob
 comprehend:StopTrainingDocumentClassifier
 comprehend:StopTrainingEntityRecognizer
 comprehend:TagResource
