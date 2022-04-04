@@ -2523,6 +2523,8 @@ connect:AssociateLexBot
 connect:AssociateQueueQuickConnects
 connect:AssociateRoutingProfileQueues
 connect:AssociateSecurityKey
+connect:BatchAssociateAnalyticsDataSet
+connect:BatchDisassociateAnalyticsDataSet
 connect:CreateAgentStatus
 connect:CreateContactFlow
 connect:CreateContactFlowModule
@@ -10166,8 +10168,10 @@ securityhub:AcceptAdministratorInvitation
 securityhub:AcceptInvitation
 securityhub:BatchDisableStandards
 securityhub:BatchEnableStandards
+securityhub:BatchGetStandardsControlAssociations
 securityhub:BatchImportFindings
 securityhub:BatchUpdateFindings
+securityhub:BatchUpdateStandardsControlAssociations
 securityhub:CreateActionTarget
 securityhub:CreateFindingAggregator
 securityhub:CreateInsight
@@ -10215,6 +10219,7 @@ securityhub:ListFindingAggregators
 securityhub:ListInvitations
 securityhub:ListMembers
 securityhub:ListOrganizationAdminAccounts
+securityhub:ListSecurityControlDefinitions
 securityhub:ListTagsForResource
 securityhub:SendFindingEvents
 securityhub:SendInsightEvents
@@ -12089,6 +12094,7 @@ workspaces:CreateTags
 workspaces:CreateUpdatedWorkspaceImage
 workspaces:CreateWorkspaceBundle
 workspaces:CreateWorkspaces
+workspaces:DeleteClientBranding
 workspaces:DeleteConnectClientAddIn
 workspaces:DeleteConnectionAlias
 workspaces:DeleteIpGroup
@@ -12098,6 +12104,7 @@ workspaces:DeleteWorkspaceImage
 workspaces:DeregisterWorkspaceDirectory
 workspaces:DescribeAccount
 workspaces:DescribeAccountModifications
+workspaces:DescribeClientBranding
 workspaces:DescribeClientProperties
 workspaces:DescribeConnectClientAddIns
 workspaces:DescribeConnectionAliasPermissions
@@ -12113,6 +12120,7 @@ workspaces:DescribeWorkspaces
 workspaces:DescribeWorkspacesConnectionStatus
 workspaces:DisassociateConnectionAlias
 workspaces:DisassociateIpGroups
+workspaces:ImportClientBranding
 workspaces:ImportWorkspaceImage
 workspaces:ListAvailableManagementCidrRanges
 workspaces:MigrateWorkspace
