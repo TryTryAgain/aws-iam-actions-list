@@ -4557,6 +4557,7 @@ events:CancelReplay
 events:CreateApiDestination
 events:CreateArchive
 events:CreateConnection
+events:CreateEndpoint
 events:CreateEventBus
 events:CreatePartnerEventSource
 events:DeactivateEventSource
@@ -4564,12 +4565,14 @@ events:DeauthorizeConnection
 events:DeleteApiDestination
 events:DeleteArchive
 events:DeleteConnection
+events:DeleteEndpoint
 events:DeleteEventBus
 events:DeletePartnerEventSource
 events:DeleteRule
 events:DescribeApiDestination
 events:DescribeArchive
 events:DescribeConnection
+events:DescribeEndpoint
 events:DescribeEventBus
 events:DescribeEventSource
 events:DescribePartnerEventSource
@@ -4581,6 +4584,7 @@ events:InvokeApiDestination
 events:ListApiDestinations
 events:ListArchives
 events:ListConnections
+events:ListEndpoints
 events:ListEventBuses
 events:ListEventSources
 events:ListPartnerEventSourceAccounts
@@ -4604,6 +4608,7 @@ events:UntagResource
 events:UpdateApiDestination
 events:UpdateArchive
 events:UpdateConnection
+events:UpdateEndpoint
 evidently:BatchEvaluateFeature
 evidently:CreateExperiment
 evidently:CreateFeature
@@ -4686,11 +4691,13 @@ fis:TagResource
 fis:UntagResource
 fis:UpdateExperimentTemplate
 fms:AssociateAdminAccount
+fms:AssociateThirdPartyFirewall
 fms:DeleteAppsList
 fms:DeleteNotificationChannel
 fms:DeletePolicy
 fms:DeleteProtocolsList
 fms:DisassociateAdminAccount
+fms:DisassociateThirdPartyFirewall
 fms:GetAdminAccount
 fms:GetAppsList
 fms:GetComplianceDetail
@@ -4698,6 +4705,7 @@ fms:GetNotificationChannel
 fms:GetPolicy
 fms:GetProtectionStatus
 fms:GetProtocolsList
+fms:GetThirdPartyFirewallAssociationStatus
 fms:GetViolationDetails
 fms:ListAppsLists
 fms:ListComplianceStatus
@@ -4705,6 +4713,7 @@ fms:ListMemberAccounts
 fms:ListPolicies
 fms:ListProtocolsLists
 fms:ListTagsForResource
+fms:ListThirdPartyFirewallFirewallPolicies
 fms:PutAppsList
 fms:PutNotificationChannel
 fms:PutPolicy
