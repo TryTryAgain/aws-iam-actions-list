@@ -1072,6 +1072,7 @@ cassandra:Restore
 cassandra:Select
 cassandra:TagResource
 cassandra:UntagResource
+cassandra:UpdatePartitioner
 ce:CreateAnomalyMonitor
 ce:CreateAnomalySubscription
 ce:CreateCostCategoryDefinition
