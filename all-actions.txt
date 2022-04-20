@@ -2529,11 +2529,13 @@ connect:AssociateDefaultVocabulary
 connect:AssociateInstanceStorageConfig
 connect:AssociateLambdaFunction
 connect:AssociateLexBot
+connect:AssociatePhoneNumberContactFlow
 connect:AssociateQueueQuickConnects
 connect:AssociateRoutingProfileQueues
 connect:AssociateSecurityKey
 connect:BatchAssociateAnalyticsDataSet
 connect:BatchDisassociateAnalyticsDataSet
+connect:ClaimPhoneNumber
 connect:CreateAgentStatus
 connect:CreateContactFlow
 connect:CreateContactFlowModule
@@ -2567,6 +2569,7 @@ connect:DescribeHoursOfOperation
 connect:DescribeInstance
 connect:DescribeInstanceAttribute
 connect:DescribeInstanceStorageConfig
+connect:DescribePhoneNumber
 connect:DescribeQueue
 connect:DescribeQuickConnect
 connect:DescribeRoutingProfile
@@ -2581,6 +2584,7 @@ connect:DisassociateCustomerProfilesDomain
 connect:DisassociateInstanceStorageConfig
 connect:DisassociateLambdaFunction
 connect:DisassociateLexBot
+connect:DisassociatePhoneNumberContactFlow
 connect:DisassociateQueueQuickConnects
 connect:DisassociateRoutingProfileQueues
 connect:DisassociateSecurityKey
@@ -2604,6 +2608,7 @@ connect:ListIntegrationAssociations
 connect:ListLambdaFunctions
 connect:ListLexBots
 connect:ListPhoneNumbers
+connect:ListPhoneNumbersV2
 connect:ListPrompts
 connect:ListQueueQuickConnects
 connect:ListQueues
@@ -2618,7 +2623,9 @@ connect:ListTagsForResource
 connect:ListUseCases
 connect:ListUserHierarchyGroups
 connect:ListUsers
+connect:ReleasePhoneNumber
 connect:ResumeContactRecording
+connect:SearchAvailablePhoneNumbers
 connect:SearchVocabularies
 connect:StartChatContact
 connect:StartContactRecording
@@ -2643,6 +2650,7 @@ connect:UpdateContactSchedule
 connect:UpdateHoursOfOperation
 connect:UpdateInstanceAttribute
 connect:UpdateInstanceStorageConfig
+connect:UpdatePhoneNumber
 connect:UpdateQueueHoursOfOperation
 connect:UpdateQueueMaxContacts
 connect:UpdateQueueName
