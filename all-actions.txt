@@ -7390,6 +7390,7 @@ lookoutequipment:ListDatasets
 lookoutequipment:ListInferenceExecutions
 lookoutequipment:ListInferenceSchedulers
 lookoutequipment:ListModels
+lookoutequipment:ListSensorStatistics
 lookoutequipment:ListTagsForResource
 lookoutequipment:StartDataIngestionJob
 lookoutequipment:StartInferenceScheduler
