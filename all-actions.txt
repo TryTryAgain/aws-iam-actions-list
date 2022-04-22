@@ -7409,6 +7409,7 @@ lookoutmetrics:DescribeAlert
 lookoutmetrics:DescribeAnomalyDetectionExecutions
 lookoutmetrics:DescribeAnomalyDetector
 lookoutmetrics:DescribeMetricSet
+lookoutmetrics:DetectMetricSetConfig
 lookoutmetrics:GetAnomalyGroup
 lookoutmetrics:GetDataQualityMetrics
 lookoutmetrics:GetFeedback
