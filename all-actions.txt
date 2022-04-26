@@ -5175,6 +5175,7 @@ glue:BatchDeleteTable
 glue:BatchDeleteTableVersion
 glue:BatchGetBlueprints
 glue:BatchGetCrawlers
+glue:BatchGetCustomEntityTypes
 glue:BatchGetDevEndpoints
 glue:BatchGetJobs
 glue:BatchGetPartition
@@ -5189,6 +5190,7 @@ glue:CreateBlueprint
 glue:CreateClassifier
 glue:CreateConnection
 glue:CreateCrawler
+glue:CreateCustomEntityType
 glue:CreateDatabase
 glue:CreateDevEndpoint
 glue:CreateJob
@@ -5210,6 +5212,7 @@ glue:DeleteColumnStatisticsForPartition
 glue:DeleteColumnStatisticsForTable
 glue:DeleteConnection
 glue:DeleteCrawler
+glue:DeleteCustomEntityType
 glue:DeleteDatabase
 glue:DeleteDevEndpoint
 glue:DeleteJob
@@ -5240,6 +5243,7 @@ glue:GetConnections
 glue:GetCrawler
 glue:GetCrawlerMetrics
 glue:GetCrawlers
+glue:GetCustomEntityType
 glue:GetDataCatalogEncryptionSettings
 glue:GetDatabase
 glue:GetDatabases
@@ -5287,6 +5291,7 @@ glue:GetWorkflowRuns
 glue:ImportCatalogToGlue
 glue:ListBlueprints
 glue:ListCrawlers
+glue:ListCustomEntityTypes
 glue:ListDevEndpoints
 glue:ListJobs
 glue:ListMLTransforms
@@ -6637,6 +6642,18 @@ ivs:StopStream
 ivs:TagResource
 ivs:UntagResource
 ivs:UpdateChannel
+ivschat:CreateChatToken
+ivschat:CreateRoom
+ivschat:DeleteMessage
+ivschat:DeleteRoom
+ivschat:DisconnectUser
+ivschat:GetRoom
+ivschat:ListRooms
+ivschat:ListTagsForResource
+ivschat:SendEvent
+ivschat:TagResource
+ivschat:UntagResource
+ivschat:UpdateRoom
 kafka-cluster:AlterCluster
 kafka-cluster:AlterClusterDynamicConfiguration
 kafka-cluster:AlterGroup
