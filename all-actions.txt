@@ -6539,6 +6539,7 @@ iotwireless:CreateDestination
 iotwireless:CreateDeviceProfile
 iotwireless:CreateFuotaTask
 iotwireless:CreateMulticastGroup
+iotwireless:CreateNetworkAnalyzerConfiguration
 iotwireless:CreateServiceProfile
 iotwireless:CreateWirelessDevice
 iotwireless:CreateWirelessGateway
@@ -6548,6 +6549,7 @@ iotwireless:DeleteDestination
 iotwireless:DeleteDeviceProfile
 iotwireless:DeleteFuotaTask
 iotwireless:DeleteMulticastGroup
+iotwireless:DeleteNetworkAnalyzerConfiguration
 iotwireless:DeleteQueuedMessages
 iotwireless:DeleteServiceProfile
 iotwireless:DeleteWirelessDevice
@@ -6563,6 +6565,7 @@ iotwireless:DisassociateWirelessGatewayFromCertificate
 iotwireless:DisassociateWirelessGatewayFromThing
 iotwireless:GetDestination
 iotwireless:GetDeviceProfile
+iotwireless:GetEventConfigurationsByResourceTypes
 iotwireless:GetFuotaTask
 iotwireless:GetLogLevelsByResourceTypes
 iotwireless:GetMulticastGroup
@@ -6583,9 +6586,11 @@ iotwireless:GetWirelessGatewayTask
 iotwireless:GetWirelessGatewayTaskDefinition
 iotwireless:ListDestinations
 iotwireless:ListDeviceProfiles
+iotwireless:ListEventConfigurations
 iotwireless:ListFuotaTasks
 iotwireless:ListMulticastGroups
 iotwireless:ListMulticastGroupsByFuotaTask
+iotwireless:ListNetworkAnalyzerConfigurations
 iotwireless:ListPartnerAccounts
 iotwireless:ListQueuedMessages
 iotwireless:ListServiceProfiles
@@ -6607,6 +6612,7 @@ iotwireless:TagResource
 iotwireless:TestWirelessDevice
 iotwireless:UntagResource
 iotwireless:UpdateDestination
+iotwireless:UpdateEventConfigurationsByResourceTypes
 iotwireless:UpdateFuotaTask
 iotwireless:UpdateLogLevelsByResourceTypes
 iotwireless:UpdateMulticastGroup
