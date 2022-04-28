@@ -7815,18 +7815,21 @@ mediastore:TagResource
 mediastore:UntagResource
 mediatailor:ConfigureLogsForPlaybackConfiguration
 mediatailor:CreateChannel
+mediatailor:CreateLiveSource
 mediatailor:CreatePrefetchSchedule
 mediatailor:CreateProgram
 mediatailor:CreateSourceLocation
 mediatailor:CreateVodSource
 mediatailor:DeleteChannel
 mediatailor:DeleteChannelPolicy
+mediatailor:DeleteLiveSource
 mediatailor:DeletePlaybackConfiguration
 mediatailor:DeletePrefetchSchedule
 mediatailor:DeleteProgram
 mediatailor:DeleteSourceLocation
 mediatailor:DeleteVodSource
 mediatailor:DescribeChannel
+mediatailor:DescribeLiveSource
 mediatailor:DescribeProgram
 mediatailor:DescribeSourceLocation
 mediatailor:DescribeVodSource
@@ -7836,6 +7839,7 @@ mediatailor:GetPlaybackConfiguration
 mediatailor:GetPrefetchSchedule
 mediatailor:ListAlerts
 mediatailor:ListChannels
+mediatailor:ListLiveSources
 mediatailor:ListPlaybackConfigurations
 mediatailor:ListPrefetchSchedules
 mediatailor:ListSourceLocations
@@ -7848,6 +7852,7 @@ mediatailor:StopChannel
 mediatailor:TagResource
 mediatailor:UntagResource
 mediatailor:UpdateChannel
+mediatailor:UpdateLiveSource
 mediatailor:UpdateSourceLocation
 mediatailor:UpdateVodSource
 memorydb:BatchUpdateClusters
