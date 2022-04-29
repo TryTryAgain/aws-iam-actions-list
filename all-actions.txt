@@ -2623,6 +2623,7 @@ connect:ListTagsForResource
 connect:ListUseCases
 connect:ListUserHierarchyGroups
 connect:ListUsers
+connect:PutUserStatus
 connect:ReleasePhoneNumber
 connect:ResumeContactRecording
 connect:SearchAvailablePhoneNumbers
