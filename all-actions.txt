@@ -6165,6 +6165,7 @@ iot:RemoveThingFromBillingGroup
 iot:RemoveThingFromThingGroup
 iot:ReplaceTopicRule
 iot:RetainPublish
+iot:RotateTunnelAccessToken
 iot:SearchIndex
 iot:SetDefaultAuthorizer
 iot:SetDefaultPolicyVersion
