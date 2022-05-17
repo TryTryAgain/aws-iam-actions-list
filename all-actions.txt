@@ -6260,6 +6260,7 @@ iotdeviceadvisor:TagResource
 iotdeviceadvisor:UntagResource
 iotdeviceadvisor:UpdateSuiteDefinition
 iotevents:BatchAcknowledgeAlarm
+iotevents:BatchDeleteDetector
 iotevents:BatchDisableAlarm
 iotevents:BatchEnableAlarm
 iotevents:BatchPutMessage
@@ -8982,6 +8983,7 @@ quicksight:UpdateFolderPermissions
 quicksight:UpdateGroup
 quicksight:UpdateIAMPolicyAssignment
 quicksight:UpdateIpRestriction
+quicksight:UpdatePublicSharingSettings
 quicksight:UpdateTemplate
 quicksight:UpdateTemplateAlias
 quicksight:UpdateTemplatePermissions
