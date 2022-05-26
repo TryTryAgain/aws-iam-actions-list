@@ -3189,6 +3189,7 @@ discovery:DescribeTags
 discovery:DisassociateConfigurationItemsFromApplication
 discovery:ExportConfigurations
 discovery:GetDiscoverySummary
+discovery:GetNetworkConnectionGraph
 discovery:ListConfigurations
 discovery:ListServerNeighbors
 discovery:StartContinuousExport
