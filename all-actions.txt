@@ -3263,6 +3263,8 @@ dms:TestConnection
 drs:AssociateFailbackClientToRecoveryInstanceForDrs
 drs:BatchCreateVolumeSnapshotGroupForDrs
 drs:BatchDeleteSnapshotRequestForDrs
+drs:CreateConvertedSnapshotForDrs
+drs:CreateExtendedSourceServer
 drs:CreateRecoveryInstanceForDrs
 drs:CreateReplicationConfigurationTemplate
 drs:CreateSessionForDrs
@@ -3296,6 +3298,8 @@ drs:GetReplicationConfiguration
 drs:GetSuggestedFailbackClientDeviceMappingForDrs
 drs:InitializeService
 drs:IssueAgentCertificateForDrs
+drs:ListExtensibleSourceServers
+drs:ListStagingAccounts
 drs:ListTagsForResource
 drs:NotifyAgentAuthenticationForDrs
 drs:NotifyAgentConnectedForDrs
