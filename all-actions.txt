@@ -889,6 +889,7 @@ backup-gateway:CreateGateway
 backup-gateway:DeleteGateway
 backup-gateway:DeleteHypervisor
 backup-gateway:DisassociateGatewayFromServer
+backup-gateway:GetGateway
 backup-gateway:ImportHypervisorConfiguration
 backup-gateway:ListGateways
 backup-gateway:ListHypervisors
@@ -900,6 +901,7 @@ backup-gateway:TagResource
 backup-gateway:TestHypervisorConfiguration
 backup-gateway:UntagResource
 backup-gateway:UpdateGatewayInformation
+backup-gateway:UpdateGatewaySoftwareNow
 backup-gateway:UpdateHypervisor
 backup-storage:MountCapsule
 backup:CopyFromBackupVault
