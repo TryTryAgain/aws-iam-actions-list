@@ -2548,6 +2548,7 @@ connect:CreateQueue
 connect:CreateQuickConnect
 connect:CreateRoutingProfile
 connect:CreateSecurityProfile
+connect:CreateTaskTemplate
 connect:CreateUseCase
 connect:CreateUser
 connect:CreateUserHierarchyGroup
@@ -2559,6 +2560,7 @@ connect:DeleteInstance
 connect:DeleteIntegrationAssociation
 connect:DeleteQuickConnect
 connect:DeleteSecurityProfile
+connect:DeleteTaskTemplate
 connect:DeleteUseCase
 connect:DeleteUser
 connect:DeleteUserHierarchyGroup
@@ -2595,6 +2597,7 @@ connect:GetCurrentMetricData
 connect:GetFederationToken
 connect:GetFederationTokens
 connect:GetMetricData
+connect:GetTaskTemplate
 connect:ListAgentStatuses
 connect:ListApprovedOrigins
 connect:ListBots
@@ -2622,6 +2625,7 @@ connect:ListSecurityKeys
 connect:ListSecurityProfilePermissions
 connect:ListSecurityProfiles
 connect:ListTagsForResource
+connect:ListTaskTemplates
 connect:ListUseCases
 connect:ListUserHierarchyGroups
 connect:ListUsers
@@ -2641,6 +2645,7 @@ connect:StopContactRecording
 connect:StopContactStreaming
 connect:SuspendContactRecording
 connect:TagResource
+connect:TransferContact
 connect:UntagResource
 connect:UpdateAgentStatus
 connect:UpdateContact
@@ -2667,6 +2672,7 @@ connect:UpdateRoutingProfileDefaultOutboundQueue
 connect:UpdateRoutingProfileName
 connect:UpdateRoutingProfileQueues
 connect:UpdateSecurityProfile
+connect:UpdateTaskTemplate
 connect:UpdateUserHierarchy
 connect:UpdateUserHierarchyGroupName
 connect:UpdateUserHierarchyStructure
