@@ -7770,8 +7770,10 @@ medialive:ListOfferings
 medialive:ListReservations
 medialive:ListTagsForResource
 medialive:PurchaseOffering
+medialive:RebootInputDevice
 medialive:RejectInputDeviceTransfer
 medialive:StartChannel
+medialive:StartInputDeviceMaintenanceWindow
 medialive:StartMultiplex
 medialive:StopChannel
 medialive:StopMultiplex
@@ -9609,8 +9611,10 @@ route53-recovery-readiness:UpdateRecoveryGroup
 route53-recovery-readiness:UpdateResourceSet
 route53:ActivateKeySigningKey
 route53:AssociateVPCWithHostedZone
+route53:ChangeCidrCollection
 route53:ChangeResourceRecordSets
 route53:ChangeTagsForResource
+route53:CreateCidrCollection
 route53:CreateHealthCheck
 route53:CreateHostedZone
 route53:CreateKeySigningKey
@@ -9621,6 +9625,7 @@ route53:CreateTrafficPolicyInstance
 route53:CreateTrafficPolicyVersion
 route53:CreateVPCAssociationAuthorization
 route53:DeactivateKeySigningKey
+route53:DeleteCidrCollection
 route53:DeleteHealthCheck
 route53:DeleteHostedZone
 route53:DeleteKeySigningKey
@@ -9650,6 +9655,9 @@ route53:GetReusableDelegationSetLimit
 route53:GetTrafficPolicy
 route53:GetTrafficPolicyInstance
 route53:GetTrafficPolicyInstanceCount
+route53:ListCidrBlocks
+route53:ListCidrCollections
+route53:ListCidrLocations
 route53:ListGeoLocations
 route53:ListHealthChecks
 route53:ListHostedZones
