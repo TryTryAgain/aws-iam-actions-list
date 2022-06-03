@@ -3856,6 +3856,7 @@ ec2:GetFlowLogsIntegrationTemplate
 ec2:GetGroupsForCapacityReservation
 ec2:GetHostReservationPurchasePreview
 ec2:GetInstanceTypesFromInstanceRequirements
+ec2:GetInstanceUefiData
 ec2:GetIpamAddressHistory
 ec2:GetIpamPoolAllocations
 ec2:GetIpamPoolCidrs
