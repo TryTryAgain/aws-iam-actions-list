@@ -7948,14 +7948,17 @@ mgh:PutResourceAttributes
 mgn:BatchCreateVolumeSnapshotGroupForMgn
 mgn:BatchDeleteSnapshotRequestForMgn
 mgn:ChangeServerLifeCycleState
+mgn:CreateLaunchConfigurationTemplate
 mgn:CreateReplicationConfigurationTemplate
 mgn:CreateVcenterClientForMgn
 mgn:DeleteJob
+mgn:DeleteLaunchConfigurationTemplate
 mgn:DeleteReplicationConfigurationTemplate
 mgn:DeleteSourceServer
 mgn:DeleteVcenterClient
 mgn:DescribeJobLogItems
 mgn:DescribeJobs
+mgn:DescribeLaunchConfigurationTemplates
 mgn:DescribeReplicationConfigurationTemplates
 mgn:DescribeReplicationServerAssociationsForMgn
 mgn:DescribeSnapshotRequestsForMgn
@@ -7974,6 +7977,7 @@ mgn:GetLaunchConfiguration
 mgn:GetReplicationConfiguration
 mgn:GetVcenterClientCommandsForMgn
 mgn:InitializeService
+mgn:IssueClientCertificateForMgn
 mgn:ListTagsForResource
 mgn:MarkAsArchived
 mgn:NotifyAgentAuthenticationForMgn
@@ -8003,9 +8007,11 @@ mgn:UpdateAgentReplicationInfoForMgn
 mgn:UpdateAgentReplicationProcessStateForMgn
 mgn:UpdateAgentSourcePropertiesForMgn
 mgn:UpdateLaunchConfiguration
+mgn:UpdateLaunchConfigurationTemplate
 mgn:UpdateReplicationConfiguration
 mgn:UpdateReplicationConfigurationTemplate
 mgn:UpdateSourceServerReplicationType
+mgn:VerifyClientRoleForMgn
 migrationhub-orchestrator:CreateWorkflow
 migrationhub-orchestrator:CreateWorkflowStep
 migrationhub-orchestrator:CreateWorkflowStepGroup
