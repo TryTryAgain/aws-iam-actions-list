@@ -10961,6 +10961,7 @@ sqlworkbench:DeleteTab
 sqlworkbench:DriverExecute
 sqlworkbench:GenerateSession
 sqlworkbench:GetAccountInfo
+sqlworkbench:GetAccountSettings
 sqlworkbench:GetChart
 sqlworkbench:GetConnection
 sqlworkbench:GetSavedQuery
@@ -10980,6 +10981,7 @@ sqlworkbench:PutUserWorkspaceSettings
 sqlworkbench:TagResource
 sqlworkbench:UntagResource
 sqlworkbench:UpdateAccountExportSettings
+sqlworkbench:UpdateAccountGeneralSettings
 sqlworkbench:UpdateChart
 sqlworkbench:UpdateConnection
 sqlworkbench:UpdateFileFolder
