@@ -11129,6 +11129,7 @@ ssm:DescribePatchProperties
 ssm:DescribeSessions
 ssm:DisassociateOpsItemRelatedItem
 ssm:GetAutomationExecution
+ssm:GetCalendar
 ssm:GetCalendarState
 ssm:GetCommandInvocation
 ssm:GetConnectionStatus
@@ -11172,6 +11173,7 @@ ssm:ListResourceComplianceSummaries
 ssm:ListResourceDataSync
 ssm:ListTagsForResource
 ssm:ModifyDocumentPermission
+ssm:PutCalendar
 ssm:PutComplianceItems
 ssm:PutConfigurePackageResult
 ssm:PutInventory
