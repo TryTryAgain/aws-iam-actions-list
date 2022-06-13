@@ -6605,7 +6605,7 @@ iotwireless:DisassociateWirelessGatewayFromCertificate
 iotwireless:DisassociateWirelessGatewayFromThing
 iotwireless:GetDestination
 iotwireless:GetDeviceProfile
-iotwireless:GetEventConfigurationsByResourceTypes
+iotwireless:GetEventConfigurationByResourceTypes
 iotwireless:GetFuotaTask
 iotwireless:GetLogLevelsByResourceTypes
 iotwireless:GetMulticastGroup
@@ -6652,7 +6652,7 @@ iotwireless:TagResource
 iotwireless:TestWirelessDevice
 iotwireless:UntagResource
 iotwireless:UpdateDestination
-iotwireless:UpdateEventConfigurationsByResourceTypes
+iotwireless:UpdateEventConfigurationByResourceTypes
 iotwireless:UpdateFuotaTask
 iotwireless:UpdateLogLevelsByResourceTypes
 iotwireless:UpdateMulticastGroup
