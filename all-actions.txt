@@ -7492,6 +7492,7 @@ lookoutmetrics:ListTagsForResource
 lookoutmetrics:PutFeedback
 lookoutmetrics:TagResource
 lookoutmetrics:UntagResource
+lookoutmetrics:UpdateAlert
 lookoutmetrics:UpdateAnomalyDetector
 lookoutmetrics:UpdateMetricSet
 lookoutvision:CreateDataset
