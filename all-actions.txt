@@ -7345,6 +7345,7 @@ lightsail:GetKeyPairs
 lightsail:GetLoadBalancer
 lightsail:GetLoadBalancerMetricData
 lightsail:GetLoadBalancerTlsCertificates
+lightsail:GetLoadBalancerTlsPolicies
 lightsail:GetLoadBalancers
 lightsail:GetOperation
 lightsail:GetOperations
@@ -7930,7 +7931,7 @@ mediatailor:UpdateChannel
 mediatailor:UpdateLiveSource
 mediatailor:UpdateSourceLocation
 mediatailor:UpdateVodSource
-memorydb:BatchUpdateClusters
+memorydb:BatchUpdateCluster
 memorydb:CopySnapshot
 memorydb:CreateAcl
 memorydb:CreateCluster
@@ -7955,7 +7956,7 @@ memorydb:DescribeSnapshots
 memorydb:DescribeSubnetGroups
 memorydb:DescribeUsers
 memorydb:FailoverShard
-memorydb:ListNodeTypeUpdates
+memorydb:ListAllowedNodeTypeUpdates
 memorydb:ListTags
 memorydb:ResetParameterGroup
 memorydb:TagResource
@@ -10508,6 +10509,7 @@ servicecatalog:ListApplications
 servicecatalog:ListAssociatedAttributeGroups
 servicecatalog:ListAssociatedResources
 servicecatalog:ListAttributeGroups
+servicecatalog:ListAttributeGroupsForApplication
 servicecatalog:ListBudgetsForResource
 servicecatalog:ListConstraintsForPortfolio
 servicecatalog:ListLaunchPaths
