@@ -7638,13 +7638,6 @@ macie2:UpdateFindingsFilter
 macie2:UpdateMacieSession
 macie2:UpdateMemberSession
 macie2:UpdateOrganizationConfiguration
-macie:AssociateMemberAccount
-macie:AssociateS3Resources
-macie:DisassociateMemberAccount
-macie:DisassociateS3Resources
-macie:ListMemberAccounts
-macie:ListS3Resources
-macie:UpdateS3Resources
 managedblockchain:CreateMember
 managedblockchain:CreateNetwork
 managedblockchain:CreateNode
@@ -9421,6 +9414,7 @@ refactor-spaces:ListTagsForResource
 refactor-spaces:PutResourcePolicy
 refactor-spaces:TagResource
 refactor-spaces:UntagResource
+refactor-spaces:UpdateRoute
 rekognition:CompareFaces
 rekognition:CreateCollection
 rekognition:CreateDataset
