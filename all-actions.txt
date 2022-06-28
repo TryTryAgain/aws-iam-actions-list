@@ -1165,7 +1165,6 @@ chime:CreateAppInstanceAdmin
 chime:CreateAppInstanceUser
 chime:CreateAttendee
 chime:CreateBot
-chime:CreateBotMembership
 chime:CreateCDRBucket
 chime:CreateChannel
 chime:CreateChannelBan
@@ -1353,6 +1352,7 @@ chime:ResetPersonalPIN
 chime:RestorePhoneNumber
 chime:RetrieveDataExports
 chime:SearchAvailablePhoneNumbers
+chime:SearchChannels
 chime:SendChannelMessage
 chime:StartDataExport
 chime:StartMeetingTranscription
