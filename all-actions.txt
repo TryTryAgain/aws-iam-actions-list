@@ -4785,6 +4785,7 @@ forecast:CreateExplainability
 forecast:CreateExplainabilityExport
 forecast:CreateForecast
 forecast:CreateForecastExportJob
+forecast:CreateMonitor
 forecast:CreatePredictor
 forecast:CreatePredictorBacktestExportJob
 forecast:DeleteDataset
@@ -4794,6 +4795,7 @@ forecast:DeleteExplainability
 forecast:DeleteExplainabilityExport
 forecast:DeleteForecast
 forecast:DeleteForecastExportJob
+forecast:DeleteMonitor
 forecast:DeletePredictor
 forecast:DeletePredictorBacktestExportJob
 forecast:DeleteResourceTree
@@ -4805,6 +4807,7 @@ forecast:DescribeExplainability
 forecast:DescribeExplainabilityExport
 forecast:DescribeForecast
 forecast:DescribeForecastExportJob
+forecast:DescribeMonitor
 forecast:DescribePredictor
 forecast:DescribePredictorBacktestExportJob
 forecast:GetAccuracyMetrics
@@ -4815,10 +4818,13 @@ forecast:ListExplainabilities
 forecast:ListExplainabilityExports
 forecast:ListForecastExportJobs
 forecast:ListForecasts
+forecast:ListMonitorEvaluations
+forecast:ListMonitors
 forecast:ListPredictorBacktestExportJobs
 forecast:ListPredictors
 forecast:ListTagsForResource
 forecast:QueryForecast
+forecast:ResumeResource
 forecast:StopResource
 forecast:TagResource
 forecast:UntagResource
@@ -10012,6 +10018,13 @@ s3:ReplicateTags
 s3:RestoreObject
 s3:UpdateJobPriority
 s3:UpdateJobStatus
+sagemaker-groundtruth-synthetic:CreateProject
+sagemaker-groundtruth-synthetic:DeleteProject
+sagemaker-groundtruth-synthetic:GetBatch
+sagemaker-groundtruth-synthetic:GetProject
+sagemaker-groundtruth-synthetic:ListBatchSummaries
+sagemaker-groundtruth-synthetic:ListProjectSummaries
+sagemaker-groundtruth-synthetic:UpdateBatch
 sagemaker:AddAssociation
 sagemaker:AddTags
 sagemaker:AssociateTrialComponent
@@ -10126,6 +10139,7 @@ sagemaker:DescribeEndpoint
 sagemaker:DescribeEndpointConfig
 sagemaker:DescribeExperiment
 sagemaker:DescribeFeatureGroup
+sagemaker:DescribeFeatureMetadata
 sagemaker:DescribeFlowDefinition
 sagemaker:DescribeHumanLoop
 sagemaker:DescribeHumanTaskUi
@@ -10267,6 +10281,8 @@ sagemaker:UpdateDomain
 sagemaker:UpdateEndpoint
 sagemaker:UpdateEndpointWeightsAndCapacities
 sagemaker:UpdateExperiment
+sagemaker:UpdateFeatureGroup
+sagemaker:UpdateFeatureMetadata
 sagemaker:UpdateImage
 sagemaker:UpdateModelPackage
 sagemaker:UpdateMonitoringSchedule
