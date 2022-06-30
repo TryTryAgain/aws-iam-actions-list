@@ -12007,6 +12007,7 @@ wellarchitected:ListWorkloads
 wellarchitected:TagResource
 wellarchitected:UntagResource
 wellarchitected:UpdateAnswer
+wellarchitected:UpdateGlobalSettings
 wellarchitected:UpdateLensReview
 wellarchitected:UpdateShareInvitation
 wellarchitected:UpdateWorkload
