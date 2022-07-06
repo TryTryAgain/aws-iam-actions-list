@@ -8931,6 +8931,7 @@ qldb:UpdateLedgerPermissionsMode
 quicksight:AccountConfigurations
 quicksight:CancelIngestion
 quicksight:CreateAccountCustomization
+quicksight:CreateAccountSubscription
 quicksight:CreateAdmin
 quicksight:CreateAnalysis
 quicksight:CreateCustomPermissions
@@ -8974,6 +8975,7 @@ quicksight:DeleteUserByPrincipalId
 quicksight:DeleteVPCConnection
 quicksight:DescribeAccountCustomization
 quicksight:DescribeAccountSettings
+quicksight:DescribeAccountSubscription
 quicksight:DescribeAnalysis
 quicksight:DescribeAnalysisPermissions
 quicksight:DescribeCustomPermissions
