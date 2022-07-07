@@ -6618,6 +6618,8 @@ iotwireless:GetMulticastGroup
 iotwireless:GetMulticastGroupSession
 iotwireless:GetNetworkAnalyzerConfiguration
 iotwireless:GetPartnerAccount
+iotwireless:GetPosition
+iotwireless:GetPositionConfiguration
 iotwireless:GetResourceEventConfiguration
 iotwireless:GetResourceLogLevel
 iotwireless:GetServiceEndpoint
@@ -6638,12 +6640,14 @@ iotwireless:ListMulticastGroups
 iotwireless:ListMulticastGroupsByFuotaTask
 iotwireless:ListNetworkAnalyzerConfigurations
 iotwireless:ListPartnerAccounts
+iotwireless:ListPositionConfigurations
 iotwireless:ListQueuedMessages
 iotwireless:ListServiceProfiles
 iotwireless:ListTagsForResource
 iotwireless:ListWirelessDevices
 iotwireless:ListWirelessGatewayTaskDefinitions
 iotwireless:ListWirelessGateways
+iotwireless:PutPositionConfiguration
 iotwireless:PutResourceLogLevel
 iotwireless:ResetAllResourceLogLevels
 iotwireless:ResetResourceLogLevel
@@ -6664,6 +6668,7 @@ iotwireless:UpdateLogLevelsByResourceTypes
 iotwireless:UpdateMulticastGroup
 iotwireless:UpdateNetworkAnalyzerConfiguration
 iotwireless:UpdatePartnerAccount
+iotwireless:UpdatePosition
 iotwireless:UpdateResourceEventConfiguration
 iotwireless:UpdateWirelessDevice
 iotwireless:UpdateWirelessGateway
