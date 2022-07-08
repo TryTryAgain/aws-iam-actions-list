@@ -3379,6 +3379,7 @@ ds:DescribeDomainControllers
 ds:DescribeEventTopics
 ds:DescribeLDAPSSettings
 ds:DescribeRegions
+ds:DescribeSettings
 ds:DescribeSharedDirectories
 ds:DescribeSnapshots
 ds:DescribeTrusts
@@ -3414,6 +3415,7 @@ ds:UnshareDirectory
 ds:UpdateConditionalForwarder
 ds:UpdateNumberOfDomainControllers
 ds:UpdateRadius
+ds:UpdateSettings
 ds:UpdateTrust
 ds:VerifyTrust
 dynamodb:BatchGetItem
