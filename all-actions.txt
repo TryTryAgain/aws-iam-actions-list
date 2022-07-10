@@ -3323,12 +3323,14 @@ drs:NotifyAgentDisconnectedForDrs
 drs:NotifyAgentReplicationProgressForDrs
 drs:NotifyConsistencyAttainedForDrs
 drs:NotifyReplicationServerAuthenticationForDrs
+drs:NotifyVolumeEventForDrs
 drs:RetryDataReplication
 drs:SendAgentLogsForDrs
 drs:SendAgentMetricsForDrs
 drs:SendChannelCommandResultForDrs
 drs:SendClientLogsForDrs
 drs:SendClientMetricsForDrs
+drs:SendVolumeStatsForDrs
 drs:StartFailbackLaunch
 drs:StartRecovery
 drs:StopFailback
