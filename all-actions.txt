@@ -8343,6 +8343,8 @@ networkmanager:CreateGlobalNetwork
 networkmanager:CreateLink
 networkmanager:CreateSite
 networkmanager:CreateSiteToSiteVpnAttachment
+networkmanager:CreateTransitGatewayPeering
+networkmanager:CreateTransitGatewayRouteTableAttachment
 networkmanager:CreateVpcAttachment
 networkmanager:DeleteAttachment
 networkmanager:DeleteConnectPeer
@@ -8352,6 +8354,7 @@ networkmanager:DeleteCoreNetworkPolicyVersion
 networkmanager:DeleteDevice
 networkmanager:DeleteGlobalNetwork
 networkmanager:DeleteLink
+networkmanager:DeletePeering
 networkmanager:DeleteResourcePolicy
 networkmanager:DeleteSite
 networkmanager:DeregisterTransitGateway
@@ -8366,6 +8369,7 @@ networkmanager:GetConnectPeer
 networkmanager:GetConnectPeerAssociations
 networkmanager:GetConnections
 networkmanager:GetCoreNetwork
+networkmanager:GetCoreNetworkChangeEvents
 networkmanager:GetCoreNetworkChangeSet
 networkmanager:GetCoreNetworkPolicy
 networkmanager:GetCustomerGatewayAssociations
@@ -8382,13 +8386,16 @@ networkmanager:GetRouteAnalysis
 networkmanager:GetSiteToSiteVpnAttachment
 networkmanager:GetSites
 networkmanager:GetTransitGatewayConnectPeerAssociations
+networkmanager:GetTransitGatewayPeering
 networkmanager:GetTransitGatewayRegistrations
+networkmanager:GetTransitGatewayRouteTableAttachment
 networkmanager:GetVpcAttachment
 networkmanager:ListAttachments
 networkmanager:ListConnectPeers
 networkmanager:ListCoreNetworkPolicyVersions
 networkmanager:ListCoreNetworks
 networkmanager:ListOrganizationServiceAccessStatus
+networkmanager:ListPeerings
 networkmanager:ListTagsForResource
 networkmanager:PutCoreNetworkPolicy
 networkmanager:PutResourcePolicy
