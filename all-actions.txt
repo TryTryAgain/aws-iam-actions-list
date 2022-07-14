@@ -1153,6 +1153,7 @@ chime:BatchCreateRoomMembership
 chime:BatchDeletePhoneNumber
 chime:BatchSuspendUser
 chime:BatchUnsuspendUser
+chime:BatchUpdateAttendeeCapabilitiesExcept
 chime:BatchUpdatePhoneNumber
 chime:BatchUpdateUser
 chime:ChannelFlowCallback
@@ -1373,6 +1374,7 @@ chime:UpdateAccountSettings
 chime:UpdateAppInstance
 chime:UpdateAppInstanceUser
 chime:UpdateAppInstanceUserEndpoint
+chime:UpdateAttendeeCapabilities
 chime:UpdateBot
 chime:UpdateCDRSettings
 chime:UpdateChannel
@@ -3112,8 +3114,10 @@ devops-guru:DescribeServiceIntegration
 devops-guru:GetCostEstimation
 devops-guru:GetResourceCollection
 devops-guru:ListAnomaliesForInsight
+devops-guru:ListAnomalousLogGroups
 devops-guru:ListEvents
 devops-guru:ListInsights
+devops-guru:ListMonitoredResources
 devops-guru:ListNotificationChannels
 devops-guru:ListOrganizationInsights
 devops-guru:ListRecommendations
@@ -8324,6 +8328,7 @@ network-firewall:TagResource
 network-firewall:UntagResource
 network-firewall:UpdateFirewallDeleteProtection
 network-firewall:UpdateFirewallDescription
+network-firewall:UpdateFirewallEncryptionConfiguration
 network-firewall:UpdateFirewallPolicy
 network-firewall:UpdateFirewallPolicyChangeProtection
 network-firewall:UpdateLoggingConfiguration
@@ -9534,6 +9539,7 @@ rekognition:StopStreamProcessor
 rekognition:TagResource
 rekognition:UntagResource
 rekognition:UpdateDatasetEntries
+rekognition:UpdateStreamProcessor
 resiliencehub:AddDraftAppVersionResourceMappings
 resiliencehub:CreateApp
 resiliencehub:CreateRecommendationTemplate
@@ -10879,6 +10885,21 @@ signer:RevokeSigningProfile
 signer:StartSigningJob
 signer:TagResource
 signer:UntagResource
+simscape:DeleteAgent
+simscape:DeleteSimulation
+simscape:DescribeAgent
+simscape:DescribeSimulation
+simscape:ListAgents
+simscape:ListSimulations
+simscape:ListTagsForResource
+simscape:StartAgent
+simscape:StartClock
+simscape:StartSimulation
+simscape:StopAgent
+simscape:StopClock
+simscape:StopSimulation
+simscape:TagResource
+simscape:UntagResource
 sms-voice:AssociateOriginationIdentity
 sms-voice:CreateConfigurationSet
 sms-voice:CreateConfigurationSetEventDestination
