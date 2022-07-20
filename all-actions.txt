@@ -835,11 +835,14 @@ aws-marketplace-management:viewReports
 aws-marketplace-management:viewSettings
 aws-marketplace-management:viewSupport
 aws-marketplace:AcceptAgreementApprovalRequest
+aws-marketplace:AcceptAgreementRequest
 aws-marketplace:AssociateProductsWithPrivateMarketplace
 aws-marketplace:BatchMeterUsage
+aws-marketplace:CancelAgreement
 aws-marketplace:CancelAgreementRequest
 aws-marketplace:CancelChangeSet
 aws-marketplace:CompleteTask
+aws-marketplace:CreateAgreementRequest
 aws-marketplace:CreatePrivateMarketplaceRequests
 aws-marketplace:DescribeAgreement
 aws-marketplace:DescribeBuilds
@@ -6910,6 +6913,8 @@ kinesisvideo:CreateSignalingChannel
 kinesisvideo:CreateStream
 kinesisvideo:DeleteSignalingChannel
 kinesisvideo:DeleteStream
+kinesisvideo:DescribeImageGenerationConfiguration
+kinesisvideo:DescribeNotificationConfiguration
 kinesisvideo:DescribeSignalingChannel
 kinesisvideo:DescribeStream
 kinesisvideo:GetClip
@@ -6917,6 +6922,7 @@ kinesisvideo:GetDASHStreamingSessionURL
 kinesisvideo:GetDataEndpoint
 kinesisvideo:GetHLSStreamingSessionURL
 kinesisvideo:GetIceServerConfig
+kinesisvideo:GetImages
 kinesisvideo:GetMedia
 kinesisvideo:GetMediaForFragmentList
 kinesisvideo:GetSignalingChannelEndpoint
@@ -6932,6 +6938,8 @@ kinesisvideo:TagStream
 kinesisvideo:UntagResource
 kinesisvideo:UntagStream
 kinesisvideo:UpdateDataRetention
+kinesisvideo:UpdateImageGenerationConfiguration
+kinesisvideo:UpdateNotificationConfiguration
 kinesisvideo:UpdateSignalingChannel
 kinesisvideo:UpdateStream
 kms:CancelKeyDeletion
