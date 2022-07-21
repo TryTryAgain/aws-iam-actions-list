@@ -3517,6 +3517,7 @@ ec2:AssociateInstanceEventWindow
 ec2:AssociateRouteTable
 ec2:AssociateSubnetCidrBlock
 ec2:AssociateTransitGatewayMulticastDomain
+ec2:AssociateTransitGatewayPolicyTable
 ec2:AssociateTransitGatewayRouteTable
 ec2:AssociateTrunkInterface
 ec2:AssociateVpcCidrBlock
@@ -3601,9 +3602,11 @@ ec2:CreateTransitGatewayConnect
 ec2:CreateTransitGatewayConnectPeer
 ec2:CreateTransitGatewayMulticastDomain
 ec2:CreateTransitGatewayPeeringAttachment
+ec2:CreateTransitGatewayPolicyTable
 ec2:CreateTransitGatewayPrefixListReference
 ec2:CreateTransitGatewayRoute
 ec2:CreateTransitGatewayRouteTable
+ec2:CreateTransitGatewayRouteTableAnnouncement
 ec2:CreateTransitGatewayVpcAttachment
 ec2:CreateVolume
 ec2:CreateVpc
@@ -3666,9 +3669,11 @@ ec2:DeleteTransitGatewayConnect
 ec2:DeleteTransitGatewayConnectPeer
 ec2:DeleteTransitGatewayMulticastDomain
 ec2:DeleteTransitGatewayPeeringAttachment
+ec2:DeleteTransitGatewayPolicyTable
 ec2:DeleteTransitGatewayPrefixListReference
 ec2:DeleteTransitGatewayRoute
 ec2:DeleteTransitGatewayRouteTable
+ec2:DeleteTransitGatewayRouteTableAnnouncement
 ec2:DeleteTransitGatewayVpcAttachment
 ec2:DeleteVolume
 ec2:DeleteVpc
@@ -3799,6 +3804,8 @@ ec2:DescribeTransitGatewayConnectPeers
 ec2:DescribeTransitGatewayConnects
 ec2:DescribeTransitGatewayMulticastDomains
 ec2:DescribeTransitGatewayPeeringAttachments
+ec2:DescribeTransitGatewayPolicyTables
+ec2:DescribeTransitGatewayRouteTableAnnouncements
 ec2:DescribeTransitGatewayRouteTables
 ec2:DescribeTransitGatewayVpcAttachments
 ec2:DescribeTransitGateways
@@ -3843,6 +3850,7 @@ ec2:DisassociateInstanceEventWindow
 ec2:DisassociateRouteTable
 ec2:DisassociateSubnetCidrBlock
 ec2:DisassociateTransitGatewayMulticastDomain
+ec2:DisassociateTransitGatewayPolicyTable
 ec2:DisassociateTransitGatewayRouteTable
 ec2:DisassociateTrunkInterface
 ec2:DisassociateVpcCidrBlock
@@ -3892,6 +3900,8 @@ ec2:GetSpotPlacementScores
 ec2:GetSubnetCidrReservations
 ec2:GetTransitGatewayAttachmentPropagations
 ec2:GetTransitGatewayMulticastDomainAssociations
+ec2:GetTransitGatewayPolicyTableAssociations
+ec2:GetTransitGatewayPolicyTableEntries
 ec2:GetTransitGatewayPrefixListReferences
 ec2:GetTransitGatewayRouteTableAssociations
 ec2:GetTransitGatewayRouteTablePropagations
