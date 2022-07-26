@@ -5597,6 +5597,7 @@ guardduty:DeleteInvitations
 guardduty:DeleteMembers
 guardduty:DeletePublishingDestination
 guardduty:DeleteThreatIntelSet
+guardduty:DescribeMalwareScans
 guardduty:DescribeOrganizationConfiguration
 guardduty:DescribePublishingDestination
 guardduty:DisableOrganizationAdminAccount
@@ -5609,6 +5610,7 @@ guardduty:GetFindings
 guardduty:GetFindingsStatistics
 guardduty:GetIPSet
 guardduty:GetInvitationsCount
+guardduty:GetMalwareScanSettings
 guardduty:GetMasterAccount
 guardduty:GetMemberDetectors
 guardduty:GetMembers
@@ -5634,6 +5636,7 @@ guardduty:UpdateDetector
 guardduty:UpdateFilter
 guardduty:UpdateFindingsFeedback
 guardduty:UpdateIPSet
+guardduty:UpdateMalwareScanSettings
 guardduty:UpdateMemberDetectors
 guardduty:UpdateOrganizationConfiguration
 guardduty:UpdatePublishingDestination
@@ -7663,6 +7666,9 @@ macie2:GetInvitationsCount
 macie2:GetMacieSession
 macie2:GetMasterAccount
 macie2:GetMember
+macie2:GetRevealConfiguration
+macie2:GetSensitiveDataOccurrences
+macie2:GetSensitiveDataOccurrencesAvailability
 macie2:GetUsageStatistics
 macie2:GetUsageTotals
 macie2:ListClassificationJobs
@@ -7685,6 +7691,7 @@ macie2:UpdateFindingsFilter
 macie2:UpdateMacieSession
 macie2:UpdateMemberSession
 macie2:UpdateOrganizationConfiguration
+macie2:UpdateRevealConfiguration
 managedblockchain:CreateMember
 managedblockchain:CreateNetwork
 managedblockchain:CreateNode
@@ -11923,6 +11930,24 @@ trustedadvisor:SetAccountAccess
 trustedadvisor:SetOrganizationAccess
 trustedadvisor:UpdateNotificationPreferences
 trustedadvisor:UpdateRiskStatus
+vendor-insights:ActivateSecurityProfile
+vendor-insights:AssociateDataSource
+vendor-insights:CreateDataSource
+vendor-insights:CreateSecurityProfile
+vendor-insights:DeactivateSecurityProfile
+vendor-insights:DeleteDataSource
+vendor-insights:DisassociateDataSource
+vendor-insights:GetDataSource
+vendor-insights:GetEntitledSecurityProfileSnapshot
+vendor-insights:GetProfileAccessTerms
+vendor-insights:GetSecurityProfile
+vendor-insights:GetSecurityProfileSnapshot
+vendor-insights:ListDataSources
+vendor-insights:ListEntitledSecurityProfileSnapshots
+vendor-insights:ListEntitledSecurityProfiles
+vendor-insights:ListSecurityProfileSnapshots
+vendor-insights:ListSecurityProfiles
+vendor-insights:UpdateSecurityProfile
 voiceid:CreateDomain
 voiceid:DeleteDomain
 voiceid:DeleteFraudster
