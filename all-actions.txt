@@ -304,11 +304,15 @@ appconfig:CreateApplication
 appconfig:CreateConfigurationProfile
 appconfig:CreateDeploymentStrategy
 appconfig:CreateEnvironment
+appconfig:CreateExtension
+appconfig:CreateExtensionAssociation
 appconfig:CreateHostedConfigurationVersion
 appconfig:DeleteApplication
 appconfig:DeleteConfigurationProfile
 appconfig:DeleteDeploymentStrategy
 appconfig:DeleteEnvironment
+appconfig:DeleteExtension
+appconfig:DeleteExtensionAssociation
 appconfig:DeleteHostedConfigurationVersion
 appconfig:GetApplication
 appconfig:GetConfiguration
@@ -316,6 +320,8 @@ appconfig:GetConfigurationProfile
 appconfig:GetDeployment
 appconfig:GetDeploymentStrategy
 appconfig:GetEnvironment
+appconfig:GetExtension
+appconfig:GetExtensionAssociation
 appconfig:GetHostedConfigurationVersion
 appconfig:GetLatestConfiguration
 appconfig:ListApplications
@@ -323,6 +329,8 @@ appconfig:ListConfigurationProfiles
 appconfig:ListDeploymentStrategies
 appconfig:ListDeployments
 appconfig:ListEnvironments
+appconfig:ListExtensionAssociations
+appconfig:ListExtensions
 appconfig:ListHostedConfigurationVersions
 appconfig:ListTagsForResource
 appconfig:StartConfigurationSession
@@ -334,6 +342,8 @@ appconfig:UpdateApplication
 appconfig:UpdateConfigurationProfile
 appconfig:UpdateDeploymentStrategy
 appconfig:UpdateEnvironment
+appconfig:UpdateExtension
+appconfig:UpdateExtensionAssociation
 appconfig:ValidateConfiguration
 appflow:CreateConnectorProfile
 appflow:CreateFlow
