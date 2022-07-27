@@ -596,6 +596,7 @@ appsync:DeleteGraphqlApi
 appsync:DeleteResolver
 appsync:DeleteType
 appsync:DisassociateApi
+appsync:EvaluateMappingTemplate
 appsync:FlushApiCache
 appsync:GetApiAssociation
 appsync:GetApiCache
