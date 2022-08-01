@@ -2843,6 +2843,7 @@ datasync:CancelTaskExecution
 datasync:CreateAgent
 datasync:CreateLocationEfs
 datasync:CreateLocationFsxLustre
+datasync:CreateLocationFsxOntap
 datasync:CreateLocationFsxOpenZfs
 datasync:CreateLocationFsxWindows
 datasync:CreateLocationHdfs
@@ -2857,6 +2858,7 @@ datasync:DeleteTask
 datasync:DescribeAgent
 datasync:DescribeLocationEfs
 datasync:DescribeLocationFsxLustre
+datasync:DescribeLocationFsxOntap
 datasync:DescribeLocationFsxOpenZfs
 datasync:DescribeLocationFsxWindows
 datasync:DescribeLocationHdfs
