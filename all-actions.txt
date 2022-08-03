@@ -12538,6 +12538,7 @@ workspaces:CreateIpGroup
 workspaces:CreateTags
 workspaces:CreateUpdatedWorkspaceImage
 workspaces:CreateWorkspaceBundle
+workspaces:CreateWorkspaceImage
 workspaces:CreateWorkspaces
 workspaces:DeleteClientBranding
 workspaces:DeleteConnectClientAddIn
@@ -12571,6 +12572,7 @@ workspaces:ListAvailableManagementCidrRanges
 workspaces:MigrateWorkspace
 workspaces:ModifyAccount
 workspaces:ModifyClientProperties
+workspaces:ModifySamlProperties
 workspaces:ModifySelfservicePermissions
 workspaces:ModifyWorkspaceAccessProperties
 workspaces:ModifyWorkspaceCreationProperties
@@ -12583,6 +12585,7 @@ workspaces:RestoreWorkspace
 workspaces:RevokeIpRules
 workspaces:StartWorkspaces
 workspaces:StopWorkspaces
+workspaces:Stream
 workspaces:TerminateWorkspaces
 workspaces:UpdateConnectClientAddIn
 workspaces:UpdateConnectionAliasPermission
