@@ -11216,7 +11216,6 @@ ssm-contacts:CreateContactChannel
 ssm-contacts:DeactivateContactChannel
 ssm-contacts:DeleteContact
 ssm-contacts:DeleteContactChannel
-ssm-contacts:DeleteContactPolicy
 ssm-contacts:DescribeEngagement
 ssm-contacts:DescribePage
 ssm-contacts:GetContact
@@ -11237,7 +11236,6 @@ ssm-contacts:TagResource
 ssm-contacts:UntagResource
 ssm-contacts:UpdateContact
 ssm-contacts:UpdateContactChannel
-ssm-contacts:UpdateContactPolicy
 ssm-guiconnect:CancelConnection
 ssm-guiconnect:GetConnection
 ssm-guiconnect:StartConnection
