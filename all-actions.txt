@@ -9640,6 +9640,7 @@ refactor-spaces:TagResource
 refactor-spaces:UntagResource
 refactor-spaces:UpdateRoute
 rekognition:CompareFaces
+rekognition:CopyProjectVersion
 rekognition:CreateCollection
 rekognition:CreateDataset
 rekognition:CreateProject
@@ -9649,6 +9650,7 @@ rekognition:DeleteCollection
 rekognition:DeleteDataset
 rekognition:DeleteFaces
 rekognition:DeleteProject
+rekognition:DeleteProjectPolicy
 rekognition:DeleteProjectVersion
 rekognition:DeleteStreamProcessor
 rekognition:DescribeCollection
@@ -9677,8 +9679,10 @@ rekognition:ListCollections
 rekognition:ListDatasetEntries
 rekognition:ListDatasetLabels
 rekognition:ListFaces
+rekognition:ListProjectPolicies
 rekognition:ListStreamProcessors
 rekognition:ListTagsForResource
+rekognition:PutProjectPolicy
 rekognition:RecognizeCelebrities
 rekognition:SearchFaces
 rekognition:SearchFacesByImage
