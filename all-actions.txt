@@ -11228,12 +11228,14 @@ sqlworkbench:GetAccountInfo
 sqlworkbench:GetAccountSettings
 sqlworkbench:GetChart
 sqlworkbench:GetConnection
+sqlworkbench:GetQueryExecutionHistory
 sqlworkbench:GetSavedQuery
 sqlworkbench:GetUserInfo
 sqlworkbench:GetUserWorkspaceSettings
 sqlworkbench:ListConnections
 sqlworkbench:ListDatabases
 sqlworkbench:ListFiles
+sqlworkbench:ListQueryExecutionHistory
 sqlworkbench:ListRedshiftClusters
 sqlworkbench:ListSampleDatabases
 sqlworkbench:ListSavedQueryVersions
