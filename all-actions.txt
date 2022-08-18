@@ -11950,7 +11950,7 @@ transfer:DeleteSshPublicKey
 transfer:DeleteUser
 transfer:DeleteWorkflow
 transfer:DescribeAccess
-transfer:DescribeAgreeement
+transfer:DescribeAgreement
 transfer:DescribeCertificate
 transfer:DescribeConnector
 transfer:DescribeExecution
