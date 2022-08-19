@@ -1834,6 +1834,7 @@ cloudwatch:GetMetricStatistics
 cloudwatch:GetMetricStream
 cloudwatch:GetMetricWidgetImage
 cloudwatch:ListDashboards
+cloudwatch:ListManagedInsightRules
 cloudwatch:ListMetricStreams
 cloudwatch:ListMetrics
 cloudwatch:ListTagsForResource
@@ -1841,6 +1842,7 @@ cloudwatch:PutAnomalyDetector
 cloudwatch:PutCompositeAlarm
 cloudwatch:PutDashboard
 cloudwatch:PutInsightRule
+cloudwatch:PutManagedInsightRules
 cloudwatch:PutMetricAlarm
 cloudwatch:PutMetricData
 cloudwatch:PutMetricStream
