@@ -7290,6 +7290,7 @@ lex:StartBotRecommendation
 lex:StartConversation
 lex:StartImport
 lex:StartMigration
+lex:StopBotRecommendation
 lex:TagResource
 lex:UntagResource
 lex:UpdateBot
