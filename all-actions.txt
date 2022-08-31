@@ -5948,10 +5948,25 @@ identity-sync:ListSyncFilters
 identity-sync:StartSync
 identity-sync:StopSync
 identity-sync:UpdateSyncTarget
+identitystore:CreateGroup
+identitystore:CreateGroupMembership
+identitystore:CreateUser
+identitystore:DeleteGroup
+identitystore:DeleteGroupMembership
+identitystore:DeleteUser
 identitystore:DescribeGroup
+identitystore:DescribeGroupMembership
 identitystore:DescribeUser
+identitystore:GetGroupId
+identitystore:GetGroupMembershipId
+identitystore:GetUserId
+identitystore:IsMemberInGroups
+identitystore:ListGroupMemberships
+identitystore:ListGroupMembershipsForMember
 identitystore:ListGroups
 identitystore:ListUsers
+identitystore:UpdateGroup
+identitystore:UpdateUser
 imagebuilder:CancelImageCreation
 imagebuilder:CreateComponent
 imagebuilder:CreateContainerRecipe
@@ -7720,6 +7735,7 @@ machinelearning:UpdateEvaluation
 machinelearning:UpdateMLModel
 macie2:AcceptInvitation
 macie2:BatchGetCustomDataIdentifiers
+macie2:CreateAllowList
 macie2:CreateClassificationJob
 macie2:CreateCustomDataIdentifier
 macie2:CreateFindingsFilter
@@ -7727,6 +7743,7 @@ macie2:CreateInvitations
 macie2:CreateMember
 macie2:CreateSampleFindings
 macie2:DeclineInvitations
+macie2:DeleteAllowList
 macie2:DeleteCustomDataIdentifier
 macie2:DeleteFindingsFilter
 macie2:DeleteInvitations
@@ -7742,6 +7759,7 @@ macie2:DisassociateMember
 macie2:EnableMacie
 macie2:EnableOrganizationAdminAccount
 macie2:GetAdministratorAccount
+macie2:GetAllowList
 macie2:GetBucketStatistics
 macie2:GetClassificationExportConfiguration
 macie2:GetCustomDataIdentifier
@@ -7758,6 +7776,7 @@ macie2:GetSensitiveDataOccurrences
 macie2:GetSensitiveDataOccurrencesAvailability
 macie2:GetUsageStatistics
 macie2:GetUsageTotals
+macie2:ListAllowLists
 macie2:ListClassificationJobs
 macie2:ListCustomDataIdentifiers
 macie2:ListFindings
@@ -7773,6 +7792,7 @@ macie2:SearchResources
 macie2:TagResource
 macie2:TestCustomDataIdentifier
 macie2:UntagResource
+macie2:UpdateAllowList
 macie2:UpdateClassificationJob
 macie2:UpdateFindingsFilter
 macie2:UpdateMacieSession
@@ -9268,6 +9288,7 @@ quicksight:UpdateGroup
 quicksight:UpdateIAMPolicyAssignment
 quicksight:UpdateIpRestriction
 quicksight:UpdatePublicSharingSettings
+quicksight:UpdateResourcePermissions
 quicksight:UpdateTemplate
 quicksight:UpdateTemplateAlias
 quicksight:UpdateTemplatePermissions
