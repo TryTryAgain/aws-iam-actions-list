@@ -2758,13 +2758,17 @@ controltower:DescribeGuardrailForTarget
 controltower:DescribeManagedAccount
 controltower:DescribeManagedOrganizationalUnit
 controltower:DescribeSingleSignOn
+controltower:DisableControl
 controltower:DisableGuardrail
+controltower:EnableControl
 controltower:EnableGuardrail
 controltower:GetAvailableUpdates
+controltower:GetControlOperation
 controltower:GetGuardrailComplianceStatus
 controltower:GetHomeRegion
 controltower:GetLandingZoneStatus
 controltower:ListDirectoryGroups
+controltower:ListEnabledControls
 controltower:ListEnabledGuardrails
 controltower:ListGuardrailViolations
 controltower:ListGuardrails
