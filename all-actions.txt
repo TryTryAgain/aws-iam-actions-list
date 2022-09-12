@@ -1794,8 +1794,10 @@ cloudshell:StopEnvironment
 cloudtrail:AddTags
 cloudtrail:CancelQuery
 cloudtrail:CreateEventDataStore
+cloudtrail:CreateServiceLinkedChannel
 cloudtrail:CreateTrail
 cloudtrail:DeleteEventDataStore
+cloudtrail:DeleteServiceLinkedChannel
 cloudtrail:DeleteTrail
 cloudtrail:DescribeQuery
 cloudtrail:DescribeTrails
@@ -1803,11 +1805,13 @@ cloudtrail:GetEventDataStore
 cloudtrail:GetEventSelectors
 cloudtrail:GetInsightSelectors
 cloudtrail:GetQueryResults
+cloudtrail:GetServiceLinkedChannel
 cloudtrail:GetTrail
 cloudtrail:GetTrailStatus
 cloudtrail:ListEventDataStores
 cloudtrail:ListPublicKeys
 cloudtrail:ListQueries
+cloudtrail:ListServiceLinkedChannels
 cloudtrail:ListTags
 cloudtrail:ListTrails
 cloudtrail:LookupEvents
@@ -1819,6 +1823,7 @@ cloudtrail:StartLogging
 cloudtrail:StartQuery
 cloudtrail:StopLogging
 cloudtrail:UpdateEventDataStore
+cloudtrail:UpdateServiceLinkedChannel
 cloudtrail:UpdateTrail
 cloudwatch:DeleteAlarms
 cloudwatch:DeleteAnomalyDetector
