@@ -10379,6 +10379,8 @@ sagemaker:CreateContext
 sagemaker:CreateDataQualityJobDefinition
 sagemaker:CreateDeviceFleet
 sagemaker:CreateDomain
+sagemaker:CreateEdgeDeploymentPlan
+sagemaker:CreateEdgeDeploymentStage
 sagemaker:CreateEdgePackagingJob
 sagemaker:CreateEndpoint
 sagemaker:CreateEndpointConfig
@@ -10425,6 +10427,8 @@ sagemaker:DeleteContext
 sagemaker:DeleteDataQualityJobDefinition
 sagemaker:DeleteDeviceFleet
 sagemaker:DeleteDomain
+sagemaker:DeleteEdgeDeploymentPlan
+sagemaker:DeleteEdgeDeploymentStage
 sagemaker:DeleteEndpoint
 sagemaker:DeleteEndpointConfig
 sagemaker:DeleteExperiment
@@ -10469,6 +10473,7 @@ sagemaker:DescribeDataQualityJobDefinition
 sagemaker:DescribeDevice
 sagemaker:DescribeDeviceFleet
 sagemaker:DescribeDomain
+sagemaker:DescribeEdgeDeploymentPlan
 sagemaker:DescribeEdgePackagingJob
 sagemaker:DescribeEndpoint
 sagemaker:DescribeEndpointConfig
@@ -10534,6 +10539,7 @@ sagemaker:ListDataQualityJobDefinitions
 sagemaker:ListDeviceFleets
 sagemaker:ListDevices
 sagemaker:ListDomains
+sagemaker:ListEdgeDeploymentPlans
 sagemaker:ListEdgePackagingJobs
 sagemaker:ListEndpointConfigs
 sagemaker:ListEndpoints
@@ -10566,6 +10572,7 @@ sagemaker:ListPipelineParametersForExecution
 sagemaker:ListPipelines
 sagemaker:ListProcessingJobs
 sagemaker:ListProjects
+sagemaker:ListStageDevices
 sagemaker:ListStudioLifecycleConfigs
 sagemaker:ListSubscribedWorkteams
 sagemaker:ListTags
@@ -10588,12 +10595,14 @@ sagemaker:Search
 sagemaker:SendHeartbeat
 sagemaker:SendPipelineExecutionStepFailure
 sagemaker:SendPipelineExecutionStepSuccess
+sagemaker:StartEdgeDeploymentStage
 sagemaker:StartHumanLoop
 sagemaker:StartMonitoringSchedule
 sagemaker:StartNotebookInstance
 sagemaker:StartPipelineExecution
 sagemaker:StopAutoMLJob
 sagemaker:StopCompilationJob
+sagemaker:StopEdgeDeploymentStage
 sagemaker:StopEdgePackagingJob
 sagemaker:StopHumanLoop
 sagemaker:StopHyperParameterTuningJob
