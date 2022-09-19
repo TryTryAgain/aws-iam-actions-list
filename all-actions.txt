@@ -3335,6 +3335,7 @@ dms:DescribeEventCategories
 dms:DescribeEventSubscriptions
 dms:DescribeEvents
 dms:DescribeOrderableReplicationInstances
+dms:DescribePendingMaintenanceActions
 dms:DescribeRefreshSchemasStatus
 dms:DescribeReplicationInstanceTaskLogs
 dms:DescribeReplicationInstances
