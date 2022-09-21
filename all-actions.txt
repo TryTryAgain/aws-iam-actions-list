@@ -2384,6 +2384,7 @@ comprehend:BatchDetectEntities
 comprehend:BatchDetectKeyPhrases
 comprehend:BatchDetectSentiment
 comprehend:BatchDetectSyntax
+comprehend:BatchDetectTargetedSentiment
 comprehend:ClassifyDocument
 comprehend:ContainsPiiEntities
 comprehend:CreateDocumentClassifier
@@ -2412,6 +2413,7 @@ comprehend:DetectKeyPhrases
 comprehend:DetectPiiEntities
 comprehend:DetectSentiment
 comprehend:DetectSyntax
+comprehend:DetectTargetedSentiment
 comprehend:ImportModel
 comprehend:ListDocumentClassificationJobs
 comprehend:ListDocumentClassifierSummaries
