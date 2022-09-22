@@ -6496,7 +6496,7 @@ iotfleethub:ListTagsForResource
 iotfleethub:TagResource
 iotfleethub:UntagResource
 iotfleethub:UpdateApplication
-iotfleetwise:AssociateVehicle
+iotfleetwise:AssociateVehicleFleet
 iotfleetwise:CreateCampaign
 iotfleetwise:CreateDecoderManifest
 iotfleetwise:CreateFleet
@@ -6509,10 +6509,11 @@ iotfleetwise:DeleteFleet
 iotfleetwise:DeleteModelManifest
 iotfleetwise:DeleteSignalCatalog
 iotfleetwise:DeleteVehicle
-iotfleetwise:DisassociateVehicle
+iotfleetwise:DisassociateVehicleFleet
 iotfleetwise:GetCampaign
 iotfleetwise:GetDecoderManifest
 iotfleetwise:GetFleet
+iotfleetwise:GetLoggingOptions
 iotfleetwise:GetModelManifest
 iotfleetwise:GetRegisterAccountStatus
 iotfleetwise:GetSignalCatalog
@@ -6530,9 +6531,13 @@ iotfleetwise:ListModelManifestNodes
 iotfleetwise:ListModelManifests
 iotfleetwise:ListSignalCatalogNodes
 iotfleetwise:ListSignalCatalogs
+iotfleetwise:ListTagsForResource
 iotfleetwise:ListVehicles
 iotfleetwise:ListVehiclesInFleet
+iotfleetwise:PutLoggingOptions
 iotfleetwise:RegisterAccount
+iotfleetwise:TagResource
+iotfleetwise:UntagResource
 iotfleetwise:UpdateCampaign
 iotfleetwise:UpdateDecoderManifest
 iotfleetwise:UpdateFleet
