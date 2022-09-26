@@ -7577,6 +7577,7 @@ lightsail:UpdateContainerService
 lightsail:UpdateDistribution
 lightsail:UpdateDistributionBundle
 lightsail:UpdateDomainEntry
+lightsail:UpdateInstanceMetadataOptions
 lightsail:UpdateLoadBalancerAttribute
 lightsail:UpdateRelationalDatabase
 lightsail:UpdateRelationalDatabaseParameters
