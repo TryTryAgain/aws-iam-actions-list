@@ -11898,6 +11898,9 @@ support:RateCaseCommunication
 support:RefreshTrustedAdvisorCheck
 support:ResolveCase
 support:SearchForCases
+supportplans:GetSupportPlan
+supportplans:GetSupportPlanUpdateStatus
+supportplans:StartSupportPlanUpdate
 sustainability:GetCarbonFootprintSummary
 swf:CancelTimer
 swf:CancelWorkflowExecution
