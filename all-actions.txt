@@ -8285,6 +8285,7 @@ migrationhub-strategy:GetApplicationComponentDetails
 migrationhub-strategy:GetApplicationComponentStrategies
 migrationhub-strategy:GetAssessment
 migrationhub-strategy:GetImportFileTask
+migrationhub-strategy:GetLatestAssessmentId
 migrationhub-strategy:GetMessage
 migrationhub-strategy:GetPortfolioPreferences
 migrationhub-strategy:GetPortfolioSummary
@@ -8305,6 +8306,7 @@ migrationhub-strategy:StartImportFileTask
 migrationhub-strategy:StartRecommendationReportGeneration
 migrationhub-strategy:StopAssessment
 migrationhub-strategy:UpdateApplicationComponentConfig
+migrationhub-strategy:UpdateCollectorConfiguration
 migrationhub-strategy:UpdateServerConfig
 mobileanalytics:GetFinancialReports
 mobileanalytics:GetReports
