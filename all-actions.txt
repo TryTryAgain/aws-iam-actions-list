@@ -4026,6 +4026,7 @@ ec2:ModifyIpamPool
 ec2:ModifyIpamResourceCidr
 ec2:ModifyIpamScope
 ec2:ModifyLaunchTemplate
+ec2:ModifyLocalGatewayRoute
 ec2:ModifyManagedPrefixList
 ec2:ModifyNetworkInterfaceAttribute
 ec2:ModifyPrivateDnsNameOptions
