@@ -1103,8 +1103,10 @@ cases:GetDomain
 cases:GetLayout
 cases:GetTemplate
 cases:ListCasesForContact
+cases:ListDomains
 cases:ListFieldOptions
 cases:ListFields
+cases:ListLayouts
 cases:ListTagsForResource
 cases:ListTemplates
 cases:PutCaseEventConfiguration
@@ -5046,6 +5048,7 @@ fsx:CopyBackup
 fsx:CreateBackup
 fsx:CreateDataRepositoryAssociation
 fsx:CreateDataRepositoryTask
+fsx:CreateFileCache
 fsx:CreateFileSystem
 fsx:CreateFileSystemFromBackup
 fsx:CreateSnapshot
@@ -5054,6 +5057,7 @@ fsx:CreateVolume
 fsx:CreateVolumeFromBackup
 fsx:DeleteBackup
 fsx:DeleteDataRepositoryAssociation
+fsx:DeleteFileCache
 fsx:DeleteFileSystem
 fsx:DeleteSnapshot
 fsx:DeleteStorageVirtualMachine
@@ -5062,6 +5066,7 @@ fsx:DescribeAssociatedFileGateways
 fsx:DescribeBackups
 fsx:DescribeDataRepositoryAssociations
 fsx:DescribeDataRepositoryTasks
+fsx:DescribeFileCaches
 fsx:DescribeFileSystemAliases
 fsx:DescribeFileSystems
 fsx:DescribeSnapshots
@@ -5076,6 +5081,7 @@ fsx:RestoreVolumeFromSnapshot
 fsx:TagResource
 fsx:UntagResource
 fsx:UpdateDataRepositoryAssociation
+fsx:UpdateFileCache
 fsx:UpdateFileSystem
 fsx:UpdateSnapshot
 fsx:UpdateStorageVirtualMachine
