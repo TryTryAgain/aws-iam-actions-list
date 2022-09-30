@@ -4634,6 +4634,7 @@ emr-serverless:CancelJobRun
 emr-serverless:CreateApplication
 emr-serverless:DeleteApplication
 emr-serverless:GetApplication
+emr-serverless:GetDashboardForJobRun
 emr-serverless:GetJobRun
 emr-serverless:ListApplications
 emr-serverless:ListJobRuns
