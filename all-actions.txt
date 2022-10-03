@@ -12589,6 +12589,7 @@ workmail:AssociateDelegateToResource
 workmail:AssociateMemberToGroup
 workmail:CancelMailboxExportJob
 workmail:CreateAlias
+workmail:CreateAvailabilityConfiguration
 workmail:CreateGroup
 workmail:CreateInboundMailFlowRule
 workmail:CreateMailDomain
@@ -12601,6 +12602,7 @@ workmail:CreateSmtpGateway
 workmail:CreateUser
 workmail:DeleteAccessControlRule
 workmail:DeleteAlias
+workmail:DeleteAvailabilityConfiguration
 workmail:DeleteEmailMonitoringConfiguration
 workmail:DeleteGroup
 workmail:DeleteInboundMailFlowRule
@@ -12655,6 +12657,7 @@ workmail:GetMobileDevicesForUser
 workmail:GetMobilePolicyDetails
 workmail:ListAccessControlRules
 workmail:ListAliases
+workmail:ListAvailabilityConfigurations
 workmail:ListGroupMembers
 workmail:ListGroups
 workmail:ListInboundMailFlowRules
@@ -12691,9 +12694,11 @@ workmail:SetMailUserDetails
 workmail:SetMobilePolicyDetails
 workmail:StartMailboxExportJob
 workmail:TagResource
+workmail:TestAvailabilityConfiguration
 workmail:TestInboundMailFlowRules
 workmail:TestOutboundMailFlowRules
 workmail:UntagResource
+workmail:UpdateAvailabilityConfiguration
 workmail:UpdateDefaultMailDomain
 workmail:UpdateInboundMailFlowRule
 workmail:UpdateMailboxQuota
