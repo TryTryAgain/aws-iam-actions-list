@@ -12152,11 +12152,14 @@ translate:GetTerminology
 translate:ImportTerminology
 translate:ListLanguages
 translate:ListParallelData
+translate:ListTagsForResource
 translate:ListTerminologies
 translate:ListTextTranslationJobs
 translate:StartTextTranslationJob
 translate:StopTextTranslationJob
+translate:TagResource
 translate:TranslateText
+translate:UntagResource
 translate:UpdateParallelData
 trustedadvisor:DeleteNotificationConfigurationForDelegatedAdmin
 trustedadvisor:DescribeAccount
