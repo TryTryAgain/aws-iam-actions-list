@@ -12514,6 +12514,7 @@ wisdom:UpdateContent
 wisdom:UpdateKnowledgeBaseTemplateUri
 workdocs:AbortDocumentVersionUpload
 workdocs:ActivateUser
+workdocs:AddNotificationPermissions
 workdocs:AddResourcePermissions
 workdocs:AddUserToGroup
 workdocs:CheckAlias
@@ -12532,6 +12533,7 @@ workdocs:DeleteFolder
 workdocs:DeleteFolderContents
 workdocs:DeleteInstance
 workdocs:DeleteLabels
+workdocs:DeleteNotificationPermissions
 workdocs:DeleteNotificationSubscription
 workdocs:DeleteUser
 workdocs:DeregisterDirectory
@@ -12542,6 +12544,7 @@ workdocs:DescribeDocumentVersions
 workdocs:DescribeFolderContents
 workdocs:DescribeGroups
 workdocs:DescribeInstances
+workdocs:DescribeNotificationPermissions
 workdocs:DescribeNotificationSubscriptions
 workdocs:DescribeResourcePermissions
 workdocs:DescribeRootFolders
