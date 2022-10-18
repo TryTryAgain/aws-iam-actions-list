@@ -12616,10 +12616,12 @@ worklink:UpdateIdentityProviderConfiguration
 workmail:AddMembersToGroup
 workmail:AssociateDelegateToResource
 workmail:AssociateMemberToGroup
+workmail:AssumeImpersonationRole
 workmail:CancelMailboxExportJob
 workmail:CreateAlias
 workmail:CreateAvailabilityConfiguration
 workmail:CreateGroup
+workmail:CreateImpersonationRole
 workmail:CreateInboundMailFlowRule
 workmail:CreateMailDomain
 workmail:CreateMailUser
@@ -12634,6 +12636,7 @@ workmail:DeleteAlias
 workmail:DeleteAvailabilityConfiguration
 workmail:DeleteEmailMonitoringConfiguration
 workmail:DeleteGroup
+workmail:DeleteImpersonationRole
 workmail:DeleteInboundMailFlowRule
 workmail:DeleteMailDomain
 workmail:DeleteMailboxPermissions
@@ -12673,6 +12676,8 @@ workmail:EnableMailGroups
 workmail:EnableMailUsers
 workmail:GetAccessControlEffect
 workmail:GetDefaultRetentionPolicy
+workmail:GetImpersonationRole
+workmail:GetImpersonationRoleEffect
 workmail:GetJournalingRules
 workmail:GetMailDomain
 workmail:GetMailDomainDetails
@@ -12689,6 +12694,7 @@ workmail:ListAliases
 workmail:ListAvailabilityConfigurations
 workmail:ListGroupMembers
 workmail:ListGroups
+workmail:ListImpersonationRoles
 workmail:ListInboundMailFlowRules
 workmail:ListMailDomains
 workmail:ListMailboxExportJobs
@@ -12729,6 +12735,7 @@ workmail:TestOutboundMailFlowRules
 workmail:UntagResource
 workmail:UpdateAvailabilityConfiguration
 workmail:UpdateDefaultMailDomain
+workmail:UpdateImpersonationRole
 workmail:UpdateInboundMailFlowRule
 workmail:UpdateMailboxQuota
 workmail:UpdateMobileDeviceAccessRule
