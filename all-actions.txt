@@ -5494,6 +5494,7 @@ glue:GetWorkflowRuns
 glue:ImportCatalogToGlue
 glue:ListBlueprints
 glue:ListCrawlers
+glue:ListCrawls
 glue:ListCustomEntityTypes
 glue:ListDevEndpoints
 glue:ListJobs
@@ -5552,6 +5553,7 @@ glue:UpdateTable
 glue:UpdateTrigger
 glue:UpdateUserDefinedFunction
 glue:UpdateWorkflow
+glue:UseGlueStudio
 glue:UseMLTransforms
 grafana:AssociateLicense
 grafana:CreateWorkspace
