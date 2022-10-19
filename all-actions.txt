@@ -11045,6 +11045,7 @@ ses:GetContact
 ses:GetContactList
 ses:GetCustomVerificationEmailTemplate
 ses:GetDedicatedIp
+ses:GetDedicatedIpPool
 ses:GetDedicatedIps
 ses:GetDeliverabilityDashboardOptions
 ses:GetDeliverabilityTestReport
