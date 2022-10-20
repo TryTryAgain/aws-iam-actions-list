@@ -1,3 +1,7 @@
+a2c:GetContainerizationJobDetails
+a2c:GetDeploymentJobDetails
+a2c:StartContainerizationJob
+a2c:StartDeploymentJob
 a4b:ApproveSkill
 a4b:AssociateContactWithAddressBook
 a4b:AssociateDeviceWithNetworkProfile
@@ -5332,6 +5336,7 @@ glacier:SetVaultNotifications
 glacier:UploadArchive
 glacier:UploadMultipartPart
 globalaccelerator:AddCustomRoutingEndpoints
+globalaccelerator:AddEndpoints
 globalaccelerator:AdvertiseByoipCidr
 globalaccelerator:AllowCustomRoutingTraffic
 globalaccelerator:CreateAccelerator
@@ -5368,6 +5373,7 @@ globalaccelerator:ListListeners
 globalaccelerator:ListTagsForResource
 globalaccelerator:ProvisionByoipCidr
 globalaccelerator:RemoveCustomRoutingEndpoints
+globalaccelerator:RemoveEndpoints
 globalaccelerator:TagResource
 globalaccelerator:UntagResource
 globalaccelerator:UpdateAccelerator
@@ -6015,6 +6021,9 @@ identity-sync:ListSyncFilters
 identity-sync:StartSync
 identity-sync:StopSync
 identity-sync:UpdateSyncTarget
+identitystore-auth:BatchDeleteSession
+identitystore-auth:BatchGetSession
+identitystore-auth:ListSessions
 identitystore:CreateGroup
 identitystore:CreateGroupMembership
 identitystore:CreateUser
