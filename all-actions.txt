@@ -2643,6 +2643,7 @@ connect:CreateQuickConnect
 connect:CreateRoutingProfile
 connect:CreateSecurityProfile
 connect:CreateTaskTemplate
+connect:CreateTrafficDistributionGroup
 connect:CreateUseCase
 connect:CreateUser
 connect:CreateUserHierarchyGroup
@@ -2655,6 +2656,7 @@ connect:DeleteIntegrationAssociation
 connect:DeleteQuickConnect
 connect:DeleteSecurityProfile
 connect:DeleteTaskTemplate
+connect:DeleteTrafficDistributionGroup
 connect:DeleteUseCase
 connect:DeleteUser
 connect:DeleteUserHierarchyGroup
@@ -2672,6 +2674,7 @@ connect:DescribeQueue
 connect:DescribeQuickConnect
 connect:DescribeRoutingProfile
 connect:DescribeSecurityProfile
+connect:DescribeTrafficDistributionGroup
 connect:DescribeUser
 connect:DescribeUserHierarchyGroup
 connect:DescribeUserHierarchyStructure
@@ -2693,6 +2696,7 @@ connect:GetFederationToken
 connect:GetFederationTokens
 connect:GetMetricData
 connect:GetTaskTemplate
+connect:GetTrafficDistribution
 connect:ListAgentStatuses
 connect:ListApprovedOrigins
 connect:ListBots
@@ -2721,11 +2725,13 @@ connect:ListSecurityProfilePermissions
 connect:ListSecurityProfiles
 connect:ListTagsForResource
 connect:ListTaskTemplates
+connect:ListTrafficDistributionGroups
 connect:ListUseCases
 connect:ListUserHierarchyGroups
 connect:ListUsers
 connect:PutUserStatus
 connect:ReleasePhoneNumber
+connect:ReplicateInstance
 connect:ResumeContactRecording
 connect:SearchAvailablePhoneNumbers
 connect:SearchQueues
@@ -2771,6 +2777,7 @@ connect:UpdateRoutingProfileName
 connect:UpdateRoutingProfileQueues
 connect:UpdateSecurityProfile
 connect:UpdateTaskTemplate
+connect:UpdateTrafficDistribution
 connect:UpdateUserHierarchy
 connect:UpdateUserHierarchyGroupName
 connect:UpdateUserHierarchyStructure
@@ -11935,6 +11942,16 @@ support:RateCaseCommunication
 support:RefreshTrustedAdvisorCheck
 support:ResolveCase
 support:SearchForCases
+supportapp:CreateSlackChannelConfiguration
+supportapp:DeleteAccountAlias
+supportapp:DeleteSlackChannelConfiguration
+supportapp:DeleteSlackWorkspaceConfiguration
+supportapp:GetAccountAlias
+supportapp:ListSlackChannelConfigurations
+supportapp:ListSlackWorkspaceConfigurations
+supportapp:PutAccountAlias
+supportapp:RegisterSlackWorkspaceForOrganization
+supportapp:UpdateSlackChannelConfiguration
 supportplans:GetSupportPlan
 supportplans:GetSupportPlanUpdateStatus
 supportplans:StartSupportPlanUpdate
