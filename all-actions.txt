@@ -1,7 +1,3 @@
-a2c:GetContainerizationJobDetails
-a2c:GetDeploymentJobDetails
-a2c:StartContainerizationJob
-a2c:StartDeploymentJob
 a4b:ApproveSkill
 a4b:AssociateContactWithAddressBook
 a4b:AssociateDeviceWithNetworkProfile
