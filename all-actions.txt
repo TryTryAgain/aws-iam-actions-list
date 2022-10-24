@@ -10611,6 +10611,7 @@ sagemaker:ListHumanTaskUis
 sagemaker:ListHyperParameterTuningJobs
 sagemaker:ListImageVersions
 sagemaker:ListImages
+sagemaker:ListInferenceRecommendationsJobSteps
 sagemaker:ListInferenceRecommendationsJobs
 sagemaker:ListLabelingJobs
 sagemaker:ListLabelingJobsForWorkteam
@@ -12079,9 +12080,9 @@ timestream:UpdateTable
 timestream:WriteRecords
 tiros:CreateQuery
 tiros:ExtendQuery
-tiros:GetExtensionAccounts
 tiros:GetQueryAnswer
 tiros:GetQueryExplanation
+tiros:GetQueryExtensionAccounts
 transcribe:CreateCallAnalyticsCategory
 transcribe:CreateLanguageModel
 transcribe:CreateMedicalVocabulary
