@@ -6976,6 +6976,7 @@ kafka:UpdateConfiguration
 kafka:UpdateConnectivity
 kafka:UpdateMonitoring
 kafka:UpdateSecurity
+kafka:UpdateStorage
 kafkaconnect:CreateConnector
 kafkaconnect:CreateCustomPlugin
 kafkaconnect:CreateWorkerConfiguration
