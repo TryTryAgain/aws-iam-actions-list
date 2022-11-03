@@ -9211,6 +9211,7 @@ qldb:PartiQLDropIndex
 qldb:PartiQLDropTable
 qldb:PartiQLHistoryFunction
 qldb:PartiQLInsert
+qldb:PartiQLRedact
 qldb:PartiQLSelect
 qldb:PartiQLUndropTable
 qldb:PartiQLUpdate
@@ -9692,6 +9693,7 @@ redshift:EnableSnapshotCopy
 redshift:ExecuteQuery
 redshift:FetchResults
 redshift:GetClusterCredentials
+redshift:GetClusterCredentialsWithIAM
 redshift:GetReservedNodeExchangeConfigurationOptions
 redshift:GetReservedNodeExchangeOfferings
 redshift:JoinGroup
