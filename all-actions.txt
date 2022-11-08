@@ -1823,6 +1823,7 @@ cloudtrail:CreateTrail
 cloudtrail:DeleteEventDataStore
 cloudtrail:DeleteServiceLinkedChannel
 cloudtrail:DeleteTrail
+cloudtrail:DeregisterOrganizationDelegatedAdmin
 cloudtrail:DescribeQuery
 cloudtrail:DescribeTrails
 cloudtrail:GetEventDataStore
@@ -1841,6 +1842,7 @@ cloudtrail:ListTrails
 cloudtrail:LookupEvents
 cloudtrail:PutEventSelectors
 cloudtrail:PutInsightSelectors
+cloudtrail:RegisterOrganizationDelegatedAdmin
 cloudtrail:RemoveTags
 cloudtrail:RestoreEventDataStore
 cloudtrail:StartLogging
@@ -4641,10 +4643,20 @@ elemental-activations:StartAccountRegistration
 elemental-activations:StartFileUpload
 elemental-activations:TagResource
 elemental-activations:UntagResource
+elemental-appliances-software:CompleteUpload
+elemental-appliances-software:CreateOrderV1
 elemental-appliances-software:CreateQuote
+elemental-appliances-software:GetAvsCorrectAddress
+elemental-appliances-software:GetBillingAddresses
+elemental-appliances-software:GetDeliveryAddressesV2
+elemental-appliances-software:GetOrder
+elemental-appliances-software:GetOrdersV2
 elemental-appliances-software:GetQuote
+elemental-appliances-software:GetTaxes
 elemental-appliances-software:ListQuotes
 elemental-appliances-software:ListTagsForResource
+elemental-appliances-software:StartUpload
+elemental-appliances-software:SubmitOrderV1
 elemental-appliances-software:TagResource
 elemental-appliances-software:UntagResource
 elemental-appliances-software:UpdateQuote
@@ -12498,6 +12510,8 @@ wellarchitected:GetMilestone
 wellarchitected:GetWorkload
 wellarchitected:ImportLens
 wellarchitected:ListAnswers
+wellarchitected:ListCheckDetails
+wellarchitected:ListCheckSummaries
 wellarchitected:ListLensReviewImprovements
 wellarchitected:ListLensReviews
 wellarchitected:ListLensShares
