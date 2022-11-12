@@ -3145,9 +3145,10 @@ detective:GetPricingInformation
 detective:GetUsageInformation
 detective:ListDatasourcePackages
 detective:ListGraphs
+detective:ListHighDegreeEntities
 detective:ListInvitations
 detective:ListMembers
-detective:ListOrganizationAdminAccounts
+detective:ListOrganizationAdminAccount
 detective:ListTagsForResource
 detective:RejectInvitation
 detective:SearchGraph
@@ -7471,7 +7472,9 @@ license-manager:ListLicenseSpecificationsForResource
 license-manager:ListLicenseVersions
 license-manager:ListLicenses
 license-manager:ListReceivedGrants
+license-manager:ListReceivedGrantsForOrganization
 license-manager:ListReceivedLicenses
+license-manager:ListReceivedLicensesForOrganization
 license-manager:ListResourceInventory
 license-manager:ListTagsForResource
 license-manager:ListTokens
@@ -12949,11 +12952,13 @@ workspaces:UpdateConnectionAliasPermission
 workspaces:UpdateRulesOfIpGroup
 workspaces:UpdateWorkspaceBundle
 workspaces:UpdateWorkspaceImagePermission
+xray:BatchGetTraceSummaryById
 xray:BatchGetTraces
 xray:CreateGroup
 xray:CreateSamplingRule
 xray:DeleteGroup
 xray:DeleteSamplingRule
+xray:GetDistinctTraceGraphs
 xray:GetEncryptionConfig
 xray:GetGroup
 xray:GetGroups
