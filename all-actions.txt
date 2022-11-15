@@ -12105,6 +12105,10 @@ tag:StartReportCreation
 tag:TagResources
 tag:UntagResources
 tax:GetExemptions
+tax:GetTaxInterview
+tax:GetTaxRegistration
+tax:PutTaxInterview
+tax:PutTaxRegistration
 tax:UpdateExemptions
 textract:AnalyzeDocument
 textract:AnalyzeExpense
