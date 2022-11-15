@@ -3637,6 +3637,7 @@ ebs:PutSnapshotBlock
 ebs:StartSnapshot
 ec2-instance-connect:SendSSHPublicKey
 ec2-instance-connect:SendSerialConsoleSSHPublicKey
+ec2:AcceptAddressTransfer
 ec2:AcceptReservedInstancesExchangeQuote
 ec2:AcceptTransitGatewayMulticastDomainAssociations
 ec2:AcceptTransitGatewayPeeringAttachment
@@ -3677,6 +3678,7 @@ ec2:CancelCapacityReservation
 ec2:CancelCapacityReservationFleets
 ec2:CancelConversionTask
 ec2:CancelExportTask
+ec2:CancelImageLaunchPermission
 ec2:CancelImportTask
 ec2:CancelReservedInstancesListing
 ec2:CancelSpotFleetRequests
@@ -3842,6 +3844,7 @@ ec2:DeregisterInstanceEventNotificationAttributes
 ec2:DeregisterTransitGatewayMulticastGroupMembers
 ec2:DeregisterTransitGatewayMulticastGroupSources
 ec2:DescribeAccountAttributes
+ec2:DescribeAddressTransfers
 ec2:DescribeAddresses
 ec2:DescribeAddressesAttribute
 ec2:DescribeAggregateIdFormat
@@ -3982,6 +3985,7 @@ ec2:DetachInternetGateway
 ec2:DetachNetworkInterface
 ec2:DetachVolume
 ec2:DetachVpnGateway
+ec2:DisableAddressTransfer
 ec2:DisableEbsEncryptionByDefault
 ec2:DisableFastLaunch
 ec2:DisableFastSnapshotRestores
@@ -4004,6 +4008,7 @@ ec2:DisassociateTransitGatewayPolicyTable
 ec2:DisassociateTransitGatewayRouteTable
 ec2:DisassociateTrunkInterface
 ec2:DisassociateVpcCidrBlock
+ec2:EnableAddressTransfer
 ec2:EnableEbsEncryptionByDefault
 ec2:EnableFastLaunch
 ec2:EnableFastSnapshotRestores
