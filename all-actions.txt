@@ -6779,8 +6779,10 @@ iottwinmaker:DeleteComponentType
 iottwinmaker:DeleteEntity
 iottwinmaker:DeleteScene
 iottwinmaker:DeleteWorkspace
+iottwinmaker:ExecuteQuery
 iottwinmaker:GetComponentType
 iottwinmaker:GetEntity
+iottwinmaker:GetPricingPlan
 iottwinmaker:GetPropertyValue
 iottwinmaker:GetPropertyValueHistory
 iottwinmaker:GetScene
@@ -6794,6 +6796,7 @@ iottwinmaker:TagResource
 iottwinmaker:UntagResource
 iottwinmaker:UpdateComponentType
 iottwinmaker:UpdateEntity
+iottwinmaker:UpdatePricingPlan
 iottwinmaker:UpdateScene
 iottwinmaker:UpdateWorkspace
 iotwireless:AssociateAwsAccountWithPartnerAccount
