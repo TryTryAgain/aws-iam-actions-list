@@ -4366,6 +4366,7 @@ elasticache:AuthorizeCacheSecurityGroupIngress
 elasticache:BatchApplyUpdateAction
 elasticache:BatchStopUpdateAction
 elasticache:CompleteMigration
+elasticache:Connect
 elasticache:CopySnapshot
 elasticache:CreateCacheCluster
 elasticache:CreateCacheParameterGroup
@@ -7681,6 +7682,7 @@ logs:GetLogGroupFields
 logs:GetLogRecord
 logs:GetQueryResults
 logs:ListLogDeliveries
+logs:ListTagsForResource
 logs:ListTagsLogGroup
 logs:PutDestination
 logs:PutDestinationPolicy
@@ -7693,8 +7695,10 @@ logs:PutSubscriptionFilter
 logs:StartQuery
 logs:StopQuery
 logs:TagLogGroup
+logs:TagResource
 logs:TestMetricFilter
 logs:UntagLogGroup
+logs:UntagResource
 logs:UpdateLogDelivery
 lookoutequipment:CreateDataset
 lookoutequipment:CreateInferenceScheduler
@@ -9178,6 +9182,8 @@ proton:GetEnvironmentTemplateMinorVersion
 proton:GetEnvironmentTemplateVersion
 proton:GetRepository
 proton:GetRepositorySyncStatus
+proton:GetResourceTemplateVersionStatusCounts
+proton:GetResourcesSummary
 proton:GetService
 proton:GetServiceInstance
 proton:GetServiceTemplate
@@ -12616,6 +12622,8 @@ wellarchitected:UpdateShareInvitation
 wellarchitected:UpdateWorkload
 wellarchitected:UpdateWorkloadShare
 wellarchitected:UpgradeLensReview
+wickr:CreateAdminSession
+wickr:ListNetworks
 wisdom:CreateAssistant
 wisdom:CreateAssistantAssociation
 wisdom:CreateContent
