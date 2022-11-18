@@ -6929,16 +6929,21 @@ ivs:TagResource
 ivs:UntagResource
 ivs:UpdateChannel
 ivschat:CreateChatToken
+ivschat:CreateLoggingConfiguration
 ivschat:CreateRoom
+ivschat:DeleteLoggingConfiguration
 ivschat:DeleteMessage
 ivschat:DeleteRoom
 ivschat:DisconnectUser
+ivschat:GetLoggingConfiguration
 ivschat:GetRoom
+ivschat:ListLoggingConfigurations
 ivschat:ListRooms
 ivschat:ListTagsForResource
 ivschat:SendEvent
 ivschat:TagResource
 ivschat:UntagResource
+ivschat:UpdateLoggingConfiguration
 ivschat:UpdateRoom
 kafka-cluster:AlterCluster
 kafka-cluster:AlterClusterDynamicConfiguration
@@ -10990,6 +10995,7 @@ servicecatalog:GetAWSOrganizationsAccessStatus
 servicecatalog:GetApplication
 servicecatalog:GetAssociatedResource
 servicecatalog:GetAttributeGroup
+servicecatalog:GetConfiguration
 servicecatalog:GetProvisionedProductOutputs
 servicecatalog:ImportAsProvisionedProduct
 servicecatalog:ListAcceptedPortfolioShares
@@ -11017,6 +11023,7 @@ servicecatalog:ListStackInstancesForProvisionedProduct
 servicecatalog:ListTagOptions
 servicecatalog:ListTagsForResource
 servicecatalog:ProvisionProduct
+servicecatalog:PutConfiguration
 servicecatalog:RejectPortfolioShare
 servicecatalog:ScanProvisionedProducts
 servicecatalog:SearchProducts
@@ -12675,6 +12682,7 @@ workdocs:DeactivateUser
 workdocs:DeleteComment
 workdocs:DeleteCustomMetadata
 workdocs:DeleteDocument
+workdocs:DeleteDocumentVersion
 workdocs:DeleteFolder
 workdocs:DeleteFolderContents
 workdocs:DeleteInstance
@@ -12708,6 +12716,7 @@ workdocs:InitiateDocumentVersionUpload
 workdocs:RegisterDirectory
 workdocs:RemoveAllResourcePermissions
 workdocs:RemoveResourcePermission
+workdocs:RestoreDocumentVersions
 workdocs:UpdateDocument
 workdocs:UpdateDocumentVersion
 workdocs:UpdateFolder
