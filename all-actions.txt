@@ -2697,6 +2697,7 @@ connect:DescribeAgentStatus
 connect:DescribeContact
 connect:DescribeContactFlow
 connect:DescribeContactFlowModule
+connect:DescribeForecastingPlanningSchedulingIntegration
 connect:DescribeHoursOfOperation
 connect:DescribeInstance
 connect:DescribeInstanceAttribute
@@ -2721,6 +2722,7 @@ connect:DisassociatePhoneNumberContactFlow
 connect:DisassociateQueueQuickConnects
 connect:DisassociateRoutingProfileQueues
 connect:DisassociateSecurityKey
+connect:DismissUserContact
 connect:GetContactAttributes
 connect:GetCurrentMetricData
 connect:GetCurrentUserData
@@ -2761,6 +2763,7 @@ connect:ListTrafficDistributionGroups
 connect:ListUseCases
 connect:ListUserHierarchyGroups
 connect:ListUsers
+connect:MonitorContact
 connect:PutUserStatus
 connect:ReleasePhoneNumber
 connect:ReplicateInstance
@@ -2774,11 +2777,13 @@ connect:SearchVocabularies
 connect:StartChatContact
 connect:StartContactRecording
 connect:StartContactStreaming
+connect:StartForecastingPlanningSchedulingIntegration
 connect:StartOutboundVoiceContact
 connect:StartTaskContact
 connect:StopContact
 connect:StopContactRecording
 connect:StopContactStreaming
+connect:StopForecastingPlanningSchedulingIntegration
 connect:SuspendContactRecording
 connect:TagResource
 connect:TransferContact
@@ -12632,8 +12637,6 @@ wellarchitected:UpdateShareInvitation
 wellarchitected:UpdateWorkload
 wellarchitected:UpdateWorkloadShare
 wellarchitected:UpgradeLensReview
-wickr:CreateAdminSession
-wickr:ListNetworks
 wisdom:CreateAssistant
 wisdom:CreateAssistantAssociation
 wisdom:CreateContent
