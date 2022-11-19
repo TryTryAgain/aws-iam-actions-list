@@ -375,6 +375,7 @@ appflow:TagResource
 appflow:UnRegisterConnector
 appflow:UntagResource
 appflow:UpdateConnectorProfile
+appflow:UpdateConnectorRegistration
 appflow:UpdateFlow
 appflow:UseConnectorProfile
 application-autoscaling:DeleteScalingPolicy
@@ -9313,6 +9314,7 @@ quicksight:CreateThemeAlias
 quicksight:CreateUser
 quicksight:CreateVPCConnection
 quicksight:DeleteAccountCustomization
+quicksight:DeleteAccountSubscription
 quicksight:DeleteAnalysis
 quicksight:DeleteCustomPermissions
 quicksight:DeleteDashboard
@@ -9398,6 +9400,8 @@ quicksight:RestoreAnalysis
 quicksight:ScopeDownPolicy
 quicksight:SearchAnalyses
 quicksight:SearchDashboards
+quicksight:SearchDataSets
+quicksight:SearchDataSources
 quicksight:SearchDirectoryGroups
 quicksight:SearchFolders
 quicksight:SearchGroups
