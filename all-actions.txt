@@ -9467,7 +9467,9 @@ rbin:DeleteRule
 rbin:GetRule
 rbin:ListRules
 rbin:ListTagsForResource
+rbin:LockRule
 rbin:TagResource
+rbin:UnlockRule
 rbin:UntagResource
 rbin:UpdateRule
 rds-data:BatchExecuteStatement
