@@ -12280,6 +12280,8 @@ transcribe:ListTranscriptionJobs
 transcribe:ListVocabularies
 transcribe:ListVocabularyFilters
 transcribe:StartCallAnalyticsJob
+transcribe:StartCallAnalyticsStreamTranscription
+transcribe:StartCallAnalyticsStreamTranscriptionWebSocket
 transcribe:StartMedicalStreamTranscription
 transcribe:StartMedicalStreamTranscriptionWebSocket
 transcribe:StartMedicalTranscriptionJob
@@ -12689,6 +12691,8 @@ wellarchitected:UpdateShareInvitation
 wellarchitected:UpdateWorkload
 wellarchitected:UpdateWorkloadShare
 wellarchitected:UpgradeLensReview
+wickr:CreateAdminSession
+wickr:ListNetworks
 wisdom:CreateAssistant
 wisdom:CreateAssistantAssociation
 wisdom:CreateContent
