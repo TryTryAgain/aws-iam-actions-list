@@ -7512,6 +7512,7 @@ license-manager-user-subscriptions:ListUserAssociations
 license-manager-user-subscriptions:RegisterIdentityProvider
 license-manager-user-subscriptions:StartProductSubscription
 license-manager-user-subscriptions:StopProductSubscription
+license-manager-user-subscriptions:UpdateIdentityProviderSettings
 license-manager:AcceptGrant
 license-manager:CheckInLicense
 license-manager:CheckoutBorrowLicense
