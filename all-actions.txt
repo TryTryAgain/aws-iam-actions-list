@@ -9354,6 +9354,16 @@ pi:GetResourceMetadata
 pi:GetResourceMetrics
 pi:ListAvailableResourceDimensions
 pi:ListAvailableResourceMetrics
+pipes:CreatePipe
+pipes:DeletePipe
+pipes:DescribePipe
+pipes:ListPipes
+pipes:ListTagsForResource
+pipes:StartPipe
+pipes:StopPipe
+pipes:TagResource
+pipes:UntagResource
+pipes:UpdatePipe
 polly:DeleteLexicon
 polly:DescribeVoices
 polly:GetLexicon
