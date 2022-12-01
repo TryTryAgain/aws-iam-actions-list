@@ -12749,7 +12749,12 @@ vendor-insights:ListEntitledSecurityProfileSnapshots
 vendor-insights:ListEntitledSecurityProfiles
 vendor-insights:ListSecurityProfileSnapshots
 vendor-insights:ListSecurityProfiles
+vendor-insights:ListTagsForResource
+vendor-insights:TagResource
+vendor-insights:UntagResource
 vendor-insights:UpdateSecurityProfile
+vendor-insights:UpdateSecurityProfileSnapshotCreationConfiguration
+vendor-insights:UpdateSecurityProfileSnapshotReleaseConfiguration
 voiceid:CreateDomain
 voiceid:DeleteDomain
 voiceid:DeleteFraudster
