@@ -7499,6 +7499,9 @@ launchwizard:GetIpAddress
 launchwizard:GetResourceCostEstimate
 launchwizard:ListProvisionedApps
 launchwizard:StartProvisioning
+lex:BatchCreateCustomVocabularyItem
+lex:BatchDeleteCustomVocabularyItem
+lex:BatchUpdateCustomVocabularyItem
 lex:BuildBotLocale
 lex:CreateBot
 lex:CreateBotAlias
@@ -7576,6 +7579,7 @@ lex:ListBotVersions
 lex:ListBots
 lex:ListBuiltInIntents
 lex:ListBuiltInSlotTypes
+lex:ListCustomVocabularyItems
 lex:ListExports
 lex:ListImports
 lex:ListIntents
@@ -12316,12 +12320,14 @@ states:DeleteActivity
 states:DeleteStateMachine
 states:DescribeActivity
 states:DescribeExecution
+states:DescribeMapRun
 states:DescribeStateMachine
 states:DescribeStateMachineForExecution
 states:GetActivityTask
 states:GetExecutionHistory
 states:ListActivities
 states:ListExecutions
+states:ListMapRuns
 states:ListStateMachines
 states:ListTagsForResource
 states:SendTaskFailure
@@ -12332,6 +12338,7 @@ states:StartSyncExecution
 states:StopExecution
 states:TagResource
 states:UntagResource
+states:UpdateMapRun
 states:UpdateStateMachine
 storagegateway:ActivateGateway
 storagegateway:AddCache
