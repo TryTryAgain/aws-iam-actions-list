@@ -4414,6 +4414,7 @@ ecs:ListAttributes
 ecs:ListClusters
 ecs:ListContainerInstances
 ecs:ListServices
+ecs:ListServicesByNamespace
 ecs:ListTagsForResource
 ecs:ListTaskDefinitionFamilies
 ecs:ListTaskDefinitions
