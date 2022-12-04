@@ -3547,7 +3547,6 @@ drs:CreateConvertedSnapshotForDrs
 drs:CreateExtendedSourceServer
 drs:CreateRecoveryInstanceForDrs
 drs:CreateReplicationConfigurationTemplate
-drs:CreateSessionForDrs
 drs:CreateSourceServerForDrs
 drs:DeleteJob
 drs:DeleteRecoveryInstance
