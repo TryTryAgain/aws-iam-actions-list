@@ -3789,6 +3789,7 @@ ec2:AssociateVpcCidrBlock
 ec2:AttachClassicLinkVpc
 ec2:AttachInternetGateway
 ec2:AttachNetworkInterface
+ec2:AttachVerifiedAccessTrustProvider
 ec2:AttachVolume
 ec2:AttachVpnGateway
 ec2:AuthorizeClientVpnIngress
@@ -3878,6 +3879,10 @@ ec2:CreateTransitGatewayRoute
 ec2:CreateTransitGatewayRouteTable
 ec2:CreateTransitGatewayRouteTableAnnouncement
 ec2:CreateTransitGatewayVpcAttachment
+ec2:CreateVerifiedAccessEndpoint
+ec2:CreateVerifiedAccessGroup
+ec2:CreateVerifiedAccessInstance
+ec2:CreateVerifiedAccessTrustProvider
 ec2:CreateVolume
 ec2:CreateVpc
 ec2:CreateVpcEndpoint
@@ -3949,6 +3954,10 @@ ec2:DeleteTransitGatewayRoute
 ec2:DeleteTransitGatewayRouteTable
 ec2:DeleteTransitGatewayRouteTableAnnouncement
 ec2:DeleteTransitGatewayVpcAttachment
+ec2:DeleteVerifiedAccessEndpoint
+ec2:DeleteVerifiedAccessGroup
+ec2:DeleteVerifiedAccessInstance
+ec2:DeleteVerifiedAccessTrustProvider
 ec2:DeleteVolume
 ec2:DeleteVpc
 ec2:DeleteVpcEndpointConnectionNotifications
@@ -3971,6 +3980,7 @@ ec2:DescribeAddresses
 ec2:DescribeAddressesAttribute
 ec2:DescribeAggregateIdFormat
 ec2:DescribeAvailabilityZones
+ec2:DescribeAwsNetworkPerformanceMetricSubscriptions
 ec2:DescribeBundleTasks
 ec2:DescribeByoipCidrs
 ec2:DescribeCapacityReservationFleets
@@ -4085,6 +4095,11 @@ ec2:DescribeTransitGatewayRouteTables
 ec2:DescribeTransitGatewayVpcAttachments
 ec2:DescribeTransitGateways
 ec2:DescribeTrunkInterfaceAssociations
+ec2:DescribeVerifiedAccessEndpoints
+ec2:DescribeVerifiedAccessGroups
+ec2:DescribeVerifiedAccessInstanceLoggingConfigurations
+ec2:DescribeVerifiedAccessInstances
+ec2:DescribeVerifiedAccessTrustProviders
 ec2:DescribeVolumeAttribute
 ec2:DescribeVolumeStatus
 ec2:DescribeVolumes
@@ -4105,9 +4120,11 @@ ec2:DescribeVpnGateways
 ec2:DetachClassicLinkVpc
 ec2:DetachInternetGateway
 ec2:DetachNetworkInterface
+ec2:DetachVerifiedAccessTrustProvider
 ec2:DetachVolume
 ec2:DetachVpnGateway
 ec2:DisableAddressTransfer
+ec2:DisableAwsNetworkPerformanceMetricSubscription
 ec2:DisableEbsEncryptionByDefault
 ec2:DisableFastLaunch
 ec2:DisableFastSnapshotRestores
@@ -4131,11 +4148,13 @@ ec2:DisassociateTransitGatewayRouteTable
 ec2:DisassociateTrunkInterface
 ec2:DisassociateVpcCidrBlock
 ec2:EnableAddressTransfer
+ec2:EnableAwsNetworkPerformanceMetricSubscription
 ec2:EnableEbsEncryptionByDefault
 ec2:EnableFastLaunch
 ec2:EnableFastSnapshotRestores
 ec2:EnableImageDeprecation
 ec2:EnableIpamOrganizationAdminAccount
+ec2:EnableReachabilityAnalyzerOrganizationSharing
 ec2:EnableSerialConsoleAccess
 ec2:EnableTransitGatewayRouteTablePropagation
 ec2:EnableVgwRoutePropagation
@@ -4148,6 +4167,7 @@ ec2:ExportImage
 ec2:ExportTransitGatewayRoutes
 ec2:GetAssociatedEnclaveCertificateIamRoles
 ec2:GetAssociatedIpv6PoolCidrs
+ec2:GetAwsNetworkPerformanceData
 ec2:GetCapacityReservationUsage
 ec2:GetCoipPoolUsage
 ec2:GetConsoleOutput
@@ -4182,6 +4202,8 @@ ec2:GetTransitGatewayPolicyTableEntries
 ec2:GetTransitGatewayPrefixListReferences
 ec2:GetTransitGatewayRouteTableAssociations
 ec2:GetTransitGatewayRouteTablePropagations
+ec2:GetVerifiedAccessEndpointPolicy
+ec2:GetVerifiedAccessGroupPolicy
 ec2:GetVpnConnectionDeviceSampleConfiguration
 ec2:GetVpnConnectionDeviceTypes
 ec2:ImportClientVpnClientCertificateRevocationList
@@ -4234,6 +4256,13 @@ ec2:ModifyTrafficMirrorSession
 ec2:ModifyTransitGateway
 ec2:ModifyTransitGatewayPrefixListReference
 ec2:ModifyTransitGatewayVpcAttachment
+ec2:ModifyVerifiedAccessEndpoint
+ec2:ModifyVerifiedAccessEndpointPolicy
+ec2:ModifyVerifiedAccessGroup
+ec2:ModifyVerifiedAccessGroupPolicy
+ec2:ModifyVerifiedAccessInstance
+ec2:ModifyVerifiedAccessInstanceLoggingConfiguration
+ec2:ModifyVerifiedAccessTrustProvider
 ec2:ModifyVolume
 ec2:ModifyVolumeAttribute
 ec2:ModifyVpcAttribute
