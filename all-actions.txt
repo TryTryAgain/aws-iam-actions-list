@@ -6977,10 +6977,12 @@ iottwinmaker:BatchPutPropertyValues
 iottwinmaker:CreateComponentType
 iottwinmaker:CreateEntity
 iottwinmaker:CreateScene
+iottwinmaker:CreateSyncJob
 iottwinmaker:CreateWorkspace
 iottwinmaker:DeleteComponentType
 iottwinmaker:DeleteEntity
 iottwinmaker:DeleteScene
+iottwinmaker:DeleteSyncJob
 iottwinmaker:DeleteWorkspace
 iottwinmaker:ExecuteQuery
 iottwinmaker:GetComponentType
@@ -6989,10 +6991,13 @@ iottwinmaker:GetPricingPlan
 iottwinmaker:GetPropertyValue
 iottwinmaker:GetPropertyValueHistory
 iottwinmaker:GetScene
+iottwinmaker:GetSyncJob
 iottwinmaker:GetWorkspace
 iottwinmaker:ListComponentTypes
 iottwinmaker:ListEntities
 iottwinmaker:ListScenes
+iottwinmaker:ListSyncJobs
+iottwinmaker:ListSyncResources
 iottwinmaker:ListTagsForResource
 iottwinmaker:ListWorkspaces
 iottwinmaker:TagResource
