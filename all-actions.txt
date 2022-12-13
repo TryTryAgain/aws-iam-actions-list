@@ -953,6 +953,7 @@ aws-marketplace:GetAgreementApprovalRequest
 aws-marketplace:GetAgreementRequest
 aws-marketplace:GetAgreementTerms
 aws-marketplace:GetEntitlements
+aws-marketplace:GetSellerDashboard
 aws-marketplace:ListAgreementApprovalRequests
 aws-marketplace:ListAgreementRequests
 aws-marketplace:ListBuilds
