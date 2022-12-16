@@ -7360,6 +7360,7 @@ kinesisvideo:CreateSignalingChannel
 kinesisvideo:CreateStream
 kinesisvideo:DeleteSignalingChannel
 kinesisvideo:DeleteStream
+kinesisvideo:DescribeEdgeConfiguration
 kinesisvideo:DescribeImageGenerationConfiguration
 kinesisvideo:DescribeNotificationConfiguration
 kinesisvideo:DescribeSignalingChannel
@@ -7380,6 +7381,7 @@ kinesisvideo:ListTagsForResource
 kinesisvideo:ListTagsForStream
 kinesisvideo:PutMedia
 kinesisvideo:SendAlexaOfferToMaster
+kinesisvideo:StartEdgeConfigurationUpdate
 kinesisvideo:TagResource
 kinesisvideo:TagStream
 kinesisvideo:UntagResource
