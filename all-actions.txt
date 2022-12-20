@@ -2762,6 +2762,7 @@ connect:CreateIntegrationAssociation
 connect:CreateQueue
 connect:CreateQuickConnect
 connect:CreateRoutingProfile
+connect:CreateRule
 connect:CreateSecurityProfile
 connect:CreateTaskTemplate
 connect:CreateTrafficDistributionGroup
@@ -2775,6 +2776,7 @@ connect:DeleteHoursOfOperation
 connect:DeleteInstance
 connect:DeleteIntegrationAssociation
 connect:DeleteQuickConnect
+connect:DeleteRule
 connect:DeleteSecurityProfile
 connect:DeleteTaskTemplate
 connect:DeleteTrafficDistributionGroup
@@ -2795,6 +2797,7 @@ connect:DescribePhoneNumber
 connect:DescribeQueue
 connect:DescribeQuickConnect
 connect:DescribeRoutingProfile
+connect:DescribeRule
 connect:DescribeSecurityProfile
 connect:DescribeTrafficDistributionGroup
 connect:DescribeUser
@@ -2843,6 +2846,7 @@ connect:ListQuickConnects
 connect:ListRealtimeContactAnalysisSegments
 connect:ListRoutingProfileQueues
 connect:ListRoutingProfiles
+connect:ListRule
 connect:ListSecurityKeys
 connect:ListSecurityProfilePermissions
 connect:ListSecurityProfiles
@@ -2901,6 +2905,7 @@ connect:UpdateRoutingProfileConcurrency
 connect:UpdateRoutingProfileDefaultOutboundQueue
 connect:UpdateRoutingProfileName
 connect:UpdateRoutingProfileQueues
+connect:UpdateRule
 connect:UpdateSecurityProfile
 connect:UpdateTaskTemplate
 connect:UpdateTrafficDistribution
