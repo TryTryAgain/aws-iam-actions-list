@@ -7680,6 +7680,10 @@ lex:UpdateIntent
 lex:UpdateResourcePolicy
 lex:UpdateSlot
 lex:UpdateSlotType
+license-manager-linux-subscriptions:GetServiceSettings
+license-manager-linux-subscriptions:ListLinuxSubscriptionInstances
+license-manager-linux-subscriptions:ListLinuxSubscriptions
+license-manager-linux-subscriptions:UpdateServiceSettings
 license-manager-user-subscriptions:AssociateUser
 license-manager-user-subscriptions:DeregisterIdentityProvider
 license-manager-user-subscriptions:DisassociateUser
@@ -9017,6 +9021,7 @@ nimble:GetLaunchProfileInitialization
 nimble:GetLaunchProfileMember
 nimble:GetStreamingImage
 nimble:GetStreamingSession
+nimble:GetStreamingSessionBackup
 nimble:GetStreamingSessionStream
 nimble:GetStudio
 nimble:GetStudioComponent
@@ -9026,6 +9031,7 @@ nimble:ListEulas
 nimble:ListLaunchProfileMembers
 nimble:ListLaunchProfiles
 nimble:ListStreamingImages
+nimble:ListStreamingSessionBackups
 nimble:ListStreamingSessions
 nimble:ListStudioComponents
 nimble:ListStudioMembers
@@ -10558,6 +10564,7 @@ route53:UpdateHostedZoneComment
 route53:UpdateTrafficPolicyComment
 route53:UpdateTrafficPolicyInstance
 route53domains:AcceptDomainTransferFromAnotherAwsAccount
+route53domains:AssociateDelegationSignerToDomain
 route53domains:CancelDomainTransferToAnotherAwsAccount
 route53domains:CheckDomainAvailability
 route53domains:CheckDomainTransferability
@@ -10565,6 +10572,7 @@ route53domains:DeleteDomain
 route53domains:DeleteTagsForDomain
 route53domains:DisableDomainAutoRenew
 route53domains:DisableDomainTransferLock
+route53domains:DisassociateDelegationSignerFromDomain
 route53domains:EnableDomainAutoRenew
 route53domains:EnableDomainTransferLock
 route53domains:GetContactReachabilityStatus
@@ -10575,10 +10583,12 @@ route53domains:ListDomains
 route53domains:ListOperations
 route53domains:ListPrices
 route53domains:ListTagsForDomain
+route53domains:PushDomain
 route53domains:RegisterDomain
 route53domains:RejectDomainTransferFromAnotherAwsAccount
 route53domains:RenewDomain
 route53domains:ResendContactReachabilityEmail
+route53domains:ResendOperationAuthorization
 route53domains:RetrieveDomainAuthCode
 route53domains:TransferDomain
 route53domains:TransferDomainToAnotherAwsAccount
