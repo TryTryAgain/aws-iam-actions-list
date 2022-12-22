@@ -12389,6 +12389,7 @@ sso:ListProfileAssociations
 sso:ListProfiles
 sso:ListTagsForResource
 sso:ProvisionPermissionSet
+sso:PutApplicationAssignmentConfiguration
 sso:PutInlinePolicyToPermissionSet
 sso:PutMfaDeviceManagementForDirectory
 sso:PutPermissionsBoundaryToPermissionSet
