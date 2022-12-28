@@ -8502,6 +8502,8 @@ memorydb:DescribeEngineVersions
 memorydb:DescribeEvents
 memorydb:DescribeParameterGroups
 memorydb:DescribeParameters
+memorydb:DescribeReservedNodes
+memorydb:DescribeReservedNodesOfferings
 memorydb:DescribeServiceUpdates
 memorydb:DescribeSnapshots
 memorydb:DescribeSubnetGroups
@@ -8509,6 +8511,7 @@ memorydb:DescribeUsers
 memorydb:FailoverShard
 memorydb:ListAllowedNodeTypeUpdates
 memorydb:ListTags
+memorydb:PurchaseReservedNodesOffering
 memorydb:ResetParameterGroup
 memorydb:TagResource
 memorydb:UntagResource
