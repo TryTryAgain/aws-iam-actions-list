@@ -2907,6 +2907,7 @@ connect:UpdateContactSchedule
 connect:UpdateHoursOfOperation
 connect:UpdateInstanceAttribute
 connect:UpdateInstanceStorageConfig
+connect:UpdateParticipantRoleConfig
 connect:UpdatePhoneNumber
 connect:UpdateQueueHoursOfOperation
 connect:UpdateQueueMaxContacts
