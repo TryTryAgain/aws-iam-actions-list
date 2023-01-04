@@ -4921,6 +4921,7 @@ es:AcceptInboundConnection
 es:AcceptInboundCrossClusterSearchConnection
 es:AddTags
 es:AssociatePackage
+es:AuthorizeVpcEndpointAccess
 es:CancelElasticsearchServiceSoftwareUpdate
 es:CancelServiceSoftwareUpdate
 es:CreateDomain
@@ -4930,6 +4931,7 @@ es:CreateOutboundConnection
 es:CreateOutboundCrossClusterSearchConnection
 es:CreatePackage
 es:CreateServiceRole
+es:CreateVpcEndpoint
 es:DeleteDomain
 es:DeleteElasticsearchDomain
 es:DeleteElasticsearchServiceRole
@@ -4938,6 +4940,7 @@ es:DeleteInboundCrossClusterSearchConnection
 es:DeleteOutboundConnection
 es:DeleteOutboundCrossClusterSearchConnection
 es:DeletePackage
+es:DeleteVpcEndpoint
 es:DescribeDomain
 es:DescribeDomainAutoTunes
 es:DescribeDomainChangeProgress
@@ -4957,6 +4960,7 @@ es:DescribeReservedElasticsearchInstanceOfferings
 es:DescribeReservedElasticsearchInstances
 es:DescribeReservedInstanceOfferings
 es:DescribeReservedInstances
+es:DescribeVpcEndpoints
 es:DissociatePackage
 es:ESCrossClusterGet
 es:ESHttpDelete
@@ -4979,16 +4983,21 @@ es:ListInstanceTypeDetails
 es:ListPackagesForDomain
 es:ListTags
 es:ListVersions
+es:ListVpcEndpointAccess
+es:ListVpcEndpoints
+es:ListVpcEndpointsForDomain
 es:PurchaseReservedElasticsearchInstanceOffering
 es:PurchaseReservedInstanceOffering
 es:RejectInboundConnection
 es:RejectInboundCrossClusterSearchConnection
 es:RemoveTags
+es:RevokeVpcEndpointAccess
 es:StartElasticsearchServiceSoftwareUpdate
 es:StartServiceSoftwareUpdate
 es:UpdateDomainConfig
 es:UpdateElasticsearchDomainConfig
 es:UpdatePackage
+es:UpdateVpcEndpoint
 es:UpgradeDomain
 es:UpgradeElasticsearchDomain
 events:ActivateEventSource
