@@ -2948,6 +2948,8 @@ connect:UpdateUserPhoneConfig
 connect:UpdateUserRoutingProfile
 connect:UpdateUserSecurityProfiles
 connect:UpdatedescribeContent
+consolidatedbilling:GetAccountBillingRole
+consolidatedbilling:ListLinkedAccounts
 controltower:CreateManagedAccount
 controltower:DeregisterManagedAccount
 controltower:DeregisterOrganizationalUnit
@@ -5364,9 +5366,9 @@ freertos:ListHardwarePlatforms
 freertos:ListHardwareVendors
 freertos:ListSoftwareConfigurations
 freertos:UpdateSoftwareConfiguration
-freetierservice:GetFreeTierAlertPreference
-freetierservice:GetFreeTierUsage
-freetierservice:PutFreeTierAlertPreference
+freetier:GetFreeTierAlertPreference
+freetier:GetFreeTierUsage
+freetier:PutFreeTierAlertPreference
 fsx:AssociateFileGateway
 fsx:AssociateFileSystemAliases
 fsx:CancelDataRepositoryTask
