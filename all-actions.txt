@@ -7250,6 +7250,15 @@ kafkaconnect:ListConnectors
 kafkaconnect:ListCustomPlugins
 kafkaconnect:ListWorkerConfigurations
 kafkaconnect:UpdateConnector
+kendra-ranking:CreateRescoreExecutionPlan
+kendra-ranking:DeleteRescoreExecutionPlan
+kendra-ranking:DescribeRescoreExecutionPlan
+kendra-ranking:ListRescoreExecutionPlans
+kendra-ranking:ListTagsForResource
+kendra-ranking:Rescore
+kendra-ranking:TagResource
+kendra-ranking:UntagResource
+kendra-ranking:UpdateRescoreExecutionPlan
 kendra:AssociateEntitiesToExperience
 kendra:AssociatePersonasToEntities
 kendra:BatchDeleteDocument
