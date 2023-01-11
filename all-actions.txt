@@ -3598,6 +3598,7 @@ dms:UpdateConversionConfiguration
 dms:UpdateDataProvider
 dms:UpdateInstanceProfile
 dms:UpdateMigrationProject
+dms:UpdateSubscriptionsToEventBridge
 dms:UploadFileMetadataList
 docdb-elastic:CreateCluster
 docdb-elastic:CreateClusterSnapshot
