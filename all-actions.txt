@@ -5025,6 +5025,7 @@ es:DescribeDomainAutoTunes
 es:DescribeDomainChangeProgress
 es:DescribeDomainConfig
 es:DescribeDomains
+es:DescribeDryRunProgress
 es:DescribeElasticsearchDomain
 es:DescribeElasticsearchDomainConfig
 es:DescribeElasticsearchDomains
