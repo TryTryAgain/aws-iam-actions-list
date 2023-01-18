@@ -12070,6 +12070,7 @@ sns:UntagResource
 sns:VerifySMSSandboxPhoneNumber
 sqlworkbench:AssociateConnectionWithChart
 sqlworkbench:AssociateConnectionWithTab
+sqlworkbench:AssociateNotebookWithTab
 sqlworkbench:AssociateQueryWithTab
 sqlworkbench:BatchDeleteFolder
 sqlworkbench:BatchGetNotebookCell
