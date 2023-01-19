@@ -10462,6 +10462,7 @@ resource-explorer:ListResources
 resource-explorer:ListTags
 resource-groups:CreateGroup
 resource-groups:DeleteGroup
+resource-groups:GetAccountSettings
 resource-groups:GetGroup
 resource-groups:GetGroupConfiguration
 resource-groups:GetGroupQuery
@@ -10475,6 +10476,7 @@ resource-groups:SearchResources
 resource-groups:Tag
 resource-groups:UngroupResources
 resource-groups:Untag
+resource-groups:UpdateAccountSettings
 resource-groups:UpdateGroup
 resource-groups:UpdateGroupQuery
 rhelkb:GetRhelURL
