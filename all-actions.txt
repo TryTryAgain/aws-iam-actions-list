@@ -965,6 +965,7 @@ aws-marketplace:ListBuilds
 aws-marketplace:ListChangeSets
 aws-marketplace:ListEntities
 aws-marketplace:ListEntitlementDetails
+aws-marketplace:ListPrivateListings
 aws-marketplace:ListPrivateMarketplaceRequests
 aws-marketplace:ListTagsForResource
 aws-marketplace:ListTasks
