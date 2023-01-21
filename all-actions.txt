@@ -1452,6 +1452,7 @@ chime:GetProxySession
 chime:GetRetentionSettings
 chime:GetRoom
 chime:GetSipMediaApplication
+chime:GetSipMediaApplicationAlexaSkillConfiguration
 chime:GetSipMediaApplicationLoggingConfiguration
 chime:GetSipRule
 chime:GetTelephonyLimits
@@ -1480,6 +1481,7 @@ chime:ListAppInstanceUsers
 chime:ListAppInstances
 chime:ListAttendeeTags
 chime:ListAttendees
+chime:ListAvailableVoiceConnectorRegions
 chime:ListBots
 chime:ListCDRBucket
 chime:ListCallingRegions
@@ -1522,6 +1524,7 @@ chime:PutAppInstanceStreamingConfigurations
 chime:PutChannelMembershipPreferences
 chime:PutEventsConfiguration
 chime:PutRetentionSettings
+chime:PutSipMediaApplicationAlexaSkillConfiguration
 chime:PutSipMediaApplicationLoggingConfiguration
 chime:PutVoiceConnectorEmergencyCallingConfiguration
 chime:PutVoiceConnectorLoggingConfiguration
@@ -1586,6 +1589,7 @@ chime:UpdateUserSettings
 chime:UpdateVoiceConnector
 chime:UpdateVoiceConnectorGroup
 chime:ValidateAccountResource
+chime:ValidateE911Address
 cleanrooms:BatchGetSchema
 cleanrooms:CreateCollaboration
 cleanrooms:CreateConfiguredTable
