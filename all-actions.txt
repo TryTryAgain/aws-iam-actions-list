@@ -4608,6 +4608,7 @@ eks:DeleteFargateProfile
 eks:DeleteNodegroup
 eks:DeregisterCluster
 eks:DescribeAddon
+eks:DescribeAddonConfiguration
 eks:DescribeAddonVersions
 eks:DescribeCluster
 eks:DescribeFargateProfile
@@ -9502,6 +9503,7 @@ personalize:CreateDatasetGroup
 personalize:CreateDatasetImportJob
 personalize:CreateEventTracker
 personalize:CreateFilter
+personalize:CreateMetricAttribution
 personalize:CreateRecommender
 personalize:CreateSchema
 personalize:CreateSolution
@@ -9511,6 +9513,7 @@ personalize:DeleteDataset
 personalize:DeleteDatasetGroup
 personalize:DeleteEventTracker
 personalize:DeleteFilter
+personalize:DeleteMetricAttribution
 personalize:DeleteRecommender
 personalize:DeleteSchema
 personalize:DeleteSolution
@@ -9525,6 +9528,7 @@ personalize:DescribeDatasetImportJob
 personalize:DescribeEventTracker
 personalize:DescribeFeatureTransformation
 personalize:DescribeFilter
+personalize:DescribeMetricAttribution
 personalize:DescribeRecipe
 personalize:DescribeRecommender
 personalize:DescribeSchema
@@ -9542,6 +9546,8 @@ personalize:ListDatasetImportJobs
 personalize:ListDatasets
 personalize:ListEventTrackers
 personalize:ListFilters
+personalize:ListMetricAttributionMetrics
+personalize:ListMetricAttributions
 personalize:ListRecipes
 personalize:ListRecommenders
 personalize:ListSchemas
@@ -9557,6 +9563,7 @@ personalize:StopSolutionVersionCreation
 personalize:TagResource
 personalize:UntagResource
 personalize:UpdateCampaign
+personalize:UpdateMetricAttribution
 personalize:UpdateRecommender
 pi:DescribeDimensionKeys
 pi:GetDimensionKeyDetails
