@@ -5938,10 +5938,12 @@ glue:UpdateDataQualityRuleset
 glue:UpdateDatabase
 glue:UpdateDevEndpoint
 glue:UpdateJob
+glue:UpdateJobFromSourceControl
 glue:UpdateMLTransform
 glue:UpdatePartition
 glue:UpdateRegistry
 glue:UpdateSchema
+glue:UpdateSourceControlFromJob
 glue:UpdateTable
 glue:UpdateTrigger
 glue:UpdateUserDefinedFunction
