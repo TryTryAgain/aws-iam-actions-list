@@ -3826,6 +3826,7 @@ dynamodb:DeleteTableReplica
 dynamodb:DescribeBackup
 dynamodb:DescribeContinuousBackups
 dynamodb:DescribeContributorInsights
+dynamodb:DescribeEndpoints
 dynamodb:DescribeExport
 dynamodb:DescribeGlobalTable
 dynamodb:DescribeGlobalTableSettings
@@ -3871,6 +3872,7 @@ dynamodb:UpdateContinuousBackups
 dynamodb:UpdateContributorInsights
 dynamodb:UpdateGlobalTable
 dynamodb:UpdateGlobalTableSettings
+dynamodb:UpdateGlobalTableVersion
 dynamodb:UpdateItem
 dynamodb:UpdateTable
 dynamodb:UpdateTableReplicaAutoScaling
