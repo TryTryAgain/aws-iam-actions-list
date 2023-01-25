@@ -7075,7 +7075,9 @@ iotsitewise:GetAssetPropertyValue
 iotsitewise:GetAssetPropertyValueHistory
 iotsitewise:GetInterpolatedAssetPropertyValues
 iotsitewise:ListAccessPolicies
+iotsitewise:ListAssetModelProperties
 iotsitewise:ListAssetModels
+iotsitewise:ListAssetProperties
 iotsitewise:ListAssetRelationships
 iotsitewise:ListAssets
 iotsitewise:ListAssociatedAssets
@@ -7642,6 +7644,7 @@ lambda:GetLayerVersion
 lambda:GetLayerVersionPolicy
 lambda:GetPolicy
 lambda:GetProvisionedConcurrencyConfig
+lambda:GetRuntimeManagementConfig
 lambda:InvokeAsync
 lambda:InvokeFunction
 lambda:InvokeFunctionUrl
@@ -7663,6 +7666,7 @@ lambda:PutFunctionCodeSigningConfig
 lambda:PutFunctionConcurrency
 lambda:PutFunctionEventInvokeConfig
 lambda:PutProvisionedConcurrencyConfig
+lambda:PutRuntimeManagementConfig
 lambda:RemoveLayerVersionPermission
 lambda:RemovePermission
 lambda:TagResource
@@ -9358,6 +9362,7 @@ organizations:DeclineHandshake
 organizations:DeleteOrganization
 organizations:DeleteOrganizationalUnit
 organizations:DeletePolicy
+organizations:DeleteResourcePolicy
 organizations:DeregisterDelegatedAdministrator
 organizations:DescribeAccount
 organizations:DescribeCreateAccountStatus
@@ -9366,6 +9371,7 @@ organizations:DescribeHandshake
 organizations:DescribeOrganization
 organizations:DescribeOrganizationalUnit
 organizations:DescribePolicy
+organizations:DescribeResourcePolicy
 organizations:DetachPolicy
 organizations:DisableAWSServiceAccess
 organizations:DisablePolicyType
@@ -9391,6 +9397,7 @@ organizations:ListRoots
 organizations:ListTagsForResource
 organizations:ListTargetsForPolicy
 organizations:MoveAccount
+organizations:PutResourcePolicy
 organizations:RegisterDelegatedAdministrator
 organizations:RemoveAccountFromOrganization
 organizations:TagResource
