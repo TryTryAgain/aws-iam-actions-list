@@ -1984,10 +1984,13 @@ cloudshell:StartEnvironment
 cloudshell:StopEnvironment
 cloudtrail:AddTags
 cloudtrail:CancelQuery
+cloudtrail:CreateChannel
 cloudtrail:CreateEventDataStore
 cloudtrail:CreateServiceLinkedChannel
 cloudtrail:CreateTrail
+cloudtrail:DeleteChannel
 cloudtrail:DeleteEventDataStore
+cloudtrail:DeleteResourcePolicy
 cloudtrail:DeleteServiceLinkedChannel
 cloudtrail:DeleteTrail
 cloudtrail:DeregisterOrganizationDelegatedAdmin
@@ -1999,6 +2002,7 @@ cloudtrail:GetEventSelectors
 cloudtrail:GetImport
 cloudtrail:GetInsightSelectors
 cloudtrail:GetQueryResults
+cloudtrail:GetResourcePolicy
 cloudtrail:GetServiceLinkedChannel
 cloudtrail:GetTrail
 cloudtrail:GetTrailStatus
@@ -2014,6 +2018,7 @@ cloudtrail:ListTrails
 cloudtrail:LookupEvents
 cloudtrail:PutEventSelectors
 cloudtrail:PutInsightSelectors
+cloudtrail:PutResourcePolicy
 cloudtrail:RegisterOrganizationDelegatedAdmin
 cloudtrail:RemoveTags
 cloudtrail:RestoreEventDataStore
@@ -2022,6 +2027,7 @@ cloudtrail:StartLogging
 cloudtrail:StartQuery
 cloudtrail:StopImport
 cloudtrail:StopLogging
+cloudtrail:UpdateChannel
 cloudtrail:UpdateEventDataStore
 cloudtrail:UpdateServiceLinkedChannel
 cloudtrail:UpdateTrail
@@ -5968,6 +5974,7 @@ grafana:DeleteWorkspace
 grafana:DeleteWorkspaceApiKey
 grafana:DescribeWorkspace
 grafana:DescribeWorkspaceAuthentication
+grafana:DescribeWorkspaceConfiguration
 grafana:DisassociateLicense
 grafana:ListPermissions
 grafana:ListTagsForResource
@@ -5977,6 +5984,7 @@ grafana:UntagResource
 grafana:UpdatePermissions
 grafana:UpdateWorkspace
 grafana:UpdateWorkspaceAuthentication
+grafana:UpdateWorkspaceConfiguration
 greengrass:AssociateRoleToGroup
 greengrass:AssociateServiceRoleToAccount
 greengrass:BatchAssociateClientDeviceWithCoreDevice
