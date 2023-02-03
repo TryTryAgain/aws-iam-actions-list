@@ -1982,6 +1982,7 @@ cloudshell:GetFileUploadUrls
 cloudshell:PutCredentials
 cloudshell:StartEnvironment
 cloudshell:StopEnvironment
+cloudtrail-data:PutAuditEvents
 cloudtrail:AddTags
 cloudtrail:CancelQuery
 cloudtrail:CreateChannel
@@ -7507,6 +7508,8 @@ kinesisvideo:DeleteSignalingChannel
 kinesisvideo:DeleteStream
 kinesisvideo:DescribeEdgeConfiguration
 kinesisvideo:DescribeImageGenerationConfiguration
+kinesisvideo:DescribeMappedResourceConfiguration
+kinesisvideo:DescribeMediaStorageConfiguration
 kinesisvideo:DescribeNotificationConfiguration
 kinesisvideo:DescribeSignalingChannel
 kinesisvideo:DescribeStream
@@ -7519,6 +7522,7 @@ kinesisvideo:GetImages
 kinesisvideo:GetMedia
 kinesisvideo:GetMediaForFragmentList
 kinesisvideo:GetSignalingChannelEndpoint
+kinesisvideo:JoinStorageSession
 kinesisvideo:ListFragments
 kinesisvideo:ListSignalingChannels
 kinesisvideo:ListStreams
@@ -7533,6 +7537,7 @@ kinesisvideo:UntagResource
 kinesisvideo:UntagStream
 kinesisvideo:UpdateDataRetention
 kinesisvideo:UpdateImageGenerationConfiguration
+kinesisvideo:UpdateMediaStorageConfiguration
 kinesisvideo:UpdateNotificationConfiguration
 kinesisvideo:UpdateSignalingChannel
 kinesisvideo:UpdateStream
