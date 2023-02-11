@@ -924,6 +924,7 @@ autoscaling:PutScheduledUpdateGroupAction
 autoscaling:PutWarmPool
 autoscaling:RecordLifecycleActionHeartbeat
 autoscaling:ResumeProcesses
+autoscaling:RollbackInstanceRefresh
 autoscaling:SetDesiredCapacity
 autoscaling:SetInstanceHealth
 autoscaling:SetInstanceProtection
@@ -6980,6 +6981,8 @@ iotfleethub:TagResource
 iotfleethub:UntagResource
 iotfleethub:UpdateApplication
 iotfleetwise:AssociateVehicleFleet
+iotfleetwise:BatchCreateVehicle
+iotfleetwise:BatchUpdateVehicle
 iotfleetwise:CreateCampaign
 iotfleetwise:CreateDecoderManifest
 iotfleetwise:CreateFleet
