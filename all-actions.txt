@@ -6103,11 +6103,14 @@ greengrass:UpdateThingRuntimeConfiguration
 groundstation:CancelContact
 groundstation:CreateConfig
 groundstation:CreateDataflowEndpointGroup
+groundstation:CreateEphemeris
 groundstation:CreateMissionProfile
 groundstation:DeleteConfig
 groundstation:DeleteDataflowEndpointGroup
+groundstation:DeleteEphemeris
 groundstation:DeleteMissionProfile
 groundstation:DescribeContact
+groundstation:DescribeEphemeris
 groundstation:GetConfig
 groundstation:GetDataflowEndpointGroup
 groundstation:GetMinuteUsage
@@ -6116,6 +6119,7 @@ groundstation:GetSatellite
 groundstation:ListConfigs
 groundstation:ListContacts
 groundstation:ListDataflowEndpointGroups
+groundstation:ListEphemerides
 groundstation:ListGroundStations
 groundstation:ListMissionProfiles
 groundstation:ListSatellites
@@ -6124,6 +6128,7 @@ groundstation:ReserveContact
 groundstation:TagResource
 groundstation:UntagResource
 groundstation:UpdateConfig
+groundstation:UpdateEphemeris
 groundstation:UpdateMissionProfile
 groundtruthlabeling:AssociatePatchToManifestJob
 groundtruthlabeling:DescribeConsoleJob
@@ -8644,6 +8649,7 @@ mediastore:StartAccessLogging
 mediastore:StopAccessLogging
 mediastore:TagResource
 mediastore:UntagResource
+mediatailor:ConfigureLogsForChannel
 mediatailor:ConfigureLogsForPlaybackConfiguration
 mediatailor:CreateChannel
 mediatailor:CreateLiveSource
@@ -8684,6 +8690,7 @@ mediatailor:TagResource
 mediatailor:UntagResource
 mediatailor:UpdateChannel
 mediatailor:UpdateLiveSource
+mediatailor:UpdateProgram
 mediatailor:UpdateSourceLocation
 mediatailor:UpdateVodSource
 memorydb:BatchUpdateCluster
