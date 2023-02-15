@@ -3923,6 +3923,7 @@ ec2:AssociateDhcpOptions
 ec2:AssociateEnclaveCertificateIamRole
 ec2:AssociateIamInstanceProfile
 ec2:AssociateInstanceEventWindow
+ec2:AssociateIpamResourceDiscovery
 ec2:AssociateRouteTable
 ec2:AssociateSubnetCidrBlock
 ec2:AssociateTransitGatewayMulticastDomain
@@ -3976,6 +3977,7 @@ ec2:CreateInstanceExportTask
 ec2:CreateInternetGateway
 ec2:CreateIpam
 ec2:CreateIpamPool
+ec2:CreateIpamResourceDiscovery
 ec2:CreateIpamScope
 ec2:CreateKeyPair
 ec2:CreateLaunchTemplate
@@ -4052,6 +4054,7 @@ ec2:DeleteInstanceEventWindow
 ec2:DeleteInternetGateway
 ec2:DeleteIpam
 ec2:DeleteIpamPool
+ec2:DeleteIpamResourceDiscovery
 ec2:DeleteIpamScope
 ec2:DeleteKeyPair
 ec2:DeleteLaunchTemplate
@@ -4172,6 +4175,8 @@ ec2:DescribeInstanceTypes
 ec2:DescribeInstances
 ec2:DescribeInternetGateways
 ec2:DescribeIpamPools
+ec2:DescribeIpamResourceDiscoveries
+ec2:DescribeIpamResourceDiscoveryAssociations
 ec2:DescribeIpamScopes
 ec2:DescribeIpams
 ec2:DescribeIpv6Pools
@@ -4284,6 +4289,7 @@ ec2:DisassociateClientVpnTargetNetwork
 ec2:DisassociateEnclaveCertificateIamRole
 ec2:DisassociateIamInstanceProfile
 ec2:DisassociateInstanceEventWindow
+ec2:DisassociateIpamResourceDiscovery
 ec2:DisassociateRouteTable
 ec2:DisassociateSubnetCidrBlock
 ec2:DisassociateTransitGatewayMulticastDomain
@@ -4325,6 +4331,8 @@ ec2:GetHostReservationPurchasePreview
 ec2:GetInstanceTypesFromInstanceRequirements
 ec2:GetInstanceUefiData
 ec2:GetIpamAddressHistory
+ec2:GetIpamDiscoveredAccounts
+ec2:GetIpamDiscoveredResourceCidrs
 ec2:GetIpamPoolAllocations
 ec2:GetIpamPoolCidrs
 ec2:GetIpamResourceCidrs
@@ -4382,6 +4390,7 @@ ec2:ModifyInstancePlacement
 ec2:ModifyIpam
 ec2:ModifyIpamPool
 ec2:ModifyIpamResourceCidr
+ec2:ModifyIpamResourceDiscovery
 ec2:ModifyIpamScope
 ec2:ModifyLaunchTemplate
 ec2:ModifyLocalGatewayRoute
@@ -4424,6 +4433,7 @@ ec2:ModifyVpnTunnelOptions
 ec2:MonitorInstances
 ec2:MoveAddressToVpc
 ec2:MoveByoipCidrToIpam
+ec2:PauseVolumeIO
 ec2:ProvisionByoipCidr
 ec2:ProvisionIpamPoolCidr
 ec2:ProvisionPublicIpv4PoolCidr
