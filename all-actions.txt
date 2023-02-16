@@ -2945,7 +2945,7 @@ connect:ListQuickConnects
 connect:ListRealtimeContactAnalysisSegments
 connect:ListRoutingProfileQueues
 connect:ListRoutingProfiles
-connect:ListRule
+connect:ListRules
 connect:ListSecurityKeys
 connect:ListSecurityProfilePermissions
 connect:ListSecurityProfiles
