@@ -5379,6 +5379,7 @@ frauddetector:CancelBatchPredictionJob
 frauddetector:CreateBatchImportJob
 frauddetector:CreateBatchPredictionJob
 frauddetector:CreateDetectorVersion
+frauddetector:CreateList
 frauddetector:CreateModel
 frauddetector:CreateModelVersion
 frauddetector:CreateRule
@@ -5393,6 +5394,7 @@ frauddetector:DeleteEventType
 frauddetector:DeleteEventsByEventType
 frauddetector:DeleteExternalModel
 frauddetector:DeleteLabel
+frauddetector:DeleteList
 frauddetector:DeleteModel
 frauddetector:DeleteModelVersion
 frauddetector:DeleteOutcome
@@ -5413,6 +5415,8 @@ frauddetector:GetEventTypes
 frauddetector:GetExternalModels
 frauddetector:GetKMSEncryptionKey
 frauddetector:GetLabels
+frauddetector:GetListElements
+frauddetector:GetListsMetadata
 frauddetector:GetModelVersion
 frauddetector:GetModels
 frauddetector:GetOutcomes
@@ -5434,6 +5438,7 @@ frauddetector:UpdateDetectorVersion
 frauddetector:UpdateDetectorVersionMetadata
 frauddetector:UpdateDetectorVersionStatus
 frauddetector:UpdateEventLabel
+frauddetector:UpdateList
 frauddetector:UpdateModel
 frauddetector:UpdateModelVersion
 frauddetector:UpdateModelVersionStatus
