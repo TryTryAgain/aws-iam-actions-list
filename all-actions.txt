@@ -5218,6 +5218,7 @@ evidently:UpdateProjectDataDelivery
 execute-api:InvalidateCache
 execute-api:Invoke
 execute-api:ManageConnections
+finspace-api:GetProgrammaticAccessCredentials
 finspace:CreateEnvironment
 finspace:CreateUser
 finspace:DeleteEnvironment
