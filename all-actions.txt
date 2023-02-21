@@ -11544,6 +11544,16 @@ schemas:UntagResource
 schemas:UpdateDiscoverer
 schemas:UpdateRegistry
 schemas:UpdateSchema
+scn:AssignAdminPermissionsToUser
+scn:CreateInstance
+scn:CreateSSOApplication
+scn:DeleteInstance
+scn:DeleteSSOApplication
+scn:DescribeInstance
+scn:ListAdminUsers
+scn:ListInstances
+scn:RemoveAdminPermissionsForUser
+scn:UpdateInstance
 sdb:BatchDeleteAttributes
 sdb:BatchPutAttributes
 sdb:CreateDomain
