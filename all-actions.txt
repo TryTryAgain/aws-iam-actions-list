@@ -874,6 +874,7 @@ autoscaling-plans:UpdateScalingPlan
 autoscaling:AttachInstances
 autoscaling:AttachLoadBalancerTargetGroups
 autoscaling:AttachLoadBalancers
+autoscaling:AttachTrafficSources
 autoscaling:BatchDeleteScheduledAction
 autoscaling:BatchPutScheduledUpdateGroupAction
 autoscaling:CancelInstanceRefresh
@@ -908,10 +909,12 @@ autoscaling:DescribeScalingProcessTypes
 autoscaling:DescribeScheduledActions
 autoscaling:DescribeTags
 autoscaling:DescribeTerminationPolicyTypes
+autoscaling:DescribeTrafficSources
 autoscaling:DescribeWarmPool
 autoscaling:DetachInstances
 autoscaling:DetachLoadBalancerTargetGroups
 autoscaling:DetachLoadBalancers
+autoscaling:DetachTrafficSources
 autoscaling:DisableMetricsCollection
 autoscaling:EnableMetricsCollection
 autoscaling:EnterStandby
@@ -9008,6 +9011,9 @@ mobiletargeting:GetJourney
 mobiletargeting:GetJourneyDateRangeKpi
 mobiletargeting:GetJourneyExecutionActivityMetrics
 mobiletargeting:GetJourneyExecutionMetrics
+mobiletargeting:GetJourneyRunExecutionActivityMetrics
+mobiletargeting:GetJourneyRunExecutionMetrics
+mobiletargeting:GetJourneyRuns
 mobiletargeting:GetPushTemplate
 mobiletargeting:GetRecommenderConfiguration
 mobiletargeting:GetRecommenderConfigurations
