@@ -4582,6 +4582,7 @@ ecs:DeleteAttributes
 ecs:DeleteCapacityProvider
 ecs:DeleteCluster
 ecs:DeleteService
+ecs:DeleteTaskDefinitions
 ecs:DeleteTaskSet
 ecs:DeregisterContainerInstance
 ecs:DeregisterTaskDefinition
