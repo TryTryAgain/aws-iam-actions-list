@@ -5660,16 +5660,19 @@ geo:BatchUpdateDevicePosition
 geo:CalculateRoute
 geo:CalculateRouteMatrix
 geo:CreateGeofenceCollection
+geo:CreateKey
 geo:CreateMap
 geo:CreatePlaceIndex
 geo:CreateRouteCalculator
 geo:CreateTracker
 geo:DeleteGeofenceCollection
+geo:DeleteKey
 geo:DeleteMap
 geo:DeletePlaceIndex
 geo:DeleteRouteCalculator
 geo:DeleteTracker
 geo:DescribeGeofenceCollection
+geo:DescribeKey
 geo:DescribeMap
 geo:DescribePlaceIndex
 geo:DescribeRouteCalculator
@@ -5686,6 +5689,7 @@ geo:GetPlace
 geo:ListDevicePositions
 geo:ListGeofenceCollections
 geo:ListGeofences
+geo:ListKeys
 geo:ListMaps
 geo:ListPlaceIndexes
 geo:ListRouteCalculators
@@ -5699,6 +5703,7 @@ geo:SearchPlaceIndexForText
 geo:TagResource
 geo:UntagResource
 geo:UpdateGeofenceCollection
+geo:UpdateKey
 geo:UpdateMap
 geo:UpdatePlaceIndex
 geo:UpdateRouteCalculator
