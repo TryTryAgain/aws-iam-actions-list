@@ -11361,6 +11361,7 @@ sagemaker:DescribeWorkteam
 sagemaker:DisableSagemakerServicecatalogPortfolio
 sagemaker:DisassociateTrialComponent
 sagemaker:EnableSagemakerServicecatalogPortfolio
+sagemaker:GetDeployments
 sagemaker:GetDeviceFleetReport
 sagemaker:GetDeviceRegistration
 sagemaker:GetLineageGroupPolicy
