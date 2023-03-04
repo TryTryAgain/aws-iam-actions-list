@@ -11621,6 +11621,7 @@ securityhub:AcceptAdministratorInvitation
 securityhub:AcceptInvitation
 securityhub:BatchDisableStandards
 securityhub:BatchEnableStandards
+securityhub:BatchGetSecurityControls
 securityhub:BatchGetStandardsControlAssociations
 securityhub:BatchImportFindings
 securityhub:BatchUpdateFindings
@@ -11673,6 +11674,7 @@ securityhub:ListInvitations
 securityhub:ListMembers
 securityhub:ListOrganizationAdminAccounts
 securityhub:ListSecurityControlDefinitions
+securityhub:ListStandardsControlAssociations
 securityhub:ListTagsForResource
 securityhub:SendFindingEvents
 securityhub:SendInsightEvents
