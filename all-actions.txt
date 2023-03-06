@@ -3606,6 +3606,7 @@ dlm:UpdateLifecyclePolicy
 dms:AddTagsToResource
 dms:ApplyPendingMaintenanceAction
 dms:AssociateExtensionPack
+dms:BatchStartRecommendations
 dms:CancelMetadataModelAssessment
 dms:CancelMetadataModelConversion
 dms:CancelMetadataModelExport
@@ -3649,6 +3650,8 @@ dms:DescribeFleetAdvisorSchemaObjectSummary
 dms:DescribeFleetAdvisorSchemas
 dms:DescribeOrderableReplicationInstances
 dms:DescribePendingMaintenanceActions
+dms:DescribeRecommendationLimitations
+dms:DescribeRecommendations
 dms:DescribeRefreshSchemasStatus
 dms:DescribeReplicationInstanceTaskLogs
 dms:DescribeReplicationInstances
@@ -3690,6 +3693,7 @@ dms:StartMetadataModelConversion
 dms:StartMetadataModelExportAsScripts
 dms:StartMetadataModelExportToTarget
 dms:StartMetadataModelImport
+dms:StartRecommendations
 dms:StartReplicationTask
 dms:StartReplicationTaskAssessment
 dms:StartReplicationTaskAssessmentRun
