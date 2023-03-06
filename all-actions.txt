@@ -3949,6 +3949,7 @@ ec2:AllocateIpamPoolCidr
 ec2:ApplySecurityGroupsToClientVpnTargetNetwork
 ec2:AssignIpv6Addresses
 ec2:AssignPrivateIpAddresses
+ec2:AssignPrivateNatGatewayAddress
 ec2:AssociateAddress
 ec2:AssociateClientVpnTargetNetwork
 ec2:AssociateDhcpOptions
@@ -3956,6 +3957,7 @@ ec2:AssociateEnclaveCertificateIamRole
 ec2:AssociateIamInstanceProfile
 ec2:AssociateInstanceEventWindow
 ec2:AssociateIpamResourceDiscovery
+ec2:AssociateNatGatewayAddress
 ec2:AssociateRouteTable
 ec2:AssociateSubnetCidrBlock
 ec2:AssociateTransitGatewayMulticastDomain
@@ -4322,6 +4324,7 @@ ec2:DisassociateEnclaveCertificateIamRole
 ec2:DisassociateIamInstanceProfile
 ec2:DisassociateInstanceEventWindow
 ec2:DisassociateIpamResourceDiscovery
+ec2:DisassociateNatGatewayAddress
 ec2:DisassociateRouteTable
 ec2:DisassociateSubnetCidrBlock
 ec2:DisassociateTransitGatewayMulticastDomain
@@ -4526,6 +4529,7 @@ ec2:TerminateClientVpnConnections
 ec2:TerminateInstances
 ec2:UnassignIpv6Addresses
 ec2:UnassignPrivateIpAddresses
+ec2:UnassignPrivateNatGatewayAddress
 ec2:UnmonitorInstances
 ec2:UpdateSecurityGroupRuleDescriptionsEgress
 ec2:UpdateSecurityGroupRuleDescriptionsIngress
