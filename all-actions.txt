@@ -7742,6 +7742,7 @@ lakeformation:DescribeResource
 lakeformation:DescribeTransaction
 lakeformation:ExtendTransaction
 lakeformation:GetDataAccess
+lakeformation:GetDataCellsFilter
 lakeformation:GetDataLakeSettings
 lakeformation:GetEffectivePermissionsForPath
 lakeformation:GetLFTag
@@ -7766,6 +7767,7 @@ lakeformation:SearchDatabasesByLFTags
 lakeformation:SearchTablesByLFTags
 lakeformation:StartQueryPlanning
 lakeformation:StartTransaction
+lakeformation:UpdateDataCellsFilter
 lakeformation:UpdateLFTag
 lakeformation:UpdateResource
 lakeformation:UpdateTableObjects
