@@ -9159,6 +9159,7 @@ neptune-db:DeleteDataViaQuery
 neptune-db:DeleteMLEndpoint
 neptune-db:DeleteStatistics
 neptune-db:GetEngineStatus
+neptune-db:GetGraphSummary
 neptune-db:GetLoaderJobStatus
 neptune-db:GetMLDataProcessingJobStatus
 neptune-db:GetMLEndpointStatus
