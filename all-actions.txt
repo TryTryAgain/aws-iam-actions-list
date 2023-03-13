@@ -2943,6 +2943,7 @@ connect:GetCurrentUserData
 connect:GetFederationToken
 connect:GetFederationTokens
 connect:GetMetricData
+connect:GetMetricDataV2
 connect:GetTaskTemplate
 connect:GetTrafficDistribution
 connect:ListAgentStatuses
