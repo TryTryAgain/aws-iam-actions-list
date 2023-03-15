@@ -537,6 +537,7 @@ appmesh:UpdateVirtualNode
 appmesh:UpdateVirtualRouter
 appmesh:UpdateVirtualService
 apprunner:AssociateCustomDomain
+apprunner:AssociateWebAcl
 apprunner:CreateAutoScalingConfiguration
 apprunner:CreateConnection
 apprunner:CreateObservabilityConfiguration
@@ -556,7 +557,10 @@ apprunner:DescribeOperation
 apprunner:DescribeService
 apprunner:DescribeVpcConnector
 apprunner:DescribeVpcIngressConnection
+apprunner:DescribeWebAclForService
 apprunner:DisassociateCustomDomain
+apprunner:DisassociateWebAcl
+apprunner:ListAssociatedServicesForWebAcl
 apprunner:ListAutoScalingConfigurations
 apprunner:ListConnections
 apprunner:ListObservabilityConfigurations
