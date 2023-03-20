@@ -5000,6 +5000,7 @@ elasticmapreduce:RemoveManagedScalingPolicy
 elasticmapreduce:RemoveTags
 elasticmapreduce:RunJobFlow
 elasticmapreduce:SetTerminationProtection
+elasticmapreduce:SetVisibleToAllUsers
 elasticmapreduce:StartEditor
 elasticmapreduce:StartNotebookExecution
 elasticmapreduce:StopEditor
@@ -9800,6 +9801,7 @@ private-networks:ListNetworks
 private-networks:ListOrders
 private-networks:ListTagsForResource
 private-networks:Ping
+private-networks:StartNetworkResourceUpdate
 private-networks:TagResource
 private-networks:UntagResource
 private-networks:UpdateNetworkSite
@@ -12352,6 +12354,7 @@ sqlworkbench:GetNotebook
 sqlworkbench:GetNotebookVersion
 sqlworkbench:GetQueryExecutionHistory
 sqlworkbench:GetSavedQuery
+sqlworkbench:GetSchemaInference
 sqlworkbench:GetUserInfo
 sqlworkbench:GetUserWorkspaceSettings
 sqlworkbench:ImportNotebook
