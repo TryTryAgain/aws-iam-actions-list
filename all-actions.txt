@@ -5160,6 +5160,7 @@ es:ListElasticsearchInstanceTypes
 es:ListElasticsearchVersions
 es:ListInstanceTypeDetails
 es:ListPackagesForDomain
+es:ListScheduledActions
 es:ListTags
 es:ListVersions
 es:ListVpcEndpointAccess
@@ -5176,6 +5177,7 @@ es:StartServiceSoftwareUpdate
 es:UpdateDomainConfig
 es:UpdateElasticsearchDomainConfig
 es:UpdatePackage
+es:UpdateScheduledAction
 es:UpdateVpcEndpoint
 es:UpgradeDomain
 es:UpgradeElasticsearchDomain
