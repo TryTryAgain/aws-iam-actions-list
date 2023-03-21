@@ -1638,7 +1638,10 @@ cleanrooms:ListMembers
 cleanrooms:ListMemberships
 cleanrooms:ListProtectedQueries
 cleanrooms:ListSchemas
+cleanrooms:ListTagsForResource
 cleanrooms:StartProtectedQuery
+cleanrooms:TagResource
+cleanrooms:UntagResource
 cleanrooms:UpdateCollaboration
 cleanrooms:UpdateConfiguredTable
 cleanrooms:UpdateConfiguredTableAnalysisRule
