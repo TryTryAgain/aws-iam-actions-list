@@ -5934,6 +5934,7 @@ glue:GetCrawlerMetrics
 glue:GetCrawlers
 glue:GetCustomEntityType
 glue:GetDataCatalogEncryptionSettings
+glue:GetDataPreviewStatement
 glue:GetDataQualityResult
 glue:GetDataQualityRuleRecommendationRun
 glue:GetDataQualityRuleset
@@ -6014,6 +6015,7 @@ glue:RegisterSchemaVersion
 glue:RemoveSchemaVersionMetadata
 glue:ResetJobBookmark
 glue:ResumeWorkflowRun
+glue:RunDataPreviewStatement
 glue:RunStatement
 glue:SearchTables
 glue:StartBlueprintRun
