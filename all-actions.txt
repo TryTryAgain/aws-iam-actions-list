@@ -7428,15 +7428,20 @@ iq:WriteReview
 ivs:BatchGetChannel
 ivs:BatchGetStreamKey
 ivs:CreateChannel
+ivs:CreateParticipantToken
 ivs:CreateRecordingConfiguration
+ivs:CreateStage
 ivs:CreateStreamKey
 ivs:DeleteChannel
 ivs:DeletePlaybackKeyPair
 ivs:DeleteRecordingConfiguration
+ivs:DeleteStage
 ivs:DeleteStreamKey
+ivs:DisconnectParticipant
 ivs:GetChannel
 ivs:GetPlaybackKeyPair
 ivs:GetRecordingConfiguration
+ivs:GetStage
 ivs:GetStream
 ivs:GetStreamKey
 ivs:GetStreamSession
@@ -7444,6 +7449,7 @@ ivs:ImportPlaybackKeyPair
 ivs:ListChannels
 ivs:ListPlaybackKeyPairs
 ivs:ListRecordingConfigurations
+ivs:ListStages
 ivs:ListStreamKeys
 ivs:ListStreamSessions
 ivs:ListStreams
@@ -7453,6 +7459,7 @@ ivs:StopStream
 ivs:TagResource
 ivs:UntagResource
 ivs:UpdateChannel
+ivs:UpdateStage
 ivschat:CreateChatToken
 ivschat:CreateLoggingConfiguration
 ivschat:CreateRoom
