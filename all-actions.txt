@@ -6236,6 +6236,7 @@ groundstation:DeleteEphemeris
 groundstation:DeleteMissionProfile
 groundstation:DescribeContact
 groundstation:DescribeEphemeris
+groundstation:GetAgentConfiguration
 groundstation:GetConfig
 groundstation:GetDataflowEndpointGroup
 groundstation:GetMinuteUsage
@@ -6249,9 +6250,11 @@ groundstation:ListGroundStations
 groundstation:ListMissionProfiles
 groundstation:ListSatellites
 groundstation:ListTagsForResource
+groundstation:RegisterAgent
 groundstation:ReserveContact
 groundstation:TagResource
 groundstation:UntagResource
+groundstation:UpdateAgentStatus
 groundstation:UpdateConfig
 groundstation:UpdateEphemeris
 groundstation:UpdateMissionProfile
