@@ -11312,6 +11312,7 @@ sagemaker:CreateApp
 sagemaker:CreateAppImageConfig
 sagemaker:CreateArtifact
 sagemaker:CreateAutoMLJob
+sagemaker:CreateAutoMLJobV2
 sagemaker:CreateCodeRepository
 sagemaker:CreateCompilationJob
 sagemaker:CreateContext
@@ -11416,6 +11417,7 @@ sagemaker:DescribeApp
 sagemaker:DescribeAppImageConfig
 sagemaker:DescribeArtifact
 sagemaker:DescribeAutoMLJob
+sagemaker:DescribeAutoMLJobV2
 sagemaker:DescribeCodeRepository
 sagemaker:DescribeCompilationJob
 sagemaker:DescribeContext
