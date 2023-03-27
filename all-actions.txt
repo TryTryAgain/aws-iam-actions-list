@@ -7323,6 +7323,7 @@ iotwireless:DeleteNetworkAnalyzerConfiguration
 iotwireless:DeleteQueuedMessages
 iotwireless:DeleteServiceProfile
 iotwireless:DeleteWirelessDevice
+iotwireless:DeleteWirelessDeviceImportTask
 iotwireless:DeleteWirelessGateway
 iotwireless:DeleteWirelessGatewayTask
 iotwireless:DeleteWirelessGatewayTaskDefinition
@@ -7351,6 +7352,7 @@ iotwireless:GetResourcePosition
 iotwireless:GetServiceEndpoint
 iotwireless:GetServiceProfile
 iotwireless:GetWirelessDevice
+iotwireless:GetWirelessDeviceImportTask
 iotwireless:GetWirelessDeviceStatistics
 iotwireless:GetWirelessGateway
 iotwireless:GetWirelessGatewayCertificate
@@ -7360,6 +7362,7 @@ iotwireless:GetWirelessGatewayTask
 iotwireless:GetWirelessGatewayTaskDefinition
 iotwireless:ListDestinations
 iotwireless:ListDeviceProfiles
+iotwireless:ListDevicesForWirelessDeviceImportTask
 iotwireless:ListEventConfigurations
 iotwireless:ListFuotaTasks
 iotwireless:ListMulticastGroups
@@ -7370,6 +7373,7 @@ iotwireless:ListPositionConfigurations
 iotwireless:ListQueuedMessages
 iotwireless:ListServiceProfiles
 iotwireless:ListTagsForResource
+iotwireless:ListWirelessDeviceImportTasks
 iotwireless:ListWirelessDevices
 iotwireless:ListWirelessGatewayTaskDefinitions
 iotwireless:ListWirelessGateways
@@ -7384,6 +7388,8 @@ iotwireless:StartBulkDisassociateWirelessDeviceFromMulticastGroup
 iotwireless:StartFuotaTask
 iotwireless:StartMulticastGroupSession
 iotwireless:StartNetworkAnalyzerStream
+iotwireless:StartSingleWirelessDeviceImportTask
+iotwireless:StartWirelessDeviceImportTask
 iotwireless:TagResource
 iotwireless:TestWirelessDevice
 iotwireless:UntagResource
@@ -7398,6 +7404,7 @@ iotwireless:UpdatePosition
 iotwireless:UpdateResourceEventConfiguration
 iotwireless:UpdateResourcePosition
 iotwireless:UpdateWirelessDevice
+iotwireless:UpdateWirelessDeviceImportTask
 iotwireless:UpdateWirelessGateway
 iq-permission:ApproveAccessGrant
 iq-permission:ApprovePermissionRequest
