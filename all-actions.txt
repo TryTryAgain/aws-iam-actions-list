@@ -451,6 +451,7 @@ applicationinsights:DescribeLogPattern
 applicationinsights:DescribeObservation
 applicationinsights:DescribeProblem
 applicationinsights:DescribeProblemObservations
+applicationinsights:Link
 applicationinsights:ListApplications
 applicationinsights:ListComponents
 applicationinsights:ListConfigurationHistory
@@ -6660,6 +6661,8 @@ imagebuilder:GetImagePolicy
 imagebuilder:GetImageRecipe
 imagebuilder:GetImageRecipePolicy
 imagebuilder:GetInfrastructureConfiguration
+imagebuilder:GetWorkflowExecution
+imagebuilder:GetWorkflowStepExecution
 imagebuilder:ImportComponent
 imagebuilder:ImportVmImage
 imagebuilder:ListComponentBuildVersions
@@ -6671,9 +6674,13 @@ imagebuilder:ListImagePackages
 imagebuilder:ListImagePipelineImages
 imagebuilder:ListImagePipelines
 imagebuilder:ListImageRecipes
+imagebuilder:ListImageScanFindingAggregations
+imagebuilder:ListImageScanFindings
 imagebuilder:ListImages
 imagebuilder:ListInfrastructureConfigurations
 imagebuilder:ListTagsForResource
+imagebuilder:ListWorkflowExecutions
+imagebuilder:ListWorkflowStepExecutions
 imagebuilder:PutComponentPolicy
 imagebuilder:PutContainerRecipePolicy
 imagebuilder:PutImagePolicy
@@ -12634,6 +12641,7 @@ ssm:DeleteParameter
 ssm:DeleteParameters
 ssm:DeletePatchBaseline
 ssm:DeleteResourceDataSync
+ssm:DeleteResourcePolicy
 ssm:DeregisterManagedInstance
 ssm:DeregisterPatchBaselineForPatchGroup
 ssm:DeregisterTargetFromMaintenanceWindow
@@ -12698,6 +12706,7 @@ ssm:GetParameters
 ssm:GetParametersByPath
 ssm:GetPatchBaseline
 ssm:GetPatchBaselineForPatchGroup
+ssm:GetResourcePolicies
 ssm:GetServiceSetting
 ssm:LabelParameterVersion
 ssm:ListAssociationVersions
@@ -12723,6 +12732,7 @@ ssm:PutComplianceItems
 ssm:PutConfigurePackageResult
 ssm:PutInventory
 ssm:PutParameter
+ssm:PutResourcePolicy
 ssm:RegisterDefaultPatchBaseline
 ssm:RegisterManagedInstance
 ssm:RegisterPatchBaselineForPatchGroup
@@ -12745,7 +12755,6 @@ ssm:UpdateAssociationStatus
 ssm:UpdateDocument
 ssm:UpdateDocumentDefaultVersion
 ssm:UpdateDocumentMetadata
-ssm:UpdateInstanceAssociationStatus
 ssm:UpdateInstanceInformation
 ssm:UpdateMaintenanceWindow
 ssm:UpdateMaintenanceWindowTarget
