@@ -7382,6 +7382,7 @@ iotwireless:DeleteWirelessDeviceImportTask
 iotwireless:DeleteWirelessGateway
 iotwireless:DeleteWirelessGatewayTask
 iotwireless:DeleteWirelessGatewayTaskDefinition
+iotwireless:DeregisterWirelessDevice
 iotwireless:DisassociateAwsAccountFromPartnerAccount
 iotwireless:DisassociateMulticastGroupFromFuotaTask
 iotwireless:DisassociateWirelessDeviceFromFuotaTask
@@ -13877,6 +13878,7 @@ workdocs:RegisterDirectory
 workdocs:RemoveAllResourcePermissions
 workdocs:RemoveResourcePermission
 workdocs:RestoreDocumentVersions
+workdocs:SearchResources
 workdocs:UpdateDocument
 workdocs:UpdateDocumentVersion
 workdocs:UpdateFolder
