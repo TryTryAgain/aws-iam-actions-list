@@ -2237,8 +2237,11 @@ codecatalyst:GetConnection
 codecatalyst:GetPendingConnection
 codecatalyst:ListConnections
 codecatalyst:ListIamRolesForConnection
+codecatalyst:ListTagsForResource
 codecatalyst:PutBillingAuthorization
 codecatalyst:RejectConnection
+codecatalyst:TagResource
+codecatalyst:UntagResource
 codecommit:AssociateApprovalRuleTemplateWithRepository
 codecommit:BatchAssociateApprovalRuleTemplateWithRepositories
 codecommit:BatchDescribeMergeConflicts
@@ -13063,8 +13066,6 @@ sts:GetServiceBearerToken
 sts:GetSessionToken
 sts:SetSourceIdentity
 sts:TagSession
-sumerian:Login
-sumerian:ViewRelease
 support:AddAttachmentsToSet
 support:AddCommunicationToCase
 support:CreateCase
