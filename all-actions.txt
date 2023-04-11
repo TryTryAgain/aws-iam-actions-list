@@ -997,9 +997,11 @@ aws-marketplace:UntagResource
 aws-marketplace:UpdateAgreementApprovalRequest
 aws-marketplace:UpdateTask
 aws-marketplace:ViewSubscriptions
+aws-portal:GetConsoleActionSetEnforced
 aws-portal:ModifyAccount
 aws-portal:ModifyBilling
 aws-portal:ModifyPaymentMethods
+aws-portal:UpdateConsoleActionSetEnforced
 aws-portal:ViewAccount
 aws-portal:ViewBilling
 aws-portal:ViewPaymentMethods
