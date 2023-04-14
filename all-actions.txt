@@ -12622,6 +12622,7 @@ ssm-contacts:ListContactChannels
 ssm-contacts:ListContacts
 ssm-contacts:ListEngagements
 ssm-contacts:ListPageReceipts
+ssm-contacts:ListPageResolutions
 ssm-contacts:ListPagesByContact
 ssm-contacts:ListPagesByEngagement
 ssm-contacts:ListPreviewRotationShifts
