@@ -2529,8 +2529,12 @@ codestar:UpdateTeamMember
 codestar:UpdateUserProfile
 codestar:VerifyServiceRole
 codewhisperer:CreateProfile
+codewhisperer:DeleteProfile
 codewhisperer:GenerateRecommendations
 codewhisperer:ListProfiles
+codewhisperer:ListTagsForResource
+codewhisperer:TagResource
+codewhisperer:UntagResource
 codewhisperer:UpdateProfile
 cognito-identity:CreateIdentityPool
 cognito-identity:DeleteIdentities
