@@ -2947,6 +2947,7 @@ connect:CreateContactFlowModule
 connect:CreateHoursOfOperation
 connect:CreateInstance
 connect:CreateIntegrationAssociation
+connect:CreateParticipant
 connect:CreateQueue
 connect:CreateQuickConnect
 connect:CreateRoutingProfile
