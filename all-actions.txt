@@ -5435,6 +5435,7 @@ fms:DeleteResourceSet
 fms:DisassociateAdminAccount
 fms:DisassociateThirdPartyFirewall
 fms:GetAdminAccount
+fms:GetAdminScope
 fms:GetAppsList
 fms:GetComplianceDetail
 fms:GetNotificationChannel
@@ -5444,6 +5445,8 @@ fms:GetProtocolsList
 fms:GetResourceSet
 fms:GetThirdPartyFirewallAssociationStatus
 fms:GetViolationDetails
+fms:ListAdminAccountsForOrganization
+fms:ListAdminsManagingAccount
 fms:ListAppsLists
 fms:ListComplianceStatus
 fms:ListDiscoveredResources
@@ -5454,6 +5457,7 @@ fms:ListResourceSetResources
 fms:ListResourceSets
 fms:ListTagsForResource
 fms:ListThirdPartyFirewallFirewallPolicies
+fms:PutAdminAccount
 fms:PutAppsList
 fms:PutNotificationChannel
 fms:PutPolicy
@@ -9826,6 +9830,21 @@ organizations:TagResource
 organizations:UntagResource
 organizations:UpdateOrganizationalUnit
 organizations:UpdatePolicy
+osis:CreatePipeline
+osis:DeletePipeline
+osis:GetPipeline
+osis:GetPipelineBlueprint
+osis:GetPipelineChangeProgress
+osis:Ingest
+osis:ListPipelineBlueprints
+osis:ListPipelines
+osis:ListTagsForResource
+osis:StartPipeline
+osis:StopPipeline
+osis:TagResource
+osis:UntagResource
+osis:UpdatePipeline
+osis:ValidatePipeline
 outposts:CancelOrder
 outposts:CreateOrder
 outposts:CreateOutpost
