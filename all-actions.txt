@@ -2930,6 +2930,7 @@ connect-campaigns:UntagResource
 connect-campaigns:UpdateCampaignDialerConfig
 connect-campaigns:UpdateCampaignName
 connect-campaigns:UpdateCampaignOutboundCallConfig
+connect:ActivateEvaluationForm
 connect:AssociateApprovedOrigin
 connect:AssociateBot
 connect:AssociateCustomerProfilesDomain
@@ -2947,6 +2948,7 @@ connect:ClaimPhoneNumber
 connect:CreateAgentStatus
 connect:CreateContactFlow
 connect:CreateContactFlowModule
+connect:CreateEvaluationForm
 connect:CreateHoursOfOperation
 connect:CreateInstance
 connect:CreateIntegrationAssociation
@@ -2962,8 +2964,11 @@ connect:CreateUseCase
 connect:CreateUser
 connect:CreateUserHierarchyGroup
 connect:CreateVocabulary
+connect:DeactivateEvaluationForm
+connect:DeleteContactEvaluation
 connect:DeleteContactFlow
 connect:DeleteContactFlowModule
+connect:DeleteEvaluationForm
 connect:DeleteHoursOfOperation
 connect:DeleteInstance
 connect:DeleteIntegrationAssociation
@@ -2978,8 +2983,10 @@ connect:DeleteUserHierarchyGroup
 connect:DeleteVocabulary
 connect:DescribeAgentStatus
 connect:DescribeContact
+connect:DescribeContactEvaluation
 connect:DescribeContactFlow
 connect:DescribeContactFlowModule
+connect:DescribeEvaluationForm
 connect:DescribeForecastingPlanningSchedulingIntegration
 connect:DescribeHoursOfOperation
 connect:DescribeInstance
@@ -3019,10 +3026,13 @@ connect:GetTrafficDistribution
 connect:ListAgentStatuses
 connect:ListApprovedOrigins
 connect:ListBots
+connect:ListContactEvaluations
 connect:ListContactFlowModules
 connect:ListContactFlows
 connect:ListContactReferences
 connect:ListDefaultVocabularies
+connect:ListEvaluationFormVersions
+connect:ListEvaluationForms
 connect:ListHoursOfOperations
 connect:ListInstanceAttributes
 connect:ListInstanceStorageConfigs
@@ -3061,6 +3071,7 @@ connect:SearchSecurityProfiles
 connect:SearchUsers
 connect:SearchVocabularies
 connect:StartChatContact
+connect:StartContactEvaluation
 connect:StartContactRecording
 connect:StartContactStreaming
 connect:StartForecastingPlanningSchedulingIntegration
@@ -3070,6 +3081,7 @@ connect:StopContact
 connect:StopContactRecording
 connect:StopContactStreaming
 connect:StopForecastingPlanningSchedulingIntegration
+connect:SubmitContactEvaluation
 connect:SuspendContactRecording
 connect:TagResource
 connect:TransferContact
@@ -3077,12 +3089,14 @@ connect:UntagResource
 connect:UpdateAgentStatus
 connect:UpdateContact
 connect:UpdateContactAttributes
+connect:UpdateContactEvaluation
 connect:UpdateContactFlowContent
 connect:UpdateContactFlowMetadata
 connect:UpdateContactFlowModuleContent
 connect:UpdateContactFlowModuleMetadata
 connect:UpdateContactFlowName
 connect:UpdateContactSchedule
+connect:UpdateEvaluationForm
 connect:UpdateHoursOfOperation
 connect:UpdateInstanceAttribute
 connect:UpdateInstanceStorageConfig
@@ -6387,6 +6401,7 @@ guardduty:ListPublishingDestinations
 guardduty:ListTagsForResource
 guardduty:ListThreatIntelSets
 guardduty:SendSecurityTelemetry
+guardduty:StartMalwareScan
 guardduty:StartMonitoringMembers
 guardduty:StopMonitoringMembers
 guardduty:TagResource
