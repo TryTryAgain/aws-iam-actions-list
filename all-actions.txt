@@ -285,6 +285,7 @@ amplifyuibuilder:ResetMetadataFlag
 amplifyuibuilder:UpdateComponent
 amplifyuibuilder:UpdateForm
 amplifyuibuilder:UpdateTheme
+aoss:APIAccessAll
 aoss:BatchGetCollection
 aoss:BatchGetVpcEndpoint
 aoss:CreateAccessPolicy
@@ -292,6 +293,7 @@ aoss:CreateCollection
 aoss:CreateSecurityConfig
 aoss:CreateSecurityPolicy
 aoss:CreateVpcEndpoint
+aoss:DashboardsAccessAll
 aoss:DeleteAccessPolicy
 aoss:DeleteCollection
 aoss:DeleteSecurityConfig
@@ -754,6 +756,8 @@ artifact:TerminateAgreement
 athena:BatchGetNamedQuery
 athena:BatchGetPreparedStatement
 athena:BatchGetQueryExecution
+athena:CancelCapacityReservation
+athena:CreateCapacityReservation
 athena:CreateDataCatalog
 athena:CreateNamedQuery
 athena:CreateNotebook
@@ -769,6 +773,8 @@ athena:ExportNotebook
 athena:GetCalculationExecution
 athena:GetCalculationExecutionCode
 athena:GetCalculationExecutionStatus
+athena:GetCapacityAssignmentConfiguration
+athena:GetCapacityReservation
 athena:GetDataCatalog
 athena:GetDatabase
 athena:GetNamedQuery
@@ -785,6 +791,7 @@ athena:GetWorkGroup
 athena:ImportNotebook
 athena:ListApplicationDPUSizes
 athena:ListCalculationExecutions
+athena:ListCapacityReservations
 athena:ListDataCatalogs
 athena:ListDatabases
 athena:ListEngineVersions
@@ -798,6 +805,7 @@ athena:ListSessions
 athena:ListTableMetadata
 athena:ListTagsForResource
 athena:ListWorkGroups
+athena:PutCapacityAssignmentConfiguration
 athena:StartCalculationExecution
 athena:StartQueryExecution
 athena:StartSession
@@ -806,6 +814,7 @@ athena:StopQueryExecution
 athena:TagResource
 athena:TerminateSession
 athena:UntagResource
+athena:UpdateCapacityReservation
 athena:UpdateDataCatalog
 athena:UpdateNamedQuery
 athena:UpdateNotebook
