@@ -13883,6 +13883,7 @@ waf:UpdateWebACL
 waf:UpdateXssMatchSet
 wafv2:AssociateWebACL
 wafv2:CheckCapacity
+wafv2:CreateAPIKey
 wafv2:CreateIPSet
 wafv2:CreateRegexPatternSet
 wafv2:CreateRuleGroup
@@ -13898,6 +13899,7 @@ wafv2:DescribeManagedRuleGroup
 wafv2:DisassociateFirewallManager
 wafv2:DisassociateWebACL
 wafv2:GenerateMobileSdkReleaseUrl
+wafv2:GetDecryptedAPIKey
 wafv2:GetIPSet
 wafv2:GetLoggingConfiguration
 wafv2:GetManagedRuleSet
@@ -13909,6 +13911,7 @@ wafv2:GetRuleGroup
 wafv2:GetSampledRequests
 wafv2:GetWebACL
 wafv2:GetWebACLForResource
+wafv2:ListAPIKeys
 wafv2:ListAvailableManagedRuleGroupVersions
 wafv2:ListAvailableManagedRuleGroups
 wafv2:ListIPSets
