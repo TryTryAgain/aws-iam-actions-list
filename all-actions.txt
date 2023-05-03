@@ -8819,6 +8819,7 @@ mediaconnect:UpdateFlowEntitlement
 mediaconnect:UpdateFlowMediaStream
 mediaconnect:UpdateFlowOutput
 mediaconnect:UpdateFlowSource
+mediaconnect:UpdateGatewayInstance
 mediaconvert:AssociateCertificate
 mediaconvert:CancelJob
 mediaconvert:CreateJob
