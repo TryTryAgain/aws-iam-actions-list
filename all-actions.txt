@@ -2448,6 +2448,7 @@ codeguru-security:BatchGetFindings
 codeguru-security:CreateScan
 codeguru-security:CreateUploadUrl
 codeguru-security:DeleteScansByCategory
+codeguru-security:GetFindings
 codeguru-security:GetScan
 codeguru-security:ListFindings
 codeguru-security:ListScans
@@ -3141,7 +3142,6 @@ connect:UpdateUserIdentityInfo
 connect:UpdateUserPhoneConfig
 connect:UpdateUserRoutingProfile
 connect:UpdateUserSecurityProfiles
-connect:UpdatedescribeContent
 consoleapp:GetDeviceIdentity
 consoleapp:ListDeviceIdentities
 consolidatedbilling:GetAccountBillingRole
@@ -3197,6 +3197,10 @@ cur:ModifyReportDefinition
 cur:PutClassicReportPreferences
 cur:PutReportDefinition
 cur:ValidateReportDestination
+customer-verification:CreateCustomerVerificationDetails
+customer-verification:GetCustomerVerificationDetails
+customer-verification:GetCustomerVerificationEligibility
+customer-verification:UpdateCustomerVerificationDetails
 databrew:BatchDeleteRecipeVersion
 databrew:CreateDataset
 databrew:CreateProfileJob
@@ -6794,6 +6798,7 @@ inspector2:ListFindings
 inspector2:ListMembers
 inspector2:ListTagsForResource
 inspector2:ListUsageTotals
+inspector2:SearchVulnerabilities
 inspector2:TagResource
 inspector2:UntagResource
 inspector2:UpdateConfiguration
