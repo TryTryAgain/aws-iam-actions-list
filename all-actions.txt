@@ -13283,6 +13283,7 @@ supportapp:PutAccountAlias
 supportapp:RedeemSlackOauthCode
 supportapp:RegisterSlackWorkspaceForOrganization
 supportapp:UpdateSlackChannelConfiguration
+supportplans:CreateSupportPlanSchedule
 supportplans:GetSupportPlan
 supportplans:GetSupportPlanUpdateStatus
 supportplans:StartSupportPlanUpdate
