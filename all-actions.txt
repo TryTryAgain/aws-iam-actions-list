@@ -12474,6 +12474,7 @@ signer:RevokeSigningProfile
 signer:StartSigningJob
 signer:TagResource
 signer:UntagResource
+simspaceweaver:CreateSnapshot
 simspaceweaver:DeleteApp
 simspaceweaver:DeleteSimulation
 simspaceweaver:DescribeApp
