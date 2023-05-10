@@ -13653,6 +13653,7 @@ vendor-insights:UntagResource
 vendor-insights:UpdateSecurityProfile
 vendor-insights:UpdateSecurityProfileSnapshotCreationConfiguration
 vendor-insights:UpdateSecurityProfileSnapshotReleaseConfiguration
+verified-access:AllowVerifiedAccess
 voiceid:AssociateFraudster
 voiceid:CreateDomain
 voiceid:CreateWatchlist
