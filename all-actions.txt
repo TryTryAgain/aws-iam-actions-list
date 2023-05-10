@@ -9020,6 +9020,7 @@ mediatailor:UpdateProgram
 mediatailor:UpdateSourceLocation
 mediatailor:UpdateVodSource
 memorydb:BatchUpdateCluster
+memorydb:Connect
 memorydb:CopySnapshot
 memorydb:CreateAcl
 memorydb:CreateCluster
