@@ -10307,6 +10307,8 @@ quicksight:CreateTemplate
 quicksight:CreateTemplateAlias
 quicksight:CreateTheme
 quicksight:CreateThemeAlias
+quicksight:CreateTopic
+quicksight:CreateTopicRefreshSchedule
 quicksight:CreateUser
 quicksight:CreateVPCConnection
 quicksight:DeleteAccountCustomization
@@ -10329,6 +10331,8 @@ quicksight:DeleteTemplate
 quicksight:DeleteTemplateAlias
 quicksight:DeleteTheme
 quicksight:DeleteThemeAlias
+quicksight:DeleteTopic
+quicksight:DeleteTopicRefreshSchedule
 quicksight:DeleteUser
 quicksight:DeleteUserByPrincipalId
 quicksight:DeleteVPCConnection
@@ -10362,6 +10366,10 @@ quicksight:DescribeTemplatePermissions
 quicksight:DescribeTheme
 quicksight:DescribeThemeAlias
 quicksight:DescribeThemePermissions
+quicksight:DescribeTopic
+quicksight:DescribeTopicPermissions
+quicksight:DescribeTopicRefresh
+quicksight:DescribeTopicRefreshSchedule
 quicksight:DescribeUser
 quicksight:DescribeVPCConnection
 quicksight:GenerateEmbedUrlForAnonymousUser
@@ -10393,6 +10401,8 @@ quicksight:ListTemplates
 quicksight:ListThemeAliases
 quicksight:ListThemeVersions
 quicksight:ListThemes
+quicksight:ListTopicRefreshSchedules
+quicksight:ListTopics
 quicksight:ListUserGroups
 quicksight:ListUsers
 quicksight:ListVPCConnections
@@ -10441,6 +10451,9 @@ quicksight:UpdateTemplatePermissions
 quicksight:UpdateTheme
 quicksight:UpdateThemeAlias
 quicksight:UpdateThemePermissions
+quicksight:UpdateTopic
+quicksight:UpdateTopicPermissions
+quicksight:UpdateTopicRefreshSchedule
 quicksight:UpdateUser
 quicksight:UpdateVPCConnection
 ram:AcceptResourceShareInvitation
