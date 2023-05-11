@@ -9395,6 +9395,7 @@ monitron:UntagResource
 monitron:UpdateProject
 mq:CreateBroker
 mq:CreateConfiguration
+mq:CreateReplicaBroker
 mq:CreateTags
 mq:CreateUser
 mq:DeleteBroker
