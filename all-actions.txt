@@ -5203,6 +5203,7 @@ emr-containers:DescribeJobRun
 emr-containers:DescribeJobTemplate
 emr-containers:DescribeManagedEndpoint
 emr-containers:DescribeVirtualCluster
+emr-containers:GetManagedEndpointSessionCredentials
 emr-containers:ListJobRuns
 emr-containers:ListJobTemplates
 emr-containers:ListManagedEndpoints
