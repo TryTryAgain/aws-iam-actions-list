@@ -9667,11 +9667,14 @@ oam:PutSinkPolicy
 oam:TagResource
 oam:UntagResource
 oam:UpdateLink
+omics:AbortMultipartReadSetUpload
 omics:BatchDeleteReadSet
 omics:CancelAnnotationImportJob
 omics:CancelRun
 omics:CancelVariantImportJob
+omics:CompleteMultipartReadSetUpload
 omics:CreateAnnotationStore
+omics:CreateMultipartReadSetUpload
 omics:CreateReferenceStore
 omics:CreateRunGroup
 omics:CreateSequenceStore
@@ -9705,9 +9708,11 @@ omics:GetVariantStore
 omics:GetWorkflow
 omics:ListAnnotationImportJobs
 omics:ListAnnotationStores
+omics:ListMultipartReadSetUploads
 omics:ListReadSetActivationJobs
 omics:ListReadSetExportJobs
 omics:ListReadSetImportJobs
+omics:ListReadSetUploadParts
 omics:ListReadSets
 omics:ListReferenceImportJobs
 omics:ListReferenceStores
@@ -9733,6 +9738,7 @@ omics:UpdateAnnotationStore
 omics:UpdateRunGroup
 omics:UpdateVariantStore
 omics:UpdateWorkflow
+omics:UploadReadSetPart
 opsworks-cm:AssociateNode
 opsworks-cm:CreateBackup
 opsworks-cm:CreateServer
