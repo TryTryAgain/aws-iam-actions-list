@@ -1724,6 +1724,7 @@ cloud9:DescribeSSHRemote
 cloud9:GetEnvironmentConfig
 cloud9:GetEnvironmentSettings
 cloud9:GetMembershipSettings
+cloud9:GetMigrationExperiences
 cloud9:GetUserPublicKey
 cloud9:GetUserSettings
 cloud9:ListEnvironments
@@ -4114,6 +4115,7 @@ ec2:AssociateTransitGatewayMulticastDomain
 ec2:AssociateTransitGatewayPolicyTable
 ec2:AssociateTransitGatewayRouteTable
 ec2:AssociateTrunkInterface
+ec2:AssociateVerifiedAccessInstanceWebAcl
 ec2:AssociateVpcCidrBlock
 ec2:AttachClassicLinkVpc
 ec2:AttachInternetGateway
@@ -4431,6 +4433,7 @@ ec2:DescribeTrunkInterfaceAssociations
 ec2:DescribeVerifiedAccessEndpoints
 ec2:DescribeVerifiedAccessGroups
 ec2:DescribeVerifiedAccessInstanceLoggingConfigurations
+ec2:DescribeVerifiedAccessInstanceWebAclAssociations
 ec2:DescribeVerifiedAccessInstances
 ec2:DescribeVerifiedAccessTrustProviders
 ec2:DescribeVolumeAttribute
@@ -4481,6 +4484,7 @@ ec2:DisassociateTransitGatewayMulticastDomain
 ec2:DisassociateTransitGatewayPolicyTable
 ec2:DisassociateTransitGatewayRouteTable
 ec2:DisassociateTrunkInterface
+ec2:DisassociateVerifiedAccessInstanceWebAcl
 ec2:DisassociateVpcCidrBlock
 ec2:EnableAddressTransfer
 ec2:EnableAwsNetworkPerformanceMetricSubscription
@@ -4541,8 +4545,11 @@ ec2:GetTransitGatewayRouteTableAssociations
 ec2:GetTransitGatewayRouteTablePropagations
 ec2:GetVerifiedAccessEndpointPolicy
 ec2:GetVerifiedAccessGroupPolicy
+ec2:GetVerifiedAccessInstanceWebAcl
 ec2:GetVpnConnectionDeviceSampleConfiguration
 ec2:GetVpnConnectionDeviceTypes
+ec2:GetVpnTunnelReplacementStatus
+ec2:ImportByoipCidrToIpam
 ec2:ImportClientVpnClientCertificateRevocationList
 ec2:ImportImage
 ec2:ImportInstance
@@ -4645,6 +4652,7 @@ ec2:ReplaceNetworkAclEntry
 ec2:ReplaceRoute
 ec2:ReplaceRouteTableAssociation
 ec2:ReplaceTransitGatewayRoute
+ec2:ReplaceVpnTunnel
 ec2:ReportInstanceStatus
 ec2:RequestSpotFleet
 ec2:RequestSpotInstances
