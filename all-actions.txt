@@ -6191,6 +6191,7 @@ glue:StopTrigger
 glue:StopWorkflowRun
 glue:TagResource
 glue:TerminateNotebook
+glue:TestConnection
 glue:UntagResource
 glue:UpdateBlueprint
 glue:UpdateClassifier
@@ -12412,6 +12413,7 @@ ses:PutConfigurationSetSuppressionOptions
 ses:PutConfigurationSetTrackingOptions
 ses:PutConfigurationSetVdmOptions
 ses:PutDedicatedIpInPool
+ses:PutDedicatedIpPoolScalingAttributes
 ses:PutDedicatedIpWarmupAttributes
 ses:PutDeliverabilityDashboardOption
 ses:PutEmailIdentityConfigurationSetAttributes
