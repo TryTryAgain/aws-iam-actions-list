@@ -2462,6 +2462,7 @@ codeguru-security:BatchGetFindings
 codeguru-security:CreateScan
 codeguru-security:CreateUploadUrl
 codeguru-security:DeleteScansByCategory
+codeguru-security:GetAccountConfiguration
 codeguru-security:GetFindings
 codeguru-security:GetScan
 codeguru-security:ListFindings
@@ -11152,6 +11153,8 @@ rolesanywhere:ListProfiles
 rolesanywhere:ListSubjects
 rolesanywhere:ListTagsForResource
 rolesanywhere:ListTrustAnchors
+rolesanywhere:PutNotificationSettings
+rolesanywhere:ResetNotificationSettings
 rolesanywhere:TagResource
 rolesanywhere:UntagResource
 rolesanywhere:UpdateCrl
