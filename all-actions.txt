@@ -7595,6 +7595,7 @@ iq:CreateSeller
 iq:CreateUpfrontProposal
 iq:DeclineCall
 iq:DeleteAttachment
+iq:DownloadAttachment
 iq:EndCall
 iq:GetBuyer
 iq:GetCall
@@ -7608,9 +7609,11 @@ iq:GetListing
 iq:GetMarketplaceSeller
 iq:GetPaymentRequest
 iq:GetProposal
+iq:GetRequest
 iq:GetReview
 iq:HideRequest
 iq:InitiateCall
+iq:ListAttachments
 iq:ListConversations
 iq:ListListings
 iq:ListPaymentRequests
