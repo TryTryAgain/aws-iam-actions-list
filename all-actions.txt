@@ -778,6 +778,7 @@ athena:CreateNotebook
 athena:CreatePreparedStatement
 athena:CreatePresignedNotebookUrl
 athena:CreateWorkGroup
+athena:DeleteCapacityReservation
 athena:DeleteDataCatalog
 athena:DeleteNamedQuery
 athena:DeleteNotebook
