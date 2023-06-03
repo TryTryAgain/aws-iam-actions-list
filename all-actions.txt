@@ -2132,9 +2132,11 @@ cloudtrail:PutResourcePolicy
 cloudtrail:RegisterOrganizationDelegatedAdmin
 cloudtrail:RemoveTags
 cloudtrail:RestoreEventDataStore
+cloudtrail:StartEventDataStoreIngestion
 cloudtrail:StartImport
 cloudtrail:StartLogging
 cloudtrail:StartQuery
+cloudtrail:StopEventDataStoreIngestion
 cloudtrail:StopImport
 cloudtrail:StopLogging
 cloudtrail:UpdateChannel
