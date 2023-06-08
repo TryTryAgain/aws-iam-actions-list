@@ -2005,7 +2005,6 @@ cloudfront:UpdateCachePolicy
 cloudfront:UpdateCloudFrontOriginAccessIdentity
 cloudfront:UpdateContinuousDeploymentPolicy
 cloudfront:UpdateDistribution
-cloudfront:UpdateDistributionWithStagingConfig
 cloudfront:UpdateFieldLevelEncryptionConfig
 cloudfront:UpdateFieldLevelEncryptionProfile
 cloudfront:UpdateFunction
