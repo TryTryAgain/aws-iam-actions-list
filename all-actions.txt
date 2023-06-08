@@ -10239,10 +10239,14 @@ private-networks:UntagResource
 private-networks:UpdateNetworkSite
 private-networks:UpdateNetworkSitePlan
 profile:AddProfileKey
+profile:CreateCalculatedAttributeDefinition
 profile:CreateDomain
+profile:CreateEventStream
 profile:CreateIntegrationWorkflow
 profile:CreateProfile
+profile:DeleteCalculatedAttributeDefinition
 profile:DeleteDomain
+profile:DeleteEventStream
 profile:DeleteIntegration
 profile:DeleteProfile
 profile:DeleteProfileKey
@@ -10250,7 +10254,10 @@ profile:DeleteProfileObject
 profile:DeleteProfileObjectType
 profile:DeleteWorkflow
 profile:GetAutoMergingPreview
+profile:GetCalculatedAttributeDefinition
+profile:GetCalculatedAttributeForProfile
 profile:GetDomain
+profile:GetEventStream
 profile:GetIdentityResolutionJob
 profile:GetIntegration
 profile:GetMatches
@@ -10259,7 +10266,10 @@ profile:GetProfileObjectTypeTemplate
 profile:GetWorkflow
 profile:GetWorkflowSteps
 profile:ListAccountIntegrations
+profile:ListCalculatedAttributeDefinitions
+profile:ListCalculatedAttributesForProfile
 profile:ListDomains
+profile:ListEventStreams
 profile:ListIdentityResolutionJobs
 profile:ListIntegrations
 profile:ListProfileObjectTypeTemplates
@@ -10274,6 +10284,7 @@ profile:PutProfileObjectType
 profile:SearchProfiles
 profile:TagResource
 profile:UntagResource
+profile:UpdateCalculatedAttributeDefinition
 profile:UpdateDomain
 profile:UpdateProfile
 proton:AcceptEnvironmentAccountConnection
@@ -12890,6 +12901,7 @@ sqlworkbench:UpdateNotebookCellContent
 sqlworkbench:UpdateNotebookCellLayout
 sqlworkbench:UpdateSavedQuery
 sqs:AddPermission
+sqs:CancelMessageMoveTask
 sqs:ChangeMessageVisibility
 sqs:CreateQueue
 sqs:DeleteMessage
@@ -12897,6 +12909,7 @@ sqs:DeleteQueue
 sqs:GetQueueAttributes
 sqs:GetQueueUrl
 sqs:ListDeadLetterSourceQueues
+sqs:ListMessageMoveTasks
 sqs:ListQueueTags
 sqs:ListQueues
 sqs:PurgeQueue
@@ -12904,6 +12917,7 @@ sqs:ReceiveMessage
 sqs:RemovePermission
 sqs:SendMessage
 sqs:SetQueueAttributes
+sqs:StartMessageMoveTask
 sqs:TagQueue
 sqs:UntagQueue
 ssm-contacts:AcceptPage
