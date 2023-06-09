@@ -3113,7 +3113,10 @@ connect:ReleasePhoneNumber
 connect:ReplicateInstance
 connect:ResumeContactRecording
 connect:SearchAvailablePhoneNumbers
+connect:SearchHoursOfOperations
+connect:SearchPrompts
 connect:SearchQueues
+connect:SearchQuickConnects
 connect:SearchRoutingProfiles
 connect:SearchSecurityProfiles
 connect:SearchUsers
