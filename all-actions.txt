@@ -6877,8 +6877,10 @@ inspector2:BatchGetFreeTrialInfo
 inspector2:BatchGetMemberEc2DeepInspectionStatus
 inspector2:BatchUpdateMemberEc2DeepInspectionStatus
 inspector2:CancelFindingsReport
+inspector2:CancelSbomExport
 inspector2:CreateFilter
 inspector2:CreateFindingsReport
+inspector2:CreateSbomExport
 inspector2:DeleteFilter
 inspector2:DescribeOrganizationConfiguration
 inspector2:Disable
@@ -6889,8 +6891,10 @@ inspector2:EnableDelegatedAdminAccount
 inspector2:GetConfiguration
 inspector2:GetDelegatedAdminAccount
 inspector2:GetEc2DeepInspectionConfiguration
+inspector2:GetEncryptionKey
 inspector2:GetFindingsReportStatus
 inspector2:GetMember
+inspector2:GetSbomExport
 inspector2:ListAccountPermissions
 inspector2:ListCoverage
 inspector2:ListCoverageStatistics
@@ -6901,11 +6905,13 @@ inspector2:ListFindings
 inspector2:ListMembers
 inspector2:ListTagsForResource
 inspector2:ListUsageTotals
+inspector2:ResetEncryptionKey
 inspector2:SearchVulnerabilities
 inspector2:TagResource
 inspector2:UntagResource
 inspector2:UpdateConfiguration
 inspector2:UpdateEc2DeepInspectionConfiguration
+inspector2:UpdateEncryptionKey
 inspector2:UpdateFilter
 inspector2:UpdateOrgEc2DeepInspectionConfiguration
 inspector2:UpdateOrganizationConfiguration
