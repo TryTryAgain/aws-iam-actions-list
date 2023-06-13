@@ -3927,6 +3927,7 @@ docdb-elastic:TagResource
 docdb-elastic:UntagResource
 docdb-elastic:UpdateCluster
 drs:AssociateFailbackClientToRecoveryInstanceForDrs
+drs:AssociateSourceNetworkStack
 drs:BatchCreateVolumeSnapshotGroupForDrs
 drs:BatchDeleteSnapshotRequestForDrs
 drs:CreateConvertedSnapshotForDrs
@@ -3934,11 +3935,13 @@ drs:CreateExtendedSourceServer
 drs:CreateLaunchConfigurationTemplate
 drs:CreateRecoveryInstanceForDrs
 drs:CreateReplicationConfigurationTemplate
+drs:CreateSourceNetwork
 drs:CreateSourceServerForDrs
 drs:DeleteJob
 drs:DeleteLaunchConfigurationTemplate
 drs:DeleteRecoveryInstance
 drs:DeleteReplicationConfigurationTemplate
+drs:DeleteSourceNetwork
 drs:DeleteSourceServer
 drs:DescribeJobLogItems
 drs:DescribeJobs
@@ -3948,9 +3951,11 @@ drs:DescribeRecoverySnapshots
 drs:DescribeReplicationConfigurationTemplates
 drs:DescribeReplicationServerAssociationsForDrs
 drs:DescribeSnapshotRequestsForDrs
+drs:DescribeSourceNetworks
 drs:DescribeSourceServers
 drs:DisconnectRecoveryInstance
 drs:DisconnectSourceServer
+drs:ExportSourceNetworkCfnTemplate
 drs:GetAgentCommandForDrs
 drs:GetAgentConfirmedResumeInfoForDrs
 drs:GetAgentInstallationAssetsForDrs
@@ -3987,8 +3992,11 @@ drs:SendVolumeStatsForDrs
 drs:StartFailbackLaunch
 drs:StartRecovery
 drs:StartReplication
+drs:StartSourceNetworkRecovery
+drs:StartSourceNetworkReplication
 drs:StopFailback
 drs:StopReplication
+drs:StopSourceNetworkReplication
 drs:TagResource
 drs:TerminateRecoveryInstances
 drs:UntagResource
