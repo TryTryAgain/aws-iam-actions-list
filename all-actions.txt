@@ -4157,6 +4157,7 @@ ebs:ListChangedBlocks
 ebs:ListSnapshotBlocks
 ebs:PutSnapshotBlock
 ebs:StartSnapshot
+ec2-instance-connect:OpenTunnel
 ec2-instance-connect:SendSSHPublicKey
 ec2-instance-connect:SendSerialConsoleSSHPublicKey
 ec2:AcceptAddressTransfer
