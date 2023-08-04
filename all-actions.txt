@@ -3237,6 +3237,7 @@ connect:UpdateQueueOutboundCallerConfig
 connect:UpdateQueueStatus
 connect:UpdateQuickConnectConfig
 connect:UpdateQuickConnectName
+connect:UpdateRoutingProfileAgentAvailabilityTimer
 connect:UpdateRoutingProfileConcurrency
 connect:UpdateRoutingProfileDefaultOutboundQueue
 connect:UpdateRoutingProfileName
@@ -7777,6 +7778,7 @@ iotwireless:UpdateWirelessDeviceImportTask
 iotwireless:UpdateWirelessGateway
 iq-permission:ApproveAccessGrant
 iq-permission:ApprovePermissionRequest
+iq-permission:AssumePermissionRole
 iq-permission:CreatePermissionRequest
 iq-permission:GetPermissionRequest
 iq-permission:ListPermissionRequests
