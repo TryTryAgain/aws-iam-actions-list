@@ -1140,6 +1140,7 @@ backup:CreateBackupSelection
 backup:CreateBackupVault
 backup:CreateFramework
 backup:CreateLegalHold
+backup:CreateLogicallyAirGappedBackupVault
 backup:CreateReportPlan
 backup:DeleteBackupPlan
 backup:DeleteBackupSelection
@@ -1147,6 +1148,7 @@ backup:DeleteBackupVault
 backup:DeleteBackupVaultAccessPolicy
 backup:DeleteBackupVaultLockConfiguration
 backup:DeleteBackupVaultNotifications
+backup:DeleteBackupVaultSharingPolicy
 backup:DeleteFramework
 backup:DeleteRecoveryPoint
 backup:DeleteReportPlan
@@ -1170,6 +1172,7 @@ backup:GetBackupPlanFromTemplate
 backup:GetBackupSelection
 backup:GetBackupVaultAccessPolicy
 backup:GetBackupVaultNotifications
+backup:GetBackupVaultSharingPolicy
 backup:GetLegalHold
 backup:GetRecoveryPointRestoreMetadata
 backup:GetSupportedResourceTypes
@@ -1183,6 +1186,7 @@ backup:ListCopyJobs
 backup:ListFrameworks
 backup:ListLegalHolds
 backup:ListProtectedResources
+backup:ListProtectedResourcesByBackupVault
 backup:ListRecoveryPointsByBackupVault
 backup:ListRecoveryPointsByLegalHold
 backup:ListRecoveryPointsByResource
@@ -1193,6 +1197,7 @@ backup:ListTags
 backup:PutBackupVaultAccessPolicy
 backup:PutBackupVaultLockConfiguration
 backup:PutBackupVaultNotifications
+backup:PutBackupVaultSharingPolicy
 backup:StartBackupJob
 backup:StartCopyJob
 backup:StartReportJob
