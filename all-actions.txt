@@ -13119,6 +13119,7 @@ snowball:ListClusters
 snowball:ListCompatibleImages
 snowball:ListJobs
 snowball:ListLongTermPricing
+snowball:ListPickupLocations
 snowball:ListServiceVersions
 snowball:UpdateCluster
 snowball:UpdateJob
