@@ -3088,6 +3088,7 @@ connect:AssociatePhoneNumberContactFlow
 connect:AssociateQueueQuickConnects
 connect:AssociateRoutingProfileQueues
 connect:AssociateSecurityKey
+connect:AssociateTrafficDistributionGroupUser
 connect:BatchAssociateAnalyticsDataSet
 connect:BatchDisassociateAnalyticsDataSet
 connect:ClaimPhoneNumber
@@ -3164,6 +3165,7 @@ connect:DisassociatePhoneNumberContactFlow
 connect:DisassociateQueueQuickConnects
 connect:DisassociateRoutingProfileQueues
 connect:DisassociateSecurityKey
+connect:DisassociateTrafficDistributionGroupUser
 connect:DismissUserContact
 connect:GetContactAttributes
 connect:GetCurrentMetricData
@@ -3207,6 +3209,7 @@ connect:ListSecurityProfilePermissions
 connect:ListSecurityProfiles
 connect:ListTagsForResource
 connect:ListTaskTemplates
+connect:ListTrafficDistributionGroupUsers
 connect:ListTrafficDistributionGroups
 connect:ListUseCases
 connect:ListUserHierarchyGroups
@@ -5130,6 +5133,7 @@ elasticache:ResetCacheParameterGroup
 elasticache:RevokeCacheSecurityGroupIngress
 elasticache:StartMigration
 elasticache:TestFailover
+elasticache:TestMigration
 elasticbeanstalk:AbortEnvironmentUpdate
 elasticbeanstalk:AddTags
 elasticbeanstalk:ApplyEnvironmentManagedAction
