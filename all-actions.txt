@@ -2773,6 +2773,7 @@ cognito-idp:GetCSVHeader
 cognito-idp:GetDevice
 cognito-idp:GetGroup
 cognito-idp:GetIdentityProviderByIdentifier
+cognito-idp:GetLogDeliveryConfiguration
 cognito-idp:GetSigningCertificate
 cognito-idp:GetUICustomization
 cognito-idp:GetUser
@@ -2795,6 +2796,7 @@ cognito-idp:ListUsersInGroup
 cognito-idp:ResendConfirmationCode
 cognito-idp:RespondToAuthChallenge
 cognito-idp:RevokeToken
+cognito-idp:SetLogDeliveryConfiguration
 cognito-idp:SetRiskConfiguration
 cognito-idp:SetUICustomization
 cognito-idp:SetUserMFAPreference
