@@ -10421,6 +10421,7 @@ payments:UpdatePaymentPreferences
 personalize:CreateBatchInferenceJob
 personalize:CreateBatchSegmentJob
 personalize:CreateCampaign
+personalize:CreateDataInsightsJob
 personalize:CreateDataset
 personalize:CreateDatasetExportJob
 personalize:CreateDatasetGroup
@@ -10445,6 +10446,7 @@ personalize:DescribeAlgorithm
 personalize:DescribeBatchInferenceJob
 personalize:DescribeBatchSegmentJob
 personalize:DescribeCampaign
+personalize:DescribeDataInsightsJob
 personalize:DescribeDataset
 personalize:DescribeDatasetExportJob
 personalize:DescribeDatasetGroup
@@ -10458,12 +10460,14 @@ personalize:DescribeRecommender
 personalize:DescribeSchema
 personalize:DescribeSolution
 personalize:DescribeSolutionVersion
+personalize:GetDataInsights
 personalize:GetPersonalizedRanking
 personalize:GetRecommendations
 personalize:GetSolutionMetrics
 personalize:ListBatchInferenceJobs
 personalize:ListBatchSegmentJobs
 personalize:ListCampaigns
+personalize:ListDataInsightsJobs
 personalize:ListDatasetExportJobs
 personalize:ListDatasetGroups
 personalize:ListDatasetImportJobs
@@ -12351,6 +12355,7 @@ sagemaker:ListPipelineParametersForExecution
 sagemaker:ListPipelines
 sagemaker:ListProcessingJobs
 sagemaker:ListProjects
+sagemaker:ListResourceCatalogs
 sagemaker:ListSharedModelEvents
 sagemaker:ListSharedModelVersions
 sagemaker:ListSharedModels
