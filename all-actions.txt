@@ -1244,14 +1244,12 @@ bedrock:CreateAgentAlias
 bedrock:CreateAgentDraftSnapshot
 bedrock:CreateModelCustomizationJob
 bedrock:DeleteCustomModel
-bedrock:DeletePrompt
 bedrock:GetAgent
 bedrock:GetAgentActionGroup
 bedrock:GetAgentAlias
 bedrock:GetAgentVersion
 bedrock:GetCustomModel
 bedrock:GetModelCustomizationJob
-bedrock:GetPrompt
 bedrock:InvokeAgent
 bedrock:InvokeModel
 bedrock:InvokeModelWithResponseStream
@@ -1262,7 +1260,6 @@ bedrock:ListAgents
 bedrock:ListCustomModels
 bedrock:ListFoundationModels
 bedrock:ListModelCustomizationJobs
-bedrock:ListPrompts
 bedrock:ListTagsForResource
 bedrock:StopModelCustomizationJob
 bedrock:TagResource
@@ -1270,7 +1267,6 @@ bedrock:UntagResource
 bedrock:UpdateAgent
 bedrock:UpdateAgentActionGroup
 bedrock:UpdateAgentAlias
-bedrock:UpdatePrompt
 billing:GetBillingData
 billing:GetBillingDetails
 billing:GetBillingNotifications
