@@ -2949,6 +2949,7 @@ compute-optimizer:ExportEBSVolumeRecommendations
 compute-optimizer:ExportEC2InstanceRecommendations
 compute-optimizer:ExportECSServiceRecommendations
 compute-optimizer:ExportLambdaFunctionRecommendations
+compute-optimizer:ExportLicenseRecommendations
 compute-optimizer:GetAutoScalingGroupRecommendations
 compute-optimizer:GetEBSVolumeRecommendations
 compute-optimizer:GetEC2InstanceRecommendations
@@ -2959,6 +2960,7 @@ compute-optimizer:GetEffectiveRecommendationPreferences
 compute-optimizer:GetEnrollmentStatus
 compute-optimizer:GetEnrollmentStatusesForOrganization
 compute-optimizer:GetLambdaFunctionRecommendations
+compute-optimizer:GetLicenseRecommendations
 compute-optimizer:GetRecommendationPreferences
 compute-optimizer:GetRecommendationSummaries
 compute-optimizer:PutRecommendationPreferences
