@@ -2440,6 +2440,7 @@ codecommit:GitPush
 codecommit:ListApprovalRuleTemplates
 codecommit:ListAssociatedApprovalRuleTemplatesForRepository
 codecommit:ListBranches
+codecommit:ListFileCommitHistory
 codecommit:ListPullRequests
 codecommit:ListRepositories
 codecommit:ListRepositoriesForApprovalRuleTemplate
