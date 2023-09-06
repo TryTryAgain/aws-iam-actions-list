@@ -12319,7 +12319,7 @@ sagemaker:GetLineageGroupPolicy
 sagemaker:GetModelPackageGroupPolicy
 sagemaker:GetRecord
 sagemaker:GetSagemakerServicecatalogPortfolioStatus
-sagemaker:GetScalingPolicyConfigurationRecommendation
+sagemaker:GetScalingConfigurationRecommendation
 sagemaker:GetSearchSuggestions
 sagemaker:ImportHubContent
 sagemaker:InvokeEndpoint
