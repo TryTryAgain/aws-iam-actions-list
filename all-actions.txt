@@ -3115,6 +3115,8 @@ connect:CreateTrafficDistributionGroup
 connect:CreateUseCase
 connect:CreateUser
 connect:CreateUserHierarchyGroup
+connect:CreateView
+connect:CreateViewVersion
 connect:CreateVocabulary
 connect:DeactivateEvaluationForm
 connect:DeleteContactEvaluation
@@ -3135,6 +3137,8 @@ connect:DeleteTrafficDistributionGroup
 connect:DeleteUseCase
 connect:DeleteUser
 connect:DeleteUserHierarchyGroup
+connect:DeleteView
+connect:DeleteViewVersion
 connect:DeleteVocabulary
 connect:DescribeAgentStatus
 connect:DescribeContact
@@ -3158,6 +3162,7 @@ connect:DescribeTrafficDistributionGroup
 connect:DescribeUser
 connect:DescribeUserHierarchyGroup
 connect:DescribeUserHierarchyStructure
+connect:DescribeView
 connect:DescribeVocabulary
 connect:DisassociateApprovedOrigin
 connect:DisassociateBot
@@ -3218,6 +3223,8 @@ connect:ListTrafficDistributionGroups
 connect:ListUseCases
 connect:ListUserHierarchyGroups
 connect:ListUsers
+connect:ListViewVersions
+connect:ListViews
 connect:MonitorContact
 connect:PutUserStatus
 connect:ReleasePhoneNumber
@@ -3289,6 +3296,8 @@ connect:UpdateUserIdentityInfo
 connect:UpdateUserPhoneConfig
 connect:UpdateUserRoutingProfile
 connect:UpdateUserSecurityProfiles
+connect:UpdateViewContent
+connect:UpdateViewMetadata
 consoleapp:GetDeviceIdentity
 consoleapp:ListDeviceIdentities
 consolidatedbilling:GetAccountBillingRole
