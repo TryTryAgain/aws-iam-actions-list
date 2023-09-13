@@ -4075,6 +4075,7 @@ drs:CreateReplicationConfigurationTemplate
 drs:CreateSourceNetwork
 drs:CreateSourceServerForDrs
 drs:DeleteJob
+drs:DeleteLaunchAction
 drs:DeleteLaunchConfigurationTemplate
 drs:DeleteRecoveryInstance
 drs:DeleteReplicationConfigurationTemplate
@@ -4109,6 +4110,7 @@ drs:GetSuggestedFailbackClientDeviceMappingForDrs
 drs:InitializeService
 drs:IssueAgentCertificateForDrs
 drs:ListExtensibleSourceServers
+drs:ListLaunchActions
 drs:ListStagingAccounts
 drs:ListTagsForResource
 drs:NotifyAgentAuthenticationForDrs
@@ -4118,6 +4120,7 @@ drs:NotifyAgentReplicationProgressForDrs
 drs:NotifyConsistencyAttainedForDrs
 drs:NotifyReplicationServerAuthenticationForDrs
 drs:NotifyVolumeEventForDrs
+drs:PutLaunchAction
 drs:RetryDataReplication
 drs:ReverseReplication
 drs:SendAgentLogsForDrs
