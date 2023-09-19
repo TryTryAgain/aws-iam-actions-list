@@ -270,6 +270,7 @@ amplifyuibuilder:CreateTheme
 amplifyuibuilder:DeleteComponent
 amplifyuibuilder:DeleteForm
 amplifyuibuilder:DeleteTheme
+amplifyuibuilder:ExchangeCodeForToken
 amplifyuibuilder:ExportComponents
 amplifyuibuilder:ExportForms
 amplifyuibuilder:ExportThemes
@@ -283,6 +284,7 @@ amplifyuibuilder:ListComponents
 amplifyuibuilder:ListForms
 amplifyuibuilder:ListThemes
 amplifyuibuilder:PutMetadataFlag
+amplifyuibuilder:RefreshToken
 amplifyuibuilder:ResetMetadataFlag
 amplifyuibuilder:StartCodegenJob
 amplifyuibuilder:UpdateComponent
