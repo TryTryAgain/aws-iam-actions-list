@@ -12804,6 +12804,7 @@ servicediscovery:DeleteNamespace
 servicediscovery:DeleteService
 servicediscovery:DeregisterInstance
 servicediscovery:DiscoverInstances
+servicediscovery:DiscoverInstancesRevision
 servicediscovery:GetInstance
 servicediscovery:GetInstancesHealthStatus
 servicediscovery:GetNamespace
