@@ -4684,6 +4684,7 @@ ec2:DisableAwsNetworkPerformanceMetricSubscription
 ec2:DisableEbsEncryptionByDefault
 ec2:DisableFastLaunch
 ec2:DisableFastSnapshotRestores
+ec2:DisableImageBlockPublicAccess
 ec2:DisableImageDeprecation
 ec2:DisableIpamOrganizationAdminAccount
 ec2:DisableSerialConsoleAccess
@@ -4711,6 +4712,7 @@ ec2:EnableAwsNetworkPerformanceMetricSubscription
 ec2:EnableEbsEncryptionByDefault
 ec2:EnableFastLaunch
 ec2:EnableFastSnapshotRestores
+ec2:EnableImageBlockPublicAccess
 ec2:EnableImageDeprecation
 ec2:EnableIpamOrganizationAdminAccount
 ec2:EnableReachabilityAnalyzerOrganizationSharing
@@ -4737,6 +4739,7 @@ ec2:GetEbsEncryptionByDefault
 ec2:GetFlowLogsIntegrationTemplate
 ec2:GetGroupsForCapacityReservation
 ec2:GetHostReservationPurchasePreview
+ec2:GetImageBlockPublicAccessState
 ec2:GetInstanceTypesFromInstanceRequirements
 ec2:GetInstanceUefiData
 ec2:GetIpamAddressHistory
