@@ -14805,6 +14805,7 @@ workmail:DeregisterFromWorkMail
 workmail:DeregisterMailDomain
 workmail:DescribeDirectories
 workmail:DescribeEmailMonitoringConfiguration
+workmail:DescribeEntity
 workmail:DescribeGroup
 workmail:DescribeInboundDmarcSettings
 workmail:DescribeInboundMailFlowRule
@@ -14846,6 +14847,7 @@ workmail:ListAliases
 workmail:ListAvailabilityConfigurations
 workmail:ListGroupMembers
 workmail:ListGroups
+workmail:ListGroupsForEntity
 workmail:ListImpersonationRoles
 workmail:ListInboundMailFlowRules
 workmail:ListMailDomains
@@ -14887,6 +14889,7 @@ workmail:TestOutboundMailFlowRules
 workmail:UntagResource
 workmail:UpdateAvailabilityConfiguration
 workmail:UpdateDefaultMailDomain
+workmail:UpdateGroup
 workmail:UpdateImpersonationRole
 workmail:UpdateInboundMailFlowRule
 workmail:UpdateMailboxQuota
@@ -14895,6 +14898,7 @@ workmail:UpdateOutboundMailFlowRule
 workmail:UpdatePrimaryEmailAddress
 workmail:UpdateResource
 workmail:UpdateSmtpGateway
+workmail:UpdateUser
 workmail:WipeMobileDevice
 workmailmessageflow:GetRawMessageContent
 workmailmessageflow:PutRawMessageContent
