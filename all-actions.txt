@@ -611,6 +611,7 @@ apprunner:ListConnections
 apprunner:ListObservabilityConfigurations
 apprunner:ListOperations
 apprunner:ListServices
+apprunner:ListServicesForAutoScalingConfiguration
 apprunner:ListTagsForResource
 apprunner:ListVpcConnectors
 apprunner:ListVpcIngressConnections
@@ -619,6 +620,7 @@ apprunner:ResumeService
 apprunner:StartDeployment
 apprunner:TagResource
 apprunner:UntagResource
+apprunner:UpdateDefaultAutoScalingConfiguration
 apprunner:UpdateService
 apprunner:UpdateVpcIngressConnection
 appstream:AssociateAppBlockBuilderAppBlock
