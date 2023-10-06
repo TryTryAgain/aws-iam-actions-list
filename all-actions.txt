@@ -13988,6 +13988,7 @@ support:CreateCase
 support:DescribeAttachment
 support:DescribeCaseAttributes
 support:DescribeCases
+support:DescribeCommunication
 support:DescribeCommunications
 support:DescribeCreateCaseOptions
 support:DescribeIssueTypes
