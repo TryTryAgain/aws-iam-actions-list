@@ -7687,6 +7687,7 @@ iotfleetwise:DeleteVehicle
 iotfleetwise:DisassociateVehicleFleet
 iotfleetwise:GetCampaign
 iotfleetwise:GetDecoderManifest
+iotfleetwise:GetEncryptionConfiguration
 iotfleetwise:GetFleet
 iotfleetwise:GetLoggingOptions
 iotfleetwise:GetModelManifest
@@ -7709,6 +7710,7 @@ iotfleetwise:ListSignalCatalogs
 iotfleetwise:ListTagsForResource
 iotfleetwise:ListVehicles
 iotfleetwise:ListVehiclesInFleet
+iotfleetwise:PutEncryptionConfiguration
 iotfleetwise:PutLoggingOptions
 iotfleetwise:RegisterAccount
 iotfleetwise:TagResource
