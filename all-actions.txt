@@ -6110,6 +6110,7 @@ fsx:ListTagsForResource
 fsx:ManageBackupPrincipalAssociations
 fsx:ReleaseFileSystemNfsV3Locks
 fsx:RestoreVolumeFromSnapshot
+fsx:StartMisconfiguredStateRecovery
 fsx:TagResource
 fsx:UntagResource
 fsx:UpdateDataRepositoryAssociation
