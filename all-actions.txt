@@ -3362,6 +3362,7 @@ controltower:EnableGuardrail
 controltower:GetAccountInfo
 controltower:GetAvailableUpdates
 controltower:GetControlOperation
+controltower:GetEnabledControl
 controltower:GetGuardrailComplianceStatus
 controltower:GetHomeRegion
 controltower:GetLandingZoneDriftStatus
@@ -9212,8 +9213,10 @@ macie2:UpdateResourceProfileDetections
 macie2:UpdateRevealConfiguration
 macie2:UpdateSensitivityInspectionTemplate
 managedblockchain-query:BatchGetTokenBalance
+managedblockchain-query:GetAssetContract
 managedblockchain-query:GetTokenBalance
 managedblockchain-query:GetTransaction
+managedblockchain-query:ListAssetContracts
 managedblockchain-query:ListTokenBalances
 managedblockchain-query:ListTransactionEvents
 managedblockchain-query:ListTransactions
