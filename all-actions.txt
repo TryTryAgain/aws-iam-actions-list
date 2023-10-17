@@ -1561,6 +1561,8 @@ chime:CreateMediaConcatenationPipeline
 chime:CreateMediaInsightsPipeline
 chime:CreateMediaInsightsPipelineConfiguration
 chime:CreateMediaLiveConnectorPipeline
+chime:CreateMediaPipelineKinesisVideoStreamPool
+chime:CreateMediaStreamPipeline
 chime:CreateMeeting
 chime:CreateMeetingDialOut
 chime:CreateMeetingWithAttendees
@@ -1599,6 +1601,7 @@ chime:DeleteGroups
 chime:DeleteMediaCapturePipeline
 chime:DeleteMediaInsightsPipelineConfiguration
 chime:DeleteMediaPipeline
+chime:DeleteMediaPipelineKinesisVideoStreamPool
 chime:DeleteMeeting
 chime:DeleteMessagingStreamingConfigurations
 chime:DeletePhoneNumber
@@ -1654,6 +1657,7 @@ chime:GetGlobalSettings
 chime:GetMediaCapturePipeline
 chime:GetMediaInsightsPipelineConfiguration
 chime:GetMediaPipeline
+chime:GetMediaPipelineKinesisVideoStreamPool
 chime:GetMeeting
 chime:GetMeetingDetail
 chime:GetMessagingSessionEndpoint
@@ -1718,6 +1722,7 @@ chime:ListDomains
 chime:ListGroups
 chime:ListMediaCapturePipelines
 chime:ListMediaInsightsPipelineConfigurations
+chime:ListMediaPipelineKinesisVideoStreamPools
 chime:ListMediaPipelines
 chime:ListMeetingEvents
 chime:ListMeetingTags
@@ -1805,6 +1810,7 @@ chime:UpdateChannelReadMarker
 chime:UpdateGlobalSettings
 chime:UpdateMediaInsightsPipelineConfiguration
 chime:UpdateMediaInsightsPipelineStatus
+chime:UpdateMediaPipelineKinesisVideoStreamPool
 chime:UpdatePhoneNumber
 chime:UpdatePhoneNumberSettings
 chime:UpdateProxySession
@@ -8143,10 +8149,12 @@ kafka:BatchDisassociateScramSecret
 kafka:CreateCluster
 kafka:CreateClusterV2
 kafka:CreateConfiguration
+kafka:CreateReplicator
 kafka:CreateVpcConnection
 kafka:DeleteCluster
 kafka:DeleteClusterPolicy
 kafka:DeleteConfiguration
+kafka:DeleteReplicator
 kafka:DeleteVpcConnection
 kafka:DescribeCluster
 kafka:DescribeClusterOperation
@@ -8154,6 +8162,7 @@ kafka:DescribeClusterOperationV2
 kafka:DescribeClusterV2
 kafka:DescribeConfiguration
 kafka:DescribeConfigurationRevision
+kafka:DescribeReplicator
 kafka:DescribeVpcConnection
 kafka:GetBootstrapBrokers
 kafka:GetClusterPolicy
@@ -8167,6 +8176,7 @@ kafka:ListConfigurationRevisions
 kafka:ListConfigurations
 kafka:ListKafkaVersions
 kafka:ListNodes
+kafka:ListReplicators
 kafka:ListScramSecrets
 kafka:ListTagsForResource
 kafka:ListVpcConnections
@@ -8183,6 +8193,7 @@ kafka:UpdateClusterKafkaVersion
 kafka:UpdateConfiguration
 kafka:UpdateConnectivity
 kafka:UpdateMonitoring
+kafka:UpdateReplicationInfo
 kafka:UpdateSecurity
 kafka:UpdateStorage
 kafkaconnect:CreateConnector
@@ -11836,6 +11847,7 @@ route53-recovery-control-config:DescribeControlPanel
 route53-recovery-control-config:DescribeRoutingControl
 route53-recovery-control-config:DescribeRoutingControlByName
 route53-recovery-control-config:DescribeSafetyRule
+route53-recovery-control-config:GetResourcePolicy
 route53-recovery-control-config:ListAssociatedRoute53HealthChecks
 route53-recovery-control-config:ListClusters
 route53-recovery-control-config:ListControlPanels
