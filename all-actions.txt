@@ -4027,12 +4027,14 @@ directconnect:UpdateDirectConnectGatewayAssociation
 directconnect:UpdateLag
 directconnect:UpdateVirtualInterfaceAttributes
 discovery:AssociateConfigurationItemsToApplication
+discovery:BatchDeleteAgents
 discovery:BatchDeleteImportData
 discovery:CreateApplication
 discovery:CreateTags
 discovery:DeleteApplications
 discovery:DeleteTags
 discovery:DescribeAgents
+discovery:DescribeBatchDeleteConfigurationTask
 discovery:DescribeConfigurations
 discovery:DescribeContinuousExports
 discovery:DescribeExportConfigurations
@@ -4045,6 +4047,7 @@ discovery:GetDiscoverySummary
 discovery:GetNetworkConnectionGraph
 discovery:ListConfigurations
 discovery:ListServerNeighbors
+discovery:StartBatchDeleteConfigurationTask
 discovery:StartContinuousExport
 discovery:StartDataCollectionByAgentIds
 discovery:StartExportTask
