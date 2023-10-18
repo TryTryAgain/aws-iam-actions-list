@@ -5689,9 +5689,11 @@ es:ESHttpPost
 es:ESHttpPut
 es:GetCompatibleElasticsearchVersions
 es:GetCompatibleVersions
+es:GetDomainMaintenanceStatus
 es:GetPackageVersionHistory
 es:GetUpgradeHistory
 es:GetUpgradeStatus
+es:ListDomainMaintenances
 es:ListDomainNames
 es:ListDomainsForPackage
 es:ListElasticsearchInstanceTypeDetails
@@ -5711,6 +5713,7 @@ es:RejectInboundConnection
 es:RejectInboundCrossClusterSearchConnection
 es:RemoveTags
 es:RevokeVpcEndpointAccess
+es:StartDomainMaintenance
 es:StartElasticsearchServiceSoftwareUpdate
 es:StartServiceSoftwareUpdate
 es:UpdateDomainConfig
