@@ -11387,6 +11387,7 @@ redshift-serverless:DeleteResourcePolicy
 redshift-serverless:DeleteSnapshot
 redshift-serverless:DeleteUsageLimit
 redshift-serverless:DeleteWorkgroup
+redshift-serverless:DescribeOneTimeCredit
 redshift-serverless:GetCredentials
 redshift-serverless:GetEndpointAccess
 redshift-serverless:GetNamespace
