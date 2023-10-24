@@ -292,15 +292,19 @@ amplifyuibuilder:UpdateForm
 amplifyuibuilder:UpdateTheme
 aoss:APIAccessAll
 aoss:BatchGetCollection
+aoss:BatchGetEffectiveLifecyclePolicy
+aoss:BatchGetLifecyclePolicy
 aoss:BatchGetVpcEndpoint
 aoss:CreateAccessPolicy
 aoss:CreateCollection
+aoss:CreateLifecyclePolicy
 aoss:CreateSecurityConfig
 aoss:CreateSecurityPolicy
 aoss:CreateVpcEndpoint
 aoss:DashboardsAccessAll
 aoss:DeleteAccessPolicy
 aoss:DeleteCollection
+aoss:DeleteLifecyclePolicy
 aoss:DeleteSecurityConfig
 aoss:DeleteSecurityPolicy
 aoss:DeleteVpcEndpoint
@@ -311,6 +315,7 @@ aoss:GetSecurityConfig
 aoss:GetSecurityPolicy
 aoss:ListAccessPolicies
 aoss:ListCollections
+aoss:ListLifecyclePolicies
 aoss:ListSecurityConfigs
 aoss:ListSecurityPolicies
 aoss:ListTagsForResource
@@ -320,6 +325,7 @@ aoss:UntagResource
 aoss:UpdateAccessPolicy
 aoss:UpdateAccountSettings
 aoss:UpdateCollection
+aoss:UpdateLifecyclePolicy
 aoss:UpdateSecurityConfig
 aoss:UpdateSecurityPolicy
 aoss:UpdateVpcEndpoint
