@@ -11752,9 +11752,6 @@ resource-explorer-2:TagResource
 resource-explorer-2:UntagResource
 resource-explorer-2:UpdateIndexType
 resource-explorer-2:UpdateView
-resource-explorer:ListResourceTypes
-resource-explorer:ListResources
-resource-explorer:ListTags
 resource-groups:CreateGroup
 resource-groups:DeleteGroup
 resource-groups:GetAccountSettings
