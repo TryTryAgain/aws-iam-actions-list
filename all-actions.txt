@@ -482,6 +482,20 @@ application-cost-profiler:ImportApplicationUsage
 application-cost-profiler:ListReportDefinitions
 application-cost-profiler:PutReportDefinition
 application-cost-profiler:UpdateReportDefinition
+application-transformation:GetContainerization
+application-transformation:GetDeployment
+application-transformation:GetGroupingAssessment
+application-transformation:GetPortingCompatibilityAssessment
+application-transformation:GetPortingRecommendationAssessment
+application-transformation:GetRuntimeAssessment
+application-transformation:PutLogData
+application-transformation:PutMetricData
+application-transformation:StartContainerization
+application-transformation:StartDeployment
+application-transformation:StartGroupingAssessment
+application-transformation:StartPortingCompatibilityAssessment
+application-transformation:StartPortingRecommendationAssessment
+application-transformation:StartRuntimeAssessment
 applicationinsights:AddWorkload
 applicationinsights:CreateApplication
 applicationinsights:CreateComponent
@@ -4850,6 +4864,7 @@ ec2:DisableAwsNetworkPerformanceMetricSubscription
 ec2:DisableEbsEncryptionByDefault
 ec2:DisableFastLaunch
 ec2:DisableFastSnapshotRestores
+ec2:DisableImage
 ec2:DisableImageBlockPublicAccess
 ec2:DisableImageDeprecation
 ec2:DisableIpamOrganizationAdminAccount
@@ -4878,6 +4893,7 @@ ec2:EnableAwsNetworkPerformanceMetricSubscription
 ec2:EnableEbsEncryptionByDefault
 ec2:EnableFastLaunch
 ec2:EnableFastSnapshotRestores
+ec2:EnableImage
 ec2:EnableImageBlockPublicAccess
 ec2:EnableImageDeprecation
 ec2:EnableIpamOrganizationAdminAccount
