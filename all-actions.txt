@@ -3833,6 +3833,7 @@ deepracer:GetTrack
 deepracer:GetTrainingJob
 deepracer:ImportModel
 deepracer:ListEvaluations
+deepracer:ListLeaderboardEvaluations
 deepracer:ListLeaderboardSubmissions
 deepracer:ListLeaderboards
 deepracer:ListModels
@@ -11376,11 +11377,13 @@ redshift-data:ListSchemas
 redshift-data:ListStatements
 redshift-data:ListTables
 redshift-serverless:ConvertRecoveryPointToSnapshot
+redshift-serverless:CreateCustomDomainAssociation
 redshift-serverless:CreateEndpointAccess
 redshift-serverless:CreateNamespace
 redshift-serverless:CreateSnapshot
 redshift-serverless:CreateUsageLimit
 redshift-serverless:CreateWorkgroup
+redshift-serverless:DeleteCustomDomainAssociation
 redshift-serverless:DeleteEndpointAccess
 redshift-serverless:DeleteNamespace
 redshift-serverless:DeleteResourcePolicy
@@ -11389,6 +11392,7 @@ redshift-serverless:DeleteUsageLimit
 redshift-serverless:DeleteWorkgroup
 redshift-serverless:DescribeOneTimeCredit
 redshift-serverless:GetCredentials
+redshift-serverless:GetCustomDomainAssociation
 redshift-serverless:GetEndpointAccess
 redshift-serverless:GetNamespace
 redshift-serverless:GetRecoveryPoint
@@ -11397,6 +11401,7 @@ redshift-serverless:GetSnapshot
 redshift-serverless:GetTableRestoreStatus
 redshift-serverless:GetUsageLimit
 redshift-serverless:GetWorkgroup
+redshift-serverless:ListCustomDomainAssociations
 redshift-serverless:ListEndpointAccess
 redshift-serverless:ListNamespaces
 redshift-serverless:ListRecoveryPoints
@@ -11411,6 +11416,7 @@ redshift-serverless:RestoreFromSnapshot
 redshift-serverless:RestoreTableFromSnapshot
 redshift-serverless:TagResource
 redshift-serverless:UntagResource
+redshift-serverless:UpdateCustomDomainAssociation
 redshift-serverless:UpdateEndpointAccess
 redshift-serverless:UpdateNamespace
 redshift-serverless:UpdateSnapshot
