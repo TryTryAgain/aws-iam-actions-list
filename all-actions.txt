@@ -2770,7 +2770,10 @@ cognito-identity:DescribeIdentity
 cognito-identity:DescribeIdentityPool
 cognito-identity:GetCredentialsForIdentity
 cognito-identity:GetId
+cognito-identity:GetIdentityPoolAnalytics
+cognito-identity:GetIdentityPoolDailyAnalytics
 cognito-identity:GetIdentityPoolRoles
+cognito-identity:GetIdentityProviderDailyAnalytics
 cognito-identity:GetOpenIdToken
 cognito-identity:GetOpenIdTokenForDeveloperIdentity
 cognito-identity:GetPrincipalTagAttributeMap
