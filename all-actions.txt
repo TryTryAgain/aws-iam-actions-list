@@ -3177,6 +3177,7 @@ connect:AssociateTrafficDistributionGroupUser
 connect:BatchAssociateAnalyticsDataSet
 connect:BatchDisassociateAnalyticsDataSet
 connect:BatchGetFlowAssociation
+connect:BatchPutContact
 connect:ClaimPhoneNumber
 connect:CreateAgentStatus
 connect:CreateContactFlow
