@@ -4940,6 +4940,7 @@ ec2:GetNetworkInsightsAccessScopeContent
 ec2:GetPasswordData
 ec2:GetReservedInstancesExchangeQuote
 ec2:GetResourcePolicy
+ec2:GetSecurityGroupsForVpc
 ec2:GetSerialConsoleAccessStatus
 ec2:GetSpotPlacementScores
 ec2:GetSubnetCidrReservations
@@ -4963,6 +4964,7 @@ ec2:ImportInstance
 ec2:ImportKeyPair
 ec2:ImportSnapshot
 ec2:ImportVolume
+ec2:InjectApiError
 ec2:ListImagesInRecycleBin
 ec2:ListSnapshotsInRecycleBin
 ec2:ModifyAddressAttribute
