@@ -11785,8 +11785,10 @@ resource-explorer-2:TagResource
 resource-explorer-2:UntagResource
 resource-explorer-2:UpdateIndexType
 resource-explorer-2:UpdateView
+resource-groups:AssociateResource
 resource-groups:CreateGroup
 resource-groups:DeleteGroup
+resource-groups:DisassociateResource
 resource-groups:GetAccountSettings
 resource-groups:GetGroup
 resource-groups:GetGroupConfiguration
