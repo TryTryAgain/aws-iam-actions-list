@@ -10603,6 +10603,9 @@ panorama:SignalApplicationInstanceNodeInstances
 panorama:TagResource
 panorama:UntagResource
 panorama:UpdateDeviceMetadata
+partnercentral-account-management:AssociatePartnerAccount
+partnercentral-account-management:AssociatePartnerUser
+partnercentral-account-management:DisassociatePartnerUser
 payment-cryptography:CreateAlias
 payment-cryptography:CreateKey
 payment-cryptography:DecryptData
