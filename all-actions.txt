@@ -2956,6 +2956,7 @@ comprehend:DetectPiiEntities
 comprehend:DetectSentiment
 comprehend:DetectSyntax
 comprehend:DetectTargetedSentiment
+comprehend:DetectToxicContent
 comprehend:ImportModel
 comprehend:ListDatasets
 comprehend:ListDocumentClassificationJobs
@@ -5236,10 +5237,12 @@ eks:AssociateEncryptionConfig
 eks:AssociateIdentityProviderConfig
 eks:CreateAddon
 eks:CreateCluster
+eks:CreateEksAnywhereSubscription
 eks:CreateFargateProfile
 eks:CreateNodegroup
 eks:DeleteAddon
 eks:DeleteCluster
+eks:DeleteEksAnywhereSubscription
 eks:DeleteFargateProfile
 eks:DeleteNodegroup
 eks:DeregisterCluster
@@ -5247,6 +5250,7 @@ eks:DescribeAddon
 eks:DescribeAddonConfiguration
 eks:DescribeAddonVersions
 eks:DescribeCluster
+eks:DescribeEksAnywhereSubscription
 eks:DescribeFargateProfile
 eks:DescribeIdentityProviderConfig
 eks:DescribeNodegroup
@@ -5254,6 +5258,7 @@ eks:DescribeUpdate
 eks:DisassociateIdentityProviderConfig
 eks:ListAddons
 eks:ListClusters
+eks:ListEksAnywhereSubscriptions
 eks:ListFargateProfiles
 eks:ListIdentityProviderConfigs
 eks:ListNodegroups
@@ -5265,6 +5270,7 @@ eks:UntagResource
 eks:UpdateAddon
 eks:UpdateClusterConfig
 eks:UpdateClusterVersion
+eks:UpdateEksAnywhereSubscription
 eks:UpdateNodegroupConfig
 eks:UpdateNodegroupVersion
 elastic-inference:Connect
@@ -8954,12 +8960,17 @@ lightsail:UpdateRelationalDatabase
 lightsail:UpdateRelationalDatabaseParameters
 logs:AssociateKmsKey
 logs:CancelExportTask
+logs:CreateDelivery
 logs:CreateExportTask
 logs:CreateLogDelivery
 logs:CreateLogGroup
 logs:CreateLogStream
 logs:DeleteAccountPolicy
 logs:DeleteDataProtectionPolicy
+logs:DeleteDelivery
+logs:DeleteDeliveryDestination
+logs:DeleteDeliveryDestinationPolicy
+logs:DeleteDeliverySource
 logs:DeleteDestination
 logs:DeleteLogDelivery
 logs:DeleteLogGroup
@@ -8970,6 +8981,9 @@ logs:DeleteResourcePolicy
 logs:DeleteRetentionPolicy
 logs:DeleteSubscriptionFilter
 logs:DescribeAccountPolicies
+logs:DescribeDeliveries
+logs:DescribeDeliveryDestinations
+logs:DescribeDeliverySources
 logs:DescribeDestinations
 logs:DescribeExportTasks
 logs:DescribeLogGroups
@@ -8982,6 +8996,10 @@ logs:DescribeSubscriptionFilters
 logs:DisassociateKmsKey
 logs:FilterLogEvents
 logs:GetDataProtectionPolicy
+logs:GetDelivery
+logs:GetDeliveryDestination
+logs:GetDeliveryDestinationPolicy
+logs:GetDeliverySource
 logs:GetLogDelivery
 logs:GetLogEvents
 logs:GetLogGroupFields
@@ -8993,6 +9011,9 @@ logs:ListTagsForResource
 logs:ListTagsLogGroup
 logs:PutAccountPolicy
 logs:PutDataProtectionPolicy
+logs:PutDeliveryDestination
+logs:PutDeliveryDestinationPolicy
+logs:PutDeliverySource
 logs:PutDestination
 logs:PutDestinationPolicy
 logs:PutLogEvents
