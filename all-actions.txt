@@ -2747,6 +2747,7 @@ codestar:UpdateProject
 codestar:UpdateTeamMember
 codestar:UpdateUserProfile
 codestar:VerifyServiceRole
+codewhisperer:AllowVendedLogDeliveryForResource
 codewhisperer:AssociateCustomizationPermission
 codewhisperer:CreateCustomization
 codewhisperer:CreateProfile
