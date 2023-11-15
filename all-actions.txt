@@ -1203,12 +1203,14 @@ backup:GetBackupVaultSharingPolicy
 backup:GetLegalHold
 backup:GetRecoveryPointRestoreMetadata
 backup:GetSupportedResourceTypes
+backup:ListBackupJobSummaries
 backup:ListBackupJobs
 backup:ListBackupPlanTemplates
 backup:ListBackupPlanVersions
 backup:ListBackupPlans
 backup:ListBackupSelections
 backup:ListBackupVaults
+backup:ListCopyJobSummaries
 backup:ListCopyJobs
 backup:ListFrameworks
 backup:ListLegalHolds
@@ -1219,6 +1221,7 @@ backup:ListRecoveryPointsByLegalHold
 backup:ListRecoveryPointsByResource
 backup:ListReportJobs
 backup:ListReportPlans
+backup:ListRestoreJobSummaries
 backup:ListRestoreJobs
 backup:ListTags
 backup:PutBackupVaultAccessPolicy
