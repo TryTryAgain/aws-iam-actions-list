@@ -13650,6 +13650,7 @@ ssm-contacts:UpdateRotation
 ssm-guiconnect:CancelConnection
 ssm-guiconnect:GetConnection
 ssm-guiconnect:StartConnection
+ssm-incidents:BatchGetIncidentFindings
 ssm-incidents:CreateReplicationSet
 ssm-incidents:CreateResponsePlan
 ssm-incidents:CreateTimelineEvent
@@ -13663,6 +13664,7 @@ ssm-incidents:GetReplicationSet
 ssm-incidents:GetResourcePolicies
 ssm-incidents:GetResponsePlan
 ssm-incidents:GetTimelineEvent
+ssm-incidents:ListIncidentFindings
 ssm-incidents:ListIncidentRecords
 ssm-incidents:ListRelatedItems
 ssm-incidents:ListReplicationSets
