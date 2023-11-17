@@ -14181,6 +14181,7 @@ sts:GetCallerIdentity
 sts:GetFederationToken
 sts:GetServiceBearerToken
 sts:GetSessionToken
+sts:SetContext
 sts:SetSourceIdentity
 sts:TagSession
 support:AddAttachmentsToSet
