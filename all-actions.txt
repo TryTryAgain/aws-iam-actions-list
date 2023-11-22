@@ -11597,6 +11597,7 @@ redshift:CreateEndpointAccess
 redshift:CreateEventSubscription
 redshift:CreateHsmClientCertificate
 redshift:CreateHsmConfiguration
+redshift:CreateRedshiftIdcApplication
 redshift:CreateSavedQuery
 redshift:CreateScheduledAction
 redshift:CreateSnapshotCopyGrant
@@ -11616,6 +11617,7 @@ redshift:DeleteEventSubscription
 redshift:DeleteHsmClientCertificate
 redshift:DeleteHsmConfiguration
 redshift:DeletePartner
+redshift:DeleteRedshiftIdcApplication
 redshift:DeleteResourcePolicy
 redshift:DeleteSavedQueries
 redshift:DeleteScheduledAction
@@ -11652,6 +11654,7 @@ redshift:DescribeNodeConfigurationOptions
 redshift:DescribeOrderableClusterOptions
 redshift:DescribePartners
 redshift:DescribeQuery
+redshift:DescribeRedshiftIdcApplications
 redshift:DescribeReservedNodeExchangeStatus
 redshift:DescribeReservedNodeOfferings
 redshift:DescribeReservedNodes
@@ -11696,6 +11699,7 @@ redshift:ModifyClusterSubnetGroup
 redshift:ModifyCustomDomainAssociation
 redshift:ModifyEndpointAccess
 redshift:ModifyEventSubscription
+redshift:ModifyRedshiftIdcApplication
 redshift:ModifySavedQuery
 redshift:ModifyScheduledAction
 redshift:ModifySnapshotCopyRetentionPeriod
