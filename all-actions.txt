@@ -4541,6 +4541,7 @@ ec2:AssociateDhcpOptions
 ec2:AssociateEnclaveCertificateIamRole
 ec2:AssociateIamInstanceProfile
 ec2:AssociateInstanceEventWindow
+ec2:AssociateIpamByoasn
 ec2:AssociateIpamResourceDiscovery
 ec2:AssociateNatGatewayAddress
 ec2:AssociateRouteTable
@@ -4737,6 +4738,7 @@ ec2:DeleteVpnConnection
 ec2:DeleteVpnConnectionRoute
 ec2:DeleteVpnGateway
 ec2:DeprovisionByoipCidr
+ec2:DeprovisionIpamByoasn
 ec2:DeprovisionIpamPoolCidr
 ec2:DeprovisionPublicIpv4PoolCidr
 ec2:DeregisterImage
@@ -4752,6 +4754,7 @@ ec2:DescribeAvailabilityZones
 ec2:DescribeAwsNetworkPerformanceMetricSubscriptions
 ec2:DescribeBundleTasks
 ec2:DescribeByoipCidrs
+ec2:DescribeCapacityBlockOfferings
 ec2:DescribeCapacityReservationFleets
 ec2:DescribeCapacityReservations
 ec2:DescribeCarrierGateways
@@ -4793,10 +4796,12 @@ ec2:DescribeInstanceCreditSpecifications
 ec2:DescribeInstanceEventNotificationAttributes
 ec2:DescribeInstanceEventWindows
 ec2:DescribeInstanceStatus
+ec2:DescribeInstanceTopology
 ec2:DescribeInstanceTypeOfferings
 ec2:DescribeInstanceTypes
 ec2:DescribeInstances
 ec2:DescribeInternetGateways
+ec2:DescribeIpamByoasn
 ec2:DescribeIpamPools
 ec2:DescribeIpamResourceDiscoveries
 ec2:DescribeIpamResourceDiscoveryAssociations
@@ -4813,6 +4818,7 @@ ec2:DescribeLocalGatewayRouteTables
 ec2:DescribeLocalGatewayVirtualInterfaceGroups
 ec2:DescribeLocalGatewayVirtualInterfaces
 ec2:DescribeLocalGateways
+ec2:DescribeLockedSnapshots
 ec2:DescribeManagedPrefixLists
 ec2:DescribeMovingAddresses
 ec2:DescribeNatGateways
@@ -4906,6 +4912,7 @@ ec2:DisableImageBlockPublicAccess
 ec2:DisableImageDeprecation
 ec2:DisableIpamOrganizationAdminAccount
 ec2:DisableSerialConsoleAccess
+ec2:DisableSnapshotBlockPublicAccess
 ec2:DisableTransitGatewayRouteTablePropagation
 ec2:DisableVgwRoutePropagation
 ec2:DisableVpcClassicLink
@@ -4915,6 +4922,7 @@ ec2:DisassociateClientVpnTargetNetwork
 ec2:DisassociateEnclaveCertificateIamRole
 ec2:DisassociateIamInstanceProfile
 ec2:DisassociateInstanceEventWindow
+ec2:DisassociateIpamByoasn
 ec2:DisassociateIpamResourceDiscovery
 ec2:DisassociateNatGatewayAddress
 ec2:DisassociateRouteTable
@@ -4936,6 +4944,7 @@ ec2:EnableImageDeprecation
 ec2:EnableIpamOrganizationAdminAccount
 ec2:EnableReachabilityAnalyzerOrganizationSharing
 ec2:EnableSerialConsoleAccess
+ec2:EnableSnapshotBlockPublicAccess
 ec2:EnableTransitGatewayRouteTablePropagation
 ec2:EnableVgwRoutePropagation
 ec2:EnableVolumeIO
@@ -4963,6 +4972,7 @@ ec2:GetInstanceTypesFromInstanceRequirements
 ec2:GetInstanceUefiData
 ec2:GetIpamAddressHistory
 ec2:GetIpamDiscoveredAccounts
+ec2:GetIpamDiscoveredPublicAddresses
 ec2:GetIpamDiscoveredResourceCidrs
 ec2:GetIpamPoolAllocations
 ec2:GetIpamPoolCidrs
@@ -4977,6 +4987,7 @@ ec2:GetReservedInstancesExchangeQuote
 ec2:GetResourcePolicy
 ec2:GetSecurityGroupsForVpc
 ec2:GetSerialConsoleAccessStatus
+ec2:GetSnapshotBlockPublicAccessState
 ec2:GetSpotPlacementScores
 ec2:GetSubnetCidrReservations
 ec2:GetTransitGatewayAttachmentPropagations
@@ -5002,6 +5013,7 @@ ec2:ImportVolume
 ec2:InjectApiError
 ec2:ListImagesInRecycleBin
 ec2:ListSnapshotsInRecycleBin
+ec2:LockSnapshot
 ec2:ModifyAddressAttribute
 ec2:ModifyAvailabilityZoneGroup
 ec2:ModifyCapacityReservation
@@ -5071,8 +5083,10 @@ ec2:MoveAddressToVpc
 ec2:MoveByoipCidrToIpam
 ec2:PauseVolumeIO
 ec2:ProvisionByoipCidr
+ec2:ProvisionIpamByoasn
 ec2:ProvisionIpamPoolCidr
 ec2:ProvisionPublicIpv4PoolCidr
+ec2:PurchaseCapacityBlock
 ec2:PurchaseHostReservation
 ec2:PurchaseReservedInstancesOffering
 ec2:PurchaseScheduledInstances
@@ -5132,6 +5146,7 @@ ec2:TerminateInstances
 ec2:UnassignIpv6Addresses
 ec2:UnassignPrivateIpAddresses
 ec2:UnassignPrivateNatGatewayAddress
+ec2:UnlockSnapshot
 ec2:UnmonitorInstances
 ec2:UpdateSecurityGroupRuleDescriptionsEgress
 ec2:UpdateSecurityGroupRuleDescriptionsIngress
