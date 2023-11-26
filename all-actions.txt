@@ -3470,6 +3470,13 @@ controltower:SetupLandingZone
 controltower:TagResource
 controltower:UntagResource
 controltower:UpdateAccountFactoryConfig
+cost-optimization-hub:GetPreferences
+cost-optimization-hub:GetRecommendation
+cost-optimization-hub:ListEnrollmentStatuses
+cost-optimization-hub:ListRecommendationSummaries
+cost-optimization-hub:ListRecommendations
+cost-optimization-hub:UpdateEnrollmentStatus
+cost-optimization-hub:UpdatePreferences
 cur:DeleteReportDefinition
 cur:DescribeReportDefinitions
 cur:GetClassicReport
@@ -9416,6 +9423,8 @@ managedblockchain:GetProposal
 managedblockchain:Invoke
 managedblockchain:InvokeRpcBitcoinMainnet
 managedblockchain:InvokeRpcBitcoinTestnet
+managedblockchain:InvokeRpcPolygonMainnet
+managedblockchain:InvokeRpcPolygonMumbaiTestnet
 managedblockchain:ListAccessors
 managedblockchain:ListInvitations
 managedblockchain:ListMembers
