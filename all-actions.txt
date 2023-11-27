@@ -100,6 +100,8 @@ a4b:UpdateRoom
 a4b:UpdateSkillGroup
 access-analyzer:ApplyArchiveRule
 access-analyzer:CancelPolicyGeneration
+access-analyzer:CheckAccessNotGranted
+access-analyzer:CheckNoNewAccess
 access-analyzer:CreateAccessPreview
 access-analyzer:CreateAnalyzer
 access-analyzer:CreateArchiveRule
@@ -110,6 +112,7 @@ access-analyzer:GetAnalyzedResource
 access-analyzer:GetAnalyzer
 access-analyzer:GetArchiveRule
 access-analyzer:GetFinding
+access-analyzer:GetFindingsStatistics
 access-analyzer:GetGeneratedPolicy
 access-analyzer:ListAccessPreviewFindings
 access-analyzer:ListAccessPreviews
@@ -2302,8 +2305,11 @@ cloudtrail:DeleteTrail
 cloudtrail:DeregisterOrganizationDelegatedAdmin
 cloudtrail:DescribeQuery
 cloudtrail:DescribeTrails
+cloudtrail:DisableFederation
+cloudtrail:EnableFederation
 cloudtrail:GetChannel
 cloudtrail:GetEventDataStore
+cloudtrail:GetEventDataStoreData
 cloudtrail:GetEventSelectors
 cloudtrail:GetImport
 cloudtrail:GetInsightSelectors
@@ -3949,22 +3955,28 @@ detective:DisassociateMembership
 detective:EnableOrganizationAdminAccount
 detective:GetFreeTrialEligibility
 detective:GetGraphIngestState
+detective:GetInvestigation
 detective:GetMembers
 detective:GetPricingInformation
 detective:GetUsageInformation
+detective:InvokeAssistant
 detective:ListDatasourcePackages
 detective:ListGraphs
 detective:ListHighDegreeEntities
+detective:ListIndicators
+detective:ListInvestigations
 detective:ListInvitations
 detective:ListMembers
 detective:ListOrganizationAdminAccount
 detective:ListTagsForResource
 detective:RejectInvitation
 detective:SearchGraph
+detective:StartInvestigation
 detective:StartMonitoringMember
 detective:TagResource
 detective:UntagResource
 detective:UpdateDatasourcePackages
+detective:UpdateInvestigationState
 detective:UpdateOrganizationConfiguration
 devicefarm:CreateDevicePool
 devicefarm:CreateInstanceProfile
@@ -5328,6 +5340,7 @@ ecs:UpdateService
 ecs:UpdateServicePrimaryTaskSet
 ecs:UpdateTaskProtection
 ecs:UpdateTaskSet
+eks-auth:AssumeRoleForPodIdentity
 eks:AccessKubernetesApi
 eks:AssociateEncryptionConfig
 eks:AssociateIdentityProviderConfig
@@ -5336,11 +5349,13 @@ eks:CreateCluster
 eks:CreateEksAnywhereSubscription
 eks:CreateFargateProfile
 eks:CreateNodegroup
+eks:CreatePodIdentityAssociation
 eks:DeleteAddon
 eks:DeleteCluster
 eks:DeleteEksAnywhereSubscription
 eks:DeleteFargateProfile
 eks:DeleteNodegroup
+eks:DeletePodIdentityAssociation
 eks:DeregisterCluster
 eks:DescribeAddon
 eks:DescribeAddonConfiguration
@@ -5350,6 +5365,7 @@ eks:DescribeEksAnywhereSubscription
 eks:DescribeFargateProfile
 eks:DescribeIdentityProviderConfig
 eks:DescribeNodegroup
+eks:DescribePodIdentityAssociation
 eks:DescribeUpdate
 eks:DisassociateIdentityProviderConfig
 eks:ListAddons
@@ -5358,6 +5374,7 @@ eks:ListEksAnywhereSubscriptions
 eks:ListFargateProfiles
 eks:ListIdentityProviderConfigs
 eks:ListNodegroups
+eks:ListPodIdentityAssociations
 eks:ListTagsForResource
 eks:ListUpdates
 eks:RegisterCluster
@@ -5369,6 +5386,7 @@ eks:UpdateClusterVersion
 eks:UpdateEksAnywhereSubscription
 eks:UpdateNodegroupConfig
 eks:UpdateNodegroupVersion
+eks:UpdatePodIdentityAssociation
 elastic-inference:Connect
 elastic-inference:DescribeAcceleratorOfferings
 elastic-inference:DescribeAcceleratorTypes
@@ -5926,6 +5944,7 @@ events:PutRule
 events:PutTargets
 events:RemovePermission
 events:RemoveTargets
+events:RetrieveConnectionCredentials
 events:StartReplay
 events:TagResource
 events:TestEventPattern
@@ -6265,6 +6284,7 @@ fsx:AssociateFileSystemAliases
 fsx:BypassSnaplockEnterpriseRetention
 fsx:CancelDataRepositoryTask
 fsx:CopyBackup
+fsx:CopySnapshotAndUpdateVolume
 fsx:CreateBackup
 fsx:CreateDataRepositoryAssociation
 fsx:CreateDataRepositoryTask
@@ -6289,6 +6309,7 @@ fsx:DescribeDataRepositoryTasks
 fsx:DescribeFileCaches
 fsx:DescribeFileSystemAliases
 fsx:DescribeFileSystems
+fsx:DescribeSharedVpcConfiguration
 fsx:DescribeSnapshots
 fsx:DescribeStorageVirtualMachines
 fsx:DescribeVolumes
@@ -6304,6 +6325,7 @@ fsx:UntagResource
 fsx:UpdateDataRepositoryAssociation
 fsx:UpdateFileCache
 fsx:UpdateFileSystem
+fsx:UpdateSharedVpcConfiguration
 fsx:UpdateSnapshot
 fsx:UpdateStorageVirtualMachine
 fsx:UpdateVolume
@@ -13010,6 +13032,7 @@ sdb:GetAttributes
 sdb:ListDomains
 sdb:PutAttributes
 sdb:Select
+secretsmanager:BatchGetSecretValue
 secretsmanager:CancelRotateSecret
 secretsmanager:CreateSecret
 secretsmanager:DeleteResourcePolicy
@@ -13086,6 +13109,7 @@ securityhub:GetInsights
 securityhub:GetInvitationsCount
 securityhub:GetMasterAccount
 securityhub:GetMembers
+securityhub:GetSecurityControlDefinition
 securityhub:GetUsage
 securityhub:InviteMembers
 securityhub:ListAutomationRules
@@ -13107,6 +13131,7 @@ securityhub:UpdateFindingAggregator
 securityhub:UpdateFindings
 securityhub:UpdateInsight
 securityhub:UpdateOrganizationConfiguration
+securityhub:UpdateSecurityControl
 securityhub:UpdateSecurityHubConfiguration
 securityhub:UpdateStandardsControl
 securitylake:CreateAwsLogSource
@@ -14258,6 +14283,7 @@ states:DescribeStateMachineAlias
 states:DescribeStateMachineForExecution
 states:GetActivityTask
 states:GetExecutionHistory
+states:InvokeHTTPEndpoint
 states:ListActivities
 states:ListExecutions
 states:ListMapRuns
@@ -14267,6 +14293,7 @@ states:ListStateMachines
 states:ListTagsForResource
 states:PublishStateMachineVersion
 states:RedriveExecution
+states:RevealSecrets
 states:SendTaskFailure
 states:SendTaskHeartbeat
 states:SendTaskSuccess
@@ -14274,6 +14301,7 @@ states:StartExecution
 states:StartSyncExecution
 states:StopExecution
 states:TagResource
+states:TestState
 states:UntagResource
 states:UpdateMapRun
 states:UpdateStateMachine
@@ -14539,6 +14567,23 @@ textract:StartLendingAnalysis
 textract:TagResource
 textract:UntagResource
 textract:UpdateAdapter
+thinclient:CreateEnvironment
+thinclient:DeleteDevice
+thinclient:DeleteEnvironment
+thinclient:DeregisterDevice
+thinclient:GetDevice
+thinclient:GetEnvironment
+thinclient:GetSoftwareSet
+thinclient:ListDeviceSessions
+thinclient:ListDevices
+thinclient:ListEnvironments
+thinclient:ListSoftwareSets
+thinclient:ListTagsForResource
+thinclient:TagResource
+thinclient:UntagResource
+thinclient:UpdateDevice
+thinclient:UpdateEnvironment
+thinclient:UpdateSoftwareSet
 timestream:CancelQuery
 timestream:CreateBatchLoadTask
 timestream:CreateDatabase
