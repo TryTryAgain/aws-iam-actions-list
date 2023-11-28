@@ -755,6 +755,7 @@ appsync:FlushApiCache
 appsync:GetApiAssociation
 appsync:GetApiCache
 appsync:GetDataSource
+appsync:GetDataSourceIntrospection
 appsync:GetDomainName
 appsync:GetFunction
 appsync:GetGraphqlApi
@@ -779,6 +780,7 @@ appsync:ListTypesByAssociation
 appsync:PutResourcePolicy
 appsync:SetWebACL
 appsync:SourceGraphQL
+appsync:StartDataSourceIntrospection
 appsync:StartSchemaCreation
 appsync:StartSchemaMerge
 appsync:TagResource
@@ -11965,6 +11967,17 @@ rekognition:TagResource
 rekognition:UntagResource
 rekognition:UpdateDatasetEntries
 rekognition:UpdateStreamProcessor
+repostspace:CreateSpace
+repostspace:DeleteSpace
+repostspace:DeregisterAdmin
+repostspace:GetSpace
+repostspace:ListSpaces
+repostspace:ListTagsForResource
+repostspace:RegisterAdmin
+repostspace:SendInvites
+repostspace:TagResource
+repostspace:UntagResource
+repostspace:UpdateSpace
 resiliencehub:AddDraftAppVersionResourceMappings
 resiliencehub:BatchUpdateRecommendationStatus
 resiliencehub:CreateApp
@@ -13103,6 +13116,7 @@ securityhub:BatchDeleteAutomationRules
 securityhub:BatchDisableStandards
 securityhub:BatchEnableStandards
 securityhub:BatchGetAutomationRules
+securityhub:BatchGetConfigurationPolicyAssociations
 securityhub:BatchGetControlEvaluations
 securityhub:BatchGetSecurityControls
 securityhub:BatchGetStandardsControlAssociations
@@ -13112,11 +13126,13 @@ securityhub:BatchUpdateFindings
 securityhub:BatchUpdateStandardsControlAssociations
 securityhub:CreateActionTarget
 securityhub:CreateAutomationRule
+securityhub:CreateConfigurationPolicy
 securityhub:CreateFindingAggregator
 securityhub:CreateInsight
 securityhub:CreateMembers
 securityhub:DeclineInvitations
 securityhub:DeleteActionTarget
+securityhub:DeleteConfigurationPolicy
 securityhub:DeleteFindingAggregator
 securityhub:DeleteInsight
 securityhub:DeleteInvitations
@@ -13138,6 +13154,8 @@ securityhub:EnableOrganizationAdminAccount
 securityhub:EnableSecurityHub
 securityhub:GetAdhocInsightResults
 securityhub:GetAdministratorAccount
+securityhub:GetConfigurationPolicy
+securityhub:GetConfigurationPolicyAssociation
 securityhub:GetControlFindingSummary
 securityhub:GetEnabledStandards
 securityhub:GetFindingAggregator
@@ -13155,6 +13173,8 @@ securityhub:GetSecurityControlDefinition
 securityhub:GetUsage
 securityhub:InviteMembers
 securityhub:ListAutomationRules
+securityhub:ListConfigurationPolicies
+securityhub:ListConfigurationPolicyAssociations
 securityhub:ListControlEvaluationSummaries
 securityhub:ListEnabledProductsForImport
 securityhub:ListFindingAggregators
@@ -13166,9 +13186,12 @@ securityhub:ListStandardsControlAssociations
 securityhub:ListTagsForResource
 securityhub:SendFindingEvents
 securityhub:SendInsightEvents
+securityhub:StartConfigurationPolicyAssociation
+securityhub:StartConfigurationPolicyDisassociation
 securityhub:TagResource
 securityhub:UntagResource
 securityhub:UpdateActionTarget
+securityhub:UpdateConfigurationPolicy
 securityhub:UpdateFindingAggregator
 securityhub:UpdateFindings
 securityhub:UpdateInsight
@@ -14707,6 +14730,7 @@ transcribe:CreateVocabularyFilter
 transcribe:DeleteCallAnalyticsCategory
 transcribe:DeleteCallAnalyticsJob
 transcribe:DeleteLanguageModel
+transcribe:DeleteMedicalScribeJob
 transcribe:DeleteMedicalTranscriptionJob
 transcribe:DeleteMedicalVocabulary
 transcribe:DeleteTranscriptionJob
@@ -14715,6 +14739,7 @@ transcribe:DeleteVocabularyFilter
 transcribe:DescribeLanguageModel
 transcribe:GetCallAnalyticsCategory
 transcribe:GetCallAnalyticsJob
+transcribe:GetMedicalScribeJob
 transcribe:GetMedicalTranscriptionJob
 transcribe:GetMedicalVocabulary
 transcribe:GetTranscriptionJob
@@ -14723,6 +14748,7 @@ transcribe:GetVocabularyFilter
 transcribe:ListCallAnalyticsCategories
 transcribe:ListCallAnalyticsJobs
 transcribe:ListLanguageModels
+transcribe:ListMedicalScribeJobs
 transcribe:ListMedicalTranscriptionJobs
 transcribe:ListMedicalVocabularies
 transcribe:ListTagsForResource
@@ -14732,6 +14758,7 @@ transcribe:ListVocabularyFilters
 transcribe:StartCallAnalyticsJob
 transcribe:StartCallAnalyticsStreamTranscription
 transcribe:StartCallAnalyticsStreamTranscriptionWebSocket
+transcribe:StartMedicalScribeJob
 transcribe:StartMedicalStreamTranscription
 transcribe:StartMedicalStreamTranscriptionWebSocket
 transcribe:StartMedicalTranscriptionJob
@@ -14873,6 +14900,15 @@ trustedadvisor:UpdateNotificationPreferences
 trustedadvisor:UpdateOrganizationRecommendationLifecycle
 trustedadvisor:UpdateRecommendationLifecycle
 trustedadvisor:UpdateRiskStatus
+ts:GetExecution
+ts:GetExecutionOutput
+ts:GetTool
+ts:ListExecutions
+ts:ListTagsForResource
+ts:ListTools
+ts:StartExecution
+ts:TagResource
+ts:UntagResource
 vendor-insights:ActivateSecurityProfile
 vendor-insights:AssociateDataSource
 vendor-insights:CreateDataSource
