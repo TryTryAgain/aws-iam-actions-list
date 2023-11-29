@@ -3516,6 +3516,7 @@ consoleapp:GetDeviceIdentity
 consoleapp:ListDeviceIdentities
 consolidatedbilling:GetAccountBillingRole
 consolidatedbilling:ListLinkedAccounts
+controltower:CreateLandingZone
 controltower:CreateManagedAccount
 controltower:DeleteLandingZone
 controltower:DeregisterManagedAccount
@@ -3539,7 +3540,9 @@ controltower:GetControlOperation
 controltower:GetEnabledControl
 controltower:GetGuardrailComplianceStatus
 controltower:GetHomeRegion
+controltower:GetLandingZone
 controltower:GetLandingZoneDriftStatus
+controltower:GetLandingZoneOperation
 controltower:GetLandingZoneStatus
 controltower:ListDirectoryGroups
 controltower:ListDriftDetails
@@ -3550,6 +3553,7 @@ controltower:ListExternalConfigRuleCompliance
 controltower:ListGuardrailViolations
 controltower:ListGuardrails
 controltower:ListGuardrailsForTarget
+controltower:ListLandingZones
 controltower:ListManagedAccounts
 controltower:ListManagedAccountsForGuardrail
 controltower:ListManagedAccountsForParent
@@ -3558,10 +3562,13 @@ controltower:ListManagedOrganizationalUnitsForGuardrail
 controltower:ListTagsForResource
 controltower:ManageOrganizationalUnit
 controltower:PerformPreLaunchChecks
+controltower:ResetLandingZone
 controltower:SetupLandingZone
 controltower:TagResource
 controltower:UntagResource
 controltower:UpdateAccountFactoryConfig
+controltower:UpdateEnabledControl
+controltower:UpdateLandingZone
 cost-optimization-hub:GetPreferences
 cost-optimization-hub:GetRecommendation
 cost-optimization-hub:ListEnrollmentStatuses
