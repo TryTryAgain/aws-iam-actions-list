@@ -6749,6 +6749,7 @@ glue:BatchGetCustomEntityTypes
 glue:BatchGetDevEndpoints
 glue:BatchGetJobs
 glue:BatchGetPartition
+glue:BatchGetTableOptimizer
 glue:BatchGetTriggers
 glue:BatchGetWorkflows
 glue:BatchStopJobRun
@@ -6776,6 +6777,7 @@ glue:CreateScript
 glue:CreateSecurityConfiguration
 glue:CreateSession
 glue:CreateTable
+glue:CreateTableOptimizer
 glue:CreateTrigger
 glue:CreateUserDefinedFunction
 glue:CreateWorkflow
@@ -6800,6 +6802,7 @@ glue:DeleteSchemaVersions
 glue:DeleteSecurityConfiguration
 glue:DeleteSession
 glue:DeleteTable
+glue:DeleteTableOptimizer
 glue:DeleteTableVersion
 glue:DeleteTrigger
 glue:DeleteUserDefinedFunction
@@ -6813,6 +6816,8 @@ glue:GetClassifier
 glue:GetClassifiers
 glue:GetColumnStatisticsForPartition
 glue:GetColumnStatisticsForTable
+glue:GetColumnStatisticsTaskRun
+glue:GetColumnStatisticsTaskRuns
 glue:GetCompletion
 glue:GetConnection
 glue:GetConnections
@@ -6858,6 +6863,7 @@ glue:GetSecurityConfigurations
 glue:GetSession
 glue:GetStatement
 glue:GetTable
+glue:GetTableOptimizer
 glue:GetTableVersion
 glue:GetTableVersions
 glue:GetTables
@@ -6874,6 +6880,7 @@ glue:GlueNotebookAuthorize
 glue:GlueNotebookRefreshCredentials
 glue:ImportCatalogToGlue
 glue:ListBlueprints
+glue:ListColumnStatisticsTaskRuns
 glue:ListCrawlers
 glue:ListCrawls
 glue:ListCustomEntityTypes
@@ -6889,9 +6896,11 @@ glue:ListSchemaVersions
 glue:ListSchemas
 glue:ListSessions
 glue:ListStatements
+glue:ListTableOptimizerRuns
 glue:ListTriggers
 glue:ListWorkflows
 glue:NotifyEvent
+glue:PassConnection
 glue:PublishDataQuality
 glue:PutDataCatalogEncryptionSettings
 glue:PutResourcePolicy
@@ -6907,6 +6916,7 @@ glue:RunStatement
 glue:SearchTables
 glue:SendFeedback
 glue:StartBlueprintRun
+glue:StartColumnStatisticsTaskRun
 glue:StartCompletion
 glue:StartCrawler
 glue:StartCrawlerSchedule
@@ -6920,6 +6930,7 @@ glue:StartMLLabelingSetGenerationTaskRun
 glue:StartNotebook
 glue:StartTrigger
 glue:StartWorkflowRun
+glue:StopColumnStatisticsTaskRun
 glue:StopCrawler
 glue:StopCrawlerSchedule
 glue:StopSession
@@ -6947,6 +6958,7 @@ glue:UpdateRegistry
 glue:UpdateSchema
 glue:UpdateSourceControlFromJob
 glue:UpdateTable
+glue:UpdateTableOptimizer
 glue:UpdateTrigger
 glue:UpdateUserDefinedFunction
 glue:UpdateWorkflow
