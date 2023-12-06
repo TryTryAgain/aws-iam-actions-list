@@ -3383,6 +3383,7 @@ connect:CreateHoursOfOperation
 connect:CreateInstance
 connect:CreateIntegrationAssociation
 connect:CreateParticipant
+connect:CreatePersistentContactAssociation
 connect:CreatePredefinedAttribute
 connect:CreatePrompt
 connect:CreateQueue
