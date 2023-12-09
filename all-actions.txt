@@ -3676,9 +3676,12 @@ cur:DescribeReportDefinitions
 cur:GetClassicReport
 cur:GetClassicReportPreferences
 cur:GetUsageReport
+cur:ListTagsForResource
 cur:ModifyReportDefinition
 cur:PutClassicReportPreferences
 cur:PutReportDefinition
+cur:TagResource
+cur:UntagResource
 cur:ValidateReportDestination
 customer-verification:CreateCustomerVerificationDetails
 customer-verification:GetCustomerVerificationDetails
