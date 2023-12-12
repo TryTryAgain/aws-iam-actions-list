@@ -9042,6 +9042,7 @@ lex:DescribeBotAlias
 lex:DescribeBotChannel
 lex:DescribeBotLocale
 lex:DescribeBotRecommendation
+lex:DescribeBotResourceGeneration
 lex:DescribeBotVersion
 lex:DescribeCustomVocabulary
 lex:DescribeCustomVocabularyMetadata
@@ -9055,6 +9056,7 @@ lex:DescribeTestExecution
 lex:DescribeTestSet
 lex:DescribeTestSetDiscrepancyReport
 lex:DescribeTestSetGeneration
+lex:GenerateBotElement
 lex:GetBot
 lex:GetBotAlias
 lex:GetBotAliases
@@ -9083,6 +9085,7 @@ lex:ListBotAliases
 lex:ListBotChannels
 lex:ListBotLocales
 lex:ListBotRecommendations
+lex:ListBotResourceGenerations
 lex:ListBotVersions
 lex:ListBots
 lex:ListBuiltInIntents
@@ -9115,6 +9118,7 @@ lex:RecognizeText
 lex:RecognizeUtterance
 lex:SearchAssociatedTranscripts
 lex:StartBotRecommendation
+lex:StartBotResourceGeneration
 lex:StartConversation
 lex:StartImport
 lex:StartMigration
