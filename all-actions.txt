@@ -7522,6 +7522,7 @@ imagebuilder:CreateImagePipeline
 imagebuilder:CreateImageRecipe
 imagebuilder:CreateInfrastructureConfiguration
 imagebuilder:CreateLifecyclePolicy
+imagebuilder:CreateWorkflow
 imagebuilder:DeleteComponent
 imagebuilder:DeleteContainerRecipe
 imagebuilder:DeleteDistributionConfiguration
@@ -7530,6 +7531,7 @@ imagebuilder:DeleteImagePipeline
 imagebuilder:DeleteImageRecipe
 imagebuilder:DeleteInfrastructureConfiguration
 imagebuilder:DeleteLifecyclePolicy
+imagebuilder:DeleteWorkflow
 imagebuilder:GetComponent
 imagebuilder:GetComponentPolicy
 imagebuilder:GetContainerRecipe
@@ -7543,6 +7545,7 @@ imagebuilder:GetImageRecipePolicy
 imagebuilder:GetInfrastructureConfiguration
 imagebuilder:GetLifecycleExecution
 imagebuilder:GetLifecyclePolicy
+imagebuilder:GetWorkflow
 imagebuilder:GetWorkflowExecution
 imagebuilder:GetWorkflowStepExecution
 imagebuilder:ImportComponent
@@ -7564,12 +7567,16 @@ imagebuilder:ListLifecycleExecutionResources
 imagebuilder:ListLifecycleExecutions
 imagebuilder:ListLifecyclePolicies
 imagebuilder:ListTagsForResource
+imagebuilder:ListWaitingWorkflowSteps
+imagebuilder:ListWorkflowBuildVersions
 imagebuilder:ListWorkflowExecutions
 imagebuilder:ListWorkflowStepExecutions
+imagebuilder:ListWorkflows
 imagebuilder:PutComponentPolicy
 imagebuilder:PutContainerRecipePolicy
 imagebuilder:PutImagePolicy
 imagebuilder:PutImageRecipePolicy
+imagebuilder:SendWorkflowStepAction
 imagebuilder:StartImagePipelineExecution
 imagebuilder:StartResourceStateUpdate
 imagebuilder:TagResource
