@@ -1458,6 +1458,7 @@ billingconductor:DeletePricingPlan
 billingconductor:DeletePricingRule
 billingconductor:DisassociateAccounts
 billingconductor:DisassociatePricingRules
+billingconductor:GetBillingGroupCostReport
 billingconductor:ListAccountAssociations
 billingconductor:ListBillingGroupCostReports
 billingconductor:ListBillingGroups
