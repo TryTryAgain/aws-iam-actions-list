@@ -6512,6 +6512,7 @@ fsx:DeleteBackup
 fsx:DeleteDataRepositoryAssociation
 fsx:DeleteFileCache
 fsx:DeleteFileSystem
+fsx:DeleteResourcePolicy
 fsx:DeleteSnapshot
 fsx:DeleteStorageVirtualMachine
 fsx:DeleteVolume
@@ -6528,8 +6529,10 @@ fsx:DescribeStorageVirtualMachines
 fsx:DescribeVolumes
 fsx:DisassociateFileGateway
 fsx:DisassociateFileSystemAliases
+fsx:GetResourcePolicy
 fsx:ListTagsForResource
 fsx:ManageBackupPrincipalAssociations
+fsx:PutResourcePolicy
 fsx:ReleaseFileSystemNfsV3Locks
 fsx:RestoreVolumeFromSnapshot
 fsx:StartMisconfiguredStateRecovery
@@ -11763,6 +11766,7 @@ quicksight:UpdateAnalysis
 quicksight:UpdateAnalysisPermissions
 quicksight:UpdateCustomPermissions
 quicksight:UpdateDashboard
+quicksight:UpdateDashboardLinks
 quicksight:UpdateDashboardPermissions
 quicksight:UpdateDashboardPublishedVersion
 quicksight:UpdateDataSet
