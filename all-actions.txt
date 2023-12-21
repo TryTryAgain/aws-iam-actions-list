@@ -5533,6 +5533,7 @@ eks:DescribeCluster
 eks:DescribeEksAnywhereSubscription
 eks:DescribeFargateProfile
 eks:DescribeIdentityProviderConfig
+eks:DescribeInsight
 eks:DescribeNodegroup
 eks:DescribePodIdentityAssociation
 eks:DescribeUpdate
@@ -5546,6 +5547,7 @@ eks:ListClusters
 eks:ListEksAnywhereSubscriptions
 eks:ListFargateProfiles
 eks:ListIdentityProviderConfigs
+eks:ListInsights
 eks:ListNodegroups
 eks:ListPodIdentityAssociations
 eks:ListTagsForResource
