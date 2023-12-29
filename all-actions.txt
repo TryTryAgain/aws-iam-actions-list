@@ -342,10 +342,13 @@ apigateway:RemoveCertificateFromDomain
 apigateway:SetWebACL
 apigateway:UpdateRestApiPolicy
 app-integrations:CreateApplication
+app-integrations:CreateApplicationAssociation
 app-integrations:CreateDataIntegration
 app-integrations:CreateDataIntegrationAssociation
 app-integrations:CreateEventIntegration
 app-integrations:CreateEventIntegrationAssociation
+app-integrations:DeleteApplication
+app-integrations:DeleteApplicationAssociation
 app-integrations:DeleteDataIntegration
 app-integrations:DeleteDataIntegrationAssociation
 app-integrations:DeleteEventIntegration
@@ -353,6 +356,7 @@ app-integrations:DeleteEventIntegrationAssociation
 app-integrations:GetApplication
 app-integrations:GetDataIntegration
 app-integrations:GetEventIntegration
+app-integrations:ListApplicationAssociations
 app-integrations:ListApplications
 app-integrations:ListDataIntegrationAssociations
 app-integrations:ListDataIntegrations
