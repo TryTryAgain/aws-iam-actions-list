@@ -4709,6 +4709,7 @@ dynamodb:EnableKinesisStreamingDestination
 dynamodb:ExportTableToPointInTime
 dynamodb:GetItem
 dynamodb:GetRecords
+dynamodb:GetResourcePolicy
 dynamodb:GetShardIterator
 dynamodb:ImportTable
 dynamodb:ListBackups
@@ -7778,6 +7779,7 @@ iot:CreateAuditSuppression
 iot:CreateAuthorizer
 iot:CreateBillingGroup
 iot:CreateCertificateFromCsr
+iot:CreateCertificateProvider
 iot:CreateCustomMetric
 iot:CreateDimension
 iot:CreateDomainConfiguration
@@ -7810,6 +7812,7 @@ iot:DeleteAuthorizer
 iot:DeleteBillingGroup
 iot:DeleteCACertificate
 iot:DeleteCertificate
+iot:DeleteCertificateProvider
 iot:DeleteCustomMetric
 iot:DeleteDimension
 iot:DeleteDomainConfiguration
@@ -7848,6 +7851,7 @@ iot:DescribeAuthorizer
 iot:DescribeBillingGroup
 iot:DescribeCACertificate
 iot:DescribeCertificate
+iot:DescribeCertificateProvider
 iot:DescribeCustomMetric
 iot:DescribeDefaultAuthorizer
 iot:DescribeDetectMitigationActionsTask
@@ -7910,6 +7914,7 @@ iot:ListAuditTasks
 iot:ListAuthorizers
 iot:ListBillingGroups
 iot:ListCACertificates
+iot:ListCertificateProviders
 iot:ListCertificates
 iot:ListCertificatesByCA
 iot:ListCustomMetrics
@@ -7999,6 +8004,7 @@ iot:UpdateAuthorizer
 iot:UpdateBillingGroup
 iot:UpdateCACertificate
 iot:UpdateCertificate
+iot:UpdateCertificateProvider
 iot:UpdateCustomMetric
 iot:UpdateDimension
 iot:UpdateDomainConfiguration
