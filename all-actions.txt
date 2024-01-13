@@ -13473,11 +13473,13 @@ schemas:UpdateDiscoverer
 schemas:UpdateRegistry
 schemas:UpdateSchema
 scn:AssignAdminPermissionsToUser
+scn:CreateBillOfMaterialsImportJob
 scn:CreateInstance
 scn:CreateSSOApplication
 scn:DeleteInstance
 scn:DeleteSSOApplication
 scn:DescribeInstance
+scn:GetBillOfMaterialsImportJob
 scn:ListAdminUsers
 scn:ListInstances
 scn:ListTagsForResource
