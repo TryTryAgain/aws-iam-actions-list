@@ -2571,16 +2571,19 @@ codeartifact:UpdateRepository
 codebuild:BatchDeleteBuilds
 codebuild:BatchGetBuildBatches
 codebuild:BatchGetBuilds
+codebuild:BatchGetFleets
 codebuild:BatchGetProjects
 codebuild:BatchGetReportGroups
 codebuild:BatchGetReports
 codebuild:BatchPutCodeCoverages
 codebuild:BatchPutTestCases
+codebuild:CreateFleet
 codebuild:CreateProject
 codebuild:CreateReport
 codebuild:CreateReportGroup
 codebuild:CreateWebhook
 codebuild:DeleteBuildBatch
+codebuild:DeleteFleet
 codebuild:DeleteOAuthToken
 codebuild:DeleteProject
 codebuild:DeleteReport
@@ -2600,6 +2603,7 @@ codebuild:ListBuilds
 codebuild:ListBuildsForProject
 codebuild:ListConnectedOAuthAccounts
 codebuild:ListCuratedEnvironmentImages
+codebuild:ListFleets
 codebuild:ListProjects
 codebuild:ListReportGroups
 codebuild:ListReports
@@ -2616,6 +2620,7 @@ codebuild:StartBuild
 codebuild:StartBuildBatch
 codebuild:StopBuild
 codebuild:StopBuildBatch
+codebuild:UpdateFleet
 codebuild:UpdateProject
 codebuild:UpdateProjectVisibility
 codebuild:UpdateReport
