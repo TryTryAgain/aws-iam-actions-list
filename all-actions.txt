@@ -1534,6 +1534,7 @@ cases:CreateRelatedItem
 cases:CreateTemplate
 cases:DeleteDomain
 cases:GetCase
+cases:GetCaseAuditEvents
 cases:GetCaseEventConfiguration
 cases:GetDomain
 cases:GetLayout
