@@ -7641,9 +7641,11 @@ inspector2:BatchGetMemberEc2DeepInspectionStatus
 inspector2:BatchUpdateMemberEc2DeepInspectionStatus
 inspector2:CancelFindingsReport
 inspector2:CancelSbomExport
+inspector2:CreateCisScanConfiguration
 inspector2:CreateFilter
 inspector2:CreateFindingsReport
 inspector2:CreateSbomExport
+inspector2:DeleteCisScanConfiguration
 inspector2:DeleteFilter
 inspector2:DescribeOrganizationConfiguration
 inspector2:Disable
@@ -7651,6 +7653,8 @@ inspector2:DisableDelegatedAdminAccount
 inspector2:DisassociateMember
 inspector2:Enable
 inspector2:EnableDelegatedAdminAccount
+inspector2:GetCisScanReport
+inspector2:GetCisScanResultDetails
 inspector2:GetConfiguration
 inspector2:GetDelegatedAdminAccount
 inspector2:GetEc2DeepInspectionConfiguration
@@ -7659,6 +7663,10 @@ inspector2:GetFindingsReportStatus
 inspector2:GetMember
 inspector2:GetSbomExport
 inspector2:ListAccountPermissions
+inspector2:ListCisScanConfigurations
+inspector2:ListCisScanResultsAggregatedByChecks
+inspector2:ListCisScanResultsAggregatedByTargetResource
+inspector2:ListCisScans
 inspector2:ListCoverage
 inspector2:ListCoverageStatistics
 inspector2:ListDelegatedAdminAccounts
@@ -7670,8 +7678,13 @@ inspector2:ListTagsForResource
 inspector2:ListUsageTotals
 inspector2:ResetEncryptionKey
 inspector2:SearchVulnerabilities
+inspector2:SendCisSessionHealth
+inspector2:SendCisSessionTelemetry
+inspector2:StartCisSession
+inspector2:StopCisSession
 inspector2:TagResource
 inspector2:UntagResource
+inspector2:UpdateCisScanConfiguration
 inspector2:UpdateConfiguration
 inspector2:UpdateEc2DeepInspectionConfiguration
 inspector2:UpdateEncryptionKey
