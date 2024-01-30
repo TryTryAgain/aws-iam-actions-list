@@ -9858,6 +9858,7 @@ mediaconnect:DeleteGateway
 mediaconnect:DeregisterGatewayInstance
 mediaconnect:DescribeBridge
 mediaconnect:DescribeFlow
+mediaconnect:DescribeFlowSourceMetadata
 mediaconnect:DescribeGateway
 mediaconnect:DescribeGatewayInstance
 mediaconnect:DescribeOffering
