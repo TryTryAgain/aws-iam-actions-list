@@ -11935,6 +11935,7 @@ rds:CreateDBParameterGroup
 rds:CreateDBProxy
 rds:CreateDBProxyEndpoint
 rds:CreateDBSecurityGroup
+rds:CreateDBShardGroup
 rds:CreateDBSnapshot
 rds:CreateDBSubnetGroup
 rds:CreateEventSubscription
@@ -11956,6 +11957,7 @@ rds:DeleteDBParameterGroup
 rds:DeleteDBProxy
 rds:DeleteDBProxyEndpoint
 rds:DeleteDBSecurityGroup
+rds:DeleteDBShardGroup
 rds:DeleteDBSnapshot
 rds:DeleteDBSubnetGroup
 rds:DeleteEventSubscription
@@ -11987,6 +11989,7 @@ rds:DescribeDBProxyTargetGroups
 rds:DescribeDBProxyTargets
 rds:DescribeDBRecommendations
 rds:DescribeDBSecurityGroups
+rds:DescribeDBShardGroups
 rds:DescribeDBSnapshotAttributes
 rds:DescribeDBSnapshots
 rds:DescribeDBSubnetGroups
@@ -12031,6 +12034,7 @@ rds:ModifyDBProxy
 rds:ModifyDBProxyEndpoint
 rds:ModifyDBProxyTargetGroup
 rds:ModifyDBRecommendation
+rds:ModifyDBShardGroup
 rds:ModifyDBSnapshot
 rds:ModifyDBSnapshotAttribute
 rds:ModifyDBSubnetGroup
@@ -12044,6 +12048,7 @@ rds:PromoteReadReplicaDBCluster
 rds:PurchaseReservedDBInstancesOffering
 rds:RebootDBCluster
 rds:RebootDBInstance
+rds:RebootDBShardGroup
 rds:RegisterDBProxyTargets
 rds:RemoveFromGlobalCluster
 rds:RemoveRoleFromDBCluster
