@@ -13196,6 +13196,7 @@ sagemaker:DeleteHub
 sagemaker:DeleteHubContent
 sagemaker:DeleteHumanLoop
 sagemaker:DeleteHumanTaskUi
+sagemaker:DeleteHyperParameterTuningJob
 sagemaker:DeleteImage
 sagemaker:DeleteImageVersion
 sagemaker:DeleteInferenceComponent
