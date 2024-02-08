@@ -12273,6 +12273,7 @@ redshift:GetReservedNodeExchangeOfferings
 redshift:GetResourcePolicy
 redshift:JoinGroup
 redshift:ListDatabases
+redshift:ListRecommendations
 redshift:ListSavedQueries
 redshift:ListSchemas
 redshift:ListTables
