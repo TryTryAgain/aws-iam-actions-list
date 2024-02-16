@@ -13465,6 +13465,7 @@ sagemaker:UpdateAction
 sagemaker:UpdateAppImageConfig
 sagemaker:UpdateArtifact
 sagemaker:UpdateCluster
+sagemaker:UpdateClusterSoftware
 sagemaker:UpdateCodeRepository
 sagemaker:UpdateContext
 sagemaker:UpdateDeviceFleet
