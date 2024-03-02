@@ -285,11 +285,14 @@ amplifyuibuilder:GetTheme
 amplifyuibuilder:ListCodegenJobs
 amplifyuibuilder:ListComponents
 amplifyuibuilder:ListForms
+amplifyuibuilder:ListTagsForResource
 amplifyuibuilder:ListThemes
 amplifyuibuilder:PutMetadataFlag
 amplifyuibuilder:RefreshToken
 amplifyuibuilder:ResetMetadataFlag
 amplifyuibuilder:StartCodegenJob
+amplifyuibuilder:TagResource
+amplifyuibuilder:UntagResource
 amplifyuibuilder:UpdateComponent
 amplifyuibuilder:UpdateForm
 amplifyuibuilder:UpdateTheme
@@ -15684,6 +15687,7 @@ wafv2:CreateIPSet
 wafv2:CreateRegexPatternSet
 wafv2:CreateRuleGroup
 wafv2:CreateWebACL
+wafv2:DeleteAPIKey
 wafv2:DeleteFirewallManagerRuleGroups
 wafv2:DeleteIPSet
 wafv2:DeleteLoggingConfiguration
