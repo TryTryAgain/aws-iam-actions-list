@@ -8706,12 +8706,16 @@ kafkaconnect:CreateCustomPlugin
 kafkaconnect:CreateWorkerConfiguration
 kafkaconnect:DeleteConnector
 kafkaconnect:DeleteCustomPlugin
+kafkaconnect:DeleteWorkerConfiguration
 kafkaconnect:DescribeConnector
 kafkaconnect:DescribeCustomPlugin
 kafkaconnect:DescribeWorkerConfiguration
 kafkaconnect:ListConnectors
 kafkaconnect:ListCustomPlugins
+kafkaconnect:ListTagsForResource
 kafkaconnect:ListWorkerConfigurations
+kafkaconnect:TagResource
+kafkaconnect:UntagResource
 kafkaconnect:UpdateConnector
 kendra-ranking:CreateRescoreExecutionPlan
 kendra-ranking:DeleteRescoreExecutionPlan
