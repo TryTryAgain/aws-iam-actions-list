@@ -11593,6 +11593,7 @@ purchase-orders:UpdatePurchaseOrderStatus
 purchase-orders:ViewPurchaseOrders
 q:GetConversation
 q:GetTroubleshootingResults
+q:ListConversations
 q:SendMessage
 q:StartConversation
 q:StartTroubleshootingAnalysis
