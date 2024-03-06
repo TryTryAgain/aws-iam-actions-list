@@ -7545,6 +7545,7 @@ iam:UploadCloudFrontPublicKey
 iam:UploadSSHPublicKey
 iam:UploadServerCertificate
 iam:UploadSigningCertificate
+identity-sync:AllowVendedLogDeliveryForResource
 identity-sync:CreateSyncFilter
 identity-sync:CreateSyncProfile
 identity-sync:CreateSyncTarget
@@ -12199,6 +12200,7 @@ redshift:CreateEndpointAccess
 redshift:CreateEventSubscription
 redshift:CreateHsmClientCertificate
 redshift:CreateHsmConfiguration
+redshift:CreateQev2IdcApplication
 redshift:CreateRedshiftIdcApplication
 redshift:CreateSavedQuery
 redshift:CreateScheduledAction
@@ -12219,6 +12221,7 @@ redshift:DeleteEventSubscription
 redshift:DeleteHsmClientCertificate
 redshift:DeleteHsmConfiguration
 redshift:DeletePartner
+redshift:DeleteQev2IdcApplication
 redshift:DeleteRedshiftIdcApplication
 redshift:DeleteResourcePolicy
 redshift:DeleteSavedQueries
@@ -12255,6 +12258,7 @@ redshift:DescribeLoggingStatus
 redshift:DescribeNodeConfigurationOptions
 redshift:DescribeOrderableClusterOptions
 redshift:DescribePartners
+redshift:DescribeQev2IdcApplications
 redshift:DescribeQuery
 redshift:DescribeRedshiftIdcApplications
 redshift:DescribeReservedNodeExchangeStatus
@@ -12302,6 +12306,7 @@ redshift:ModifyClusterSubnetGroup
 redshift:ModifyCustomDomainAssociation
 redshift:ModifyEndpointAccess
 redshift:ModifyEventSubscription
+redshift:ModifyQev2IdcApplication
 redshift:ModifyRedshiftIdcApplication
 redshift:ModifySavedQuery
 redshift:ModifyScheduledAction
