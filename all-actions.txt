@@ -5913,6 +5913,7 @@ elasticmapreduce:RemoveTags
 elasticmapreduce:RunJobFlow
 elasticmapreduce:SetKeepJobFlowAliveWhenNoSteps
 elasticmapreduce:SetTerminationProtection
+elasticmapreduce:SetUnhealthyNodeReplacement
 elasticmapreduce:SetVisibleToAllUsers
 elasticmapreduce:StartEditor
 elasticmapreduce:StartNotebookExecution
