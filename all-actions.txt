@@ -9114,6 +9114,7 @@ lex:CreateBot
 lex:CreateBotAlias
 lex:CreateBotChannel
 lex:CreateBotLocale
+lex:CreateBotReplica
 lex:CreateBotVersion
 lex:CreateCustomVocabulary
 lex:CreateExport
@@ -9131,6 +9132,7 @@ lex:DeleteBotAlias
 lex:DeleteBotChannel
 lex:DeleteBotChannelAssociation
 lex:DeleteBotLocale
+lex:DeleteBotReplica
 lex:DeleteBotVersion
 lex:DeleteCustomVocabulary
 lex:DeleteExport
@@ -9149,6 +9151,7 @@ lex:DescribeBotAlias
 lex:DescribeBotChannel
 lex:DescribeBotLocale
 lex:DescribeBotRecommendation
+lex:DescribeBotReplica
 lex:DescribeBotResourceGeneration
 lex:DescribeBotVersion
 lex:DescribeCustomVocabulary
@@ -9188,11 +9191,14 @@ lex:GetSlotTypes
 lex:GetTestExecutionArtifactsUrl
 lex:GetUtterancesView
 lex:ListAggregatedUtterances
+lex:ListBotAliasReplicas
 lex:ListBotAliases
 lex:ListBotChannels
 lex:ListBotLocales
 lex:ListBotRecommendations
+lex:ListBotReplicas
 lex:ListBotResourceGenerations
+lex:ListBotVersionReplicas
 lex:ListBotVersions
 lex:ListBots
 lex:ListBuiltInIntents
