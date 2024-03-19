@@ -9809,6 +9809,7 @@ managedblockchain-query:GetAssetContract
 managedblockchain-query:GetTokenBalance
 managedblockchain-query:GetTransaction
 managedblockchain-query:ListAssetContracts
+managedblockchain-query:ListFilteredTransactionEvents
 managedblockchain-query:ListTokenBalances
 managedblockchain-query:ListTransactionEvents
 managedblockchain-query:ListTransactions
