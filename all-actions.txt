@@ -15984,6 +15984,7 @@ worklink:UpdateDomainMetadata
 worklink:UpdateFleetMetadata
 worklink:UpdateIdentityProviderConfiguration
 workmail:AddMembersToGroup
+workmail:AllowVendedLogDeliveryForResource
 workmail:AssociateDelegateToResource
 workmail:AssociateMemberToGroup
 workmail:AssumeImpersonationRole
