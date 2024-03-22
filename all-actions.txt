@@ -7777,6 +7777,7 @@ internetmonitor:GetHealthEvent
 internetmonitor:GetMonitor
 internetmonitor:GetQueryResults
 internetmonitor:GetQueryStatus
+internetmonitor:Link
 internetmonitor:ListHealthEvents
 internetmonitor:ListMonitors
 internetmonitor:ListTagsForResource
