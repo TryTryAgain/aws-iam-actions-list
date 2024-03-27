@@ -6268,6 +6268,7 @@ finspace:CreateKxVolume
 finspace:CreateUser
 finspace:DeleteEnvironment
 finspace:DeleteKxCluster
+finspace:DeleteKxClusterNode
 finspace:DeleteKxDatabase
 finspace:DeleteKxDataview
 finspace:DeleteKxEnvironment
