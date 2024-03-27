@@ -5100,6 +5100,7 @@ ec2:DescribeLocalGatewayVirtualInterfaceGroups
 ec2:DescribeLocalGatewayVirtualInterfaces
 ec2:DescribeLocalGateways
 ec2:DescribeLockedSnapshots
+ec2:DescribeMacHosts
 ec2:DescribeManagedPrefixLists
 ec2:DescribeMovingAddresses
 ec2:DescribeNatGateways
@@ -5249,6 +5250,7 @@ ec2:GetFlowLogsIntegrationTemplate
 ec2:GetGroupsForCapacityReservation
 ec2:GetHostReservationPurchasePreview
 ec2:GetImageBlockPublicAccessState
+ec2:GetInstanceMetadataDefaults
 ec2:GetInstanceTypesFromInstanceRequirements
 ec2:GetInstanceUefiData
 ec2:GetIpamAddressHistory
@@ -5314,6 +5316,7 @@ ec2:ModifyInstanceCreditSpecification
 ec2:ModifyInstanceEventStartTime
 ec2:ModifyInstanceEventWindow
 ec2:ModifyInstanceMaintenanceOptions
+ec2:ModifyInstanceMetadataDefaults
 ec2:ModifyInstanceMetadataOptions
 ec2:ModifyInstancePlacement
 ec2:ModifyIpam
