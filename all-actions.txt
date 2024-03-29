@@ -16033,7 +16033,6 @@ workmail:CreateGroup
 workmail:CreateImpersonationRole
 workmail:CreateInboundMailFlowRule
 workmail:CreateMailDomain
-workmail:CreateMailUser
 workmail:CreateMobileDeviceAccessRule
 workmail:CreateOrganization
 workmail:CreateOutboundMailFlowRule
@@ -16077,13 +16076,9 @@ workmail:DescribeOutboundMailFlowRule
 workmail:DescribeResource
 workmail:DescribeSmtpGateway
 workmail:DescribeUser
-workmail:DisableMailGroups
-workmail:DisableMailUsers
 workmail:DisassociateDelegateFromResource
 workmail:DisassociateMemberFromGroup
 workmail:EnableMailDomain
-workmail:EnableMailGroups
-workmail:EnableMailUsers
 workmail:GetAccessControlEffect
 workmail:GetDefaultRetentionPolicy
 workmail:GetImpersonationRole
@@ -16092,7 +16087,6 @@ workmail:GetJournalingRules
 workmail:GetMailDomain
 workmail:GetMailDomainDetails
 workmail:GetMailGroupDetails
-workmail:GetMailUserDetails
 workmail:GetMailboxDetails
 workmail:GetMobileDeviceAccessEffect
 workmail:GetMobileDeviceAccessOverride
@@ -16135,8 +16129,6 @@ workmail:SearchMembers
 workmail:SetAdmin
 workmail:SetDefaultMailDomain
 workmail:SetJournalingRules
-workmail:SetMailGroupDetails
-workmail:SetMailUserDetails
 workmail:SetMobilePolicyDetails
 workmail:StartMailboxExportJob
 workmail:TagResource
