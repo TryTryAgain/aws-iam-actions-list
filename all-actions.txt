@@ -8486,6 +8486,8 @@ iotwireless:GetDeviceProfile
 iotwireless:GetEventConfigurationByResourceTypes
 iotwireless:GetFuotaTask
 iotwireless:GetLogLevelsByResourceTypes
+iotwireless:GetMetricConfiguration
+iotwireless:GetMetrics
 iotwireless:GetMulticastGroup
 iotwireless:GetMulticastGroupSession
 iotwireless:GetNetworkAnalyzerConfiguration
@@ -8544,6 +8546,7 @@ iotwireless:UpdateDestination
 iotwireless:UpdateEventConfigurationByResourceTypes
 iotwireless:UpdateFuotaTask
 iotwireless:UpdateLogLevelsByResourceTypes
+iotwireless:UpdateMetricConfiguration
 iotwireless:UpdateMulticastGroup
 iotwireless:UpdateNetworkAnalyzerConfiguration
 iotwireless:UpdatePartnerAccount
