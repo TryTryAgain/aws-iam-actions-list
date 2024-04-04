@@ -4690,6 +4690,7 @@ dms:UpdateInstanceProfile
 dms:UpdateMigrationProject
 dms:UpdateSubscriptionsToEventBridge
 dms:UploadFileMetadataList
+docdb-elastic:CopyClusterSnapshot
 docdb-elastic:CreateCluster
 docdb-elastic:CreateClusterSnapshot
 docdb-elastic:DeleteCluster
@@ -4700,6 +4701,8 @@ docdb-elastic:ListClusterSnapshots
 docdb-elastic:ListClusters
 docdb-elastic:ListTagsForResource
 docdb-elastic:RestoreClusterFromSnapshot
+docdb-elastic:StartCluster
+docdb-elastic:StopCluster
 docdb-elastic:TagResource
 docdb-elastic:UntagResource
 docdb-elastic:UpdateCluster
