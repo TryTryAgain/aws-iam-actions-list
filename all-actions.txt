@@ -12284,6 +12284,7 @@ rds:ModifyDBSnapshotAttribute
 rds:ModifyDBSubnetGroup
 rds:ModifyEventSubscription
 rds:ModifyGlobalCluster
+rds:ModifyIntegration
 rds:ModifyOptionGroup
 rds:ModifyRecommendation
 rds:ModifyTenantDatabase
