@@ -10842,6 +10842,7 @@ neptune-graph:ListTagsForResource
 neptune-graph:ReadDataViaQuery
 neptune-graph:ResetGraph
 neptune-graph:RestoreGraphFromSnapshot
+neptune-graph:StartImportTask
 neptune-graph:TagResource
 neptune-graph:UntagResource
 neptune-graph:UpdateGraph
