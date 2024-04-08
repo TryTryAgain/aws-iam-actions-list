@@ -3704,6 +3704,9 @@ consoleapp:GetDeviceIdentity
 consoleapp:ListDeviceIdentities
 consolidatedbilling:GetAccountBillingRole
 consolidatedbilling:ListLinkedAccounts
+controlcatalog:ListCommonControls
+controlcatalog:ListDomains
+controlcatalog:ListObjectives
 controltower:CreateLandingZone
 controltower:CreateManagedAccount
 controltower:DeleteLandingZone
