@@ -3951,6 +3951,7 @@ datasync:UpdateTask
 datasync:UpdateTaskExecution
 datazone:AcceptPredictions
 datazone:AcceptSubscriptionRequest
+datazone:AddPolicyGrant
 datazone:CancelMetadataGenerationRun
 datazone:CancelSubscription
 datazone:CreateAsset
@@ -4032,6 +4033,7 @@ datazone:ListEnvironments
 datazone:ListGroupsForUser
 datazone:ListMetadataGenerationRuns
 datazone:ListNotifications
+datazone:ListPolicyGrants
 datazone:ListProjectMemberships
 datazone:ListProjects
 datazone:ListSubscriptionGrants
@@ -4048,6 +4050,7 @@ datazone:PutEnvironmentBlueprintConfiguration
 datazone:RefreshToken
 datazone:RejectPredictions
 datazone:RejectSubscriptionRequest
+datazone:RemovePolicyGrant
 datazone:RevokeSubscription
 datazone:Search
 datazone:SearchGroupProfiles
@@ -4062,6 +4065,7 @@ datazone:StopMetadataGenerationRun
 datazone:TagResource
 datazone:UntagResource
 datazone:UpdateDataSource
+datazone:UpdateDataSourceRunActivities
 datazone:UpdateDomain
 datazone:UpdateEnvironment
 datazone:UpdateEnvironmentBlueprint
