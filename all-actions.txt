@@ -7045,6 +7045,7 @@ glue:BatchGetCustomEntityTypes
 glue:BatchGetDevEndpoints
 glue:BatchGetJobs
 glue:BatchGetPartition
+glue:BatchGetStageFiles
 glue:BatchGetTableOptimizer
 glue:BatchGetTriggers
 glue:BatchGetWorkflows
@@ -7132,11 +7133,15 @@ glue:GetDatabases
 glue:GetDataflowGraph
 glue:GetDevEndpoint
 glue:GetDevEndpoints
+glue:GetEnvironment
+glue:GetExecutors
+glue:GetExecutorsThreads
 glue:GetJob
 glue:GetJobBookmark
 glue:GetJobRun
 glue:GetJobRuns
 glue:GetJobs
+glue:GetLogParsingStatus
 glue:GetMLTaskRun
 glue:GetMLTaskRuns
 glue:GetMLTransform
@@ -7147,6 +7152,8 @@ glue:GetPartition
 glue:GetPartitionIndexes
 glue:GetPartitions
 glue:GetPlan
+glue:GetQueries
+glue:GetQuery
 glue:GetRegistry
 glue:GetResourcePolicies
 glue:GetResourcePolicy
@@ -7157,7 +7164,15 @@ glue:GetSchemaVersionsDiff
 glue:GetSecurityConfiguration
 glue:GetSecurityConfigurations
 glue:GetSession
+glue:GetStage
+glue:GetStageAttempt
+glue:GetStageAttemptTaskList
+glue:GetStageAttemptTaskSummary
+glue:GetStageFiles
+glue:GetStages
 glue:GetStatement
+glue:GetStorage
+glue:GetStorageUnit
 glue:GetTable
 glue:GetTableOptimizer
 glue:GetTableVersion
@@ -7205,6 +7220,7 @@ glue:PutWorkflowRunProperties
 glue:QuerySchemaVersionMetadata
 glue:RegisterSchemaVersion
 glue:RemoveSchemaVersionMetadata
+glue:RequestLogParsing
 glue:ResetJobBookmark
 glue:ResumeWorkflowRun
 glue:RunDataPreviewStatement
