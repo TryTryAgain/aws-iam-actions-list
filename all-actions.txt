@@ -16102,6 +16102,7 @@ wisdom:UntagResource
 wisdom:UpdateContent
 wisdom:UpdateKnowledgeBaseTemplateUri
 wisdom:UpdateQuickResponse
+wisdom:UpdateSession
 workdocs:AbortDocumentVersionUpload
 workdocs:ActivateUser
 workdocs:AddNotificationPermissions
