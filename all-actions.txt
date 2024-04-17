@@ -7978,11 +7978,13 @@ inspector:UpdateAssessmentTarget
 internetmonitor:CreateMonitor
 internetmonitor:DeleteMonitor
 internetmonitor:GetHealthEvent
+internetmonitor:GetInternetEvent
 internetmonitor:GetMonitor
 internetmonitor:GetQueryResults
 internetmonitor:GetQueryStatus
 internetmonitor:Link
 internetmonitor:ListHealthEvents
+internetmonitor:ListInternetEvents
 internetmonitor:ListMonitors
 internetmonitor:ListTagsForResource
 internetmonitor:StartQuery
