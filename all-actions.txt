@@ -12886,6 +12886,7 @@ robomaker:UpdateSimulationApplication
 robomaker:UpdateWorldTemplate
 rolesanywhere:CreateProfile
 rolesanywhere:CreateTrustAnchor
+rolesanywhere:DeleteAttributeMapping
 rolesanywhere:DeleteCrl
 rolesanywhere:DeleteProfile
 rolesanywhere:DeleteTrustAnchor
@@ -12905,6 +12906,7 @@ rolesanywhere:ListProfiles
 rolesanywhere:ListSubjects
 rolesanywhere:ListTagsForResource
 rolesanywhere:ListTrustAnchors
+rolesanywhere:PutAttributeMapping
 rolesanywhere:PutNotificationSettings
 rolesanywhere:ResetNotificationSettings
 rolesanywhere:TagResource
