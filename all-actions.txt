@@ -549,6 +549,7 @@ appmesh-preview:CreateVirtualRouter
 appmesh-preview:CreateVirtualService
 appmesh-preview:DeleteGatewayRoute
 appmesh-preview:DeleteMesh
+appmesh-preview:DeleteMeshPolicy
 appmesh-preview:DeleteRoute
 appmesh-preview:DeleteVirtualGateway
 appmesh-preview:DeleteVirtualNode
@@ -561,6 +562,7 @@ appmesh-preview:DescribeVirtualGateway
 appmesh-preview:DescribeVirtualNode
 appmesh-preview:DescribeVirtualRouter
 appmesh-preview:DescribeVirtualService
+appmesh-preview:GetMeshPolicy
 appmesh-preview:ListGatewayRoutes
 appmesh-preview:ListMeshes
 appmesh-preview:ListRoutes
@@ -568,6 +570,7 @@ appmesh-preview:ListVirtualGateways
 appmesh-preview:ListVirtualNodes
 appmesh-preview:ListVirtualRouters
 appmesh-preview:ListVirtualServices
+appmesh-preview:PutMeshPolicy
 appmesh-preview:StreamAggregatedResources
 appmesh-preview:UpdateGatewayRoute
 appmesh-preview:UpdateMesh
