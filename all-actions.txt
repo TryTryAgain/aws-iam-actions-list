@@ -6801,6 +6801,7 @@ gamelift:AcceptMatch
 gamelift:ClaimGameServer
 gamelift:CreateAlias
 gamelift:CreateBuild
+gamelift:CreateContainerGroupDefinition
 gamelift:CreateFleet
 gamelift:CreateFleetLocations
 gamelift:CreateGameServerGroup
@@ -6816,6 +6817,7 @@ gamelift:CreateVpcPeeringAuthorization
 gamelift:CreateVpcPeeringConnection
 gamelift:DeleteAlias
 gamelift:DeleteBuild
+gamelift:DeleteContainerGroupDefinition
 gamelift:DeleteFleet
 gamelift:DeleteFleetLocations
 gamelift:DeleteGameServerGroup
@@ -6832,6 +6834,7 @@ gamelift:DeregisterGameServer
 gamelift:DescribeAlias
 gamelift:DescribeBuild
 gamelift:DescribeCompute
+gamelift:DescribeContainerGroupDefinition
 gamelift:DescribeEC2InstanceLimits
 gamelift:DescribeFleetAttributes
 gamelift:DescribeFleetCapacity
@@ -6865,6 +6868,7 @@ gamelift:GetInstanceAccess
 gamelift:ListAliases
 gamelift:ListBuilds
 gamelift:ListCompute
+gamelift:ListContainerGroupDefinitions
 gamelift:ListFleets
 gamelift:ListGameServerGroups
 gamelift:ListGameServers
