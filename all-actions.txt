@@ -16229,6 +16229,7 @@ workdocs:DescribeComments
 workdocs:DescribeDocumentVersions
 workdocs:DescribeFolderContents
 workdocs:DescribeGroups
+workdocs:DescribeInstanceExports
 workdocs:DescribeInstances
 workdocs:DescribeNotificationPermissions
 workdocs:DescribeNotificationSubscriptions
@@ -16250,6 +16251,7 @@ workdocs:RemoveAllResourcePermissions
 workdocs:RemoveResourcePermission
 workdocs:RestoreDocumentVersions
 workdocs:SearchResources
+workdocs:StartInstanceExport
 workdocs:UpdateDocument
 workdocs:UpdateDocumentVersion
 workdocs:UpdateFolder
