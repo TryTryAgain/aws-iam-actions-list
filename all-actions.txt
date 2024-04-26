@@ -16299,7 +16299,6 @@ worklink:UpdateDevicePolicyConfiguration
 worklink:UpdateDomainMetadata
 worklink:UpdateFleetMetadata
 worklink:UpdateIdentityProviderConfiguration
-workmail:AddMembersToGroup
 workmail:AllowVendedLogDeliveryForResource
 workmail:AssociateDelegateToResource
 workmail:AssociateMemberToGroup
@@ -16337,19 +16336,14 @@ workmail:DeleteSmtpGateway
 workmail:DeleteUser
 workmail:DeregisterFromWorkMail
 workmail:DeregisterMailDomain
-workmail:DescribeDirectories
 workmail:DescribeEmailMonitoringConfiguration
 workmail:DescribeEntity
 workmail:DescribeGroup
 workmail:DescribeInboundDmarcSettings
 workmail:DescribeInboundMailFlowRule
-workmail:DescribeKmsKeys
 workmail:DescribeMailDomains
-workmail:DescribeMailGroups
-workmail:DescribeMailUsers
 workmail:DescribeMailboxExportJob
 workmail:DescribeOrganization
-workmail:DescribeOrganizations
 workmail:DescribeOutboundMailFlowRule
 workmail:DescribeResource
 workmail:DescribeSmtpGateway
@@ -16364,7 +16358,6 @@ workmail:GetImpersonationRoleEffect
 workmail:GetJournalingRules
 workmail:GetMailDomain
 workmail:GetMailDomainDetails
-workmail:GetMailGroupDetails
 workmail:GetMailboxDetails
 workmail:GetMobileDeviceAccessEffect
 workmail:GetMobileDeviceAccessOverride
@@ -16382,7 +16375,6 @@ workmail:ListInboundMailFlowRules
 workmail:ListMailDomains
 workmail:ListMailboxExportJobs
 workmail:ListMailboxPermissions
-workmail:ListMembersInMailGroup
 workmail:ListMobileDeviceAccessOverrides
 workmail:ListMobileDeviceAccessRules
 workmail:ListOrganizations
@@ -16400,11 +16392,8 @@ workmail:PutMobileDeviceAccessOverride
 workmail:PutRetentionPolicy
 workmail:RegisterMailDomain
 workmail:RegisterToWorkMail
-workmail:RemoveMembersFromGroup
 workmail:ResetPassword
-workmail:ResetUserPassword
 workmail:SearchMembers
-workmail:SetAdmin
 workmail:SetDefaultMailDomain
 workmail:SetJournalingRules
 workmail:SetMobilePolicyDetails
