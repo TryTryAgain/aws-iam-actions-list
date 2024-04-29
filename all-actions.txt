@@ -15484,6 +15484,7 @@ timestream:CreateTable
 timestream:DeleteDatabase
 timestream:DeleteScheduledQuery
 timestream:DeleteTable
+timestream:DescribeAccountSettings
 timestream:DescribeBatchLoadTask
 timestream:DescribeDatabase
 timestream:DescribeEndpoints
@@ -15507,6 +15508,7 @@ timestream:StartAwsRestoreJob
 timestream:TagResource
 timestream:Unload
 timestream:UntagResource
+timestream:UpdateAccountSettings
 timestream:UpdateDatabase
 timestream:UpdateScheduledQuery
 timestream:UpdateTable
