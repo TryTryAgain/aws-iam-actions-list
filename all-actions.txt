@@ -11920,6 +11920,7 @@ qapps:UpdateQApp
 qbusiness:AddUserLicenses
 qbusiness:BatchDeleteDocument
 qbusiness:BatchPutDocument
+qbusiness:CancelSubscription
 qbusiness:Chat
 qbusiness:ChatSync
 qbusiness:CreateApplication
@@ -11928,6 +11929,7 @@ qbusiness:CreateIndex
 qbusiness:CreateLicense
 qbusiness:CreatePlugin
 qbusiness:CreateRetriever
+qbusiness:CreateSubscription
 qbusiness:CreateUser
 qbusiness:CreateWebExperience
 qbusiness:DeleteApplication
@@ -11960,6 +11962,7 @@ qbusiness:ListIndices
 qbusiness:ListMessages
 qbusiness:ListPlugins
 qbusiness:ListRetrievers
+qbusiness:ListSubscriptions
 qbusiness:ListTagsForResource
 qbusiness:ListUserLicenses
 qbusiness:ListWebExperiences
@@ -11976,6 +11979,7 @@ qbusiness:UpdateDataSource
 qbusiness:UpdateIndex
 qbusiness:UpdatePlugin
 qbusiness:UpdateRetriever
+qbusiness:UpdateSubscription
 qbusiness:UpdateUser
 qbusiness:UpdateWebExperience
 qldb:CancelJournalKinesisStream
