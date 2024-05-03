@@ -3469,6 +3469,7 @@ connect-campaigns:UpdateCampaignDialerConfig
 connect-campaigns:UpdateCampaignName
 connect-campaigns:UpdateCampaignOutboundCallConfig
 connect:ActivateEvaluationForm
+connect:AdminGetEmergencyAccessToken
 connect:AssociateApprovedOrigin
 connect:AssociateBot
 connect:AssociateCustomerProfilesDomain
@@ -3578,7 +3579,6 @@ connect:GetContactAttributes
 connect:GetCurrentMetricData
 connect:GetCurrentUserData
 connect:GetFederationToken
-connect:GetFederationTokens
 connect:GetFlowAssociation
 connect:GetMetricData
 connect:GetMetricDataV2
@@ -11570,6 +11570,7 @@ pca-connector-ad:UpdateTemplateGroupAccessControlEntry
 personalize:CreateBatchInferenceJob
 personalize:CreateBatchSegmentJob
 personalize:CreateCampaign
+personalize:CreateDataDeletionJob
 personalize:CreateDataInsightsJob
 personalize:CreateDataset
 personalize:CreateDatasetExportJob
@@ -11595,6 +11596,7 @@ personalize:DescribeAlgorithm
 personalize:DescribeBatchInferenceJob
 personalize:DescribeBatchSegmentJob
 personalize:DescribeCampaign
+personalize:DescribeDataDeletionJob
 personalize:DescribeDataInsightsJob
 personalize:DescribeDataset
 personalize:DescribeDatasetExportJob
@@ -11617,6 +11619,7 @@ personalize:GetSolutionMetrics
 personalize:ListBatchInferenceJobs
 personalize:ListBatchSegmentJobs
 personalize:ListCampaigns
+personalize:ListDataDeletionJobs
 personalize:ListDataInsightsJobs
 personalize:ListDatasetExportJobs
 personalize:ListDatasetGroups
