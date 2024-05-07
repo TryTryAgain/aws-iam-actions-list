@@ -1523,7 +1523,10 @@ budgets:DescribeBudgetActionHistories
 budgets:DescribeBudgetActionsForAccount
 budgets:DescribeBudgetActionsForBudget
 budgets:ExecuteBudgetAction
+budgets:ListTagsForResource
 budgets:ModifyBudget
+budgets:TagResource
+budgets:UntagResource
 budgets:UpdateBudgetAction
 budgets:ViewBudget
 bugbust:CreateEvent
@@ -15719,6 +15722,7 @@ translate:TranslateDocument
 translate:TranslateText
 translate:UntagResource
 translate:UpdateParallelData
+trustedadvisor:BatchUpdateRecommendationResourceExclusion
 trustedadvisor:CreateEngagement
 trustedadvisor:CreateEngagementAttachment
 trustedadvisor:CreateEngagementCommunication
