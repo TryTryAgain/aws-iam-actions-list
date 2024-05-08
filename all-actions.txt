@@ -9932,6 +9932,7 @@ m2:ListApplicationVersions
 m2:ListApplications
 m2:ListBatchJobDefinitions
 m2:ListBatchJobExecutions
+m2:ListBatchJobRestartPoints
 m2:ListDataSetImportHistory
 m2:ListDataSets
 m2:ListDeployments
@@ -15864,6 +15865,7 @@ voiceid:TagResource
 voiceid:UntagResource
 voiceid:UpdateDomain
 voiceid:UpdateWatchlist
+vpc-lattice-svcs:Connect
 vpc-lattice-svcs:Invoke
 vpc-lattice:CreateAccessLogSubscription
 vpc-lattice:CreateListener
