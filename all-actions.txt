@@ -11893,6 +11893,8 @@ purchase-orders:UpdateConsoleActionSetEnforced
 purchase-orders:UpdatePurchaseOrder
 purchase-orders:UpdatePurchaseOrderStatus
 purchase-orders:ViewPurchaseOrders
+q:CreateAssignment
+q:DeleteAssignment
 q:GetConversation
 q:GetIdentityMetadata
 q:GetTroubleshootingResults
