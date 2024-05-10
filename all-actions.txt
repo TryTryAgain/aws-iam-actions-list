@@ -14853,12 +14853,15 @@ ssm-sap:GetResourcePermission
 ssm-sap:ListApplications
 ssm-sap:ListComponents
 ssm-sap:ListDatabases
+ssm-sap:ListOperationEvents
 ssm-sap:ListOperations
 ssm-sap:ListTagsForResource
 ssm-sap:PutResourcePermission
 ssm-sap:RegisterApplication
 ssm-sap:RestoreDatabase
+ssm-sap:StartApplication
 ssm-sap:StartApplicationRefresh
+ssm-sap:StopApplication
 ssm-sap:TagResource
 ssm-sap:UntagResource
 ssm-sap:UpdateApplicationSettings
