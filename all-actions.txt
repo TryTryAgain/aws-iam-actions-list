@@ -3490,9 +3490,11 @@ connect:AssociateTrafficDistributionGroupUser
 connect:AssociateUserProficiencies
 connect:BatchAssociateAnalyticsDataSet
 connect:BatchDisassociateAnalyticsDataSet
+connect:BatchGetAttachedFileMetadata
 connect:BatchGetFlowAssociation
 connect:BatchPutContact
 connect:ClaimPhoneNumber
+connect:CompleteAttachedFileUpload
 connect:CreateAgentStatus
 connect:CreateContactFlow
 connect:CreateContactFlowModule
@@ -3518,6 +3520,7 @@ connect:CreateView
 connect:CreateViewVersion
 connect:CreateVocabulary
 connect:DeactivateEvaluationForm
+connect:DeleteAttachedFile
 connect:DeleteContactEvaluation
 connect:DeleteContactFlow
 connect:DeleteContactFlowModule
@@ -3579,6 +3582,7 @@ connect:DisassociateSecurityKey
 connect:DisassociateTrafficDistributionGroupUser
 connect:DisassociateUserProficiencies
 connect:DismissUserContact
+connect:GetAttachedFile
 connect:GetContactAttributes
 connect:GetCurrentMetricData
 connect:GetCurrentUserData
@@ -3654,6 +3658,7 @@ connect:SearchSecurityProfiles
 connect:SearchUsers
 connect:SearchVocabularies
 connect:SendChatIntegrationEvent
+connect:StartAttachedFileUpload
 connect:StartChatContact
 connect:StartContactEvaluation
 connect:StartContactRecording
