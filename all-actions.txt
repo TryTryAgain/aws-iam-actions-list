@@ -1557,6 +1557,7 @@ cases:CreateTemplate
 cases:DeleteDomain
 cases:DeleteField
 cases:DeleteLayout
+cases:DeleteRelatedItem
 cases:DeleteTemplate
 cases:GetCase
 cases:GetCaseAuditEvents
