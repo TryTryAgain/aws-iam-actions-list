@@ -6408,6 +6408,7 @@ events:UpdateApiDestination
 events:UpdateArchive
 events:UpdateConnection
 events:UpdateEndpoint
+events:UpdateEventBus
 evidently:BatchEvaluateFeature
 evidently:CreateExperiment
 evidently:CreateFeature
