@@ -7311,8 +7311,12 @@ glue:UseMLTransforms
 grafana:AssociateLicense
 grafana:CreateWorkspace
 grafana:CreateWorkspaceApiKey
+grafana:CreateWorkspaceServiceAccount
+grafana:CreateWorkspaceServiceAccountToken
 grafana:DeleteWorkspace
 grafana:DeleteWorkspaceApiKey
+grafana:DeleteWorkspaceServiceAccount
+grafana:DeleteWorkspaceServiceAccountToken
 grafana:DescribeWorkspace
 grafana:DescribeWorkspaceAuthentication
 grafana:DescribeWorkspaceConfiguration
@@ -7320,6 +7324,8 @@ grafana:DisassociateLicense
 grafana:ListPermissions
 grafana:ListTagsForResource
 grafana:ListVersions
+grafana:ListWorkspaceServiceAccountTokens
+grafana:ListWorkspaceServiceAccounts
 grafana:ListWorkspaces
 grafana:TagResource
 grafana:UntagResource
