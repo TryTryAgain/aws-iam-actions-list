@@ -10466,6 +10466,7 @@ medical-imaging:CreateDatastore
 medical-imaging:DeleteDatastore
 medical-imaging:DeleteImageSet
 medical-imaging:GetDICOMImportJob
+medical-imaging:GetDICOMInstance
 medical-imaging:GetDatastore
 medical-imaging:GetImageFrame
 medical-imaging:GetImageSet
@@ -12122,6 +12123,7 @@ quicksight:DescribeGroupMembership
 quicksight:DescribeIAMPolicyAssignment
 quicksight:DescribeIngestion
 quicksight:DescribeIpRestriction
+quicksight:DescribeKeyRegistration
 quicksight:DescribeNamespace
 quicksight:DescribeRefreshSchedule
 quicksight:DescribeRoleCustomPermission
@@ -12221,6 +12223,7 @@ quicksight:UpdateGroup
 quicksight:UpdateIAMPolicyAssignment
 quicksight:UpdateIdentityPropagationConfig
 quicksight:UpdateIpRestriction
+quicksight:UpdateKeyRegistration
 quicksight:UpdatePublicSharingSettings
 quicksight:UpdateRefreshSchedule
 quicksight:UpdateResourcePermissions
@@ -16235,18 +16238,21 @@ wickr:UpdateNetworkDetails
 wisdom:CreateAssistant
 wisdom:CreateAssistantAssociation
 wisdom:CreateContent
+wisdom:CreateContentAssociation
 wisdom:CreateKnowledgeBase
 wisdom:CreateQuickResponse
 wisdom:CreateSession
 wisdom:DeleteAssistant
 wisdom:DeleteAssistantAssociation
 wisdom:DeleteContent
+wisdom:DeleteContentAssociation
 wisdom:DeleteImportJob
 wisdom:DeleteKnowledgeBase
 wisdom:DeleteQuickResponse
 wisdom:GetAssistant
 wisdom:GetAssistantAssociation
 wisdom:GetContent
+wisdom:GetContentAssociation
 wisdom:GetContentSummary
 wisdom:GetImportJob
 wisdom:GetKnowledgeBase
@@ -16255,6 +16261,7 @@ wisdom:GetRecommendations
 wisdom:GetSession
 wisdom:ListAssistantAssociations
 wisdom:ListAssistants
+wisdom:ListContentAssociations
 wisdom:ListContents
 wisdom:ListImportJobs
 wisdom:ListKnowledgeBases
