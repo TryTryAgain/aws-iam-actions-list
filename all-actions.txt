@@ -15807,6 +15807,12 @@ ts:ListTools
 ts:StartExecution
 ts:TagResource
 ts:UntagResource
+user-subscriptions:CreateClaim
+user-subscriptions:DeleteClaim
+user-subscriptions:ListApplicationClaims
+user-subscriptions:ListClaims
+user-subscriptions:ListUserSubscriptions
+user-subscriptions:UpdateClaim
 vendor-insights:ActivateSecurityProfile
 vendor-insights:AssociateDataSource
 vendor-insights:CreateDataSource
