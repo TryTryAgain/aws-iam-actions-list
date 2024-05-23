@@ -15448,6 +15448,8 @@ supportplans:CreateSupportPlanSchedule
 supportplans:GetSupportPlan
 supportplans:GetSupportPlanUpdateStatus
 supportplans:StartSupportPlanUpdate
+supportrecommendations:GetSupportTroubleshootingResponse
+supportrecommendations:StartSupportTroubleshooting
 sustainability:GetCarbonFootprintSummary
 swf:CancelTimer
 swf:CancelWorkflowExecution
