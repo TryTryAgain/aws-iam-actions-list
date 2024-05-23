@@ -6202,6 +6202,7 @@ emr-containers:StartJobRun
 emr-containers:TagResource
 emr-containers:UntagResource
 emr-serverless:AccessInteractiveEndpoints
+emr-serverless:AccessLivyEndpoints
 emr-serverless:CancelJobRun
 emr-serverless:CreateApplication
 emr-serverless:DeleteApplication
