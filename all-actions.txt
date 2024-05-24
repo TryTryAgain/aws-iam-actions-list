@@ -1673,8 +1673,11 @@ chatbot:GetSlackOauthParameters
 chatbot:ListMicrosoftTeamsChannelConfigurations
 chatbot:ListMicrosoftTeamsConfiguredTeams
 chatbot:ListMicrosoftTeamsUserIdentities
+chatbot:ListTagsForResource
 chatbot:RedeemMicrosoftTeamsOauthCode
 chatbot:RedeemSlackOauthCode
+chatbot:TagResource
+chatbot:UntagResource
 chatbot:UpdateAccountPreferences
 chatbot:UpdateChimeWebhookConfiguration
 chatbot:UpdateMicrosoftTeamsChannelConfiguration
@@ -5375,6 +5378,7 @@ ec2:DisableFastSnapshotRestores
 ec2:DisableImage
 ec2:DisableImageBlockPublicAccess
 ec2:DisableImageDeprecation
+ec2:DisableImageDeregistrationProtection
 ec2:DisableIpamOrganizationAdminAccount
 ec2:DisableSerialConsoleAccess
 ec2:DisableSnapshotBlockPublicAccess
@@ -5406,6 +5410,7 @@ ec2:EnableFastSnapshotRestores
 ec2:EnableImage
 ec2:EnableImageBlockPublicAccess
 ec2:EnableImageDeprecation
+ec2:EnableImageDeregistrationProtection
 ec2:EnableIpamOrganizationAdminAccount
 ec2:EnableReachabilityAnalyzerOrganizationSharing
 ec2:EnableSerialConsoleAccess
@@ -5434,6 +5439,7 @@ ec2:GetGroupsForCapacityReservation
 ec2:GetHostReservationPurchasePreview
 ec2:GetImageBlockPublicAccessState
 ec2:GetInstanceMetadataDefaults
+ec2:GetInstanceTpmEkPub
 ec2:GetInstanceTypesFromInstanceRequirements
 ec2:GetInstanceUefiData
 ec2:GetIpamAddressHistory
