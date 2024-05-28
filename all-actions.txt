@@ -7089,6 +7089,7 @@ glue:BatchGetStageFiles
 glue:BatchGetTableOptimizer
 glue:BatchGetTriggers
 glue:BatchGetWorkflows
+glue:BatchPutDataQualityStatisticAnnotation
 glue:BatchStopJobRun
 glue:BatchUpdatePartition
 glue:CancelDataQualityRuleRecommendationRun
@@ -7145,6 +7146,8 @@ glue:DeleteTrigger
 glue:DeleteUserDefinedFunction
 glue:DeleteWorkflow
 glue:DeregisterDataPreview
+glue:DescribeConnectionType
+glue:DescribeEntity
 glue:GetBlueprint
 glue:GetBlueprintRun
 glue:GetBlueprintRuns
@@ -7164,6 +7167,8 @@ glue:GetCrawlers
 glue:GetCustomEntityType
 glue:GetDataCatalogEncryptionSettings
 glue:GetDataPreviewStatement
+glue:GetDataQualityModel
+glue:GetDataQualityModelResult
 glue:GetDataQualityResult
 glue:GetDataQualityRuleRecommendationRun
 glue:GetDataQualityRuleset
@@ -7232,6 +7237,7 @@ glue:GlueNotebookRefreshCredentials
 glue:ImportCatalogToGlue
 glue:ListBlueprints
 glue:ListColumnStatisticsTaskRuns
+glue:ListConnectionTypes
 glue:ListCrawlers
 glue:ListCrawls
 glue:ListCustomEntityTypes
@@ -7239,7 +7245,10 @@ glue:ListDataQualityResults
 glue:ListDataQualityRuleRecommendationRuns
 glue:ListDataQualityRulesetEvaluationRuns
 glue:ListDataQualityRulesets
+glue:ListDataQualityStatisticAnnotations
+glue:ListDataQualityStatistics
 glue:ListDevEndpoints
+glue:ListEntities
 glue:ListJobs
 glue:ListMLTransforms
 glue:ListRegistries
@@ -7254,10 +7263,12 @@ glue:NotifyEvent
 glue:PassConnection
 glue:PublishDataQuality
 glue:PutDataCatalogEncryptionSettings
+glue:PutDataQualityProfileAnnotation
 glue:PutResourcePolicy
 glue:PutSchemaVersionMetadata
 glue:PutWorkflowRunProperties
 glue:QuerySchemaVersionMetadata
+glue:RefreshOAuth2Tokens
 glue:RegisterSchemaVersion
 glue:RemoveSchemaVersionMetadata
 glue:RequestLogParsing
@@ -15466,6 +15477,8 @@ swf:CountClosedWorkflowExecutions
 swf:CountOpenWorkflowExecutions
 swf:CountPendingActivityTasks
 swf:CountPendingDecisionTasks
+swf:DeleteActivityType
+swf:DeleteWorkflowType
 swf:DeprecateActivityType
 swf:DeprecateDomain
 swf:DeprecateWorkflowType
