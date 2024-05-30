@@ -6231,6 +6231,7 @@ emr-serverless:GetApplication
 emr-serverless:GetDashboardForJobRun
 emr-serverless:GetJobRun
 emr-serverless:ListApplications
+emr-serverless:ListJobRunAttempts
 emr-serverless:ListJobRuns
 emr-serverless:ListTagsForResource
 emr-serverless:StartApplication
