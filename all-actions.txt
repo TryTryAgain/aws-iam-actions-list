@@ -1357,6 +1357,7 @@ batch:DescribeJobDefinitions
 batch:DescribeJobQueues
 batch:DescribeJobs
 batch:DescribeSchedulingPolicies
+batch:GetJobQueueSnapshot
 batch:ListJobs
 batch:ListSchedulingPolicies
 batch:ListTagsForResource
