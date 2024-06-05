@@ -9272,6 +9272,7 @@ lakeformation:DescribeTransaction
 lakeformation:ExtendTransaction
 lakeformation:GetDataAccess
 lakeformation:GetDataCellsFilter
+lakeformation:GetDataLakePrincipal
 lakeformation:GetDataLakeSettings
 lakeformation:GetEffectivePermissionsForPath
 lakeformation:GetLFTag
@@ -9391,6 +9392,7 @@ launchwizard:GetSettingsSet
 launchwizard:GetWorkload
 launchwizard:GetWorkloadAsset
 launchwizard:GetWorkloadAssets
+launchwizard:GetWorkloadDeploymentPattern
 launchwizard:ListAdditionalNodes
 launchwizard:ListAllowedResources
 launchwizard:ListDeploymentEvents
@@ -9398,11 +9400,14 @@ launchwizard:ListDeployments
 launchwizard:ListProvisionedApps
 launchwizard:ListResourceCostEstimates
 launchwizard:ListSettingsSets
+launchwizard:ListTagsForResource
 launchwizard:ListWorkloadDeploymentOptions
 launchwizard:ListWorkloadDeploymentPatterns
 launchwizard:ListWorkloads
 launchwizard:PutSettingsSet
 launchwizard:StartProvisioning
+launchwizard:TagResource
+launchwizard:UntagResource
 launchwizard:UpdateSettingsSet
 lex:BatchCreateCustomVocabularyItem
 lex:BatchDeleteCustomVocabularyItem
