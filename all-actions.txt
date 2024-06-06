@@ -129,6 +129,7 @@ access-analyzer:UntagResource
 access-analyzer:UpdateArchiveRule
 access-analyzer:UpdateFindings
 access-analyzer:ValidatePolicy
+account:AcceptPrimaryEmailUpdate
 account:CloseAccount
 account:DeleteAlternateContact
 account:DisableRegion
@@ -137,11 +138,13 @@ account:GetAccountInformation
 account:GetAlternateContact
 account:GetChallengeQuestions
 account:GetContactInformation
+account:GetPrimaryEmail
 account:GetRegionOptStatus
 account:ListRegions
 account:PutAlternateContact
 account:PutChallengeQuestions
 account:PutContactInformation
+account:StartPrimaryEmailUpdate
 acm-pca:CreateCertificateAuthority
 acm-pca:CreateCertificateAuthorityAuditReport
 acm-pca:CreatePermission
@@ -6972,6 +6975,7 @@ geo:DescribePlaceIndex
 geo:DescribeRouteCalculator
 geo:DescribeTracker
 geo:DisassociateTrackerConsumer
+geo:ForecastGeofenceEvents
 geo:GetDevicePosition
 geo:GetDevicePositionHistory
 geo:GetGeofence
@@ -7002,6 +7006,7 @@ geo:UpdateMap
 geo:UpdatePlaceIndex
 geo:UpdateRouteCalculator
 geo:UpdateTracker
+geo:VerifyDevicePosition
 glacier:AbortMultipartUpload
 glacier:AbortVaultLock
 glacier:AddTagsToVault
