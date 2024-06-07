@@ -13484,6 +13484,7 @@ s3:ListStorageLensConfigurations
 s3:ListStorageLensGroups
 s3:ListTagsForResource
 s3:ObjectOwnerOverrideToBucketOwner
+s3:PauseReplication
 s3:PutAccelerateConfiguration
 s3:PutAccessGrantsInstanceResourcePolicy
 s3:PutAccessPointConfigurationForObjectLambda
