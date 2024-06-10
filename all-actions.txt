@@ -7541,6 +7541,7 @@ guardduty:ArchiveFindings
 guardduty:CreateDetector
 guardduty:CreateFilter
 guardduty:CreateIPSet
+guardduty:CreateMalwareProtectionPlan
 guardduty:CreateMembers
 guardduty:CreatePublishingDestination
 guardduty:CreateSampleFindings
@@ -7550,6 +7551,7 @@ guardduty:DeleteDetector
 guardduty:DeleteFilter
 guardduty:DeleteIPSet
 guardduty:DeleteInvitations
+guardduty:DeleteMalwareProtectionPlan
 guardduty:DeleteMembers
 guardduty:DeletePublishingDestination
 guardduty:DeleteThreatIntelSet
@@ -7569,6 +7571,7 @@ guardduty:GetFindings
 guardduty:GetFindingsStatistics
 guardduty:GetIPSet
 guardduty:GetInvitationsCount
+guardduty:GetMalwareProtectionPlan
 guardduty:GetMalwareScanSettings
 guardduty:GetMasterAccount
 guardduty:GetMemberDetectors
@@ -7584,6 +7587,7 @@ guardduty:ListFilters
 guardduty:ListFindings
 guardduty:ListIPSets
 guardduty:ListInvitations
+guardduty:ListMalwareProtectionPlans
 guardduty:ListMembers
 guardduty:ListOrganizationAdminAccounts
 guardduty:ListPublishingDestinations
@@ -7600,6 +7604,7 @@ guardduty:UpdateDetector
 guardduty:UpdateFilter
 guardduty:UpdateFindingsFeedback
 guardduty:UpdateIPSet
+guardduty:UpdateMalwareProtectionPlan
 guardduty:UpdateMalwareScanSettings
 guardduty:UpdateMemberDetectors
 guardduty:UpdateOrganizationConfiguration
