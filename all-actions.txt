@@ -2503,6 +2503,7 @@ cloudtrail:DescribeQuery
 cloudtrail:DescribeTrails
 cloudtrail:DisableFederation
 cloudtrail:EnableFederation
+cloudtrail:GenerateQuery
 cloudtrail:GetChannel
 cloudtrail:GetEventDataStore
 cloudtrail:GetEventDataStoreData
