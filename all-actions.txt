@@ -6249,6 +6249,7 @@ emr-serverless:TagResource
 emr-serverless:UntagResource
 emr-serverless:UpdateApplication
 entityresolution:AddPolicyStatement
+entityresolution:BatchDeleteUniqueId
 entityresolution:CreateIdMappingWorkflow
 entityresolution:CreateIdNamespace
 entityresolution:CreateMatchingWorkflow
