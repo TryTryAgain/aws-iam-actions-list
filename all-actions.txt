@@ -830,6 +830,30 @@ appsync:UpdateGraphqlApi
 appsync:UpdateResolver
 appsync:UpdateSourceApiAssociation
 appsync:UpdateType
+apptest:CreateTestCase
+apptest:CreateTestConfiguration
+apptest:CreateTestSuite
+apptest:DeleteTestCase
+apptest:DeleteTestConfiguration
+apptest:DeleteTestRun
+apptest:DeleteTestSuite
+apptest:GetTestCase
+apptest:GetTestConfiguration
+apptest:GetTestRunStep
+apptest:GetTestSuite
+apptest:ListTagsForResource
+apptest:ListTestCases
+apptest:ListTestConfigurations
+apptest:ListTestRunSteps
+apptest:ListTestRunTestCases
+apptest:ListTestRuns
+apptest:ListTestSuites
+apptest:StartTestRun
+apptest:TagResource
+apptest:UntagResource
+apptest:UpdateTestCase
+apptest:UpdateTestConfiguration
+apptest:UpdateTestSuite
 aps:CreateAlertManagerAlerts
 aps:CreateAlertManagerDefinition
 aps:CreateLoggingConfiguration
@@ -3672,6 +3696,8 @@ connect:ReplicateInstance
 connect:ResumeContact
 connect:ResumeContactRecording
 connect:SearchAvailablePhoneNumbers
+connect:SearchContactFlowModules
+connect:SearchContactFlows
 connect:SearchContacts
 connect:SearchHoursOfOperations
 connect:SearchPredefinedAttributes
@@ -4003,6 +4029,7 @@ datasync:UpdateTaskExecution
 datazone:AcceptPredictions
 datazone:AcceptSubscriptionRequest
 datazone:AddPolicyGrant
+datazone:AssociateEnvironmentRole
 datazone:CancelMetadataGenerationRun
 datazone:CancelSubscription
 datazone:CreateAsset
@@ -4011,6 +4038,7 @@ datazone:CreateAssetType
 datazone:CreateDataSource
 datazone:CreateDomain
 datazone:CreateEnvironment
+datazone:CreateEnvironmentAction
 datazone:CreateEnvironmentBlueprint
 datazone:CreateEnvironmentProfile
 datazone:CreateFormType
@@ -4030,6 +4058,7 @@ datazone:DeleteDataSource
 datazone:DeleteDomain
 datazone:DeleteDomainSharingPolicy
 datazone:DeleteEnvironment
+datazone:DeleteEnvironmentAction
 datazone:DeleteEnvironmentBlueprint
 datazone:DeleteEnvironmentBlueprintConfiguration
 datazone:DeleteEnvironmentProfile
@@ -4043,6 +4072,7 @@ datazone:DeleteSubscriptionGrant
 datazone:DeleteSubscriptionRequest
 datazone:DeleteSubscriptionTarget
 datazone:DeleteTimeSeriesDataPoints
+datazone:DisassociateEnvironmentRole
 datazone:GetAsset
 datazone:GetAssetType
 datazone:GetDataSource
@@ -4050,6 +4080,7 @@ datazone:GetDataSourceRun
 datazone:GetDomain
 datazone:GetDomainSharingPolicy
 datazone:GetEnvironment
+datazone:GetEnvironmentAction
 datazone:GetEnvironmentActionLink
 datazone:GetEnvironmentBlueprint
 datazone:GetEnvironmentBlueprintConfiguration
@@ -4076,6 +4107,7 @@ datazone:ListDataSourceRunActivities
 datazone:ListDataSourceRuns
 datazone:ListDataSources
 datazone:ListDomains
+datazone:ListEnvironmentActions
 datazone:ListEnvironmentBlueprintConfigurationSummaries
 datazone:ListEnvironmentBlueprintConfigurations
 datazone:ListEnvironmentBlueprints
@@ -4119,6 +4151,7 @@ datazone:UpdateDataSource
 datazone:UpdateDataSourceRunActivities
 datazone:UpdateDomain
 datazone:UpdateEnvironment
+datazone:UpdateEnvironmentAction
 datazone:UpdateEnvironmentBlueprint
 datazone:UpdateEnvironmentConfiguration
 datazone:UpdateEnvironmentDeploymentStatus
@@ -15599,6 +15632,7 @@ tag:GetTagValues
 tag:StartReportCreation
 tag:TagResources
 tag:UntagResources
+tax:BatchDeleteTaxRegistration
 tax:BatchPutTaxRegistration
 tax:DeleteTaxRegistration
 tax:GetExemptions
