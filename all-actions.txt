@@ -2505,6 +2505,7 @@ cloudsearch:suggest
 cloudshell:CreateEnvironment
 cloudshell:CreateSession
 cloudshell:DeleteEnvironment
+cloudshell:DescribeEnvironments
 cloudshell:GetEnvironmentStatus
 cloudshell:GetFileDownloadUrls
 cloudshell:GetFileUploadUrls
