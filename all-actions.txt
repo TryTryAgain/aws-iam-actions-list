@@ -3551,6 +3551,7 @@ connect:BatchPutContact
 connect:ClaimPhoneNumber
 connect:CompleteAttachedFileUpload
 connect:CreateAgentStatus
+connect:CreateAuthenticationProfile
 connect:CreateContactFlow
 connect:CreateContactFlowModule
 connect:CreateEvaluationForm
@@ -3599,6 +3600,7 @@ connect:DeleteView
 connect:DeleteViewVersion
 connect:DeleteVocabulary
 connect:DescribeAgentStatus
+connect:DescribeAuthenticationProfile
 connect:DescribeContact
 connect:DescribeContactEvaluation
 connect:DescribeContactFlow
@@ -3651,6 +3653,7 @@ connect:GetTrafficDistribution
 connect:ImportPhoneNumber
 connect:ListAgentStatuses
 connect:ListApprovedOrigins
+connect:ListAuthenticationProfiles
 connect:ListBots
 connect:ListContactEvaluations
 connect:ListContactFlowModules
@@ -3736,6 +3739,7 @@ connect:TransferContact
 connect:UntagContact
 connect:UntagResource
 connect:UpdateAgentStatus
+connect:UpdateAuthenticationProfile
 connect:UpdateContact
 connect:UpdateContactAttributes
 connect:UpdateContactEvaluation
