@@ -7186,6 +7186,7 @@ glue:CreateSession
 glue:CreateTable
 glue:CreateTableOptimizer
 glue:CreateTrigger
+glue:CreateUsageProfile
 glue:CreateUserDefinedFunction
 glue:CreateWorkflow
 glue:DeleteBlueprint
@@ -7212,6 +7213,7 @@ glue:DeleteTable
 glue:DeleteTableOptimizer
 glue:DeleteTableVersion
 glue:DeleteTrigger
+glue:DeleteUsageProfile
 glue:DeleteUserDefinedFunction
 glue:DeleteWorkflow
 glue:DeregisterDataPreview
@@ -7295,6 +7297,7 @@ glue:GetTables
 glue:GetTags
 glue:GetTrigger
 glue:GetTriggers
+glue:GetUsageProfile
 glue:GetUserDefinedFunction
 glue:GetUserDefinedFunctions
 glue:GetWorkflow
@@ -7327,6 +7330,7 @@ glue:ListSessions
 glue:ListStatements
 glue:ListTableOptimizerRuns
 glue:ListTriggers
+glue:ListUsageProfiles
 glue:ListWorkflows
 glue:NotifyEvent
 glue:PassConnection
@@ -7392,6 +7396,7 @@ glue:UpdateSourceControlFromJob
 glue:UpdateTable
 glue:UpdateTableOptimizer
 glue:UpdateTrigger
+glue:UpdateUsageProfile
 glue:UpdateUserDefinedFunction
 glue:UpdateWorkflow
 glue:UseGlueStudio
