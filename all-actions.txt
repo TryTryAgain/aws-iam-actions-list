@@ -2448,12 +2448,14 @@ cloudhsm:DeleteCluster
 cloudhsm:DeleteHapg
 cloudhsm:DeleteHsm
 cloudhsm:DeleteLunaClient
+cloudhsm:DeleteResourcePolicy
 cloudhsm:DescribeBackups
 cloudhsm:DescribeClusters
 cloudhsm:DescribeHapg
 cloudhsm:DescribeHsm
 cloudhsm:DescribeLunaClient
 cloudhsm:GetConfig
+cloudhsm:GetResourcePolicy
 cloudhsm:InitializeCluster
 cloudhsm:ListAvailableZones
 cloudhsm:ListHapgs
@@ -2466,6 +2468,7 @@ cloudhsm:ModifyCluster
 cloudhsm:ModifyHapg
 cloudhsm:ModifyHsm
 cloudhsm:ModifyLunaClient
+cloudhsm:PutResourcePolicy
 cloudhsm:RemoveTagsFromResource
 cloudhsm:RestoreBackup
 cloudhsm:TagResource
