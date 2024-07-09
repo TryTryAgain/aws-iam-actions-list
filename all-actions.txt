@@ -12077,12 +12077,14 @@ qapps:ImportDocumentToQApp
 qapps:ImportDocumentToQAppSession
 qapps:ListLibraryItems
 qapps:ListQApps
+qapps:ListTagsForResource
 qapps:PredictProblemStatementFromConversation
 qapps:PredictQApp
 qapps:PredictQAppFromProblemStatement
 qapps:StartQAppSession
 qapps:StopQAppSession
 qapps:TagResource
+qapps:UntagResource
 qapps:UpdateLibraryItem
 qapps:UpdateQApp
 qapps:UpdateQAppSession
