@@ -2430,6 +2430,7 @@ cloudfront:UpdateCachePolicy
 cloudfront:UpdateCloudFrontOriginAccessIdentity
 cloudfront:UpdateContinuousDeploymentPolicy
 cloudfront:UpdateDistribution
+cloudfront:UpdateDistributionWithStagingConfig
 cloudfront:UpdateFieldLevelEncryptionConfig
 cloudfront:UpdateFieldLevelEncryptionProfile
 cloudfront:UpdateFunction
@@ -9635,9 +9636,16 @@ lex:UpdateResourcePolicy
 lex:UpdateSlot
 lex:UpdateSlotType
 lex:UpdateTestSet
+license-manager-linux-subscriptions:DeregisterSubscriptionProvider
+license-manager-linux-subscriptions:GetRegisteredSubscriptionProvider
 license-manager-linux-subscriptions:GetServiceSettings
 license-manager-linux-subscriptions:ListLinuxSubscriptionInstances
 license-manager-linux-subscriptions:ListLinuxSubscriptions
+license-manager-linux-subscriptions:ListRegisteredSubscriptionProviders
+license-manager-linux-subscriptions:ListTagsForResource
+license-manager-linux-subscriptions:RegisterSubscriptionProvider
+license-manager-linux-subscriptions:TagResource
+license-manager-linux-subscriptions:UntagResource
 license-manager-linux-subscriptions:UpdateServiceSettings
 license-manager-user-subscriptions:AssociateUser
 license-manager-user-subscriptions:DeregisterIdentityProvider
