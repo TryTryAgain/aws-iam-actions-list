@@ -760,6 +760,11 @@ appstream:UpdateEntitlement
 appstream:UpdateFleet
 appstream:UpdateImagePermissions
 appstream:UpdateStack
+appstudio:GetAccountStatus
+appstudio:GetEnablementJobStatus
+appstudio:StartEnablementJob
+appstudio:StartRollbackEnablementJob
+appstudio:StartTeamDeployment
 appsync:AssociateApi
 appsync:AssociateMergedGraphqlApi
 appsync:AssociateSourceGraphqlApi
@@ -13767,6 +13772,7 @@ sagemaker:CreateModelQualityJobDefinition
 sagemaker:CreateMonitoringSchedule
 sagemaker:CreateNotebookInstance
 sagemaker:CreateNotebookInstanceLifecycleConfig
+sagemaker:CreateOptimizationJob
 sagemaker:CreatePipeline
 sagemaker:CreatePresignedDomainUrl
 sagemaker:CreatePresignedMlflowTrackingServerUrl
@@ -13826,6 +13832,7 @@ sagemaker:DeleteModelQualityJobDefinition
 sagemaker:DeleteMonitoringSchedule
 sagemaker:DeleteNotebookInstance
 sagemaker:DeleteNotebookInstanceLifecycleConfig
+sagemaker:DeleteOptimization
 sagemaker:DeletePipeline
 sagemaker:DeleteProject
 sagemaker:DeleteRecord
@@ -13888,6 +13895,7 @@ sagemaker:DescribeModelQualityJobDefinition
 sagemaker:DescribeMonitoringSchedule
 sagemaker:DescribeNotebookInstance
 sagemaker:DescribeNotebookInstanceLifecycleConfig
+sagemaker:DescribeOptimizationJob
 sagemaker:DescribePipeline
 sagemaker:DescribePipelineDefinitionForExecution
 sagemaker:DescribePipelineExecution
@@ -13978,6 +13986,7 @@ sagemaker:ListMonitoringExecutions
 sagemaker:ListMonitoringSchedules
 sagemaker:ListNotebookInstanceLifecycleConfigs
 sagemaker:ListNotebookInstances
+sagemaker:ListOptimizationJobs
 sagemaker:ListPipelineExecutionSteps
 sagemaker:ListPipelineExecutions
 sagemaker:ListPipelineParametersForExecution
@@ -14033,6 +14042,7 @@ sagemaker:StopLabelingJob
 sagemaker:StopMlflowTrackingServer
 sagemaker:StopMonitoringSchedule
 sagemaker:StopNotebookInstance
+sagemaker:StopOptimizationJob
 sagemaker:StopPipelineExecution
 sagemaker:StopProcessingJob
 sagemaker:StopTrainingJob
