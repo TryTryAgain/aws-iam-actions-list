@@ -10600,6 +10600,8 @@ medical-imaging:DeleteDatastore
 medical-imaging:DeleteImageSet
 medical-imaging:GetDICOMImportJob
 medical-imaging:GetDICOMInstance
+medical-imaging:GetDICOMInstanceFrames
+medical-imaging:GetDICOMInstanceMetadata
 medical-imaging:GetDatastore
 medical-imaging:GetImageFrame
 medical-imaging:GetImageSet
