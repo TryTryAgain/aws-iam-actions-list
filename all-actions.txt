@@ -3736,6 +3736,7 @@ connect:ReleasePhoneNumber
 connect:ReplicateInstance
 connect:ResumeContact
 connect:ResumeContactRecording
+connect:SearchAgentStatuses
 connect:SearchAvailablePhoneNumbers
 connect:SearchContactFlowModules
 connect:SearchContactFlows
@@ -3748,6 +3749,7 @@ connect:SearchQuickConnects
 connect:SearchResourceTags
 connect:SearchRoutingProfiles
 connect:SearchSecurityProfiles
+connect:SearchUserHierarchyGroups
 connect:SearchUsers
 connect:SearchVocabularies
 connect:SendChatIntegrationEvent
