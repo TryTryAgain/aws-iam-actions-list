@@ -12236,6 +12236,8 @@ qldb:UntagResource
 qldb:UpdateLedger
 qldb:UpdateLedgerPermissionsMode
 quicksight:AccountConfigurations
+quicksight:BatchCreateTopicReviewedAnswer
+quicksight:BatchDeleteTopicReviewedAnswer
 quicksight:CancelIngestion
 quicksight:CreateAccountCustomization
 quicksight:CreateAccountSubscription
@@ -12370,6 +12372,7 @@ quicksight:ListThemeAliases
 quicksight:ListThemeVersions
 quicksight:ListThemes
 quicksight:ListTopicRefreshSchedules
+quicksight:ListTopicReviewedAnswers
 quicksight:ListTopics
 quicksight:ListUserGroups
 quicksight:ListUsers
@@ -13045,17 +13048,20 @@ resource-explorer-2:BatchGetView
 resource-explorer-2:CreateIndex
 resource-explorer-2:CreateView
 resource-explorer-2:DeleteIndex
+resource-explorer-2:DeleteResourcePolicy
 resource-explorer-2:DeleteView
 resource-explorer-2:DisassociateDefaultView
 resource-explorer-2:GetAccountLevelServiceConfiguration
 resource-explorer-2:GetDefaultView
 resource-explorer-2:GetIndex
+resource-explorer-2:GetResourcePolicy
 resource-explorer-2:GetView
 resource-explorer-2:ListIndexes
 resource-explorer-2:ListIndexesForMembers
 resource-explorer-2:ListSupportedResourceTypes
 resource-explorer-2:ListTagsForResource
 resource-explorer-2:ListViews
+resource-explorer-2:PutResourcePolicy
 resource-explorer-2:Search
 resource-explorer-2:TagResource
 resource-explorer-2:UntagResource
