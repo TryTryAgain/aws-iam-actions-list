@@ -16756,6 +16756,7 @@ workmail:DeleteResource
 workmail:DeleteRetentionPolicy
 workmail:DeleteSmtpGateway
 workmail:DeleteUser
+workmail:DeliverToMailbox
 workmail:DeregisterFromWorkMail
 workmail:DeregisterMailDomain
 workmail:DescribeEmailMonitoringConfiguration
