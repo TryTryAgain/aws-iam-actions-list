@@ -904,11 +904,13 @@ aps:UpdateWorkspaceAlias
 arc-zonal-shift:CancelZonalShift
 arc-zonal-shift:CreatePracticeRunConfiguration
 arc-zonal-shift:DeletePracticeRunConfiguration
+arc-zonal-shift:GetAutoshiftObserverNotificationStatus
 arc-zonal-shift:GetManagedResource
 arc-zonal-shift:ListAutoshifts
 arc-zonal-shift:ListManagedResources
 arc-zonal-shift:ListZonalShifts
 arc-zonal-shift:StartZonalShift
+arc-zonal-shift:UpdateAutoshiftObserverNotificationStatus
 arc-zonal-shift:UpdatePracticeRunConfiguration
 arc-zonal-shift:UpdateZonalAutoshiftConfiguration
 arc-zonal-shift:UpdateZonalShift
@@ -1432,6 +1434,7 @@ bedrock:CreateFoundationModelAgreement
 bedrock:CreateGuardrail
 bedrock:CreateGuardrailVersion
 bedrock:CreateKnowledgeBase
+bedrock:CreateModelCopyJob
 bedrock:CreateModelCustomizationJob
 bedrock:CreateModelEvaluationJob
 bedrock:CreateModelInvocationJob
@@ -1473,6 +1476,7 @@ bedrock:GetFoundationModelAvailability
 bedrock:GetGuardrail
 bedrock:GetIngestionJob
 bedrock:GetKnowledgeBase
+bedrock:GetModelCopyJob
 bedrock:GetModelCustomizationJob
 bedrock:GetModelEvaluationJob
 bedrock:GetModelInvocationJob
@@ -1500,6 +1504,7 @@ bedrock:ListFoundationModels
 bedrock:ListGuardrails
 bedrock:ListIngestionJobs
 bedrock:ListKnowledgeBases
+bedrock:ListModelCopyJobs
 bedrock:ListModelCustomizationJobs
 bedrock:ListModelEvaluationJobs
 bedrock:ListModelInvocationJobs
