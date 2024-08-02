@@ -3052,8 +3052,11 @@ codepipeline:ListActionExecutions
 codepipeline:ListActionTypes
 codepipeline:ListPipelineExecutions
 codepipeline:ListPipelines
+codepipeline:ListRuleExecutions
+codepipeline:ListRuleTypes
 codepipeline:ListTagsForResource
 codepipeline:ListWebhooks
+codepipeline:OverrideStageCondition
 codepipeline:PollForJobs
 codepipeline:PollForThirdPartyJobs
 codepipeline:PutActionRevision
