@@ -6290,9 +6290,17 @@ elastictranscoder:UpdatePipelineNotifications
 elastictranscoder:UpdatePipelineStatus
 elemental-activations:CompleteAccountRegistration
 elemental-activations:CompleteFileUpload
+elemental-activations:ConfirmAccount
+elemental-activations:DownloadKickstart
 elemental-activations:DownloadSoftware
+elemental-activations:GenerateLicense
 elemental-activations:GenerateLicenses
 elemental-activations:GetActivation
+elemental-activations:GetArtifactGroupSoftwareVersions
+elemental-activations:GetAsset
+elemental-activations:GetAssets
+elemental-activations:GetProductAdvisories
+elemental-activations:GetSoftwareVersions
 elemental-activations:ListTagsForResource
 elemental-activations:StartAccountRegistration
 elemental-activations:StartFileUpload
