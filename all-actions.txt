@@ -7239,7 +7239,6 @@ glue:BatchGetStageFiles
 glue:BatchGetTableOptimizer
 glue:BatchGetTriggers
 glue:BatchGetWorkflows
-glue:BatchPutDataQualityStatisticAnnotation
 glue:BatchStopJobRun
 glue:BatchUpdatePartition
 glue:CancelDataQualityRuleRecommendationRun
@@ -7398,8 +7397,6 @@ glue:ListDataQualityResults
 glue:ListDataQualityRuleRecommendationRuns
 glue:ListDataQualityRulesetEvaluationRuns
 glue:ListDataQualityRulesets
-glue:ListDataQualityStatisticAnnotations
-glue:ListDataQualityStatistics
 glue:ListDevEndpoints
 glue:ListEntities
 glue:ListJobs
@@ -7418,6 +7415,7 @@ glue:PassConnection
 glue:PublishDataQuality
 glue:PutDataCatalogEncryptionSettings
 glue:PutDataQualityProfileAnnotation
+glue:PutDataQualityStatisticAnnotation
 glue:PutResourcePolicy
 glue:PutSchemaVersionMetadata
 glue:PutWorkflowRunProperties
@@ -9325,6 +9323,7 @@ kinesisvideo:GetMedia
 kinesisvideo:GetMediaForFragmentList
 kinesisvideo:GetSignalingChannelEndpoint
 kinesisvideo:JoinStorageSession
+kinesisvideo:JoinStorageSessionAsViewer
 kinesisvideo:ListEdgeAgentConfigurations
 kinesisvideo:ListFragments
 kinesisvideo:ListSignalingChannels
