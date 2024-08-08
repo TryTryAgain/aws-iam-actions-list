@@ -376,6 +376,7 @@ app-integrations:TagResource
 app-integrations:UntagResource
 app-integrations:UpdateApplication
 app-integrations:UpdateDataIntegration
+app-integrations:UpdateDataIntegrationAssociation
 app-integrations:UpdateEventIntegration
 appconfig:CreateApplication
 appconfig:CreateConfigurationProfile
