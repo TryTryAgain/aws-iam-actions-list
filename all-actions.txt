@@ -5199,6 +5199,7 @@ ec2:CreateInstanceEventWindow
 ec2:CreateInstanceExportTask
 ec2:CreateInternetGateway
 ec2:CreateIpam
+ec2:CreateIpamExternalResourceVerificationToken
 ec2:CreateIpamPool
 ec2:CreateIpamResourceDiscovery
 ec2:CreateIpamScope
@@ -5277,6 +5278,7 @@ ec2:DeleteInstanceConnectEndpoint
 ec2:DeleteInstanceEventWindow
 ec2:DeleteInternetGateway
 ec2:DeleteIpam
+ec2:DeleteIpamExternalResourceVerificationToken
 ec2:DeleteIpamPool
 ec2:DeleteIpamResourceDiscovery
 ec2:DeleteIpamScope
@@ -5403,6 +5405,7 @@ ec2:DescribeInstanceTypes
 ec2:DescribeInstances
 ec2:DescribeInternetGateways
 ec2:DescribeIpamByoasn
+ec2:DescribeIpamExternalResourceVerificationTokens
 ec2:DescribeIpamPools
 ec2:DescribeIpamResourceDiscoveries
 ec2:DescribeIpamResourceDiscoveryAssociations
