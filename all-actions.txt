@@ -7357,6 +7357,7 @@ glue:GetPartitions
 glue:GetPlan
 glue:GetQueries
 glue:GetQuery
+glue:GetRecipeAction
 glue:GetRegistry
 glue:GetResourcePolicies
 glue:GetResourcePolicy
@@ -7437,6 +7438,7 @@ glue:RunDataPreviewStatement
 glue:RunStatement
 glue:SearchTables
 glue:SendFeedback
+glue:SendRecipeAction
 glue:StartBlueprintRun
 glue:StartColumnStatisticsTaskRun
 glue:StartCompletion
