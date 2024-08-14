@@ -703,6 +703,7 @@ appstream:CreateImageBuilder
 appstream:CreateImageBuilderStreamingURL
 appstream:CreateStack
 appstream:CreateStreamingURL
+appstream:CreateThemeForStack
 appstream:CreateUpdatedImage
 appstream:CreateUsageReportSubscription
 appstream:CreateUser
@@ -716,6 +717,7 @@ appstream:DeleteImage
 appstream:DeleteImageBuilder
 appstream:DeleteImagePermissions
 appstream:DeleteStack
+appstream:DeleteThemeForStack
 appstream:DeleteUsageReportSubscription
 appstream:DeleteUser
 appstream:DescribeAppBlockBuilderAppBlockAssociations
@@ -731,6 +733,7 @@ appstream:DescribeImagePermissions
 appstream:DescribeImages
 appstream:DescribeSessions
 appstream:DescribeStacks
+appstream:DescribeThemeForStack
 appstream:DescribeUsageReportSubscriptions
 appstream:DescribeUserStackAssociations
 appstream:DescribeUsers
@@ -761,6 +764,7 @@ appstream:UpdateEntitlement
 appstream:UpdateFleet
 appstream:UpdateImagePermissions
 appstream:UpdateStack
+appstream:UpdateThemeForStack
 appstudio:GetAccountStatus
 appstudio:GetEnablementJobStatus
 appstudio:StartEnablementJob
@@ -2901,6 +2905,7 @@ codeconnections:DeleteHost
 codeconnections:DeleteRepositoryLink
 codeconnections:DeleteSyncConfiguration
 codeconnections:GetConnection
+codeconnections:GetConnectionToken
 codeconnections:GetHost
 codeconnections:GetIndividualAccessToken
 codeconnections:GetInstallationUrl
@@ -3089,6 +3094,7 @@ codestar-connections:DeleteHost
 codestar-connections:DeleteRepositoryLink
 codestar-connections:DeleteSyncConfiguration
 codestar-connections:GetConnection
+codestar-connections:GetConnectionToken
 codestar-connections:GetHost
 codestar-connections:GetIndividualAccessToken
 codestar-connections:GetInstallationUrl
