@@ -4119,6 +4119,7 @@ datazone:CreateGroupProfile
 datazone:CreateListingChangeSet
 datazone:CreateProject
 datazone:CreateProjectMembership
+datazone:CreateProjectProfile
 datazone:CreateSubscriptionGrant
 datazone:CreateSubscriptionRequest
 datazone:CreateSubscriptionTarget
@@ -4142,6 +4143,7 @@ datazone:DeleteGlossaryTerm
 datazone:DeleteListing
 datazone:DeleteProject
 datazone:DeleteProjectMembership
+datazone:DeleteProjectProfile
 datazone:DeleteSubscriptionGrant
 datazone:DeleteSubscriptionRequest
 datazone:DeleteSubscriptionTarget
@@ -4172,6 +4174,7 @@ datazone:GetLineageNode
 datazone:GetListing
 datazone:GetMetadataGenerationRun
 datazone:GetProject
+datazone:GetProjectProfile
 datazone:GetSubscription
 datazone:GetSubscriptionEligibility
 datazone:GetSubscriptionGrant
@@ -4201,6 +4204,7 @@ datazone:ListMetadataGenerationRuns
 datazone:ListNotifications
 datazone:ListPolicyGrants
 datazone:ListProjectMemberships
+datazone:ListProjectProfiles
 datazone:ListProjects
 datazone:ListSubscriptionGrants
 datazone:ListSubscriptionRequests
@@ -4247,6 +4251,7 @@ datazone:UpdateGlossary
 datazone:UpdateGlossaryTerm
 datazone:UpdateGroupProfile
 datazone:UpdateProject
+datazone:UpdateProjectProfile
 datazone:UpdateSubscriptionGrantStatus
 datazone:UpdateSubscriptionRequest
 datazone:UpdateSubscriptionTarget
@@ -7770,12 +7775,14 @@ health:DescribeEventsForOrganization
 health:DescribeHealthServiceStatusForOrganization
 health:DisableHealthServiceAccessForOrganization
 health:EnableHealthServiceAccessForOrganization
+healthlake:CancelFHIRExportJobWithDelete
 healthlake:CreateFHIRDatastore
 healthlake:CreateResource
 healthlake:DeleteFHIRDatastore
 healthlake:DeleteResource
 healthlake:DescribeFHIRDatastore
 healthlake:DescribeFHIRExportJob
+healthlake:DescribeFHIRExportJobWithGet
 healthlake:DescribeFHIRImportJob
 healthlake:GetCapabilities
 healthlake:ListFHIRDatastores
@@ -7787,6 +7794,7 @@ healthlake:SearchEverything
 healthlake:SearchWithGet
 healthlake:SearchWithPost
 healthlake:StartFHIRExportJob
+healthlake:StartFHIRExportJobWithPost
 healthlake:StartFHIRImportJob
 healthlake:TagResource
 healthlake:UntagResource
