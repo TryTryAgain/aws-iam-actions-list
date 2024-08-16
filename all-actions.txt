@@ -9504,6 +9504,7 @@ lambda:GetFunctionCodeSigningConfig
 lambda:GetFunctionConcurrency
 lambda:GetFunctionConfiguration
 lambda:GetFunctionEventInvokeConfig
+lambda:GetFunctionRecursionConfig
 lambda:GetFunctionUrlConfig
 lambda:GetLayerVersion
 lambda:GetLayerVersionPolicy
@@ -9530,6 +9531,7 @@ lambda:PublishVersion
 lambda:PutFunctionCodeSigningConfig
 lambda:PutFunctionConcurrency
 lambda:PutFunctionEventInvokeConfig
+lambda:PutFunctionRecursionConfig
 lambda:PutProvisionedConcurrencyConfig
 lambda:PutRuntimeManagementConfig
 lambda:RemoveLayerVersionPermission
