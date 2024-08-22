@@ -5827,6 +5827,7 @@ ecr:DescribePullThroughCacheRules
 ecr:DescribeRegistry
 ecr:DescribeRepositories
 ecr:DescribeRepositoryCreationTemplates
+ecr:GetAccountSetting
 ecr:GetAuthorizationToken
 ecr:GetDownloadUrlForLayer
 ecr:GetLifecyclePolicy
@@ -5837,6 +5838,7 @@ ecr:GetRepositoryPolicy
 ecr:InitiateLayerUpload
 ecr:ListImages
 ecr:ListTagsForResource
+ecr:PutAccountSetting
 ecr:PutImage
 ecr:PutImageScanningConfiguration
 ecr:PutImageTagMutability
