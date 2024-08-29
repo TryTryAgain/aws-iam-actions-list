@@ -12437,6 +12437,7 @@ quicksight:ListDataSets
 quicksight:ListDataSources
 quicksight:ListFolderMembers
 quicksight:ListFolders
+quicksight:ListFoldersForResource
 quicksight:ListGroupMemberships
 quicksight:ListGroups
 quicksight:ListIAMPolicyAssignments
