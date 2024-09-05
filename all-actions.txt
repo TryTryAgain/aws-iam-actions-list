@@ -5202,6 +5202,7 @@ ec2:CopyFpgaImage
 ec2:CopyImage
 ec2:CopySnapshot
 ec2:CreateCapacityReservation
+ec2:CreateCapacityReservationBySplitting
 ec2:CreateCapacityReservationFleet
 ec2:CreateCarrierGateway
 ec2:CreateClientVpnEndpoint
@@ -5716,6 +5717,7 @@ ec2:ModifyVpnTunnelOptions
 ec2:MonitorInstances
 ec2:MoveAddressToVpc
 ec2:MoveByoipCidrToIpam
+ec2:MoveCapacityReservationInstances
 ec2:PauseVolumeIO
 ec2:ProvisionByoipCidr
 ec2:ProvisionIpamByoasn
