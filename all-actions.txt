@@ -15123,6 +15123,7 @@ sqlworkbench:DeleteConnection
 sqlworkbench:DeleteNotebook
 sqlworkbench:DeleteNotebookCell
 sqlworkbench:DeleteNotebookVersion
+sqlworkbench:DeleteQCustomContext
 sqlworkbench:DeleteSavedQuery
 sqlworkbench:DeleteTab
 sqlworkbench:DriverExecute
@@ -15137,6 +15138,8 @@ sqlworkbench:GetChart
 sqlworkbench:GetConnection
 sqlworkbench:GetNotebook
 sqlworkbench:GetNotebookVersion
+sqlworkbench:GetQCustomContext
+sqlworkbench:GetQSqlPromptQuotas
 sqlworkbench:GetQSqlRecommendations
 sqlworkbench:GetQueryExecutionHistory
 sqlworkbench:GetSavedQuery
@@ -15156,6 +15159,7 @@ sqlworkbench:ListSavedQueryVersions
 sqlworkbench:ListTabs
 sqlworkbench:ListTaggedResources
 sqlworkbench:ListTagsForResource
+sqlworkbench:PutQCustomContext
 sqlworkbench:PutTab
 sqlworkbench:PutUserWorkspaceSettings
 sqlworkbench:RestoreNotebookVersion
