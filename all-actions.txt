@@ -11927,6 +11927,7 @@ personalize:UpdateCampaign
 personalize:UpdateDataset
 personalize:UpdateMetricAttribution
 personalize:UpdateRecommender
+personalize:UpdateSolution
 pi:CreatePerformanceAnalysisReport
 pi:DeletePerformanceAnalysisReport
 pi:DescribeDimensionKeys
