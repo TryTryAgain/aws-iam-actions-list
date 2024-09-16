@@ -4991,6 +4991,7 @@ drs:UpdateReplicationCertificateForDrs
 drs:UpdateReplicationConfiguration
 drs:UpdateReplicationConfigurationTemplate
 ds:AcceptSharedDirectory
+ds:AccessDSData
 ds:AddIpRoutes
 ds:AddRegion
 ds:AddTagsToResource
