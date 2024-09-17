@@ -8277,6 +8277,7 @@ iot1click:UpdateProject
 iot:AcceptCertificateTransfer
 iot:AddThingToBillingGroup
 iot:AddThingToThingGroup
+iot:AssociateSbomWithPackageVersion
 iot:AssociateTargetsWithJob
 iot:AttachPolicy
 iot:AttachPrincipalPolicy
@@ -8399,6 +8400,7 @@ iot:DetachPrincipalPolicy
 iot:DetachSecurityProfile
 iot:DetachThingPrincipal
 iot:DisableTopicRule
+iot:DisassociateSbomFromPackageVersion
 iot:EnableTopicRule
 iot:GetBehaviorModelTrainingSummaries
 iot:GetBucketsAggregation
@@ -8463,6 +8465,7 @@ iot:ListProvisioningTemplates
 iot:ListRelatedResourcesForAuditFinding
 iot:ListRetainedMessages
 iot:ListRoleAliases
+iot:ListSbomValidationResults
 iot:ListScheduledAudits
 iot:ListSecurityProfiles
 iot:ListSecurityProfilesForTarget
