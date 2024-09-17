@@ -9489,6 +9489,7 @@ lambda:DeleteFunctionEventInvokeConfig
 lambda:DeleteFunctionUrlConfig
 lambda:DeleteLayerVersion
 lambda:DeleteProvisionedConcurrencyConfig
+lambda:DeleteResourcePolicy
 lambda:DisableReplication
 lambda:EnableReplication
 lambda:GetAccountSettings
@@ -9506,6 +9507,8 @@ lambda:GetLayerVersion
 lambda:GetLayerVersionPolicy
 lambda:GetPolicy
 lambda:GetProvisionedConcurrencyConfig
+lambda:GetPublicAccessBlockConfig
+lambda:GetResourcePolicy
 lambda:GetRuntimeManagementConfig
 lambda:InvokeAsync
 lambda:InvokeFunction
@@ -9529,6 +9532,8 @@ lambda:PutFunctionConcurrency
 lambda:PutFunctionEventInvokeConfig
 lambda:PutFunctionRecursionConfig
 lambda:PutProvisionedConcurrencyConfig
+lambda:PutPublicAccessBlockConfig
+lambda:PutResourcePolicy
 lambda:PutRuntimeManagementConfig
 lambda:RemoveLayerVersionPermission
 lambda:RemovePermission
