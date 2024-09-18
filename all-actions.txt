@@ -13800,8 +13800,10 @@ s3express:CreateSession
 s3express:DeleteBucket
 s3express:DeleteBucketPolicy
 s3express:GetBucketPolicy
+s3express:GetEncryptionConfiguration
 s3express:ListAllMyDirectoryBuckets
 s3express:PutBucketPolicy
+s3express:PutEncryptionConfiguration
 sagemaker-geospatial:DeleteEarthObservationJob
 sagemaker-geospatial:DeleteVectorEnrichmentJob
 sagemaker-geospatial:ExportEarthObservationJob
