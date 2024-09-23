@@ -14564,6 +14564,7 @@ servicecatalog:DeletePortfolioShare
 servicecatalog:DeleteProduct
 servicecatalog:DeleteProvisionedProductPlan
 servicecatalog:DeleteProvisioningArtifact
+servicecatalog:DeleteResourcePolicy
 servicecatalog:DeleteServiceAction
 servicecatalog:DeleteTagOption
 servicecatalog:DescribeConstraint
@@ -14599,6 +14600,7 @@ servicecatalog:GetAssociatedResource
 servicecatalog:GetAttributeGroup
 servicecatalog:GetConfiguration
 servicecatalog:GetProvisionedProductOutputs
+servicecatalog:GetResourcePolicy
 servicecatalog:ImportAsProvisionedProduct
 servicecatalog:ListAcceptedPortfolioShares
 servicecatalog:ListApplications
@@ -14629,6 +14631,7 @@ servicecatalog:NotifyTerminateProvisionedProductEngineWorkflowResult
 servicecatalog:NotifyUpdateProvisionedProductEngineWorkflowResult
 servicecatalog:ProvisionProduct
 servicecatalog:PutConfiguration
+servicecatalog:PutResourcePolicy
 servicecatalog:RejectPortfolioShare
 servicecatalog:ScanProvisionedProducts
 servicecatalog:SearchProducts
