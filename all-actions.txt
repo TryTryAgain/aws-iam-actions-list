@@ -10487,6 +10487,7 @@ mediaconvert:ListJobs
 mediaconvert:ListPresets
 mediaconvert:ListQueues
 mediaconvert:ListTagsForResource
+mediaconvert:ListVersions
 mediaconvert:PutPolicy
 mediaconvert:SearchJobs
 mediaconvert:TagResource
