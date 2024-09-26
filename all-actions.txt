@@ -12268,6 +12268,7 @@ qapps:DeleteLibraryItem
 qapps:DeleteQApp
 qapps:DisassociateLibraryItemReview
 qapps:DisassociateQAppFromUser
+qapps:ExportQAppSessionData
 qapps:GetLibraryItem
 qapps:GetQApp
 qapps:GetQAppSession
@@ -12276,6 +12277,7 @@ qapps:ImportDocument
 qapps:ImportDocumentToQApp
 qapps:ImportDocumentToQAppSession
 qapps:ListLibraryItems
+qapps:ListQAppSessionData
 qapps:ListQApps
 qapps:ListTagsForResource
 qapps:PredictProblemStatementFromConversation
