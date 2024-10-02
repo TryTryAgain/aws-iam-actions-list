@@ -1226,6 +1226,7 @@ awsconnector:ValidateConnectorId
 b2bi:CreateCapability
 b2bi:CreatePartnership
 b2bi:CreateProfile
+b2bi:CreateStarterMappingTemplate
 b2bi:CreateTransformer
 b2bi:DeleteCapability
 b2bi:DeletePartnership
@@ -1243,6 +1244,7 @@ b2bi:ListTagsForResource
 b2bi:ListTransformers
 b2bi:StartTransformerJob
 b2bi:TagResource
+b2bi:TestConversion
 b2bi:TestMapping
 b2bi:TestParsing
 b2bi:UntagResource
