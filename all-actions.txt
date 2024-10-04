@@ -15332,6 +15332,7 @@ ssm-contacts:UpdateContactChannel
 ssm-contacts:UpdateRotation
 ssm-guiconnect:CancelConnection
 ssm-guiconnect:GetConnection
+ssm-guiconnect:ListConnections
 ssm-guiconnect:StartConnection
 ssm-incidents:BatchGetIncidentFindings
 ssm-incidents:CreateReplicationSet
