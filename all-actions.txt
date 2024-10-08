@@ -1180,6 +1180,7 @@ aws-marketplace:DisassociateProductsFromPrivateMarketplace
 aws-marketplace:GetAgreementApprovalRequest
 aws-marketplace:GetAgreementRequest
 aws-marketplace:GetAgreementTerms
+aws-marketplace:GetBuyerDashboard
 aws-marketplace:GetEntitlements
 aws-marketplace:GetResourcePolicy
 aws-marketplace:GetSellerDashboard
