@@ -12324,6 +12324,7 @@ qbusiness:DeletePlugin
 qbusiness:DeleteRetriever
 qbusiness:DeleteUser
 qbusiness:DeleteWebExperience
+qbusiness:DisableAclOnDataSource
 qbusiness:GetApplication
 qbusiness:GetChatControlsConfiguration
 qbusiness:GetDataSource
@@ -15201,6 +15202,19 @@ sns:TagResource
 sns:Unsubscribe
 sns:UntagResource
 sns:VerifySMSSandboxPhoneNumber
+social-messaging:AssociateWhatsAppBusinessAccount
+social-messaging:DeleteWhatsAppMessageMedia
+social-messaging:DisassociateWhatsAppBusinessAccount
+social-messaging:GetLinkedWhatsAppBusinessAccount
+social-messaging:GetLinkedWhatsAppBusinessAccountPhoneNumber
+social-messaging:GetWhatsAppMessageMedia
+social-messaging:ListLinkedWhatsAppBusinessAccounts
+social-messaging:ListTagsForResource
+social-messaging:PostWhatsAppMessageMedia
+social-messaging:PutWhatsAppBusinessAccountEventDestinations
+social-messaging:SendWhatsAppMessage
+social-messaging:TagResource
+social-messaging:UntagResource
 sqlworkbench:AssociateConnectionWithChart
 sqlworkbench:AssociateConnectionWithTab
 sqlworkbench:AssociateNotebookWithTab
