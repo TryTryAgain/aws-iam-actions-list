@@ -10429,6 +10429,7 @@ mediaconnect:DeregisterGatewayInstance
 mediaconnect:DescribeBridge
 mediaconnect:DescribeFlow
 mediaconnect:DescribeFlowSourceMetadata
+mediaconnect:DescribeFlowSourceThumbnail
 mediaconnect:DescribeGateway
 mediaconnect:DescribeGatewayInstance
 mediaconnect:DescribeOffering
