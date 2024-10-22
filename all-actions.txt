@@ -12305,6 +12305,7 @@ qapps:UpdateQApp
 qapps:UpdateQAppSession
 qapps:UpdateQAppSessionMetadata
 qbusiness:AddUserLicenses
+qbusiness:AllowVendedLogDeliveryForResource
 qbusiness:BatchDeleteDocument
 qbusiness:BatchPutDocument
 qbusiness:CancelSubscription
