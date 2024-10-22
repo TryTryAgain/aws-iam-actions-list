@@ -17125,12 +17125,14 @@ workspaces-web:DisassociateNetworkSettings
 workspaces-web:DisassociateTrustStore
 workspaces-web:DisassociateUserAccessLoggingSettings
 workspaces-web:DisassociateUserSettings
+workspaces-web:ExpireSession
 workspaces-web:GetBrowserSettings
 workspaces-web:GetIdentityProvider
 workspaces-web:GetIpAccessSettings
 workspaces-web:GetNetworkSettings
 workspaces-web:GetPortal
 workspaces-web:GetPortalServiceProviderMetadata
+workspaces-web:GetSession
 workspaces-web:GetTrustStore
 workspaces-web:GetTrustStoreCertificate
 workspaces-web:GetUserAccessLoggingSettings
@@ -17140,6 +17142,7 @@ workspaces-web:ListIdentityProviders
 workspaces-web:ListIpAccessSettings
 workspaces-web:ListNetworkSettings
 workspaces-web:ListPortals
+workspaces-web:ListSessions
 workspaces-web:ListTagsForResource
 workspaces-web:ListTrustStoreCertificates
 workspaces-web:ListTrustStores
