@@ -199,6 +199,7 @@ airflow:CreateEnvironment
 airflow:CreateWebLoginToken
 airflow:DeleteEnvironment
 airflow:GetEnvironment
+airflow:InvokeRestApi
 airflow:ListEnvironments
 airflow:ListTagsForResource
 airflow:PublishMetrics
