@@ -16265,6 +16265,7 @@ transfer:ListAgreements
 transfer:ListCertificates
 transfer:ListConnectors
 transfer:ListExecutions
+transfer:ListFileTransferResults
 transfer:ListHostKeys
 transfer:ListProfiles
 transfer:ListSecurityPolicies
@@ -16805,6 +16806,7 @@ wickr:TagResource
 wickr:UntagResource
 wickr:UpdateNetworkDetails
 wisdom:ActivateMessageTemplate
+wisdom:AllowVendedLogDeliveryForResource
 wisdom:CreateAIAgent
 wisdom:CreateAIAgentVersion
 wisdom:CreateAIPrompt
