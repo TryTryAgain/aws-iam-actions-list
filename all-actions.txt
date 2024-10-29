@@ -10060,8 +10060,10 @@ logs:GetLogRecord
 logs:GetQueryResults
 logs:Link
 logs:ListAnomalies
+logs:ListEntitiesForLogGroup
 logs:ListLogAnomalyDetectors
 logs:ListLogDeliveries
+logs:ListLogGroupsForEntity
 logs:ListTagsForResource
 logs:ListTagsLogGroup
 logs:PutAccountPolicy
