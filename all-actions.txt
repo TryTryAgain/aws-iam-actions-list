@@ -6492,6 +6492,7 @@ es:AuthorizeVpcEndpointAccess
 es:CancelDomainConfigChange
 es:CancelElasticsearchServiceSoftwareUpdate
 es:CancelServiceSoftwareUpdate
+es:CreateApplication
 es:CreateDomain
 es:CreateElasticsearchDomain
 es:CreateElasticsearchServiceRole
@@ -6500,6 +6501,7 @@ es:CreateOutboundCrossClusterSearchConnection
 es:CreatePackage
 es:CreateServiceRole
 es:CreateVpcEndpoint
+es:DeleteApplication
 es:DeleteDataSource
 es:DeleteDomain
 es:DeleteElasticsearchDomain
@@ -6541,6 +6543,7 @@ es:ESHttpHead
 es:ESHttpPatch
 es:ESHttpPost
 es:ESHttpPut
+es:GetApplication
 es:GetCompatibleElasticsearchVersions
 es:GetCompatibleVersions
 es:GetDataSource
@@ -6548,6 +6551,7 @@ es:GetDomainMaintenanceStatus
 es:GetPackageVersionHistory
 es:GetUpgradeHistory
 es:GetUpgradeStatus
+es:ListApplications
 es:ListDataSources
 es:ListDomainMaintenances
 es:ListDomainNames
@@ -6572,6 +6576,7 @@ es:RevokeVpcEndpointAccess
 es:StartDomainMaintenance
 es:StartElasticsearchServiceSoftwareUpdate
 es:StartServiceSoftwareUpdate
+es:UpdateApplication
 es:UpdateDataSource
 es:UpdateDomainConfig
 es:UpdateElasticsearchDomainConfig
@@ -11834,6 +11839,7 @@ payment-cryptography:EncryptData
 payment-cryptography:ExportKey
 payment-cryptography:GenerateCardValidationData
 payment-cryptography:GenerateMac
+payment-cryptography:GenerateMacEmvPinChange
 payment-cryptography:GeneratePinData
 payment-cryptography:GetAlias
 payment-cryptography:GetKey
