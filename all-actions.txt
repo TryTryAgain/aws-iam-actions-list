@@ -1445,6 +1445,7 @@ bedrock:CreateFlowVersion
 bedrock:CreateFoundationModelAgreement
 bedrock:CreateGuardrail
 bedrock:CreateGuardrailVersion
+bedrock:CreateInferenceProfile
 bedrock:CreateKnowledgeBase
 bedrock:CreateModelCopyJob
 bedrock:CreateModelCustomizationJob
@@ -1467,6 +1468,7 @@ bedrock:DeleteFlowVersion
 bedrock:DeleteFoundationModelAgreement
 bedrock:DeleteGuardrail
 bedrock:DeleteImportedModel
+bedrock:DeleteInferenceProfile
 bedrock:DeleteKnowledgeBase
 bedrock:DeleteModelInvocationLoggingConfiguration
 bedrock:DeletePrompt
