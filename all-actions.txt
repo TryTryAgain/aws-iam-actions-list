@@ -17002,6 +17002,7 @@ workmail:CancelMailboxExportJob
 workmail:CreateAlias
 workmail:CreateAvailabilityConfiguration
 workmail:CreateGroup
+workmail:CreateIdentityCenterApplication
 workmail:CreateImpersonationRole
 workmail:CreateInboundMailFlowRule
 workmail:CreateMailDomain
@@ -17016,6 +17017,8 @@ workmail:DeleteAlias
 workmail:DeleteAvailabilityConfiguration
 workmail:DeleteEmailMonitoringConfiguration
 workmail:DeleteGroup
+workmail:DeleteIdentityCenterApplication
+workmail:DeleteIdentityProviderConfiguration
 workmail:DeleteImpersonationRole
 workmail:DeleteInboundMailFlowRule
 workmail:DeleteMailDomain
@@ -17025,6 +17028,7 @@ workmail:DeleteMobileDeviceAccessOverride
 workmail:DeleteMobileDeviceAccessRule
 workmail:DeleteOrganization
 workmail:DeleteOutboundMailFlowRule
+workmail:DeletePersonalAccessToken
 workmail:DeleteResource
 workmail:DeleteRetentionPolicy
 workmail:DeleteSmtpGateway
@@ -17035,6 +17039,7 @@ workmail:DeregisterMailDomain
 workmail:DescribeEmailMonitoringConfiguration
 workmail:DescribeEntity
 workmail:DescribeGroup
+workmail:DescribeIdentityProviderConfiguration
 workmail:DescribeInboundDmarcSettings
 workmail:DescribeInboundMailFlowRule
 workmail:DescribeMailDomains
@@ -17060,6 +17065,7 @@ workmail:GetMobileDeviceAccessOverride
 workmail:GetMobileDeviceDetails
 workmail:GetMobileDevicesForUser
 workmail:GetMobilePolicyDetails
+workmail:GetPersonalAccessTokenMetadata
 workmail:ListAccessControlRules
 workmail:ListAliases
 workmail:ListAvailabilityConfigurations
@@ -17075,6 +17081,7 @@ workmail:ListMobileDeviceAccessOverrides
 workmail:ListMobileDeviceAccessRules
 workmail:ListOrganizations
 workmail:ListOutboundMailFlowRules
+workmail:ListPersonalAccessTokens
 workmail:ListResourceDelegates
 workmail:ListResources
 workmail:ListSmtpGateways
@@ -17082,6 +17089,7 @@ workmail:ListTagsForResource
 workmail:ListUsers
 workmail:PutAccessControlRule
 workmail:PutEmailMonitoringConfiguration
+workmail:PutIdentityProviderConfiguration
 workmail:PutInboundDmarcSettings
 workmail:PutMailboxPermissions
 workmail:PutMobileDeviceAccessOverride
