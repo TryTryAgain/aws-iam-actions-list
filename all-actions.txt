@@ -507,6 +507,7 @@ application-signals:CreateServiceLevelObjective
 application-signals:DeleteServiceLevelObjective
 application-signals:GetService
 application-signals:GetServiceLevelObjective
+application-signals:ListObservedEntities
 application-signals:ListServiceDependencies
 application-signals:ListServiceDependents
 application-signals:ListServiceLevelObjectives
@@ -13980,6 +13981,7 @@ sagemaker-mlflow:UpdateRun
 sagemaker:AddAssociation
 sagemaker:AddTags
 sagemaker:AssociateTrialComponent
+sagemaker:BatchDeleteClusterNodes
 sagemaker:BatchDescribeModelPackage
 sagemaker:BatchGetMetrics
 sagemaker:BatchGetRecord
