@@ -12286,6 +12286,9 @@ q:StartTroubleshootingResolutionExplanation
 q:UpdateTroubleshootingCommandResult
 qapps:AssociateLibraryItemReview
 qapps:AssociateQAppWithUser
+qapps:BatchCreateCategory
+qapps:BatchDeleteCategory
+qapps:BatchUpdateCategory
 qapps:CopyQApp
 qapps:CreateLibraryItem
 qapps:CreateLibraryItemReview
@@ -12303,6 +12306,7 @@ qapps:GetQAppSessionMetadata
 qapps:ImportDocument
 qapps:ImportDocumentToQApp
 qapps:ImportDocumentToQAppSession
+qapps:ListCategories
 qapps:ListLibraryItems
 qapps:ListQAppSessionData
 qapps:ListQApps
