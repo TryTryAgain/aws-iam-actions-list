@@ -5210,6 +5210,7 @@ ec2-instance-connect:OpenTunnel
 ec2-instance-connect:SendSSHPublicKey
 ec2-instance-connect:SendSerialConsoleSSHPublicKey
 ec2:AcceptAddressTransfer
+ec2:AcceptCapacityReservationBillingOwnership
 ec2:AcceptReservedInstancesExchangeQuote
 ec2:AcceptTransitGatewayMulticastDomainAssociations
 ec2:AcceptTransitGatewayPeeringAttachment
@@ -5225,6 +5226,7 @@ ec2:AssignIpv6Addresses
 ec2:AssignPrivateIpAddresses
 ec2:AssignPrivateNatGatewayAddress
 ec2:AssociateAddress
+ec2:AssociateCapacityReservationBillingOwner
 ec2:AssociateClientVpnTargetNetwork
 ec2:AssociateDhcpOptions
 ec2:AssociateEnclaveCertificateIamRole
@@ -5234,6 +5236,7 @@ ec2:AssociateIpamByoasn
 ec2:AssociateIpamResourceDiscovery
 ec2:AssociateNatGatewayAddress
 ec2:AssociateRouteTable
+ec2:AssociateSecurityGroupVpc
 ec2:AssociateSubnetCidrBlock
 ec2:AssociateTransitGatewayMulticastDomain
 ec2:AssociateTransitGatewayPolicyTable
@@ -5447,6 +5450,7 @@ ec2:DescribeAwsNetworkPerformanceMetricSubscriptions
 ec2:DescribeBundleTasks
 ec2:DescribeByoipCidrs
 ec2:DescribeCapacityBlockOfferings
+ec2:DescribeCapacityReservationBillingRequests
 ec2:DescribeCapacityReservationFleets
 ec2:DescribeCapacityReservations
 ec2:DescribeCarrierGateways
@@ -5487,6 +5491,7 @@ ec2:DescribeInstanceConnectEndpoints
 ec2:DescribeInstanceCreditSpecifications
 ec2:DescribeInstanceEventNotificationAttributes
 ec2:DescribeInstanceEventWindows
+ec2:DescribeInstanceImageMetadata
 ec2:DescribeInstanceStatus
 ec2:DescribeInstanceTopology
 ec2:DescribeInstanceTypeOfferings
@@ -5539,6 +5544,7 @@ ec2:DescribeScheduledInstanceAvailability
 ec2:DescribeScheduledInstances
 ec2:DescribeSecurityGroupReferences
 ec2:DescribeSecurityGroupRules
+ec2:DescribeSecurityGroupVpcAssociations
 ec2:DescribeSecurityGroups
 ec2:DescribeSnapshotAttribute
 ec2:DescribeSnapshotTierStatus
@@ -5614,6 +5620,7 @@ ec2:DisableVgwRoutePropagation
 ec2:DisableVpcClassicLink
 ec2:DisableVpcClassicLinkDnsSupport
 ec2:DisassociateAddress
+ec2:DisassociateCapacityReservationBillingOwner
 ec2:DisassociateClientVpnTargetNetwork
 ec2:DisassociateEnclaveCertificateIamRole
 ec2:DisassociateIamInstanceProfile
@@ -5622,6 +5629,7 @@ ec2:DisassociateIpamByoasn
 ec2:DisassociateIpamResourceDiscovery
 ec2:DisassociateNatGatewayAddress
 ec2:DisassociateRouteTable
+ec2:DisassociateSecurityGroupVpc
 ec2:DisassociateSubnetCidrBlock
 ec2:DisassociateTransitGatewayMulticastDomain
 ec2:DisassociateTransitGatewayPolicyTable
@@ -5728,6 +5736,7 @@ ec2:ModifyIdentityIdFormat
 ec2:ModifyImageAttribute
 ec2:ModifyInstanceAttribute
 ec2:ModifyInstanceCapacityReservationAttributes
+ec2:ModifyInstanceCpuOptions
 ec2:ModifyInstanceCreditSpecification
 ec2:ModifyInstanceEventStartTime
 ec2:ModifyInstanceEventWindow
@@ -5797,6 +5806,7 @@ ec2:RegisterImage
 ec2:RegisterInstanceEventNotificationAttributes
 ec2:RegisterTransitGatewayMulticastGroupMembers
 ec2:RegisterTransitGatewayMulticastGroupSources
+ec2:RejectCapacityReservationBillingOwnership
 ec2:RejectTransitGatewayMulticastDomainAssociations
 ec2:RejectTransitGatewayPeeringAttachment
 ec2:RejectTransitGatewayVpcAttachment
