@@ -3614,6 +3614,7 @@ connect-campaigns:UpdateCampaignName
 connect-campaigns:UpdateCampaignOutboundCallConfig
 connect:ActivateEvaluationForm
 connect:AdminGetEmergencyAccessToken
+connect:AssociateAnalyticsDataSet
 connect:AssociateApprovedOrigin
 connect:AssociateBot
 connect:AssociateCustomerProfilesDomain
@@ -3713,6 +3714,7 @@ connect:DescribeUserHierarchyGroup
 connect:DescribeUserHierarchyStructure
 connect:DescribeView
 connect:DescribeVocabulary
+connect:DisassociateAnalyticsDataSet
 connect:DisassociateApprovedOrigin
 connect:DisassociateBot
 connect:DisassociateCustomerProfilesDomain
@@ -3741,6 +3743,7 @@ connect:GetTaskTemplate
 connect:GetTrafficDistribution
 connect:ImportPhoneNumber
 connect:ListAgentStatuses
+connect:ListAnalyticsDataAssociations
 connect:ListApprovedOrigins
 connect:ListAuthenticationProfiles
 connect:ListBots
@@ -3818,7 +3821,9 @@ connect:StartContactEvaluation
 connect:StartContactRecording
 connect:StartContactStreaming
 connect:StartForecastingPlanningSchedulingIntegration
+connect:StartOutboundChatContact
 connect:StartOutboundVoiceContact
+connect:StartScreenSharing
 connect:StartTaskContact
 connect:StartWebRTCContact
 connect:StopContact
