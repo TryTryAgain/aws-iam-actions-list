@@ -922,6 +922,7 @@ aps:RemoteWrite
 aps:TagResource
 aps:UntagResource
 aps:UpdateLoggingConfiguration
+aps:UpdateScraper
 aps:UpdateWorkspaceAlias
 arc-zonal-shift:CancelZonalShift
 arc-zonal-shift:CreatePracticeRunConfiguration
@@ -6227,6 +6228,8 @@ elasticfilesystem:PutAccountPreferences
 elasticfilesystem:PutBackupPolicy
 elasticfilesystem:PutFileSystemPolicy
 elasticfilesystem:PutLifecycleConfiguration
+elasticfilesystem:ReplicationRead
+elasticfilesystem:ReplicationWrite
 elasticfilesystem:Restore
 elasticfilesystem:TagResource
 elasticfilesystem:UntagResource
