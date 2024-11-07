@@ -1557,6 +1557,7 @@ bedrock:PutFoundationModelEntitlement
 bedrock:PutModelInvocationLoggingConfiguration
 bedrock:PutResourcePolicy
 bedrock:PutUseCaseForModelAccess
+bedrock:RenderPrompt
 bedrock:Retrieve
 bedrock:RetrieveAndGenerate
 bedrock:StartIngestionJob
@@ -1577,6 +1578,7 @@ bedrock:UpdateGuardrail
 bedrock:UpdateKnowledgeBase
 bedrock:UpdatePrompt
 bedrock:UpdateProvisionedModelThroughput
+bedrock:ValidateFlowDefinition
 billing:GetBillingData
 billing:GetBillingDetails
 billing:GetBillingNotifications
