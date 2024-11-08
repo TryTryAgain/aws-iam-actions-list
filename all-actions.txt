@@ -10724,8 +10724,10 @@ mediapackage:TagResource
 mediapackage:UntagResource
 mediapackage:UpdateChannel
 mediapackage:UpdateOriginEndpoint
+mediapackagev2:CancelHarvestJob
 mediapackagev2:CreateChannel
 mediapackagev2:CreateChannelGroup
+mediapackagev2:CreateHarvestJob
 mediapackagev2:CreateOriginEndpoint
 mediapackagev2:DeleteChannel
 mediapackagev2:DeleteChannelGroup
@@ -10735,12 +10737,15 @@ mediapackagev2:DeleteOriginEndpointPolicy
 mediapackagev2:GetChannel
 mediapackagev2:GetChannelGroup
 mediapackagev2:GetChannelPolicy
+mediapackagev2:GetHarvestJob
 mediapackagev2:GetHeadObject
 mediapackagev2:GetObject
 mediapackagev2:GetOriginEndpoint
 mediapackagev2:GetOriginEndpointPolicy
+mediapackagev2:HarvestObject
 mediapackagev2:ListChannelGroups
 mediapackagev2:ListChannels
+mediapackagev2:ListHarvestJobs
 mediapackagev2:ListOriginEndpoints
 mediapackagev2:ListTagsForResource
 mediapackagev2:PutChannelPolicy
@@ -11649,6 +11654,7 @@ one:UpdateDeviceConfigurationTemplate
 one:UpdateDeviceInstance
 one:UpdateSite
 one:UpdateSiteAddress
+opensearch:ApplicationAccessAll
 opsworks-cm:AssociateNode
 opsworks-cm:CreateBackup
 opsworks-cm:CreateServer
@@ -14001,6 +14007,9 @@ sagemaker-mlflow:DeleteRegisteredModelAlias
 sagemaker-mlflow:DeleteRegisteredModelTag
 sagemaker-mlflow:DeleteRun
 sagemaker-mlflow:DeleteTag
+sagemaker-mlflow:DeleteTraceTag
+sagemaker-mlflow:DeleteTraces
+sagemaker-mlflow:EndTrace
 sagemaker-mlflow:GetDownloadURIForModelVersionArtifacts
 sagemaker-mlflow:GetExperiment
 sagemaker-mlflow:GetExperimentByName
@@ -14010,6 +14019,7 @@ sagemaker-mlflow:GetModelVersion
 sagemaker-mlflow:GetModelVersionByAlias
 sagemaker-mlflow:GetRegisteredModel
 sagemaker-mlflow:GetRun
+sagemaker-mlflow:GetTraceInfo
 sagemaker-mlflow:ListArtifacts
 sagemaker-mlflow:LogBatch
 sagemaker-mlflow:LogInputs
@@ -14023,11 +14033,14 @@ sagemaker-mlflow:SearchExperiments
 sagemaker-mlflow:SearchModelVersions
 sagemaker-mlflow:SearchRegisteredModels
 sagemaker-mlflow:SearchRuns
+sagemaker-mlflow:SearchTraces
 sagemaker-mlflow:SetExperimentTag
 sagemaker-mlflow:SetModelVersionTag
 sagemaker-mlflow:SetRegisteredModelAlias
 sagemaker-mlflow:SetRegisteredModelTag
 sagemaker-mlflow:SetTag
+sagemaker-mlflow:SetTraceTag
+sagemaker-mlflow:StartTrace
 sagemaker-mlflow:TransitionModelVersionStage
 sagemaker-mlflow:UpdateExperiment
 sagemaker-mlflow:UpdateModelVersion
