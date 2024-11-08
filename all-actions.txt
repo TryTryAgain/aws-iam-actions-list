@@ -13309,6 +13309,7 @@ resiliencehub:UpdateResiliencyPolicy
 resource-explorer-2:AssociateDefaultView
 resource-explorer-2:BatchGetView
 resource-explorer-2:CreateIndex
+resource-explorer-2:CreateManagedView
 resource-explorer-2:CreateView
 resource-explorer-2:DeleteIndex
 resource-explorer-2:DeleteResourcePolicy
@@ -13317,10 +13318,12 @@ resource-explorer-2:DisassociateDefaultView
 resource-explorer-2:GetAccountLevelServiceConfiguration
 resource-explorer-2:GetDefaultView
 resource-explorer-2:GetIndex
+resource-explorer-2:GetManagedView
 resource-explorer-2:GetResourcePolicy
 resource-explorer-2:GetView
 resource-explorer-2:ListIndexes
 resource-explorer-2:ListIndexesForMembers
+resource-explorer-2:ListManagedViews
 resource-explorer-2:ListSupportedResourceTypes
 resource-explorer-2:ListTagsForResource
 resource-explorer-2:ListViews
