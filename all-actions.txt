@@ -5226,6 +5226,7 @@ dynamodb:DescribeTimeToLive
 dynamodb:DisableKinesisStreamingDestination
 dynamodb:EnableKinesisStreamingDestination
 dynamodb:ExportTableToPointInTime
+dynamodb:GetAbacStatus
 dynamodb:GetItem
 dynamodb:GetRecords
 dynamodb:GetResourcePolicy
@@ -5254,6 +5255,7 @@ dynamodb:Scan
 dynamodb:StartAwsBackupJob
 dynamodb:TagResource
 dynamodb:UntagResource
+dynamodb:UpdateAbacStatus
 dynamodb:UpdateContinuousBackups
 dynamodb:UpdateContributorInsights
 dynamodb:UpdateGlobalTable
