@@ -1782,10 +1782,13 @@ ce:UpdateCostCategoryDefinition
 ce:UpdateNotificationSubscription
 ce:UpdatePreferences
 ce:UpdateReport
+chatbot:AssociateToConfiguration
 chatbot:CreateChimeWebhookConfiguration
+chatbot:CreateCustomAction
 chatbot:CreateMicrosoftTeamsChannelConfiguration
 chatbot:CreateSlackChannelConfiguration
 chatbot:DeleteChimeWebhookConfiguration
+chatbot:DeleteCustomAction
 chatbot:DeleteMicrosoftTeamsChannelConfiguration
 chatbot:DeleteMicrosoftTeamsConfiguredTeam
 chatbot:DeleteMicrosoftTeamsUserIdentity
@@ -1797,10 +1800,14 @@ chatbot:DescribeSlackChannelConfigurations
 chatbot:DescribeSlackChannels
 chatbot:DescribeSlackUserIdentities
 chatbot:DescribeSlackWorkspaces
+chatbot:DisassociateFromConfiguration
 chatbot:GetAccountPreferences
+chatbot:GetCustomAction
 chatbot:GetMicrosoftTeamsChannelConfiguration
 chatbot:GetMicrosoftTeamsOauthParameters
 chatbot:GetSlackOauthParameters
+chatbot:ListAssociations
+chatbot:ListCustomActions
 chatbot:ListMicrosoftTeamsChannelConfigurations
 chatbot:ListMicrosoftTeamsConfiguredTeams
 chatbot:ListMicrosoftTeamsUserIdentities
@@ -1811,6 +1818,7 @@ chatbot:TagResource
 chatbot:UntagResource
 chatbot:UpdateAccountPreferences
 chatbot:UpdateChimeWebhookConfiguration
+chatbot:UpdateCustomAction
 chatbot:UpdateMicrosoftTeamsChannelConfiguration
 chatbot:UpdateSlackChannelConfiguration
 chime:AcceptDelegate
@@ -2648,10 +2656,12 @@ cloudtrail-data:PutAuditEvents
 cloudtrail:AddTags
 cloudtrail:CancelQuery
 cloudtrail:CreateChannel
+cloudtrail:CreateDashboard
 cloudtrail:CreateEventDataStore
 cloudtrail:CreateServiceLinkedChannel
 cloudtrail:CreateTrail
 cloudtrail:DeleteChannel
+cloudtrail:DeleteDashboard
 cloudtrail:DeleteEventDataStore
 cloudtrail:DeleteResourcePolicy
 cloudtrail:DeleteServiceLinkedChannel
@@ -2664,6 +2674,7 @@ cloudtrail:EnableFederation
 cloudtrail:GenerateQuery
 cloudtrail:GenerateQueryResultsSummary
 cloudtrail:GetChannel
+cloudtrail:GetDashboard
 cloudtrail:GetEventDataStore
 cloudtrail:GetEventDataStoreData
 cloudtrail:GetEventSelectors
@@ -2675,6 +2686,7 @@ cloudtrail:GetServiceLinkedChannel
 cloudtrail:GetTrail
 cloudtrail:GetTrailStatus
 cloudtrail:ListChannels
+cloudtrail:ListDashboards
 cloudtrail:ListEventDataStores
 cloudtrail:ListImportFailures
 cloudtrail:ListImports
@@ -2690,6 +2702,7 @@ cloudtrail:PutResourcePolicy
 cloudtrail:RegisterOrganizationDelegatedAdmin
 cloudtrail:RemoveTags
 cloudtrail:RestoreEventDataStore
+cloudtrail:StartDashboardRefresh
 cloudtrail:StartEventDataStoreIngestion
 cloudtrail:StartImport
 cloudtrail:StartLogging
@@ -2698,6 +2711,7 @@ cloudtrail:StopEventDataStoreIngestion
 cloudtrail:StopImport
 cloudtrail:StopLogging
 cloudtrail:UpdateChannel
+cloudtrail:UpdateDashboard
 cloudtrail:UpdateEventDataStore
 cloudtrail:UpdateServiceLinkedChannel
 cloudtrail:UpdateTrail
@@ -8544,6 +8558,7 @@ iot:CreateAuthorizer
 iot:CreateBillingGroup
 iot:CreateCertificateFromCsr
 iot:CreateCertificateProvider
+iot:CreateCommand
 iot:CreateCustomMetric
 iot:CreateDimension
 iot:CreateDomainConfiguration
@@ -8577,6 +8592,8 @@ iot:DeleteBillingGroup
 iot:DeleteCACertificate
 iot:DeleteCertificate
 iot:DeleteCertificateProvider
+iot:DeleteCommand
+iot:DeleteCommandExecution
 iot:DeleteCustomMetric
 iot:DeleteDimension
 iot:DeleteDomainConfiguration
@@ -8651,6 +8668,8 @@ iot:EnableTopicRule
 iot:GetBehaviorModelTrainingSummaries
 iot:GetBucketsAggregation
 iot:GetCardinality
+iot:GetCommand
+iot:GetCommandExecution
 iot:GetEffectivePolicies
 iot:GetIndexingConfiguration
 iot:GetJobDocument
@@ -8682,6 +8701,8 @@ iot:ListCACertificates
 iot:ListCertificateProviders
 iot:ListCertificates
 iot:ListCertificatesByCA
+iot:ListCommandExecutions
+iot:ListCommands
 iot:ListCustomMetrics
 iot:ListDetectMitigationActionsExecutions
 iot:ListDetectMitigationActionsTasks
@@ -8754,6 +8775,7 @@ iot:SetLoggingOptions
 iot:SetV2LoggingLevel
 iot:SetV2LoggingOptions
 iot:StartAuditMitigationActionsTask
+iot:StartCommandExecution
 iot:StartDetectMitigationActionsTask
 iot:StartOnDemandAuditTask
 iot:StartThingRegistrationTask
@@ -8771,6 +8793,7 @@ iot:UpdateBillingGroup
 iot:UpdateCACertificate
 iot:UpdateCertificate
 iot:UpdateCertificateProvider
+iot:UpdateCommand
 iot:UpdateCustomMetric
 iot:UpdateDimension
 iot:UpdateDomainConfiguration
@@ -8898,14 +8921,17 @@ iotfleetwise:CreateDecoderManifest
 iotfleetwise:CreateFleet
 iotfleetwise:CreateModelManifest
 iotfleetwise:CreateSignalCatalog
+iotfleetwise:CreateStateTemplate
 iotfleetwise:CreateVehicle
 iotfleetwise:DeleteCampaign
 iotfleetwise:DeleteDecoderManifest
 iotfleetwise:DeleteFleet
 iotfleetwise:DeleteModelManifest
 iotfleetwise:DeleteSignalCatalog
+iotfleetwise:DeleteStateTemplate
 iotfleetwise:DeleteVehicle
 iotfleetwise:DisassociateVehicleFleet
+iotfleetwise:GenerateCommandPayload
 iotfleetwise:GetCampaign
 iotfleetwise:GetDecoderManifest
 iotfleetwise:GetEncryptionConfiguration
@@ -8914,6 +8940,7 @@ iotfleetwise:GetLoggingOptions
 iotfleetwise:GetModelManifest
 iotfleetwise:GetRegisterAccountStatus
 iotfleetwise:GetSignalCatalog
+iotfleetwise:GetStateTemplate
 iotfleetwise:GetVehicle
 iotfleetwise:GetVehicleStatus
 iotfleetwise:ImportDecoderManifest
@@ -8928,6 +8955,7 @@ iotfleetwise:ListModelManifestNodes
 iotfleetwise:ListModelManifests
 iotfleetwise:ListSignalCatalogNodes
 iotfleetwise:ListSignalCatalogs
+iotfleetwise:ListStateTemplates
 iotfleetwise:ListTagsForResource
 iotfleetwise:ListVehicles
 iotfleetwise:ListVehiclesInFleet
@@ -8941,6 +8969,7 @@ iotfleetwise:UpdateDecoderManifest
 iotfleetwise:UpdateFleet
 iotfleetwise:UpdateModelManifest
 iotfleetwise:UpdateSignalCatalog
+iotfleetwise:UpdateStateTemplate
 iotfleetwise:UpdateVehicle
 iotjobsdata:DescribeJobExecution
 iotjobsdata:GetPendingJobExecutions
@@ -10234,6 +10263,7 @@ logs:DeleteDeliveryDestination
 logs:DeleteDeliveryDestinationPolicy
 logs:DeleteDeliverySource
 logs:DeleteDestination
+logs:DeleteIndexPolicy
 logs:DeleteLogAnomalyDetector
 logs:DeleteLogDelivery
 logs:DeleteLogGroup
@@ -10243,6 +10273,7 @@ logs:DeleteQueryDefinition
 logs:DeleteResourcePolicy
 logs:DeleteRetentionPolicy
 logs:DeleteSubscriptionFilter
+logs:DeleteTransformer
 logs:DescribeAccountPolicies
 logs:DescribeConfigurationTemplates
 logs:DescribeDeliveries
@@ -10250,6 +10281,8 @@ logs:DescribeDeliveryDestinations
 logs:DescribeDeliverySources
 logs:DescribeDestinations
 logs:DescribeExportTasks
+logs:DescribeFieldIndexes
+logs:DescribeIndexPolicies
 logs:DescribeLogGroups
 logs:DescribeLogStreams
 logs:DescribeMetricFilters
@@ -10270,12 +10303,14 @@ logs:GetLogEvents
 logs:GetLogGroupFields
 logs:GetLogRecord
 logs:GetQueryResults
+logs:GetTransformer
 logs:Link
 logs:ListAnomalies
 logs:ListEntitiesForLogGroup
 logs:ListLogAnomalyDetectors
 logs:ListLogDeliveries
 logs:ListLogGroupsForEntity
+logs:ListLogGroupsForQuery
 logs:ListTagsForResource
 logs:ListTagsLogGroup
 logs:PutAccountPolicy
@@ -10285,12 +10320,14 @@ logs:PutDeliveryDestinationPolicy
 logs:PutDeliverySource
 logs:PutDestination
 logs:PutDestinationPolicy
+logs:PutIndexPolicy
 logs:PutLogEvents
 logs:PutMetricFilter
 logs:PutQueryDefinition
 logs:PutResourcePolicy
 logs:PutRetentionPolicy
 logs:PutSubscriptionFilter
+logs:PutTransformer
 logs:StartLiveTail
 logs:StartQuery
 logs:StopLiveTail
@@ -10298,6 +10335,7 @@ logs:StopQuery
 logs:TagLogGroup
 logs:TagResource
 logs:TestMetricFilter
+logs:TestTransformer
 logs:Unmask
 logs:UntagLogGroup
 logs:UntagResource
@@ -12550,10 +12588,12 @@ qapps:BatchUpdateCategory
 qapps:CopyQApp
 qapps:CreateLibraryItem
 qapps:CreateLibraryItemReview
+qapps:CreatePresignedUrl
 qapps:CreateQApp
 qapps:CreateSubscriptionToken
 qapps:DeleteLibraryItem
 qapps:DeleteQApp
+qapps:DescribeQAppPermissions
 qapps:DisassociateLibraryItemReview
 qapps:DisassociateQAppFromUser
 qapps:ExportQAppSessionData
@@ -12579,6 +12619,7 @@ qapps:UntagResource
 qapps:UpdateLibraryItem
 qapps:UpdateLibraryItemMetadata
 qapps:UpdateQApp
+qapps:UpdateQAppPermissions
 qapps:UpdateQAppSession
 qapps:UpdateQAppSessionMetadata
 qbusiness:AddUserLicenses
@@ -13473,6 +13514,7 @@ resiliencehub:DescribeAppVersionResource
 resiliencehub:DescribeAppVersionResourcesResolutionStatus
 resiliencehub:DescribeAppVersionTemplate
 resiliencehub:DescribeDraftAppVersionResourcesImportStatus
+resiliencehub:DescribeMetricsExport
 resiliencehub:DescribeResiliencyPolicy
 resiliencehub:DescribeResourceGroupingRecommendationTask
 resiliencehub:ImportResourcesToDraftAppVersion
@@ -13488,6 +13530,7 @@ resiliencehub:ListAppVersionResourceMappings
 resiliencehub:ListAppVersionResources
 resiliencehub:ListAppVersions
 resiliencehub:ListApps
+resiliencehub:ListMetrics
 resiliencehub:ListRecommendationTemplates
 resiliencehub:ListResiliencyPolicies
 resiliencehub:ListResourceGroupingRecommendations
@@ -13502,6 +13545,7 @@ resiliencehub:RejectResourceGroupingRecommendations
 resiliencehub:RemoveDraftAppVersionResourceMappings
 resiliencehub:ResolveAppVersionResources
 resiliencehub:StartAppAssessment
+resiliencehub:StartMetricsExport
 resiliencehub:StartResourceGroupingRecommendationTask
 resiliencehub:TagResource
 resiliencehub:UntagResource
@@ -14167,9 +14211,11 @@ s3express:DeleteBucket
 s3express:DeleteBucketPolicy
 s3express:GetBucketPolicy
 s3express:GetEncryptionConfiguration
+s3express:GetLifecycleConfiguration
 s3express:ListAllMyDirectoryBuckets
 s3express:PutBucketPolicy
 s3express:PutEncryptionConfiguration
+s3express:PutLifecycleConfiguration
 sagemaker-geospatial:DeleteEarthObservationJob
 sagemaker-geospatial:DeleteVectorEnrichmentJob
 sagemaker-geospatial:ExportEarthObservationJob
