@@ -15850,6 +15850,7 @@ ssm:DescribePatchGroups
 ssm:DescribePatchProperties
 ssm:DescribeSessions
 ssm:DisassociateOpsItemRelatedItem
+ssm:ExecuteAPI
 ssm:GetAutomationExecution
 ssm:GetCalendar
 ssm:GetCalendarState
@@ -15858,6 +15859,7 @@ ssm:GetConnectionStatus
 ssm:GetDefaultPatchBaseline
 ssm:GetDeployablePatchSnapshotForInstance
 ssm:GetDocument
+ssm:GetExecutionPreview
 ssm:GetInventory
 ssm:GetInventorySchema
 ssm:GetMaintenanceWindow
@@ -15889,6 +15891,8 @@ ssm:ListDocumentVersions
 ssm:ListDocuments
 ssm:ListInstanceAssociations
 ssm:ListInventoryEntries
+ssm:ListNodes
+ssm:ListNodesSummary
 ssm:ListOpsItemEvents
 ssm:ListOpsItemRelatedItems
 ssm:ListOpsMetadata
@@ -15915,6 +15919,7 @@ ssm:SendCommand
 ssm:StartAssociationsOnce
 ssm:StartAutomationExecution
 ssm:StartChangeRequestExecution
+ssm:StartExecutionPreview
 ssm:StartSession
 ssm:StopAutomationExecution
 ssm:TerminateSession
