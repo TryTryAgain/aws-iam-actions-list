@@ -1746,6 +1746,7 @@ ce:GetAnomalies
 ce:GetAnomalyMonitors
 ce:GetAnomalySubscriptions
 ce:GetApproximateUsageRecords
+ce:GetCommitmentPurchaseAnalysis
 ce:GetConsoleActionSetEnforced
 ce:GetCostAndUsage
 ce:GetCostAndUsageWithResources
@@ -1764,12 +1765,14 @@ ce:GetSavingsPlansUtilization
 ce:GetSavingsPlansUtilizationDetails
 ce:GetTags
 ce:GetUsageForecast
+ce:ListCommitmentPurchaseAnalyses
 ce:ListCostAllocationTagBackfillHistory
 ce:ListCostAllocationTags
 ce:ListCostCategoryDefinitions
 ce:ListSavingsPlansPurchaseRecommendationGeneration
 ce:ListTagsForResource
 ce:ProvideAnomalyFeedback
+ce:StartCommitmentPurchaseAnalysis
 ce:StartCostAllocationTagBackfill
 ce:StartSavingsPlansPurchaseRecommendationGeneration
 ce:TagResource
@@ -15752,9 +15755,11 @@ ssm-incidents:UpdateResponsePlan
 ssm-incidents:UpdateTimelineEvent
 ssm-quicksetup:CreateConfigurationManager
 ssm-quicksetup:DeleteConfigurationManager
+ssm-quicksetup:GetConfiguration
 ssm-quicksetup:GetConfigurationManager
 ssm-quicksetup:GetServiceSettings
 ssm-quicksetup:ListConfigurationManagers
+ssm-quicksetup:ListConfigurations
 ssm-quicksetup:ListQuickSetupTypes
 ssm-quicksetup:ListTagsForResource
 ssm-quicksetup:TagResource
