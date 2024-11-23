@@ -941,12 +941,18 @@ arc-zonal-shift:UpdateZonalAutoshiftConfiguration
 arc-zonal-shift:UpdateZonalShift
 arsenal:RegisterOnPremisesAgent
 artifact:AcceptAgreement
+artifact:AcceptNdaForAgreement
 artifact:DownloadAgreement
 artifact:Get
 artifact:GetAccountSettings
+artifact:GetAgreement
+artifact:GetCustomerAgreement
+artifact:GetNdaForAgreement
 artifact:GetReport
 artifact:GetReportMetadata
 artifact:GetTermForReport
+artifact:ListAgreements
+artifact:ListCustomerAgreements
 artifact:ListReports
 artifact:PutAccountSettings
 artifact:TerminateAgreement
@@ -2254,6 +2260,8 @@ cleanrooms:ListPrivacyBudgets
 cleanrooms:ListProtectedQueries
 cleanrooms:ListSchemas
 cleanrooms:ListTagsForResource
+cleanrooms:PassCollaboration
+cleanrooms:PassMembership
 cleanrooms:PopulateIdMappingTable
 cleanrooms:PreviewPrivacyImpact
 cleanrooms:StartProtectedQuery
@@ -12571,6 +12579,7 @@ q:GetIdentityMetadata
 q:GetPlugin
 q:GetTroubleshootingResults
 q:ListConversations
+q:ListDashboardMetrics
 q:ListPluginProviders
 q:ListPlugins
 q:ListTagsForResource
@@ -12736,6 +12745,7 @@ quicksight:CreateAccountCustomization
 quicksight:CreateAccountSubscription
 quicksight:CreateAdmin
 quicksight:CreateAnalysis
+quicksight:CreateBrand
 quicksight:CreateCustomPermissions
 quicksight:CreateDashboard
 quicksight:CreateDataSet
@@ -12762,6 +12772,8 @@ quicksight:CreateVPCConnection
 quicksight:DeleteAccountCustomization
 quicksight:DeleteAccountSubscription
 quicksight:DeleteAnalysis
+quicksight:DeleteBrand
+quicksight:DeleteBrandAssignment
 quicksight:DeleteCustomPermissions
 quicksight:DeleteDashboard
 quicksight:DeleteDataSet
@@ -12786,6 +12798,7 @@ quicksight:DeleteTopic
 quicksight:DeleteTopicRefreshSchedule
 quicksight:DeleteUser
 quicksight:DeleteUserByPrincipalId
+quicksight:DeleteUserCustomPermission
 quicksight:DeleteVPCConnection
 quicksight:DescribeAccountCustomization
 quicksight:DescribeAccountSettings
@@ -12794,11 +12807,15 @@ quicksight:DescribeAnalysis
 quicksight:DescribeAnalysisPermissions
 quicksight:DescribeAssetBundleExportJob
 quicksight:DescribeAssetBundleImportJob
+quicksight:DescribeBrand
+quicksight:DescribeBrandAssignment
+quicksight:DescribeBrandPublishedVersion
 quicksight:DescribeCustomPermissions
 quicksight:DescribeDashboard
 quicksight:DescribeDashboardPermissions
 quicksight:DescribeDashboardSnapshotJob
 quicksight:DescribeDashboardSnapshotJobResult
+quicksight:DescribeDashboardsQAConfiguration
 quicksight:DescribeDataSet
 quicksight:DescribeDataSetPermissions
 quicksight:DescribeDataSetRefreshProperties
@@ -12840,6 +12857,7 @@ quicksight:GetSessionEmbedUrl
 quicksight:ListAnalyses
 quicksight:ListAssetBundleExportJobs
 quicksight:ListAssetBundleImportJobs
+quicksight:ListBrands
 quicksight:ListCustomPermissions
 quicksight:ListCustomerManagedKeys
 quicksight:ListDashboardVersions
@@ -12887,6 +12905,7 @@ quicksight:SearchDataSources
 quicksight:SearchDirectoryGroups
 quicksight:SearchFolders
 quicksight:SearchGroups
+quicksight:SearchTopics
 quicksight:SearchUsers
 quicksight:SetGroupMapping
 quicksight:StartAssetBundleExportJob
@@ -12901,11 +12920,15 @@ quicksight:UpdateAccountCustomization
 quicksight:UpdateAccountSettings
 quicksight:UpdateAnalysis
 quicksight:UpdateAnalysisPermissions
+quicksight:UpdateBrand
+quicksight:UpdateBrandAssignment
+quicksight:UpdateBrandPublishedVersion
 quicksight:UpdateCustomPermissions
 quicksight:UpdateDashboard
 quicksight:UpdateDashboardLinks
 quicksight:UpdateDashboardPermissions
 quicksight:UpdateDashboardPublishedVersion
+quicksight:UpdateDashboardsQAConfiguration
 quicksight:UpdateDataSet
 quicksight:UpdateDataSetPermissions
 quicksight:UpdateDataSource
@@ -12934,6 +12957,7 @@ quicksight:UpdateTopic
 quicksight:UpdateTopicPermissions
 quicksight:UpdateTopicRefreshSchedule
 quicksight:UpdateUser
+quicksight:UpdateUserCustomPermission
 quicksight:UpdateVPCConnection
 ram:AcceptResourceShareInvitation
 ram:AssociateResourceShare
