@@ -11600,6 +11600,7 @@ networkmanager:CreateConnectPeer
 networkmanager:CreateConnection
 networkmanager:CreateCoreNetwork
 networkmanager:CreateDevice
+networkmanager:CreateDirectConnectGatewayAttachment
 networkmanager:CreateGlobalNetwork
 networkmanager:CreateLink
 networkmanager:CreateSite
@@ -11635,6 +11636,7 @@ networkmanager:GetCoreNetworkChangeSet
 networkmanager:GetCoreNetworkPolicy
 networkmanager:GetCustomerGatewayAssociations
 networkmanager:GetDevices
+networkmanager:GetDirectConnectGatewayAttachment
 networkmanager:GetLinkAssociations
 networkmanager:GetLinks
 networkmanager:GetNetworkResourceCounts
@@ -11670,6 +11672,7 @@ networkmanager:UntagResource
 networkmanager:UpdateConnection
 networkmanager:UpdateCoreNetwork
 networkmanager:UpdateDevice
+networkmanager:UpdateDirectConnectGatewayAttachment
 networkmanager:UpdateGlobalNetwork
 networkmanager:UpdateLink
 networkmanager:UpdateNetworkResourceMetadata
