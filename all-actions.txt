@@ -13224,6 +13224,7 @@ redshift-data:CancelStatement
 redshift-data:DescribeStatement
 redshift-data:DescribeTable
 redshift-data:ExecuteStatement
+redshift-data:GetStagingBucketLocation
 redshift-data:GetStatementResult
 redshift-data:ListDatabases
 redshift-data:ListSchemas
@@ -13251,6 +13252,7 @@ redshift-serverless:DescribeOneTimeCredit
 redshift-serverless:GetCredentials
 redshift-serverless:GetCustomDomainAssociation
 redshift-serverless:GetEndpointAccess
+redshift-serverless:GetManagedWorkgroup
 redshift-serverless:GetNamespace
 redshift-serverless:GetRecoveryPoint
 redshift-serverless:GetResourcePolicy
