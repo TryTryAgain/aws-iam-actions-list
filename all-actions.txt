@@ -3727,6 +3727,7 @@ connect-campaigns:PauseCampaign
 connect-campaigns:PutConnectInstanceIntegration
 connect-campaigns:PutDialRequestBatch
 connect-campaigns:PutOutboundRequestBatch
+connect-campaigns:PutProfileOutboundRequestBatch
 connect-campaigns:ResumeCampaign
 connect-campaigns:StartCampaign
 connect-campaigns:StartInstanceOnboardingJob
@@ -16951,6 +16952,7 @@ vpc-lattice:UpdateService
 vpc-lattice:UpdateServiceNetwork
 vpc-lattice:UpdateServiceNetworkVpcAssociation
 vpc-lattice:UpdateTargetGroup
+vpce:AllowMultiRegion
 waf-regional:AssociateWebACL
 waf-regional:CreateByteMatchSet
 waf-regional:CreateGeoMatchSet
