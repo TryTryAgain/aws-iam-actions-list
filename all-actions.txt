@@ -3615,6 +3615,7 @@ compute-optimizer:GetRecommendationPreferences
 compute-optimizer:GetRecommendationSummaries
 compute-optimizer:PutRecommendationPreferences
 compute-optimizer:UpdateEnrollmentStatus
+config:AssociateResourceTypes
 config:BatchGetAggregateResourceConfig
 config:BatchGetResourceConfig
 config:DeleteAggregationAuthorization
@@ -3631,6 +3632,7 @@ config:DeleteRemediationConfiguration
 config:DeleteRemediationExceptions
 config:DeleteResourceConfig
 config:DeleteRetentionConfiguration
+config:DeleteServiceLinkedConfigurationRecorder
 config:DeleteStoredQuery
 config:DeliverConfigSnapshot
 config:DescribeAggregateComplianceByConfigRules
@@ -3658,6 +3660,7 @@ config:DescribeRemediationConfigurations
 config:DescribeRemediationExceptions
 config:DescribeRemediationExecutionStatus
 config:DescribeRetentionConfigurations
+config:DisassociateResourceTypes
 config:GetAggregateComplianceDetailsByConfigRule
 config:GetAggregateConfigRuleComplianceSummary
 config:GetAggregateConformancePackComplianceSummary
@@ -3678,6 +3681,7 @@ config:GetResourceConfigHistory
 config:GetResourceEvaluationSummary
 config:GetStoredQuery
 config:ListAggregateDiscoveredResources
+config:ListConfigurationRecorders
 config:ListConformancePackComplianceScores
 config:ListDiscoveredResources
 config:ListResourceEvaluations
@@ -3697,6 +3701,7 @@ config:PutRemediationConfigurations
 config:PutRemediationExceptions
 config:PutResourceConfig
 config:PutRetentionConfiguration
+config:PutServiceLinkedConfigurationRecorder
 config:PutStoredQuery
 config:SelectAggregateResourceConfig
 config:SelectResourceConfig
