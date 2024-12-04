@@ -13412,6 +13412,7 @@ redshift-serverless:GetUsageLimit
 redshift-serverless:GetWorkgroup
 redshift-serverless:ListCustomDomainAssociations
 redshift-serverless:ListEndpointAccess
+redshift-serverless:ListManagedWorkgroups
 redshift-serverless:ListNamespaces
 redshift-serverless:ListRecoveryPoints
 redshift-serverless:ListScheduledActions
@@ -13495,6 +13496,7 @@ redshift:DeleteSnapshotCopyGrant
 redshift:DeleteSnapshotSchedule
 redshift:DeleteTags
 redshift:DeleteUsageLimit
+redshift:DeregisterNamespace
 redshift:DescribeAccountAttributes
 redshift:DescribeAuthenticationProfiles
 redshift:DescribeClusterDbRevisions
@@ -13584,6 +13586,7 @@ redshift:PauseCluster
 redshift:PurchaseReservedNodeOffering
 redshift:PutResourcePolicy
 redshift:RebootCluster
+redshift:RegisterNamespace
 redshift:RejectDataShare
 redshift:ResetClusterParameterGroup
 redshift:ResizeCluster
@@ -14558,6 +14561,7 @@ sagemaker:BatchDescribeModelPackage
 sagemaker:BatchGetMetrics
 sagemaker:BatchGetRecord
 sagemaker:BatchPutMetrics
+sagemaker:CallPartnerAppApi
 sagemaker:CreateAction
 sagemaker:CreateAlgorithm
 sagemaker:CreateApp
@@ -14566,8 +14570,10 @@ sagemaker:CreateArtifact
 sagemaker:CreateAutoMLJob
 sagemaker:CreateAutoMLJobV2
 sagemaker:CreateCluster
+sagemaker:CreateClusterSchedulerConfig
 sagemaker:CreateCodeRepository
 sagemaker:CreateCompilationJob
+sagemaker:CreateComputeQuota
 sagemaker:CreateContext
 sagemaker:CreateDataQualityJobDefinition
 sagemaker:CreateDeviceFleet
@@ -14612,10 +14618,12 @@ sagemaker:CreatePresignedMlflowTrackingServerUrl
 sagemaker:CreatePresignedNotebookInstanceUrl
 sagemaker:CreateProcessingJob
 sagemaker:CreateProject
+sagemaker:CreateReservedCapacity
 sagemaker:CreateSharedModel
 sagemaker:CreateSpace
 sagemaker:CreateStudioLifecycleConfig
 sagemaker:CreateTrainingJob
+sagemaker:CreateTrainingPlan
 sagemaker:CreateTransformJob
 sagemaker:CreateTrial
 sagemaker:CreateTrialComponent
@@ -14629,8 +14637,10 @@ sagemaker:DeleteAppImageConfig
 sagemaker:DeleteArtifact
 sagemaker:DeleteAssociation
 sagemaker:DeleteCluster
+sagemaker:DeleteClusterSchedulerConfig
 sagemaker:DeleteCodeRepository
 sagemaker:DeleteCompilationJob
+sagemaker:DeleteComputeQuota
 sagemaker:DeleteContext
 sagemaker:DeleteDataQualityJobDefinition
 sagemaker:DeleteDeviceFleet
@@ -14690,8 +14700,10 @@ sagemaker:DescribeAutoMLJob
 sagemaker:DescribeAutoMLJobV2
 sagemaker:DescribeCluster
 sagemaker:DescribeClusterNode
+sagemaker:DescribeClusterSchedulerConfig
 sagemaker:DescribeCodeRepository
 sagemaker:DescribeCompilationJob
+sagemaker:DescribeComputeQuota
 sagemaker:DescribeContext
 sagemaker:DescribeDataQualityJobDefinition
 sagemaker:DescribeDevice
@@ -14741,6 +14753,7 @@ sagemaker:DescribeSpace
 sagemaker:DescribeStudioLifecycleConfig
 sagemaker:DescribeSubscribedWorkteam
 sagemaker:DescribeTrainingJob
+sagemaker:DescribeTrainingPlan
 sagemaker:DescribeTransformJob
 sagemaker:DescribeTrial
 sagemaker:DescribeTrialComponent
@@ -14774,9 +14787,11 @@ sagemaker:ListAssociations
 sagemaker:ListAutoMLJobs
 sagemaker:ListCandidatesForAutoMLJob
 sagemaker:ListClusterNodes
+sagemaker:ListClusterSchedulerConfigs
 sagemaker:ListClusters
 sagemaker:ListCodeRepositories
 sagemaker:ListCompilationJobs
+sagemaker:ListComputeQuotas
 sagemaker:ListContexts
 sagemaker:ListDataQualityJobDefinitions
 sagemaker:ListDeviceFleets
@@ -14840,6 +14855,7 @@ sagemaker:ListSubscribedWorkteams
 sagemaker:ListTags
 sagemaker:ListTrainingJobs
 sagemaker:ListTrainingJobsForHyperParameterTuningJob
+sagemaker:ListTrainingPlans
 sagemaker:ListTransformJobs
 sagemaker:ListTrialComponents
 sagemaker:ListTrials
@@ -14855,6 +14871,7 @@ sagemaker:RegisterDevices
 sagemaker:RenderUiTemplate
 sagemaker:RetryPipelineExecution
 sagemaker:Search
+sagemaker:SearchTrainingPlanOfferings
 sagemaker:SendHeartbeat
 sagemaker:SendPipelineExecutionStepFailure
 sagemaker:SendPipelineExecutionStepSuccess
@@ -14887,8 +14904,10 @@ sagemaker:UpdateAction
 sagemaker:UpdateAppImageConfig
 sagemaker:UpdateArtifact
 sagemaker:UpdateCluster
+sagemaker:UpdateClusterSchedulerConfig
 sagemaker:UpdateClusterSoftware
 sagemaker:UpdateCodeRepository
+sagemaker:UpdateComputeQuota
 sagemaker:UpdateContext
 sagemaker:UpdateDeviceFleet
 sagemaker:UpdateDevices
