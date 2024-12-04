@@ -14466,6 +14466,7 @@ s3tables:PutTableMaintenanceConfiguration
 s3tables:PutTablePolicy
 s3tables:RenameTable
 s3tables:UpdateTableMetadataLocation
+sagemaker-data-science-assistant:SendConversation
 sagemaker-geospatial:DeleteEarthObservationJob
 sagemaker-geospatial:DeleteVectorEnrichmentJob
 sagemaker-geospatial:ExportEarthObservationJob
