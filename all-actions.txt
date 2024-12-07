@@ -5509,6 +5509,7 @@ ec2:CancelBundleTask
 ec2:CancelCapacityReservation
 ec2:CancelCapacityReservationFleets
 ec2:CancelConversionTask
+ec2:CancelDeclarativePoliciesReport
 ec2:CancelExportTask
 ec2:CancelImageLaunchPermission
 ec2:CancelImportTask
@@ -5598,6 +5599,7 @@ ec2:CreateVerifiedAccessInstance
 ec2:CreateVerifiedAccessTrustProvider
 ec2:CreateVolume
 ec2:CreateVpc
+ec2:CreateVpcBlockPublicAccessExclusion
 ec2:CreateVpcEndpoint
 ec2:CreateVpcEndpointConnectionNotification
 ec2:CreateVpcEndpointServiceConfiguration
@@ -5676,6 +5678,7 @@ ec2:DeleteVerifiedAccessInstance
 ec2:DeleteVerifiedAccessTrustProvider
 ec2:DeleteVolume
 ec2:DeleteVpc
+ec2:DeleteVpcBlockPublicAccessExclusion
 ec2:DeleteVpcEndpointConnectionNotifications
 ec2:DeleteVpcEndpointServiceConfigurations
 ec2:DeleteVpcEndpoints
@@ -5700,6 +5703,8 @@ ec2:DescribeAvailabilityZones
 ec2:DescribeAwsNetworkPerformanceMetricSubscriptions
 ec2:DescribeBundleTasks
 ec2:DescribeByoipCidrs
+ec2:DescribeCapacityBlockExtensionHistory
+ec2:DescribeCapacityBlockExtensionOfferings
 ec2:DescribeCapacityBlockOfferings
 ec2:DescribeCapacityReservationBillingRequests
 ec2:DescribeCapacityReservationFleets
@@ -5714,6 +5719,7 @@ ec2:DescribeClientVpnTargetNetworks
 ec2:DescribeCoipPools
 ec2:DescribeConversionTasks
 ec2:DescribeCustomerGateways
+ec2:DescribeDeclarativePoliciesReports
 ec2:DescribeDhcpOptions
 ec2:DescribeEgressOnlyInternetGateways
 ec2:DescribeElasticGpus
@@ -5836,8 +5842,11 @@ ec2:DescribeVolumeStatus
 ec2:DescribeVolumes
 ec2:DescribeVolumesModifications
 ec2:DescribeVpcAttribute
+ec2:DescribeVpcBlockPublicAccessExclusions
+ec2:DescribeVpcBlockPublicAccessOptions
 ec2:DescribeVpcClassicLink
 ec2:DescribeVpcClassicLinkDnsSupport
+ec2:DescribeVpcEndpointAssociations
 ec2:DescribeVpcEndpointConnectionNotifications
 ec2:DescribeVpcEndpointConnections
 ec2:DescribeVpcEndpointServiceConfigurations
@@ -5855,6 +5864,7 @@ ec2:DetachVerifiedAccessTrustProvider
 ec2:DetachVolume
 ec2:DetachVpnGateway
 ec2:DisableAddressTransfer
+ec2:DisableAllowedImagesSettings
 ec2:DisableAwsNetworkPerformanceMetricSubscription
 ec2:DisableEbsEncryptionByDefault
 ec2:DisableFastLaunch
@@ -5889,6 +5899,7 @@ ec2:DisassociateTrunkInterface
 ec2:DisassociateVerifiedAccessInstanceWebAcl
 ec2:DisassociateVpcCidrBlock
 ec2:EnableAddressTransfer
+ec2:EnableAllowedImagesSettings
 ec2:EnableAwsNetworkPerformanceMetricSubscription
 ec2:EnableEbsEncryptionByDefault
 ec2:EnableFastLaunch
@@ -5910,6 +5921,8 @@ ec2:ExportClientVpnClientCertificateRevocationList
 ec2:ExportClientVpnClientConfiguration
 ec2:ExportImage
 ec2:ExportTransitGatewayRoutes
+ec2:ExportVerifiedAccessInstanceClientConfiguration
+ec2:GetAllowedImagesSettings
 ec2:GetAssociatedEnclaveCertificateIamRoles
 ec2:GetAssociatedIpv6PoolCidrs
 ec2:GetAwsNetworkPerformanceData
@@ -5917,6 +5930,7 @@ ec2:GetCapacityReservationUsage
 ec2:GetCoipPoolUsage
 ec2:GetConsoleOutput
 ec2:GetConsoleScreenshot
+ec2:GetDeclarativePoliciesReportSummary
 ec2:GetDefaultCreditSpecification
 ec2:GetEbsDefaultKmsKeyId
 ec2:GetEbsEncryptionByDefault
@@ -5956,6 +5970,7 @@ ec2:GetTransitGatewayPrefixListReferences
 ec2:GetTransitGatewayRouteTableAssociations
 ec2:GetTransitGatewayRouteTablePropagations
 ec2:GetVerifiedAccessEndpointPolicy
+ec2:GetVerifiedAccessEndpointTargets
 ec2:GetVerifiedAccessGroupPolicy
 ec2:GetVerifiedAccessInstanceWebAcl
 ec2:GetVpnConnectionDeviceSampleConfiguration
@@ -6027,6 +6042,8 @@ ec2:ModifyVerifiedAccessTrustProvider
 ec2:ModifyVolume
 ec2:ModifyVolumeAttribute
 ec2:ModifyVpcAttribute
+ec2:ModifyVpcBlockPublicAccessExclusion
+ec2:ModifyVpcBlockPublicAccessOptions
 ec2:ModifyVpcEndpoint
 ec2:ModifyVpcEndpointConnectionNotification
 ec2:ModifyVpcEndpointServiceConfiguration
@@ -6048,6 +6065,7 @@ ec2:ProvisionIpamByoasn
 ec2:ProvisionIpamPoolCidr
 ec2:ProvisionPublicIpv4PoolCidr
 ec2:PurchaseCapacityBlock
+ec2:PurchaseCapacityBlockExtension
 ec2:PurchaseHostReservation
 ec2:PurchaseReservedInstancesOffering
 ec2:PurchaseScheduledInstances
@@ -6067,6 +6085,7 @@ ec2:ReleaseAddress
 ec2:ReleaseHosts
 ec2:ReleaseIpamPoolAllocation
 ec2:ReplaceIamInstanceProfileAssociation
+ec2:ReplaceImageCriteriaInAllowedImagesSettings
 ec2:ReplaceNetworkAclAssociation
 ec2:ReplaceNetworkAclEntry
 ec2:ReplaceRoute
@@ -6098,6 +6117,7 @@ ec2:SearchTransitGatewayMulticastGroups
 ec2:SearchTransitGatewayRoutes
 ec2:SendDiagnosticInterrupt
 ec2:SendSpotInstanceInterruptions
+ec2:StartDeclarativePoliciesReport
 ec2:StartInstances
 ec2:StartNetworkInsightsAccessScopeAnalysis
 ec2:StartNetworkInsightsAnalysis
