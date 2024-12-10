@@ -11299,6 +11299,7 @@ mgn:ChangeServerLifeCycleState
 mgn:CreateApplication
 mgn:CreateConnector
 mgn:CreateLaunchConfigurationTemplate
+mgn:CreateNetworkMigrationDefinition
 mgn:CreateReplicationConfigurationTemplate
 mgn:CreateVcenterClientForMgn
 mgn:CreateWave
@@ -11306,6 +11307,7 @@ mgn:DeleteApplication
 mgn:DeleteConnector
 mgn:DeleteJob
 mgn:DeleteLaunchConfigurationTemplate
+mgn:DeleteNetworkMigrationDefinition
 mgn:DeleteReplicationConfigurationTemplate
 mgn:DeleteSourceServer
 mgn:DeleteVcenterClient
@@ -11330,6 +11332,8 @@ mgn:GetAgentRuntimeConfigurationForMgn
 mgn:GetAgentSnapshotCreditsForMgn
 mgn:GetChannelCommandsForMgn
 mgn:GetLaunchConfiguration
+mgn:GetNetworkMigrationDefinition
+mgn:GetNetworkMigrationMapperSegmentConstruct
 mgn:GetReplicationConfiguration
 mgn:GetVcenterClientCommandsForMgn
 mgn:InitializeService
@@ -11341,6 +11345,18 @@ mgn:ListExports
 mgn:ListImportErrors
 mgn:ListImports
 mgn:ListManagedAccounts
+mgn:ListNetworkMigrationAnalyses
+mgn:ListNetworkMigrationAnalysisResults
+mgn:ListNetworkMigrationCodeGenerationSegments
+mgn:ListNetworkMigrationCodeGenerations
+mgn:ListNetworkMigrationDefinitions
+mgn:ListNetworkMigrationDeployedStacks
+mgn:ListNetworkMigrationDeployedStacksDeletions
+mgn:ListNetworkMigrationDeployments
+mgn:ListNetworkMigrationExecutions
+mgn:ListNetworkMigrationMapperSegmentConstructs
+mgn:ListNetworkMigrationMapperSegments
+mgn:ListNetworkMigrationMappings
 mgn:ListSourceServerActions
 mgn:ListTagsForResource
 mgn:ListTemplateActions
@@ -11370,6 +11386,11 @@ mgn:SendVcenterClientMetricsForMgn
 mgn:StartCutover
 mgn:StartExport
 mgn:StartImport
+mgn:StartNetworkMigrationAnalysis
+mgn:StartNetworkMigrationCodeGeneration
+mgn:StartNetworkMigrationDeployedStacksDeletion
+mgn:StartNetworkMigrationDeployment
+mgn:StartNetworkMigrationMapping
 mgn:StartReplication
 mgn:StartTest
 mgn:StopReplication
@@ -11387,6 +11408,9 @@ mgn:UpdateApplication
 mgn:UpdateConnector
 mgn:UpdateLaunchConfiguration
 mgn:UpdateLaunchConfigurationTemplate
+mgn:UpdateNetworkMigrationDefinition
+mgn:UpdateNetworkMigrationMapperSegment
+mgn:UpdateNetworkMigrationMapperSegmentConstruct
 mgn:UpdateReplicationConfiguration
 mgn:UpdateReplicationConfigurationTemplate
 mgn:UpdateSourceServer
