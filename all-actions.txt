@@ -3454,6 +3454,7 @@ cognito-idp:ConfirmForgotPassword
 cognito-idp:ConfirmSignUp
 cognito-idp:CreateGroup
 cognito-idp:CreateIdentityProvider
+cognito-idp:CreateManagedLoginBranding
 cognito-idp:CreateResourceServer
 cognito-idp:CreateUserImportJob
 cognito-idp:CreateUserPool
@@ -3461,6 +3462,7 @@ cognito-idp:CreateUserPoolClient
 cognito-idp:CreateUserPoolDomain
 cognito-idp:DeleteGroup
 cognito-idp:DeleteIdentityProvider
+cognito-idp:DeleteManagedLoginBranding
 cognito-idp:DeleteResourceServer
 cognito-idp:DeleteUser
 cognito-idp:DeleteUserAttributes
@@ -3468,6 +3470,8 @@ cognito-idp:DeleteUserPool
 cognito-idp:DeleteUserPoolClient
 cognito-idp:DeleteUserPoolDomain
 cognito-idp:DescribeIdentityProvider
+cognito-idp:DescribeManagedLoginBranding
+cognito-idp:DescribeManagedLoginBrandingByClient
 cognito-idp:DescribeResourceServer
 cognito-idp:DescribeRiskConfiguration
 cognito-idp:DescribeUserImportJob
@@ -3519,6 +3523,7 @@ cognito-idp:UpdateAuthEventFeedback
 cognito-idp:UpdateDeviceStatus
 cognito-idp:UpdateGroup
 cognito-idp:UpdateIdentityProvider
+cognito-idp:UpdateManagedLoginBranding
 cognito-idp:UpdateResourceServer
 cognito-idp:UpdateUserAttributes
 cognito-idp:UpdateUserPool
