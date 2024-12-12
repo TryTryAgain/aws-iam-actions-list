@@ -3859,6 +3859,7 @@ connect:CreateParticipant
 connect:CreatePersistentContactAssociation
 connect:CreatePredefinedAttribute
 connect:CreatePrompt
+connect:CreatePushNotificationRegistration
 connect:CreateQueue
 connect:CreateQuickConnect
 connect:CreateRoutingProfile
@@ -3884,6 +3885,7 @@ connect:DeleteInstance
 connect:DeleteIntegrationAssociation
 connect:DeletePredefinedAttribute
 connect:DeletePrompt
+connect:DeletePushNotificationRegistration
 connect:DeleteQueue
 connect:DeleteQuickConnect
 connect:DeleteRoutingProfile
