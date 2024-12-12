@@ -9893,10 +9893,12 @@ lakeformation:CancelTransaction
 lakeformation:CommitTransaction
 lakeformation:CreateDataCellsFilter
 lakeformation:CreateLFTag
+lakeformation:CreateLFTagExpression
 lakeformation:CreateLakeFormationIdentityCenterConfiguration
 lakeformation:CreateLakeFormationOptIn
 lakeformation:DeleteDataCellsFilter
 lakeformation:DeleteLFTag
+lakeformation:DeleteLFTagExpression
 lakeformation:DeleteLakeFormationIdentityCenterConfiguration
 lakeformation:DeleteLakeFormationOptIn
 lakeformation:DeleteObjectsOnCancel
@@ -9911,6 +9913,7 @@ lakeformation:GetDataLakePrincipal
 lakeformation:GetDataLakeSettings
 lakeformation:GetEffectivePermissionsForPath
 lakeformation:GetLFTag
+lakeformation:GetLFTagExpression
 lakeformation:GetQueryState
 lakeformation:GetQueryStatistics
 lakeformation:GetResourceLFTags
@@ -9919,6 +9922,7 @@ lakeformation:GetWorkUnitResults
 lakeformation:GetWorkUnits
 lakeformation:GrantPermissions
 lakeformation:ListDataCellsFilter
+lakeformation:ListLFTagExpressions
 lakeformation:ListLFTags
 lakeformation:ListLakeFormationOptIns
 lakeformation:ListPermissions
@@ -9935,6 +9939,7 @@ lakeformation:StartQueryPlanning
 lakeformation:StartTransaction
 lakeformation:UpdateDataCellsFilter
 lakeformation:UpdateLFTag
+lakeformation:UpdateLFTagExpression
 lakeformation:UpdateLakeFormationIdentityCenterConfiguration
 lakeformation:UpdateResource
 lakeformation:UpdateTableObjects
@@ -15530,6 +15535,7 @@ ses:CreateEmailTemplate
 ses:CreateExportJob
 ses:CreateImportJob
 ses:CreateIngressPoint
+ses:CreateMultiRegionEndpoint
 ses:CreateReceiptFilter
 ses:CreateReceiptRule
 ses:CreateReceiptRuleSet
@@ -15553,6 +15559,7 @@ ses:DeleteEmailTemplate
 ses:DeleteIdentity
 ses:DeleteIdentityPolicy
 ses:DeleteIngressPoint
+ses:DeleteMultiRegionEndpoint
 ses:DeleteReceiptFilter
 ses:DeleteReceiptRule
 ses:DeleteReceiptRuleSet
@@ -15601,6 +15608,7 @@ ses:GetIdentityVerificationAttributes
 ses:GetImportJob
 ses:GetIngressPoint
 ses:GetMessageInsights
+ses:GetMultiRegionEndpoint
 ses:GetRelay
 ses:GetRuleSet
 ses:GetSendQuota
@@ -15627,6 +15635,7 @@ ses:ListIdentities
 ses:ListIdentityPolicies
 ses:ListImportJobs
 ses:ListIngressPoints
+ses:ListMultiRegionEndpoints
 ses:ListReceiptFilters
 ses:ListReceiptRuleSets
 ses:ListRecommendations
@@ -15660,6 +15669,7 @@ ses:PutEmailIdentityMailFromAttributes
 ses:PutIdentityPolicy
 ses:PutSuppressedDestination
 ses:ReorderReceiptRuleSet
+ses:ReplicateEmailIdentityDkimSigningKey
 ses:SendBounce
 ses:SendBulkEmail
 ses:SendBulkTemplatedEmail
