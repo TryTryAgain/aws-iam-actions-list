@@ -15474,6 +15474,7 @@ servicediscovery:CreatePublicDnsNamespace
 servicediscovery:CreateService
 servicediscovery:DeleteNamespace
 servicediscovery:DeleteService
+servicediscovery:DeleteServiceAttributes
 servicediscovery:DeregisterInstance
 servicediscovery:DiscoverInstances
 servicediscovery:DiscoverInstancesRevision
@@ -15482,6 +15483,7 @@ servicediscovery:GetInstancesHealthStatus
 servicediscovery:GetNamespace
 servicediscovery:GetOperation
 servicediscovery:GetService
+servicediscovery:GetServiceAttributes
 servicediscovery:ListInstances
 servicediscovery:ListNamespaces
 servicediscovery:ListOperations
@@ -15495,6 +15497,7 @@ servicediscovery:UpdateInstanceCustomHealthStatus
 servicediscovery:UpdatePrivateDnsNamespace
 servicediscovery:UpdatePublicDnsNamespace
 servicediscovery:UpdateService
+servicediscovery:UpdateServiceAttributes
 serviceextract:GetConfig
 servicequotas:AssociateServiceQuotaTemplate
 servicequotas:DeleteServiceQuotaIncreaseRequestFromTemplate
