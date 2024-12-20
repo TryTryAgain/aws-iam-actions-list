@@ -2551,6 +2551,7 @@ cloudformation:ImportStacksToStackSet
 cloudformation:ListChangeSets
 cloudformation:ListExports
 cloudformation:ListGeneratedTemplates
+cloudformation:ListHookResults
 cloudformation:ListImports
 cloudformation:ListResourceRequests
 cloudformation:ListResourceScanRelatedResources
@@ -11746,6 +11747,7 @@ neptune-db:StartMLModelTrainingJob
 neptune-db:StartMLModelTransformJob
 neptune-db:WriteDataViaQuery
 neptune-db:connect
+neptune-graph:CancelExportTask
 neptune-graph:CancelImportTask
 neptune-graph:CancelQuery
 neptune-graph:CreateGraph
@@ -11757,6 +11759,7 @@ neptune-graph:DeleteGraph
 neptune-graph:DeleteGraphSnapshot
 neptune-graph:DeletePrivateGraphEndpoint
 neptune-graph:GetEngineStatus
+neptune-graph:GetExportTask
 neptune-graph:GetGraph
 neptune-graph:GetGraphSnapshot
 neptune-graph:GetGraphSummary
@@ -11764,6 +11767,7 @@ neptune-graph:GetImportTask
 neptune-graph:GetPrivateGraphEndpoint
 neptune-graph:GetQueryStatus
 neptune-graph:GetStatisticsStatus
+neptune-graph:ListExportTasks
 neptune-graph:ListGraphSnapshots
 neptune-graph:ListGraphs
 neptune-graph:ListImportTasks
@@ -11773,6 +11777,7 @@ neptune-graph:ListTagsForResource
 neptune-graph:ReadDataViaQuery
 neptune-graph:ResetGraph
 neptune-graph:RestoreGraphFromSnapshot
+neptune-graph:StartExportTask
 neptune-graph:StartImportTask
 neptune-graph:TagResource
 neptune-graph:UntagResource
