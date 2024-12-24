@@ -6336,6 +6336,7 @@ eks:DescribeAddon
 eks:DescribeAddonConfiguration
 eks:DescribeAddonVersions
 eks:DescribeCluster
+eks:DescribeClusterVersions
 eks:DescribeEksAnywhereSubscription
 eks:DescribeFargateProfile
 eks:DescribeIdentityProviderConfig
