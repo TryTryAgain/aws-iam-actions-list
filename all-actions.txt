@@ -15566,6 +15566,7 @@ servicequotas:PutServiceQuotaIncreaseRequestIntoTemplate
 servicequotas:RequestServiceQuotaIncrease
 servicequotas:TagResource
 servicequotas:UntagResource
+ses:AllowVendedLogDeliveryForResource
 ses:BatchGetMetricData
 ses:CancelExportJob
 ses:CloneReceiptRuleSet
