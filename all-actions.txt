@@ -7511,6 +7511,7 @@ gamelift:StopGameSessionPlacement
 gamelift:StopMatchmaking
 gamelift:SuspendGameServerGroup
 gamelift:TagResource
+gamelift:TerminateGameSession
 gamelift:UntagResource
 gamelift:UpdateAlias
 gamelift:UpdateBuild
