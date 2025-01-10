@@ -366,13 +366,17 @@ aoss:UpdateSecurityConfig
 aoss:UpdateSecurityPolicy
 aoss:UpdateVpcEndpoint
 apigateway:AddCertificateToDomain
+apigateway:CreateAccessAssociation
 apigateway:DELETE
 apigateway:GET
 apigateway:PATCH
 apigateway:POST
 apigateway:PUT
+apigateway:RejectAccessAssociation
 apigateway:RemoveCertificateFromDomain
 apigateway:SetWebACL
+apigateway:UpdateDomainNameManagementPolicy
+apigateway:UpdateDomainNamePolicy
 apigateway:UpdateRestApiPolicy
 app-integrations:CreateApplication
 app-integrations:CreateApplicationAssociation
@@ -8560,6 +8564,7 @@ imagebuilder:GetWorkflow
 imagebuilder:GetWorkflowExecution
 imagebuilder:GetWorkflowStepExecution
 imagebuilder:ImportComponent
+imagebuilder:ImportDiskImage
 imagebuilder:ImportVmImage
 imagebuilder:ListComponentBuildVersions
 imagebuilder:ListComponents
@@ -11080,6 +11085,7 @@ medialive:ListOfferings
 medialive:ListReservations
 medialive:ListSignalMaps
 medialive:ListTagsForResource
+medialive:ListVersions
 medialive:PollAnywhere
 medialive:PurchaseOffering
 medialive:RebootInputDevice
