@@ -4390,9 +4390,15 @@ datasync:UntagResource
 datasync:UpdateAgent
 datasync:UpdateDiscoveryJob
 datasync:UpdateLocationAzureBlob
+datasync:UpdateLocationEfs
+datasync:UpdateLocationFsxLustre
+datasync:UpdateLocationFsxOntap
+datasync:UpdateLocationFsxOpenZfs
+datasync:UpdateLocationFsxWindows
 datasync:UpdateLocationHdfs
 datasync:UpdateLocationNfs
 datasync:UpdateLocationObjectStorage
+datasync:UpdateLocationS3
 datasync:UpdateLocationSmb
 datasync:UpdateStorageSystem
 datasync:UpdateTask
