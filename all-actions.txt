@@ -9693,8 +9693,10 @@ kafkaconnect:DeleteConnector
 kafkaconnect:DeleteCustomPlugin
 kafkaconnect:DeleteWorkerConfiguration
 kafkaconnect:DescribeConnector
+kafkaconnect:DescribeConnectorOperation
 kafkaconnect:DescribeCustomPlugin
 kafkaconnect:DescribeWorkerConfiguration
+kafkaconnect:ListConnectorOperations
 kafkaconnect:ListConnectors
 kafkaconnect:ListCustomPlugins
 kafkaconnect:ListTagsForResource
