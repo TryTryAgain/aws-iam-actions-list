@@ -3883,6 +3883,7 @@ connect:CreateAuthenticationProfile
 connect:CreateContactFlow
 connect:CreateContactFlowModule
 connect:CreateContactFlowVersion
+connect:CreateEmailAddress
 connect:CreateEvaluationForm
 connect:CreateHoursOfOperation
 connect:CreateHoursOfOperationOverride
@@ -3911,6 +3912,7 @@ connect:DeleteAttachedFile
 connect:DeleteContactEvaluation
 connect:DeleteContactFlow
 connect:DeleteContactFlowModule
+connect:DeleteEmailAddress
 connect:DeleteEvaluationForm
 connect:DeleteHoursOfOperation
 connect:DeleteHoursOfOperationOverride
@@ -3938,6 +3940,7 @@ connect:DescribeContact
 connect:DescribeContactEvaluation
 connect:DescribeContactFlow
 connect:DescribeContactFlowModule
+connect:DescribeEmailAddress
 connect:DescribeEvaluationForm
 connect:DescribeForecastingPlanningSchedulingIntegration
 connect:DescribeHoursOfOperation
@@ -3990,6 +3993,7 @@ connect:ImportPhoneNumber
 connect:ListAgentStatuses
 connect:ListAnalyticsDataAssociations
 connect:ListApprovedOrigins
+connect:ListAssociatedContacts
 connect:ListAuthenticationProfiles
 connect:ListBots
 connect:ListContactEvaluations
@@ -4047,6 +4051,7 @@ connect:SearchAvailablePhoneNumbers
 connect:SearchContactFlowModules
 connect:SearchContactFlows
 connect:SearchContacts
+connect:SearchEmailAddresses
 connect:SearchHoursOfOperationOverrides
 connect:SearchHoursOfOperations
 connect:SearchPredefinedAttributes
@@ -4070,6 +4075,7 @@ connect:StartContactStreaming
 connect:StartEmailContact
 connect:StartForecastingPlanningSchedulingIntegration
 connect:StartOutboundChatContact
+connect:StartOutboundEmailContact
 connect:StartOutboundVoiceContact
 connect:StartScreenSharing
 connect:StartTaskContact
@@ -4097,6 +4103,7 @@ connect:UpdateContactFlowModuleMetadata
 connect:UpdateContactFlowName
 connect:UpdateContactRoutingData
 connect:UpdateContactSchedule
+connect:UpdateEmailAddressMetadata
 connect:UpdateEvaluationForm
 connect:UpdateHoursOfOperation
 connect:UpdateHoursOfOperationOverride
@@ -4112,6 +4119,7 @@ connect:UpdateQueueHoursOfOperation
 connect:UpdateQueueMaxContacts
 connect:UpdateQueueName
 connect:UpdateQueueOutboundCallerConfig
+connect:UpdateQueueOutboundEmailConfig
 connect:UpdateQueueStatus
 connect:UpdateQuickConnectConfig
 connect:UpdateQuickConnectName
