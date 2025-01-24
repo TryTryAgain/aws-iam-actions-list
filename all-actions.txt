@@ -3912,6 +3912,7 @@ connect:DeleteAttachedFile
 connect:DeleteContactEvaluation
 connect:DeleteContactFlow
 connect:DeleteContactFlowModule
+connect:DeleteContactFlowVersion
 connect:DeleteEmailAddress
 connect:DeleteEvaluationForm
 connect:DeleteHoursOfOperation
@@ -8285,6 +8286,7 @@ healthlake:DescribeFHIRExportJob
 healthlake:DescribeFHIRExportJobWithGet
 healthlake:DescribeFHIRImportJob
 healthlake:GetCapabilities
+healthlake:GetExportedFile
 healthlake:ListFHIRDatastores
 healthlake:ListFHIRExportJobs
 healthlake:ListFHIRImportJobs
@@ -8294,6 +8296,7 @@ healthlake:SearchEverything
 healthlake:SearchWithGet
 healthlake:SearchWithPost
 healthlake:StartFHIRExportJob
+healthlake:StartFHIRExportJobWithGet
 healthlake:StartFHIRExportJobWithPost
 healthlake:StartFHIRImportJob
 healthlake:TagResource
