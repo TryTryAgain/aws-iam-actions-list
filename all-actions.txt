@@ -6076,6 +6076,7 @@ ec2:ModifyInstanceEventWindow
 ec2:ModifyInstanceMaintenanceOptions
 ec2:ModifyInstanceMetadataDefaults
 ec2:ModifyInstanceMetadataOptions
+ec2:ModifyInstanceNetworkPerformanceOptions
 ec2:ModifyInstancePlacement
 ec2:ModifyIpam
 ec2:ModifyIpamPool
