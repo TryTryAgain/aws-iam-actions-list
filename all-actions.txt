@@ -3890,6 +3890,7 @@ connect:ClaimPhoneNumber
 connect:CompleteAttachedFileUpload
 connect:CreateAgentStatus
 connect:CreateAuthenticationProfile
+connect:CreateContact
 connect:CreateContactFlow
 connect:CreateContactFlowModule
 connect:CreateContactFlowVersion
