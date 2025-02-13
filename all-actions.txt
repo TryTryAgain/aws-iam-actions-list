@@ -1816,14 +1816,17 @@ bugbust:UntagResource
 bugbust:UpdateEvent
 bugbust:UpdateWorkItem
 bugbust:UpdateWorkItemAdmin
+cases:BatchGetCaseRule
 cases:BatchGetField
 cases:BatchPutFieldOptions
 cases:CreateCase
+cases:CreateCaseRule
 cases:CreateDomain
 cases:CreateField
 cases:CreateLayout
 cases:CreateRelatedItem
 cases:CreateTemplate
+cases:DeleteCaseRule
 cases:DeleteDomain
 cases:DeleteField
 cases:DeleteLayout
@@ -1835,6 +1838,7 @@ cases:GetCaseEventConfiguration
 cases:GetDomain
 cases:GetLayout
 cases:GetTemplate
+cases:ListCaseRules
 cases:ListCasesForContact
 cases:ListDomains
 cases:ListFieldOptions
@@ -1848,6 +1852,7 @@ cases:SearchRelatedItems
 cases:TagResource
 cases:UntagResource
 cases:UpdateCase
+cases:UpdateCaseRule
 cases:UpdateField
 cases:UpdateLayout
 cases:UpdateTemplate
