@@ -8302,6 +8302,7 @@ healthlake:DescribeFHIRExportJobWithGet
 healthlake:DescribeFHIRImportJob
 healthlake:GetCapabilities
 healthlake:GetExportedFile
+healthlake:GetHistoryByResourceId
 healthlake:ListFHIRDatastores
 healthlake:ListFHIRExportJobs
 healthlake:ListFHIRImportJobs
@@ -8317,6 +8318,7 @@ healthlake:StartFHIRImportJob
 healthlake:TagResource
 healthlake:UntagResource
 healthlake:UpdateResource
+healthlake:VersionReadResource
 honeycode:ApproveTeamAssociation
 honeycode:BatchCreateTableRows
 honeycode:BatchDeleteTableRows
