@@ -6797,6 +6797,7 @@ elemental-support-cases:UpdateCaseStatus
 elemental-support-cases:UpdateMultipartUpload
 elemental-support-content:Query
 emr-containers:CancelJobRun
+emr-containers:CreateCertificate
 emr-containers:CreateJobTemplate
 emr-containers:CreateManagedEndpoint
 emr-containers:CreateSecurityConfiguration
