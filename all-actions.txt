@@ -15807,6 +15807,7 @@ ses:PutAccountDetails
 ses:PutAccountSendingAttributes
 ses:PutAccountSuppressionAttributes
 ses:PutAccountVdmAttributes
+ses:PutConfigurationSetArchivingOptions
 ses:PutConfigurationSetDeliveryOptions
 ses:PutConfigurationSetReputationOptions
 ses:PutConfigurationSetSendingOptions
