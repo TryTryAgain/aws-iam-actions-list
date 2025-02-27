@@ -1560,6 +1560,7 @@ bedrock:CreateFoundationModelAgreement
 bedrock:CreateGuardrail
 bedrock:CreateGuardrailVersion
 bedrock:CreateInferenceProfile
+bedrock:CreateInvocation
 bedrock:CreateKnowledgeBase
 bedrock:CreateMarketplaceModelEndpoint
 bedrock:CreateModelCopyJob
@@ -1570,6 +1571,7 @@ bedrock:CreateModelInvocationJob
 bedrock:CreatePrompt
 bedrock:CreatePromptVersion
 bedrock:CreateProvisionedModelThroughput
+bedrock:CreateSession
 bedrock:DeleteAgent
 bedrock:DeleteAgentActionGroup
 bedrock:DeleteAgentAlias
@@ -1594,10 +1596,12 @@ bedrock:DeleteModelInvocationLoggingConfiguration
 bedrock:DeletePrompt
 bedrock:DeleteProvisionedModelThroughput
 bedrock:DeleteResourcePolicy
+bedrock:DeleteSession
 bedrock:DeregisterMarketplaceModelEndpoint
 bedrock:DetectGeneratedContent
 bedrock:DisassociateAgentCollaborator
 bedrock:DisassociateAgentKnowledgeBase
+bedrock:EndSession
 bedrock:GenerateQuery
 bedrock:GetAgent
 bedrock:GetAgentActionGroup
@@ -1623,6 +1627,7 @@ bedrock:GetGuardrail
 bedrock:GetImportedModel
 bedrock:GetInferenceProfile
 bedrock:GetIngestionJob
+bedrock:GetInvocationStep
 bedrock:GetKnowledgeBase
 bedrock:GetKnowledgeBaseDocuments
 bedrock:GetMarketplaceModelEndpoint
@@ -1636,6 +1641,7 @@ bedrock:GetPrompt
 bedrock:GetPromptRouter
 bedrock:GetProvisionedModelThroughput
 bedrock:GetResourcePolicy
+bedrock:GetSession
 bedrock:GetUseCaseForModelAccess
 bedrock:IngestKnowledgeBaseDocuments
 bedrock:InvokeAgent
@@ -1667,6 +1673,8 @@ bedrock:ListGuardrails
 bedrock:ListImportedModels
 bedrock:ListInferenceProfiles
 bedrock:ListIngestionJobs
+bedrock:ListInvocationSteps
+bedrock:ListInvocations
 bedrock:ListKnowledgeBaseDocuments
 bedrock:ListKnowledgeBases
 bedrock:ListMarketplaceModelEndpoints
@@ -1678,11 +1686,13 @@ bedrock:ListModelInvocationJobs
 bedrock:ListPromptRouters
 bedrock:ListPrompts
 bedrock:ListProvisionedModelThroughputs
+bedrock:ListSessions
 bedrock:ListTagsForResource
 bedrock:OptimizePrompt
 bedrock:PrepareAgent
 bedrock:PrepareFlow
 bedrock:PutFoundationModelEntitlement
+bedrock:PutInvocationStep
 bedrock:PutModelInvocationLoggingConfiguration
 bedrock:PutResourcePolicy
 bedrock:PutUseCaseForModelAccess
@@ -1713,6 +1723,7 @@ bedrock:UpdateKnowledgeBase
 bedrock:UpdateMarketplaceModelEndpoint
 bedrock:UpdatePrompt
 bedrock:UpdateProvisionedModelThroughput
+bedrock:UpdateSession
 bedrock:ValidateFlowDefinition
 billing:CreateBillingView
 billing:DeleteBillingView
