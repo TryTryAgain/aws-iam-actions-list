@@ -13165,6 +13165,13 @@ qbusiness:UpdateRetriever
 qbusiness:UpdateSubscription
 qbusiness:UpdateUser
 qbusiness:UpdateWebExperience
+qdeveloper:ExportArtifact
+qdeveloper:ImportArtifact
+qdeveloper:ListTagsForResource
+qdeveloper:StartAgentSession
+qdeveloper:TagResource
+qdeveloper:TransformCode
+qdeveloper:UntagResource
 qldb:CancelJournalKinesisStream
 qldb:CreateLedger
 qldb:DeleteLedger
