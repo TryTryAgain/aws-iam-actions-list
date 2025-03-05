@@ -6283,6 +6283,7 @@ ecr:DescribeRepositoryCreationTemplates
 ecr:GetAccountSetting
 ecr:GetAuthorizationToken
 ecr:GetDownloadUrlForLayer
+ecr:GetImageCopyStatus
 ecr:GetLifecyclePolicy
 ecr:GetLifecyclePolicyPreview
 ecr:GetRegistryPolicy
