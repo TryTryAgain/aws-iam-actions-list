@@ -16669,6 +16669,7 @@ sso-directory:GetUserId
 sso-directory:GetUserPoolInfo
 sso-directory:ImportExternalIdPCertificate
 sso-directory:IsMemberInGroup
+sso-directory:IsMemberInGroups
 sso-directory:ListBearerTokens
 sso-directory:ListExternalIdPCertificates
 sso-directory:ListExternalIdPConfigurationsForDirectory
