@@ -14553,12 +14553,15 @@ rum:BatchDeleteRumMetricDefinitions
 rum:BatchGetRumMetricDefinitions
 rum:CreateAppMonitor
 rum:DeleteAppMonitor
+rum:DeleteResourcePolicy
 rum:DeleteRumMetricsDestination
 rum:GetAppMonitor
 rum:GetAppMonitorData
+rum:GetResourcePolicy
 rum:ListAppMonitors
 rum:ListRumMetricsDestinations
 rum:ListTagsForResource
+rum:PutResourcePolicy
 rum:PutRumEvents
 rum:PutRumMetricsDestination
 rum:TagResource
