@@ -18346,6 +18346,7 @@ workspaces:MigrateWorkspace
 workspaces:ModifyAccount
 workspaces:ModifyCertificateBasedAuthProperties
 workspaces:ModifyClientProperties
+workspaces:ModifyEndpointEncryptionMode
 workspaces:ModifySamlProperties
 workspaces:ModifySelfservicePermissions
 workspaces:ModifyStreamingProperties
