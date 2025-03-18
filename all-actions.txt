@@ -12318,7 +12318,7 @@ one:DeleteAssociatedDevice
 one:DeleteDeviceConfigurationTemplate
 one:DeleteDeviceInstance
 one:DeleteSite
-one:DeleteUser
+one:DeleteUserV1
 one:GetDeviceConfigurationTemplate
 one:GetDeviceInstance
 one:GetDeviceInstanceConfiguration
@@ -12328,7 +12328,7 @@ one:ListDeviceConfigurationTemplates
 one:ListDeviceInstances
 one:ListSites
 one:ListTagsForResource
-one:ListUsers
+one:ListUsersV1
 one:RebootDevice
 one:TagResource
 one:UntagResource
