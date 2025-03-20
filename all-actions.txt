@@ -4034,6 +4034,7 @@ connect:GetTrafficDistribution
 connect:ImportPhoneNumber
 connect:ListAgentStatuses
 connect:ListAnalyticsDataAssociations
+connect:ListAnalyticsDataLakeDataSets
 connect:ListApprovedOrigins
 connect:ListAssociatedContacts
 connect:ListAuthenticationProfiles
