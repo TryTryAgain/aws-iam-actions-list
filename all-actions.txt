@@ -10107,6 +10107,7 @@ lakeformation:ListTableStorageOptimizers
 lakeformation:ListTransactions
 lakeformation:PutDataLakeSettings
 lakeformation:RegisterResource
+lakeformation:RegisterResourceWithPrivilegedAccess
 lakeformation:RemoveLFTagsFromResource
 lakeformation:RevokePermissions
 lakeformation:SearchDatabasesByLFTags
