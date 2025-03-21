@@ -14315,6 +14315,7 @@ route53-recovery-control-config:ListSafetyRules
 route53-recovery-control-config:ListTagsForResource
 route53-recovery-control-config:TagResource
 route53-recovery-control-config:UntagResource
+route53-recovery-control-config:UpdateCluster
 route53-recovery-control-config:UpdateControlPanel
 route53-recovery-control-config:UpdateRoutingControl
 route53-recovery-control-config:UpdateSafetyRule
