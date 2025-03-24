@@ -973,8 +973,6 @@ arc-zonal-shift:UpdateZonalShift
 arsenal:RegisterOnPremisesAgent
 artifact:AcceptAgreement
 artifact:AcceptNdaForAgreement
-artifact:DownloadAgreement
-artifact:Get
 artifact:GetAccountSettings
 artifact:GetAgreement
 artifact:GetCustomerAgreement
@@ -4554,6 +4552,7 @@ datazone:GetSubscriptionGrant
 datazone:GetSubscriptionRequestDetails
 datazone:GetSubscriptionTarget
 datazone:GetTimeSeriesDataPoint
+datazone:GetUpdateEligibility
 datazone:GetUserProfile
 datazone:ListAccountEnvironments
 datazone:ListAssetFilters
@@ -14299,6 +14298,7 @@ route53-recovery-control-config:CreateRoutingControl
 route53-recovery-control-config:CreateSafetyRule
 route53-recovery-control-config:DeleteCluster
 route53-recovery-control-config:DeleteControlPanel
+route53-recovery-control-config:DeleteResourcePolicy
 route53-recovery-control-config:DeleteRoutingControl
 route53-recovery-control-config:DeleteSafetyRule
 route53-recovery-control-config:DescribeCluster
@@ -14313,6 +14313,7 @@ route53-recovery-control-config:ListControlPanels
 route53-recovery-control-config:ListRoutingControls
 route53-recovery-control-config:ListSafetyRules
 route53-recovery-control-config:ListTagsForResource
+route53-recovery-control-config:PutResourcePolicy
 route53-recovery-control-config:TagResource
 route53-recovery-control-config:UntagResource
 route53-recovery-control-config:UpdateCluster
