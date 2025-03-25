@@ -11312,6 +11312,8 @@ mediapackagev2:ListTagsForResource
 mediapackagev2:PutChannelPolicy
 mediapackagev2:PutObject
 mediapackagev2:PutOriginEndpointPolicy
+mediapackagev2:ResetChannelState
+mediapackagev2:ResetOriginEndpointState
 mediapackagev2:TagResource
 mediapackagev2:UntagResource
 mediapackagev2:UpdateChannel
