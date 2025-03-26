@@ -11945,6 +11945,7 @@ network-firewall:DeleteRuleGroup
 network-firewall:DeleteTLSInspectionConfiguration
 network-firewall:DescribeFirewall
 network-firewall:DescribeFirewallPolicy
+network-firewall:DescribeFlowOperation
 network-firewall:DescribeLoggingConfiguration
 network-firewall:DescribeResourcePolicy
 network-firewall:DescribeRuleGroup
@@ -11955,11 +11956,15 @@ network-firewall:GetAnalysisReportResults
 network-firewall:ListAnalysisReports
 network-firewall:ListFirewallPolicies
 network-firewall:ListFirewalls
+network-firewall:ListFlowOperationResults
+network-firewall:ListFlowOperations
 network-firewall:ListRuleGroups
 network-firewall:ListTLSInspectionConfigurations
 network-firewall:ListTagsForResource
 network-firewall:PutResourcePolicy
 network-firewall:StartAnalysisReport
+network-firewall:StartFlowCapture
+network-firewall:StartFlowFlush
 network-firewall:TagResource
 network-firewall:UntagResource
 network-firewall:UpdateFirewallAnalysisSettings
