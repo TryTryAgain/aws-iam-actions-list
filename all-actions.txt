@@ -8340,6 +8340,7 @@ healthlake:ListFHIRDatastores
 healthlake:ListFHIRExportJobs
 healthlake:ListFHIRImportJobs
 healthlake:ListTagsForResource
+healthlake:ProcessBundle
 healthlake:ReadResource
 healthlake:SearchEverything
 healthlake:SearchWithGet
@@ -9026,6 +9027,7 @@ iot:ListPolicyPrincipals
 iot:ListPolicyVersions
 iot:ListPrincipalPolicies
 iot:ListPrincipalThings
+iot:ListPrincipalThingsV2
 iot:ListProvisioningTemplateVersions
 iot:ListProvisioningTemplates
 iot:ListRelatedResourcesForAuditFinding
@@ -9042,6 +9044,7 @@ iot:ListTargetsForSecurityProfile
 iot:ListThingGroups
 iot:ListThingGroupsForThing
 iot:ListThingPrincipals
+iot:ListThingPrincipalsV2
 iot:ListThingRegistrationTaskReports
 iot:ListThingRegistrationTasks
 iot:ListThingTypes
