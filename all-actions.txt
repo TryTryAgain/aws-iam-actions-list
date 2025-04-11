@@ -1231,6 +1231,7 @@ aws-marketplace:DescribeProcurementSystemConfiguration
 aws-marketplace:DescribeTask
 aws-marketplace:DisassociateProductsFromPrivateMarketplace
 aws-marketplace:GetAgreementApprovalRequest
+aws-marketplace:GetAgreementEntitlements
 aws-marketplace:GetAgreementRequest
 aws-marketplace:GetAgreementTerms
 aws-marketplace:GetBuyerDashboard
