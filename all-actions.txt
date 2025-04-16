@@ -10830,6 +10830,7 @@ lookoutvision:UntagResource
 lookoutvision:UpdateDatasetEntries
 m2:CancelBatchJobExecution
 m2:CreateApplication
+m2:CreateDataSetExportTask
 m2:CreateDataSetImportTask
 m2:CreateDeployment
 m2:CreateEnvironment
@@ -10840,6 +10841,7 @@ m2:GetApplication
 m2:GetApplicationVersion
 m2:GetBatchJobExecution
 m2:GetDataSetDetails
+m2:GetDataSetExportTask
 m2:GetDataSetImportTask
 m2:GetDeployment
 m2:GetEnvironment
@@ -10849,6 +10851,7 @@ m2:ListApplications
 m2:ListBatchJobDefinitions
 m2:ListBatchJobExecutions
 m2:ListBatchJobRestartPoints
+m2:ListDataSetExportHistory
 m2:ListDataSetImportHistory
 m2:ListDataSets
 m2:ListDeployments
@@ -14854,14 +14857,17 @@ s3tables:CreateTableBucket
 s3tables:DeleteNamespace
 s3tables:DeleteTable
 s3tables:DeleteTableBucket
+s3tables:DeleteTableBucketEncryption
 s3tables:DeleteTableBucketPolicy
 s3tables:DeleteTablePolicy
 s3tables:GetNamespace
 s3tables:GetTable
 s3tables:GetTableBucket
+s3tables:GetTableBucketEncryption
 s3tables:GetTableBucketMaintenanceConfiguration
 s3tables:GetTableBucketPolicy
 s3tables:GetTableData
+s3tables:GetTableEncryption
 s3tables:GetTableMaintenanceConfiguration
 s3tables:GetTableMaintenanceJobStatus
 s3tables:GetTableMetadataLocation
@@ -14869,9 +14875,11 @@ s3tables:GetTablePolicy
 s3tables:ListNamespaces
 s3tables:ListTableBuckets
 s3tables:ListTables
+s3tables:PutTableBucketEncryption
 s3tables:PutTableBucketMaintenanceConfiguration
 s3tables:PutTableBucketPolicy
 s3tables:PutTableData
+s3tables:PutTableEncryption
 s3tables:PutTableMaintenanceConfiguration
 s3tables:PutTablePolicy
 s3tables:RenameTable
