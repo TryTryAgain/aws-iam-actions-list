@@ -11870,6 +11870,7 @@ mq:CreateReplicaBroker
 mq:CreateTags
 mq:CreateUser
 mq:DeleteBroker
+mq:DeleteConfiguration
 mq:DeleteTags
 mq:DeleteUser
 mq:DescribeBroker
