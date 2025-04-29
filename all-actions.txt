@@ -9957,6 +9957,7 @@ kinesis:IncreaseStreamRetentionPeriod
 kinesis:ListShards
 kinesis:ListStreamConsumers
 kinesis:ListStreams
+kinesis:ListTagsForResource
 kinesis:ListTagsForStream
 kinesis:MergeShards
 kinesis:PutRecord
@@ -9968,6 +9969,8 @@ kinesis:SplitShard
 kinesis:StartStreamEncryption
 kinesis:StopStreamEncryption
 kinesis:SubscribeToShard
+kinesis:TagResource
+kinesis:UntagResource
 kinesis:UpdateShardCount
 kinesis:UpdateStreamMode
 kinesisanalytics:AddApplicationCloudWatchLoggingOption
@@ -16490,9 +16493,12 @@ ssm-contacts:UpdateContact
 ssm-contacts:UpdateContactChannel
 ssm-contacts:UpdateRotation
 ssm-guiconnect:CancelConnection
+ssm-guiconnect:DeleteConnectionRecordingPreferences
 ssm-guiconnect:GetConnection
+ssm-guiconnect:GetConnectionRecordingPreferences
 ssm-guiconnect:ListConnections
 ssm-guiconnect:StartConnection
+ssm-guiconnect:UpdateConnectionRecordingPreferences
 ssm-incidents:BatchGetIncidentFindings
 ssm-incidents:CreateReplicationSet
 ssm-incidents:CreateResponsePlan
@@ -16627,6 +16633,7 @@ ssm:DescribePatchProperties
 ssm:DescribeSessions
 ssm:DisassociateOpsItemRelatedItem
 ssm:ExecuteAPI
+ssm:GetAccessToken
 ssm:GetAutomationExecution
 ssm:GetCalendar
 ssm:GetCalendarState
@@ -16692,6 +16699,7 @@ ssm:ResetServiceSetting
 ssm:ResumeSession
 ssm:SendAutomationSignal
 ssm:SendCommand
+ssm:StartAccessRequest
 ssm:StartAssociationsOnce
 ssm:StartAutomationExecution
 ssm:StartChangeRequestExecution
