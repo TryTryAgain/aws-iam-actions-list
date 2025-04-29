@@ -5477,6 +5477,7 @@ dsql:DbConnectAdmin
 dsql:DeleteCluster
 dsql:DeleteMultiRegionClusters
 dsql:GetCluster
+dsql:GetVpcEndpointServiceName
 dsql:ListClusters
 dsql:ListTagsForResource
 dsql:TagResource
