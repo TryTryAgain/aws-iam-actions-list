@@ -13147,6 +13147,7 @@ q:CreateAuthGrant
 q:CreateOAuthAppConnection
 q:CreatePlugin
 q:DeleteAssignment
+q:DeleteConversation
 q:DeleteOAuthAppConnection
 q:DeletePlugin
 q:GenerateCodeFromCommands
@@ -13171,6 +13172,7 @@ q:StartTroubleshootingResolutionExplanation
 q:TagResource
 q:UntagResource
 q:UpdateAuthGrant
+q:UpdateConversation
 q:UpdateOAuthAppConnection
 q:UpdatePlugin
 q:UpdateTroubleshootingCommandResult
