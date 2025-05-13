@@ -17189,6 +17189,7 @@ synthetics:ListGroupResources
 synthetics:ListGroups
 synthetics:ListTagsForResource
 synthetics:StartCanary
+synthetics:StartCanaryDryRun
 synthetics:StopCanary
 synthetics:TagResource
 synthetics:UntagResource
