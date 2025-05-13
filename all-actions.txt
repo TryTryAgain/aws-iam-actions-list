@@ -5659,6 +5659,8 @@ ec2:CreateLocalGatewayRouteTable
 ec2:CreateLocalGatewayRouteTablePermission
 ec2:CreateLocalGatewayRouteTableVirtualInterfaceGroupAssociation
 ec2:CreateLocalGatewayRouteTableVpcAssociation
+ec2:CreateLocalGatewayVirtualInterface
+ec2:CreateLocalGatewayVirtualInterfaceGroup
 ec2:CreateManagedPrefixList
 ec2:CreateNatGateway
 ec2:CreateNetworkAcl
@@ -5742,6 +5744,8 @@ ec2:DeleteLocalGatewayRouteTable
 ec2:DeleteLocalGatewayRouteTablePermission
 ec2:DeleteLocalGatewayRouteTableVirtualInterfaceGroupAssociation
 ec2:DeleteLocalGatewayRouteTableVpcAssociation
+ec2:DeleteLocalGatewayVirtualInterface
+ec2:DeleteLocalGatewayVirtualInterfaceGroup
 ec2:DeleteManagedPrefixList
 ec2:DeleteNatGateway
 ec2:DeleteNetworkAcl
@@ -5896,6 +5900,7 @@ ec2:DescribeNetworkInsightsPaths
 ec2:DescribeNetworkInterfaceAttribute
 ec2:DescribeNetworkInterfacePermissions
 ec2:DescribeNetworkInterfaces
+ec2:DescribeOutpostLags
 ec2:DescribePlacementGroups
 ec2:DescribePrefixLists
 ec2:DescribePrincipalIdFormat
@@ -5916,6 +5921,7 @@ ec2:DescribeSecurityGroupReferences
 ec2:DescribeSecurityGroupRules
 ec2:DescribeSecurityGroupVpcAssociations
 ec2:DescribeSecurityGroups
+ec2:DescribeServiceLinkVirtualInterfaces
 ec2:DescribeSnapshotAttribute
 ec2:DescribeSnapshotTierStatus
 ec2:DescribeSnapshots
