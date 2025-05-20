@@ -60,8 +60,10 @@ echo $COMMIT_MESSAGE
 
 if [[ $(git status -s) ]]; then
     echo "Commit message should be: $COMMIT_MESSAGE"
-	git commit -m "$(echo $COMMIT_MESSAGE)"
-	git push -o ci-skip https://root:$TMP@$CI_SERVER_HOST/$CI_PROJECT_PATH.git HEAD:master
+    git commit -m "$(echo $COMMIT_MESSAGE)"
+    git remote set-url origin https://gitlab-ci-token:${CI_JOB_TOKEN}@${CI_SERVER_HOST}/${CI_PROJECT_PATH}.git
+    git push -o ci-skip origin HEAD:master
 else
-	echo "Nothing new to commit..."
+    echo "Nothing new to commit..."
 fi
+
