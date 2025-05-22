@@ -2950,6 +2950,7 @@ cloudwatch:EnableAlarmActions
 cloudwatch:EnableInsightRules
 cloudwatch:EnableTopologyDiscovery
 cloudwatch:GenerateQuery
+cloudwatch:GenerateQueryResultsSummary
 cloudwatch:GetDashboard
 cloudwatch:GetInsightRuleReport
 cloudwatch:GetMetricData
@@ -3386,6 +3387,7 @@ codepipeline:GetPipelineState
 codepipeline:GetThirdPartyJobDetails
 codepipeline:ListActionExecutions
 codepipeline:ListActionTypes
+codepipeline:ListDeployActionExecutionTargets
 codepipeline:ListPipelineExecutions
 codepipeline:ListPipelines
 codepipeline:ListRuleExecutions
@@ -5472,18 +5474,22 @@ ds:UpdateTrust
 ds:VerifyTrust
 dsql:AddPeerCluster
 dsql:CreateCluster
-dsql:CreateMultiRegionClusters
 dsql:DbConnect
 dsql:DbConnectAdmin
 dsql:DeleteCluster
-dsql:DeleteMultiRegionClusters
+dsql:GetBackupJob
 dsql:GetCluster
+dsql:GetRestoreJob
 dsql:GetVpcEndpointServiceName
 dsql:ListClusters
 dsql:ListTagsForResource
 dsql:PutMultiRegionProperties
 dsql:PutWitnessRegion
 dsql:RemovePeerCluster
+dsql:StartBackupJob
+dsql:StartRestoreJob
+dsql:StopBackupJob
+dsql:StopRestoreJob
 dsql:TagResource
 dsql:UntagResource
 dsql:UpdateCluster
@@ -6447,6 +6453,8 @@ eks:ListAccessPolicies
 eks:ListAddons
 eks:ListAssociatedAccessPolicies
 eks:ListClusters
+eks:ListDashboardData
+eks:ListDashboardResources
 eks:ListEksAnywhereSubscriptions
 eks:ListFargateProfiles
 eks:ListIdentityProviderConfigs
@@ -9264,8 +9272,6 @@ iotfleethub:TagResource
 iotfleethub:UntagResource
 iotfleethub:UpdateApplication
 iotfleetwise:AssociateVehicleFleet
-iotfleetwise:BatchCreateVehicle
-iotfleetwise:BatchUpdateVehicle
 iotfleetwise:CreateCampaign
 iotfleetwise:CreateDecoderManifest
 iotfleetwise:CreateFleet
@@ -11459,6 +11465,7 @@ medical-imaging:GetDICOMImportJob
 medical-imaging:GetDICOMInstance
 medical-imaging:GetDICOMInstanceFrames
 medical-imaging:GetDICOMInstanceMetadata
+medical-imaging:GetDICOMSeriesMetadata
 medical-imaging:GetDatastore
 medical-imaging:GetImageFrame
 medical-imaging:GetImageSet
@@ -11467,6 +11474,9 @@ medical-imaging:ListDICOMImportJobs
 medical-imaging:ListDatastores
 medical-imaging:ListImageSetVersions
 medical-imaging:ListTagsForResource
+medical-imaging:SearchDICOMInstances
+medical-imaging:SearchDICOMSeries
+medical-imaging:SearchDICOMStudies
 medical-imaging:SearchImageSets
 medical-imaging:StartDICOMImportJob
 medical-imaging:TagResource
@@ -12959,6 +12969,7 @@ profile:BatchGetCalculatedAttributeForProfile
 profile:BatchGetProfile
 profile:CreateCalculatedAttributeDefinition
 profile:CreateDomain
+profile:CreateDomainLayout
 profile:CreateEventStream
 profile:CreateEventTrigger
 profile:CreateIntegrationWorkflow
@@ -12969,6 +12980,7 @@ profile:CreateSegmentSnapshot
 profile:CreateSnapshot
 profile:DeleteCalculatedAttributeDefinition
 profile:DeleteDomain
+profile:DeleteDomainLayout
 profile:DeleteEventStream
 profile:DeleteEventTrigger
 profile:DeleteIntegration
@@ -12983,6 +12995,7 @@ profile:GetAutoMergingPreview
 profile:GetCalculatedAttributeDefinition
 profile:GetCalculatedAttributeForProfile
 profile:GetDomain
+profile:GetDomainLayout
 profile:GetEventStream
 profile:GetEventTrigger
 profile:GetIdentityResolutionJob
@@ -13001,6 +13014,7 @@ profile:GetWorkflowSteps
 profile:ListAccountIntegrations
 profile:ListCalculatedAttributeDefinitions
 profile:ListCalculatedAttributesForProfile
+profile:ListDomainLayouts
 profile:ListDomains
 profile:ListEventStreams
 profile:ListEventTriggers
@@ -13024,6 +13038,7 @@ profile:TagResource
 profile:UntagResource
 profile:UpdateCalculatedAttributeDefinition
 profile:UpdateDomain
+profile:UpdateDomainLayout
 profile:UpdateEventTrigger
 profile:UpdateProfile
 proton:AcceptEnvironmentAccountConnection
@@ -17088,6 +17103,7 @@ support:AddCommunicationToCase
 support:CreateCase
 support:DescribeAttachment
 support:DescribeCaseAttributes
+support:DescribeCaseOptions
 support:DescribeCases
 support:DescribeCommunication
 support:DescribeCommunications
@@ -17110,6 +17126,7 @@ support:RefreshTrustedAdvisorCheck
 support:ResolveCase
 support:SearchForCases
 support:StartInteraction
+support:UpdateCaseSeverity
 supportapp:CreateSlackChannelConfiguration
 supportapp:DeleteAccountAlias
 supportapp:DeleteSlackChannelConfiguration
@@ -17486,6 +17503,13 @@ transfer:UpdateServer
 transfer:UpdateUser
 transfer:UpdateWebApp
 transfer:UpdateWebAppCustomization
+transform:AssociateConnectorResource
+transform:CreateProfile
+transform:DeleteProfile
+transform:GetConnector
+transform:ListProfiles
+transform:RejectConnector
+transform:UpdateProfile
 translate:CreateParallelData
 translate:DeleteParallelData
 translate:DeleteTerminology
@@ -17572,6 +17596,9 @@ user-subscriptions:ListApplicationClaims
 user-subscriptions:ListClaims
 user-subscriptions:ListUserSubscriptions
 user-subscriptions:UpdateClaim
+uxc:DeleteAccountColor
+uxc:GetAccountColor
+uxc:PutAccountColor
 vendor-insights:ActivateSecurityProfile
 vendor-insights:AssociateDataSource
 vendor-insights:CreateDataSource
