@@ -8765,6 +8765,7 @@ inspector2:Enable
 inspector2:EnableDelegatedAdminAccount
 inspector2:GetCisScanReport
 inspector2:GetCisScanResultDetails
+inspector2:GetClustersForImage
 inspector2:GetConfiguration
 inspector2:GetDelegatedAdminAccount
 inspector2:GetEc2DeepInspectionConfiguration
