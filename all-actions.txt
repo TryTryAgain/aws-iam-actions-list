@@ -13221,7 +13221,6 @@ qapps:BatchUpdateCategory
 qapps:CopyQApp
 qapps:CreateLibraryItem
 qapps:CreateLibraryItemReview
-qapps:CreatePresignedUrl
 qapps:CreateQApp
 qapps:CreateSubscriptionToken
 qapps:DeleteLibraryItem
@@ -13235,8 +13234,6 @@ qapps:GetQApp
 qapps:GetQAppSession
 qapps:GetQAppSessionMetadata
 qapps:ImportDocument
-qapps:ImportDocumentToQApp
-qapps:ImportDocumentToQAppSession
 qapps:ListCategories
 qapps:ListLibraryItems
 qapps:ListQAppSessionData
