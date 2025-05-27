@@ -1921,8 +1921,10 @@ ce:GetApproximateUsageRecords
 ce:GetCommitmentPurchaseAnalysis
 ce:GetConsoleActionSetEnforced
 ce:GetCostAndUsage
+ce:GetCostAndUsageComparisons
 ce:GetCostAndUsageWithResources
 ce:GetCostCategories
+ce:GetCostComparisonDrivers
 ce:GetCostForecast
 ce:GetDimensionValues
 ce:GetPreferences
@@ -10743,6 +10745,7 @@ logs:ListEntitiesForLogGroup
 logs:ListIntegrations
 logs:ListLogAnomalyDetectors
 logs:ListLogDeliveries
+logs:ListLogGroups
 logs:ListLogGroupsForEntity
 logs:ListLogGroupsForQuery
 logs:ListTagsForResource
