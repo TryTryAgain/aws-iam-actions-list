@@ -12018,12 +12018,15 @@ network-firewall:CreateFirewall
 network-firewall:CreateFirewallPolicy
 network-firewall:CreateRuleGroup
 network-firewall:CreateTLSInspectionConfiguration
+network-firewall:CreateVpcEndpointAssociation
 network-firewall:DeleteFirewall
 network-firewall:DeleteFirewallPolicy
 network-firewall:DeleteResourcePolicy
 network-firewall:DeleteRuleGroup
 network-firewall:DeleteTLSInspectionConfiguration
+network-firewall:DeleteVpcEndpointAssociation
 network-firewall:DescribeFirewall
+network-firewall:DescribeFirewallMetadata
 network-firewall:DescribeFirewallPolicy
 network-firewall:DescribeFlowOperation
 network-firewall:DescribeLoggingConfiguration
@@ -12031,6 +12034,7 @@ network-firewall:DescribeResourcePolicy
 network-firewall:DescribeRuleGroup
 network-firewall:DescribeRuleGroupMetadata
 network-firewall:DescribeTLSInspectionConfiguration
+network-firewall:DescribeVpcEndpointAssociation
 network-firewall:DisassociateSubnets
 network-firewall:GetAnalysisReportResults
 network-firewall:ListAnalysisReports
@@ -12041,6 +12045,7 @@ network-firewall:ListFlowOperations
 network-firewall:ListRuleGroups
 network-firewall:ListTLSInspectionConfigurations
 network-firewall:ListTagsForResource
+network-firewall:ListVpcEndpointAssociations
 network-firewall:PutResourcePolicy
 network-firewall:StartAnalysisReport
 network-firewall:StartFlowCapture
