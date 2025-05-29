@@ -2897,6 +2897,7 @@ cloudtrail:GenerateQuery
 cloudtrail:GenerateQueryResultsSummary
 cloudtrail:GetChannel
 cloudtrail:GetDashboard
+cloudtrail:GetEventConfiguration
 cloudtrail:GetEventDataStore
 cloudtrail:GetEventDataStoreData
 cloudtrail:GetEventSelectors
@@ -2918,6 +2919,7 @@ cloudtrail:ListServiceLinkedChannels
 cloudtrail:ListTags
 cloudtrail:ListTrails
 cloudtrail:LookupEvents
+cloudtrail:PutEventConfiguration
 cloudtrail:PutEventSelectors
 cloudtrail:PutInsightSelectors
 cloudtrail:PutResourcePolicy
