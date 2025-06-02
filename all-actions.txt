@@ -5656,6 +5656,7 @@ ec2:CreateCoipPoolPermission
 ec2:CreateCustomerGateway
 ec2:CreateDefaultSubnet
 ec2:CreateDefaultVpc
+ec2:CreateDelegateMacVolumeOwnershipTask
 ec2:CreateDhcpOptions
 ec2:CreateEgressOnlyInternetGateway
 ec2:CreateFleet
@@ -5681,6 +5682,7 @@ ec2:CreateLocalGatewayRouteTableVirtualInterfaceGroupAssociation
 ec2:CreateLocalGatewayRouteTableVpcAssociation
 ec2:CreateLocalGatewayVirtualInterface
 ec2:CreateLocalGatewayVirtualInterfaceGroup
+ec2:CreateMacSystemIntegrityProtectionModificationTask
 ec2:CreateManagedPrefixList
 ec2:CreateNatGateway
 ec2:CreateNetworkAcl
@@ -5909,6 +5911,7 @@ ec2:DescribeLocalGatewayVirtualInterfaces
 ec2:DescribeLocalGateways
 ec2:DescribeLockedSnapshots
 ec2:DescribeMacHosts
+ec2:DescribeMacModificationTasks
 ec2:DescribeManagedPrefixLists
 ec2:DescribeMovingAddresses
 ec2:DescribeNatGateways
@@ -6166,6 +6169,7 @@ ec2:ModifyLocalGatewayRoute
 ec2:ModifyManagedPrefixList
 ec2:ModifyNetworkInterfaceAttribute
 ec2:ModifyPrivateDnsNameOptions
+ec2:ModifyPublicIpDnsNameOptions
 ec2:ModifyReservedInstances
 ec2:ModifyRouteServer
 ec2:ModifySecurityGroupRules
