@@ -17603,9 +17603,6 @@ user-subscriptions:ListApplicationClaims
 user-subscriptions:ListClaims
 user-subscriptions:ListUserSubscriptions
 user-subscriptions:UpdateClaim
-uxc:DeleteAccountColor
-uxc:GetAccountColor
-uxc:PutAccountColor
 vendor-insights:ActivateSecurityProfile
 vendor-insights:AssociateDataSource
 vendor-insights:CreateDataSource
