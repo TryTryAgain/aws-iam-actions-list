@@ -9765,6 +9765,7 @@ ivs:ListCompositions
 ivs:ListEncoderConfigurations
 ivs:ListIngestConfigurations
 ivs:ListParticipantEvents
+ivs:ListParticipantReplicas
 ivs:ListParticipants
 ivs:ListPlaybackKeyPairs
 ivs:ListPlaybackRestrictionPolicies
@@ -9779,8 +9780,10 @@ ivs:ListStreams
 ivs:ListTagsForResource
 ivs:PutMetadata
 ivs:StartComposition
+ivs:StartParticipantReplication
 ivs:StartViewerSessionRevocation
 ivs:StopComposition
+ivs:StopParticipantReplication
 ivs:StopStream
 ivs:TagResource
 ivs:UntagResource
