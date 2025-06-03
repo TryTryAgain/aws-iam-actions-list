@@ -6922,6 +6922,7 @@ entityresolution:DeleteIdNamespace
 entityresolution:DeleteMatchingWorkflow
 entityresolution:DeletePolicyStatement
 entityresolution:DeleteSchemaMapping
+entityresolution:GenerateMatchId
 entityresolution:GetIdMappingJob
 entityresolution:GetIdMappingWorkflow
 entityresolution:GetIdNamespace
