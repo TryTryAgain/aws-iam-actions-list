@@ -13753,6 +13753,7 @@ rds:DescribeDBEngineVersions
 rds:DescribeDBInstanceAutomatedBackups
 rds:DescribeDBInstances
 rds:DescribeDBLogFiles
+rds:DescribeDBMajorEngineVersions
 rds:DescribeDBParameterGroups
 rds:DescribeDBParameters
 rds:DescribeDBProxies
