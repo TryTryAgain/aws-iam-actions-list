@@ -6067,6 +6067,7 @@ ec2:ExportClientVpnClientConfiguration
 ec2:ExportImage
 ec2:ExportTransitGatewayRoutes
 ec2:ExportVerifiedAccessInstanceClientConfiguration
+ec2:GetActiveVpnTunnelStatus
 ec2:GetAllowedImagesSettings
 ec2:GetAssociatedEnclaveCertificateIamRoles
 ec2:GetAssociatedIpv6PoolCidrs
