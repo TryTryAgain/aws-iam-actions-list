@@ -4239,6 +4239,7 @@ consolidatedbilling:GetAccountBillingRole
 consolidatedbilling:ListLinkedAccounts
 controlcatalog:GetControl
 controlcatalog:ListCommonControls
+controlcatalog:ListControlMappings
 controlcatalog:ListControls
 controlcatalog:ListDomains
 controlcatalog:ListObjectives
@@ -7159,6 +7160,17 @@ evidently:UpdateFeature
 evidently:UpdateLaunch
 evidently:UpdateProject
 evidently:UpdateProjectDataDelivery
+evs:CreateEnvironment
+evs:CreateEnvironmentHost
+evs:DeleteEnvironment
+evs:DeleteEnvironmentHost
+evs:GetEnvironment
+evs:ListEnvironmentHosts
+evs:ListEnvironmentVlans
+evs:ListEnvironments
+evs:ListTagsForResource
+evs:TagResource
+evs:UntagResource
 execute-api:InvalidateCache
 execute-api:Invoke
 execute-api:ManageConnections
