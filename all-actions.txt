@@ -17147,6 +17147,17 @@ sts:GetSessionToken
 sts:SetContext
 sts:SetSourceIdentity
 sts:TagSession
+support-console:CheckSubscription
+support-console:CreateCaseDraft
+support-console:CreateContact
+support-console:DeleteCaseDraft
+support-console:DescribeDynamicHelp
+support-console:GetAccountGovCloudEnabled
+support-console:GetAccountState
+support-console:GetBanner
+support-console:GetCaseDraft
+support-console:GetQuestionnaire
+support-console:SaveFeedback
 support:AddAttachmentsToSet
 support:AddCommunicationToCase
 support:CreateCase
