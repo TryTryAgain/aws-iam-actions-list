@@ -1368,6 +1368,7 @@ backup-storage:PutChunk
 backup-storage:PutObject
 backup-storage:StartObject
 backup-storage:UpdateObjectComplete
+backup:AssociateBackupVaultMpaApprovalTeam
 backup:CancelLegalHold
 backup:CopyFromBackupVault
 backup:CopyIntoBackupVault
@@ -1378,6 +1379,7 @@ backup:CreateFramework
 backup:CreateLegalHold
 backup:CreateLogicallyAirGappedBackupVault
 backup:CreateReportPlan
+backup:CreateRestoreAccessBackupVault
 backup:CreateRestoreTestingPlan
 backup:CreateRestoreTestingSelection
 backup:DeleteBackupPlan
@@ -1403,6 +1405,7 @@ backup:DescribeRegionSettings
 backup:DescribeReportJob
 backup:DescribeReportPlan
 backup:DescribeRestoreJob
+backup:DisassociateBackupVaultMpaApprovalTeam
 backup:DisassociateRecoveryPoint
 backup:DisassociateRecoveryPointFromParent
 backup:ExportBackupPlanTemplate
@@ -1441,6 +1444,7 @@ backup:ListRecoveryPointsByLegalHold
 backup:ListRecoveryPointsByResource
 backup:ListReportJobs
 backup:ListReportPlans
+backup:ListRestoreAccessBackupVaults
 backup:ListRestoreJobSummaries
 backup:ListRestoreJobs
 backup:ListRestoreJobsByProtectedResource
@@ -1452,6 +1456,7 @@ backup:PutBackupVaultLockConfiguration
 backup:PutBackupVaultNotifications
 backup:PutBackupVaultSharingPolicy
 backup:PutRestoreValidationResult
+backup:RevokeRestoreAccessBackupVault
 backup:SearchRecoveryPoint
 backup:StartBackupJob
 backup:StartCopyJob
