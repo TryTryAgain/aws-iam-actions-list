@@ -185,6 +185,7 @@ acm:RemoveTagsFromCertificate
 acm:RenewCertificate
 acm:RequestCertificate
 acm:ResendValidationEmail
+acm:RevokeCertificate
 acm:UpdateCertificateOptions
 activate:CreateForm
 activate:GetAccountContact
@@ -17192,6 +17193,7 @@ support:ResolveCase
 support:SearchForCases
 support:StartInteraction
 support:UpdateCaseSeverity
+support:UpdateInteraction
 supportapp:CreateSlackChannelConfiguration
 supportapp:DeleteAccountAlias
 supportapp:DeleteSlackChannelConfiguration
