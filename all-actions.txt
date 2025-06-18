@@ -10341,6 +10341,7 @@ lex:CreateExport
 lex:CreateIntent
 lex:CreateIntentVersion
 lex:CreateResourcePolicy
+lex:CreateResourcePolicyStatement
 lex:CreateSlot
 lex:CreateSlotType
 lex:CreateSlotTypeVersion
@@ -10360,6 +10361,7 @@ lex:DeleteImport
 lex:DeleteIntent
 lex:DeleteIntentVersion
 lex:DeleteResourcePolicy
+lex:DeleteResourcePolicyStatement
 lex:DeleteSession
 lex:DeleteSlot
 lex:DeleteSlotType
