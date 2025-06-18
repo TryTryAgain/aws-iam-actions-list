@@ -13054,6 +13054,7 @@ profile:CreateSegmentDefinition
 profile:CreateSegmentEstimate
 profile:CreateSegmentSnapshot
 profile:CreateSnapshot
+profile:CreateUploadJob
 profile:DeleteCalculatedAttributeDefinition
 profile:DeleteDomain
 profile:DeleteDomainLayout
@@ -13085,6 +13086,8 @@ profile:GetSegmentMembership
 profile:GetSegmentSnapshot
 profile:GetSimilarProfiles
 profile:GetSnapshot
+profile:GetUploadJob
+profile:GetUploadJobPath
 profile:GetWorkflow
 profile:GetWorkflowSteps
 profile:ListAccountIntegrations
@@ -13104,12 +13107,15 @@ profile:ListProfileObjects
 profile:ListRuleBasedMatches
 profile:ListSegmentDefinitions
 profile:ListTagsForResource
+profile:ListUploadJobs
 profile:ListWorkflows
 profile:MergeProfiles
 profile:PutIntegration
 profile:PutProfileObject
 profile:PutProfileObjectType
 profile:SearchProfiles
+profile:StartUploadJob
+profile:StopUploadJob
 profile:TagResource
 profile:UntagResource
 profile:UpdateCalculatedAttributeDefinition
