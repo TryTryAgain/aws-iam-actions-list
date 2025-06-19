@@ -3924,6 +3924,7 @@ connect-campaigns:DescribeCampaign
 connect-campaigns:GetCampaignState
 connect-campaigns:GetCampaignStateBatch
 connect-campaigns:GetConnectInstanceConfig
+connect-campaigns:GetInstanceCommunicationLimits
 connect-campaigns:GetInstanceOnboardingJobStatus
 connect-campaigns:ListCampaigns
 connect-campaigns:ListConnectInstanceIntegrations
@@ -3931,6 +3932,7 @@ connect-campaigns:ListTagsForResource
 connect-campaigns:PauseCampaign
 connect-campaigns:PutConnectInstanceIntegration
 connect-campaigns:PutDialRequestBatch
+connect-campaigns:PutInstanceCommunicationLimits
 connect-campaigns:PutOutboundRequestBatch
 connect-campaigns:PutProfileOutboundRequestBatch
 connect-campaigns:ResumeCampaign
