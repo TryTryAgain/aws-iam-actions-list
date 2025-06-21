@@ -1559,11 +1559,13 @@ bedrock:AssociateAgentCollaborator
 bedrock:AssociateAgentKnowledgeBase
 bedrock:AssociateThirdPartyKnowledgeBase
 bedrock:BatchDeleteEvaluationJob
+bedrock:CallWithBearerToken
 bedrock:CreateAgent
 bedrock:CreateAgentActionGroup
 bedrock:CreateAgentAlias
 bedrock:CreateBlueprint
 bedrock:CreateBlueprintVersion
+bedrock:CreateCustomModel
 bedrock:CreateDataAutomationProject
 bedrock:CreateDataSource
 bedrock:CreateEvaluationJob
