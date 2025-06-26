@@ -6737,6 +6737,7 @@ elasticloadbalancing:SetRulePriorities
 elasticloadbalancing:SetSecurityGroups
 elasticloadbalancing:SetSubnets
 elasticloadbalancing:SetWebAcl
+elasticmapreduce:AccessAllEventLogs
 elasticmapreduce:AddInstanceFleet
 elasticmapreduce:AddInstanceGroups
 elasticmapreduce:AddJobFlowSteps
@@ -17818,6 +17819,7 @@ voiceid:UpdateDomain
 voiceid:UpdateWatchlist
 vpc-lattice-svcs:Connect
 vpc-lattice-svcs:Invoke
+vpc-lattice:AssociateViaAWSService
 vpc-lattice:AssociateViaAWSService-EventsAndStates
 vpc-lattice:CreateAccessLogSubscription
 vpc-lattice:CreateListener
