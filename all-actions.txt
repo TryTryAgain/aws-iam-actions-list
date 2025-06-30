@@ -372,8 +372,12 @@ aoss:UpdateSecurityPolicy
 aoss:UpdateVpcEndpoint
 apigateway:AddCertificateToDomain
 apigateway:CreateAccessAssociation
+apigateway:CreateRoutingRule
 apigateway:DELETE
+apigateway:DeleteRoutingRule
 apigateway:GET
+apigateway:GetRoutingRule
+apigateway:ListRoutingRule
 apigateway:PATCH
 apigateway:POST
 apigateway:PUT
@@ -383,6 +387,7 @@ apigateway:SetWebACL
 apigateway:UpdateDomainNameManagementPolicy
 apigateway:UpdateDomainNamePolicy
 apigateway:UpdateRestApiPolicy
+apigateway:UpdateRoutingRule
 app-integrations:CreateApplication
 app-integrations:CreateApplicationAssociation
 app-integrations:CreateDataIntegration
@@ -5523,9 +5528,11 @@ dynamodb:BatchWriteItem
 dynamodb:ConditionCheckItem
 dynamodb:CreateBackup
 dynamodb:CreateGlobalTable
+dynamodb:CreateGlobalTableWitness
 dynamodb:CreateTable
 dynamodb:CreateTableReplica
 dynamodb:DeleteBackup
+dynamodb:DeleteGlobalTableWitness
 dynamodb:DeleteItem
 dynamodb:DeleteResourcePolicy
 dynamodb:DeleteTable
