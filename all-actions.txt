@@ -13432,6 +13432,7 @@ qbusiness:ChatSync
 qbusiness:CheckDocumentAccess
 qbusiness:CreateAnonymousWebExperienceUrl
 qbusiness:CreateApplication
+qbusiness:CreateChatResponseConfiguration
 qbusiness:CreateDataAccessor
 qbusiness:CreateDataAccessorWithTti
 qbusiness:CreateDataSource
@@ -13446,6 +13447,7 @@ qbusiness:CreateWebExperience
 qbusiness:DeleteApplication
 qbusiness:DeleteAttachment
 qbusiness:DeleteChatControlsConfiguration
+qbusiness:DeleteChatResponseConfiguration
 qbusiness:DeleteConversation
 qbusiness:DeleteDataAccessor
 qbusiness:DeleteDataSource
@@ -13460,6 +13462,7 @@ qbusiness:DisableAclOnDataSource
 qbusiness:DisassociatePermission
 qbusiness:GetApplication
 qbusiness:GetChatControlsConfiguration
+qbusiness:GetChatResponseConfiguration
 qbusiness:GetDataAccessor
 qbusiness:GetDataSource
 qbusiness:GetGroup
@@ -13474,6 +13477,7 @@ qbusiness:GetUser
 qbusiness:GetWebExperience
 qbusiness:ListApplications
 qbusiness:ListAttachments
+qbusiness:ListChatResponseConfigurations
 qbusiness:ListConversations
 qbusiness:ListDataAccessors
 qbusiness:ListDataSourceSyncJobs
@@ -13504,6 +13508,7 @@ qbusiness:TagResource
 qbusiness:UntagResource
 qbusiness:UpdateApplication
 qbusiness:UpdateChatControlsConfiguration
+qbusiness:UpdateChatResponseConfiguration
 qbusiness:UpdateDataAccessor
 qbusiness:UpdateDataSource
 qbusiness:UpdateIndex
