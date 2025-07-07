@@ -12145,6 +12145,7 @@ network-firewall:DescribeLoggingConfiguration
 network-firewall:DescribeResourcePolicy
 network-firewall:DescribeRuleGroup
 network-firewall:DescribeRuleGroupMetadata
+network-firewall:DescribeRuleGroupSummary
 network-firewall:DescribeTLSInspectionConfiguration
 network-firewall:DescribeVpcEndpointAssociation
 network-firewall:DisassociateAvailabilityZones
