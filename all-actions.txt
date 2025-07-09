@@ -7510,9 +7510,13 @@ freertos:ListSubscriptions
 freertos:UpdateEmailRecipients
 freertos:UpdateSoftwareConfiguration
 freertos:VerifyEmail
+freetier:GetAccountActivity
+freetier:GetAccountPlanState
 freetier:GetFreeTierAlertPreference
 freetier:GetFreeTierUsage
+freetier:ListAccountActivities
 freetier:PutFreeTierAlertPreference
+freetier:UpgradeAccountPlan
 fsx:AssociateFileGateway
 fsx:AssociateFileSystemAliases
 fsx:BypassSnaplockEnterpriseRetention
