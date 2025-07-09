@@ -12178,6 +12178,15 @@ network-firewall:UpdateLoggingConfiguration
 network-firewall:UpdateRuleGroup
 network-firewall:UpdateSubnetChangeProtection
 network-firewall:UpdateTLSInspectionConfiguration
+network-security-director:GetFinding
+network-security-director:GetNetworkSecurityScan
+network-security-director:GetResource
+network-security-director:ListFindings
+network-security-director:ListInsights
+network-security-director:ListRemediations
+network-security-director:ListResources
+network-security-director:StartNetworkSecurityScan
+network-security-director:UpdateFinding
 networkflowmonitor:CreateMonitor
 networkflowmonitor:CreateScope
 networkflowmonitor:DeleteMonitor
