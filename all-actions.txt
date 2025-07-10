@@ -15262,6 +15262,7 @@ sagemaker:CreateExperiment
 sagemaker:CreateFeatureGroup
 sagemaker:CreateFlowDefinition
 sagemaker:CreateHub
+sagemaker:CreateHubContentPresignedUrls
 sagemaker:CreateHubContentReference
 sagemaker:CreateHumanTaskUi
 sagemaker:CreateHyperParameterTuningJob
@@ -15374,6 +15375,7 @@ sagemaker:DescribeArtifact
 sagemaker:DescribeAutoMLJob
 sagemaker:DescribeAutoMLJobV2
 sagemaker:DescribeCluster
+sagemaker:DescribeClusterInference
 sagemaker:DescribeClusterNode
 sagemaker:DescribeClusterSchedulerConfig
 sagemaker:DescribeCodeRepository
@@ -15516,6 +15518,7 @@ sagemaker:ListPartnerApps
 sagemaker:ListPipelineExecutionSteps
 sagemaker:ListPipelineExecutions
 sagemaker:ListPipelineParametersForExecution
+sagemaker:ListPipelineVersions
 sagemaker:ListPipelines
 sagemaker:ListProcessingJobs
 sagemaker:ListProjects
@@ -15558,6 +15561,7 @@ sagemaker:StartMlflowTrackingServer
 sagemaker:StartMonitoringSchedule
 sagemaker:StartNotebookInstance
 sagemaker:StartPipelineExecution
+sagemaker:StartSession
 sagemaker:StopAutoMLJob
 sagemaker:StopCompilationJob
 sagemaker:StopEdgeDeploymentStage
@@ -15580,6 +15584,7 @@ sagemaker:UpdateAction
 sagemaker:UpdateAppImageConfig
 sagemaker:UpdateArtifact
 sagemaker:UpdateCluster
+sagemaker:UpdateClusterInference
 sagemaker:UpdateClusterSchedulerConfig
 sagemaker:UpdateClusterSoftware
 sagemaker:UpdateCodeRepository
@@ -15611,6 +15616,7 @@ sagemaker:UpdateNotebookInstanceLifecycleConfig
 sagemaker:UpdatePartnerApp
 sagemaker:UpdatePipeline
 sagemaker:UpdatePipelineExecution
+sagemaker:UpdatePipelineVersion
 sagemaker:UpdateProject
 sagemaker:UpdateSharedModel
 sagemaker:UpdateSpace
