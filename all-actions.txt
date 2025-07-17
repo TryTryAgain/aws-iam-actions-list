@@ -1660,6 +1660,7 @@ bedrock:CreateAgentAlias
 bedrock:CreateBlueprint
 bedrock:CreateBlueprintVersion
 bedrock:CreateCustomModel
+bedrock:CreateCustomModelDeployment
 bedrock:CreateDataAutomationProject
 bedrock:CreateDataSource
 bedrock:CreateEvaluationJob
@@ -1690,6 +1691,7 @@ bedrock:DeleteAgentMemory
 bedrock:DeleteAgentVersion
 bedrock:DeleteBlueprint
 bedrock:DeleteCustomModel
+bedrock:DeleteCustomModelDeployment
 bedrock:DeleteDataAutomationProject
 bedrock:DeleteDataSource
 bedrock:DeleteFlow
@@ -1726,6 +1728,7 @@ bedrock:GetAsyncInvoke
 bedrock:GetBlueprint
 bedrock:GetBlueprintRecommendation
 bedrock:GetCustomModel
+bedrock:GetCustomModelDeployment
 bedrock:GetDataAutomationProject
 bedrock:GetDataAutomationStatus
 bedrock:GetDataSource
@@ -1774,6 +1777,7 @@ bedrock:ListAgentVersions
 bedrock:ListAgents
 bedrock:ListAsyncInvokes
 bedrock:ListBlueprints
+bedrock:ListCustomModelDeployments
 bedrock:ListCustomModels
 bedrock:ListDataAutomationProjects
 bedrock:ListDataSources
