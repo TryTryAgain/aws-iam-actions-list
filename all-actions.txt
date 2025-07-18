@@ -11643,6 +11643,7 @@ medical-imaging:CopyImageSet
 medical-imaging:CreateDatastore
 medical-imaging:DeleteDatastore
 medical-imaging:DeleteImageSet
+medical-imaging:GetDICOMBulkdata
 medical-imaging:GetDICOMImportJob
 medical-imaging:GetDICOMInstance
 medical-imaging:GetDICOMInstanceFrames
@@ -11661,6 +11662,8 @@ medical-imaging:SearchDICOMSeries
 medical-imaging:SearchDICOMStudies
 medical-imaging:SearchImageSets
 medical-imaging:StartDICOMImportJob
+medical-imaging:StoreDICOM
+medical-imaging:StoreDICOMStudy
 medical-imaging:TagResource
 medical-imaging:UntagResource
 medical-imaging:UpdateImageSetMetadata
