@@ -377,7 +377,7 @@ apigateway:DELETE
 apigateway:DeleteRoutingRule
 apigateway:GET
 apigateway:GetRoutingRule
-apigateway:ListRoutingRule
+apigateway:ListRoutingRules
 apigateway:PATCH
 apigateway:POST
 apigateway:PUT
