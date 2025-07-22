@@ -1855,6 +1855,7 @@ billing:GetBillingDetails
 billing:GetBillingNotifications
 billing:GetBillingPreferences
 billing:GetBillingView
+billing:GetBillingViewData
 billing:GetContractInformation
 billing:GetCredits
 billing:GetIAMAccessPreference
@@ -7014,6 +7015,7 @@ emr-containers:TagResource
 emr-containers:UntagResource
 emr-serverless:AccessInteractiveEndpoints
 emr-serverless:AccessLivyEndpoints
+emr-serverless:AccessSystemProfileLogs
 emr-serverless:CancelJobRun
 emr-serverless:CreateApplication
 emr-serverless:DeleteApplication
