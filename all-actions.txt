@@ -5957,6 +5957,8 @@ ec2:DescribeByoipCidrs
 ec2:DescribeCapacityBlockExtensionHistory
 ec2:DescribeCapacityBlockExtensionOfferings
 ec2:DescribeCapacityBlockOfferings
+ec2:DescribeCapacityBlockStatus
+ec2:DescribeCapacityBlocks
 ec2:DescribeCapacityReservationBillingRequests
 ec2:DescribeCapacityReservationFleets
 ec2:DescribeCapacityReservations
