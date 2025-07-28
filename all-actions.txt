@@ -9596,6 +9596,7 @@ iotsitewise:CreateAsset
 iotsitewise:CreateAssetModel
 iotsitewise:CreateAssetModelCompositeModel
 iotsitewise:CreateBulkImportJob
+iotsitewise:CreateComputationModel
 iotsitewise:CreateDashboard
 iotsitewise:CreateDataset
 iotsitewise:CreateGateway
@@ -9605,6 +9606,7 @@ iotsitewise:DeleteAccessPolicy
 iotsitewise:DeleteAsset
 iotsitewise:DeleteAssetModel
 iotsitewise:DeleteAssetModelCompositeModel
+iotsitewise:DeleteComputationModel
 iotsitewise:DeleteDashboard
 iotsitewise:DeleteDataset
 iotsitewise:DeleteGateway
@@ -9619,9 +9621,12 @@ iotsitewise:DescribeAssetModel
 iotsitewise:DescribeAssetModelCompositeModel
 iotsitewise:DescribeAssetProperty
 iotsitewise:DescribeBulkImportJob
+iotsitewise:DescribeComputationModel
+iotsitewise:DescribeComputationModelExecutionSummary
 iotsitewise:DescribeDashboard
 iotsitewise:DescribeDataset
 iotsitewise:DescribeDefaultEncryptionConfiguration
+iotsitewise:DescribeExecution
 iotsitewise:DescribeGateway
 iotsitewise:DescribeGatewayCapabilityConfiguration
 iotsitewise:DescribeLoggingOptions
@@ -9650,8 +9655,12 @@ iotsitewise:ListAssets
 iotsitewise:ListAssociatedAssets
 iotsitewise:ListBulkImportJobs
 iotsitewise:ListCompositionRelationships
+iotsitewise:ListComputationModelDataBindingUsages
+iotsitewise:ListComputationModelResolveToResources
+iotsitewise:ListComputationModels
 iotsitewise:ListDashboards
 iotsitewise:ListDatasets
+iotsitewise:ListExecutions
 iotsitewise:ListGateways
 iotsitewise:ListPortals
 iotsitewise:ListProjectAssets
@@ -9669,6 +9678,7 @@ iotsitewise:UpdateAssetModel
 iotsitewise:UpdateAssetModelCompositeModel
 iotsitewise:UpdateAssetModelPropertyRouting
 iotsitewise:UpdateAssetProperty
+iotsitewise:UpdateComputationModel
 iotsitewise:UpdateDashboard
 iotsitewise:UpdateDataset
 iotsitewise:UpdateGateway
