@@ -9639,6 +9639,7 @@ iotsitewise:DeleteAccessPolicy
 iotsitewise:DeleteAsset
 iotsitewise:DeleteAssetModel
 iotsitewise:DeleteAssetModelCompositeModel
+iotsitewise:DeleteAssetModelInterfaceRelationship
 iotsitewise:DeleteComputationModel
 iotsitewise:DeleteDashboard
 iotsitewise:DeleteDataset
@@ -9652,6 +9653,7 @@ iotsitewise:DescribeAsset
 iotsitewise:DescribeAssetCompositeModel
 iotsitewise:DescribeAssetModel
 iotsitewise:DescribeAssetModelCompositeModel
+iotsitewise:DescribeAssetModelInterfaceRelationship
 iotsitewise:DescribeAssetProperty
 iotsitewise:DescribeBulkImportJob
 iotsitewise:DescribeComputationModel
@@ -9695,11 +9697,13 @@ iotsitewise:ListDashboards
 iotsitewise:ListDatasets
 iotsitewise:ListExecutions
 iotsitewise:ListGateways
+iotsitewise:ListInterfaceRelationships
 iotsitewise:ListPortals
 iotsitewise:ListProjectAssets
 iotsitewise:ListProjects
 iotsitewise:ListTagsForResource
 iotsitewise:ListTimeSeries
+iotsitewise:PutAssetModelInterfaceRelationship
 iotsitewise:PutDefaultEncryptionConfiguration
 iotsitewise:PutLoggingOptions
 iotsitewise:PutStorageConfiguration
