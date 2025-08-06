@@ -338,6 +338,7 @@ aoss:BatchGetLifecyclePolicy
 aoss:BatchGetVpcEndpoint
 aoss:CreateAccessPolicy
 aoss:CreateCollection
+aoss:CreateIndex
 aoss:CreateLifecyclePolicy
 aoss:CreateSecurityConfig
 aoss:CreateSecurityPolicy
@@ -345,12 +346,14 @@ aoss:CreateVpcEndpoint
 aoss:DashboardsAccessAll
 aoss:DeleteAccessPolicy
 aoss:DeleteCollection
+aoss:DeleteIndex
 aoss:DeleteLifecyclePolicy
 aoss:DeleteSecurityConfig
 aoss:DeleteSecurityPolicy
 aoss:DeleteVpcEndpoint
 aoss:GetAccessPolicy
 aoss:GetAccountSettings
+aoss:GetIndex
 aoss:GetPoliciesStats
 aoss:GetSecurityConfig
 aoss:GetSecurityPolicy
@@ -366,6 +369,7 @@ aoss:UntagResource
 aoss:UpdateAccessPolicy
 aoss:UpdateAccountSettings
 aoss:UpdateCollection
+aoss:UpdateIndex
 aoss:UpdateLifecyclePolicy
 aoss:UpdateSecurityConfig
 aoss:UpdateSecurityPolicy
@@ -4682,6 +4686,7 @@ datazone:BatchDeleteLinkedTypes
 datazone:BatchPutLinkedTypes
 datazone:CancelMetadataGenerationRun
 datazone:CancelSubscription
+datazone:CreateAccountPool
 datazone:CreateAsset
 datazone:CreateAssetFilter
 datazone:CreateAssetRevision
@@ -4709,6 +4714,7 @@ datazone:CreateSubscriptionGrant
 datazone:CreateSubscriptionRequest
 datazone:CreateSubscriptionTarget
 datazone:CreateUserProfile
+datazone:DeleteAccountPool
 datazone:DeleteAsset
 datazone:DeleteAssetFilter
 datazone:DeleteAssetType
@@ -4736,6 +4742,7 @@ datazone:DeleteSubscriptionRequest
 datazone:DeleteSubscriptionTarget
 datazone:DeleteTimeSeriesDataPoints
 datazone:DisassociateEnvironmentRole
+datazone:GetAccountPool
 datazone:GetAsset
 datazone:GetAssetFilter
 datazone:GetAssetType
@@ -4776,6 +4783,8 @@ datazone:GetTimeSeriesDataPoint
 datazone:GetUpdateEligibility
 datazone:GetUserProfile
 datazone:ListAccountEnvironments
+datazone:ListAccountPools
+datazone:ListAccountsInAccountPool
 datazone:ListAssetFilters
 datazone:ListAssetRevisions
 datazone:ListConnections
@@ -4836,6 +4845,7 @@ datazone:StartMetadataGenerationRun
 datazone:StopMetadataGenerationRun
 datazone:TagResource
 datazone:UntagResource
+datazone:UpdateAccountPool
 datazone:UpdateAssetFilter
 datazone:UpdateConnection
 datazone:UpdateDataSource
