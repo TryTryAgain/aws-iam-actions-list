@@ -15670,6 +15670,7 @@ sagemaker:DescribePipelineDefinitionForExecution
 sagemaker:DescribePipelineExecution
 sagemaker:DescribeProcessingJob
 sagemaker:DescribeProject
+sagemaker:DescribeReservedCapacity
 sagemaker:DescribeSharedModel
 sagemaker:DescribeSpace
 sagemaker:DescribeStudioLifecycleConfig
@@ -15784,6 +15785,7 @@ sagemaker:ListTrainingPlans
 sagemaker:ListTransformJobs
 sagemaker:ListTrialComponents
 sagemaker:ListTrials
+sagemaker:ListUltraServersByReservedCapacity
 sagemaker:ListUserProfiles
 sagemaker:ListWorkforces
 sagemaker:ListWorkteams
