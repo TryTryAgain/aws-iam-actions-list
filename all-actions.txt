@@ -1321,13 +1321,6 @@ aws-portal:ViewAccount
 aws-portal:ViewBilling
 aws-portal:ViewPaymentMethods
 aws-portal:ViewUsage
-awsbillingconsole-deprecated:ModifyAccount
-awsbillingconsole-deprecated:ModifyBilling
-awsbillingconsole-deprecated:ModifyPaymentMethods
-awsbillingconsole-deprecated:ViewAccount
-awsbillingconsole-deprecated:ViewBilling
-awsbillingconsole-deprecated:ViewPaymentMethods
-awsbillingconsole-deprecated:ViewUsage
 awsconnector:GetConnectorHealth
 awsconnector:RegisterConnector
 awsconnector:ValidateConnectorId
@@ -13061,6 +13054,7 @@ outposts:GetCatalogItem
 outposts:GetConnection
 outposts:GetOrder
 outposts:GetOutpost
+outposts:GetOutpostBillingInformation
 outposts:GetOutpostInstanceTypes
 outposts:GetOutpostSupportedInstanceTypes
 outposts:GetPrivateConnectivityConfig
