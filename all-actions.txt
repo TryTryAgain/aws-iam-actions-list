@@ -4245,6 +4245,7 @@ connect:DisassociateUserProficiencies
 connect:DismissUserContact
 connect:GetAttachedFile
 connect:GetContactAttributes
+connect:GetContactMetrics
 connect:GetCurrentMetricData
 connect:GetCurrentUserData
 connect:GetEffectiveHoursOfOperations
