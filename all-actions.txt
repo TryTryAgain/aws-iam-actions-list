@@ -944,12 +944,14 @@ aps:DeleteAlertManagerDefinition
 aps:DeleteAlertManagerSilence
 aps:DeleteLoggingConfiguration
 aps:DeleteQueryLoggingConfiguration
+aps:DeleteResourcePolicy
 aps:DeleteRuleGroupsNamespace
 aps:DeleteScraper
 aps:DeleteWorkspace
 aps:DescribeAlertManagerDefinition
 aps:DescribeLoggingConfiguration
 aps:DescribeQueryLoggingConfiguration
+aps:DescribeResourcePolicy
 aps:DescribeRuleGroupsNamespace
 aps:DescribeScraper
 aps:DescribeWorkspace
@@ -972,6 +974,7 @@ aps:ListTagsForResource
 aps:ListWorkspaces
 aps:PutAlertManagerDefinition
 aps:PutAlertManagerSilences
+aps:PutResourcePolicy
 aps:PutRuleGroupsNamespace
 aps:QueryMetrics
 aps:RemoteWrite
@@ -8537,7 +8540,9 @@ guardduty:CreateMalwareProtectionPlan
 guardduty:CreateMembers
 guardduty:CreatePublishingDestination
 guardduty:CreateSampleFindings
+guardduty:CreateThreatEntitySet
 guardduty:CreateThreatIntelSet
+guardduty:CreateTrustedEntitySet
 guardduty:DeclineInvitations
 guardduty:DeleteDetector
 guardduty:DeleteFilter
@@ -8546,7 +8551,9 @@ guardduty:DeleteInvitations
 guardduty:DeleteMalwareProtectionPlan
 guardduty:DeleteMembers
 guardduty:DeletePublishingDestination
+guardduty:DeleteThreatEntitySet
 guardduty:DeleteThreatIntelSet
+guardduty:DeleteTrustedEntitySet
 guardduty:DescribeMalwareScans
 guardduty:DescribeOrganizationConfiguration
 guardduty:DescribePublishingDestination
@@ -8570,7 +8577,9 @@ guardduty:GetMemberDetectors
 guardduty:GetMembers
 guardduty:GetOrganizationStatistics
 guardduty:GetRemainingFreeTrialDays
+guardduty:GetThreatEntitySet
 guardduty:GetThreatIntelSet
+guardduty:GetTrustedEntitySet
 guardduty:GetUsageStatistics
 guardduty:InviteMembers
 guardduty:ListCoverage
@@ -8584,7 +8593,9 @@ guardduty:ListMembers
 guardduty:ListOrganizationAdminAccounts
 guardduty:ListPublishingDestinations
 guardduty:ListTagsForResource
+guardduty:ListThreatEntitySets
 guardduty:ListThreatIntelSets
+guardduty:ListTrustedEntitySets
 guardduty:SendSecurityTelemetry
 guardduty:StartMalwareScan
 guardduty:StartMonitoringMembers
@@ -8601,7 +8612,9 @@ guardduty:UpdateMalwareScanSettings
 guardduty:UpdateMemberDetectors
 guardduty:UpdateOrganizationConfiguration
 guardduty:UpdatePublishingDestination
+guardduty:UpdateThreatEntitySet
 guardduty:UpdateThreatIntelSet
+guardduty:UpdateTrustedEntitySet
 health:DescribeAffectedAccountsForOrganization
 health:DescribeAffectedEntities
 health:DescribeAffectedEntitiesForOrganization
