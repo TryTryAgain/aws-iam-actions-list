@@ -18997,6 +18997,8 @@ workspaces:DescribeClientProperties
 workspaces:DescribeConnectClientAddIns
 workspaces:DescribeConnectionAliasPermissions
 workspaces:DescribeConnectionAliases
+workspaces:DescribeConsent
+workspaces:DescribeCustomWorkspaceImageImport
 workspaces:DescribeImageAssociations
 workspaces:DescribeIpGroups
 workspaces:DescribeRootClientCertificates
@@ -19017,6 +19019,7 @@ workspaces:DisassociateIpGroups
 workspaces:DisassociateWorkspaceApplication
 workspaces:GetAccountLink
 workspaces:ImportClientBranding
+workspaces:ImportCustomWorkspaceImage
 workspaces:ImportWorkspaceImage
 workspaces:ListAccountLinks
 workspaces:ListAvailableManagementCidrRanges
@@ -19048,6 +19051,7 @@ workspaces:TerminateWorkspacesPool
 workspaces:TerminateWorkspacesPoolSession
 workspaces:UpdateConnectClientAddIn
 workspaces:UpdateConnectionAliasPermission
+workspaces:UpdateConsent
 workspaces:UpdateRootClientCertificate
 workspaces:UpdateRulesOfIpGroup
 workspaces:UpdateWorkspaceBundle
