@@ -9274,6 +9274,7 @@ iot:DescribeDefaultAuthorizer
 iot:DescribeDetectMitigationActionsTask
 iot:DescribeDimension
 iot:DescribeDomainConfiguration
+iot:DescribeEncryptionConfiguration
 iot:DescribeEndpoint
 iot:DescribeEventConfigurations
 iot:DescribeFleetMetric
@@ -9437,6 +9438,7 @@ iot:UpdateCustomMetric
 iot:UpdateDimension
 iot:UpdateDomainConfiguration
 iot:UpdateDynamicThingGroup
+iot:UpdateEncryptionConfiguration
 iot:UpdateEventConfigurations
 iot:UpdateFleetMetric
 iot:UpdateIndexingConfiguration
