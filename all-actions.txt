@@ -5875,6 +5875,7 @@ ec2:CreateFleet
 ec2:CreateFlowLogs
 ec2:CreateFpgaImage
 ec2:CreateImage
+ec2:CreateImageUsageReport
 ec2:CreateInstanceConnectEndpoint
 ec2:CreateInstanceEventWindow
 ec2:CreateInstanceExportTask
@@ -5962,6 +5963,7 @@ ec2:DeleteEgressOnlyInternetGateway
 ec2:DeleteFleets
 ec2:DeleteFlowLogs
 ec2:DeleteFpgaImage
+ec2:DeleteImageUsageReport
 ec2:DeleteInstanceConnectEndpoint
 ec2:DeleteInstanceEventWindow
 ec2:DeleteInternetGateway
@@ -6090,6 +6092,9 @@ ec2:DescribeIamInstanceProfileAssociations
 ec2:DescribeIdFormat
 ec2:DescribeIdentityIdFormat
 ec2:DescribeImageAttribute
+ec2:DescribeImageReferences
+ec2:DescribeImageUsageReportEntries
+ec2:DescribeImageUsageReports
 ec2:DescribeImages
 ec2:DescribeImportImageTasks
 ec2:DescribeImportSnapshotTasks
@@ -6365,6 +6370,7 @@ ec2:ModifyIdentityIdFormat
 ec2:ModifyImageAttribute
 ec2:ModifyInstanceAttribute
 ec2:ModifyInstanceCapacityReservationAttributes
+ec2:ModifyInstanceConnectEndpoint
 ec2:ModifyInstanceCpuOptions
 ec2:ModifyInstanceCreditSpecification
 ec2:ModifyInstanceEventStartTime
