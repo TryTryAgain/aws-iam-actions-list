@@ -2565,6 +2565,7 @@ cleanrooms:BatchGetSchema
 cleanrooms:BatchGetSchemaAnalysisRule
 cleanrooms:CreateAnalysisTemplate
 cleanrooms:CreateCollaboration
+cleanrooms:CreateCollaborationChangeRequest
 cleanrooms:CreateConfiguredAudienceModelAssociation
 cleanrooms:CreateConfiguredTable
 cleanrooms:CreateConfiguredTableAnalysisRule
@@ -2589,6 +2590,7 @@ cleanrooms:DeletePrivacyBudgetTemplate
 cleanrooms:GetAnalysisTemplate
 cleanrooms:GetCollaboration
 cleanrooms:GetCollaborationAnalysisTemplate
+cleanrooms:GetCollaborationChangeRequest
 cleanrooms:GetCollaborationConfiguredAudienceModelAssociation
 cleanrooms:GetCollaborationIdNamespaceAssociation
 cleanrooms:GetCollaborationPrivacyBudgetTemplate
@@ -2607,6 +2609,7 @@ cleanrooms:GetSchema
 cleanrooms:GetSchemaAnalysisRule
 cleanrooms:ListAnalysisTemplates
 cleanrooms:ListCollaborationAnalysisTemplates
+cleanrooms:ListCollaborationChangeRequests
 cleanrooms:ListCollaborationConfiguredAudienceModelAssociations
 cleanrooms:ListCollaborationIdNamespaceAssociations
 cleanrooms:ListCollaborationPrivacyBudgetTemplates
@@ -12303,6 +12306,7 @@ mq:ListUsers
 mq:Promote
 mq:RebootBroker
 mq:UpdateBroker
+mq:UpdateBrokerAccessConfiguration
 mq:UpdateConfiguration
 mq:UpdateUser
 neptune-db:CancelLoaderJob
