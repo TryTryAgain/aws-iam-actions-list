@@ -18073,10 +18073,15 @@ transfer:UpdateWebApp
 transfer:UpdateWebAppCustomization
 transform:AssociateConnectorResource
 transform:CreateProfile
+transform:DeleteConnector
 transform:DeleteProfile
 transform:GetConnector
+transform:ListConnectors
 transform:ListProfiles
+transform:ListTagsForResource
 transform:RejectConnector
+transform:TagResource
+transform:UntagResource
 transform:UpdateProfile
 translate:CreateParallelData
 translate:DeleteParallelData
