@@ -8913,9 +8913,11 @@ identitystore-auth:BatchGetSession
 identitystore-auth:ListSessions
 identitystore:CreateGroup
 identitystore:CreateGroupMembership
+identitystore:CreateIdentityStore
 identitystore:CreateUser
 identitystore:DeleteGroup
 identitystore:DeleteGroupMembership
+identitystore:DeleteIdentityStore
 identitystore:DeleteUser
 identitystore:DescribeGroup
 identitystore:DescribeGroupMembership
@@ -8929,6 +8931,7 @@ identitystore:ListGroupMembershipsForMember
 identitystore:ListGroups
 identitystore:ListUsers
 identitystore:UpdateGroup
+identitystore:UpdateIdentityStore
 identitystore:UpdateUser
 imagebuilder:CancelImageCreation
 imagebuilder:CancelLifecycleExecution
@@ -13878,6 +13881,7 @@ quicksight:CreateTopic
 quicksight:CreateTopicRefreshSchedule
 quicksight:CreateUser
 quicksight:CreateVPCConnection
+quicksight:DeleteAccountCustomPermission
 quicksight:DeleteAccountCustomization
 quicksight:DeleteAccountSubscription
 quicksight:DeleteAnalysis
@@ -13910,6 +13914,7 @@ quicksight:DeleteUser
 quicksight:DeleteUserByPrincipalId
 quicksight:DeleteUserCustomPermission
 quicksight:DeleteVPCConnection
+quicksight:DescribeAccountCustomPermission
 quicksight:DescribeAccountCustomization
 quicksight:DescribeAccountSettings
 quicksight:DescribeAccountSubscription
@@ -14030,6 +14035,7 @@ quicksight:Subscribe
 quicksight:TagResource
 quicksight:Unsubscribe
 quicksight:UntagResource
+quicksight:UpdateAccountCustomPermission
 quicksight:UpdateAccountCustomization
 quicksight:UpdateAccountSettings
 quicksight:UpdateAnalysis
