@@ -9147,13 +9147,16 @@ internetmonitor:UpdateMonitor
 invoicing:BatchGetInvoiceProfile
 invoicing:CreateInvoiceUnit
 invoicing:DeleteInvoiceUnit
+invoicing:GetInvoiceCorrection
 invoicing:GetInvoiceEmailDeliveryPreferences
 invoicing:GetInvoicePDF
 invoicing:GetInvoiceUnit
+invoicing:ListInvoiceCorrections
 invoicing:ListInvoiceSummaries
 invoicing:ListInvoiceUnits
 invoicing:ListTagsForResource
 invoicing:PutInvoiceEmailDeliveryPreferences
+invoicing:StartInvoiceCorrection
 invoicing:TagResource
 invoicing:UntagResource
 invoicing:UpdateInvoiceUnit
