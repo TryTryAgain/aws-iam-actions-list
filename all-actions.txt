@@ -1706,6 +1706,7 @@ bedrock:AssociateThirdPartyKnowledgeBase
 bedrock:BatchDeleteEvaluationJob
 bedrock:CallWithBearerToken
 bedrock:CancelAutomatedReasoningPolicyBuildWorkflow
+bedrock:CountTokens
 bedrock:CreateAgent
 bedrock:CreateAgentActionGroup
 bedrock:CreateAgentAlias
