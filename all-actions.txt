@@ -1681,6 +1681,7 @@ bedrock-agentcore:ListMemories
 bedrock-agentcore:ListMemoryRecords
 bedrock-agentcore:ListOauth2CredentialProviders
 bedrock-agentcore:ListSessions
+bedrock-agentcore:ListTagsForResource
 bedrock-agentcore:ListWorkloadIdentities
 bedrock-agentcore:RetrieveMemoryRecords
 bedrock-agentcore:SetTokenVaultCMK
@@ -1689,6 +1690,8 @@ bedrock-agentcore:StartCodeInterpreterSession
 bedrock-agentcore:StopBrowserSession
 bedrock-agentcore:StopCodeInterpreterSession
 bedrock-agentcore:SynchronizeGatewayTargets
+bedrock-agentcore:TagResource
+bedrock-agentcore:UntagResource
 bedrock-agentcore:UpdateAgentRuntime
 bedrock-agentcore:UpdateAgentRuntimeEndpoint
 bedrock-agentcore:UpdateApiKeyCredentialProvider
