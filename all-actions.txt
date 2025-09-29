@@ -4155,6 +4155,7 @@ connect:AdminGetEmergencyAccessToken
 connect:AssociateAnalyticsDataSet
 connect:AssociateApprovedOrigin
 connect:AssociateBot
+connect:AssociateContactWithUser
 connect:AssociateCustomerProfilesDomain
 connect:AssociateDefaultVocabulary
 connect:AssociateFlow
@@ -4322,6 +4323,7 @@ connect:ListQueues
 connect:ListQuickConnects
 connect:ListRealtimeContactAnalysisSegments
 connect:ListRealtimeContactAnalysisSegmentsV2
+connect:ListRoutingProfileManualAssignmentQueues
 connect:ListRoutingProfileQueues
 connect:ListRoutingProfiles
 connect:ListRules
