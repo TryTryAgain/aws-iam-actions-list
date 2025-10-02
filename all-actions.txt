@@ -546,12 +546,6 @@ application-autoscaling:PutScheduledAction
 application-autoscaling:RegisterScalableTarget
 application-autoscaling:TagResource
 application-autoscaling:UntagResource
-application-cost-profiler:DeleteReportDefinition
-application-cost-profiler:GetReportDefinition
-application-cost-profiler:ImportApplicationUsage
-application-cost-profiler:ListReportDefinitions
-application-cost-profiler:PutReportDefinition
-application-cost-profiler:UpdateReportDefinition
 application-signals:BatchGetServiceLevelObjectiveBudgetReport
 application-signals:BatchUpdateExclusionWindows
 application-signals:CreateServiceLevelObjective
