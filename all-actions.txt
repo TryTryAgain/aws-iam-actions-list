@@ -1677,6 +1677,7 @@ bedrock-agentcore:GetWorkloadAccessTokenForUserId
 bedrock-agentcore:GetWorkloadIdentity
 bedrock-agentcore:InvokeAgentRuntime
 bedrock-agentcore:InvokeCodeInterpreter
+bedrock-agentcore:InvokeGateway
 bedrock-agentcore:ListActors
 bedrock-agentcore:ListAgentRuntimeEndpoints
 bedrock-agentcore:ListAgentRuntimeVersions
