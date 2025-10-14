@@ -1629,6 +1629,7 @@ bedrock-agentcore:AllowVendedLogDeliveryForResource
 bedrock-agentcore:BatchCreateMemoryRecords
 bedrock-agentcore:BatchDeleteMemoryRecords
 bedrock-agentcore:BatchUpdateMemoryRecords
+bedrock-agentcore:CompleteResourceTokenAuth
 bedrock-agentcore:ConnectBrowserAutomationStream
 bedrock-agentcore:ConnectBrowserLiveViewStream
 bedrock-agentcore:CreateAgentRuntime
