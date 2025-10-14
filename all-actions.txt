@@ -6733,6 +6733,7 @@ eks:ListNodegroups
 eks:ListPodIdentityAssociations
 eks:ListTagsForResource
 eks:ListUpdates
+eks:MutateViaKubernetesApi
 eks:RegisterCluster
 eks:StartInsightsRefresh
 eks:TagResource
