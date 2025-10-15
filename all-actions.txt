@@ -10321,6 +10321,7 @@ kinesis:GetRecords
 kinesis:GetResourcePolicy
 kinesis:GetShardIterator
 kinesis:IncreaseStreamRetentionPeriod
+kinesis:InjectApiError
 kinesis:ListShards
 kinesis:ListStreamConsumers
 kinesis:ListStreams
