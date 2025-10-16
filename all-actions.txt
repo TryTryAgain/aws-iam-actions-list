@@ -187,6 +187,7 @@ acm:RequestCertificate
 acm:ResendValidationEmail
 acm:RevokeCertificate
 acm:UpdateCertificateOptions
+action-recommendations:ListRecommendedActions
 activate:CreateForm
 activate:GetAccountContact
 activate:GetContentInfo
@@ -12782,6 +12783,7 @@ odb:TagResource
 odb:UntagResource
 odb:UpdateCloudExadataInfrastructure
 odb:UpdateOdbNetwork
+odb:UpdateOdbPeeringConnection
 omics:AbortMultipartReadSetUpload
 omics:AcceptShare
 omics:BatchDeleteReadSet
