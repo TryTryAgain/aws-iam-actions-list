@@ -8700,6 +8700,10 @@ healthlake:DescribeFHIRDatastore
 healthlake:DescribeFHIRExportJob
 healthlake:DescribeFHIRExportJobWithGet
 healthlake:DescribeFHIRImportJob
+healthlake:ExpandValueSetWithGet
+healthlake:ExpandValueSetWithPost
+healthlake:GenerateDocumentWithGet
+healthlake:GenerateDocumentWithPost
 healthlake:GetCapabilities
 healthlake:GetExportedFile
 healthlake:GetHistoryByResourceId
@@ -8707,6 +8711,9 @@ healthlake:ListFHIRDatastores
 healthlake:ListFHIRExportJobs
 healthlake:ListFHIRImportJobs
 healthlake:ListTagsForResource
+healthlake:LookupCodeSystemWithGet
+healthlake:LookupCodeSystemWithPost
+healthlake:PatchResource
 healthlake:ProcessBundle
 healthlake:ReadResource
 healthlake:SearchEverything
@@ -8719,6 +8726,7 @@ healthlake:StartFHIRImportJob
 healthlake:TagResource
 healthlake:UntagResource
 healthlake:UpdateResource
+healthlake:ValidateResource
 healthlake:VersionReadResource
 honeycode:ApproveTeamAssociation
 honeycode:BatchCreateTableRows
