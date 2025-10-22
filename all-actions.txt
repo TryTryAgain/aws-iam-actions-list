@@ -11625,10 +11625,12 @@ medialive:GetCloudWatchAlarmTemplateGroup
 medialive:GetEventBridgeRuleTemplate
 medialive:GetEventBridgeRuleTemplateGroup
 medialive:GetSignalMap
+medialive:ListAlerts
 medialive:ListChannelPlacementGroups
 medialive:ListChannels
 medialive:ListCloudWatchAlarmTemplateGroups
 medialive:ListCloudWatchAlarmTemplates
+medialive:ListClusterAlerts
 medialive:ListClusters
 medialive:ListEventBridgeRuleTemplateGroups
 medialive:ListEventBridgeRuleTemplates
@@ -11636,6 +11638,7 @@ medialive:ListInputDeviceTransfers
 medialive:ListInputDevices
 medialive:ListInputSecurityGroups
 medialive:ListInputs
+medialive:ListMultiplexAlerts
 medialive:ListMultiplexPrograms
 medialive:ListMultiplexes
 medialive:ListNetworks
