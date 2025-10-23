@@ -5730,13 +5730,16 @@ dsql:CreateCluster
 dsql:DbConnect
 dsql:DbConnectAdmin
 dsql:DeleteCluster
+dsql:DeleteClusterPolicy
 dsql:GetBackupJob
 dsql:GetCluster
+dsql:GetClusterPolicy
 dsql:GetRestoreJob
 dsql:GetVpcEndpointServiceName
 dsql:InjectError
 dsql:ListClusters
 dsql:ListTagsForResource
+dsql:PutClusterPolicy
 dsql:PutMultiRegionProperties
 dsql:PutWitnessRegion
 dsql:RemovePeerCluster
