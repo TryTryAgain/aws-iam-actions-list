@@ -17813,6 +17813,7 @@ support:DescribeTrustedAdvisorChecks
 support:GetInteraction
 support:InitiateCallForCase
 support:InitiateChatForCase
+support:InitiateLiveContactForCase
 support:PutCaseAttributes
 support:RateCaseCommunication
 support:RefreshTrustedAdvisorCheck
