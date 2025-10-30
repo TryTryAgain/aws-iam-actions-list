@@ -7141,6 +7141,7 @@ emr-containers:CreateSecurityConfiguration
 emr-containers:CreateVirtualCluster
 emr-containers:DeleteJobTemplate
 emr-containers:DeleteManagedEndpoint
+emr-containers:DeleteSecurityConfiguration
 emr-containers:DeleteVirtualCluster
 emr-containers:DescribeJobRun
 emr-containers:DescribeJobTemplate
