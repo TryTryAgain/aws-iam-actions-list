@@ -10352,6 +10352,7 @@ kinesis:StopStreamEncryption
 kinesis:SubscribeToShard
 kinesis:TagResource
 kinesis:UntagResource
+kinesis:UpdateMaxRecordSize
 kinesis:UpdateShardCount
 kinesis:UpdateStreamMode
 kinesisanalytics:AddApplicationCloudWatchLoggingOption
