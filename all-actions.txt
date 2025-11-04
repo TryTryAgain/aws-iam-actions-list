@@ -5909,6 +5909,8 @@ ec2:ConfirmProductInstance
 ec2:CopyFpgaImage
 ec2:CopyImage
 ec2:CopySnapshot
+ec2:CopyVolumes
+ec2:CreateCapacityManagerDataExport
 ec2:CreateCapacityReservation
 ec2:CreateCapacityReservationBySplitting
 ec2:CreateCapacityReservationFleet
@@ -6004,6 +6006,7 @@ ec2:CreateVpcPeeringConnection
 ec2:CreateVpnConnection
 ec2:CreateVpnConnectionRoute
 ec2:CreateVpnGateway
+ec2:DeleteCapacityManagerDataExport
 ec2:DeleteCarrierGateway
 ec2:DeleteClientVpnEndpoint
 ec2:DeleteClientVpnRoute
@@ -6111,6 +6114,7 @@ ec2:DescribeCapacityBlockExtensionOfferings
 ec2:DescribeCapacityBlockOfferings
 ec2:DescribeCapacityBlockStatus
 ec2:DescribeCapacityBlocks
+ec2:DescribeCapacityManagerDataExports
 ec2:DescribeCapacityReservationBillingRequests
 ec2:DescribeCapacityReservationFleets
 ec2:DescribeCapacityReservations
@@ -6280,6 +6284,7 @@ ec2:DetachVpnGateway
 ec2:DisableAddressTransfer
 ec2:DisableAllowedImagesSettings
 ec2:DisableAwsNetworkPerformanceMetricSubscription
+ec2:DisableCapacityManager
 ec2:DisableEbsEncryptionByDefault
 ec2:DisableFastLaunch
 ec2:DisableFastSnapshotRestores
@@ -6317,6 +6322,7 @@ ec2:DisassociateVpcCidrBlock
 ec2:EnableAddressTransfer
 ec2:EnableAllowedImagesSettings
 ec2:EnableAwsNetworkPerformanceMetricSubscription
+ec2:EnableCapacityManager
 ec2:EnableEbsEncryptionByDefault
 ec2:EnableFastLaunch
 ec2:EnableFastSnapshotRestores
@@ -6344,6 +6350,9 @@ ec2:GetAllowedImagesSettings
 ec2:GetAssociatedEnclaveCertificateIamRoles
 ec2:GetAssociatedIpv6PoolCidrs
 ec2:GetAwsNetworkPerformanceData
+ec2:GetCapacityManagerAttributes
+ec2:GetCapacityManagerMetricData
+ec2:GetCapacityManagerMetricDimensions
 ec2:GetCapacityReservationUsage
 ec2:GetCoipPoolUsage
 ec2:GetConsoleOutput
@@ -6555,6 +6564,7 @@ ec2:UnassignPrivateIpAddresses
 ec2:UnassignPrivateNatGatewayAddress
 ec2:UnlockSnapshot
 ec2:UnmonitorInstances
+ec2:UpdateCapacityManagerOrganizationsAccess
 ec2:UpdateSecurityGroupRuleDescriptionsEgress
 ec2:UpdateSecurityGroupRuleDescriptionsIngress
 ec2:WithdrawByoipCidr
