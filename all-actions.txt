@@ -10351,6 +10351,7 @@ kinesis:DecreaseStreamRetentionPeriod
 kinesis:DeleteResourcePolicy
 kinesis:DeleteStream
 kinesis:DeregisterStreamConsumer
+kinesis:DescribeAccountSettings
 kinesis:DescribeLimits
 kinesis:DescribeStream
 kinesis:DescribeStreamConsumer
@@ -10379,9 +10380,11 @@ kinesis:StopStreamEncryption
 kinesis:SubscribeToShard
 kinesis:TagResource
 kinesis:UntagResource
+kinesis:UpdateAccountSettings
 kinesis:UpdateMaxRecordSize
 kinesis:UpdateShardCount
 kinesis:UpdateStreamMode
+kinesis:UpdateStreamWarmThroughput
 kinesisanalytics:AddApplicationCloudWatchLoggingOption
 kinesisanalytics:AddApplicationInput
 kinesisanalytics:AddApplicationInputProcessingConfiguration
