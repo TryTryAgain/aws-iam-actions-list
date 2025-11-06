@@ -2933,6 +2933,7 @@ cloudfront:DeleteOriginAccessControl
 cloudfront:DeleteOriginRequestPolicy
 cloudfront:DeletePublicKey
 cloudfront:DeleteRealtimeLogConfig
+cloudfront:DeleteResourcePolicy
 cloudfront:DeleteResponseHeadersPolicy
 cloudfront:DeleteStreamingDistribution
 cloudfront:DeleteVpcOrigin
@@ -2971,6 +2972,7 @@ cloudfront:GetOriginRequestPolicyConfig
 cloudfront:GetPublicKey
 cloudfront:GetPublicKeyConfig
 cloudfront:GetRealtimeLogConfig
+cloudfront:GetResourcePolicy
 cloudfront:GetResponseHeadersPolicy
 cloudfront:GetResponseHeadersPolicyConfig
 cloudfront:GetSavingsPlan
@@ -3016,9 +3018,11 @@ cloudfront:ListTagsForResource
 cloudfront:ListUsages
 cloudfront:ListVpcOrigins
 cloudfront:PublishFunction
+cloudfront:PutResourcePolicy
 cloudfront:TagResource
 cloudfront:TestFunction
 cloudfront:UntagResource
+cloudfront:UpdateAnycastIpList
 cloudfront:UpdateCachePolicy
 cloudfront:UpdateCloudFrontOriginAccessIdentity
 cloudfront:UpdateConnectionGroup
@@ -4186,6 +4190,7 @@ connect:AssociateBot
 connect:AssociateContactWithUser
 connect:AssociateCustomerProfilesDomain
 connect:AssociateDefaultVocabulary
+connect:AssociateEmailAddressAlias
 connect:AssociateFlow
 connect:AssociateInstanceStorageConfig
 connect:AssociateLambdaFunction
@@ -4293,6 +4298,7 @@ connect:DisassociateAnalyticsDataSet
 connect:DisassociateApprovedOrigin
 connect:DisassociateBot
 connect:DisassociateCustomerProfilesDomain
+connect:DisassociateEmailAddressAlias
 connect:DisassociateFlow
 connect:DisassociateInstanceStorageConfig
 connect:DisassociateLambdaFunction
@@ -6944,6 +6950,7 @@ elasticfilesystem:UpdateFileSystemProtection
 elasticloadbalancing:AddListenerCertificates
 elasticloadbalancing:AddTags
 elasticloadbalancing:AddTrustStoreRevocations
+elasticloadbalancing:AllowVendedLogDeliveryForResource
 elasticloadbalancing:ApplySecurityGroupsToLoadBalancer
 elasticloadbalancing:AttachLoadBalancerToSubnets
 elasticloadbalancing:ConfigureHealthCheck
