@@ -17827,6 +17827,8 @@ support-console:GetAccountGovCloudEnabled
 support-console:GetAccountState
 support-console:GetBanner
 support-console:GetCaseDraft
+support-console:GetIssueClassificationPredictions
+support-console:GetIssueTextSummary
 support-console:GetQuestionnaire
 support-console:SaveFeedback
 support:AddAttachmentsToSet
