@@ -15600,6 +15600,7 @@ s3tables:GetTablePolicy
 s3tables:ListNamespaces
 s3tables:ListTableBuckets
 s3tables:ListTables
+s3tables:ListTagsForResource
 s3tables:PutTableBucketEncryption
 s3tables:PutTableBucketMaintenanceConfiguration
 s3tables:PutTableBucketPolicy
@@ -15608,6 +15609,8 @@ s3tables:PutTableEncryption
 s3tables:PutTableMaintenanceConfiguration
 s3tables:PutTablePolicy
 s3tables:RenameTable
+s3tables:TagResource
+s3tables:UntagResource
 s3tables:UpdateTableMetadataLocation
 s3vectors:CreateIndex
 s3vectors:CreateVectorBucket
