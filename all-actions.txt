@@ -18468,6 +18468,7 @@ vpc-lattice:CreateServiceNetworkVpcEndpointAssociation
 vpc-lattice:CreateTargetGroup
 vpc-lattice:DeleteAccessLogSubscription
 vpc-lattice:DeleteAuthPolicy
+vpc-lattice:DeleteDomainVerification
 vpc-lattice:DeleteListener
 vpc-lattice:DeleteResourceConfiguration
 vpc-lattice:DeleteResourceEndpointAssociation
@@ -18483,6 +18484,7 @@ vpc-lattice:DeleteTargetGroup
 vpc-lattice:DeregisterTargets
 vpc-lattice:GetAccessLogSubscription
 vpc-lattice:GetAuthPolicy
+vpc-lattice:GetDomainVerification
 vpc-lattice:GetListener
 vpc-lattice:GetResourceConfiguration
 vpc-lattice:GetResourceGateway
@@ -18495,6 +18497,7 @@ vpc-lattice:GetServiceNetworkServiceAssociation
 vpc-lattice:GetServiceNetworkVpcAssociation
 vpc-lattice:GetTargetGroup
 vpc-lattice:ListAccessLogSubscriptions
+vpc-lattice:ListDomainVerifications
 vpc-lattice:ListListeners
 vpc-lattice:ListResourceConfigurations
 vpc-lattice:ListResourceEndpointAssociations
@@ -18512,6 +18515,7 @@ vpc-lattice:ListTargets
 vpc-lattice:PutAuthPolicy
 vpc-lattice:PutResourcePolicy
 vpc-lattice:RegisterTargets
+vpc-lattice:StartDomainVerification
 vpc-lattice:TagResource
 vpc-lattice:UntagResource
 vpc-lattice:UpdateAccessLogSubscription
