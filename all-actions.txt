@@ -10256,6 +10256,7 @@ kafka:UpdateClusterKafkaVersion
 kafka:UpdateConfiguration
 kafka:UpdateConnectivity
 kafka:UpdateMonitoring
+kafka:UpdateRebalancing
 kafka:UpdateReplicationInfo
 kafka:UpdateSecurity
 kafka:UpdateStorage
