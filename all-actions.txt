@@ -17878,10 +17878,13 @@ support:GetInteraction
 support:InitiateCallForCase
 support:InitiateChatForCase
 support:InitiateLiveContactForCase
+support:ListInteractionEntries
+support:ListInteractions
 support:PutCaseAttributes
 support:RateCaseCommunication
 support:RefreshTrustedAdvisorCheck
 support:ResolveCase
+support:ResolveInteraction
 support:SearchForCases
 support:StartInteraction
 support:UpdateCaseSeverity
