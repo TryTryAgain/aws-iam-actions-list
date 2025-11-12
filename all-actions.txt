@@ -15174,6 +15174,7 @@ route53:ListVPCAssociationAuthorizations
 route53:TestDNSAnswer
 route53:UpdateHealthCheck
 route53:UpdateHostedZoneComment
+route53:UpdateHostedZoneFeatures
 route53:UpdateTrafficPolicyComment
 route53:UpdateTrafficPolicyInstance
 route53domains:AcceptDomainTransferFromAnotherAwsAccount
