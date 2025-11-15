@@ -1111,7 +1111,9 @@ athena:GetQueryExecutions
 athena:GetQueryResults
 athena:GetQueryResultsStream
 athena:GetQueryRuntimeStatistics
+athena:GetResourceDashboard
 athena:GetSession
+athena:GetSessionEndpoint
 athena:GetSessionStatus
 athena:GetTable
 athena:GetTableMetadata
