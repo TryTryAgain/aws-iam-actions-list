@@ -8767,6 +8767,7 @@ guardduty:ListTagsForResource
 guardduty:ListThreatEntitySets
 guardduty:ListThreatIntelSets
 guardduty:ListTrustedEntitySets
+guardduty:SendObjectMalwareScan
 guardduty:SendSecurityTelemetry
 guardduty:StartMalwareScan
 guardduty:StartMonitoringMembers
