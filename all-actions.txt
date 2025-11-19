@@ -14064,6 +14064,7 @@ qldb:UntagResource
 qldb:UpdateLedger
 qldb:UpdateLedgerPermissionsMode
 quicksight:AccountConfigurations
+quicksight:AllowVendedLogDeliveryForResource
 quicksight:BatchCreateTopicReviewedAnswer
 quicksight:BatchDeleteTopicReviewedAnswer
 quicksight:CancelIngestion
