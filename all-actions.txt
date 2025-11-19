@@ -1473,6 +1473,7 @@ backup:CreateReportPlan
 backup:CreateRestoreAccessBackupVault
 backup:CreateRestoreTestingPlan
 backup:CreateRestoreTestingSelection
+backup:CreateTieringConfiguration
 backup:DeleteBackupPlan
 backup:DeleteBackupSelection
 backup:DeleteBackupVault
@@ -1485,6 +1486,7 @@ backup:DeleteRecoveryPoint
 backup:DeleteReportPlan
 backup:DeleteRestoreTestingPlan
 backup:DeleteRestoreTestingSelection
+backup:DeleteTieringConfiguration
 backup:DescribeBackupJob
 backup:DescribeBackupVault
 backup:DescribeCopyJob
@@ -1515,6 +1517,7 @@ backup:GetRestoreTestingInferredMetadata
 backup:GetRestoreTestingPlan
 backup:GetRestoreTestingSelection
 backup:GetSupportedResourceTypes
+backup:GetTieringConfiguration
 backup:ListBackupJobSummaries
 backup:ListBackupJobs
 backup:ListBackupPlanTemplates
@@ -1542,6 +1545,7 @@ backup:ListRestoreJobsByProtectedResource
 backup:ListRestoreTestingPlans
 backup:ListRestoreTestingSelections
 backup:ListTags
+backup:ListTieringConfigurations
 backup:PutBackupVaultAccessPolicy
 backup:PutBackupVaultLockConfiguration
 backup:PutBackupVaultNotifications
@@ -1565,6 +1569,7 @@ backup:UpdateRegionSettings
 backup:UpdateReportPlan
 backup:UpdateRestoreTestingPlan
 backup:UpdateRestoreTestingSelection
+backup:UpdateTieringConfiguration
 batch:CancelJob
 batch:CreateComputeEnvironment
 batch:CreateConsumableResource
@@ -9303,20 +9308,26 @@ internetmonitor:UntagResource
 internetmonitor:UpdateMonitor
 invoicing:BatchGetInvoiceProfile
 invoicing:CreateInvoiceUnit
+invoicing:CreateProcurementPortalPreference
 invoicing:DeleteInvoiceUnit
+invoicing:DeleteProcurementPortalPreference
 invoicing:GetInvoiceCorrection
 invoicing:GetInvoiceEmailDeliveryPreferences
 invoicing:GetInvoicePDF
 invoicing:GetInvoiceUnit
+invoicing:GetProcurementPortalPreference
 invoicing:ListInvoiceCorrections
 invoicing:ListInvoiceSummaries
 invoicing:ListInvoiceUnits
+invoicing:ListProcurementPortalPreferences
 invoicing:ListTagsForResource
 invoicing:PutInvoiceEmailDeliveryPreferences
+invoicing:PutProcurementPortalPreference
 invoicing:StartInvoiceCorrection
 invoicing:TagResource
 invoicing:UntagResource
 invoicing:UpdateInvoiceUnit
+invoicing:UpdateProcurementPortalPreferenceStatus
 iot-device-tester:CheckVersion
 iot-device-tester:DownloadTestSuite
 iot-device-tester:LatestIdt
@@ -10307,6 +10318,8 @@ kafka:DescribeClusterV2
 kafka:DescribeConfiguration
 kafka:DescribeConfigurationRevision
 kafka:DescribeReplicator
+kafka:DescribeTopic
+kafka:DescribeTopicPartitions
 kafka:DescribeVpcConnection
 kafka:GetBootstrapBrokers
 kafka:GetClusterPolicy
@@ -10323,6 +10336,7 @@ kafka:ListNodes
 kafka:ListReplicators
 kafka:ListScramSecrets
 kafka:ListTagsForResource
+kafka:ListTopics
 kafka:ListVpcConnections
 kafka:PutClusterPolicy
 kafka:RebootBroker
@@ -12124,6 +12138,7 @@ mgn:ListConnectors
 mgn:ListExportErrors
 mgn:ListExports
 mgn:ListImportErrors
+mgn:ListImportFileEnrichments
 mgn:ListImports
 mgn:ListManagedAccounts
 mgn:ListNetworkMigrationAnalyses
@@ -12137,6 +12152,7 @@ mgn:ListNetworkMigrationDeployments
 mgn:ListNetworkMigrationExecutions
 mgn:ListNetworkMigrationMapperSegmentConstructs
 mgn:ListNetworkMigrationMapperSegments
+mgn:ListNetworkMigrationMappingUpdates
 mgn:ListNetworkMigrationMappings
 mgn:ListSourceServerActions
 mgn:ListTagsForResource
@@ -12167,11 +12183,13 @@ mgn:SendVcenterClientMetricsForMgn
 mgn:StartCutover
 mgn:StartExport
 mgn:StartImport
+mgn:StartImportFileEnrichment
 mgn:StartNetworkMigrationAnalysis
 mgn:StartNetworkMigrationCodeGeneration
 mgn:StartNetworkMigrationDeployedStacksDeletion
 mgn:StartNetworkMigrationDeployment
 mgn:StartNetworkMigrationMapping
+mgn:StartNetworkMigrationMappingUpdate
 mgn:StartReplication
 mgn:StartTest
 mgn:StopReplication
@@ -16417,6 +16435,7 @@ securityhub:GetEnabledStandards
 securityhub:GetFindingAggregator
 securityhub:GetFindingHistory
 securityhub:GetFindings
+securityhub:GetFindingsTrendsV2
 securityhub:GetFreeTrialEndDate
 securityhub:GetFreeTrialUsage
 securityhub:GetInsightFindingTrend
@@ -16426,6 +16445,7 @@ securityhub:GetInvitationsCount
 securityhub:GetMasterAccount
 securityhub:GetMembers
 securityhub:GetResourcesStatisticsV2
+securityhub:GetResourcesTrendsV2
 securityhub:GetResourcesV2
 securityhub:GetSecurityControlDefinition
 securityhub:GetUsage
