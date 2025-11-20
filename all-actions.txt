@@ -6734,12 +6734,14 @@ ecr:UploadLayerPart
 ecr:ValidatePullThroughCacheRule
 ecs:CreateCapacityProvider
 ecs:CreateCluster
+ecs:CreateExpressGatewayService
 ecs:CreateService
 ecs:CreateTaskSet
 ecs:DeleteAccountSetting
 ecs:DeleteAttributes
 ecs:DeleteCapacityProvider
 ecs:DeleteCluster
+ecs:DeleteExpressGatewayService
 ecs:DeleteService
 ecs:DeleteTaskDefinitions
 ecs:DeleteTaskSet
@@ -6748,6 +6750,7 @@ ecs:DeregisterTaskDefinition
 ecs:DescribeCapacityProviders
 ecs:DescribeClusters
 ecs:DescribeContainerInstances
+ecs:DescribeExpressGatewayService
 ecs:DescribeServiceDeployments
 ecs:DescribeServiceRevisions
 ecs:DescribeServices
@@ -6791,6 +6794,7 @@ ecs:UpdateCluster
 ecs:UpdateClusterSettings
 ecs:UpdateContainerAgent
 ecs:UpdateContainerInstancesState
+ecs:UpdateExpressGatewayService
 ecs:UpdateService
 ecs:UpdateServicePrimaryTaskSet
 ecs:UpdateTaskProtection
