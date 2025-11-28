@@ -6843,6 +6843,7 @@ eks:AssociateEncryptionConfig
 eks:AssociateIdentityProviderConfig
 eks:CreateAccessEntry
 eks:CreateAddon
+eks:CreateCapability
 eks:CreateCluster
 eks:CreateEksAnywhereSubscription
 eks:CreateFargateProfile
@@ -6850,6 +6851,7 @@ eks:CreateNodegroup
 eks:CreatePodIdentityAssociation
 eks:DeleteAccessEntry
 eks:DeleteAddon
+eks:DeleteCapability
 eks:DeleteCluster
 eks:DeleteEksAnywhereSubscription
 eks:DeleteFargateProfile
@@ -6860,6 +6862,7 @@ eks:DescribeAccessEntry
 eks:DescribeAddon
 eks:DescribeAddonConfiguration
 eks:DescribeAddonVersions
+eks:DescribeCapability
 eks:DescribeCluster
 eks:DescribeClusterVersions
 eks:DescribeEksAnywhereSubscription
@@ -6876,6 +6879,7 @@ eks:ListAccessEntries
 eks:ListAccessPolicies
 eks:ListAddons
 eks:ListAssociatedAccessPolicies
+eks:ListCapabilities
 eks:ListClusters
 eks:ListDashboardData
 eks:ListDashboardResources
@@ -6894,6 +6898,7 @@ eks:TagResource
 eks:UntagResource
 eks:UpdateAccessEntry
 eks:UpdateAddon
+eks:UpdateCapability
 eks:UpdateClusterConfig
 eks:UpdateClusterVersion
 eks:UpdateEksAnywhereSubscription
