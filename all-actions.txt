@@ -10763,11 +10763,13 @@ lakeformation:UpdateTableStorageOptimizer
 lambda:AddLayerVersionPermission
 lambda:AddPermission
 lambda:CreateAlias
+lambda:CreateCapacityProvider
 lambda:CreateCodeSigningConfig
 lambda:CreateEventSourceMapping
 lambda:CreateFunction
 lambda:CreateFunctionUrlConfig
 lambda:DeleteAlias
+lambda:DeleteCapacityProvider
 lambda:DeleteCodeSigningConfig
 lambda:DeleteEventSourceMapping
 lambda:DeleteFunction
@@ -10781,6 +10783,7 @@ lambda:DisableReplication
 lambda:EnableReplication
 lambda:GetAccountSettings
 lambda:GetAlias
+lambda:GetCapacityProvider
 lambda:GetCodeSigningConfig
 lambda:GetEventSourceMapping
 lambda:GetFunction
@@ -10789,6 +10792,7 @@ lambda:GetFunctionConcurrency
 lambda:GetFunctionConfiguration
 lambda:GetFunctionEventInvokeConfig
 lambda:GetFunctionRecursionConfig
+lambda:GetFunctionScalingConfig
 lambda:GetFunctionUrlConfig
 lambda:GetLayerVersion
 lambda:GetLayerVersionPolicy
@@ -10799,10 +10803,12 @@ lambda:InvokeAsync
 lambda:InvokeFunction
 lambda:InvokeFunctionUrl
 lambda:ListAliases
+lambda:ListCapacityProviders
 lambda:ListCodeSigningConfigs
 lambda:ListEventSourceMappings
 lambda:ListFunctionEventInvokeConfigs
 lambda:ListFunctionUrlConfigs
+lambda:ListFunctionVersionsByCapacityProvider
 lambda:ListFunctions
 lambda:ListFunctionsByCodeSigningConfig
 lambda:ListLayerVersions
@@ -10810,12 +10816,14 @@ lambda:ListLayers
 lambda:ListProvisionedConcurrencyConfigs
 lambda:ListTags
 lambda:ListVersionsByFunction
+lambda:PassCapacityProvider
 lambda:PublishLayerVersion
 lambda:PublishVersion
 lambda:PutFunctionCodeSigningConfig
 lambda:PutFunctionConcurrency
 lambda:PutFunctionEventInvokeConfig
 lambda:PutFunctionRecursionConfig
+lambda:PutFunctionScalingConfig
 lambda:PutProvisionedConcurrencyConfig
 lambda:PutRuntimeManagementConfig
 lambda:RemoveLayerVersionPermission
@@ -10823,6 +10831,7 @@ lambda:RemovePermission
 lambda:TagResource
 lambda:UntagResource
 lambda:UpdateAlias
+lambda:UpdateCapacityProvider
 lambda:UpdateCodeSigningConfig
 lambda:UpdateEventSourceMapping
 lambda:UpdateFunctionCode
