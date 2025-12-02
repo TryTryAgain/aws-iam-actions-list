@@ -4964,6 +4964,7 @@ datazone:GetCellRun
 datazone:GetCellRunResult
 datazone:GetConnection
 datazone:GetConversation
+datazone:GetDataExportConfiguration
 datazone:GetDataProduct
 datazone:GetDataSource
 datazone:GetDataSourceRun
@@ -5046,6 +5047,7 @@ datazone:PostLineageEvent
 datazone:PostTimeSeriesDataPoints
 datazone:ProvisionDomain
 datazone:PutCellRunResult
+datazone:PutDataExportConfiguration
 datazone:PutDomainSharingPolicy
 datazone:PutEnvironmentBlueprintConfiguration
 datazone:RefreshToken
@@ -13250,10 +13252,15 @@ one:UpdateDeviceInstance
 one:UpdateSite
 one:UpdateSiteAddress
 opensearch:ApplicationAccessAll
+opensearch:CancelAutoOptimizeJob
 opensearch:CancelDirectQuery
+opensearch:DeleteAutoOptimizeJob
+opensearch:GetAutoOptimizeJob
 opensearch:GetDirectQuery
 opensearch:GetDirectQueryResult
+opensearch:ListAutoOptimizeJobs
 opensearch:StartDirectQuery
+opensearch:SubmitAutoOptimizeJob
 opsworks-cm:AssociateNode
 opsworks-cm:CreateBackup
 opsworks-cm:CreateServer
