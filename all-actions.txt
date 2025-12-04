@@ -1860,6 +1860,13 @@ bedrock-agentcore:UpdateOnlineEvaluationConfig
 bedrock-agentcore:UpdatePolicy
 bedrock-agentcore:UpdatePolicyEngine
 bedrock-agentcore:UpdateWorkloadIdentity
+bedrock-mantle:CallWithBearerToken
+bedrock-mantle:CancelInference
+bedrock-mantle:CreateInference
+bedrock-mantle:DeleteInference
+bedrock-mantle:GetInference
+bedrock-mantle:GetModel
+bedrock-mantle:ListModels
 bedrock:AllowVendedLogDeliveryForResource
 bedrock:ApplyGuardrail
 bedrock:AssociateAgentCollaborator
