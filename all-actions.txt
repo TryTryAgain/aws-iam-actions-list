@@ -141,6 +141,7 @@ account:EnableRegion
 account:GetAccountInformation
 account:GetAlternateContact
 account:GetContactInformation
+account:GetGovCloudAccountInformation
 account:GetPrimaryEmail
 account:GetRegionOptStatus
 account:ListRegions
