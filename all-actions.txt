@@ -1148,6 +1148,7 @@ artifact:GetReportMetadata
 artifact:GetTermForReport
 artifact:ListAgreements
 artifact:ListCustomerAgreements
+artifact:ListReportVersions
 artifact:ListReports
 artifact:PutAccountSettings
 artifact:TerminateAgreement
