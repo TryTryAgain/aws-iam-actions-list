@@ -14615,6 +14615,7 @@ quicksight:GetDashboardEmbedUrl
 quicksight:GetFlowMetadata
 quicksight:GetFlowPermissions
 quicksight:GetGroupMapping
+quicksight:GetIdentityContext
 quicksight:GetSessionEmbedUrl
 quicksight:ListActionConnectors
 quicksight:ListAgents
