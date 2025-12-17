@@ -18747,6 +18747,8 @@ timestream-influxdb:ListDbInstances
 timestream-influxdb:ListDbInstancesForCluster
 timestream-influxdb:ListDbParameterGroups
 timestream-influxdb:ListTagsForResource
+timestream-influxdb:RebootDbCluster
+timestream-influxdb:RebootDbInstance
 timestream-influxdb:TagResource
 timestream-influxdb:UntagResource
 timestream-influxdb:UpdateDbCluster
