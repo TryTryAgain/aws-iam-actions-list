@@ -1139,6 +1139,7 @@ arc-region-switch:ListPlanExecutions
 arc-region-switch:ListPlans
 arc-region-switch:ListPlansInRegion
 arc-region-switch:ListRoute53HealthChecks
+arc-region-switch:ListRoute53HealthChecksInRegion
 arc-region-switch:ListTagsForResource
 arc-region-switch:PutResourcePolicy
 arc-region-switch:StartPlanExecution
@@ -17444,6 +17445,7 @@ ses:GetDeliverabilityDashboardOptions
 ses:GetDeliverabilityTestReport
 ses:GetDomainDeliverabilityCampaign
 ses:GetDomainStatisticsReport
+ses:GetEmailAddressInsights
 ses:GetEmailIdentity
 ses:GetEmailIdentityPolicies
 ses:GetEmailTemplate
