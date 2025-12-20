@@ -11522,8 +11522,10 @@ lightsail:UpdateRelationalDatabaseParameters
 logs:AssociateKmsKey
 logs:AssociateSourceToS3TableIntegration
 logs:CancelExportTask
+logs:CancelImportTask
 logs:CreateDelivery
 logs:CreateExportTask
+logs:CreateImportTask
 logs:CreateLogAnomalyDetector
 logs:CreateLogDelivery
 logs:CreateLogGroup
@@ -11558,6 +11560,8 @@ logs:DescribeDeliverySources
 logs:DescribeDestinations
 logs:DescribeExportTasks
 logs:DescribeFieldIndexes
+logs:DescribeImportTaskBatches
+logs:DescribeImportTasks
 logs:DescribeIndexPolicies
 logs:DescribeLogGroups
 logs:DescribeLogStreams
