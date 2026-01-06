@@ -13334,6 +13334,7 @@ odb:CreateCloudAutonomousVmCluster
 odb:CreateCloudExadataInfrastructure
 odb:CreateCloudVmCluster
 odb:CreateDbNode
+odb:CreateGrantShare
 odb:CreateOdbNetwork
 odb:CreateOdbPeeringConnection
 odb:CreateOutboundIntegration
@@ -13341,6 +13342,7 @@ odb:DeleteCloudAutonomousVmCluster
 odb:DeleteCloudExadataInfrastructure
 odb:DeleteCloudVmCluster
 odb:DeleteDbNode
+odb:DeleteGrantShare
 odb:DeleteOdbNetwork
 odb:DeleteOdbPeeringConnection
 odb:DeleteResourcePolicy
@@ -13374,6 +13376,7 @@ odb:StopDbNode
 odb:TagResource
 odb:UntagResource
 odb:UpdateCloudExadataInfrastructure
+odb:UpdateGrantShare
 odb:UpdateOdbNetwork
 odb:UpdateOdbPeeringConnection
 odb:UpdateOutboundIntegration
