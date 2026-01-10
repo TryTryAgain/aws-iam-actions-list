@@ -7009,6 +7009,8 @@ ecr:UpdatePullThroughCacheRule
 ecr:UpdateRepositoryCreationTemplate
 ecr:UploadLayerPart
 ecr:ValidatePullThroughCacheRule
+ecs-mcp:InvokeReadOnlyTools
+ecs-mcp:UseMcp
 ecs:CreateCapacityProvider
 ecs:CreateCluster
 ecs:CreateExpressGatewayService
