@@ -16302,6 +16302,7 @@ s3tables:DeleteNamespace
 s3tables:DeleteTable
 s3tables:DeleteTableBucket
 s3tables:DeleteTableBucketEncryption
+s3tables:DeleteTableBucketMetricsConfiguration
 s3tables:DeleteTableBucketPolicy
 s3tables:DeleteTableBucketReplication
 s3tables:DeleteTablePolicy
@@ -16311,6 +16312,7 @@ s3tables:GetTable
 s3tables:GetTableBucket
 s3tables:GetTableBucketEncryption
 s3tables:GetTableBucketMaintenanceConfiguration
+s3tables:GetTableBucketMetricsConfiguration
 s3tables:GetTableBucketPolicy
 s3tables:GetTableBucketReplication
 s3tables:GetTableBucketStorageClass
@@ -16331,6 +16333,7 @@ s3tables:ListTables
 s3tables:ListTagsForResource
 s3tables:PutTableBucketEncryption
 s3tables:PutTableBucketMaintenanceConfiguration
+s3tables:PutTableBucketMetricsConfiguration
 s3tables:PutTableBucketPolicy
 s3tables:PutTableBucketReplication
 s3tables:PutTableBucketStorageClass
