@@ -12516,6 +12516,7 @@ mgn:DisassociateApplications
 mgn:DisassociateSourceServers
 mgn:DisconnectFromService
 mgn:FinalizeCutover
+mgn:GetAccountSettings
 mgn:GetAgentCommandForMgn
 mgn:GetAgentConfirmedResumeInfoForMgn
 mgn:GetAgentInstallationAssetsForMgn
@@ -12595,6 +12596,7 @@ mgn:TerminateTargetInstances
 mgn:UnarchiveApplication
 mgn:UnarchiveWave
 mgn:UntagResource
+mgn:UpdateAccountSettings
 mgn:UpdateAgentBacklogForMgn
 mgn:UpdateAgentConversionInfoForMgn
 mgn:UpdateAgentReplicationInfoForMgn
