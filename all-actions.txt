@@ -7797,6 +7797,7 @@ evs:DeleteEnvironment
 evs:DeleteEnvironmentHost
 evs:DisassociateEipFromVlan
 evs:GetEnvironment
+evs:GetVersions
 evs:ListEnvironmentHosts
 evs:ListEnvironmentVlans
 evs:ListEnvironments
