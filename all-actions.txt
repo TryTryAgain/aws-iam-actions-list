@@ -6066,6 +6066,7 @@ dynamodb:GetRecords
 dynamodb:GetResourcePolicy
 dynamodb:GetShardIterator
 dynamodb:ImportTable
+dynamodb:InjectError
 dynamodb:ListBackups
 dynamodb:ListContributorInsights
 dynamodb:ListExports
