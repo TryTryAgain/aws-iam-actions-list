@@ -6027,6 +6027,7 @@ dsql:StopRestoreJob
 dsql:TagResource
 dsql:UntagResource
 dsql:UpdateCluster
+dynamodb:AssociateTableReplica
 dynamodb:BatchGetItem
 dynamodb:BatchWriteItem
 dynamodb:ConditionCheckItem
@@ -6083,6 +6084,8 @@ dynamodb:PurchaseReservedCapacityOfferings
 dynamodb:PutItem
 dynamodb:PutResourcePolicy
 dynamodb:Query
+dynamodb:ReadDataForReplication
+dynamodb:ReplicateSettings
 dynamodb:RestoreTableFromAwsBackup
 dynamodb:RestoreTableFromBackup
 dynamodb:RestoreTableToPointInTime
@@ -6101,6 +6104,7 @@ dynamodb:UpdateKinesisStreamingDestination
 dynamodb:UpdateTable
 dynamodb:UpdateTableReplicaAutoScaling
 dynamodb:UpdateTimeToLive
+dynamodb:WriteDataForReplication
 ebs:CompleteSnapshot
 ebs:GetSnapshotBlock
 ebs:ListChangedBlocks
