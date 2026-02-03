@@ -9349,6 +9349,7 @@ identity-sync:UpdateSyncTarget
 identitystore-auth:BatchDeleteSession
 identitystore-auth:BatchGetSession
 identitystore-auth:ListSessions
+identitystore:AddRegion
 identitystore:CreateGroup
 identitystore:CreateGroupMembership
 identitystore:CreateIdentityStore
@@ -9359,6 +9360,7 @@ identitystore:DeleteIdentityStore
 identitystore:DeleteUser
 identitystore:DescribeGroup
 identitystore:DescribeGroupMembership
+identitystore:DescribeRegion
 identitystore:DescribeUser
 identitystore:GetGroupId
 identitystore:GetGroupMembershipId
@@ -9367,7 +9369,9 @@ identitystore:IsMemberInGroups
 identitystore:ListGroupMemberships
 identitystore:ListGroupMembershipsForMember
 identitystore:ListGroups
+identitystore:ListRegions
 identitystore:ListUsers
+identitystore:RemoveRegion
 identitystore:ReserveUser
 identitystore:UpdateGroup
 identitystore:UpdateIdentityStore
@@ -16985,6 +16989,7 @@ securityagent:BatchGetAgentInstances
 securityagent:BatchGetAgentSpaces
 securityagent:BatchGetArtifactMetadata
 securityagent:BatchGetFindings
+securityagent:BatchGetPentestJobContentMetadata
 securityagent:BatchGetPentestJobTasks
 securityagent:BatchGetPentestJobs
 securityagent:BatchGetPentests
@@ -18378,6 +18383,7 @@ sso-directory:VerifyEmail
 sso-oauth:CreateTokenWithIAM
 sso-oauth:IntrospectTokenWithIAM
 sso-oauth:RevokeTokenWithIAM
+sso:AddRegion
 sso:AssociateDirectory
 sso:AssociateProfile
 sso:AttachCustomerManagedPolicyReferenceToPermissionSet
@@ -18419,6 +18425,7 @@ sso:DescribeInstance
 sso:DescribeInstanceAccessControlAttributeConfiguration
 sso:DescribePermissionSet
 sso:DescribePermissionSetProvisioningStatus
+sso:DescribeRegion
 sso:DescribeRegisteredRegions
 sso:DescribeTrustedTokenIssuer
 sso:DetachCustomerManagedPolicyReferenceFromPermissionSet
@@ -18467,6 +18474,7 @@ sso:ListPermissionSets
 sso:ListPermissionSetsProvisionedToAccount
 sso:ListProfileAssociations
 sso:ListProfiles
+sso:ListRegions
 sso:ListTagsForResource
 sso:ListTrustedTokenIssuers
 sso:ProvisionPermissionSet
@@ -18479,6 +18487,7 @@ sso:PutInlinePolicyToPermissionSet
 sso:PutMfaDeviceManagementForDirectory
 sso:PutPermissionsBoundaryToPermissionSet
 sso:PutPermissionsPolicy
+sso:RemoveRegion
 sso:SearchGroups
 sso:SearchUsers
 sso:StartSSO
