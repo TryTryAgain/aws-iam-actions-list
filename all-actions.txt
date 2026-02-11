@@ -10600,11 +10600,13 @@ kafka:CreateCluster
 kafka:CreateClusterV2
 kafka:CreateConfiguration
 kafka:CreateReplicator
+kafka:CreateTopic
 kafka:CreateVpcConnection
 kafka:DeleteCluster
 kafka:DeleteClusterPolicy
 kafka:DeleteConfiguration
 kafka:DeleteReplicator
+kafka:DeleteTopic
 kafka:DeleteVpcConnection
 kafka:DescribeCluster
 kafka:DescribeClusterOperation
@@ -10650,6 +10652,7 @@ kafka:UpdateRebalancing
 kafka:UpdateReplicationInfo
 kafka:UpdateSecurity
 kafka:UpdateStorage
+kafka:UpdateTopic
 kafkaconnect:CreateConnector
 kafkaconnect:CreateCustomPlugin
 kafkaconnect:CreateWorkerConfiguration
