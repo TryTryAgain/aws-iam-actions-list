@@ -9472,6 +9472,10 @@ importexport:GetStatus
 importexport:ListJobs
 importexport:UpdateJob
 inspector-scan:ScanSbom
+inspector2-telemetry:NotifyHeartbeat
+inspector2-telemetry:SendTelemetry
+inspector2-telemetry:StartSession
+inspector2-telemetry:StopSession
 inspector2:AssociateMember
 inspector2:BatchAssociateCodeSecurityScanConfiguration
 inspector2:BatchDisassociateCodeSecurityScanConfiguration
