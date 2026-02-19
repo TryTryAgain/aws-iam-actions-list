@@ -8571,6 +8571,7 @@ glue:DeleteDatabase
 glue:DeleteDevEndpoint
 glue:DeleteGlueIdentityCenterConfiguration
 glue:DeleteIntegration
+glue:DeleteIntegrationResourceProperty
 glue:DeleteIntegrationTableProperties
 glue:DeleteJob
 glue:DeleteMLTransform
@@ -8706,6 +8707,7 @@ glue:ListDataQualityRulesetEvaluationRuns
 glue:ListDataQualityRulesets
 glue:ListDevEndpoints
 glue:ListEntities
+glue:ListIntegrationResourceProperties
 glue:ListJobUpgradeAnalyses
 glue:ListJobs
 glue:ListMLTransforms
