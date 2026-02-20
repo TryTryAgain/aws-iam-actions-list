@@ -11524,6 +11524,7 @@ lightsail:UpdateRelationalDatabase
 lightsail:UpdateRelationalDatabaseParameters
 logs:AssociateKmsKey
 logs:AssociateSourceToS3TableIntegration
+logs:CallWithBearerToken
 logs:CancelExportTask
 logs:CancelImportTask
 logs:CreateDelivery
@@ -11609,6 +11610,7 @@ logs:ListTagsForResource
 logs:ListTagsLogGroup
 logs:ProcessWithPipeline
 logs:PutAccountPolicy
+logs:PutBearerTokenAuthentication
 logs:PutDataProtectionPolicy
 logs:PutDeliveryDestination
 logs:PutDeliveryDestinationPolicy
