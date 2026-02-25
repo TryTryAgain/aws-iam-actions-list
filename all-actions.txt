@@ -7511,6 +7511,18 @@ elemental-appliances-software:ListQuotes
 elemental-appliances-software:StartUpload
 elemental-appliances-software:SubmitOrderV1
 elemental-appliances-software:UpdateQuote
+elemental-inference:AssociateFeed
+elemental-inference:CreateFeed
+elemental-inference:DeleteFeed
+elemental-inference:DisassociateFeed
+elemental-inference:GetFeed
+elemental-inference:GetMetadata
+elemental-inference:ListFeeds
+elemental-inference:ListTagsForResource
+elemental-inference:PutMedia
+elemental-inference:TagResource
+elemental-inference:UntagResource
+elemental-inference:UpdateFeed
 elemental-support-cases:AddCaseComment
 elemental-support-cases:CheckCasePermission
 elemental-support-cases:CompleteMultipartUpload
@@ -9126,6 +9138,7 @@ healthlake:GenerateDocumentWithPost
 healthlake:GetCapabilities
 healthlake:GetExportedFile
 healthlake:GetHistoryByResourceId
+healthlake:InquirePreAuthClaim
 healthlake:ListFHIRDatastores
 healthlake:ListFHIRExportJobs
 healthlake:ListFHIRImportJobs
@@ -9137,6 +9150,7 @@ healthlake:MemberMatch
 healthlake:MemberRemove
 healthlake:PatchResource
 healthlake:ProcessBundle
+healthlake:QuestionnairePackage
 healthlake:ReadResource
 healthlake:RetrieveAttributionStatus
 healthlake:SearchEverything
@@ -9147,6 +9161,7 @@ healthlake:StartFHIRExportJob
 healthlake:StartFHIRExportJobWithGet
 healthlake:StartFHIRExportJobWithPost
 healthlake:StartFHIRImportJob
+healthlake:SubmitPreAuthClaim
 healthlake:TagResource
 healthlake:UntagResource
 healthlake:UpdateResource
