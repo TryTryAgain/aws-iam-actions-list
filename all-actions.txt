@@ -6185,6 +6185,7 @@ ec2:AttachApplianceToNatGateway
 ec2:AttachClassicLinkVpc
 ec2:AttachInternetGateway
 ec2:AttachNetworkInterface
+ec2:AttachResourcesToPlacementGroup
 ec2:AttachVerifiedAccessTrustProvider
 ec2:AttachVolume
 ec2:AttachVpnGateway
@@ -6272,6 +6273,8 @@ ec2:CreateRouteServer
 ec2:CreateRouteServerEndpoint
 ec2:CreateRouteServerPeer
 ec2:CreateRouteTable
+ec2:CreateSecondaryNetwork
+ec2:CreateSecondarySubnet
 ec2:CreateSecurityGroup
 ec2:CreateSnapshot
 ec2:CreateSnapshots
@@ -6368,6 +6371,8 @@ ec2:DeleteRouteServer
 ec2:DeleteRouteServerEndpoint
 ec2:DeleteRouteServerPeer
 ec2:DeleteRouteTable
+ec2:DeleteSecondaryNetwork
+ec2:DeleteSecondarySubnet
 ec2:DeleteSecurityGroup
 ec2:DeleteSnapshot
 ec2:DeleteSpotDatafeedSubscription
@@ -6537,6 +6542,9 @@ ec2:DescribeRouteServers
 ec2:DescribeRouteTables
 ec2:DescribeScheduledInstanceAvailability
 ec2:DescribeScheduledInstances
+ec2:DescribeSecondaryInterfaces
+ec2:DescribeSecondaryNetworks
+ec2:DescribeSecondarySubnets
 ec2:DescribeSecurityGroupReferences
 ec2:DescribeSecurityGroupRules
 ec2:DescribeSecurityGroupVpcAssociations
@@ -6603,6 +6611,7 @@ ec2:DetachApplianceFromNatGateway
 ec2:DetachClassicLinkVpc
 ec2:DetachInternetGateway
 ec2:DetachNetworkInterface
+ec2:DetachResourcesFromPlacementGroup
 ec2:DetachVerifiedAccessTrustProvider
 ec2:DetachVolume
 ec2:DetachVpnGateway
