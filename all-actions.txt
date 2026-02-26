@@ -19643,6 +19643,7 @@ wafv2:GetRateBasedStatementManagedKeys
 wafv2:GetRegexPatternSet
 wafv2:GetRuleGroup
 wafv2:GetSampledRequests
+wafv2:GetTopPathStatisticsByTraffic
 wafv2:GetWebACL
 wafv2:GetWebACLForResource
 wafv2:ListAPIKeys
