@@ -220,9 +220,11 @@ activate:GetCredits
 activate:GetMemberInfo
 activate:GetProgram
 activate:PutMemberInfo
+aidevops:AllowVendedLogDeliveryForResource
 aidevops:AssociateService
 aidevops:CreateAgentSpace
 aidevops:CreateBacklogTask
+aidevops:CreateChat
 aidevops:CreateKnowledgeItem
 aidevops:CreateOneTimeLoginSession
 aidevops:DeleteAgentSpace
@@ -248,6 +250,7 @@ aidevops:InitiateServiceRegistration
 aidevops:ListAgentSpaces
 aidevops:ListAssociations
 aidevops:ListBacklogTasks
+aidevops:ListChats
 aidevops:ListExecutions
 aidevops:ListGoals
 aidevops:ListJournalRecords
@@ -259,9 +262,11 @@ aidevops:ListWebhooks
 aidevops:RegisterService
 aidevops:SearchServiceAccessibleResource
 aidevops:SendChatMessage
+aidevops:StreamMessage
 aidevops:UpdateAgentSpace
 aidevops:UpdateAssociation
 aidevops:UpdateBacklogTask
+aidevops:UpdateGoal
 aidevops:UpdateKnowledgeItem
 aidevops:UpdateOperatorAppTeams
 aidevops:UpdateRecommendation
