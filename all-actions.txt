@@ -15007,6 +15007,7 @@ ram:ListReplacePermissionAssociationsWork
 ram:ListResourceSharePermissions
 ram:ListResourceTypes
 ram:ListResources
+ram:ListSourceAssociations
 ram:PromotePermissionCreatedFromPolicy
 ram:PromoteResourceShareCreatedFromPolicy
 ram:RejectResourceShareInvitation
