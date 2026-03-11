@@ -5195,6 +5195,7 @@ datazone:GetListing
 datazone:GetMetadataGenerationRun
 datazone:GetNotebook
 datazone:GetNotebookCompute
+datazone:GetNotebookExport
 datazone:GetProject
 datazone:GetProjectProfile
 datazone:GetRule
@@ -5275,6 +5276,8 @@ datazone:StartConversation
 datazone:StartDataSourceRun
 datazone:StartMetadataGenerationRun
 datazone:StartNotebookCompute
+datazone:StartNotebookExport
+datazone:StartNotebookImport
 datazone:StopMetadataGenerationRun
 datazone:StopNotebookCompute
 datazone:TagResource
