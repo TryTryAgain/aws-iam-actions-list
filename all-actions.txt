@@ -14005,6 +14005,7 @@ partnercentral:UpdateEngagementContext
 partnercentral:UpdateOpportunity
 partnercentral:UpdateProgramManagementAccount
 partnercentral:UpdateRelationship
+partnercentral:UseSession
 payment-cryptography:AddKeyReplicationRegions
 payment-cryptography:CreateAlias
 payment-cryptography:CreateKey
