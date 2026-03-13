@@ -15813,7 +15813,6 @@ route53-recovery-control-config:DeleteSafetyRule
 route53-recovery-control-config:DescribeCluster
 route53-recovery-control-config:DescribeControlPanel
 route53-recovery-control-config:DescribeRoutingControl
-route53-recovery-control-config:DescribeRoutingControlByName
 route53-recovery-control-config:DescribeSafetyRule
 route53-recovery-control-config:GetResourcePolicy
 route53-recovery-control-config:ListAssociatedRoute53HealthChecks
