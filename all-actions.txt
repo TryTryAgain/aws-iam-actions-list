@@ -17077,9 +17077,12 @@ sdb:DeleteAttributes
 sdb:DeleteDomain
 sdb:DomainMetadata
 sdb:GetAttributes
+sdb:GetExport
 sdb:ListDomains
+sdb:ListExports
 sdb:PutAttributes
 sdb:Select
+sdb:StartDomainExport
 secretsmanager:BatchGetSecretValue
 secretsmanager:CancelRotateSecret
 secretsmanager:CreateSecret
