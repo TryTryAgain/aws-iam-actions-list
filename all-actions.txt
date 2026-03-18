@@ -17239,6 +17239,7 @@ securityagent:UpdateTargetDomain
 securityagent:VerifyTargetDomain
 securityhub:AcceptAdministratorInvitation
 securityhub:AcceptInvitation
+securityhub:AllowVendedLogDeliveryForResource
 securityhub:BatchDeleteAutomationRules
 securityhub:BatchDisableStandards
 securityhub:BatchEnableStandards
