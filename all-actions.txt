@@ -1705,11 +1705,13 @@ batch:CancelJob
 batch:CreateComputeEnvironment
 batch:CreateConsumableResource
 batch:CreateJobQueue
+batch:CreateQuotaShare
 batch:CreateSchedulingPolicy
 batch:CreateServiceEnvironment
 batch:DeleteComputeEnvironment
 batch:DeleteConsumableResource
 batch:DeleteJobQueue
+batch:DeleteQuotaShare
 batch:DeleteSchedulingPolicy
 batch:DeleteServiceEnvironment
 batch:DeregisterJobDefinition
@@ -1718,6 +1720,7 @@ batch:DescribeConsumableResource
 batch:DescribeJobDefinitions
 batch:DescribeJobQueues
 batch:DescribeJobs
+batch:DescribeQuotaShare
 batch:DescribeSchedulingPolicies
 batch:DescribeServiceEnvironments
 batch:DescribeServiceJob
@@ -1725,6 +1728,7 @@ batch:GetJobQueueSnapshot
 batch:ListConsumableResources
 batch:ListJobs
 batch:ListJobsByConsumableResource
+batch:ListQuotaShares
 batch:ListSchedulingPolicies
 batch:ListServiceJobs
 batch:ListTagsForResource
@@ -1738,8 +1742,10 @@ batch:UntagResource
 batch:UpdateComputeEnvironment
 batch:UpdateConsumableResource
 batch:UpdateJobQueue
+batch:UpdateQuotaShare
 batch:UpdateSchedulingPolicy
 batch:UpdateServiceEnvironment
+batch:UpdateServiceJob
 bcm-dashboards:CreateDashboard
 bcm-dashboards:DeleteDashboard
 bcm-dashboards:GetDashboard
