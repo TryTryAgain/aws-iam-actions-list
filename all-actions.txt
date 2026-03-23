@@ -225,17 +225,21 @@ aidevops:AssociateService
 aidevops:CreateAgentSpace
 aidevops:CreateBacklogTask
 aidevops:CreateChat
+aidevops:CreateKnowledgeItem
 aidevops:DeleteAgentSpace
+aidevops:DeleteKnowledgeItem
 aidevops:DeregisterService
 aidevops:DescribeSupportLevel
 aidevops:DisableOperatorApp
 aidevops:DisassociateService
+aidevops:DiscoverTopology
 aidevops:EnableOperatorApp
 aidevops:EndChatForCase
 aidevops:GetAccountUsage
 aidevops:GetAgentSpace
 aidevops:GetAssociation
 aidevops:GetBacklogTask
+aidevops:GetKnowledgeItem
 aidevops:GetOperatorApp
 aidevops:GetRecommendation
 aidevops:GetService
@@ -247,6 +251,8 @@ aidevops:ListChats
 aidevops:ListExecutions
 aidevops:ListGoals
 aidevops:ListJournalRecords
+aidevops:ListKnowledgeItemVersions
+aidevops:ListKnowledgeItems
 aidevops:ListPendingMessages
 aidevops:ListRecommendations
 aidevops:ListServices
@@ -261,6 +267,7 @@ aidevops:UpdateAgentSpace
 aidevops:UpdateAssociation
 aidevops:UpdateBacklogTask
 aidevops:UpdateGoal
+aidevops:UpdateKnowledgeItem
 aidevops:UpdateOperatorAppIdpConfig
 aidevops:UpdateRecommendation
 aidevops:ValidateAwsAssociations
@@ -8333,6 +8340,7 @@ gamelift:GetComputeAccess
 gamelift:GetComputeAuthToken
 gamelift:GetGameSessionLogUrl
 gamelift:GetInstanceAccess
+gamelift:GetPlayerConnectionDetails
 gamelift:ListAliases
 gamelift:ListBuilds
 gamelift:ListCompute
@@ -13908,6 +13916,7 @@ panorama:UntagResource
 panorama:UpdateDeviceMetadata
 partnercentral-account-management:AccessLegacyPartnerCentral
 partnercentral-account-management:AccessMarketingCentral
+partnercentral-account-management:AccessProServeTools
 partnercentral-account-management:AssociatePartnerAccount
 partnercentral-account-management:AssociatePartnerUser
 partnercentral-account-management:DisassociatePartnerUser
