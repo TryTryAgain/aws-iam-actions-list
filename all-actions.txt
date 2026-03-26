@@ -7713,6 +7713,7 @@ es:DescribeElasticsearchDomains
 es:DescribeElasticsearchInstanceTypeLimits
 es:DescribeInboundConnections
 es:DescribeInboundCrossClusterSearchConnections
+es:DescribeInsightDetails
 es:DescribeInstanceTypeLimits
 es:DescribeOutboundConnections
 es:DescribeOutboundCrossClusterSearchConnections
@@ -7751,6 +7752,7 @@ es:ListDomainsForPackage
 es:ListElasticsearchInstanceTypeDetails
 es:ListElasticsearchInstanceTypes
 es:ListElasticsearchVersions
+es:ListInsights
 es:ListInstanceTypeDetails
 es:ListPackagesForDomain
 es:ListScheduledActions
