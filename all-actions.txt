@@ -13540,6 +13540,7 @@ omics:CancelVariantImportJob
 omics:CompleteMultipartReadSetUpload
 omics:CreateAnnotationStore
 omics:CreateAnnotationStoreVersion
+omics:CreateConfiguration
 omics:CreateMultipartReadSetUpload
 omics:CreateReferenceStore
 omics:CreateRunCache
@@ -13551,6 +13552,7 @@ omics:CreateWorkflow
 omics:CreateWorkflowVersion
 omics:DeleteAnnotationStore
 omics:DeleteAnnotationStoreVersions
+omics:DeleteConfiguration
 omics:DeleteReference
 omics:DeleteReferenceStore
 omics:DeleteRun
@@ -13565,6 +13567,7 @@ omics:DeleteWorkflowVersion
 omics:GetAnnotationImportJob
 omics:GetAnnotationStore
 omics:GetAnnotationStoreVersion
+omics:GetConfiguration
 omics:GetReadSet
 omics:GetReadSetActivationJob
 omics:GetReadSetExportJob
@@ -13588,6 +13591,7 @@ omics:GetWorkflowVersion
 omics:ListAnnotationImportJobs
 omics:ListAnnotationStoreVersions
 omics:ListAnnotationStores
+omics:ListConfigurations
 omics:ListMultipartReadSetUploads
 omics:ListReadSetActivationJobs
 omics:ListReadSetExportJobs
