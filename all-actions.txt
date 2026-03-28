@@ -17170,9 +17170,7 @@ securityagent:BatchGetPentestJobContentMetadata
 securityagent:BatchGetPentestJobTasks
 securityagent:BatchGetPentestJobs
 securityagent:BatchGetPentests
-securityagent:BatchGetSecurityTestContentMetadata
 securityagent:BatchGetTargetDomains
-securityagent:BatchGetTasks
 securityagent:CreateAgentSpace
 securityagent:CreateApplication
 securityagent:CreateDesignReview
@@ -17190,14 +17188,11 @@ securityagent:DeleteIntegration
 securityagent:DeleteMembership
 securityagent:DeleteSecurityRequirement
 securityagent:DeleteTargetDomain
-securityagent:DescribeFindings
 securityagent:GetApplication
 securityagent:GetArtifact
-securityagent:GetCodeReviewTask
 securityagent:GetDesignReview
 securityagent:GetDesignReviewArtifact
 securityagent:GetDesignReviewFeedback
-securityagent:GetDocReviewTask
 securityagent:GetIntegration
 securityagent:GetSecurityRequirement
 securityagent:InitiateProviderRegistration
@@ -17218,12 +17213,9 @@ securityagent:ListResourcesFromIntegration
 securityagent:ListSecurityRequirements
 securityagent:ListTagsForResource
 securityagent:ListTargetDomains
-securityagent:ListTasks
 securityagent:PutDesignReviewFeedback
 securityagent:StartCodeRemediation
-securityagent:StartPentestExecution
 securityagent:StartPentestJob
-securityagent:StopPentestExecution
 securityagent:StopPentestJob
 securityagent:TagResource
 securityagent:ToggleManagedSecurityRequirement
