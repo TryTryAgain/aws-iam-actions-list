@@ -226,6 +226,7 @@ aidevops:CreateAgentSpace
 aidevops:CreateBacklogTask
 aidevops:CreateChat
 aidevops:CreateKnowledgeItem
+aidevops:CreateOneTimeLoginSession
 aidevops:DeleteAgentSpace
 aidevops:DeleteKnowledgeItem
 aidevops:DeregisterService
