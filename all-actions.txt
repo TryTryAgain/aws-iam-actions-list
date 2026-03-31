@@ -187,6 +187,7 @@ acm:RenewCertificate
 acm:RequestCertificate
 acm:ResendValidationEmail
 acm:RevokeCertificate
+acm:SearchCertificates
 acm:UpdateCertificateOptions
 aco-automation:AssociateAccounts
 aco-automation:CreateAutomationRule
@@ -11681,6 +11682,7 @@ logs:CreateLogAnomalyDetector
 logs:CreateLogDelivery
 logs:CreateLogGroup
 logs:CreateLogStream
+logs:CreateLookupTable
 logs:CreateScheduledQuery
 logs:DeleteAccountPolicy
 logs:DeleteDataProtectionPolicy
@@ -11695,6 +11697,7 @@ logs:DeleteLogAnomalyDetector
 logs:DeleteLogDelivery
 logs:DeleteLogGroup
 logs:DeleteLogStream
+logs:DeleteLookupTable
 logs:DeleteMetricFilter
 logs:DeletePipelineRule
 logs:DeleteQueryDefinition
@@ -11716,6 +11719,7 @@ logs:DescribeImportTasks
 logs:DescribeIndexPolicies
 logs:DescribeLogGroups
 logs:DescribeLogStreams
+logs:DescribeLookupTables
 logs:DescribeMetricFilters
 logs:DescribeQueries
 logs:DescribeQueryDefinitions
@@ -11736,6 +11740,7 @@ logs:GetLogEvents
 logs:GetLogFields
 logs:GetLogGroupFields
 logs:GetLogRecord
+logs:GetLookupTable
 logs:GetQueryResults
 logs:GetScheduledQuery
 logs:GetScheduledQueryHistory
@@ -11790,6 +11795,7 @@ logs:UpdateAnomaly
 logs:UpdateDeliveryConfiguration
 logs:UpdateLogAnomalyDetector
 logs:UpdateLogDelivery
+logs:UpdateLookupTable
 logs:UpdateScheduledQuery
 lookoutequipment:CreateDataset
 lookoutequipment:CreateInferenceScheduler
@@ -14846,6 +14852,7 @@ quicksight:DescribeAnalysis
 quicksight:DescribeAnalysisPermissions
 quicksight:DescribeAssetBundleExportJob
 quicksight:DescribeAssetBundleImportJob
+quicksight:DescribeAutomationJob
 quicksight:DescribeBrand
 quicksight:DescribeBrandAssignment
 quicksight:DescribeBrandPublishedVersion
@@ -14970,6 +14977,7 @@ quicksight:SearchUsers
 quicksight:SetGroupMapping
 quicksight:StartAssetBundleExportJob
 quicksight:StartAssetBundleImportJob
+quicksight:StartAutomationJob
 quicksight:StartDashboardSnapshotJob
 quicksight:StartDashboardSnapshotJobSchedule
 quicksight:Subscribe
@@ -18900,6 +18908,8 @@ supportplans:GetSupportPlanUpdateStatus
 supportplans:ListSupportPlanModifiers
 supportplans:StartSupportPlanUpdate
 sustainability:GetCarbonFootprintSummary
+sustainability:GetEstimatedCarbonEmissions
+sustainability:GetEstimatedCarbonEmissionsDimensionValues
 swf:CancelTimer
 swf:CancelWorkflowExecution
 swf:CompleteWorkflowExecution
