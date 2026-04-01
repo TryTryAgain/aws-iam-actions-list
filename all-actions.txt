@@ -16483,6 +16483,7 @@ s3express:GetAccessPointScope
 s3express:GetBucketPolicy
 s3express:GetEncryptionConfiguration
 s3express:GetLifecycleConfiguration
+s3express:GetMetricsConfiguration
 s3express:ListAccessPointsForDirectoryBuckets
 s3express:ListAllMyDirectoryBuckets
 s3express:ListTagsForResource
@@ -16491,6 +16492,7 @@ s3express:PutAccessPointScope
 s3express:PutBucketPolicy
 s3express:PutEncryptionConfiguration
 s3express:PutLifecycleConfiguration
+s3express:PutMetricsConfiguration
 s3express:TagResource
 s3express:UntagResource
 s3tables:CreateNamespace
