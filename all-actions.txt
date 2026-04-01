@@ -7087,6 +7087,7 @@ ecs-mcp:InvokeReadOnlyTools
 ecs-mcp:UseMcp
 ecs:CreateCapacityProvider
 ecs:CreateCluster
+ecs:CreateDaemon
 ecs:CreateExpressGatewayService
 ecs:CreateService
 ecs:CreateTaskSet
@@ -7094,6 +7095,8 @@ ecs:DeleteAccountSetting
 ecs:DeleteAttributes
 ecs:DeleteCapacityProvider
 ecs:DeleteCluster
+ecs:DeleteDaemon
+ecs:DeleteDaemonTaskDefinition
 ecs:DeleteExpressGatewayService
 ecs:DeleteService
 ecs:DeleteTaskDefinitions
@@ -7103,6 +7106,10 @@ ecs:DeregisterTaskDefinition
 ecs:DescribeCapacityProviders
 ecs:DescribeClusters
 ecs:DescribeContainerInstances
+ecs:DescribeDaemon
+ecs:DescribeDaemonDeployments
+ecs:DescribeDaemonRevisions
+ecs:DescribeDaemonTaskDefinition
 ecs:DescribeExpressGatewayService
 ecs:DescribeServiceDeployments
 ecs:DescribeServiceRevisions
@@ -7117,6 +7124,9 @@ ecs:ListAccountSettings
 ecs:ListAttributes
 ecs:ListClusters
 ecs:ListContainerInstances
+ecs:ListDaemonDeployments
+ecs:ListDaemonTaskDefinitions
+ecs:ListDaemons
 ecs:ListServiceDeployments
 ecs:ListServices
 ecs:ListServicesByNamespace
@@ -7131,6 +7141,7 @@ ecs:PutAttributes
 ecs:PutClusterCapacityProviders
 ecs:PutSystemLogEvents
 ecs:RegisterContainerInstance
+ecs:RegisterDaemonTaskDefinition
 ecs:RegisterTaskDefinition
 ecs:RunTask
 ecs:StartTask
@@ -7147,6 +7158,7 @@ ecs:UpdateCluster
 ecs:UpdateClusterSettings
 ecs:UpdateContainerAgent
 ecs:UpdateContainerInstancesState
+ecs:UpdateDaemon
 ecs:UpdateExpressGatewayService
 ecs:UpdateService
 ecs:UpdateServicePrimaryTaskSet
