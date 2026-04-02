@@ -9270,6 +9270,7 @@ healthlake:CreateResource
 healthlake:DeleteFHIRDatastore
 healthlake:DeleteResource
 healthlake:DescribeFHIRBulkDeleteJob
+healthlake:DescribeFHIRBulkMemberMatchJob
 healthlake:DescribeFHIRDatastore
 healthlake:DescribeFHIRExportJob
 healthlake:DescribeFHIRExportJobWithGet
@@ -9300,6 +9301,7 @@ healthlake:SearchEverything
 healthlake:SearchWithGet
 healthlake:SearchWithPost
 healthlake:StartFHIRBulkDeleteJob
+healthlake:StartFHIRBulkMemberMatchJob
 healthlake:StartFHIRExportJob
 healthlake:StartFHIRExportJobWithGet
 healthlake:StartFHIRExportJobWithPost
