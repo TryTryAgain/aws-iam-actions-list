@@ -2036,6 +2036,7 @@ bedrock:CreateBlueprint
 bedrock:CreateBlueprintVersion
 bedrock:CreateCustomModel
 bedrock:CreateCustomModelDeployment
+bedrock:CreateDataAutomationLibrary
 bedrock:CreateDataAutomationProject
 bedrock:CreateDataSource
 bedrock:CreateEvaluationJob
@@ -2070,6 +2071,7 @@ bedrock:DeleteAutomatedReasoningPolicyTestCase
 bedrock:DeleteBlueprint
 bedrock:DeleteCustomModel
 bedrock:DeleteCustomModelDeployment
+bedrock:DeleteDataAutomationLibrary
 bedrock:DeleteDataAutomationProject
 bedrock:DeleteDataSource
 bedrock:DeleteEnforcedGuardrailConfiguration
@@ -2117,6 +2119,9 @@ bedrock:GetBlueprintOptimizationStatus
 bedrock:GetBlueprintRecommendation
 bedrock:GetCustomModel
 bedrock:GetCustomModelDeployment
+bedrock:GetDataAutomationLibrary
+bedrock:GetDataAutomationLibraryEntity
+bedrock:GetDataAutomationLibraryIngestionJob
 bedrock:GetDataAutomationProject
 bedrock:GetDataAutomationStatus
 bedrock:GetDataSource
@@ -2156,6 +2161,7 @@ bedrock:InvokeBlueprintRecommendationAsync
 bedrock:InvokeBuilder
 bedrock:InvokeDataAutomation
 bedrock:InvokeDataAutomationAsync
+bedrock:InvokeDataAutomationLibraryIngestionJob
 bedrock:InvokeFlow
 bedrock:InvokeInlineAgent
 bedrock:InvokeModel
@@ -2175,6 +2181,9 @@ bedrock:ListAutomatedReasoningPolicyTestResults
 bedrock:ListBlueprints
 bedrock:ListCustomModelDeployments
 bedrock:ListCustomModels
+bedrock:ListDataAutomationLibraries
+bedrock:ListDataAutomationLibraryEntities
+bedrock:ListDataAutomationLibraryIngestionJobs
 bedrock:ListDataAutomationProjects
 bedrock:ListDataSources
 bedrock:ListEnforcedGuardrailsConfiguration
@@ -2240,6 +2249,7 @@ bedrock:UpdateAutomatedReasoningPolicyAnnotations
 bedrock:UpdateAutomatedReasoningPolicyTestCase
 bedrock:UpdateBlueprint
 bedrock:UpdateCustomModelDeployment
+bedrock:UpdateDataAutomationLibrary
 bedrock:UpdateDataAutomationProject
 bedrock:UpdateDataSource
 bedrock:UpdateFlow
