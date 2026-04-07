@@ -8869,6 +8869,7 @@ glue:ListTableOptimizerRuns
 glue:ListTriggers
 glue:ListUsageProfiles
 glue:ListWorkflows
+glue:ManagedConnector
 glue:ModifyIntegration
 glue:NotifyEvent
 glue:PassConnection
@@ -19400,6 +19401,7 @@ transform:GetAccountSettings
 transform:GetAgent
 transform:GetAgentRuntimeConfiguration
 transform:GetConnector
+transform:GetWebAppUrl
 transform:ListAgents
 transform:ListConnectors
 transform:ListProfiles
