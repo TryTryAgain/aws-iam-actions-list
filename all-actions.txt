@@ -1489,6 +1489,11 @@ aws-marketplace:GetAgreementTerms
 aws-marketplace:GetBillingAdjustmentRequest
 aws-marketplace:GetBuyerDashboard
 aws-marketplace:GetEntitlements
+aws-marketplace:GetListing
+aws-marketplace:GetOffer
+aws-marketplace:GetOfferSet
+aws-marketplace:GetOfferTerms
+aws-marketplace:GetProduct
 aws-marketplace:GetResourcePolicy
 aws-marketplace:GetSellerDashboard
 aws-marketplace:ListAgreementApprovalRequests
@@ -1503,8 +1508,10 @@ aws-marketplace:ListBuilds
 aws-marketplace:ListChangeSets
 aws-marketplace:ListEntities
 aws-marketplace:ListEntitlementDetails
+aws-marketplace:ListFulfillmentOptions
 aws-marketplace:ListPrivateListings
 aws-marketplace:ListPrivateMarketplaceRequests
+aws-marketplace:ListPurchaseOptions
 aws-marketplace:ListTagsForResource
 aws-marketplace:MeterUsage
 aws-marketplace:PutDeploymentParameter
@@ -1516,6 +1523,8 @@ aws-marketplace:RejectAgreementCancellationRequest
 aws-marketplace:RejectAgreementPaymentRequest
 aws-marketplace:ResolveCustomer
 aws-marketplace:SearchAgreements
+aws-marketplace:SearchFacets
+aws-marketplace:SearchListings
 aws-marketplace:SendAgreementCancellationRequest
 aws-marketplace:SendAgreementPaymentRequest
 aws-marketplace:StartBuild
@@ -20467,11 +20476,14 @@ workspaces:DisassociateConnectionAlias
 workspaces:DisassociateIpGroups
 workspaces:DisassociateWorkspaceApplication
 workspaces:GetAccountLink
+workspaces:GetTroubleshootingRecommendation
 workspaces:ImportClientBranding
 workspaces:ImportCustomWorkspaceImage
 workspaces:ImportWorkspaceImage
+workspaces:InvokeTroubleshootingInvestigation
 workspaces:ListAccountLinks
 workspaces:ListAvailableManagementCidrRanges
+workspaces:ListTroubleshootingRecommendations
 workspaces:MigrateWorkspace
 workspaces:ModifyAccount
 workspaces:ModifyCertificateBasedAuthProperties
