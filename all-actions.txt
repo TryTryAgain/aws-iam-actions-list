@@ -1879,6 +1879,8 @@ bedrock-agentcore:CreateOauth2CredentialProvider
 bedrock-agentcore:CreateOnlineEvaluationConfig
 bedrock-agentcore:CreatePolicy
 bedrock-agentcore:CreatePolicyEngine
+bedrock-agentcore:CreateRegistry
+bedrock-agentcore:CreateRegistryRecord
 bedrock-agentcore:CreateWorkloadIdentity
 bedrock-agentcore:DeleteAgentRuntime
 bedrock-agentcore:DeleteAgentRuntimeEndpoint
@@ -1896,6 +1898,8 @@ bedrock-agentcore:DeleteOauth2CredentialProvider
 bedrock-agentcore:DeleteOnlineEvaluationConfig
 bedrock-agentcore:DeletePolicy
 bedrock-agentcore:DeletePolicyEngine
+bedrock-agentcore:DeleteRegistry
+bedrock-agentcore:DeleteRegistryRecord
 bedrock-agentcore:DeleteResourcePolicy
 bedrock-agentcore:DeleteWorkloadIdentity
 bedrock-agentcore:Evaluate
@@ -1919,6 +1923,8 @@ bedrock-agentcore:GetOnlineEvaluationConfig
 bedrock-agentcore:GetPolicy
 bedrock-agentcore:GetPolicyEngine
 bedrock-agentcore:GetPolicyGeneration
+bedrock-agentcore:GetRegistry
+bedrock-agentcore:GetRegistryRecord
 bedrock-agentcore:GetResourceApiKey
 bedrock-agentcore:GetResourceOauth2Token
 bedrock-agentcore:GetResourcePolicy
@@ -1934,6 +1940,7 @@ bedrock-agentcore:InvokeAgentRuntimeWithWebSocketStream
 bedrock-agentcore:InvokeAgentRuntimeWithWebSocketStreamForUser
 bedrock-agentcore:InvokeCodeInterpreter
 bedrock-agentcore:InvokeGateway
+bedrock-agentcore:InvokeRegistryMcp
 bedrock-agentcore:ListActors
 bedrock-agentcore:ListAgentRuntimeEndpoints
 bedrock-agentcore:ListAgentRuntimeVersions
@@ -1957,6 +1964,8 @@ bedrock-agentcore:ListPolicies
 bedrock-agentcore:ListPolicyEngines
 bedrock-agentcore:ListPolicyGenerationAssets
 bedrock-agentcore:ListPolicyGenerations
+bedrock-agentcore:ListRegistries
+bedrock-agentcore:ListRegistryRecords
 bedrock-agentcore:ListSessions
 bedrock-agentcore:ListTagsForResource
 bedrock-agentcore:ListWorkloadIdentities
@@ -1966,6 +1975,7 @@ bedrock-agentcore:PartiallyAuthorizeActions
 bedrock-agentcore:PutResourcePolicy
 bedrock-agentcore:RetrieveMemoryRecords
 bedrock-agentcore:SaveBrowserSessionProfile
+bedrock-agentcore:SearchRegistryRecords
 bedrock-agentcore:SetTokenVaultCMK
 bedrock-agentcore:StartBrowserSession
 bedrock-agentcore:StartCodeInterpreterSession
@@ -1974,6 +1984,7 @@ bedrock-agentcore:StartPolicyGeneration
 bedrock-agentcore:StopBrowserSession
 bedrock-agentcore:StopCodeInterpreterSession
 bedrock-agentcore:StopRuntimeSession
+bedrock-agentcore:SubmitRegistryRecordForApproval
 bedrock-agentcore:SynchronizeGatewayTargets
 bedrock-agentcore:TagResource
 bedrock-agentcore:UntagResource
@@ -1989,6 +2000,9 @@ bedrock-agentcore:UpdateOauth2CredentialProvider
 bedrock-agentcore:UpdateOnlineEvaluationConfig
 bedrock-agentcore:UpdatePolicy
 bedrock-agentcore:UpdatePolicyEngine
+bedrock-agentcore:UpdateRegistry
+bedrock-agentcore:UpdateRegistryRecord
+bedrock-agentcore:UpdateRegistryRecordStatus
 bedrock-agentcore:UpdateWorkloadIdentity
 bedrock-mantle:ArchiveProject
 bedrock-mantle:AssociateCustomizedModel
