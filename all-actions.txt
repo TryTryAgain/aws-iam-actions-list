@@ -3560,6 +3560,7 @@ cloudwatch:GetMetricData
 cloudwatch:GetMetricStatistics
 cloudwatch:GetMetricStream
 cloudwatch:GetMetricWidgetImage
+cloudwatch:GetOTelEnrichment
 cloudwatch:GetService
 cloudwatch:GetServiceData
 cloudwatch:GetServiceLevelObjective
@@ -3586,7 +3587,9 @@ cloudwatch:PutMetricData
 cloudwatch:PutMetricStream
 cloudwatch:SetAlarmState
 cloudwatch:StartMetricStreams
+cloudwatch:StartOTelEnrichment
 cloudwatch:StopMetricStreams
+cloudwatch:StopOTelEnrichment
 cloudwatch:TagResource
 cloudwatch:UntagResource
 cloudwatch:UpdateServiceLevelObjective
