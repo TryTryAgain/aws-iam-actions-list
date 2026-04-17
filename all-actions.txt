@@ -4519,6 +4519,7 @@ connect-campaigns:DeleteCampaign
 connect-campaigns:DeleteCampaignChannelSubtypeConfig
 connect-campaigns:DeleteCampaignCommunicationLimits
 connect-campaigns:DeleteCampaignCommunicationTime
+connect-campaigns:DeleteCampaignEntryLimits
 connect-campaigns:DeleteConnectInstanceConfig
 connect-campaigns:DeleteConnectInstanceIntegration
 connect-campaigns:DeleteInstanceOnboardingJob
@@ -4547,6 +4548,7 @@ connect-campaigns:UpdateCampaignChannelSubtypeConfig
 connect-campaigns:UpdateCampaignCommunicationLimits
 connect-campaigns:UpdateCampaignCommunicationTime
 connect-campaigns:UpdateCampaignDialerConfig
+connect-campaigns:UpdateCampaignEntryLimits
 connect-campaigns:UpdateCampaignFlowAssociation
 connect-campaigns:UpdateCampaignName
 connect-campaigns:UpdateCampaignOutboundCallConfig
@@ -9140,6 +9142,7 @@ groundstation:DeleteDataflowEndpointGroup
 groundstation:DeleteEphemeris
 groundstation:DeleteMissionProfile
 groundstation:DescribeContact
+groundstation:DescribeContactVersion
 groundstation:DescribeEphemeris
 groundstation:GetAgentConfiguration
 groundstation:GetAgentTaskResponseUrl
@@ -9148,10 +9151,13 @@ groundstation:GetDataflowEndpointGroup
 groundstation:GetMinuteUsage
 groundstation:GetMissionProfile
 groundstation:GetSatellite
+groundstation:ListAntennas
 groundstation:ListConfigs
+groundstation:ListContactVersions
 groundstation:ListContacts
 groundstation:ListDataflowEndpointGroups
 groundstation:ListEphemerides
+groundstation:ListGroundStationReservations
 groundstation:ListGroundStations
 groundstation:ListMissionProfiles
 groundstation:ListSatellites
@@ -9162,6 +9168,7 @@ groundstation:TagResource
 groundstation:UntagResource
 groundstation:UpdateAgentStatus
 groundstation:UpdateConfig
+groundstation:UpdateContact
 groundstation:UpdateEphemeris
 groundstation:UpdateMissionProfile
 groundtruthlabeling:AssociatePatchToManifestJob
