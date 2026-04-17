@@ -2432,6 +2432,7 @@ cases:ListLayouts
 cases:ListTagsForResource
 cases:ListTemplates
 cases:PutCaseEventConfiguration
+cases:SearchAllRelatedItems
 cases:SearchCases
 cases:SearchRelatedItems
 cases:TagResource
