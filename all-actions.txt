@@ -2441,6 +2441,7 @@ cases:UpdateCase
 cases:UpdateCaseRule
 cases:UpdateField
 cases:UpdateLayout
+cases:UpdateRelatedItem
 cases:UpdateTemplate
 cassandra:Alter
 cassandra:AlterMultiRegionResource
