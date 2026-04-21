@@ -1489,6 +1489,7 @@ aws-marketplace:GetAgreementTerms
 aws-marketplace:GetBillingAdjustmentRequest
 aws-marketplace:GetBuyerDashboard
 aws-marketplace:GetEntitlements
+aws-marketplace:GetInvoiceSubmissionTask
 aws-marketplace:GetListing
 aws-marketplace:GetOffer
 aws-marketplace:GetOfferSet
@@ -1509,6 +1510,8 @@ aws-marketplace:ListChangeSets
 aws-marketplace:ListEntities
 aws-marketplace:ListEntitlementDetails
 aws-marketplace:ListFulfillmentOptions
+aws-marketplace:ListInvoiceSubmissionTasks
+aws-marketplace:ListPayables
 aws-marketplace:ListPrivateListings
 aws-marketplace:ListPrivateMarketplaceRequests
 aws-marketplace:ListPurchaseOptions
@@ -1529,6 +1532,7 @@ aws-marketplace:SendAgreementCancellationRequest
 aws-marketplace:SendAgreementPaymentRequest
 aws-marketplace:StartBuild
 aws-marketplace:StartChangeSet
+aws-marketplace:StartInvoiceSubmissionTask
 aws-marketplace:Subscribe
 aws-marketplace:TagResource
 aws-marketplace:Unsubscribe
