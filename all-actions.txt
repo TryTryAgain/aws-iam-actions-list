@@ -7734,14 +7734,20 @@ emr-serverless:DeleteApplication
 emr-serverless:GetApplication
 emr-serverless:GetDashboardForJobRun
 emr-serverless:GetJobRun
+emr-serverless:GetResourceDashboard
+emr-serverless:GetSession
+emr-serverless:GetSessionEndpoint
 emr-serverless:ListApplications
 emr-serverless:ListJobRunAttempts
 emr-serverless:ListJobRuns
+emr-serverless:ListSessions
 emr-serverless:ListTagsForResource
 emr-serverless:StartApplication
 emr-serverless:StartJobRun
+emr-serverless:StartSession
 emr-serverless:StopApplication
 emr-serverless:TagResource
+emr-serverless:TerminateSession
 emr-serverless:UntagResource
 emr-serverless:UpdateApplication
 entityresolution:AddPolicyStatement
@@ -10772,6 +10778,7 @@ iq:WriteReview
 ivs:BatchGetChannel
 ivs:BatchGetStreamKey
 ivs:BatchStartViewerSessionRevocation
+ivs:CreateAdConfiguration
 ivs:CreateChannel
 ivs:CreateEncoderConfiguration
 ivs:CreateIngestConfiguration
@@ -10781,6 +10788,7 @@ ivs:CreateRecordingConfiguration
 ivs:CreateStage
 ivs:CreateStorageConfiguration
 ivs:CreateStreamKey
+ivs:DeleteAdConfiguration
 ivs:DeleteChannel
 ivs:DeleteEncoderConfiguration
 ivs:DeleteIngestConfiguration
@@ -10792,6 +10800,7 @@ ivs:DeleteStage
 ivs:DeleteStorageConfiguration
 ivs:DeleteStreamKey
 ivs:DisconnectParticipant
+ivs:GetAdConfiguration
 ivs:GetChannel
 ivs:GetComposition
 ivs:GetEncoderConfiguration
@@ -10809,6 +10818,8 @@ ivs:GetStreamKey
 ivs:GetStreamSession
 ivs:ImportPlaybackKeyPair
 ivs:ImportPublicKey
+ivs:InsertAdBreak
+ivs:ListAdConfigurations
 ivs:ListChannels
 ivs:ListCompositions
 ivs:ListEncoderConfigurations
@@ -14473,6 +14484,8 @@ profile:CreateEventTrigger
 profile:CreateIntegrationWorkflow
 profile:CreateProfile
 profile:CreateRecommender
+profile:CreateRecommenderFilter
+profile:CreateRecommenderSchema
 profile:CreateSegmentDefinition
 profile:CreateSegmentEstimate
 profile:CreateSegmentSnapshot
@@ -14490,6 +14503,8 @@ profile:DeleteProfileKey
 profile:DeleteProfileObject
 profile:DeleteProfileObjectType
 profile:DeleteRecommender
+profile:DeleteRecommenderFilter
+profile:DeleteRecommenderSchema
 profile:DeleteSegmentDefinition
 profile:DeleteWorkflow
 profile:DetectProfileObjectType
@@ -14511,6 +14526,8 @@ profile:GetProfileObjectType
 profile:GetProfileObjectTypeTemplate
 profile:GetProfileRecommendations
 profile:GetRecommender
+profile:GetRecommenderFilter
+profile:GetRecommenderSchema
 profile:GetSegmentDefinition
 profile:GetSegmentEstimate
 profile:GetSegmentMembership
@@ -14539,7 +14556,9 @@ profile:ListProfileHistoryRecords
 profile:ListProfileObjectTypeTemplates
 profile:ListProfileObjectTypes
 profile:ListProfileObjects
+profile:ListRecommenderFilters
 profile:ListRecommenderRecipes
+profile:ListRecommenderSchemas
 profile:ListRecommenders
 profile:ListRuleBasedMatches
 profile:ListSegmentDefinitions
