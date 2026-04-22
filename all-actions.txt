@@ -16791,6 +16791,9 @@ sagemaker:BatchGetRecord
 sagemaker:BatchPutMetrics
 sagemaker:CallMlflowAppApi
 sagemaker:CallPartnerAppApi
+sagemaker:CreateAIBenchmarkJob
+sagemaker:CreateAIRecommendationJob
+sagemaker:CreateAIWorkloadConfig
 sagemaker:CreateAction
 sagemaker:CreateAlgorithm
 sagemaker:CreateApp
@@ -16862,6 +16865,9 @@ sagemaker:CreateTrialComponent
 sagemaker:CreateUserProfile
 sagemaker:CreateWorkforce
 sagemaker:CreateWorkteam
+sagemaker:DeleteAIBenchmarkJob
+sagemaker:DeleteAIRecommendationJob
+sagemaker:DeleteAIWorkloadConfig
 sagemaker:DeleteAction
 sagemaker:DeleteAlgorithm
 sagemaker:DeleteApp
@@ -16926,6 +16932,9 @@ sagemaker:DeleteWorkforce
 sagemaker:DeleteWorkteam
 sagemaker:DeployHubModel
 sagemaker:DeregisterDevices
+sagemaker:DescribeAIBenchmarkJob
+sagemaker:DescribeAIRecommendationJob
+sagemaker:DescribeAIWorkloadConfig
 sagemaker:DescribeAction
 sagemaker:DescribeAlgorithm
 sagemaker:DescribeApp
@@ -17017,6 +17026,9 @@ sagemaker:ImportHubContent
 sagemaker:InvokeEndpoint
 sagemaker:InvokeEndpointAsync
 sagemaker:InvokeEndpointWithResponseStream
+sagemaker:ListAIBenchmarkJobs
+sagemaker:ListAIRecommendationJobs
+sagemaker:ListAIWorkloadConfigs
 sagemaker:ListActions
 sagemaker:ListAlgorithms
 sagemaker:ListAliases
@@ -17129,6 +17141,8 @@ sagemaker:StartMonitoringSchedule
 sagemaker:StartNotebookInstance
 sagemaker:StartPipelineExecution
 sagemaker:StartSession
+sagemaker:StopAIBenchmarkJob
+sagemaker:StopAIRecommendationJob
 sagemaker:StopAutoMLJob
 sagemaker:StopCompilationJob
 sagemaker:StopEdgeDeploymentStage
