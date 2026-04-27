@@ -228,9 +228,12 @@ aidevops:CreateBacklogTask
 aidevops:CreateChat
 aidevops:CreateKnowledgeItem
 aidevops:CreateOneTimeLoginSession
+aidevops:CreatePrivateConnection
 aidevops:DeleteAgentSpace
 aidevops:DeleteKnowledgeItem
+aidevops:DeletePrivateConnection
 aidevops:DeregisterService
+aidevops:DescribePrivateConnection
 aidevops:DescribeSupportLevel
 aidevops:DisableOperatorApp
 aidevops:DisassociateService
@@ -256,6 +259,7 @@ aidevops:ListJournalRecords
 aidevops:ListKnowledgeItemVersions
 aidevops:ListKnowledgeItems
 aidevops:ListPendingMessages
+aidevops:ListPrivateConnections
 aidevops:ListRecommendations
 aidevops:ListServices
 aidevops:ListTagsForResource
@@ -271,6 +275,7 @@ aidevops:UpdateBacklogTask
 aidevops:UpdateGoal
 aidevops:UpdateKnowledgeItem
 aidevops:UpdateOperatorAppIdpConfig
+aidevops:UpdatePrivateConnectionCertificate
 aidevops:UpdateRecommendation
 aidevops:ValidateAwsAssociations
 aiops:CreateInvestigation
@@ -11194,6 +11199,7 @@ kms:GenerateDataKeyPairWithoutPlaintext
 kms:GenerateDataKeyWithoutPlaintext
 kms:GenerateMac
 kms:GenerateRandom
+kms:GetKeyLastUsage
 kms:GetKeyPolicy
 kms:GetKeyRotationStatus
 kms:GetParametersForImport
@@ -19554,9 +19560,6 @@ translate:TranslateText
 translate:UntagResource
 translate:UpdateParallelData
 trustedadvisor:BatchUpdateRecommendationResourceExclusion
-trustedadvisor:CreateEngagement
-trustedadvisor:CreateEngagementAttachment
-trustedadvisor:CreateEngagementCommunication
 trustedadvisor:DeleteNotificationConfigurationForDelegatedAdmin
 trustedadvisor:DescribeAccount
 trustedadvisor:DescribeAccountAccess
@@ -19577,17 +19580,11 @@ trustedadvisor:DescribeServiceMetadata
 trustedadvisor:DownloadRisk
 trustedadvisor:ExcludeCheckItems
 trustedadvisor:GenerateReport
-trustedadvisor:GetEngagement
-trustedadvisor:GetEngagementAttachment
-trustedadvisor:GetEngagementType
 trustedadvisor:GetOrganizationRecommendation
 trustedadvisor:GetRecommendation
 trustedadvisor:IncludeCheckItems
 trustedadvisor:ListAccountsForParent
 trustedadvisor:ListChecks
-trustedadvisor:ListEngagementCommunications
-trustedadvisor:ListEngagementTypes
-trustedadvisor:ListEngagements
 trustedadvisor:ListOrganizationRecommendationAccounts
 trustedadvisor:ListOrganizationRecommendationResources
 trustedadvisor:ListOrganizationRecommendations
@@ -19598,8 +19595,6 @@ trustedadvisor:ListRoots
 trustedadvisor:RefreshCheck
 trustedadvisor:SetAccountAccess
 trustedadvisor:SetOrganizationAccess
-trustedadvisor:UpdateEngagement
-trustedadvisor:UpdateEngagementStatus
 trustedadvisor:UpdateNotificationConfigurations
 trustedadvisor:UpdateNotificationPreferences
 trustedadvisor:UpdateOrganizationRecommendationLifecycle
