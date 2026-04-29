@@ -20099,6 +20099,7 @@ wickr:GetGuestUserHistoryCount
 wickr:GetNetwork
 wickr:GetNetworkSettings
 wickr:GetOidcInfo
+wickr:GetOpentdfConfig
 wickr:GetSecurityGroup
 wickr:GetUser
 wickr:GetUsersCount
@@ -20113,6 +20114,7 @@ wickr:ListTagsForResource
 wickr:ListUsers
 wickr:RegisterOidcConfig
 wickr:RegisterOidcConfigTest
+wickr:RegisterOpentdfConfig
 wickr:TagResource
 wickr:UntagResource
 wickr:UpdateBot
