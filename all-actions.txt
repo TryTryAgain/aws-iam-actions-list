@@ -700,6 +700,8 @@ application-autoscaling:PutScheduledAction
 application-autoscaling:RegisterScalableTarget
 application-autoscaling:TagResource
 application-autoscaling:UntagResource
+application-signals-mcp:CallReadOnlyTool
+application-signals-mcp:InvokeMcp
 application-signals:BatchGetServiceLevelObjectiveBudgetReport
 application-signals:BatchUpdateExclusionWindows
 application-signals:CreateServiceLevelObjective
