@@ -17594,6 +17594,7 @@ securityhub:EnableImportFindingsForProduct
 securityhub:EnableOrganizationAdminAccount
 securityhub:EnableSecurityHub
 securityhub:EnableSecurityHubV2
+securityhub:GenerateRecommendedPolicyV2
 securityhub:GetAdhocInsightResults
 securityhub:GetAdministratorAccount
 securityhub:GetAggregatorV2
@@ -17615,12 +17616,15 @@ securityhub:GetInsights
 securityhub:GetInvitationsCount
 securityhub:GetMasterAccount
 securityhub:GetMembers
+securityhub:GetRecommendedPolicyV2
 securityhub:GetResourcesStatisticsV2
 securityhub:GetResourcesTrendsV2
 securityhub:GetResourcesV2
 securityhub:GetSecurityControlDefinition
 securityhub:GetUsage
+securityhub:GetUsageV2
 securityhub:InviteMembers
+securityhub:ListAccountUsageV2
 securityhub:ListAggregatorsV2
 securityhub:ListAutomationRules
 securityhub:ListAutomationRulesV2
