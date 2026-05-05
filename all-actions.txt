@@ -106,8 +106,10 @@ access-analyzer:CheckNoPublicAccess
 access-analyzer:CreateAccessPreview
 access-analyzer:CreateAnalyzer
 access-analyzer:CreateArchiveRule
+access-analyzer:CreateServiceLinkedAnalyzer
 access-analyzer:DeleteAnalyzer
 access-analyzer:DeleteArchiveRule
+access-analyzer:DeleteServiceLinkedAnalyzer
 access-analyzer:GenerateFindingRecommendation
 access-analyzer:GetAccessPreview
 access-analyzer:GetAnalyzedResource
@@ -249,6 +251,7 @@ aidevops:DeleteKnowledgeItem
 aidevops:DeletePrivateConnection
 aidevops:DeregisterService
 aidevops:DescribePrivateConnection
+aidevops:DescribeServices
 aidevops:DescribeSupportLevel
 aidevops:DisableOperatorApp
 aidevops:DisassociateService
@@ -15858,6 +15861,12 @@ repostspace:TagResource
 repostspace:UntagResource
 repostspace:UpdateChannel
 repostspace:UpdateSpace
+researchstudio:AssignPrincipal
+researchstudio:CreateApplication
+researchstudio:DeleteApplication
+researchstudio:DeletePrincipal
+researchstudio:GetApplication
+researchstudio:ListApplications
 resiliencehub:AcceptResourceGroupingRecommendations
 resiliencehub:AddDraftAppVersionResourceMappings
 resiliencehub:BatchUpdateRecommendationStatus
@@ -20258,7 +20267,9 @@ wisdom:ListKnowledgeBases
 wisdom:ListMessageTemplateVersions
 wisdom:ListMessageTemplates
 wisdom:ListMessages
+wisdom:ListModels
 wisdom:ListQuickResponses
+wisdom:ListSpans
 wisdom:ListTagsForResource
 wisdom:NotifyRecommendationsReceived
 wisdom:PutFeedback
