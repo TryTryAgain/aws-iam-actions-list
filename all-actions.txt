@@ -1562,9 +1562,6 @@ aws-marketplace:UntagResource
 aws-marketplace:UpdateAgreementApprovalRequest
 aws-marketplace:UpdatePurchaseOrders
 aws-marketplace:ViewSubscriptions
-aws-mcp:CallReadOnlyTool
-aws-mcp:CallReadWriteTool
-aws-mcp:InvokeMcp
 aws-portal:GetConsoleActionSetEnforced
 aws-portal:ModifyAccount
 aws-portal:ModifyBilling
