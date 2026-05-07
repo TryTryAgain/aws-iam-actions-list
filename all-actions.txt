@@ -1913,6 +1913,11 @@ bedrock-agentcore:CreateHarness
 bedrock-agentcore:CreateMemory
 bedrock-agentcore:CreateOauth2CredentialProvider
 bedrock-agentcore:CreateOnlineEvaluationConfig
+bedrock-agentcore:CreatePaymentConnector
+bedrock-agentcore:CreatePaymentCredentialProvider
+bedrock-agentcore:CreatePaymentInstrument
+bedrock-agentcore:CreatePaymentManager
+bedrock-agentcore:CreatePaymentSession
 bedrock-agentcore:CreatePolicy
 bedrock-agentcore:CreatePolicyEngine
 bedrock-agentcore:CreateRegistry
@@ -1937,6 +1942,11 @@ bedrock-agentcore:DeleteMemory
 bedrock-agentcore:DeleteMemoryRecord
 bedrock-agentcore:DeleteOauth2CredentialProvider
 bedrock-agentcore:DeleteOnlineEvaluationConfig
+bedrock-agentcore:DeletePaymentConnector
+bedrock-agentcore:DeletePaymentCredentialProvider
+bedrock-agentcore:DeletePaymentInstrument
+bedrock-agentcore:DeletePaymentManager
+bedrock-agentcore:DeletePaymentSession
 bedrock-agentcore:DeletePolicy
 bedrock-agentcore:DeletePolicyEngine
 bedrock-agentcore:DeleteRecommendation
@@ -1968,6 +1978,12 @@ bedrock-agentcore:GetMemory
 bedrock-agentcore:GetMemoryRecord
 bedrock-agentcore:GetOauth2CredentialProvider
 bedrock-agentcore:GetOnlineEvaluationConfig
+bedrock-agentcore:GetPaymentConnector
+bedrock-agentcore:GetPaymentCredentialProvider
+bedrock-agentcore:GetPaymentInstrument
+bedrock-agentcore:GetPaymentInstrumentBalance
+bedrock-agentcore:GetPaymentManager
+bedrock-agentcore:GetPaymentSession
 bedrock-agentcore:GetPolicy
 bedrock-agentcore:GetPolicyEngine
 bedrock-agentcore:GetPolicyGeneration
@@ -1976,6 +1992,7 @@ bedrock-agentcore:GetRegistry
 bedrock-agentcore:GetRegistryRecord
 bedrock-agentcore:GetResourceApiKey
 bedrock-agentcore:GetResourceOauth2Token
+bedrock-agentcore:GetResourcePaymentToken
 bedrock-agentcore:GetResourcePolicy
 bedrock-agentcore:GetTokenVault
 bedrock-agentcore:GetWorkloadAccessToken
@@ -2016,6 +2033,11 @@ bedrock-agentcore:ListMemoryExtractionJobs
 bedrock-agentcore:ListMemoryRecords
 bedrock-agentcore:ListOauth2CredentialProviders
 bedrock-agentcore:ListOnlineEvaluationConfigs
+bedrock-agentcore:ListPaymentConnectors
+bedrock-agentcore:ListPaymentCredentialProviders
+bedrock-agentcore:ListPaymentInstruments
+bedrock-agentcore:ListPaymentManagers
+bedrock-agentcore:ListPaymentSessions
 bedrock-agentcore:ListPolicies
 bedrock-agentcore:ListPolicyEngines
 bedrock-agentcore:ListPolicyGenerationAssets
@@ -2029,6 +2051,7 @@ bedrock-agentcore:ListWorkloadIdentities
 bedrock-agentcore:ManageAdminPolicy
 bedrock-agentcore:ManageResourceScopedPolicy
 bedrock-agentcore:PartiallyAuthorizeActions
+bedrock-agentcore:ProcessPayment
 bedrock-agentcore:PutResourcePolicy
 bedrock-agentcore:RetrieveMemoryRecords
 bedrock-agentcore:SaveBrowserSessionProfile
@@ -2062,6 +2085,10 @@ bedrock-agentcore:UpdateHarness
 bedrock-agentcore:UpdateMemory
 bedrock-agentcore:UpdateOauth2CredentialProvider
 bedrock-agentcore:UpdateOnlineEvaluationConfig
+bedrock-agentcore:UpdatePaymentConnector
+bedrock-agentcore:UpdatePaymentCredentialProvider
+bedrock-agentcore:UpdatePaymentManager
+bedrock-agentcore:UpdatePaymentSession
 bedrock-agentcore:UpdatePolicy
 bedrock-agentcore:UpdatePolicyEngine
 bedrock-agentcore:UpdateRegistry
