@@ -2090,7 +2090,6 @@ bedrock-agentcore:UpdateOnlineEvaluationConfig
 bedrock-agentcore:UpdatePaymentConnector
 bedrock-agentcore:UpdatePaymentCredentialProvider
 bedrock-agentcore:UpdatePaymentManager
-bedrock-agentcore:UpdatePaymentSession
 bedrock-agentcore:UpdatePolicy
 bedrock-agentcore:UpdatePolicyEngine
 bedrock-agentcore:UpdateRegistry
