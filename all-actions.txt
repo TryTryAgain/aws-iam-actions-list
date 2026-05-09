@@ -1484,7 +1484,7 @@ aws-external-anthropic:ListAgents
 aws-external-anthropic:ListBatchInferences
 aws-external-anthropic:ListEnvironments
 aws-external-anthropic:ListFiles
-aws-external-anthropic:ListMemoriesStore
+aws-external-anthropic:ListMemoryStores
 aws-external-anthropic:ListModels
 aws-external-anthropic:ListSessions
 aws-external-anthropic:ListSkills
