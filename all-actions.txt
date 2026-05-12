@@ -2421,6 +2421,7 @@ billing:GetBillingPreferences
 billing:GetBillingView
 billing:GetBillingViewData
 billing:GetContractInformation
+billing:GetCreditAllocationHistory
 billing:GetCredits
 billing:GetIAMAccessPreference
 billing:GetResourcePolicy
@@ -9866,6 +9867,7 @@ importexport:UpdateJob
 inspector-scan:ScanSbom
 inspector2-telemetry:NotifyHeartbeat
 inspector2-telemetry:SendTelemetry
+inspector2-telemetry:SendTelemetryEvent
 inspector2-telemetry:StartSession
 inspector2-telemetry:StopSession
 inspector2:AssociateMember
