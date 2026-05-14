@@ -2021,7 +2021,10 @@ bedrock-agentcore:GetPaymentManager
 bedrock-agentcore:GetPaymentSession
 bedrock-agentcore:GetPolicy
 bedrock-agentcore:GetPolicyEngine
+bedrock-agentcore:GetPolicyEngineSummary
 bedrock-agentcore:GetPolicyGeneration
+bedrock-agentcore:GetPolicyGenerationSummary
+bedrock-agentcore:GetPolicySummary
 bedrock-agentcore:GetRecommendation
 bedrock-agentcore:GetRegistry
 bedrock-agentcore:GetRegistryRecord
@@ -2074,9 +2077,12 @@ bedrock-agentcore:ListPaymentInstruments
 bedrock-agentcore:ListPaymentManagers
 bedrock-agentcore:ListPaymentSessions
 bedrock-agentcore:ListPolicies
+bedrock-agentcore:ListPolicyEngineSummaries
 bedrock-agentcore:ListPolicyEngines
 bedrock-agentcore:ListPolicyGenerationAssets
+bedrock-agentcore:ListPolicyGenerationSummaries
 bedrock-agentcore:ListPolicyGenerations
+bedrock-agentcore:ListPolicySummaries
 bedrock-agentcore:ListRecommendations
 bedrock-agentcore:ListRegistries
 bedrock-agentcore:ListRegistryRecords
@@ -16967,6 +16973,7 @@ sagemaker-mlflow:UpdateRun
 sagemaker-unified-studio-mcp:CallPrivilegedTool
 sagemaker-unified-studio-mcp:CallReadOnlyTool
 sagemaker-unified-studio-mcp:InvokeMcp
+sagemaker:AccessModelPackage
 sagemaker:AddAssociation
 sagemaker:AddTags
 sagemaker:AssociateTrialComponent
