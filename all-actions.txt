@@ -8150,6 +8150,7 @@ evs:DeleteEnvironment
 evs:DeleteEnvironmentConnector
 evs:DeleteEnvironmentHost
 evs:DisassociateEipFromVlan
+evs:GetDepotUrl
 evs:GetEnvironment
 evs:GetVersions
 evs:ListEnvironmentConnectors
