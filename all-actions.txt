@@ -1751,6 +1751,7 @@ backup:GetBackupVaultAccessPolicy
 backup:GetBackupVaultNotifications
 backup:GetBackupVaultSharingPolicy
 backup:GetLegalHold
+backup:GetPITRMalwareScanResults
 backup:GetRecoveryPointIndexDetails
 backup:GetRecoveryPointRestoreMetadata
 backup:GetRestoreJobMetadata
