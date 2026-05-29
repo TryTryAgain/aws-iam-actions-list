@@ -5626,6 +5626,7 @@ deadline:DeleteQueueEnvironment
 deadline:DeleteQueueFleetAssociation
 deadline:DeleteQueueLimitAssociation
 deadline:DeleteStorageProfile
+deadline:DeleteVolume
 deadline:DeleteWorker
 deadline:DisassociateMemberFromFarm
 deadline:DisassociateMemberFromFleet
@@ -5652,6 +5653,7 @@ deadline:GetStep
 deadline:GetStorageProfile
 deadline:GetStorageProfileForQueue
 deadline:GetTask
+deadline:GetVolume
 deadline:GetWorker
 deadline:ListAvailableMeteredProducts
 deadline:ListBudgets
@@ -5681,6 +5683,7 @@ deadline:ListStorageProfiles
 deadline:ListStorageProfilesForQueue
 deadline:ListTagsForResource
 deadline:ListTasks
+deadline:ListVolumes
 deadline:ListWorkers
 deadline:PutMeteredProduct
 deadline:SearchJobs
@@ -16504,6 +16507,7 @@ route53resolver:ListFirewallDomainLists
 route53resolver:ListFirewallDomains
 route53resolver:ListFirewallRuleGroupAssociations
 route53resolver:ListFirewallRuleGroups
+route53resolver:ListFirewallRuleTypes
 route53resolver:ListFirewallRules
 route53resolver:ListOutpostResolvers
 route53resolver:ListResolverConfigs
@@ -18211,6 +18215,7 @@ ses:PutEmailIdentityFeedbackAttributes
 ses:PutEmailIdentityMailFromAttributes
 ses:PutIdentityPolicy
 ses:PutSuppressedDestination
+ses:PutTenantSuppressionAttributes
 ses:RegisterMemberToAddressList
 ses:ReorderReceiptRuleSet
 ses:ReplicateEmailIdentityDkimSigningKey
