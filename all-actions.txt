@@ -4324,6 +4324,7 @@ cognito-idp:CreateUserImportJob
 cognito-idp:CreateUserPool
 cognito-idp:CreateUserPoolClient
 cognito-idp:CreateUserPoolDomain
+cognito-idp:CreateUserPoolReplica
 cognito-idp:DeleteGroup
 cognito-idp:DeleteIdentityProvider
 cognito-idp:DeleteManagedLoginBranding
@@ -4335,6 +4336,7 @@ cognito-idp:DeleteUserPool
 cognito-idp:DeleteUserPoolClient
 cognito-idp:DeleteUserPoolClientSecret
 cognito-idp:DeleteUserPoolDomain
+cognito-idp:DeleteUserPoolReplica
 cognito-idp:DescribeIdentityProvider
 cognito-idp:DescribeManagedLoginBranding
 cognito-idp:DescribeManagedLoginBrandingByClient
@@ -4372,6 +4374,7 @@ cognito-idp:ListTerms
 cognito-idp:ListUserImportJobs
 cognito-idp:ListUserPoolClientSecrets
 cognito-idp:ListUserPoolClients
+cognito-idp:ListUserPoolReplicas
 cognito-idp:ListUserPools
 cognito-idp:ListUsers
 cognito-idp:ListUsersInGroup
@@ -4400,6 +4403,7 @@ cognito-idp:UpdateUserAttributes
 cognito-idp:UpdateUserPool
 cognito-idp:UpdateUserPoolClient
 cognito-idp:UpdateUserPoolDomain
+cognito-idp:UpdateUserPoolReplica
 cognito-idp:VerifySoftwareToken
 cognito-idp:VerifyUserAttribute
 cognito-sync:BulkPublish
@@ -11059,6 +11063,7 @@ ivs:StopParticipantReplication
 ivs:StopStream
 ivs:TagResource
 ivs:UntagResource
+ivs:UpdateAdConfiguration
 ivs:UpdateChannel
 ivs:UpdateIngestConfiguration
 ivs:UpdatePlaybackRestrictionPolicy
