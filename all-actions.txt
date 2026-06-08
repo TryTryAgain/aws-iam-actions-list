@@ -6440,6 +6440,7 @@ ec2-instance-connect:SendSerialConsoleSSHPublicKey
 ec2:AcceptAddressTransfer
 ec2:AcceptCapacityReservationBillingOwnership
 ec2:AcceptReservedInstancesExchangeQuote
+ec2:AcceptTransitGatewayClientVpnAttachment
 ec2:AcceptTransitGatewayMulticastDomainAssociations
 ec2:AcceptTransitGatewayPeeringAttachment
 ec2:AcceptTransitGatewayVpcAttachment
@@ -6504,6 +6505,7 @@ ec2:CopyVolumes
 ec2:CreateCapacityManagerDataExport
 ec2:CreateCapacityReservation
 ec2:CreateCapacityReservationBySplitting
+ec2:CreateCapacityReservationCancellationQuote
 ec2:CreateCapacityReservationFleet
 ec2:CreateCarrierGateway
 ec2:CreateClientVpnEndpoint
@@ -6676,6 +6678,7 @@ ec2:DeleteTrafficMirrorFilterRule
 ec2:DeleteTrafficMirrorSession
 ec2:DeleteTrafficMirrorTarget
 ec2:DeleteTransitGateway
+ec2:DeleteTransitGatewayClientVpnAttachment
 ec2:DeleteTransitGatewayConnect
 ec2:DeleteTransitGatewayConnectPeer
 ec2:DeleteTransitGatewayMeteringPolicy
@@ -6728,6 +6731,7 @@ ec2:DescribeCapacityBlockStatus
 ec2:DescribeCapacityBlocks
 ec2:DescribeCapacityManagerDataExports
 ec2:DescribeCapacityReservationBillingRequests
+ec2:DescribeCapacityReservationCancellationQuotes
 ec2:DescribeCapacityReservationFleets
 ec2:DescribeCapacityReservationTopology
 ec2:DescribeCapacityReservations
@@ -6785,6 +6789,7 @@ ec2:DescribeInternetGateways
 ec2:DescribeIpamByoasn
 ec2:DescribeIpamExternalResourceVerificationTokens
 ec2:DescribeIpamPolicies
+ec2:DescribeIpamPoolAllocations
 ec2:DescribeIpamPools
 ec2:DescribeIpamPrefixListResolverTargets
 ec2:DescribeIpamPrefixListResolvers
@@ -6983,6 +6988,7 @@ ec2:GetAwsNetworkPerformanceData
 ec2:GetCapacityManagerAttributes
 ec2:GetCapacityManagerMetricData
 ec2:GetCapacityManagerMetricDimensions
+ec2:GetCapacityManagerMonitoredTagKeys
 ec2:GetCapacityReservationUsage
 ec2:GetCoipPoolUsage
 ec2:GetConsoleOutput
@@ -7016,6 +7022,7 @@ ec2:GetIpamResourceCidrs
 ec2:GetLaunchTemplateData
 ec2:GetManagedPrefixListAssociations
 ec2:GetManagedPrefixListEntries
+ec2:GetManagedResourceVisibility
 ec2:GetNetworkInsightsAccessScopeAnalysisFindings
 ec2:GetNetworkInsightsAccessScopeContent
 ec2:GetPasswordData
@@ -7086,6 +7093,7 @@ ec2:ModifyInstancePlacement
 ec2:ModifyIpam
 ec2:ModifyIpamPolicyAllocationRules
 ec2:ModifyIpamPool
+ec2:ModifyIpamPoolAllocation
 ec2:ModifyIpamPrefixListResolver
 ec2:ModifyIpamPrefixListResolverTarget
 ec2:ModifyIpamResourceCidr
@@ -7094,6 +7102,7 @@ ec2:ModifyIpamScope
 ec2:ModifyLaunchTemplate
 ec2:ModifyLocalGatewayRoute
 ec2:ModifyManagedPrefixList
+ec2:ModifyManagedResourceVisibility
 ec2:ModifyNetworkInterfaceAttribute
 ec2:ModifyOdbNetworkPeering
 ec2:ModifyPrivateDnsNameOptions
@@ -7157,6 +7166,7 @@ ec2:RegisterInstanceEventNotificationAttributes
 ec2:RegisterTransitGatewayMulticastGroupMembers
 ec2:RegisterTransitGatewayMulticastGroupSources
 ec2:RejectCapacityReservationBillingOwnership
+ec2:RejectTransitGatewayClientVpnAttachment
 ec2:RejectTransitGatewayMulticastDomainAssociations
 ec2:RejectTransitGatewayPeeringAttachment
 ec2:RejectTransitGatewayVpcAttachment
@@ -7212,6 +7222,7 @@ ec2:UnassignPrivateIpAddresses
 ec2:UnassignPrivateNatGatewayAddress
 ec2:UnlockSnapshot
 ec2:UnmonitorInstances
+ec2:UpdateCapacityManagerMonitoredTagKeys
 ec2:UpdateCapacityManagerOrganizationsAccess
 ec2:UpdateInterruptibleCapacityReservationAllocation
 ec2:UpdateSecurityGroupRuleDescriptionsEgress
