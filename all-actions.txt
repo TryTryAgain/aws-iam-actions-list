@@ -2173,6 +2173,7 @@ bedrock-mantle:DeleteFile
 bedrock-mantle:DeleteInference
 bedrock-mantle:DeleteReservation
 bedrock-mantle:DisassociateCustomizedModel
+bedrock-mantle:GetAccountDataRetention
 bedrock-mantle:GetCustomizedModel
 bedrock-mantle:GetFile
 bedrock-mantle:GetFineTuningJob
@@ -2188,6 +2189,7 @@ bedrock-mantle:ListModels
 bedrock-mantle:ListProjects
 bedrock-mantle:ListReservations
 bedrock-mantle:ListTagsForResource
+bedrock-mantle:PutAccountDataRetention
 bedrock-mantle:TagResource
 bedrock-mantle:UntagResource
 bedrock-mantle:UpdateProject
@@ -2275,6 +2277,7 @@ bedrock:DisassociateAgentKnowledgeBase
 bedrock:EndSession
 bedrock:ExportAutomatedReasoningPolicyVersion
 bedrock:GenerateQuery
+bedrock:GetAccountDataRetention
 bedrock:GetAgent
 bedrock:GetAgentActionGroup
 bedrock:GetAgentAlias
@@ -2393,6 +2396,7 @@ bedrock:ListTagsForResource
 bedrock:OptimizePrompt
 bedrock:PrepareAgent
 bedrock:PrepareFlow
+bedrock:PutAccountDataRetention
 bedrock:PutEnforcedGuardrailConfiguration
 bedrock:PutFoundationModelEntitlement
 bedrock:PutInvocationStep
