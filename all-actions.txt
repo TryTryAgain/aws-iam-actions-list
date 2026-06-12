@@ -1478,6 +1478,7 @@ aws-external-anthropic:CreateSkill
 aws-external-anthropic:CreateUserProfile
 aws-external-anthropic:CreateUserProfileEnrollmentUrl
 aws-external-anthropic:CreateVault
+aws-external-anthropic:CreateWebhook
 aws-external-anthropic:CreateWorkspace
 aws-external-anthropic:DeleteBatchInference
 aws-external-anthropic:DeleteEnvironment
@@ -1486,6 +1487,7 @@ aws-external-anthropic:DeleteMemoryStore
 aws-external-anthropic:DeleteSession
 aws-external-anthropic:DeleteSkill
 aws-external-anthropic:DeleteVault
+aws-external-anthropic:DeleteWebhook
 aws-external-anthropic:GetAccountStatus
 aws-external-anthropic:GetAgent
 aws-external-anthropic:GetBatchInference
@@ -1497,6 +1499,7 @@ aws-external-anthropic:GetSession
 aws-external-anthropic:GetSkill
 aws-external-anthropic:GetUserProfile
 aws-external-anthropic:GetVault
+aws-external-anthropic:GetWebhook
 aws-external-anthropic:GetWorkspace
 aws-external-anthropic:ListAgents
 aws-external-anthropic:ListBatchInferences
@@ -1509,7 +1512,10 @@ aws-external-anthropic:ListSkills
 aws-external-anthropic:ListTagsForResource
 aws-external-anthropic:ListUserProfiles
 aws-external-anthropic:ListVaults
+aws-external-anthropic:ListWebhooks
 aws-external-anthropic:ListWorkspaces
+aws-external-anthropic:ProcessEnvironmentWork
+aws-external-anthropic:RotateWebhookSecret
 aws-external-anthropic:TagResource
 aws-external-anthropic:UntagResource
 aws-external-anthropic:UpdateAgent
@@ -1519,6 +1525,7 @@ aws-external-anthropic:UpdateSession
 aws-external-anthropic:UpdateSkill
 aws-external-anthropic:UpdateUserProfile
 aws-external-anthropic:UpdateVault
+aws-external-anthropic:UpdateWebhook
 aws-external-anthropic:UpdateWorkspace
 aws-marketplace-management:GetAdditionalSellerNotificationRecipients
 aws-marketplace-management:GetBankAccountVerificationDetails
@@ -18513,10 +18520,19 @@ signer:SignPayload
 signer:StartSigningJob
 signer:TagResource
 signer:UntagResource
+signin:Authenticate
 signin:AuthorizeOAuth2Access
+signin:CreateAccount
 signin:CreateOAuth2Token
 signin:CreateTrustedIdentityPropagationApplicationForConsole
+signin:DeleteConsoleAuthorizationConfiguration
+signin:DeleteResourcePermissionStatement
+signin:GetConsoleAuthorizationConfiguration
+signin:GetResourcePolicy
+signin:ListResourcePermissionStatements
 signin:ListTrustedIdentityPropagationApplicationsForConsole
+signin:PutConsoleAuthorizationConfiguration
+signin:PutResourcePermissionStatement
 simspaceweaver:CreateSnapshot
 simspaceweaver:DeleteApp
 simspaceweaver:DeleteSimulation
