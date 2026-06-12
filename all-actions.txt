@@ -9638,6 +9638,7 @@ healthlake:StartFHIRImportJob
 healthlake:SubmitPreAuthClaim
 healthlake:TagResource
 healthlake:UntagResource
+healthlake:UpdateFHIRDatastore
 healthlake:UpdateResource
 healthlake:ValidateResource
 healthlake:VersionReadResource
