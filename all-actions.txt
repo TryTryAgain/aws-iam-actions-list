@@ -16824,6 +16824,7 @@ s3-outposts:ReplicateDelete
 s3-outposts:ReplicateObject
 s3-outposts:ReplicateTags
 s3:AbortMultipartUpload
+s3:AllowVendedLogDeliveryForResource
 s3:AssociateAccessGrantsIdentityCenter
 s3:BypassGovernanceRetention
 s3:CreateAccessGrant
