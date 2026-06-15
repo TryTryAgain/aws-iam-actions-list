@@ -20463,6 +20463,9 @@ wafv2:GetMobileSdkRelease
 wafv2:GetPermissionPolicy
 wafv2:GetRateBasedStatementManagedKeys
 wafv2:GetRegexPatternSet
+wafv2:GetRevenueStatistics
+wafv2:GetRevenueStatisticsSummary
+wafv2:GetRevenueStatisticsTimeSeries
 wafv2:GetRuleGroup
 wafv2:GetSampledRequests
 wafv2:GetTopPathStatisticsByTraffic
@@ -20478,6 +20481,7 @@ wafv2:ListMobileSdkReleases
 wafv2:ListRegexPatternSets
 wafv2:ListResourcesForWebACL
 wafv2:ListRuleGroups
+wafv2:ListSettlementRecords
 wafv2:ListTagsForResource
 wafv2:ListWebACLs
 wafv2:PutFirewallManagerRuleGroups
