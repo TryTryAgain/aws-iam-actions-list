@@ -2211,16 +2211,19 @@ bedrock-mantle:TagResource
 bedrock-mantle:UntagResource
 bedrock-mantle:UpdateProject
 bedrock-mantle:UpdateReservation
+bedrock:AgenticRetrieveStream
 bedrock:AllowVendedLogDeliveryForResource
 bedrock:ApplyGuardrail
 bedrock:AssociateAgentCollaborator
 bedrock:AssociateAgentKnowledgeBase
 bedrock:AssociateThirdPartyKnowledgeBase
+bedrock:BatchDeleteAdvancedPromptOptimizationJob
 bedrock:BatchDeleteEvaluationJob
 bedrock:CallWithBearerToken
 bedrock:CancelAutomatedReasoningPolicyBuildWorkflow
 bedrock:CopyBlueprintStage
 bedrock:CountTokens
+bedrock:CreateAdvancedPromptOptimizationJob
 bedrock:CreateAgent
 bedrock:CreateAgentActionGroup
 bedrock:CreateAgentAlias
@@ -2295,6 +2298,7 @@ bedrock:EndSession
 bedrock:ExportAutomatedReasoningPolicyVersion
 bedrock:GenerateQuery
 bedrock:GetAccountDataRetention
+bedrock:GetAdvancedPromptOptimizationJob
 bedrock:GetAgent
 bedrock:GetAgentActionGroup
 bedrock:GetAgentAlias
@@ -2321,6 +2325,7 @@ bedrock:GetDataAutomationLibraryIngestionJob
 bedrock:GetDataAutomationProject
 bedrock:GetDataAutomationStatus
 bedrock:GetDataSource
+bedrock:GetDocumentContent
 bedrock:GetEvaluationJob
 bedrock:GetExecutionFlowSnapshot
 bedrock:GetFlow
@@ -2359,10 +2364,12 @@ bedrock:InvokeDataAutomation
 bedrock:InvokeDataAutomationAsync
 bedrock:InvokeDataAutomationLibraryIngestionJob
 bedrock:InvokeFlow
+bedrock:InvokeGuardrailChecks
 bedrock:InvokeInlineAgent
 bedrock:InvokeModel
 bedrock:InvokeModelWithResponseStream
 bedrock:InvokeTool
+bedrock:ListAdvancedPromptOptimizationJobs
 bedrock:ListAgentActionGroups
 bedrock:ListAgentAliases
 bedrock:ListAgentCollaborators
@@ -2429,6 +2436,7 @@ bedrock:StartAutomatedReasoningPolicyBuildWorkflow
 bedrock:StartAutomatedReasoningPolicyTestWorkflow
 bedrock:StartFlowExecution
 bedrock:StartIngestionJob
+bedrock:StopAdvancedPromptOptimizationJob
 bedrock:StopEvaluationJob
 bedrock:StopFlowExecution
 bedrock:StopIngestionJob
@@ -14435,6 +14443,7 @@ partnercentral:GetPartnerProfile
 partnercentral:GetProfileUpdateTask
 partnercentral:GetProfileVisibility
 partnercentral:GetProgramManagementAccount
+partnercentral:GetProspectingFromEngagementTask
 partnercentral:GetRelationship
 partnercentral:GetResourceSnapshot
 partnercentral:GetResourceSnapshotJob
@@ -14459,6 +14468,7 @@ partnercentral:ListOpportunityFromEngagementTasks
 partnercentral:ListPartnerPaths
 partnercentral:ListPartners
 partnercentral:ListProgramManagementAccounts
+partnercentral:ListProspectingFromEngagementTasks
 partnercentral:ListRelationships
 partnercentral:ListResourceSnapshotJobs
 partnercentral:ListResourceSnapshots
@@ -14478,6 +14488,7 @@ partnercentral:StartEngagementByAcceptingInvitationTask
 partnercentral:StartEngagementFromOpportunityTask
 partnercentral:StartOpportunityFromEngagementTask
 partnercentral:StartProfileUpdateTask
+partnercentral:StartProspectingFromEngagementTask
 partnercentral:StartResourceSnapshotJob
 partnercentral:StartVerification
 partnercentral:StopResourceSnapshotJob
