@@ -223,6 +223,8 @@ activate:GetCredits
 activate:GetMemberInfo
 activate:GetProgram
 activate:PutMemberInfo
+agentaccess-mcp:CallForwardedTool
+agentaccess-mcp:CheckConnectionStatus
 agentaccess-mcp:DoubleClick
 agentaccess-mcp:GetScreenshot
 agentaccess-mcp:HoldKey
@@ -3745,6 +3747,7 @@ cloudwatch:GenerateQuery
 cloudwatch:GenerateQueryResultsSummary
 cloudwatch:GetAlarmMuteRule
 cloudwatch:GetDashboard
+cloudwatch:GetDataset
 cloudwatch:GetInsightRuleReport
 cloudwatch:GetMetricData
 cloudwatch:GetMetricStatistics
@@ -3771,6 +3774,7 @@ cloudwatch:PutAnomalyDetector
 cloudwatch:PutCompositeAlarm
 cloudwatch:PutDashboard
 cloudwatch:PutInsightRule
+cloudwatch:PutLogAlarm
 cloudwatch:PutManagedInsightRules
 cloudwatch:PutMetricAlarm
 cloudwatch:PutMetricData
