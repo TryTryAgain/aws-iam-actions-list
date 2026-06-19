@@ -5473,6 +5473,7 @@ datazone:GetAssetType
 datazone:GetCell
 datazone:GetCellRun
 datazone:GetCellRunResult
+datazone:GetCompute
 datazone:GetConnection
 datazone:GetConversation
 datazone:GetDataExportConfiguration
@@ -5579,12 +5580,15 @@ datazone:SendMessage
 datazone:SsoLogin
 datazone:SsoLogout
 datazone:StartAccountBootstrapAction
+datazone:StartCompute
 datazone:StartConversation
 datazone:StartDataSourceRun
 datazone:StartMetadataGenerationRun
 datazone:StartNotebookCompute
 datazone:StartNotebookExport
 datazone:StartNotebookImport
+datazone:StartNotebookSync
+datazone:StopCompute
 datazone:StopMetadataGenerationRun
 datazone:StopNotebookCompute
 datazone:TagResource
@@ -13440,6 +13444,7 @@ mq:DescribeBrokerEngineTypes
 mq:DescribeBrokerInstanceOptions
 mq:DescribeConfiguration
 mq:DescribeConfigurationRevision
+mq:DescribeSharedResources
 mq:DescribeUser
 mq:ListBrokers
 mq:ListConfigurationRevisions
@@ -15270,10 +15275,12 @@ qldb:UpdateLedger
 qldb:UpdateLedgerPermissionsMode
 quicksight:AccountConfigurations
 quicksight:AllowVendedLogDeliveryForResource
+quicksight:BatchAssignLimitsProfile
 quicksight:BatchCreateTopicReviewedAnswer
 quicksight:BatchDeleteKnowledgeBase
 quicksight:BatchDeleteTopicReviewedAnswer
 quicksight:BatchGetPreferences
+quicksight:BatchUnassignLimitsProfile
 quicksight:BatchUpdatePreferences
 quicksight:CancelIngestion
 quicksight:CreateAccountCustomization
@@ -15296,6 +15303,7 @@ quicksight:CreateGroup
 quicksight:CreateGroupMembership
 quicksight:CreateIAMPolicyAssignment
 quicksight:CreateIngestion
+quicksight:CreateLimitsProfile
 quicksight:CreateNamespace
 quicksight:CreateOAuthClientApplication
 quicksight:CreateReader
@@ -15334,6 +15342,7 @@ quicksight:DeleteGroupMembership
 quicksight:DeleteIAMPolicyAssignment
 quicksight:DeleteIdentityPropagationConfig
 quicksight:DeleteKnowledgeBase
+quicksight:DeleteLimitsProfile
 quicksight:DeleteNamespace
 quicksight:DeleteOAuthClientApplication
 quicksight:DeleteRefreshSchedule
@@ -15362,6 +15371,8 @@ quicksight:DescribeAnalysis
 quicksight:DescribeAnalysisPermissions
 quicksight:DescribeAssetBundleExportJob
 quicksight:DescribeAssetBundleImportJob
+quicksight:DescribeAutomationGroup
+quicksight:DescribeAutomationGroupPermissions
 quicksight:DescribeAutomationJob
 quicksight:DescribeBrand
 quicksight:DescribeBrandAssignment
@@ -15393,6 +15404,7 @@ quicksight:DescribeIpRestriction
 quicksight:DescribeKeyRegistration
 quicksight:DescribeKnowledgeBase
 quicksight:DescribeKnowledgeBasePermissions
+quicksight:DescribeLimitsProfile
 quicksight:DescribeNamespace
 quicksight:DescribeOAuthClientApplication
 quicksight:DescribeQPersonalizationConfiguration
@@ -15432,6 +15444,8 @@ quicksight:ListAgents
 quicksight:ListAnalyses
 quicksight:ListAssetBundleExportJobs
 quicksight:ListAssetBundleImportJobs
+quicksight:ListAssignmentsForPrincipal
+quicksight:ListAutomationGroups
 quicksight:ListBrands
 quicksight:ListCustomPermissions
 quicksight:ListCustomerManagedKeys
@@ -15452,8 +15466,10 @@ quicksight:ListIdentityPropagationConfigs
 quicksight:ListIngestions
 quicksight:ListKMSKeysForUser
 quicksight:ListKnowledgeBases
+quicksight:ListLimitsProfiles
 quicksight:ListNamespaces
 quicksight:ListOAuthClientApplications
+quicksight:ListProfileAssignments
 quicksight:ListRefreshSchedules
 quicksight:ListRoleMemberships
 quicksight:ListSelfUpgrades
@@ -15486,6 +15502,7 @@ quicksight:ScopeDownPolicy
 quicksight:SearchActionConnectors
 quicksight:SearchAgents
 quicksight:SearchAnalyses
+quicksight:SearchAutomationGroups
 quicksight:SearchDashboards
 quicksight:SearchDataSets
 quicksight:SearchDataSources
@@ -15518,6 +15535,7 @@ quicksight:UpdateAgentPermissions
 quicksight:UpdateAnalysis
 quicksight:UpdateAnalysisPermissions
 quicksight:UpdateApplicationWithTokenExchangeGrant
+quicksight:UpdateAutomationGroupPermissions
 quicksight:UpdateBrand
 quicksight:UpdateBrandAssignment
 quicksight:UpdateBrandPublishedVersion
@@ -15545,6 +15563,7 @@ quicksight:UpdateIdentityPropagationConfig
 quicksight:UpdateIpRestriction
 quicksight:UpdateKeyRegistration
 quicksight:UpdateKnowledgeBasePermissions
+quicksight:UpdateLimitsProfile
 quicksight:UpdateOAuthClientApplication
 quicksight:UpdatePublicSharingSettings
 quicksight:UpdateQPersonalizationConfiguration
