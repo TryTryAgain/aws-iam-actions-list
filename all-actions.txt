@@ -20134,6 +20134,7 @@ transform-custom:ListSources
 transform-custom:ListTagsForResource
 transform-custom:ListTransformationPackageMetadata
 transform-custom:ListTransformationPackageShares
+transform-custom:SendTelemetryEvent
 transform-custom:ShareTransformationPackage
 transform-custom:TagResource
 transform-custom:UnshareTransformationPackage
