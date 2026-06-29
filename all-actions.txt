@@ -6539,6 +6539,7 @@ ec2:AssociateVerifiedAccessInstanceWebAcl
 ec2:AssociateVpcCidrBlock
 ec2:AttachApplianceToNatGateway
 ec2:AttachClassicLinkVpc
+ec2:AttachImageWatermark
 ec2:AttachInternetGateway
 ec2:AttachNetworkInterface
 ec2:AttachResourcesToPlacementGroup
@@ -6969,6 +6970,7 @@ ec2:DescribeVpnConnections
 ec2:DescribeVpnGateways
 ec2:DetachApplianceFromNatGateway
 ec2:DetachClassicLinkVpc
+ec2:DetachImageWatermark
 ec2:DetachInternetGateway
 ec2:DetachNetworkInterface
 ec2:DetachResourcesFromPlacementGroup
@@ -8112,6 +8114,7 @@ es:GetIndex
 es:GetPackageVersionHistory
 es:GetUpgradeHistory
 es:GetUpgradeStatus
+es:InsightFeedback
 es:ListApplications
 es:ListDataSourceAttachments
 es:ListDataSources
