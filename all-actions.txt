@@ -3785,6 +3785,7 @@ cloudwatch:DeleteAnomalyDetector
 cloudwatch:DeleteDashboards
 cloudwatch:DeleteInsightRules
 cloudwatch:DeleteMetricStream
+cloudwatch:DeletePipelineRule
 cloudwatch:DeleteServiceLevelObjective
 cloudwatch:DescribeAlarmHistory
 cloudwatch:DescribeAlarms
@@ -3832,6 +3833,7 @@ cloudwatch:PutManagedInsightRules
 cloudwatch:PutMetricAlarm
 cloudwatch:PutMetricData
 cloudwatch:PutMetricStream
+cloudwatch:PutPipelineRule
 cloudwatch:SetAlarmState
 cloudwatch:StartMetricStreams
 cloudwatch:StartOTelEnrichment
