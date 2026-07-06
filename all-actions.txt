@@ -12280,6 +12280,7 @@ logs:GetLookupTable
 logs:GetQueryResults
 logs:GetScheduledQuery
 logs:GetScheduledQueryHistory
+logs:GetStorageTierPolicy
 logs:GetTransformer
 logs:IntegrateWithS3Table
 logs:Link
@@ -12315,6 +12316,7 @@ logs:PutPipelineRule
 logs:PutQueryDefinition
 logs:PutResourcePolicy
 logs:PutRetentionPolicy
+logs:PutStorageTierPolicy
 logs:PutSubscriptionFilter
 logs:PutSyslogConfiguration
 logs:PutTransformer
