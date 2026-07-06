@@ -4461,6 +4461,7 @@ cognito-idp:GetDevice
 cognito-idp:GetGroup
 cognito-idp:GetIdentityProviderByIdentifier
 cognito-idp:GetLogDeliveryConfiguration
+cognito-idp:GetProvisionedLimit
 cognito-idp:GetSigningCertificate
 cognito-idp:GetTokensFromRefreshToken
 cognito-idp:GetUICustomization
@@ -4503,6 +4504,7 @@ cognito-idp:UpdateDeviceStatus
 cognito-idp:UpdateGroup
 cognito-idp:UpdateIdentityProvider
 cognito-idp:UpdateManagedLoginBranding
+cognito-idp:UpdateProvisionedLimit
 cognito-idp:UpdateResourceServer
 cognito-idp:UpdateTerms
 cognito-idp:UpdateUserAttributes
@@ -19801,6 +19803,18 @@ supportapp:PutAccountAlias
 supportapp:RedeemSlackOauthCode
 supportapp:RegisterSlackWorkspaceForOrganization
 supportapp:UpdateSlackChannelConfiguration
+supportauthz:CreateSupportPermit
+supportauthz:DeleteSupportPermit
+supportauthz:GetAction
+supportauthz:GetSupportPermit
+supportauthz:ListActions
+supportauthz:ListSupportPermitRequests
+supportauthz:ListSupportPermits
+supportauthz:ListTagsForResource
+supportauthz:RegisterKey
+supportauthz:RejectSupportPermitRequest
+supportauthz:TagResource
+supportauthz:UntagResource
 supportplans:CreateSupportPlanSchedule
 supportplans:GetSupportPlan
 supportplans:GetSupportPlanUpdateStatus
