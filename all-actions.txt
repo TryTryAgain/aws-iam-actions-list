@@ -14267,6 +14267,7 @@ opensearch:GetDirectQueryResult
 opensearch:ListAutoOptimizeJobs
 opensearch:StartDirectQuery
 opensearch:SubmitAutoOptimizeJob
+opensearch:ViewLoginPage
 opsworks-cm:AssociateNode
 opsworks-cm:CreateBackup
 opsworks-cm:CreateServer
@@ -14592,6 +14593,9 @@ partnercentral:GetProfileUpdateTask
 partnercentral:GetProfileVisibility
 partnercentral:GetProgramManagementAccount
 partnercentral:GetProspectingFromEngagementTask
+partnercentral:GetQualificationsAssociationDetails
+partnercentral:GetQualificationsAssociationTask
+partnercentral:GetQualificationsDisassociationTask
 partnercentral:GetRelationship
 partnercentral:GetResourceSnapshot
 partnercentral:GetResourceSnapshotJob
@@ -14644,6 +14648,8 @@ partnercentral:StartEngagementFromOpportunityTask
 partnercentral:StartOpportunityFromEngagementTask
 partnercentral:StartProfileUpdateTask
 partnercentral:StartProspectingFromEngagementTask
+partnercentral:StartQualificationsAssociationTask
+partnercentral:StartQualificationsDisassociationTask
 partnercentral:StartResourceSnapshotJob
 partnercentral:StartRevenueAttributionAllocationsTask
 partnercentral:StartVerification
