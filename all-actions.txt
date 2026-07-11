@@ -15443,6 +15443,7 @@ quicksight:CreateGroup
 quicksight:CreateGroupMembership
 quicksight:CreateIAMPolicyAssignment
 quicksight:CreateIngestion
+quicksight:CreateKnowledgeBase
 quicksight:CreateLimitsProfile
 quicksight:CreateNamespace
 quicksight:CreateOAuthClientApplication
@@ -15702,6 +15703,7 @@ quicksight:UpdateIAMPolicyAssignment
 quicksight:UpdateIdentityPropagationConfig
 quicksight:UpdateIpRestriction
 quicksight:UpdateKeyRegistration
+quicksight:UpdateKnowledgeBase
 quicksight:UpdateKnowledgeBasePermissions
 quicksight:UpdateLimitsProfile
 quicksight:UpdateOAuthClientApplication
