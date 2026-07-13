@@ -5477,6 +5477,7 @@ datazone:CreateConnection
 datazone:CreateDataProduct
 datazone:CreateDataProductRevision
 datazone:CreateDataSource
+datazone:CreateDesignation
 datazone:CreateDomain
 datazone:CreateDomainUnit
 datazone:CreateEnvironment
@@ -5507,6 +5508,7 @@ datazone:DeleteConnection
 datazone:DeleteDataExportConfiguration
 datazone:DeleteDataProduct
 datazone:DeleteDataSource
+datazone:DeleteDesignation
 datazone:DeleteDomain
 datazone:DeleteDomainSharingPolicy
 datazone:DeleteDomainUnit
@@ -5542,10 +5544,12 @@ datazone:GetCellRunResult
 datazone:GetCompute
 datazone:GetConnection
 datazone:GetConversation
+datazone:GetCurrentEffectivePolicy
 datazone:GetDataExportConfiguration
 datazone:GetDataProduct
 datazone:GetDataSource
 datazone:GetDataSourceRun
+datazone:GetDesignation
 datazone:GetDomain
 datazone:GetDomainExecutionRoleCredentials
 datazone:GetDomainSharingPolicy
@@ -5593,6 +5597,7 @@ datazone:ListDataProductRevisions
 datazone:ListDataSourceRunActivities
 datazone:ListDataSourceRuns
 datazone:ListDataSources
+datazone:ListDesignations
 datazone:ListDomainUnitsForParent
 datazone:ListDomains
 datazone:ListEntityOwners
@@ -5666,6 +5671,7 @@ datazone:UpdateCellRun
 datazone:UpdateConnection
 datazone:UpdateDataSource
 datazone:UpdateDataSourceRunActivities
+datazone:UpdateDesignation
 datazone:UpdateDomain
 datazone:UpdateDomainUnit
 datazone:UpdateEnvironment
@@ -5686,6 +5692,7 @@ datazone:UpdateSubscriptionRequest
 datazone:UpdateSubscriptionTarget
 datazone:UpdateUserProfile
 datazone:ValidatePassRole
+datazone:ValidatePolicy
 dax:BatchGetItem
 dax:BatchWriteItem
 dax:ConditionCheckItem
@@ -9065,6 +9072,7 @@ globalaccelerator:UpdateCustomRoutingListener
 globalaccelerator:UpdateEndpointGroup
 globalaccelerator:UpdateListener
 globalaccelerator:WithdrawByoipCidr
+glue:AccessDataQualityRuntimeConfiguration
 glue:AuthorizeInboundIntegration
 glue:BatchCreatePartition
 glue:BatchDeleteConnection
@@ -9681,6 +9689,7 @@ health-agent:ListDomains
 health-agent:ListIntegrations
 health-agent:ListPatientAppointments
 health-agent:ListPatientInsuranceCoverages
+health-agent:ListPatientMedications
 health-agent:ListProviders
 health-agent:ListSessionRecords
 health-agent:ListSubscriptions
@@ -9688,9 +9697,11 @@ health-agent:ListTagsForResource
 health-agent:MatchPatient
 health-agent:PublishAgent
 health-agent:RescheduleAppointment
+health-agent:ResetPassword
 health-agent:ScheduleAppointment
 health-agent:StartMedicalScribeListeningSession
 health-agent:StartPatientInsightsJob
+health-agent:SubmitMedicationRenewal
 health-agent:TagResource
 health-agent:UntagResource
 health-agent:UpdateAgent
