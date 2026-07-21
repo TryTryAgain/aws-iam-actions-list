@@ -1628,6 +1628,7 @@ aws-marketplace:GetOfferTerms
 aws-marketplace:GetProduct
 aws-marketplace:GetResourcePolicy
 aws-marketplace:GetSellerDashboard
+aws-marketplace:GetTaxComplianceProfile
 aws-marketplace:GetVerification
 aws-marketplace:GetVerificationEvidence
 aws-marketplace:ListAgreementApprovalRequests
@@ -1650,6 +1651,8 @@ aws-marketplace:ListPrivateListings
 aws-marketplace:ListPrivateMarketplaceRequests
 aws-marketplace:ListPurchaseOptions
 aws-marketplace:ListTagsForResource
+aws-marketplace:ListTaxComplianceProfileChangeTasks
+aws-marketplace:ListTaxComplianceProfiles
 aws-marketplace:ListVerificationEvidence
 aws-marketplace:ListVerifications
 aws-marketplace:MeterUsage
@@ -1669,6 +1672,7 @@ aws-marketplace:SendAgreementPaymentRequest
 aws-marketplace:StartBuild
 aws-marketplace:StartChangeSet
 aws-marketplace:StartInvoiceSubmissionTask
+aws-marketplace:StartTaxComplianceProfileChangeTask
 aws-marketplace:StartVerification
 aws-marketplace:Subscribe
 aws-marketplace:TagResource
