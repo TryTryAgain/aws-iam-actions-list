@@ -2535,9 +2535,7 @@ billing:GetBillingViewData
 billing:GetContractInformation
 billing:GetCreditAllocationHistory
 billing:GetCredits
-billing:GetCumulativeTracking
 billing:GetIAMAccessPreference
-billing:GetMonthlyTracking
 billing:GetResourcePolicy
 billing:GetSellerOfRecord
 billing:ListBillingViews
@@ -5084,6 +5082,7 @@ connect:SearchQueues
 connect:SearchQuickConnects
 connect:SearchResourceTags
 connect:SearchRoutingProfiles
+connect:SearchRules
 connect:SearchSecurityProfiles
 connect:SearchUserHierarchyGroups
 connect:SearchUsers
