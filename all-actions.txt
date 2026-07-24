@@ -4936,6 +4936,7 @@ connect:DeleteWorkspace
 connect:DeleteWorkspaceMedia
 connect:DeleteWorkspacePage
 connect:DescribeAgentStatus
+connect:DescribeAttachedFilesConfiguration
 connect:DescribeAuthenticationProfile
 connect:DescribeContact
 connect:DescribeContactEvaluation
@@ -5009,6 +5010,7 @@ connect:ListAnalyticsDataAssociations
 connect:ListAnalyticsDataLakeDataSets
 connect:ListApprovedOrigins
 connect:ListAssociatedContacts
+connect:ListAttachedFilesConfigurations
 connect:ListAuthenticationProfiles
 connect:ListBots
 connect:ListContactEvaluations
@@ -5136,6 +5138,7 @@ connect:TransferContact
 connect:UntagContact
 connect:UntagResource
 connect:UpdateAgentStatus
+connect:UpdateAttachedFilesConfiguration
 connect:UpdateAuthenticationProfile
 connect:UpdateContact
 connect:UpdateContactAttributes
