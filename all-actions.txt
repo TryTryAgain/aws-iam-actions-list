@@ -16010,6 +16010,7 @@ redshift-data:GetStagingBucketLocation
 redshift-data:GetStatementResult
 redshift-data:ListDatabases
 redshift-data:ListSchemas
+redshift-data:ListSessions
 redshift-data:ListStatements
 redshift-data:ListTables
 redshift-serverless:ConvertRecoveryPointToSnapshot
