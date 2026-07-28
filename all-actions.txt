@@ -14148,6 +14148,7 @@ odb:ListCloudVmClusters
 odb:ListDbNodes
 odb:ListDbServers
 odb:ListDbSystemShapes
+odb:ListFlexComponents
 odb:ListGiVersions
 odb:ListOdbNetworks
 odb:ListOdbPeeringConnections
@@ -20391,6 +20392,7 @@ trustedadvisor:ListOrganizationRecommendations
 trustedadvisor:ListOrganizationalUnitsForParent
 trustedadvisor:ListRecommendationResources
 trustedadvisor:ListRecommendations
+trustedadvisor:ListRecommendationsForResource
 trustedadvisor:ListRoots
 trustedadvisor:RefreshCheck
 trustedadvisor:SetAccountAccess
