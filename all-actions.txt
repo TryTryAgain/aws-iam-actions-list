@@ -5593,6 +5593,7 @@ datazone:GetMetadataGenerationRun
 datazone:GetNotebook
 datazone:GetNotebookCompute
 datazone:GetNotebookExport
+datazone:GetNotebookRun
 datazone:GetProject
 datazone:GetProjectProfile
 datazone:GetRule
@@ -5632,6 +5633,7 @@ datazone:ListLineageEvents
 datazone:ListLineageNodeHistory
 datazone:ListLinkedTypes
 datazone:ListMetadataGenerationRuns
+datazone:ListNotebookRuns
 datazone:ListNotebooks
 datazone:ListNotifications
 datazone:ListPolicyGrants
@@ -5677,10 +5679,12 @@ datazone:StartMetadataGenerationRun
 datazone:StartNotebookCompute
 datazone:StartNotebookExport
 datazone:StartNotebookImport
+datazone:StartNotebookRun
 datazone:StartNotebookSync
 datazone:StopCompute
 datazone:StopMetadataGenerationRun
 datazone:StopNotebookCompute
+datazone:StopNotebookRun
 datazone:TagResource
 datazone:UntagResource
 datazone:UpdateAccountPool
@@ -14682,6 +14686,7 @@ partnercentral:PutAllianceLeadContact
 partnercentral:PutBusinessPlan
 partnercentral:PutProfileVisibility
 partnercentral:PutSellingSystemSettings
+partnercentral:QueryDataset
 partnercentral:RecallBenefitApplication
 partnercentral:RejectChannelHandshake
 partnercentral:RejectConnectionInvitation
