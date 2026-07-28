@@ -145,6 +145,7 @@ account:GetAlternateContact
 account:GetContactInformation
 account:GetGovCloudAccountInformation
 account:GetPrimaryEmail
+account:GetPrimaryEmailUpdateStatus
 account:GetRegionOptStatus
 account:ListRegions
 account:PutAccountName
