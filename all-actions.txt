@@ -15022,6 +15022,7 @@ pricing:GetAttributeValues
 pricing:GetPriceListFileUrl
 pricing:GetProducts
 pricing:ListPriceLists
+pricingplanmanager:ApprovePaidSubscription
 pricingplanmanager:AssociateResourcesToSubscription
 pricingplanmanager:CancelSubscription
 pricingplanmanager:CancelSubscriptionChange
