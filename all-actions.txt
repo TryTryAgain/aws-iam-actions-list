@@ -2549,10 +2549,13 @@ billing:GetBillingViewData
 billing:GetContractInformation
 billing:GetCreditAllocationHistory
 billing:GetCredits
+billing:GetEnterpriseSupportChargeSummary
+billing:GetEnterpriseSupportContractDetails
 billing:GetIAMAccessPreference
 billing:GetResourcePolicy
 billing:GetSellerOfRecord
 billing:ListBillingViews
+billing:ListEnterpriseSupportLinkedAccountCharges
 billing:ListSourceViewsForBillingView
 billing:ListTagsForResource
 billing:PutContractInformation
