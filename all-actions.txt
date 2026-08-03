@@ -2280,6 +2280,9 @@ bedrock-mantle:TagResource
 bedrock-mantle:UntagResource
 bedrock-mantle:UpdateProject
 bedrock-mantle:UpdateReservation
+bedrock-websearch:ExternalWebAccess
+bedrock-websearch:InvokeFetch
+bedrock-websearch:InvokeSearch
 bedrock:AgenticRetrieveStream
 bedrock:AllowVendedLogDeliveryForResource
 bedrock:ApplyGuardrail
