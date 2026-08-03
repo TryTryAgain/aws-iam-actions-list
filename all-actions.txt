@@ -15753,6 +15753,7 @@ quicksight:ListUsersIndexCapacity
 quicksight:ListVPCConnections
 quicksight:PassDataSet
 quicksight:PassDataSource
+quicksight:PassTopic
 quicksight:PredictQAResults
 quicksight:PutDataSetRefreshProperties
 quicksight:QuickSuiteUsageMetrics
@@ -20134,14 +20135,18 @@ thinclient:UntagResource
 thinclient:UpdateDevice
 thinclient:UpdateEnvironment
 thinclient:UpdateSoftwareSet
+timestream-influxdb:CreateDbBackup
 timestream-influxdb:CreateDbCluster
 timestream-influxdb:CreateDbInstance
 timestream-influxdb:CreateDbParameterGroup
+timestream-influxdb:DeleteDbBackup
 timestream-influxdb:DeleteDbCluster
 timestream-influxdb:DeleteDbInstance
+timestream-influxdb:GetDbBackup
 timestream-influxdb:GetDbCluster
 timestream-influxdb:GetDbInstance
 timestream-influxdb:GetDbParameterGroup
+timestream-influxdb:ListDbBackups
 timestream-influxdb:ListDbClusters
 timestream-influxdb:ListDbInstances
 timestream-influxdb:ListDbInstancesForCluster
@@ -20149,6 +20154,7 @@ timestream-influxdb:ListDbParameterGroups
 timestream-influxdb:ListTagsForResource
 timestream-influxdb:RebootDbCluster
 timestream-influxdb:RebootDbInstance
+timestream-influxdb:RestoreFromDbBackup
 timestream-influxdb:TagResource
 timestream-influxdb:UntagResource
 timestream-influxdb:UpdateDbCluster
