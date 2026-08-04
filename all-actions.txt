@@ -8203,6 +8203,7 @@ es:GetDefaultApplicationSetting
 es:GetDirectQueryDataSource
 es:GetDomainMaintenanceStatus
 es:GetIndex
+es:GetMigration
 es:GetPackageVersionHistory
 es:GetUpgradeHistory
 es:GetUpgradeStatus
@@ -8219,6 +8220,7 @@ es:ListElasticsearchInstanceTypes
 es:ListElasticsearchVersions
 es:ListInsights
 es:ListInstanceTypeDetails
+es:ListMigrations
 es:ListPackagesForDomain
 es:ListScheduledActions
 es:ListTags
@@ -8238,6 +8240,7 @@ es:RollbackElasticsearchServiceSoftwareUpdate
 es:RollbackServiceSoftwareUpdate
 es:StartDomainMaintenance
 es:StartElasticsearchServiceSoftwareUpdate
+es:StartMigration
 es:StartServiceSoftwareUpdate
 es:UpdateApplication
 es:UpdateDataSource
