@@ -6566,6 +6566,7 @@ dynamodb:RestoreTableFromAwsBackup
 dynamodb:RestoreTableFromBackup
 dynamodb:RestoreTableToPointInTime
 dynamodb:Scan
+dynamodb:SearchVectors
 dynamodb:StartAwsBackupJob
 dynamodb:TagResource
 dynamodb:UntagResource
