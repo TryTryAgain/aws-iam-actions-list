@@ -7908,6 +7908,8 @@ elasticmapreduce:GetClusterSessionCredentials
 elasticmapreduce:GetManagedScalingPolicy
 elasticmapreduce:GetOnClusterAppUIPresignedURL
 elasticmapreduce:GetPersistentAppUIPresignedURL
+elasticmapreduce:GetSession
+elasticmapreduce:GetSessionEndpoint
 elasticmapreduce:GetStudioSessionMapping
 elasticmapreduce:LinkRepository
 elasticmapreduce:ListBootstrapActions
@@ -7920,6 +7922,7 @@ elasticmapreduce:ListNotebookExecutions
 elasticmapreduce:ListReleaseLabels
 elasticmapreduce:ListRepositories
 elasticmapreduce:ListSecurityConfigurations
+elasticmapreduce:ListSessions
 elasticmapreduce:ListSteps
 elasticmapreduce:ListStudioSessionMappings
 elasticmapreduce:ListStudios
@@ -7945,9 +7948,11 @@ elasticmapreduce:SetUnhealthyNodeReplacement
 elasticmapreduce:SetVisibleToAllUsers
 elasticmapreduce:StartEditor
 elasticmapreduce:StartNotebookExecution
+elasticmapreduce:StartSession
 elasticmapreduce:StopEditor
 elasticmapreduce:StopNotebookExecution
 elasticmapreduce:TerminateJobFlows
+elasticmapreduce:TerminateSession
 elasticmapreduce:UnlinkRepository
 elasticmapreduce:UpdateEditor
 elasticmapreduce:UpdateRepository
@@ -15536,12 +15541,11 @@ qldb:UpdateLedger
 qldb:UpdateLedgerPermissionsMode
 quicksight:AccountConfigurations
 quicksight:AllowVendedLogDeliveryForResource
-quicksight:BatchAssignLimitsProfile
 quicksight:BatchCreateTopicReviewedAnswer
 quicksight:BatchDeleteKnowledgeBase
 quicksight:BatchDeleteTopicReviewedAnswer
+quicksight:BatchDescribeUserLimits
 quicksight:BatchGetPreferences
-quicksight:BatchUnassignLimitsProfile
 quicksight:BatchUpdatePreferences
 quicksight:CancelIngestion
 quicksight:CreateAccountCustomization
@@ -15555,6 +15559,7 @@ quicksight:CreateCustomPermissions
 quicksight:CreateDashboard
 quicksight:CreateDataSet
 quicksight:CreateDataSource
+quicksight:CreateDlpSetting
 quicksight:CreateEmailCustomizationTemplate
 quicksight:CreateExtensionAccess
 quicksight:CreateFlow
@@ -15595,6 +15600,7 @@ quicksight:DeleteDataSet
 quicksight:DeleteDataSetRefreshProperties
 quicksight:DeleteDataSource
 quicksight:DeleteDefaultQBusinessApplication
+quicksight:DeleteDlpSetting
 quicksight:DeleteEmailCustomizationTemplate
 quicksight:DeleteExtensionAccess
 quicksight:DeleteFlow
@@ -15655,6 +15661,8 @@ quicksight:DescribeDataSetRefreshProperties
 quicksight:DescribeDataSource
 quicksight:DescribeDataSourcePermissions
 quicksight:DescribeDefaultQBusinessApplication
+quicksight:DescribeDlpJob
+quicksight:DescribeDlpSetting
 quicksight:DescribeEmailCustomizationTemplate
 quicksight:DescribeExtensionAccess
 quicksight:DescribeFlow
@@ -15719,6 +15727,8 @@ quicksight:ListDashboardVersions
 quicksight:ListDashboards
 quicksight:ListDataSets
 quicksight:ListDataSources
+quicksight:ListDlpLabels
+quicksight:ListDlpSettings
 quicksight:ListExtensionAccesses
 quicksight:ListFlows
 quicksight:ListFolderMembers
@@ -15788,6 +15798,7 @@ quicksight:StartAssetBundleImportJob
 quicksight:StartAutomationJob
 quicksight:StartDashboardSnapshotJob
 quicksight:StartDashboardSnapshotJobSchedule
+quicksight:StartDlpJob
 quicksight:Subscribe
 quicksight:TagResource
 quicksight:UnpublishFlow
@@ -15820,6 +15831,7 @@ quicksight:UpdateDataSetPermissions
 quicksight:UpdateDataSource
 quicksight:UpdateDataSourcePermissions
 quicksight:UpdateDefaultQBusinessApplication
+quicksight:UpdateDlpSetting
 quicksight:UpdateEmailCustomizationTemplate
 quicksight:UpdateExtensionAccess
 quicksight:UpdateFlow
