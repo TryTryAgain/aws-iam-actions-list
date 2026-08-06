@@ -1844,6 +1844,9 @@ backup:GetRestoreTestingPlan
 backup:GetRestoreTestingSelection
 backup:GetSupportedResourceTypes
 backup:GetTieringConfiguration
+backup:ListBackupAccessPoints
+backup:ListBackupAccessPointsByRecoveryPoint
+backup:ListBackupAccessPointsByResource
 backup:ListBackupJobSummaries
 backup:ListBackupJobs
 backup:ListBackupPlanTemplates
@@ -6206,6 +6209,7 @@ dms:DescribeReplications
 dms:DescribeSchemas
 dms:DescribeTableStatistics
 dms:ExportMetadataModelAssessment
+dms:GetMetadataModel
 dms:GetTargetSelectionRules
 dms:ImportCertificate
 dms:ListDataProviders
@@ -18378,6 +18382,7 @@ securityhub:ListConnectorsV2
 securityhub:ListControlEvaluationSummaries
 securityhub:ListEnabledProductsForImport
 securityhub:ListFindingAggregators
+securityhub:ListFreeTrialStatusesV2
 securityhub:ListInvitations
 securityhub:ListMembers
 securityhub:ListOrganizationAdminAccounts
