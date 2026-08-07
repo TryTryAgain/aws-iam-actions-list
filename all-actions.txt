@@ -5527,6 +5527,7 @@ datazone:BatchGetCell
 datazone:BatchGetCellRun
 datazone:BatchPutAttributesMetadata
 datazone:BatchPutLinkedTypes
+datazone:BatchUpdateNotifications
 datazone:CancelMessage
 datazone:CancelMetadataGenerationRun
 datazone:CancelSubscription
