@@ -135,6 +135,17 @@ access-analyzer:UpdateAnalyzer
 access-analyzer:UpdateArchiveRule
 access-analyzer:UpdateFindings
 access-analyzer:ValidatePolicy
+account-access:CreateApplication
+account-access:CreateEntitlement
+account-access:DeleteApplication
+account-access:DeleteEntitlement
+account-access:GetApplication
+account-access:GetEntitlement
+account-access:ListApplications
+account-access:ListEntitlements
+account-access:ListTagsForResource
+account-access:TagResource
+account-access:UntagResource
 account:AcceptPrimaryEmailUpdate
 account:CloseAccount
 account:DeleteAlternateContact
