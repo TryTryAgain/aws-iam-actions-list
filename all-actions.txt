@@ -3269,6 +3269,7 @@ cleanrooms:DeleteMember
 cleanrooms:DeleteMembership
 cleanrooms:DeletePrivacyBudgetTemplate
 cleanrooms:DisallowIntermediateTable
+cleanrooms:GetAnalysisLogExport
 cleanrooms:GetAnalysisTemplate
 cleanrooms:GetCollaboration
 cleanrooms:GetCollaborationAnalysisTemplate
@@ -3291,6 +3292,7 @@ cleanrooms:GetProtectedJob
 cleanrooms:GetProtectedQuery
 cleanrooms:GetSchema
 cleanrooms:GetSchemaAnalysisRule
+cleanrooms:ListAnalysisLogExports
 cleanrooms:ListAnalysisTemplates
 cleanrooms:ListCollaborationAnalysisTemplates
 cleanrooms:ListCollaborationChangeRequests
@@ -3319,6 +3321,7 @@ cleanrooms:PassMembership
 cleanrooms:PopulateIdMappingTable
 cleanrooms:PopulateIntermediateTable
 cleanrooms:PreviewPrivacyImpact
+cleanrooms:StartAnalysisLogExport
 cleanrooms:StartProtectedJob
 cleanrooms:StartProtectedQuery
 cleanrooms:TagResource
@@ -4934,6 +4937,7 @@ connect:CreateHoursOfOperation
 connect:CreateHoursOfOperationOverride
 connect:CreateInstance
 connect:CreateIntegrationAssociation
+connect:CreateMetric
 connect:CreateNotification
 connect:CreateParticipant
 connect:CreatePersistentContactAssociation
@@ -4971,6 +4975,7 @@ connect:DeleteHoursOfOperation
 connect:DeleteHoursOfOperationOverride
 connect:DeleteInstance
 connect:DeleteIntegrationAssociation
+connect:DeleteMetric
 connect:DeleteNotification
 connect:DeletePredefinedAttribute
 connect:DeletePrompt
@@ -5009,6 +5014,7 @@ connect:DescribeHoursOfOperationOverride
 connect:DescribeInstance
 connect:DescribeInstanceAttribute
 connect:DescribeInstanceStorageConfig
+connect:DescribeMetric
 connect:DescribeNotification
 connect:DescribePhoneNumber
 connect:DescribePredefinedAttribute
@@ -5093,6 +5099,7 @@ connect:ListInstances
 connect:ListIntegrationAssociations
 connect:ListLambdaFunctions
 connect:ListLexBots
+connect:ListMetrics
 connect:ListNotifications
 connect:ListPhoneNumbers
 connect:ListPhoneNumbersV2
@@ -5145,6 +5152,7 @@ connect:SearchEmailAddresses
 connect:SearchEvaluationForms
 connect:SearchHoursOfOperationOverrides
 connect:SearchHoursOfOperations
+connect:SearchMetrics
 connect:SearchNotifications
 connect:SearchPredefinedAttributes
 connect:SearchPrompts
@@ -5216,6 +5224,8 @@ connect:UpdateHoursOfOperation
 connect:UpdateHoursOfOperationOverride
 connect:UpdateInstanceAttribute
 connect:UpdateInstanceStorageConfig
+connect:UpdateMetricContent
+connect:UpdateMetricMetadata
 connect:UpdateNotificationContent
 connect:UpdateParticipantAuthentication
 connect:UpdateParticipantRoleConfig
@@ -15604,6 +15614,7 @@ quicksight:CreateActionConnector
 quicksight:CreateAdmin
 quicksight:CreateAgent
 quicksight:CreateAnalysis
+quicksight:CreateApprovalPolicy
 quicksight:CreateBrand
 quicksight:CreateCustomPermissions
 quicksight:CreateDashboard
@@ -15642,6 +15653,7 @@ quicksight:DeleteActionConnector
 quicksight:DeleteAgent
 quicksight:DeleteAnalysis
 quicksight:DeleteApp
+quicksight:DeleteApprovalPolicy
 quicksight:DeleteBrand
 quicksight:DeleteBrandAssignment
 quicksight:DeleteCustomPermissions
@@ -15690,6 +15702,7 @@ quicksight:DescribeAnalysis
 quicksight:DescribeAnalysisPermissions
 quicksight:DescribeApp
 quicksight:DescribeAppPermissions
+quicksight:DescribeApprovalPolicy
 quicksight:DescribeAssetBundleExportJob
 quicksight:DescribeAssetBundleImportJob
 quicksight:DescribeAutomationGroup
@@ -15765,10 +15778,10 @@ quicksight:GetSessionEmbedUrl
 quicksight:ListActionConnectors
 quicksight:ListAgents
 quicksight:ListAnalyses
+quicksight:ListApprovalPolicies
 quicksight:ListApps
 quicksight:ListAssetBundleExportJobs
 quicksight:ListAssetBundleImportJobs
-quicksight:ListAssignmentsForPrincipal
 quicksight:ListAutomationGroups
 quicksight:ListBrands
 quicksight:ListCustomPermissions
@@ -15795,7 +15808,6 @@ quicksight:ListKnowledgeBases
 quicksight:ListLimitsProfiles
 quicksight:ListNamespaces
 quicksight:ListOAuthClientApplications
-quicksight:ListProfileAssignments
 quicksight:ListRefreshSchedules
 quicksight:ListRoleMemberships
 quicksight:ListSelfUpgrades
@@ -15865,6 +15877,7 @@ quicksight:UpdateAnalysis
 quicksight:UpdateAnalysisPermissions
 quicksight:UpdateAppPermissions
 quicksight:UpdateApplicationWithTokenExchangeGrant
+quicksight:UpdateApprovalPolicy
 quicksight:UpdateAutomationGroupPermissions
 quicksight:UpdateBrand
 quicksight:UpdateBrandAssignment
