@@ -9987,6 +9987,7 @@ iam:GetAccountAuthorizationDetails
 iam:GetAccountEmailAddress
 iam:GetAccountName
 iam:GetAccountPasswordPolicy
+iam:GetAccountProperties
 iam:GetAccountSummary
 iam:GetCloudFrontPublicKey
 iam:GetContextKeysForCustomPolicy
@@ -10006,6 +10007,7 @@ iam:GetPolicy
 iam:GetPolicyVersion
 iam:GetRole
 iam:GetRolePolicy
+iam:GetRoleTemplateVersion
 iam:GetSAMLProvider
 iam:GetSSHPublicKey
 iam:GetServerCertificate
@@ -10053,6 +10055,7 @@ iam:ListUserTags
 iam:ListUsers
 iam:ListVirtualMFADevices
 iam:PassRole
+iam:PutAccountProperties
 iam:PutGroupPolicy
 iam:PutRolePermissionsBoundary
 iam:PutRolePolicy
@@ -14232,6 +14235,7 @@ observabilityadmin:UpdateTelemetryRuleForOrganization
 observabilityadmin:ValidateTelemetryPipelineConfiguration
 odb:AcceptMarketplaceRegistration
 odb:AssociateIamRoleToResource
+odb:AssociateVirtualMachinesToExadbVmCluster
 odb:CreateAutonomousDatabase
 odb:CreateAutonomousDatabaseBackup
 odb:CreateAutonomousDatabaseWallet
@@ -14239,6 +14243,8 @@ odb:CreateCloudAutonomousVmCluster
 odb:CreateCloudExadataInfrastructure
 odb:CreateCloudVmCluster
 odb:CreateDbNode
+odb:CreateExadbVmCluster
+odb:CreateExascaleDbStorageVault
 odb:CreateGrantShare
 odb:CreateOdbNetwork
 odb:CreateOdbPeeringConnection
@@ -14249,11 +14255,14 @@ odb:DeleteCloudAutonomousVmCluster
 odb:DeleteCloudExadataInfrastructure
 odb:DeleteCloudVmCluster
 odb:DeleteDbNode
+odb:DeleteExadbVmCluster
+odb:DeleteExascaleDbStorageVault
 odb:DeleteGrantShare
 odb:DeleteOdbNetwork
 odb:DeleteOdbPeeringConnection
 odb:DeleteResourcePolicy
 odb:DisassociateIamRoleFromResource
+odb:DisassociateVirtualMachinesFromExadbVmCluster
 odb:FailoverAutonomousDatabase
 odb:GetAutonomousDatabase
 odb:GetAutonomousDatabaseBackup
@@ -14264,6 +14273,8 @@ odb:GetCloudExadataInfrastructureUnallocatedResources
 odb:GetCloudVmCluster
 odb:GetDbNode
 odb:GetDbServer
+odb:GetExadbVmCluster
+odb:GetExascaleDbStorageVault
 odb:GetOciOnboardingStatus
 odb:GetOdbNetwork
 odb:GetOdbPeeringConnection
@@ -14282,7 +14293,10 @@ odb:ListCloudVmClusters
 odb:ListDbNodes
 odb:ListDbServers
 odb:ListDbSystemShapes
+odb:ListExadbVmClusters
+odb:ListExascaleDbStorageVaults
 odb:ListFlexComponents
+odb:ListGiMinorVersions
 odb:ListGiVersions
 odb:ListOdbNetworks
 odb:ListOdbPeeringConnections
@@ -14303,6 +14317,8 @@ odb:UntagResource
 odb:UpdateAutonomousDatabase
 odb:UpdateAutonomousDatabaseBackup
 odb:UpdateCloudExadataInfrastructure
+odb:UpdateExadbVmCluster
+odb:UpdateExascaleDbStorageVault
 odb:UpdateGrantShare
 odb:UpdateOdbNetwork
 odb:UpdateOdbPeeringConnection
