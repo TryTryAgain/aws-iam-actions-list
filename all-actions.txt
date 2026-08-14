@@ -670,6 +670,7 @@ appconfig:CreateApplication
 appconfig:CreateConfigurationProfile
 appconfig:CreateDeploymentStrategy
 appconfig:CreateEnvironment
+appconfig:CreateExperimentDefinition
 appconfig:CreateExtension
 appconfig:CreateExtensionAssociation
 appconfig:CreateHostedConfigurationVersion
@@ -677,6 +678,7 @@ appconfig:DeleteApplication
 appconfig:DeleteConfigurationProfile
 appconfig:DeleteDeploymentStrategy
 appconfig:DeleteEnvironment
+appconfig:DeleteExperimentDefinition
 appconfig:DeleteExtension
 appconfig:DeleteExtensionAssociation
 appconfig:DeleteHostedConfigurationVersion
@@ -687,6 +689,8 @@ appconfig:GetConfigurationProfile
 appconfig:GetDeployment
 appconfig:GetDeploymentStrategy
 appconfig:GetEnvironment
+appconfig:GetExperimentDefinition
+appconfig:GetExperimentRun
 appconfig:GetExtension
 appconfig:GetExtensionAssociation
 appconfig:GetHostedConfigurationVersion
@@ -696,13 +700,18 @@ appconfig:ListConfigurationProfiles
 appconfig:ListDeploymentStrategies
 appconfig:ListDeployments
 appconfig:ListEnvironments
+appconfig:ListExperimentDefinitions
+appconfig:ListExperimentRunEvents
+appconfig:ListExperimentRuns
 appconfig:ListExtensionAssociations
 appconfig:ListExtensions
 appconfig:ListHostedConfigurationVersions
 appconfig:ListTagsForResource
 appconfig:StartConfigurationSession
 appconfig:StartDeployment
+appconfig:StartExperimentRun
 appconfig:StopDeployment
+appconfig:StopExperimentRun
 appconfig:TagResource
 appconfig:UntagResource
 appconfig:UpdateAccountSettings
@@ -710,6 +719,8 @@ appconfig:UpdateApplication
 appconfig:UpdateConfigurationProfile
 appconfig:UpdateDeploymentStrategy
 appconfig:UpdateEnvironment
+appconfig:UpdateExperimentDefinition
+appconfig:UpdateExperimentRun
 appconfig:UpdateExtension
 appconfig:UpdateExtensionAssociation
 appconfig:ValidateConfiguration
@@ -2342,6 +2353,8 @@ bedrock:BatchDeleteAdvancedPromptOptimizationJob
 bedrock:BatchDeleteEvaluationJob
 bedrock:CallWithBearerToken
 bedrock:CancelAutomatedReasoningPolicyBuildWorkflow
+bedrock:CancelInvoke
+bedrock:CheckIngestedDocumentAcl
 bedrock:CopyBlueprintStage
 bedrock:CountTokens
 bedrock:CreateAdvancedPromptOptimizationJob
@@ -2401,6 +2414,7 @@ bedrock:DeleteFoundationModelAgreement
 bedrock:DeleteGuardrail
 bedrock:DeleteImportedModel
 bedrock:DeleteInferenceProfile
+bedrock:DeleteInvoke
 bedrock:DeleteKnowledgeBase
 bedrock:DeleteKnowledgeBaseDocuments
 bedrock:DeleteMarketplaceModelAgreement
@@ -2458,8 +2472,10 @@ bedrock:GetFoundationModelAvailability
 bedrock:GetGuardrail
 bedrock:GetImportedModel
 bedrock:GetInferenceProfile
+bedrock:GetIngestedDocumentAcl
 bedrock:GetIngestionJob
 bedrock:GetInvocationStep
+bedrock:GetInvoke
 bedrock:GetKnowledgeBase
 bedrock:GetKnowledgeBaseDocuments
 bedrock:GetMarketplaceModelEndpoint
