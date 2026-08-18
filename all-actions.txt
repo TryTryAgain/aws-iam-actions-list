@@ -9919,6 +9919,8 @@ healthlake:StartFHIRImportJob
 healthlake:SubmitPreAuthClaim
 healthlake:TagResource
 healthlake:TransformData
+healthlake:TranslateConceptMapWithGet
+healthlake:TranslateConceptMapWithPost
 healthlake:UntagResource
 healthlake:UpdateDataTransformationProfile
 healthlake:UpdateFHIRDatastore
