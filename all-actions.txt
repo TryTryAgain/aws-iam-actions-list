@@ -19678,6 +19678,7 @@ ssm:RegisterPatchBaselineForPatchGroup
 ssm:RegisterTargetWithMaintenanceWindow
 ssm:RegisterTaskWithMaintenanceWindow
 ssm:RemoveTagsFromResource
+ssm:RequestManagedInstanceRoleToken
 ssm:ResetServiceSetting
 ssm:ResumeSession
 ssm:SendAutomationSignal
@@ -19702,6 +19703,7 @@ ssm:UpdateInstanceInformation
 ssm:UpdateMaintenanceWindow
 ssm:UpdateMaintenanceWindowTarget
 ssm:UpdateMaintenanceWindowTask
+ssm:UpdateManagedInstancePublicKey
 ssm:UpdateManagedInstanceRole
 ssm:UpdateOpsItem
 ssm:UpdateOpsMetadata
