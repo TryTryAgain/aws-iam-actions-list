@@ -2371,6 +2371,7 @@ bedrock:CreateCustomModelDeployment
 bedrock:CreateDataAutomationLibrary
 bedrock:CreateDataAutomationProject
 bedrock:CreateDataSource
+bedrock:CreateDataSourceToken
 bedrock:CreateEvaluationJob
 bedrock:CreateFlow
 bedrock:CreateFlowAlias
@@ -2460,6 +2461,7 @@ bedrock:GetDataAutomationLibraryIngestionJob
 bedrock:GetDataAutomationProject
 bedrock:GetDataAutomationStatus
 bedrock:GetDataSource
+bedrock:GetDataSourceAuthorizationUrl
 bedrock:GetDocumentContent
 bedrock:GetEvaluationJob
 bedrock:GetExecutionFlowSnapshot
@@ -21698,6 +21700,7 @@ workspaces:GetTroubleshootingRecommendation
 workspaces:ImportClientBranding
 workspaces:ImportCustomWorkspaceImage
 workspaces:ImportWorkspaceImage
+workspaces:InvokeOnboardingAgent
 workspaces:InvokeTroubleshootingInvestigation
 workspaces:ListAccountLinks
 workspaces:ListAvailableManagementCidrRanges
@@ -21714,6 +21717,7 @@ workspaces:ModifyWorkspaceAccessProperties
 workspaces:ModifyWorkspaceCreationProperties
 workspaces:ModifyWorkspaceProperties
 workspaces:ModifyWorkspaceState
+workspaces:Personalization
 workspaces:RebootWorkspaces
 workspaces:RebuildWorkspaces
 workspaces:RegisterWorkspaceDirectory
