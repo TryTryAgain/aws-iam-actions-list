@@ -263,14 +263,17 @@ agent-registry:CreateRegistry
 agent-registry:CreateRegistryRecord
 agent-registry:DeleteRegistry
 agent-registry:DeleteRegistryRecord
+agent-registry:DeleteResourcePolicy
 agent-registry:GetDiscoverableRegistryRecord
 agent-registry:GetRegistry
 agent-registry:GetRegistryRecord
+agent-registry:GetResourcePolicy
 agent-registry:InvokeRegistryMcp
 agent-registry:ListDiscoverableRegistryRecords
 agent-registry:ListRegistries
 agent-registry:ListRegistryRecords
 agent-registry:ListTagsForResource
+agent-registry:PutResourcePolicy
 agent-registry:SearchDiscoverableRegistryRecords
 agent-registry:SubmitRegistryRecordForApproval
 agent-registry:TagResource
