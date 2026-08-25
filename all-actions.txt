@@ -309,14 +309,12 @@ aidevops:CreateChat
 aidevops:CreateKnowledgeItem
 aidevops:CreateOneTimeLoginSession
 aidevops:CreatePrivateConnection
-aidevops:CreateSafeActionRule
 aidevops:CreateTrigger
 aidevops:DeleteAgentSpace
 aidevops:DeleteAsset
 aidevops:DeleteAssetFile
 aidevops:DeleteKnowledgeItem
 aidevops:DeletePrivateConnection
-aidevops:DeleteSafeActionRule
 aidevops:DeleteTrigger
 aidevops:DeregisterService
 aidevops:DescribePrivateConnection
@@ -358,7 +356,6 @@ aidevops:ListKnowledgeItems
 aidevops:ListPendingMessages
 aidevops:ListPrivateConnections
 aidevops:ListRecommendations
-aidevops:ListSafeActionRules
 aidevops:ListServices
 aidevops:ListTagsForResource
 aidevops:ListTriggers
@@ -5390,6 +5387,8 @@ customer-verification:CreateCustomerVerificationDetails
 customer-verification:CreateUploadUrls
 customer-verification:GetCustomerVerificationDetails
 customer-verification:GetCustomerVerificationEligibility
+customer-verification:GetInheritanceConfig
+customer-verification:PutInheritanceConfig
 customer-verification:UpdateCustomerVerificationDetails
 databrew:BatchDeleteRecipeVersion
 databrew:CreateDataset
