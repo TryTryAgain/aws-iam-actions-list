@@ -4113,6 +4113,7 @@ codecommit:DisassociateApprovalRuleTemplateFromRepository
 codecommit:EvaluatePullRequestApprovalRules
 codecommit:GetApprovalRuleTemplate
 codecommit:GetBlob
+codecommit:GetBlobDifferences
 codecommit:GetBranch
 codecommit:GetComment
 codecommit:GetCommentReactions
