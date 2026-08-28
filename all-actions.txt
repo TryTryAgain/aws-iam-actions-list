@@ -9934,6 +9934,7 @@ healthlake:ProcessBundle
 healthlake:PublishDataTransformationProfile
 healthlake:QuestionnairePackage
 healthlake:ReadResource
+healthlake:RestoreFHIRDatastore
 healthlake:RetrieveAttributionStatus
 healthlake:SearchEverything
 healthlake:SearchWithGet
@@ -17728,6 +17729,8 @@ sagemaker:BatchDescribeModelPackage
 sagemaker:BatchGetMetrics
 sagemaker:BatchGetRecord
 sagemaker:BatchPutMetrics
+sagemaker:BatchRebootClusterNodes
+sagemaker:BatchReplaceClusterNodes
 sagemaker:BatchWriteRecord
 sagemaker:CallMlflowAppApi
 sagemaker:CallPartnerAppApi
@@ -17948,6 +17951,7 @@ sagemaker:DescribeStudioLifecycleConfig
 sagemaker:DescribeSubscribedWorkteam
 sagemaker:DescribeTrainingJob
 sagemaker:DescribeTrainingPlan
+sagemaker:DescribeTrainingPlanExtensionHistory
 sagemaker:DescribeTransformJob
 sagemaker:DescribeTrial
 sagemaker:DescribeTrialComponent
@@ -17958,6 +17962,7 @@ sagemaker:DetachClusterNodeVolume
 sagemaker:DisableSagemakerServicecatalogPortfolio
 sagemaker:DisassociateTrialComponent
 sagemaker:EnableSagemakerServicecatalogPortfolio
+sagemaker:ExtendTrainingPlan
 sagemaker:GetDeployments
 sagemaker:GetDeviceFleetReport
 sagemaker:GetDeviceRegistration
