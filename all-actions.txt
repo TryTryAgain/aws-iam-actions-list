@@ -15226,6 +15226,7 @@ private-networks:UntagResource
 private-networks:UpdateNetworkSite
 private-networks:UpdateNetworkSitePlan
 profile:AddProfileKey
+profile:AssociateStreamForSegments
 profile:BatchGetCalculatedAttributeForProfile
 profile:BatchGetProfile
 profile:CreateCalculatedAttributeDefinition
@@ -15258,8 +15259,10 @@ profile:DeleteRecommender
 profile:DeleteRecommenderFilter
 profile:DeleteRecommenderSchema
 profile:DeleteSegmentDefinition
+profile:DeleteSegmentSubscription
 profile:DeleteWorkflow
 profile:DetectProfileObjectType
+profile:DisassociateStreamForSegments
 profile:GetAutoMergingPreview
 profile:GetCalculatedAttributeDefinition
 profile:GetCalculatedAttributeForProfile
@@ -15284,8 +15287,10 @@ profile:GetSegmentDefinition
 profile:GetSegmentEstimate
 profile:GetSegmentMembership
 profile:GetSegmentSnapshot
+profile:GetSegmentSubscription
 profile:GetSimilarProfiles
 profile:GetSnapshot
+profile:GetStreamForSegments
 profile:GetUploadJob
 profile:GetUploadJobPath
 profile:GetWorkflow
@@ -15314,6 +15319,7 @@ profile:ListRecommenderSchemas
 profile:ListRecommenders
 profile:ListRuleBasedMatches
 profile:ListSegmentDefinitions
+profile:ListSegmentSubscriptionEvents
 profile:ListTagsForResource
 profile:ListUploadJobs
 profile:ListWorkflows
@@ -15322,6 +15328,7 @@ profile:PutDomainObjectType
 profile:PutIntegration
 profile:PutProfileObject
 profile:PutProfileObjectType
+profile:PutSegmentSubscription
 profile:SearchProfiles
 profile:StartRecommender
 profile:StartUploadJob
