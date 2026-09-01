@@ -4490,6 +4490,7 @@ cognito-idp:AddUserPoolClientSecret
 cognito-idp:AdminAddUserToGroup
 cognito-idp:AdminConfirmSignUp
 cognito-idp:AdminCreateUser
+cognito-idp:AdminDeleteSoftwareToken
 cognito-idp:AdminDeleteUser
 cognito-idp:AdminDeleteUserAttributes
 cognito-idp:AdminDisableProviderForUser
@@ -5082,6 +5083,7 @@ connect:EvaluateDataTableValues
 connect:GetAttachedFile
 connect:GetContactAttributes
 connect:GetContactMetrics
+connect:GetCrossRegionRouting
 connect:GetCurrentMetricData
 connect:GetCurrentUserData
 connect:GetEffectiveHoursOfOperations
@@ -5244,6 +5246,7 @@ connect:UpdateContactFlowModuleMetadata
 connect:UpdateContactFlowName
 connect:UpdateContactRoutingData
 connect:UpdateContactSchedule
+connect:UpdateCrossRegionRouting
 connect:UpdateDataTableAttribute
 connect:UpdateDataTableMetadata
 connect:UpdateDataTablePrimaryValues
@@ -11690,12 +11693,16 @@ kendra:UpdateQuerySuggestionsBlockList
 kendra:UpdateQuerySuggestionsConfig
 kendra:UpdateThesaurus
 kinesis:AddTagsToStream
+kinesis:AssociateStreamsWithChannel
+kinesis:CreateChannel
 kinesis:CreateStream
 kinesis:DecreaseStreamRetentionPeriod
+kinesis:DeleteChannel
 kinesis:DeleteResourcePolicy
 kinesis:DeleteStream
 kinesis:DeregisterStreamConsumer
 kinesis:DescribeAccountSettings
+kinesis:DescribeChannel
 kinesis:DescribeLimits
 kinesis:DescribeStream
 kinesis:DescribeStreamConsumer
@@ -11707,6 +11714,7 @@ kinesis:GetResourcePolicy
 kinesis:GetShardIterator
 kinesis:IncreaseStreamRetentionPeriod
 kinesis:InjectApiError
+kinesis:ListChannels
 kinesis:ListShards
 kinesis:ListStreamConsumers
 kinesis:ListStreams
@@ -11725,6 +11733,7 @@ kinesis:SubscribeToShard
 kinesis:TagResource
 kinesis:UntagResource
 kinesis:UpdateAccountSettings
+kinesis:UpdateChannel
 kinesis:UpdateMaxRecordSize
 kinesis:UpdateShardCount
 kinesis:UpdateStreamMode
