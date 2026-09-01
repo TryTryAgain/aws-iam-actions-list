@@ -6753,6 +6753,7 @@ ec2:AttachVpnGateway
 ec2:AuthorizeClientVpnIngress
 ec2:AuthorizeSecurityGroupEgress
 ec2:AuthorizeSecurityGroupIngress
+ec2:BatchModifyIpamRoutingPolicyRegistrations
 ec2:BundleInstance
 ec2:CancelBundleTask
 ec2:CancelCapacityReservation
@@ -6800,11 +6801,13 @@ ec2:CreateInternetGateway
 ec2:CreateInterruptibleCapacityReservationAllocation
 ec2:CreateIpam
 ec2:CreateIpamExternalResourceVerificationToken
+ec2:CreateIpamInternetRegistryAssociation
 ec2:CreateIpamPolicy
 ec2:CreateIpamPool
 ec2:CreateIpamPrefixListResolver
 ec2:CreateIpamPrefixListResolverTarget
 ec2:CreateIpamResourceDiscovery
+ec2:CreateIpamRoutingPolicyRegistration
 ec2:CreateIpamScope
 ec2:CreateKeyPair
 ec2:CreateLaunchTemplate
@@ -6900,11 +6903,13 @@ ec2:DeleteInstanceEventWindow
 ec2:DeleteInternetGateway
 ec2:DeleteIpam
 ec2:DeleteIpamExternalResourceVerificationToken
+ec2:DeleteIpamInternetRegistryAssociation
 ec2:DeleteIpamPolicy
 ec2:DeleteIpamPool
 ec2:DeleteIpamPrefixListResolver
 ec2:DeleteIpamPrefixListResolverTarget
 ec2:DeleteIpamResourceDiscovery
+ec2:DeleteIpamRoutingPolicyRegistration
 ec2:DeleteIpamScope
 ec2:DeleteKeyPair
 ec2:DeleteLaunchTemplate
@@ -6988,6 +6993,7 @@ ec2:DeregisterInstanceEventNotificationAttributes
 ec2:DeregisterTransitGatewayMulticastGroupMembers
 ec2:DeregisterTransitGatewayMulticastGroupSources
 ec2:DescribeAccountAttributes
+ec2:DescribeAccountVpcEncryptionControl
 ec2:DescribeAddressTransfers
 ec2:DescribeAddresses
 ec2:DescribeAddressesAttribute
@@ -7063,6 +7069,7 @@ ec2:DescribeInstances
 ec2:DescribeInternetGateways
 ec2:DescribeIpamByoasn
 ec2:DescribeIpamExternalResourceVerificationTokens
+ec2:DescribeIpamInternetRegistryAssociations
 ec2:DescribeIpamPolicies
 ec2:DescribeIpamPoolAllocations
 ec2:DescribeIpamPools
@@ -7243,6 +7250,7 @@ ec2:EnableImageBlockPublicAccess
 ec2:EnableImageDeprecation
 ec2:EnableImageDeregistrationProtection
 ec2:EnableInstanceSqlHaStandbyDetections
+ec2:EnableIpamInternetRegistryAssociation
 ec2:EnableIpamOrganizationAdminAccount
 ec2:EnableIpamPolicy
 ec2:EnableReachabilityAnalyzerOrganizationSharing
@@ -7290,6 +7298,9 @@ ec2:GetIpamAddressHistory
 ec2:GetIpamDiscoveredAccounts
 ec2:GetIpamDiscoveredPublicAddresses
 ec2:GetIpamDiscoveredResourceCidrs
+ec2:GetIpamDiscoveredRoutes
+ec2:GetIpamInternetRegistryAssociationAsns
+ec2:GetIpamInternetRegistryAssociationCidrs
 ec2:GetIpamPolicyAllocationRules
 ec2:GetIpamPolicyOrganizationTargets
 ec2:GetIpamPoolAllocations
@@ -7298,6 +7309,10 @@ ec2:GetIpamPrefixListResolverRules
 ec2:GetIpamPrefixListResolverVersionEntries
 ec2:GetIpamPrefixListResolverVersions
 ec2:GetIpamResourceCidrs
+ec2:GetIpamRouteOriginAuthorizations
+ec2:GetIpamRouteProtectionFindings
+ec2:GetIpamRoutingPolicyRegistrationDeltas
+ec2:GetIpamRoutingPolicyRegistrations
 ec2:GetLaunchTemplateData
 ec2:GetManagedPrefixListAssociations
 ec2:GetManagedPrefixListEntries
@@ -7344,6 +7359,7 @@ ec2:ListImagesInRecycleBin
 ec2:ListSnapshotsInRecycleBin
 ec2:ListVolumesInRecycleBin
 ec2:LockSnapshot
+ec2:ModifyAccountVpcEncryptionControl
 ec2:ModifyAddressAttribute
 ec2:ModifyApplicationStatusCheck
 ec2:ModifyAvailabilityZoneGroup
@@ -7378,6 +7394,7 @@ ec2:ModifyIpamPrefixListResolver
 ec2:ModifyIpamPrefixListResolverTarget
 ec2:ModifyIpamResourceCidr
 ec2:ModifyIpamResourceDiscovery
+ec2:ModifyIpamRoutingPolicyRegistration
 ec2:ModifyIpamScope
 ec2:ModifyLaunchTemplate
 ec2:ModifyLocalGatewayRoute
