@@ -15761,6 +15761,7 @@ quicksight:CreateDataSet
 quicksight:CreateDataSource
 quicksight:CreateDlpSetting
 quicksight:CreateEmailCustomizationTemplate
+quicksight:CreateExtension
 quicksight:CreateExtensionAccess
 quicksight:CreateFlow
 quicksight:CreateFolder
@@ -15803,6 +15804,7 @@ quicksight:DeleteDataSource
 quicksight:DeleteDefaultQBusinessApplication
 quicksight:DeleteDlpSetting
 quicksight:DeleteEmailCustomizationTemplate
+quicksight:DeleteExtension
 quicksight:DeleteExtensionAccess
 quicksight:DeleteFlow
 quicksight:DeleteFolder
@@ -15864,7 +15866,9 @@ quicksight:DescribeDefaultQBusinessApplication
 quicksight:DescribeDlpJob
 quicksight:DescribeDlpSetting
 quicksight:DescribeEmailCustomizationTemplate
+quicksight:DescribeExtension
 quicksight:DescribeExtensionAccess
+quicksight:DescribeExtensionPermissions
 quicksight:DescribeFlow
 quicksight:DescribeFolder
 quicksight:DescribeFolderPermissions
@@ -15930,6 +15934,7 @@ quicksight:ListDataSources
 quicksight:ListDlpLabels
 quicksight:ListDlpSettings
 quicksight:ListExtensionAccesses
+quicksight:ListExtensions
 quicksight:ListFlows
 quicksight:ListFolderMembers
 quicksight:ListFolders
@@ -15997,6 +16002,7 @@ quicksight:StartAutomationJob
 quicksight:StartDashboardSnapshotJob
 quicksight:StartDashboardSnapshotJobSchedule
 quicksight:StartDlpJob
+quicksight:StartExtensionInstallation
 quicksight:Subscribe
 quicksight:TagResource
 quicksight:UnpublishFlow
@@ -16031,7 +16037,9 @@ quicksight:UpdateDataSourcePermissions
 quicksight:UpdateDefaultQBusinessApplication
 quicksight:UpdateDlpSetting
 quicksight:UpdateEmailCustomizationTemplate
+quicksight:UpdateExtension
 quicksight:UpdateExtensionAccess
+quicksight:UpdateExtensionPermissions
 quicksight:UpdateFlow
 quicksight:UpdateFlowPermissions
 quicksight:UpdateFolder
