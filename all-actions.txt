@@ -2076,6 +2076,7 @@ bedrock-agentcore:CreateBrowserProfile
 bedrock-agentcore:CreateCapacityProvider
 bedrock-agentcore:CreateCodeInterpreter
 bedrock-agentcore:CreateConfigurationBundle
+bedrock-agentcore:CreateConsentPortal
 bedrock-agentcore:CreateDataset
 bedrock-agentcore:CreateDatasetVersion
 bedrock-agentcore:CreateEvaluator
@@ -2110,6 +2111,7 @@ bedrock-agentcore:DeleteCapacityProvider
 bedrock-agentcore:DeleteCapacityProviderSession
 bedrock-agentcore:DeleteCodeInterpreter
 bedrock-agentcore:DeleteConfigurationBundle
+bedrock-agentcore:DeleteConsentPortal
 bedrock-agentcore:DeleteDataset
 bedrock-agentcore:DeleteDatasetExamples
 bedrock-agentcore:DeleteEvaluator
@@ -2155,6 +2157,7 @@ bedrock-agentcore:GetCodeInterpreter
 bedrock-agentcore:GetCodeInterpreterSession
 bedrock-agentcore:GetConfigurationBundle
 bedrock-agentcore:GetConfigurationBundleVersion
+bedrock-agentcore:GetConsentPortal
 bedrock-agentcore:GetDataset
 bedrock-agentcore:GetEvaluator
 bedrock-agentcore:GetEvent
@@ -2219,6 +2222,7 @@ bedrock-agentcore:ListCodeInterpreterSessions
 bedrock-agentcore:ListCodeInterpreters
 bedrock-agentcore:ListConfigurationBundleVersions
 bedrock-agentcore:ListConfigurationBundles
+bedrock-agentcore:ListConsentPortals
 bedrock-agentcore:ListDatasetExamples
 bedrock-agentcore:ListDatasetVersions
 bedrock-agentcore:ListDatasets
@@ -2286,6 +2290,7 @@ bedrock-agentcore:UpdateApiKeyCredentialProvider
 bedrock-agentcore:UpdateBrowserStream
 bedrock-agentcore:UpdateCapacityProvider
 bedrock-agentcore:UpdateConfigurationBundle
+bedrock-agentcore:UpdateConsentPortal
 bedrock-agentcore:UpdateDataset
 bedrock-agentcore:UpdateDatasetExamples
 bedrock-agentcore:UpdateEvaluator
@@ -5118,6 +5123,7 @@ connect:ListDataTableValues
 connect:ListDataTables
 connect:ListDefaultVocabularies
 connect:ListEntitySecurityProfiles
+connect:ListEvaluationFormAIVersions
 connect:ListEvaluationFormVersions
 connect:ListEvaluationForms
 connect:ListExtractionDefinitions
