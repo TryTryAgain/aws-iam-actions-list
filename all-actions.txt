@@ -14254,6 +14254,7 @@ notifications-contacts:ListTagsForResource
 notifications-contacts:SendActivationCode
 notifications-contacts:TagResource
 notifications-contacts:UntagResource
+notifications:AccessSensitiveEvents
 notifications:AssociateChannel
 notifications:AssociateManagedNotificationAccountContact
 notifications:AssociateManagedNotificationAdditionalChannel
@@ -14291,9 +14292,11 @@ notifications:ListOrganizationalUnits
 notifications:ListTagsForResource
 notifications:PutFeatureOptInStatus
 notifications:RegisterNotificationHub
+notifications:SubscribeSensitiveEvents
 notifications:TagResource
 notifications:UntagResource
 notifications:UpdateEventRule
+notifications:UpdateManagedNotificationChannelAssociation
 notifications:UpdateNotificationConfiguration
 nova-act:CreateAct
 nova-act:CreateSession
