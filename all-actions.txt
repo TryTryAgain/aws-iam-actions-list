@@ -19615,6 +19615,7 @@ social-messaging:DeprecateWhatsAppFlow
 social-messaging:DisassociateWhatsAppBusinessAccount
 social-messaging:GetLinkedWhatsAppBusinessAccount
 social-messaging:GetLinkedWhatsAppBusinessAccountPhoneNumber
+social-messaging:GetWhatsAppCallPermission
 social-messaging:GetWhatsAppFlow
 social-messaging:GetWhatsAppFlowPreview
 social-messaging:GetWhatsAppMessageMedia
@@ -19628,9 +19629,11 @@ social-messaging:ListWhatsAppTemplateLibrary
 social-messaging:PostWhatsAppMessageMedia
 social-messaging:PublishWhatsAppFlow
 social-messaging:PutWhatsAppBusinessAccountEventDestinations
+social-messaging:SendWhatsAppCallEvent
 social-messaging:SendWhatsAppMessage
 social-messaging:TagResource
 social-messaging:UntagResource
+social-messaging:UpdateLinkedWhatsAppBusinessAccountPhoneNumber
 social-messaging:UpdateWhatsAppFlow
 social-messaging:UpdateWhatsAppFlowAssets
 social-messaging:UpdateWhatsAppMessageTemplate
