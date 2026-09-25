@@ -8280,14 +8280,17 @@ elemental-inference:CreateDictionary
 elemental-inference:CreateFeed
 elemental-inference:DeleteDictionary
 elemental-inference:DeleteFeed
+elemental-inference:DeleteFeedPolicy
 elemental-inference:DisassociateFeed
 elemental-inference:ExportDictionaryEntries
 elemental-inference:GetDictionary
 elemental-inference:GetFeed
+elemental-inference:GetFeedPolicy
 elemental-inference:GetMetadata
 elemental-inference:ListDictionaries
 elemental-inference:ListFeeds
 elemental-inference:ListTagsForResource
+elemental-inference:PutFeedPolicy
 elemental-inference:PutMedia
 elemental-inference:TagResource
 elemental-inference:UntagResource
