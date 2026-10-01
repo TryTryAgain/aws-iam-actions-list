@@ -2644,6 +2644,8 @@ billing:GetResourcePolicy
 billing:GetSellerOfRecord
 billing:ListBillingViewSegments
 billing:ListBillingViews
+billing:ListBusinessSupportAccountCharges
+billing:ListBusinessSupportSubscriptionHistory
 billing:ListEnterpriseSupportLinkedAccountCharges
 billing:ListSourceViewsForBillingView
 billing:ListTagsForResource
@@ -18499,6 +18501,7 @@ security-ir:CreateMembership
 security-ir:GetCase
 security-ir:GetCaseAttachmentDownloadUrl
 security-ir:GetCaseAttachmentUploadUrl
+security-ir:GetFindingMetrics
 security-ir:GetMembership
 security-ir:ListCaseEdits
 security-ir:ListCases
