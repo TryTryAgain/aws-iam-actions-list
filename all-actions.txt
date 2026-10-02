@@ -21291,6 +21291,7 @@ wafv2:DeleteWebACL
 wafv2:DescribeAllManagedProducts
 wafv2:DescribeManagedProductsByVendor
 wafv2:DescribeManagedRuleGroup
+wafv2:DescribeTopContributorsByEvent
 wafv2:DisassociateFirewallManager
 wafv2:DisassociateWebACL
 wafv2:GenerateMobileSdkReleaseUrl
