@@ -287,9 +287,11 @@ agentaccess-mcp:CallForwardedTool
 agentaccess-mcp:CheckConnectionStatus
 agentaccess-mcp:DoubleClick
 agentaccess-mcp:GetScreenshot
+agentaccess-mcp:GetSessionInfo
 agentaccess-mcp:HoldKey
 agentaccess-mcp:InvokeMcp
 agentaccess-mcp:KeyPress
+agentaccess-mcp:LaunchApplication
 agentaccess-mcp:LeftClick
 agentaccess-mcp:LeftClickDrag
 agentaccess-mcp:LeftMouseDown
@@ -298,6 +300,7 @@ agentaccess-mcp:MiddleClick
 agentaccess-mcp:MovePointer
 agentaccess-mcp:RightClick
 agentaccess-mcp:Scroll
+agentaccess-mcp:ToggleAppSwitcher
 agentaccess-mcp:TripleClick
 agentaccess-mcp:TypeText
 aidevops:AllowVendedLogDeliveryForResource
@@ -2646,13 +2649,17 @@ billing:ListBillingViewSegments
 billing:ListBillingViews
 billing:ListBusinessSupportAccountCharges
 billing:ListBusinessSupportSubscriptionHistory
+billing:ListCreditEntitlementPeriods
+billing:ListCreditEntitlements
 billing:ListEnterpriseSupportLinkedAccountCharges
 billing:ListSourceViewsForBillingView
 billing:ListTagsForResource
 billing:PutContractInformation
 billing:PutResourcePolicy
 billing:RedeemCredits
+billing:SplitCredit
 billing:TagResource
+billing:TransferCredit
 billing:UntagResource
 billing:UpdateBillingPreferences
 billing:UpdateBillingView
@@ -4016,6 +4023,7 @@ cloudwatch:PutMetricAlarm
 cloudwatch:PutMetricData
 cloudwatch:PutMetricStream
 cloudwatch:PutPipelineRule
+cloudwatch:PutRecords
 cloudwatch:QueryTraces
 cloudwatch:SearchPrincipals
 cloudwatch:SetAlarmState
@@ -9573,6 +9581,8 @@ glue:GetStages
 glue:GetStatement
 glue:GetStorage
 glue:GetStorageUnit
+glue:GetSystemLogsForJobRun
+glue:GetSystemLogsForSession
 glue:GetTable
 glue:GetTableOptimizer
 glue:GetTableVersion
