@@ -4028,6 +4028,7 @@ cloudwatch:StopMetricStreams
 cloudwatch:StopOTelEnrichment
 cloudwatch:StopTelemetryQuery
 cloudwatch:StopTelemetryQuerySession
+cloudwatch:SubmitAlarmFeedback
 cloudwatch:SubmitFeedback
 cloudwatch:TagResource
 cloudwatch:UntagResource
