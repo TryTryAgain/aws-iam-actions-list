@@ -18679,6 +18679,7 @@ securityhub:BatchImportFindings
 securityhub:BatchUpdateAutomationRules
 securityhub:BatchUpdateFindings
 securityhub:BatchUpdateStandardsControlAssociations
+securityhub:CancelExportJobV2
 securityhub:ConnectorRegistrationsV2
 securityhub:CreateActionTarget
 securityhub:CreateAggregatorV2
@@ -18735,6 +18736,7 @@ securityhub:GetConnectorV2
 securityhub:GetControlFindingSummary
 securityhub:GetCoverageStatisticsV2
 securityhub:GetEnabledStandards
+securityhub:GetExportJobV2
 securityhub:GetFindingAggregator
 securityhub:GetFindingHistory
 securityhub:GetFindings
@@ -18766,6 +18768,7 @@ securityhub:ListConnectors
 securityhub:ListConnectorsV2
 securityhub:ListControlEvaluationSummaries
 securityhub:ListEnabledProductsForImport
+securityhub:ListExportJobsV2
 securityhub:ListExposuresByRemediationV2
 securityhub:ListFindingAggregators
 securityhub:ListFreeTrialStatusesV2
@@ -18779,6 +18782,7 @@ securityhub:SendFindingEvents
 securityhub:SendInsightEvents
 securityhub:StartConfigurationPolicyAssociation
 securityhub:StartConfigurationPolicyDisassociation
+securityhub:StartExportJobV2
 securityhub:TagResource
 securityhub:UntagResource
 securityhub:UpdateActionTarget
