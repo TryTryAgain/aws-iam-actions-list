@@ -162,6 +162,7 @@ account:ListRegions
 account:PutAccountName
 account:PutAlternateContact
 account:PutContactInformation
+account:ReopenAccount
 account:SendPhoneNumberVerification
 account:StartPrimaryEmailUpdate
 account:VerifyPhoneNumber
