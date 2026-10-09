@@ -6054,6 +6054,7 @@ deadline:ListJobParameterDefinitions
 deadline:ListJobs
 deadline:ListLicenseEndpoints
 deadline:ListLimits
+deadline:ListMemberships
 deadline:ListMeteredProducts
 deadline:ListMonitors
 deadline:ListQueueEnvironments
