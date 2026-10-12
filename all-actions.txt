@@ -18564,6 +18564,8 @@ securityagent:BatchDeletePentests
 securityagent:BatchDeleteSecurityRequirements
 securityagent:BatchDeleteThreatModels
 securityagent:BatchDeleteThreats
+securityagent:BatchDisassociateFindingIssue
+securityagent:BatchExportFindings
 securityagent:BatchGetAgentSpaces
 securityagent:BatchGetArtifactMetadata
 securityagent:BatchGetCodeReviewJobTasks
