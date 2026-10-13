@@ -11994,6 +11994,7 @@ kms:UpdatePrimaryRegion
 kms:Verify
 kms:VerifyMac
 lakeformation:AddLFTagsToResource
+lakeformation:AttachRLSPolicy
 lakeformation:BatchGrantPermissions
 lakeformation:BatchRevokePermissions
 lakeformation:CancelTransaction
@@ -12003,16 +12004,19 @@ lakeformation:CreateLFTag
 lakeformation:CreateLFTagExpression
 lakeformation:CreateLakeFormationIdentityCenterConfiguration
 lakeformation:CreateLakeFormationOptIn
+lakeformation:CreateRLSPolicy
 lakeformation:DeleteDataCellsFilter
 lakeformation:DeleteLFTag
 lakeformation:DeleteLFTagExpression
 lakeformation:DeleteLakeFormationIdentityCenterConfiguration
 lakeformation:DeleteLakeFormationOptIn
 lakeformation:DeleteObjectsOnCancel
+lakeformation:DeleteRLSPolicy
 lakeformation:DeregisterResource
 lakeformation:DescribeLakeFormationIdentityCenterConfiguration
 lakeformation:DescribeResource
 lakeformation:DescribeTransaction
+lakeformation:DetachRLSPolicy
 lakeformation:ExtendTransaction
 lakeformation:GetDataAccess
 lakeformation:GetDataCellsFilter
@@ -12023,6 +12027,7 @@ lakeformation:GetLFTag
 lakeformation:GetLFTagExpression
 lakeformation:GetQueryState
 lakeformation:GetQueryStatistics
+lakeformation:GetRLSPolicy
 lakeformation:GetResourceLFTags
 lakeformation:GetTableObjects
 lakeformation:GetTemporaryGluePartitionCredentials
@@ -12035,6 +12040,8 @@ lakeformation:ListLFTagExpressions
 lakeformation:ListLFTags
 lakeformation:ListLakeFormationOptIns
 lakeformation:ListPermissions
+lakeformation:ListRLSPolicies
+lakeformation:ListRLSPolicyAttachments
 lakeformation:ListResources
 lakeformation:ListTableStorageOptimizers
 lakeformation:ListTransactions
@@ -12051,6 +12058,7 @@ lakeformation:UpdateDataCellsFilter
 lakeformation:UpdateLFTag
 lakeformation:UpdateLFTagExpression
 lakeformation:UpdateLakeFormationIdentityCenterConfiguration
+lakeformation:UpdateRLSPolicy
 lakeformation:UpdateResource
 lakeformation:UpdateTableObjects
 lakeformation:UpdateTableStorageOptimizer
