@@ -15082,6 +15082,8 @@ partnercentral:GetMarketplaceRevenueShare
 partnercentral:GetMarketplaceRevenueShareAllocation
 partnercentral:GetOpportunity
 partnercentral:GetPartner
+partnercentral:GetPartnerCentralContentDocument
+partnercentral:GetPartnerCentralContentMetadata
 partnercentral:GetPartnerDashboard
 partnercentral:GetPartnerProfile
 partnercentral:GetProfileUpdateTask
@@ -15117,6 +15119,7 @@ partnercentral:ListMarketplaceRevenueShareAllocations
 partnercentral:ListMarketplaceRevenueShares
 partnercentral:ListOpportunities
 partnercentral:ListOpportunityFromEngagementTasks
+partnercentral:ListPartnerCentralContent
 partnercentral:ListPartnerPaths
 partnercentral:ListPartners
 partnercentral:ListProgramManagementAccounts
@@ -15136,6 +15139,7 @@ partnercentral:RecallBenefitApplication
 partnercentral:RejectChannelHandshake
 partnercentral:RejectConnectionInvitation
 partnercentral:RejectEngagementInvitation
+partnercentral:SearchPartnerCentralContent
 partnercentral:SearchPartnerProfiles
 partnercentral:SendEmailVerificationCode
 partnercentral:StartEngagementByAcceptingInvitationTask
@@ -18047,6 +18051,7 @@ sagemaker:CreateSpace
 sagemaker:CreateStudioLifecycleConfig
 sagemaker:CreateTrainingJob
 sagemaker:CreateTrainingPlan
+sagemaker:CreateTrainingSession
 sagemaker:CreateTransformJob
 sagemaker:CreateTrial
 sagemaker:CreateTrialComponent
@@ -18114,6 +18119,7 @@ sagemaker:DeleteSpace
 sagemaker:DeleteStudioLifecycleConfig
 sagemaker:DeleteTags
 sagemaker:DeleteTrainingJob
+sagemaker:DeleteTrainingSession
 sagemaker:DeleteTrial
 sagemaker:DeleteTrialComponent
 sagemaker:DeleteUserProfile
@@ -18194,6 +18200,7 @@ sagemaker:DescribeSubscribedWorkteam
 sagemaker:DescribeTrainingJob
 sagemaker:DescribeTrainingPlan
 sagemaker:DescribeTrainingPlanExtensionHistory
+sagemaker:DescribeTrainingSession
 sagemaker:DescribeTransformJob
 sagemaker:DescribeTrial
 sagemaker:DescribeTrialComponent
@@ -18204,6 +18211,8 @@ sagemaker:DetachClusterNodeVolume
 sagemaker:DisableSagemakerServicecatalogPortfolio
 sagemaker:DisassociateTrialComponent
 sagemaker:EnableSagemakerServicecatalogPortfolio
+sagemaker:ExecuteSamplingOperation
+sagemaker:ExecuteTrainingOperation
 sagemaker:ExtendTrainingPlan
 sagemaker:GetDeployments
 sagemaker:GetDeviceFleetReport
@@ -18213,8 +18222,10 @@ sagemaker:GetModelPackageGroupPolicy
 sagemaker:GetRecord
 sagemaker:GetResourcePolicy
 sagemaker:GetSagemakerServicecatalogPortfolioStatus
+sagemaker:GetSamplingOperationResult
 sagemaker:GetScalingConfigurationRecommendation
 sagemaker:GetSearchSuggestions
+sagemaker:GetTrainingOperationResult
 sagemaker:ImportHubContent
 sagemaker:InvokeEndpoint
 sagemaker:InvokeEndpointAsync
@@ -18307,6 +18318,7 @@ sagemaker:ListTags
 sagemaker:ListTrainingJobs
 sagemaker:ListTrainingJobsForHyperParameterTuningJob
 sagemaker:ListTrainingPlans
+sagemaker:ListTrainingSessions
 sagemaker:ListTransformJobs
 sagemaker:ListTrialComponents
 sagemaker:ListTrials
@@ -18323,6 +18335,8 @@ sagemaker:RegisterDevices
 sagemaker:RenderUiTemplate
 sagemaker:RetryPipelineExecution
 sagemaker:Sample
+sagemaker:SampleTrainingSession
+sagemaker:SampleTrainingSessionWithResponseStream
 sagemaker:SampleWithResponseStream
 sagemaker:Search
 sagemaker:SearchTrainingPlanOfferings
@@ -18358,6 +18372,7 @@ sagemaker:StopOptimizationJob
 sagemaker:StopPipelineExecution
 sagemaker:StopProcessingJob
 sagemaker:StopTrainingJob
+sagemaker:StopTrainingSession
 sagemaker:StopTransformJob
 sagemaker:TrainHubModel
 sagemaker:UpdateAction
