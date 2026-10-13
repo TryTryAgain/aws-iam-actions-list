@@ -5714,6 +5714,7 @@ datazone:CreateAssetType
 datazone:CreateCell
 datazone:CreateCellRun
 datazone:CreateConnection
+datazone:CreateDataApp
 datazone:CreateDataProduct
 datazone:CreateDataProductRevision
 datazone:CreateDataSource
@@ -5739,12 +5740,15 @@ datazone:CreateSubscriptionRequest
 datazone:CreateSubscriptionTarget
 datazone:CreateUserProfile
 datazone:DeleteAccountPool
+datazone:DeleteAgentApprovalPolicy
 datazone:DeleteAsset
 datazone:DeleteAssetFilter
 datazone:DeleteAssetType
 datazone:DeleteCell
 datazone:DeleteCellRun
 datazone:DeleteConnection
+datazone:DeleteConversation
+datazone:DeleteDataApp
 datazone:DeleteDataExportConfiguration
 datazone:DeleteDataProduct
 datazone:DeleteDataSource
@@ -5771,10 +5775,12 @@ datazone:DeleteSubscriptionGrant
 datazone:DeleteSubscriptionRequest
 datazone:DeleteSubscriptionTarget
 datazone:DeleteTimeSeriesDataPoints
+datazone:DeregisterAgentArtifact
 datazone:DisassociateEnvironmentRole
 datazone:DisassociateGovernedTerms
 datazone:GenerateCode
 datazone:GetAccountPool
+datazone:GetAgentApprovalPolicy
 datazone:GetAsset
 datazone:GetAssetFilter
 datazone:GetAssetType
@@ -5785,6 +5791,7 @@ datazone:GetCompute
 datazone:GetConnection
 datazone:GetConversation
 datazone:GetCurrentEffectivePolicy
+datazone:GetDataApp
 datazone:GetDataExportConfiguration
 datazone:GetDataProduct
 datazone:GetDataSource
@@ -5826,14 +5833,18 @@ datazone:GetSubscriptionTarget
 datazone:GetTimeSeriesDataPoint
 datazone:GetUpdateEligibility
 datazone:GetUserProfile
+datazone:InvokeAgent
 datazone:ListAccountEnvironments
 datazone:ListAccountPools
 datazone:ListAccountsInAccountPool
+datazone:ListAgentArtifacts
+datazone:ListAgentSessionRecords
 datazone:ListAssetFilters
 datazone:ListAssetRevisions
 datazone:ListCellRuns
 datazone:ListConnections
 datazone:ListConversations
+datazone:ListDataApps
 datazone:ListDataProductRevisions
 datazone:ListDataSourceRunActivities
 datazone:ListDataSourceRuns
@@ -5862,6 +5873,7 @@ datazone:ListProjectMemberships
 datazone:ListProjectProfiles
 datazone:ListProjects
 datazone:ListRules
+datazone:ListSharedDataApps
 datazone:ListSubscriptionGrants
 datazone:ListSubscriptionRequests
 datazone:ListSubscriptionTargets
@@ -5872,12 +5884,14 @@ datazone:ListWarehouseMetadata
 datazone:PostLineageEvent
 datazone:PostTimeSeriesDataPoints
 datazone:ProvisionDomain
+datazone:PutAgentApprovalPolicy
 datazone:PutCellRunResult
 datazone:PutDataExportConfiguration
 datazone:PutDomainSharingPolicy
 datazone:PutEnvironmentBlueprintConfiguration
 datazone:QueryGraph
 datazone:RefreshToken
+datazone:RegisterAgentArtifact
 datazone:RejectPredictions
 datazone:RejectSubscriptionRequest
 datazone:RemoveEntityOwner
@@ -5902,6 +5916,7 @@ datazone:StartNotebookExport
 datazone:StartNotebookImport
 datazone:StartNotebookRun
 datazone:StartNotebookSync
+datazone:StopAgent
 datazone:StopCompute
 datazone:StopMetadataGenerationRun
 datazone:StopNotebookCompute
@@ -5913,6 +5928,8 @@ datazone:UpdateAssetFilter
 datazone:UpdateCell
 datazone:UpdateCellRun
 datazone:UpdateConnection
+datazone:UpdateConversation
+datazone:UpdateDataApp
 datazone:UpdateDataSource
 datazone:UpdateDataSourceRunActivities
 datazone:UpdateDesignation
@@ -16907,6 +16924,7 @@ resiliencehub:DescribeDraftAppVersionResourcesImportStatus
 resiliencehub:DescribeMetricsExport
 resiliencehub:DescribeResiliencyPolicy
 resiliencehub:DescribeResourceGroupingRecommendationTask
+resiliencehub:GetDependencyInsights
 resiliencehub:GetFailureModeFinding
 resiliencehub:GetPolicy
 resiliencehub:GetService
@@ -16937,6 +16955,7 @@ resiliencehub:ListFailureModeFindings
 resiliencehub:ListInputSources
 resiliencehub:ListMetrics
 resiliencehub:ListPolicies
+resiliencehub:ListPolicyEvents
 resiliencehub:ListRecommendationTemplates
 resiliencehub:ListReports
 resiliencehub:ListResiliencyPolicies
@@ -16970,6 +16989,7 @@ resiliencehub:RejectResourceGroupingRecommendations
 resiliencehub:RemoveDraftAppVersionResourceMappings
 resiliencehub:ResolveAppVersionResources
 resiliencehub:StartAppAssessment
+resiliencehub:StartDependencyInsights
 resiliencehub:StartFailureModeAssessment
 resiliencehub:StartMetricsExport
 resiliencehub:StartResourceGroupingRecommendationTask
