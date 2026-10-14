@@ -17318,6 +17318,7 @@ route53domains:EnableDomainAutoRenew
 route53domains:EnableDomainTransferLock
 route53domains:GetContactReachabilityStatus
 route53domains:GetDomainDetail
+route53domains:GetDomainPrices
 route53domains:GetDomainSuggestions
 route53domains:GetOperationDetail
 route53domains:ListDomains
