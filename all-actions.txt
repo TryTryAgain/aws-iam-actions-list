@@ -1559,6 +1559,7 @@ autoscaling:SuspendProcesses
 autoscaling:TerminateInstanceInAutoScalingGroup
 autoscaling:UpdateAutoScalingGroup
 aws-external-anthropic:ArchiveAgent
+aws-external-anthropic:ArchiveDeployment
 aws-external-anthropic:ArchiveEnvironment
 aws-external-anthropic:ArchiveMemoryStore
 aws-external-anthropic:ArchiveSession
@@ -1570,6 +1571,7 @@ aws-external-anthropic:CancelBatchInference
 aws-external-anthropic:CountTokens
 aws-external-anthropic:CreateAgent
 aws-external-anthropic:CreateBatchInference
+aws-external-anthropic:CreateDeployment
 aws-external-anthropic:CreateEnvironment
 aws-external-anthropic:CreateFile
 aws-external-anthropic:CreateInference
@@ -1593,6 +1595,7 @@ aws-external-anthropic:DisableKey
 aws-external-anthropic:GetAccountStatus
 aws-external-anthropic:GetAgent
 aws-external-anthropic:GetBatchInference
+aws-external-anthropic:GetDeployment
 aws-external-anthropic:GetEnvironment
 aws-external-anthropic:GetFile
 aws-external-anthropic:GetKey
@@ -1606,6 +1609,7 @@ aws-external-anthropic:GetWebhook
 aws-external-anthropic:GetWorkspace
 aws-external-anthropic:ListAgents
 aws-external-anthropic:ListBatchInferences
+aws-external-anthropic:ListDeployments
 aws-external-anthropic:ListEnvironments
 aws-external-anthropic:ListFiles
 aws-external-anthropic:ListKeys
@@ -1618,12 +1622,16 @@ aws-external-anthropic:ListUserProfiles
 aws-external-anthropic:ListVaults
 aws-external-anthropic:ListWebhooks
 aws-external-anthropic:ListWorkspaces
+aws-external-anthropic:PauseDeployment
 aws-external-anthropic:ProcessEnvironmentWork
 aws-external-anthropic:RegisterKey
 aws-external-anthropic:RotateWebhookSecret
+aws-external-anthropic:RunDeployment
 aws-external-anthropic:TagResource
+aws-external-anthropic:UnpauseDeployment
 aws-external-anthropic:UntagResource
 aws-external-anthropic:UpdateAgent
+aws-external-anthropic:UpdateDeployment
 aws-external-anthropic:UpdateEnvironment
 aws-external-anthropic:UpdateKey
 aws-external-anthropic:UpdateMemoryStore
