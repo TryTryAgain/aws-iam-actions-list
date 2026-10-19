@@ -2216,6 +2216,7 @@ bedrock-agentcore:GetWorkloadAccessToken
 bedrock-agentcore:GetWorkloadAccessTokenForJWT
 bedrock-agentcore:GetWorkloadAccessTokenForUserId
 bedrock-agentcore:GetWorkloadIdentity
+bedrock-agentcore:IngestData
 bedrock-agentcore:InvokeAgentRuntime
 bedrock-agentcore:InvokeAgentRuntimeCommand
 bedrock-agentcore:InvokeAgentRuntimeCommandShell
@@ -2286,6 +2287,7 @@ bedrock-agentcore:PassCapacityProvider
 bedrock-agentcore:ProcessPayment
 bedrock-agentcore:PutResourcePolicy
 bedrock-agentcore:PutSystemLogEvents
+bedrock-agentcore:ResetTokenVaultKeyMaterial
 bedrock-agentcore:RetrieveMemoryRecords
 bedrock-agentcore:SaveBrowserSessionProfile
 bedrock-agentcore:SearchRegistryRecords
@@ -2322,6 +2324,7 @@ bedrock-agentcore:UpdateGatewayTarget
 bedrock-agentcore:UpdateHarness
 bedrock-agentcore:UpdateHarnessEndpoint
 bedrock-agentcore:UpdateMemory
+bedrock-agentcore:UpdateMemoryRecordExpirySpecification
 bedrock-agentcore:UpdateOauth2CredentialProvider
 bedrock-agentcore:UpdateOnlineEvaluationConfig
 bedrock-agentcore:UpdatePaymentConnector
@@ -21923,6 +21926,7 @@ workspaces-instances:ListInstanceTypes
 workspaces-instances:ListRegions
 workspaces-instances:ListTagsForResource
 workspaces-instances:ListWorkspaceInstances
+workspaces-instances:ModifyVolume
 workspaces-instances:TagResource
 workspaces-instances:UntagResource
 workspaces-web:AssociateBrowserSettings
