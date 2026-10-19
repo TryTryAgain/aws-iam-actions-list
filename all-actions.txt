@@ -7778,11 +7778,13 @@ ecr:ValidatePullThroughCacheRule
 ecs-mcp:InvokeReadOnlyTools
 ecs-mcp:UseMcp
 ecs:AllowVendedLogDeliveryForResource
+ecs:AssociateGatewayWithCluster
 ecs:ContinueServiceDeployment
 ecs:CreateCapacityProvider
 ecs:CreateCluster
 ecs:CreateDaemon
 ecs:CreateExpressGatewayService
+ecs:CreateGateway
 ecs:CreateService
 ecs:CreateTaskSet
 ecs:DeleteAccountSetting
@@ -7792,6 +7794,7 @@ ecs:DeleteCluster
 ecs:DeleteDaemon
 ecs:DeleteDaemonTaskDefinition
 ecs:DeleteExpressGatewayService
+ecs:DeleteGateway
 ecs:DeleteService
 ecs:DeleteTaskDefinitions
 ecs:DeleteTaskSet
@@ -7805,12 +7808,16 @@ ecs:DescribeDaemonDeployments
 ecs:DescribeDaemonRevisions
 ecs:DescribeDaemonTaskDefinition
 ecs:DescribeExpressGatewayService
+ecs:DescribeGateway
+ecs:DescribeGatewayResources
+ecs:DescribeGatewayRoute
 ecs:DescribeServiceDeployments
 ecs:DescribeServiceRevisions
 ecs:DescribeServices
 ecs:DescribeTaskDefinition
 ecs:DescribeTaskSets
 ecs:DescribeTasks
+ecs:DisassociateGatewayFromCluster
 ecs:DiscoverPollEndpoint
 ecs:ExecuteCommand
 ecs:GetTaskProtection
@@ -7821,6 +7828,9 @@ ecs:ListContainerInstances
 ecs:ListDaemonDeployments
 ecs:ListDaemonTaskDefinitions
 ecs:ListDaemons
+ecs:ListGatewayClusterAssociations
+ecs:ListGatewayRoutes
+ecs:ListGateways
 ecs:ListServiceDeployments
 ecs:ListServices
 ecs:ListServicesByNamespace
@@ -7854,6 +7864,7 @@ ecs:UpdateContainerAgent
 ecs:UpdateContainerInstancesState
 ecs:UpdateDaemon
 ecs:UpdateExpressGatewayService
+ecs:UpdateGateway
 ecs:UpdateService
 ecs:UpdateServicePrimaryTaskSet
 ecs:UpdateTaskProtection
