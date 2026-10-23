@@ -555,10 +555,13 @@ aoss:BatchGetCollectionGroup
 aoss:BatchGetEffectiveLifecyclePolicy
 aoss:BatchGetLifecyclePolicy
 aoss:BatchGetVpcEndpoint
+aoss:CancelIngestionJob
 aoss:CreateAccessPolicy
 aoss:CreateCollection
 aoss:CreateCollectionGroup
 aoss:CreateIndex
+aoss:CreateIngestionJob
+aoss:CreateIngestionStream
 aoss:CreateLifecyclePolicy
 aoss:CreateSecurityConfig
 aoss:CreateSecurityPolicy
@@ -568,6 +571,7 @@ aoss:DeleteAccessPolicy
 aoss:DeleteCollection
 aoss:DeleteCollectionGroup
 aoss:DeleteIndex
+aoss:DeleteIngestionStream
 aoss:DeleteLifecyclePolicy
 aoss:DeleteSecurityConfig
 aoss:DeleteSecurityPolicy
@@ -575,12 +579,16 @@ aoss:DeleteVpcEndpoint
 aoss:GetAccessPolicy
 aoss:GetAccountSettings
 aoss:GetIndex
+aoss:GetIngestionJob
+aoss:GetIngestionStream
 aoss:GetPoliciesStats
 aoss:GetSecurityConfig
 aoss:GetSecurityPolicy
 aoss:ListAccessPolicies
 aoss:ListCollectionGroups
 aoss:ListCollections
+aoss:ListIngestionJobs
+aoss:ListIngestionStreams
 aoss:ListLifecyclePolicies
 aoss:ListSecurityConfigs
 aoss:ListSecurityPolicies
@@ -20979,6 +20987,7 @@ transcribe:StartTranscriptionJob
 transcribe:TagResource
 transcribe:UntagResource
 transcribe:UpdateCallAnalyticsCategory
+transcribe:UpdateLanguageModel
 transcribe:UpdateMedicalVocabulary
 transcribe:UpdateVocabulary
 transcribe:UpdateVocabularyFilter
@@ -21832,6 +21841,8 @@ wisdom:ListTagsForResource
 wisdom:NotifyRecommendationsReceived
 wisdom:PutFeedback
 wisdom:QueryAssistant
+wisdom:RegisterAssistantReplicaKey
+wisdom:RegisterKnowledgeBaseReplicaKey
 wisdom:RemoveAssistantAIAgent
 wisdom:RemoveKnowledgeBaseTemplateUri
 wisdom:RenderMessageTemplate
