@@ -11791,6 +11791,7 @@ ivs:ListStreamSessions
 ivs:ListStreams
 ivs:ListTagsForResource
 ivs:PutMetadata
+ivs:RevokeConnectionToken
 ivs:StartComposition
 ivs:StartParticipantReplication
 ivs:StartViewerSessionRevocation
