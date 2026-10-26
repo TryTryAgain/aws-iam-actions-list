@@ -7875,6 +7875,7 @@ ecr:DescribeImageSigningStatus
 ecr:DescribeImages
 ecr:DescribePullThroughCacheRules
 ecr:DescribeRegistry
+ecr:DescribeReplicationBackfillResults
 ecr:DescribeRepositories
 ecr:DescribeRepositoryCreationTemplates
 ecr:GetAccountSetting
@@ -7890,6 +7891,7 @@ ecr:GetSigningConfiguration
 ecr:InitiateLayerUpload
 ecr:ListImages
 ecr:ListPullTimeUpdateExclusions
+ecr:ListReplicationBackfills
 ecr:ListTagsForResource
 ecr:PutAccountSetting
 ecr:PutImage
@@ -7905,6 +7907,8 @@ ecr:ReplicateImage
 ecr:SetRepositoryPolicy
 ecr:StartImageScan
 ecr:StartLifecyclePolicyPreview
+ecr:StartReplicationBackfill
+ecr:StopReplicationBackfill
 ecr:TagResource
 ecr:UntagResource
 ecr:UpdateImageStorageClass
@@ -8618,6 +8622,7 @@ es:AcceptInboundConnection
 es:AcceptInboundCrossClusterSearchConnection
 es:AddDataSource
 es:AddDirectQueryDataSource
+es:AddReplicationPeer
 es:AddTags
 es:AssociatePackage
 es:AssociatePackages
@@ -8626,6 +8631,7 @@ es:AuthorizeVpcEndpointAccess
 es:CancelDomainConfigChange
 es:CancelElasticsearchServiceSoftwareUpdate
 es:CancelServiceSoftwareUpdate
+es:CompareDomainConfiguration
 es:CreateApplication
 es:CreateDomain
 es:CreateElasticsearchDomain
@@ -8657,6 +8663,7 @@ es:DescribeDomainChangeProgress
 es:DescribeDomainConfig
 es:DescribeDomainHealth
 es:DescribeDomainNodes
+es:DescribeDomainReplication
 es:DescribeDomains
 es:DescribeDryRunProgress
 es:DescribeElasticsearchDomain
@@ -8685,6 +8692,7 @@ es:ESHttpHead
 es:ESHttpPatch
 es:ESHttpPost
 es:ESHttpPut
+es:FailoverReplication
 es:GetApplication
 es:GetCapability
 es:GetCompatibleElasticsearchVersions
@@ -8725,6 +8733,7 @@ es:PutDefaultApplicationSetting
 es:RegisterCapability
 es:RejectInboundConnection
 es:RejectInboundCrossClusterSearchConnection
+es:RemoveReplicationPeer
 es:RemoveTags
 es:RevokeVpcEndpointAccess
 es:RollbackElasticsearchServiceSoftwareUpdate
@@ -8733,6 +8742,7 @@ es:StartDomainMaintenance
 es:StartElasticsearchServiceSoftwareUpdate
 es:StartMigration
 es:StartServiceSoftwareUpdate
+es:SwitchoverReplication
 es:UpdateApplication
 es:UpdateDataSource
 es:UpdateDirectQueryDataSource
@@ -11719,6 +11729,7 @@ ivs:BatchStartViewerSessionRevocation
 ivs:CreateAdConfiguration
 ivs:CreateChannel
 ivs:CreateEncoderConfiguration
+ivs:CreateFailoverSlateConfiguration
 ivs:CreateIngestConfiguration
 ivs:CreateParticipantToken
 ivs:CreatePlaybackRestrictionPolicy
@@ -11729,6 +11740,7 @@ ivs:CreateStreamKey
 ivs:DeleteAdConfiguration
 ivs:DeleteChannel
 ivs:DeleteEncoderConfiguration
+ivs:DeleteFailoverSlateConfiguration
 ivs:DeleteIngestConfiguration
 ivs:DeletePlaybackKeyPair
 ivs:DeletePlaybackRestrictionPolicy
@@ -11742,6 +11754,7 @@ ivs:GetAdConfiguration
 ivs:GetChannel
 ivs:GetComposition
 ivs:GetEncoderConfiguration
+ivs:GetFailoverSlateConfiguration
 ivs:GetIngestConfiguration
 ivs:GetParticipant
 ivs:GetPlaybackKeyPair
@@ -11761,6 +11774,7 @@ ivs:ListAdConfigurations
 ivs:ListChannels
 ivs:ListCompositions
 ivs:ListEncoderConfigurations
+ivs:ListFailoverSlateConfigurations
 ivs:ListIngestConfigurations
 ivs:ListParticipantEvents
 ivs:ListParticipantReplicas
@@ -11788,6 +11802,7 @@ ivs:TagResource
 ivs:UntagResource
 ivs:UpdateAdConfiguration
 ivs:UpdateChannel
+ivs:UpdateFailoverSlateConfiguration
 ivs:UpdateIngestConfiguration
 ivs:UpdatePlaybackRestrictionPolicy
 ivs:UpdateStage
@@ -22262,6 +22277,7 @@ workspaces:UpdateWorkspaceImagePermission
 workspaces:UpdateWorkspacesPool
 xray:BatchGetTraceSummaryById
 xray:BatchGetTraces
+xray:CallWithBearerToken
 xray:CancelTraceRetrieval
 xray:CreateGroup
 xray:CreateSamplingRule
