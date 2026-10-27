@@ -8465,9 +8465,11 @@ elemental-appliances-software:UpdateQuote
 elemental-inference:AssociateFeed
 elemental-inference:CreateDictionary
 elemental-inference:CreateFeed
+elemental-inference:CreateScheduleAction
 elemental-inference:DeleteDictionary
 elemental-inference:DeleteFeed
 elemental-inference:DeleteFeedPolicy
+elemental-inference:DeleteScheduleAction
 elemental-inference:DisassociateFeed
 elemental-inference:ExportDictionaryEntries
 elemental-inference:GetDictionary
@@ -8476,6 +8478,7 @@ elemental-inference:GetFeedPolicy
 elemental-inference:GetMetadata
 elemental-inference:ListDictionaries
 elemental-inference:ListFeeds
+elemental-inference:ListScheduleActions
 elemental-inference:ListTagsForResource
 elemental-inference:PutFeedPolicy
 elemental-inference:PutMedia
@@ -10717,6 +10720,7 @@ inspector2:GetEc2DeepInspectionConfiguration
 inspector2:GetEncryptionKey
 inspector2:GetFindingsReportStatus
 inspector2:GetMember
+inspector2:GetOnDemandScanStatus
 inspector2:GetSbomExport
 inspector2:ListAccountPermissions
 inspector2:ListCisScanConfigurations
@@ -10735,6 +10739,7 @@ inspector2:ListFilters
 inspector2:ListFindingAggregations
 inspector2:ListFindings
 inspector2:ListMembers
+inspector2:ListOnDemandScans
 inspector2:ListTagsForResource
 inspector2:ListUsageTotals
 inspector2:ResetEncryptionKey
@@ -10743,6 +10748,7 @@ inspector2:SendCisSessionHealth
 inspector2:SendCisSessionTelemetry
 inspector2:StartCisSession
 inspector2:StartCodeSecurityScan
+inspector2:StartOnDemandScan
 inspector2:StopCisSession
 inspector2:TagResource
 inspector2:UntagResource
@@ -15345,6 +15351,7 @@ partnercentral:RecallBenefitApplication
 partnercentral:RejectChannelHandshake
 partnercentral:RejectConnectionInvitation
 partnercentral:RejectEngagementInvitation
+partnercentral:SearchOpportunities
 partnercentral:SearchPartnerCentralContent
 partnercentral:SearchPartnerProfiles
 partnercentral:SendEmailVerificationCode
