@@ -11927,6 +11927,9 @@ kafkaconnect:ListConnectors
 kafkaconnect:ListCustomPlugins
 kafkaconnect:ListTagsForResource
 kafkaconnect:ListWorkerConfigurations
+kafkaconnect:PauseConnector
+kafkaconnect:RestartConnector
+kafkaconnect:ResumeConnector
 kafkaconnect:TagResource
 kafkaconnect:UntagResource
 kafkaconnect:UpdateConnector
@@ -14824,6 +14827,7 @@ odb:UpdateAutonomousDatabase
 odb:UpdateAutonomousDatabaseBackup
 odb:UpdateCloudExadataInfrastructure
 odb:UpdateExadbVmCluster
+odb:UpdateExascaleCloudExadataInfrastructure
 odb:UpdateExascaleDbStorageVault
 odb:UpdateGrantShare
 odb:UpdateOdbNetwork
