@@ -15651,10 +15651,13 @@ polly:GetLexicon
 polly:GetSpeechSynthesisTask
 polly:ListLexicons
 polly:ListSpeechSynthesisTasks
+polly:ListTagsForResource
 polly:PutLexicon
 polly:StartSpeechSynthesisStream
 polly:StartSpeechSynthesisTask
 polly:SynthesizeSpeech
+polly:TagResource
+polly:UntagResource
 pricing:DescribeServices
 pricing:GetAttributeValues
 pricing:GetPriceListFileUrl
