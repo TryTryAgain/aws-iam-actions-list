@@ -1385,7 +1385,6 @@ assurance:DeletePermissionSet
 assurance:DeleteProject
 assurance:DeregisterOrganizationDelegatedAdmin
 assurance:DisableFramework
-assurance:DownloadEvidence
 assurance:EnableFramework
 assurance:GetAnnotation
 assurance:GetAssessment
@@ -1426,7 +1425,6 @@ assurance:ListOutboundInvitations
 assurance:ListPermissionSetAssignments
 assurance:ListPermissionSets
 assurance:ListProjects
-assurance:ListResourcesForControl
 assurance:ListTagsForResource
 assurance:ListTaskHistory
 assurance:ListTasks
@@ -1438,7 +1436,6 @@ assurance:RejectInvitation
 assurance:RevokePermissionSet
 assurance:StartAssessment
 assurance:StartAssessmentReportExport
-assurance:StartResourceDiscovery
 assurance:TagResource
 assurance:UntagResource
 assurance:UpdateAnnotation
@@ -1452,7 +1449,6 @@ assurance:UpdateFramework
 assurance:UpdatePermissionSet
 assurance:UpdateProject
 assurance:UpdateTask
-assurance:UploadEvidence
 assurance:VendConnectionAccessToken
 athena:BatchGetNamedQuery
 athena:BatchGetPreparedStatement
@@ -5893,6 +5889,7 @@ datazone:CreateRule
 datazone:CreateSubscriptionGrant
 datazone:CreateSubscriptionRequest
 datazone:CreateSubscriptionTarget
+datazone:CreateUIConfiguration
 datazone:CreateUserProfile
 datazone:DeleteAccountPool
 datazone:DeleteAgentApprovalPolicy
@@ -5930,6 +5927,7 @@ datazone:DeleteSubscriptionGrant
 datazone:DeleteSubscriptionRequest
 datazone:DeleteSubscriptionTarget
 datazone:DeleteTimeSeriesDataPoints
+datazone:DeleteUIConfiguration
 datazone:DeregisterAgentArtifact
 datazone:DisassociateEnvironmentRole
 datazone:DisassociateGovernedTerms
@@ -5956,6 +5954,7 @@ datazone:GetDomain
 datazone:GetDomainExecutionRoleCredentials
 datazone:GetDomainSharingPolicy
 datazone:GetDomainUnit
+datazone:GetEffectiveUICustomization
 datazone:GetEnvironment
 datazone:GetEnvironmentAction
 datazone:GetEnvironmentActionLink
@@ -5986,6 +5985,7 @@ datazone:GetSubscriptionGrant
 datazone:GetSubscriptionRequestDetails
 datazone:GetSubscriptionTarget
 datazone:GetTimeSeriesDataPoint
+datazone:GetUIConfiguration
 datazone:GetUpdateEligibility
 datazone:GetUserProfile
 datazone:InvokeAgent
@@ -6035,6 +6035,7 @@ datazone:ListSubscriptionTargets
 datazone:ListSubscriptions
 datazone:ListTagsForResource
 datazone:ListTimeSeriesDataPoints
+datazone:ListUIConfigurations
 datazone:ListWarehouseMetadata
 datazone:PostLineageEvent
 datazone:PostTimeSeriesDataPoints
@@ -6106,6 +6107,7 @@ datazone:UpdateRule
 datazone:UpdateSubscriptionGrantStatus
 datazone:UpdateSubscriptionRequest
 datazone:UpdateSubscriptionTarget
+datazone:UpdateUIConfiguration
 datazone:UpdateUserProfile
 datazone:ValidatePassRole
 datazone:ValidatePolicy
@@ -19043,6 +19045,9 @@ securityhub:GetResourcesStatisticsV2
 securityhub:GetResourcesTrendsV2
 securityhub:GetResourcesV2
 securityhub:GetSecurityControlDefinition
+securityhub:GetSoftwareResourcesV2
+securityhub:GetSoftwareStatisticsV2
+securityhub:GetSoftwareV2
 securityhub:GetUsage
 securityhub:GetUsageV2
 securityhub:InviteMembers
