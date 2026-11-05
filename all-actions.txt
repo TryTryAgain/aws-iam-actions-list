@@ -341,6 +341,7 @@ aidevops:GetAssetFile
 aidevops:GetAssociation
 aidevops:GetBacklogTask
 aidevops:GetCatalogCapability
+aidevops:GetChat
 aidevops:GetKnowledgeItem
 aidevops:GetOperatorApp
 aidevops:GetRecommendation
@@ -385,6 +386,7 @@ aidevops:UpdateAsset
 aidevops:UpdateAssetFile
 aidevops:UpdateAssociation
 aidevops:UpdateBacklogTask
+aidevops:UpdateChat
 aidevops:UpdateGoal
 aidevops:UpdateKnowledgeItem
 aidevops:UpdateOperatorAppIdpConfig
@@ -5882,6 +5884,7 @@ datazone:CreateGlossaryTerm
 datazone:CreateGroupProfile
 datazone:CreateListingChangeSet
 datazone:CreateNotebook
+datazone:CreateNotificationPreference
 datazone:CreateProject
 datazone:CreateProjectMembership
 datazone:CreateProjectProfile
@@ -5919,6 +5922,7 @@ datazone:DeleteGlossaryTerm
 datazone:DeleteLineageEvent
 datazone:DeleteListing
 datazone:DeleteNotebook
+datazone:DeleteNotificationPreference
 datazone:DeleteProject
 datazone:DeleteProjectMembership
 datazone:DeleteProjectProfile
@@ -5976,6 +5980,7 @@ datazone:GetNotebook
 datazone:GetNotebookCompute
 datazone:GetNotebookExport
 datazone:GetNotebookRun
+datazone:GetNotificationPreference
 datazone:GetProject
 datazone:GetProjectProfile
 datazone:GetRule
@@ -5984,6 +5989,7 @@ datazone:GetSubscriptionEligibility
 datazone:GetSubscriptionGrant
 datazone:GetSubscriptionRequestDetails
 datazone:GetSubscriptionTarget
+datazone:GetSystemTableExportConfiguration
 datazone:GetTimeSeriesDataPoint
 datazone:GetUIConfiguration
 datazone:GetUpdateEligibility
@@ -6004,6 +6010,7 @@ datazone:ListDataProductRevisions
 datazone:ListDataSourceRunActivities
 datazone:ListDataSourceRuns
 datazone:ListDataSources
+datazone:ListDeployableEnvironmentBlueprints
 datazone:ListDesignations
 datazone:ListDomainUnitsForParent
 datazone:ListDomains
@@ -6045,6 +6052,7 @@ datazone:PutCellRunResult
 datazone:PutDataExportConfiguration
 datazone:PutDomainSharingPolicy
 datazone:PutEnvironmentBlueprintConfiguration
+datazone:PutSystemTableExportConfiguration
 datazone:QueryGraph
 datazone:RefreshToken
 datazone:RegisterAgentArtifact
@@ -6081,6 +6089,7 @@ datazone:TagResource
 datazone:UntagResource
 datazone:UpdateAccountPool
 datazone:UpdateAssetFilter
+datazone:UpdateAssetOwner
 datazone:UpdateCell
 datazone:UpdateCellRun
 datazone:UpdateConnection
@@ -6101,6 +6110,7 @@ datazone:UpdateGlossary
 datazone:UpdateGlossaryTerm
 datazone:UpdateGroupProfile
 datazone:UpdateNotebook
+datazone:UpdateNotificationPreference
 datazone:UpdateProject
 datazone:UpdateProjectProfile
 datazone:UpdateRule
@@ -18092,6 +18102,7 @@ s3files:PutSynchronizationConfiguration
 s3files:TagResource
 s3files:UntagResource
 s3files:UpdateMountTarget
+s3tables:CompleteTableMigration
 s3tables:CreateNamespace
 s3tables:CreateTable
 s3tables:CreateTableBucket
@@ -18118,6 +18129,7 @@ s3tables:GetTableEncryption
 s3tables:GetTableMaintenanceConfiguration
 s3tables:GetTableMaintenanceJobStatus
 s3tables:GetTableMetadataLocation
+s3tables:GetTableMigration
 s3tables:GetTablePolicy
 s3tables:GetTableRecordExpirationConfiguration
 s3tables:GetTableRecordExpirationJobStatus
@@ -18126,6 +18138,7 @@ s3tables:GetTableReplicationStatus
 s3tables:GetTableStorageClass
 s3tables:ListNamespaces
 s3tables:ListTableBuckets
+s3tables:ListTableMigrations
 s3tables:ListTables
 s3tables:ListTagsForResource
 s3tables:PutTableBucketEncryption
@@ -18142,9 +18155,12 @@ s3tables:PutTableRecordExpirationConfiguration
 s3tables:PutTableReplication
 s3tables:PutTableStorageClass
 s3tables:RenameTable
+s3tables:StartTableMigration
+s3tables:SyncTableMigration
 s3tables:TagResource
 s3tables:UntagResource
 s3tables:UpdateTableMetadataLocation
+s3tables:UpdateTableMigration
 s3vectors:CreateIndex
 s3vectors:CreateVectorBucket
 s3vectors:DeleteIndex
@@ -19572,6 +19588,7 @@ ses:VerifyDomainDkim
 ses:VerifyDomainIdentity
 ses:VerifyEmailAddress
 ses:VerifyEmailIdentity
+shield:AllowVendedLogDeliveryForResource
 shield:AssociateDRTLogBucket
 shield:AssociateDRTRole
 shield:AssociateHealthCheck
