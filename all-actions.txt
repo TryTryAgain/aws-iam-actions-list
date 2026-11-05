@@ -6934,6 +6934,8 @@ dsql:UpdateStream
 dynamodb:AssociateTableReplica
 dynamodb:BatchGetItem
 dynamodb:BatchWriteItem
+dynamodb:BulkPutItems
+dynamodb:CancelBulkOperation
 dynamodb:ConditionCheckItem
 dynamodb:CreateBackup
 dynamodb:CreateGlobalTable
@@ -6947,6 +6949,7 @@ dynamodb:DeleteResourcePolicy
 dynamodb:DeleteTable
 dynamodb:DeleteTableReplica
 dynamodb:DescribeBackup
+dynamodb:DescribeBulkOperation
 dynamodb:DescribeContinuousBackups
 dynamodb:DescribeContributorInsights
 dynamodb:DescribeEndpoints
@@ -6974,6 +6977,7 @@ dynamodb:GetShardIterator
 dynamodb:ImportTable
 dynamodb:InjectError
 dynamodb:ListBackups
+dynamodb:ListBulkOperations
 dynamodb:ListContributorInsights
 dynamodb:ListExports
 dynamodb:ListGlobalTables
@@ -6997,6 +7001,7 @@ dynamodb:RestoreTableToPointInTime
 dynamodb:Scan
 dynamodb:SearchVectors
 dynamodb:StartAwsBackupJob
+dynamodb:StartBulkOperation
 dynamodb:TagResource
 dynamodb:UntagResource
 dynamodb:UpdateAbacStatus
@@ -15495,15 +15500,19 @@ payment-cryptography:VerifyCardValidationData
 payment-cryptography:VerifyMac
 payment-cryptography:VerifyPinData
 payments:AcceptFinancingApplicationTerms
+payments:CreateConnectedAccount
 payments:CreateFinancingApplication
 payments:CreatePaymentInstrument
+payments:DeleteConnectedAccount
 payments:DeletePaymentInstrument
+payments:GetConnectedAccount
 payments:GetFinancingApplication
 payments:GetFinancingLine
 payments:GetFinancingLineWithdrawal
 payments:GetFinancingOption
 payments:GetPaymentInstrument
 payments:GetPaymentStatus
+payments:ListConnectedAccounts
 payments:ListFinancingApplications
 payments:ListFinancingLineWithdrawals
 payments:ListFinancingLines
@@ -16207,6 +16216,7 @@ qldb:UpdateLedger
 qldb:UpdateLedgerPermissionsMode
 quicksight:AccountConfigurations
 quicksight:AllowVendedLogDeliveryForResource
+quicksight:AuthorizeOAuthAccess
 quicksight:BatchCreateTopicReviewedAnswer
 quicksight:BatchDeleteKnowledgeBase
 quicksight:BatchDeleteTopicReviewedAnswer
@@ -16214,6 +16224,8 @@ quicksight:BatchDescribeUserLimits
 quicksight:BatchGetPreferences
 quicksight:BatchUpdatePreferences
 quicksight:CancelIngestion
+quicksight:CreateAccessControlApplication
+quicksight:CreateAccessControlApplicationSecret
 quicksight:CreateAccountCustomization
 quicksight:CreateAccountSubscription
 quicksight:CreateActionConnector
@@ -16236,11 +16248,13 @@ quicksight:CreateFolderMembership
 quicksight:CreateGroup
 quicksight:CreateGroupMembership
 quicksight:CreateIAMPolicyAssignment
+quicksight:CreateInboundConnector
 quicksight:CreateIngestion
 quicksight:CreateKnowledgeBase
 quicksight:CreateLimitsProfile
 quicksight:CreateNamespace
 quicksight:CreateOAuthClientApplication
+quicksight:CreateOAuthToken
 quicksight:CreateReader
 quicksight:CreateRefreshSchedule
 quicksight:CreateRoleMembership
@@ -16253,6 +16267,8 @@ quicksight:CreateTopic
 quicksight:CreateTopicRefreshSchedule
 quicksight:CreateUser
 quicksight:CreateVPCConnection
+quicksight:DeleteAccessControlApplication
+quicksight:DeleteAccessControlApplicationSecret
 quicksight:DeleteAccountCustomPermission
 quicksight:DeleteAccountCustomization
 quicksight:DeleteAccountSubscription
@@ -16280,6 +16296,7 @@ quicksight:DeleteGroup
 quicksight:DeleteGroupMembership
 quicksight:DeleteIAMPolicyAssignment
 quicksight:DeleteIdentityPropagationConfig
+quicksight:DeleteInboundConnector
 quicksight:DeleteKnowledgeBase
 quicksight:DeleteLimitsProfile
 quicksight:DeleteNamespace
@@ -16298,6 +16315,7 @@ quicksight:DeleteUser
 quicksight:DeleteUserByPrincipalId
 quicksight:DeleteUserCustomPermission
 quicksight:DeleteVPCConnection
+quicksight:DescribeAccessControlApplication
 quicksight:DescribeAccountCustomPermission
 quicksight:DescribeAccountCustomization
 quicksight:DescribeAccountSettings
@@ -16343,6 +16361,7 @@ quicksight:DescribeFolderResolvedPermissions
 quicksight:DescribeGroup
 quicksight:DescribeGroupMembership
 quicksight:DescribeIAMPolicyAssignment
+quicksight:DescribeInboundConnector
 quicksight:DescribeIngestion
 quicksight:DescribeIpRestriction
 quicksight:DescribeKeyRegistration
@@ -16383,6 +16402,7 @@ quicksight:GetFlowPermissions
 quicksight:GetGroupMapping
 quicksight:GetIdentityContext
 quicksight:GetSessionEmbedUrl
+quicksight:ListAccessControlApplications
 quicksight:ListActionConnectors
 quicksight:ListAgents
 quicksight:ListAnalyses
@@ -16411,6 +16431,8 @@ quicksight:ListGroups
 quicksight:ListIAMPolicyAssignments
 quicksight:ListIAMPolicyAssignmentsForUser
 quicksight:ListIdentityPropagationConfigs
+quicksight:ListInboundConnectorApplicationAssociations
+quicksight:ListInboundConnectors
 quicksight:ListIngestions
 quicksight:ListKMSKeysForUser
 quicksight:ListKnowledgeBases
@@ -16446,6 +16468,7 @@ quicksight:RegisterCustomerManagedKey
 quicksight:RegisterUser
 quicksight:RemoveCustomerManagedKey
 quicksight:RestoreAnalysis
+quicksight:RevokeOAuthToken
 quicksight:ScopeDownPolicy
 quicksight:SearchActionConnectors
 quicksight:SearchAgents
@@ -16475,6 +16498,8 @@ quicksight:TagResource
 quicksight:UnpublishFlow
 quicksight:Unsubscribe
 quicksight:UntagResource
+quicksight:UpdateAccessControlApplication
+quicksight:UpdateAccessControlApplicationSecret
 quicksight:UpdateAccountCustomPermission
 quicksight:UpdateAccountCustomization
 quicksight:UpdateAccountSettings
@@ -16514,6 +16539,8 @@ quicksight:UpdateFolderPermissions
 quicksight:UpdateGroup
 quicksight:UpdateIAMPolicyAssignment
 quicksight:UpdateIdentityPropagationConfig
+quicksight:UpdateInboundConnector
+quicksight:UpdateInboundConnectorApplicationAssociations
 quicksight:UpdateIpRestriction
 quicksight:UpdateKeyRegistration
 quicksight:UpdateKnowledgeBase
