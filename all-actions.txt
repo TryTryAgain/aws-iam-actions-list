@@ -4084,6 +4084,7 @@ cloudwatch:DescribeAlarms
 cloudwatch:DescribeAlarmsForMetric
 cloudwatch:DescribeAnomalyDetectors
 cloudwatch:DescribeInsightRules
+cloudwatch:DetectGroupOutliers
 cloudwatch:DisableAlarmActions
 cloudwatch:DisableInsightRules
 cloudwatch:EnableAlarmActions
