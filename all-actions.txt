@@ -20234,6 +20234,7 @@ ssm:DeleteParameters
 ssm:DeletePatchBaseline
 ssm:DeleteResourceDataSync
 ssm:DeleteResourcePolicy
+ssm:DeregisterDefaultHostManagementConfiguration
 ssm:DeregisterManagedInstance
 ssm:DeregisterPatchBaselineForPatchGroup
 ssm:DeregisterTargetFromMaintenanceWindow
@@ -20332,6 +20333,7 @@ ssm:PutConfigurePackageResult
 ssm:PutInventory
 ssm:PutParameter
 ssm:PutResourcePolicy
+ssm:RegisterDefaultHostManagementConfiguration
 ssm:RegisterDefaultPatchBaseline
 ssm:RegisterManagedInstance
 ssm:RegisterPatchBaselineForPatchGroup
