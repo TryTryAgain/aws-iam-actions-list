@@ -287,6 +287,7 @@ agent-registry:UpdateRegistryRecord
 agent-registry:UpdateRegistryRecordStatus
 agentaccess-mcp:CallForwardedTool
 agentaccess-mcp:CheckConnectionStatus
+agentaccess-mcp:CloseSession
 agentaccess-mcp:DoubleClick
 agentaccess-mcp:GetScreenshot
 agentaccess-mcp:GetSessionInfo
@@ -1404,6 +1405,7 @@ assurance:GetFramework
 assurance:GetInvitation
 assurance:GetPermissionSet
 assurance:GetProject
+assurance:GetResourceActivitiesQueryResults
 assurance:GetTask
 assurance:ListAssessmentAnnotations
 assurance:ListAssessmentJournalRecords
@@ -1438,6 +1440,7 @@ assurance:RejectInvitation
 assurance:RevokePermissionSet
 assurance:StartAssessment
 assurance:StartAssessmentReportExport
+assurance:StartResourceActivitiesQuery
 assurance:TagResource
 assurance:UntagResource
 assurance:UpdateAnnotation
@@ -1451,7 +1454,6 @@ assurance:UpdateFramework
 assurance:UpdatePermissionSet
 assurance:UpdateProject
 assurance:UpdateTask
-assurance:VendConnectionAccessToken
 athena:BatchGetNamedQuery
 athena:BatchGetPreparedStatement
 athena:BatchGetQueryExecution
@@ -2338,6 +2340,7 @@ bedrock-agentcore:InvokeCodeInterpreter
 bedrock-agentcore:InvokeGateway
 bedrock-agentcore:InvokeHarness
 bedrock-agentcore:InvokeRegistryMcp
+bedrock-agentcore:InvokeWebAnswer
 bedrock-agentcore:InvokeWebSearch
 bedrock-agentcore:ListABTests
 bedrock-agentcore:ListActors
@@ -5499,6 +5502,7 @@ connect:UpdateInstanceStorageConfig
 connect:UpdateMetricContent
 connect:UpdateMetricMetadata
 connect:UpdateNotificationContent
+connect:UpdateOutboundEmailContactMessage
 connect:UpdateParticipantAuthentication
 connect:UpdateParticipantRoleConfig
 connect:UpdatePhoneNumber
@@ -10226,6 +10230,7 @@ guardduty:UpdateThreatEntitySet
 guardduty:UpdateThreatIntelSet
 guardduty:UpdateTrustedEntitySet
 health-agent:ActivateSubscription
+health-agent:BatchRefillPatientPharmacyPrescriptions
 health-agent:CancelAppointment
 health-agent:CreateAgent
 health-agent:CreateDomain
@@ -10255,6 +10260,7 @@ health-agent:ListIntegrations
 health-agent:ListPatientAppointments
 health-agent:ListPatientInsuranceCoverages
 health-agent:ListPatientMedications
+health-agent:ListPatientPharmacyPrescriptions
 health-agent:ListProviders
 health-agent:ListSessionRecords
 health-agent:ListSubscriptions
@@ -16374,6 +16380,7 @@ quicksight:DescribeQPersonalizationConfiguration
 quicksight:DescribeQuickIndexCapacity
 quicksight:DescribeQuickSightQSearchConfiguration
 quicksight:DescribeRefreshSchedule
+quicksight:DescribeResourcePermissions
 quicksight:DescribeRoleCustomPermission
 quicksight:DescribeSelfUpgradeConfiguration
 quicksight:DescribeSpace
@@ -17623,6 +17630,7 @@ route53domains:RejectDomainTransferFromAnotherAwsAccount
 route53domains:RenewDomain
 route53domains:ResendContactReachabilityEmail
 route53domains:ResendOperationAuthorization
+route53domains:RestoreDomain
 route53domains:RetrieveDomainAuthCode
 route53domains:TransferDomain
 route53domains:TransferDomainToAnotherAwsAccount
