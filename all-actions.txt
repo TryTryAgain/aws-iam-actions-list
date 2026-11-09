@@ -8786,6 +8786,7 @@ es:StartMigration
 es:StartServiceSoftwareUpdate
 es:SwitchoverReplication
 es:UpdateApplication
+es:UpdateClone
 es:UpdateDataSource
 es:UpdateDirectQueryDataSource
 es:UpdateDomainConfig
