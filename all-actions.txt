@@ -7116,6 +7116,7 @@ ec2:CreateCapacityManagerDataExport
 ec2:CreateCapacityReservation
 ec2:CreateCapacityReservationBySplitting
 ec2:CreateCapacityReservationCancellationQuote
+ec2:CreateCapacityReservationDateChangeQuote
 ec2:CreateCapacityReservationFleet
 ec2:CreateCarrierGateway
 ec2:CreateClientVpnEndpoint
@@ -7227,6 +7228,7 @@ ec2:DeleteApplicationStatusCheck
 ec2:DeleteCapacityManagerDataExport
 ec2:DeleteCarrierGateway
 ec2:DeleteClientVpnEndpoint
+ec2:DeleteClientVpnEndpointAuthorizationPolicy
 ec2:DeleteClientVpnRoute
 ec2:DeleteCoipCidr
 ec2:DeleteCoipPool
@@ -7353,6 +7355,7 @@ ec2:DescribeCapacityBlocks
 ec2:DescribeCapacityManagerDataExports
 ec2:DescribeCapacityReservationBillingRequests
 ec2:DescribeCapacityReservationCancellationQuotes
+ec2:DescribeCapacityReservationDateChangeQuotes
 ec2:DescribeCapacityReservationFleets
 ec2:DescribeCapacityReservationTopology
 ec2:DescribeCapacityReservations
@@ -7617,6 +7620,7 @@ ec2:GetCapacityManagerMetricData
 ec2:GetCapacityManagerMetricDimensions
 ec2:GetCapacityManagerMonitoredTagKeys
 ec2:GetCapacityReservationUsage
+ec2:GetClientVpnEndpointAuthorizationPolicy
 ec2:GetCoipPoolUsage
 ec2:GetConsoleOutput
 ec2:GetConsoleScreenshot
@@ -7630,6 +7634,7 @@ ec2:GetGroupsForCapacityReservation
 ec2:GetHostReservationPurchasePreview
 ec2:GetImageAncestry
 ec2:GetImageBlockPublicAccessState
+ec2:GetImageFindings
 ec2:GetInstanceMetadataDefaults
 ec2:GetInstanceTpmEkPub
 ec2:GetInstanceTypesFromInstanceRequirements
@@ -7670,6 +7675,7 @@ ec2:GetSerialConsoleAccessStatus
 ec2:GetSnapshotBlockPublicAccessState
 ec2:GetSpotPlacementScores
 ec2:GetSubnetCidrReservations
+ec2:GetTransitGatewayAttachmentNatConfiguration
 ec2:GetTransitGatewayAttachmentPropagations
 ec2:GetTransitGatewayMeteringPolicyEntries
 ec2:GetTransitGatewayMulticastDomainAssociations
@@ -7706,6 +7712,7 @@ ec2:ModifyAvailabilityZoneGroup
 ec2:ModifyCapacityReservation
 ec2:ModifyCapacityReservationFleet
 ec2:ModifyClientVpnEndpoint
+ec2:ModifyClientVpnEndpointAuthorizationPolicy
 ec2:ModifyDefaultCreditSpecification
 ec2:ModifyEbsDefaultKmsKeyId
 ec2:ModifyFleet
@@ -7755,6 +7762,7 @@ ec2:ModifyTrafficMirrorFilterNetworkServices
 ec2:ModifyTrafficMirrorFilterRule
 ec2:ModifyTrafficMirrorSession
 ec2:ModifyTransitGateway
+ec2:ModifyTransitGatewayAttachmentNatConfiguration
 ec2:ModifyTransitGatewayMeteringPolicy
 ec2:ModifyTransitGatewayPolicyTableEntry
 ec2:ModifyTransitGatewayPrefixListReference
