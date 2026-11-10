@@ -289,6 +289,7 @@ agentaccess-mcp:CallForwardedTool
 agentaccess-mcp:CheckConnectionStatus
 agentaccess-mcp:CloseSession
 agentaccess-mcp:DoubleClick
+agentaccess-mcp:ExecuteSequence
 agentaccess-mcp:GetScreenshot
 agentaccess-mcp:GetSessionInfo
 agentaccess-mcp:HoldKey
@@ -306,6 +307,7 @@ agentaccess-mcp:Scroll
 agentaccess-mcp:ToggleAppSwitcher
 agentaccess-mcp:TripleClick
 agentaccess-mcp:TypeText
+agentaccess-mcp:Wait
 aidevops:AllowVendedLogDeliveryForResource
 aidevops:AssociateService
 aidevops:CreateAccessToken
@@ -343,14 +345,18 @@ aidevops:GetAssociation
 aidevops:GetBacklogTask
 aidevops:GetCatalogCapability
 aidevops:GetChat
+aidevops:GetKnowledgeGraph
 aidevops:GetKnowledgeItem
 aidevops:GetOperatorApp
+aidevops:GetPlan
 aidevops:GetRecommendation
 aidevops:GetService
 aidevops:GetTrigger
 aidevops:InitiateChatForCase
 aidevops:ListAccessTokens
+aidevops:ListAgentSpaceMetrics
 aidevops:ListAgentSpaces
+aidevops:ListAssetChanges
 aidevops:ListAssetFiles
 aidevops:ListAssetTypes
 aidevops:ListAssetVersions
@@ -379,6 +385,7 @@ aidevops:RotateAccessToken
 aidevops:SearchAssets
 aidevops:SearchServiceAccessibleResource
 aidevops:SendMessage
+aidevops:StopPlan
 aidevops:TagResource
 aidevops:UntagResource
 aidevops:UpdateAgentSpace
@@ -1814,6 +1821,7 @@ aws-marketplace:GetOfferTerms
 aws-marketplace:GetProduct
 aws-marketplace:GetResourcePolicy
 aws-marketplace:GetSellerDashboard
+aws-marketplace:GetSellerReportingData
 aws-marketplace:GetTaxComplianceProfile
 aws-marketplace:GetVerification
 aws-marketplace:GetVerificationEvidence
@@ -17726,6 +17734,7 @@ route53profiles:ListTagsForResource
 route53profiles:PutProfilePolicy
 route53profiles:TagResource
 route53profiles:UntagResource
+route53profiles:UpdateProfileAssociation
 route53profiles:UpdateProfileResourceAssociation
 route53resolver:AssociateFirewallRuleGroup
 route53resolver:AssociateFirewallRuleGroupWithService
@@ -19188,6 +19197,7 @@ securityhub:UpdateInsight
 securityhub:UpdateOrganizationConfiguration
 securityhub:UpdateSecurityControl
 securityhub:UpdateSecurityHubConfiguration
+securityhub:UpdateSecurityHubV2
 securityhub:UpdateStandardsControl
 securitylake:CreateAwsLogSource
 securitylake:CreateCustomLogSource
@@ -19707,6 +19717,7 @@ signer:UntagResource
 signin:Authenticate
 signin:AuthorizeOAuth2Access
 signin:CreateAccount
+signin:CreateBearerToken
 signin:CreateOAuth2PublicClient
 signin:CreateOAuth2Token
 signin:CreateTrustedIdentityPropagationApplicationForConsole
