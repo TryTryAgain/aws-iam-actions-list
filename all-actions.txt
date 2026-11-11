@@ -21384,6 +21384,7 @@ user-subscriptions:DeleteClaim
 user-subscriptions:GetAutoTopUpRule
 user-subscriptions:GetCurrentPlanDetails
 user-subscriptions:GetEffectiveUsageLimit
+user-subscriptions:GetOverageConfig
 user-subscriptions:GetPurchaseSession
 user-subscriptions:GetUsageLimitHistory
 user-subscriptions:ListApplicationClaims
@@ -21391,6 +21392,7 @@ user-subscriptions:ListClaimAddOns
 user-subscriptions:ListClaims
 user-subscriptions:ListEntitlements
 user-subscriptions:ListUsageLimits
+user-subscriptions:ListUsagesAndLimits
 user-subscriptions:ListUserSubscriptions
 user-subscriptions:SetAutoTopUpRule
 user-subscriptions:SetOverageConfig
