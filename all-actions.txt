@@ -4137,6 +4137,7 @@ cloudwatch:GetServiceLevelObjective
 cloudwatch:GetSpace
 cloudwatch:GetSpaceCredentials
 cloudwatch:GetSpaceCredentialsForOrganization
+cloudwatch:GetSpaceDataAccess
 cloudwatch:GetTelemetryQueryResults
 cloudwatch:GetTopologyDiscoveryStatus
 cloudwatch:GetTopologyMap
@@ -9334,6 +9335,7 @@ fsx:UpdateSnapshot
 fsx:UpdateStorageVirtualMachine
 fsx:UpdateVolume
 gamelift:AcceptMatch
+gamelift:AllowVendedLogDeliveryForResource
 gamelift:ClaimGameServer
 gamelift:CreateAlias
 gamelift:CreateBuild
@@ -14919,6 +14921,7 @@ odb:UpdateOdbPeeringConnection
 odb:UpdateOutboundIntegration
 omics:AbortMultipartReadSetUpload
 omics:AcceptShare
+omics:AuthorizeRunProcessing
 omics:BatchDeleteReadSet
 omics:CancelAnnotationImportJob
 omics:CancelRun
@@ -18193,6 +18196,7 @@ s3tables:GetNamespace
 s3tables:GetTable
 s3tables:GetTableBucket
 s3tables:GetTableBucketEncryption
+s3tables:GetTableBucketLogging
 s3tables:GetTableBucketMaintenanceConfiguration
 s3tables:GetTableBucketMetricsConfiguration
 s3tables:GetTableBucketPolicy
@@ -18216,6 +18220,7 @@ s3tables:ListTableMigrations
 s3tables:ListTables
 s3tables:ListTagsForResource
 s3tables:PutTableBucketEncryption
+s3tables:PutTableBucketLogging
 s3tables:PutTableBucketMaintenanceConfiguration
 s3tables:PutTableBucketMetricsConfiguration
 s3tables:PutTableBucketPolicy
