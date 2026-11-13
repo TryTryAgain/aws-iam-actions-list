@@ -290,6 +290,7 @@ agentaccess-mcp:CheckConnectionStatus
 agentaccess-mcp:CloseSession
 agentaccess-mcp:DoubleClick
 agentaccess-mcp:ExecuteSequence
+agentaccess-mcp:GetCurrentUser
 agentaccess-mcp:GetScreenshot
 agentaccess-mcp:GetSessionInfo
 agentaccess-mcp:HoldKey
@@ -304,6 +305,7 @@ agentaccess-mcp:MiddleClick
 agentaccess-mcp:MovePointer
 agentaccess-mcp:RightClick
 agentaccess-mcp:Scroll
+agentaccess-mcp:SwitchUser
 agentaccess-mcp:ToggleAppSwitcher
 agentaccess-mcp:TripleClick
 agentaccess-mcp:TypeText
@@ -10237,6 +10239,7 @@ guardduty:ListDetectors
 guardduty:ListFilters
 guardduty:ListFindings
 guardduty:ListIPSets
+guardduty:ListInvestigationRecords
 guardduty:ListInvestigations
 guardduty:ListInvitations
 guardduty:ListMalwareProtectionPlans
