@@ -9701,6 +9701,7 @@ glue:CreateColumnStatisticsTaskSettings
 glue:CreateConnection
 glue:CreateCrawler
 glue:CreateCustomEntityType
+glue:CreateDataQualityEvaluationConfig
 glue:CreateDataQualityRuleset
 glue:CreateDatabase
 glue:CreateDevEndpoint
@@ -9734,6 +9735,7 @@ glue:DeleteConnection
 glue:DeleteConnectionType
 glue:DeleteCrawler
 glue:DeleteCustomEntityType
+glue:DeleteDataQualityEvaluationConfig
 glue:DeleteDataQualityRuleset
 glue:DeleteDatabase
 glue:DeleteDevEndpoint
@@ -9787,6 +9789,7 @@ glue:GetCustomEntityType
 glue:GetDashboardUrl
 glue:GetDataCatalogEncryptionSettings
 glue:GetDataPreviewStatement
+glue:GetDataQualityEvaluationConfig
 glue:GetDataQualityModel
 glue:GetDataQualityModelResult
 glue:GetDataQualityResult
@@ -9872,6 +9875,7 @@ glue:ListConnectionTypes
 glue:ListCrawlers
 glue:ListCrawls
 glue:ListCustomEntityTypes
+glue:ListDataQualityEvaluationConfigs
 glue:ListDataQualityResults
 glue:ListDataQualityRuleRecommendationRuns
 glue:ListDataQualityRulesetEvaluationRuns
@@ -9954,6 +9958,7 @@ glue:UpdateColumnStatisticsTaskSettings
 glue:UpdateConnection
 glue:UpdateCrawler
 glue:UpdateCrawlerSchedule
+glue:UpdateDataQualityEvaluationConfig
 glue:UpdateDataQualityRuleset
 glue:UpdateDatabase
 glue:UpdateDevEndpoint
@@ -12343,6 +12348,8 @@ lakeformation:UpdateTableObjects
 lakeformation:UpdateTableStorageOptimizer
 lambda:AddLayerVersionPermission
 lambda:AddPermission
+lambda:AssociateRuntimeAlias
+lambda:AssociateRuntimeVersion
 lambda:CheckpointDurableExecution
 lambda:ConnectMicrovm
 lambda:CreateAlias
@@ -12355,6 +12362,9 @@ lambda:CreateMicrovmAuthToken
 lambda:CreateMicrovmImage
 lambda:CreateMicrovmShellAuthToken
 lambda:CreateNetworkConnector
+lambda:CreateRuntime
+lambda:CreateRuntimeAlias
+lambda:CreateRuntimeVersion
 lambda:CreateWebFunction
 lambda:CreateWebFunctionEndpoint
 lambda:CreateWebFunctionRevision
@@ -12373,6 +12383,9 @@ lambda:DeleteMicrovmImageVersion
 lambda:DeleteNetworkConnector
 lambda:DeleteProvisionedConcurrencyConfig
 lambda:DeleteResourcePolicy
+lambda:DeleteRuntime
+lambda:DeleteRuntimeAlias
+lambda:DeleteRuntimeVersion
 lambda:DeleteWebFunction
 lambda:DeleteWebFunctionEndpoint
 lambda:DeleteWebFunctionRevision
@@ -12404,7 +12417,10 @@ lambda:GetNetworkConnector
 lambda:GetPolicy
 lambda:GetProvisionedConcurrencyConfig
 lambda:GetResourcePolicy
+lambda:GetRuntime
+lambda:GetRuntimeAlias
 lambda:GetRuntimeManagementConfig
+lambda:GetRuntimeVersion
 lambda:GetWebAccountSettings
 lambda:GetWebFunction
 lambda:GetWebFunctionEndpoint
@@ -12434,6 +12450,9 @@ lambda:ListMicrovms
 lambda:ListNetworkConnectorVersions
 lambda:ListNetworkConnectors
 lambda:ListProvisionedConcurrencyConfigs
+lambda:ListRuntimeAliases
+lambda:ListRuntimeVersions
+lambda:ListRuntimes
 lambda:ListTags
 lambda:ListVersionsByFunction
 lambda:ListWebFunctionEndpoints
@@ -12453,6 +12472,7 @@ lambda:PutResourcePolicy
 lambda:PutRuntimeManagementConfig
 lambda:RemoveLayerVersionPermission
 lambda:RemovePermission
+lambda:RestoreRuntime
 lambda:ResumeMicrovm
 lambda:RunMicrovm
 lambda:SendDurableExecutionCallbackFailure
@@ -12475,6 +12495,9 @@ lambda:UpdateFunctionUrlConfig
 lambda:UpdateMicrovmImage
 lambda:UpdateMicrovmImageVersion
 lambda:UpdateNetworkConnector
+lambda:UpdateRuntime
+lambda:UpdateRuntimeAlias
+lambda:UpdateRuntimeVersion
 lambda:UpdateWebFunctionEndpoint
 launchwizard:CreateAdditionalNode
 launchwizard:CreateDeployment
@@ -19632,6 +19655,7 @@ ses:ListTenants
 ses:ListTrafficPolicies
 ses:ListVerifiedEmailAddresses
 ses:PutAccountDedicatedIpWarmupAttributes
+ses:PutAccountDeliveryAttributes
 ses:PutAccountDetails
 ses:PutAccountPricingAttributes
 ses:PutAccountSendingAttributes
@@ -20848,6 +20872,7 @@ support:RefreshTrustedAdvisorCheck
 support:ResolveCase
 support:ResolveInteraction
 support:SearchForCases
+support:SearchInteractions
 support:StartInteraction
 support:UpdateCaseSeverity
 support:UpdateInteraction
