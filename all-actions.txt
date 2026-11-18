@@ -2350,6 +2350,8 @@ bedrock-agentcore:GatewayGetWebACLForResource
 bedrock-agentcore:GatewayListResourcesForWebACL
 bedrock-agentcore:GetABTest
 bedrock-agentcore:GetAgentCard
+bedrock-agentcore:GetAgentInsight
+bedrock-agentcore:GetAgentInsightStore
 bedrock-agentcore:GetAgentRuntime
 bedrock-agentcore:GetAgentRuntimeEndpoint
 bedrock-agentcore:GetApiKeyCredentialProvider
@@ -2415,6 +2417,8 @@ bedrock-agentcore:InvokeWebAnswer
 bedrock-agentcore:InvokeWebSearch
 bedrock-agentcore:ListABTests
 bedrock-agentcore:ListActors
+bedrock-agentcore:ListAgentInsightStores
+bedrock-agentcore:ListAgentInsights
 bedrock-agentcore:ListAgentRuntimeEndpoints
 bedrock-agentcore:ListAgentRuntimeVersions
 bedrock-agentcore:ListAgentRuntimeVersionsByCapacityProvider
@@ -2492,6 +2496,8 @@ bedrock-agentcore:SynchronizeGatewayTargets
 bedrock-agentcore:TagResource
 bedrock-agentcore:UntagResource
 bedrock-agentcore:UpdateABTest
+bedrock-agentcore:UpdateAgentInsight
+bedrock-agentcore:UpdateAgentInsightStore
 bedrock-agentcore:UpdateAgentRuntime
 bedrock-agentcore:UpdateAgentRuntimeEndpoint
 bedrock-agentcore:UpdateApiKeyCredentialProvider
@@ -17385,6 +17391,7 @@ researchstudio:DeleteApplication
 researchstudio:DeletePrincipal
 researchstudio:GetApplication
 researchstudio:ListApplications
+researchstudio:UpdateApplication
 resiliencehub:AcceptResourceGroupingRecommendations
 resiliencehub:AddDraftAppVersionResourceMappings
 resiliencehub:BatchUpdateRecommendationStatus
@@ -17964,6 +17971,7 @@ route53resolver:ImportFirewallDomains
 route53resolver:ListFirewallConfigs
 route53resolver:ListFirewallDomainLists
 route53resolver:ListFirewallDomains
+route53resolver:ListFirewallRuleDomains
 route53resolver:ListFirewallRuleGroupAssociations
 route53resolver:ListFirewallRuleGroups
 route53resolver:ListFirewallRuleTypes
