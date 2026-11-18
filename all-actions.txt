@@ -1866,6 +1866,8 @@ aws-marketplace:GetAgreementRequestTerms
 aws-marketplace:GetAgreementTerms
 aws-marketplace:GetBillingAdjustmentRequest
 aws-marketplace:GetBuyerDashboard
+aws-marketplace:GetDeploymentConfiguration
+aws-marketplace:GetDeploymentConfigurationJob
 aws-marketplace:GetEntitlements
 aws-marketplace:GetInvoiceSubmissionTask
 aws-marketplace:GetIssuedTaxInvoice
@@ -1891,6 +1893,7 @@ aws-marketplace:ListAssessments
 aws-marketplace:ListBillingAdjustmentRequests
 aws-marketplace:ListBuilds
 aws-marketplace:ListChangeSets
+aws-marketplace:ListDeploymentConfigurationJobs
 aws-marketplace:ListEntities
 aws-marketplace:ListEntitlementDetails
 aws-marketplace:ListFulfillmentOptions
@@ -1923,6 +1926,7 @@ aws-marketplace:SendAgreementPaymentRequest
 aws-marketplace:StartAgreementApprovals
 aws-marketplace:StartBuild
 aws-marketplace:StartChangeSet
+aws-marketplace:StartDeploymentConfigurationJob
 aws-marketplace:StartInvoiceSubmissionTask
 aws-marketplace:StartTaxComplianceProfileChangeTask
 aws-marketplace:StartVerification
@@ -10395,6 +10399,8 @@ health-agent:UntagResource
 health-agent:UpdateAgent
 health-agent:UpdateIntegration
 health-agent:UpdateSession
+health:ConfigureTags
+health:ConfigureTagsForOrganization
 health:DescribeAffectedAccountsForOrganization
 health:DescribeAffectedEntities
 health:DescribeAffectedEntitiesForOrganization
@@ -10407,8 +10413,18 @@ health:DescribeEventTypes
 health:DescribeEvents
 health:DescribeEventsForOrganization
 health:DescribeHealthServiceStatusForOrganization
+health:DescribeTagKeys
+health:DescribeTagKeysForOrganization
+health:DescribeTags
+health:DescribeTagsForOrganization
+health:DescribeTagsOnboardingStatus
+health:DescribeTagsOnboardingStatusForOrganization
 health:DisableHealthServiceAccessForOrganization
+health:DisableTags
+health:DisableTagsForOrganization
 health:EnableHealthServiceAccessForOrganization
+health:EnableTags
+health:EnableTagsForOrganization
 healthlake:CancelFHIRExportJobWithDelete
 healthlake:ConfirmAttributionList
 healthlake:CreateDataTransformationProfile
