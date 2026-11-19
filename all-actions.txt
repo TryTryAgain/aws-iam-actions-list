@@ -98,6 +98,9 @@ a4b:UpdateNetworkProfile
 a4b:UpdateProfile
 a4b:UpdateRoom
 a4b:UpdateSkillGroup
+abuse:CreateAbuseReport
+abuse:GetAbuseReportStatus
+abuse:ListAbuseReportStatuses
 access-analyzer:ApplyArchiveRule
 access-analyzer:CancelPolicyGeneration
 access-analyzer:CheckAccessNotGranted
@@ -1924,6 +1927,7 @@ aws-marketplace:SearchListings
 aws-marketplace:SendAgreementCancellationRequest
 aws-marketplace:SendAgreementPaymentRequest
 aws-marketplace:StartAgreementApprovals
+aws-marketplace:StartAssessment
 aws-marketplace:StartBuild
 aws-marketplace:StartChangeSet
 aws-marketplace:StartDeploymentConfigurationJob
@@ -2229,6 +2233,20 @@ bcm-data-exports:ListTagsForResource
 bcm-data-exports:TagResource
 bcm-data-exports:UntagResource
 bcm-data-exports:UpdateExport
+bcm-data-hub:CancelQueryExecution
+bcm-data-hub:CreateDataset
+bcm-data-hub:DeleteDataset
+bcm-data-hub:GetDataset
+bcm-data-hub:GetDatasetSchema
+bcm-data-hub:GetQueryExecution
+bcm-data-hub:GetQueryExecutionResults
+bcm-data-hub:ListDatasets
+bcm-data-hub:ListQueryExecutions
+bcm-data-hub:ListTagsForResource
+bcm-data-hub:StartQueryExecution
+bcm-data-hub:TagResource
+bcm-data-hub:UntagResource
+bcm-data-hub:UpdateDataset
 bcm-pricing-calculator:CreateBillEstimate
 bcm-pricing-calculator:CreateBillScenario
 bcm-pricing-calculator:CreateBillScenarioCommitmentModification
@@ -5108,6 +5126,7 @@ compute-optimizer:GetRecommendationPreferences
 compute-optimizer:GetRecommendationSummaries
 compute-optimizer:PutRecommendationPreferences
 compute-optimizer:UpdateEnrollmentStatus
+config:AllowVendedLogDeliveryForResource
 config:AssociateResourceTypes
 config:BatchGetAggregateResourceConfig
 config:BatchGetResourceConfig
@@ -5252,6 +5271,7 @@ connect-campaigns:UpdateCampaignSchedule
 connect-campaigns:UpdateCampaignSource
 connect:ActivateEvaluationForm
 connect:AdminGetEmergencyAccessToken
+connect:ApproveTimeOff
 connect:AssociateAnalyticsDataSet
 connect:AssociateApprovedOrigin
 connect:AssociateBot
@@ -5281,6 +5301,7 @@ connect:BatchGetAttachedFileMetadata
 connect:BatchGetFlowAssociation
 connect:BatchPutContact
 connect:BatchUpdateDataTableValue
+connect:CancelTimeOff
 connect:ClaimPhoneNumber
 connect:CompleteAttachedFileUpload
 connect:CreateAgentStatus
@@ -5314,6 +5335,7 @@ connect:CreateRoutingProfile
 connect:CreateRule
 connect:CreateSecurityProfile
 connect:CreateTaskTemplate
+connect:CreateTimeOff
 connect:CreateTrafficDistributionGroup
 connect:CreateUseCase
 connect:CreateUser
@@ -5431,6 +5453,7 @@ connect:GetMetricData
 connect:GetMetricDataV2
 connect:GetPromptFile
 connect:GetTaskTemplate
+connect:GetTimeOff
 connect:GetTrafficDistribution
 connect:ImportPhoneNumber
 connect:ImportWorkspaceMedia
@@ -5506,7 +5529,9 @@ connect:ListWorkspacePages
 connect:ListWorkspaces
 connect:MonitorContact
 connect:PauseContact
+connect:PutTimeOffBalance
 connect:PutUserStatus
+connect:RejectTimeOff
 connect:ReleasePhoneNumber
 connect:ReplicateInstance
 connect:ResumeContact
@@ -7003,6 +7028,7 @@ ds:UpdateSettings
 ds:UpdateTrust
 ds:VerifyTrust
 dsql:AddPeerCluster
+dsql:AllowVendedLogDeliveryForResource
 dsql:CreateCluster
 dsql:CreateStream
 dsql:DbConnect
@@ -10608,6 +10634,8 @@ iam:GetOrganizationsAccessReport
 iam:GetOutboundWebIdentityFederationInfo
 iam:GetPolicy
 iam:GetPolicyVersion
+iam:GetRequestAuthorizationDetails
+iam:GetRequestAuthorizationPolicy
 iam:GetRole
 iam:GetRolePolicy
 iam:GetRoleTemplateVersion
@@ -12468,6 +12496,7 @@ lambda:CreateWebFunctionRevision
 lambda:DeleteAlias
 lambda:DeleteCapacityProvider
 lambda:DeleteCodeSigningConfig
+lambda:DeleteDurableExecution
 lambda:DeleteEventSourceMapping
 lambda:DeleteFunction
 lambda:DeleteFunctionCodeSigningConfig
@@ -12557,6 +12586,7 @@ lambda:ListWebFunctionRevisions
 lambda:ListWebFunctions
 lambda:PassCapacityProvider
 lambda:PassNetworkConnector
+lambda:PauseDurableExecution
 lambda:PublishLayerVersion
 lambda:PublishVersion
 lambda:PutFunctionCodeSigningConfig
@@ -12570,6 +12600,7 @@ lambda:PutRuntimeManagementConfig
 lambda:RemoveLayerVersionPermission
 lambda:RemovePermission
 lambda:RestoreRuntime
+lambda:ResumeDurableExecution
 lambda:ResumeMicrovm
 lambda:RunMicrovm
 lambda:SendDurableExecutionCallbackFailure
@@ -14692,12 +14723,14 @@ networkmanager-chat:NotifyConversationIsActive
 networkmanager-chat:SendConversationMessage
 networkmanager:AcceptAttachment
 networkmanager:AssociateConnectPeer
+networkmanager:AssociateContextStore
 networkmanager:AssociateCustomerGateway
 networkmanager:AssociateLink
 networkmanager:AssociateTransitGatewayConnectPeer
 networkmanager:CreateConnectAttachment
 networkmanager:CreateConnectPeer
 networkmanager:CreateConnection
+networkmanager:CreateContextStore
 networkmanager:CreateCoreNetwork
 networkmanager:CreateCoreNetworkPrefixListAssociation
 networkmanager:CreateDevice
@@ -14712,6 +14745,7 @@ networkmanager:CreateVpcAttachment
 networkmanager:DeleteAttachment
 networkmanager:DeleteConnectPeer
 networkmanager:DeleteConnection
+networkmanager:DeleteContextStore
 networkmanager:DeleteCoreNetwork
 networkmanager:DeleteCoreNetworkPolicyVersion
 networkmanager:DeleteCoreNetworkPrefixListAssociation
@@ -14724,6 +14758,7 @@ networkmanager:DeleteSite
 networkmanager:DeregisterTransitGateway
 networkmanager:DescribeGlobalNetworks
 networkmanager:DisassociateConnectPeer
+networkmanager:DisassociateContextStore
 networkmanager:DisassociateCustomerGateway
 networkmanager:DisassociateLink
 networkmanager:DisassociateTransitGatewayConnectPeer
@@ -14732,6 +14767,9 @@ networkmanager:GetConnectAttachment
 networkmanager:GetConnectPeer
 networkmanager:GetConnectPeerAssociations
 networkmanager:GetConnections
+networkmanager:GetContextStore
+networkmanager:GetContextStoreAssociation
+networkmanager:GetContextVersion
 networkmanager:GetCoreNetwork
 networkmanager:GetCoreNetworkChangeEvents
 networkmanager:GetCoreNetworkChangeSet
@@ -14759,6 +14797,10 @@ networkmanager:ListAttachmentNatConfigurations
 networkmanager:ListAttachmentRoutingPolicyAssociations
 networkmanager:ListAttachments
 networkmanager:ListConnectPeers
+networkmanager:ListContextChanges
+networkmanager:ListContextStoreAssociations
+networkmanager:ListContextStores
+networkmanager:ListContexts
 networkmanager:ListCoreNetworkPolicyVersions
 networkmanager:ListCoreNetworkPrefixListAssociations
 networkmanager:ListCoreNetworkRoutingInformation
@@ -14779,6 +14821,7 @@ networkmanager:TagResource
 networkmanager:UntagResource
 networkmanager:UpdateAttachmentNatConfiguration
 networkmanager:UpdateConnection
+networkmanager:UpdateContextStore
 networkmanager:UpdateCoreNetwork
 networkmanager:UpdateDevice
 networkmanager:UpdateDirectConnectGatewayAttachment
@@ -17885,12 +17928,14 @@ route53globalresolver:BatchDeleteFirewallRule
 route53globalresolver:BatchUpdateFirewallRule
 route53globalresolver:CreateAccessSource
 route53globalresolver:CreateAccessToken
+route53globalresolver:CreateCoreNetworkEndpoint
 route53globalresolver:CreateDNSView
 route53globalresolver:CreateFirewallDomainList
 route53globalresolver:CreateFirewallRule
 route53globalresolver:CreateGlobalResolver
 route53globalresolver:DeleteAccessSource
 route53globalresolver:DeleteAccessToken
+route53globalresolver:DeleteCoreNetworkEndpoint
 route53globalresolver:DeleteDNSView
 route53globalresolver:DeleteFirewallDomainList
 route53globalresolver:DeleteFirewallRule
@@ -17900,6 +17945,7 @@ route53globalresolver:DisassociateHostedZone
 route53globalresolver:EnableDNSView
 route53globalresolver:GetAccessSource
 route53globalresolver:GetAccessToken
+route53globalresolver:GetCoreNetworkEndpoint
 route53globalresolver:GetDNSView
 route53globalresolver:GetFirewallDomainList
 route53globalresolver:GetFirewallRule
@@ -17909,6 +17955,7 @@ route53globalresolver:GetManagedFirewallDomainList
 route53globalresolver:ImportFirewallDomains
 route53globalresolver:ListAccessSources
 route53globalresolver:ListAccessTokens
+route53globalresolver:ListCoreNetworkEndpoints
 route53globalresolver:ListDNSViews
 route53globalresolver:ListFirewallDomainLists
 route53globalresolver:ListFirewallDomains
@@ -17916,11 +17963,13 @@ route53globalresolver:ListFirewallRules
 route53globalresolver:ListGlobalResolvers
 route53globalresolver:ListHostedZoneAssociations
 route53globalresolver:ListManagedFirewallDomainLists
+route53globalresolver:ListSharedDNSViews
 route53globalresolver:ListTagsForResource
 route53globalresolver:TagResource
 route53globalresolver:UntagResource
 route53globalresolver:UpdateAccessSource
 route53globalresolver:UpdateAccessToken
+route53globalresolver:UpdateCoreNetworkEndpoint
 route53globalresolver:UpdateDNSView
 route53globalresolver:UpdateFirewallDomains
 route53globalresolver:UpdateFirewallRule
