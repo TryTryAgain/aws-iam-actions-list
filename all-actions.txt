@@ -266,6 +266,7 @@ activate:GetCredits
 activate:GetMemberInfo
 activate:GetProgram
 activate:PutMemberInfo
+agent-registry:CompleteRegistryRecordTokenAuth
 agent-registry:CreateRegistry
 agent-registry:CreateRegistryRecord
 agent-registry:DeleteRegistry
@@ -627,6 +628,9 @@ aoss:UpdateLifecyclePolicy
 aoss:UpdateSecurityConfig
 aoss:UpdateSecurityPolicy
 aoss:UpdateVpcEndpoint
+apex:GetStatistics
+apex:GetStatisticsTimeSeries
+apex:Search
 apigateway:AddCertificateToDomain
 apigateway:CreateAccessAssociation
 apigateway:CreatePortal
