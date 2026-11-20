@@ -4225,6 +4225,7 @@ cloudwatch:GetMetricDataQueryDefinition
 cloudwatch:GetMetricStatistics
 cloudwatch:GetMetricStream
 cloudwatch:GetMetricWidgetImage
+cloudwatch:GetMonitoringAssessment
 cloudwatch:GetOTelEnrichment
 cloudwatch:GetOmniAgentAsset
 cloudwatch:GetOmniDashboard
@@ -4261,6 +4262,8 @@ cloudwatch:ListManagedInsightRules
 cloudwatch:ListMetricDataQueryDefinitions
 cloudwatch:ListMetricStreams
 cloudwatch:ListMetrics
+cloudwatch:ListMonitoringAssessmentResults
+cloudwatch:ListMonitoringAssessments
 cloudwatch:ListOmniAgentAssets
 cloudwatch:ListOmniDashboards
 cloudwatch:ListOmniThreads
@@ -4292,6 +4295,7 @@ cloudwatch:QueryTraces
 cloudwatch:SearchPrincipals
 cloudwatch:SetAlarmState
 cloudwatch:StartMetricStreams
+cloudwatch:StartMonitoringAssessment
 cloudwatch:StartOTelEnrichment
 cloudwatch:StartOmniThreadSession
 cloudwatch:StartTelemetryQuery
@@ -16060,10 +16064,13 @@ pipes:StopPipe
 pipes:TagResource
 pipes:UntagResource
 pipes:UpdatePipe
+polly:CreateVoice
 polly:DeleteLexicon
+polly:DeleteVoice
 polly:DescribeVoices
 polly:GetLexicon
 polly:GetSpeechSynthesisTask
+polly:GetVoice
 polly:ListLexicons
 polly:ListSpeechSynthesisTasks
 polly:ListTagsForResource
