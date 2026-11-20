@@ -2270,6 +2270,7 @@ bcm-pricing-calculator:DeleteWorkloadEstimateUsage
 bcm-pricing-calculator:GetBillEstimate
 bcm-pricing-calculator:GetBillScenario
 bcm-pricing-calculator:GetPreferences
+bcm-pricing-calculator:GetUsageLinesEstimatedCost
 bcm-pricing-calculator:GetWorkloadEstimate
 bcm-pricing-calculator:ListBillEstimateCommitments
 bcm-pricing-calculator:ListBillEstimateInputCommitmentModifications
@@ -4160,6 +4161,7 @@ cloudwatch:CreateDomainAccessGrantForOrganization
 cloudwatch:CreateDomainForOrganization
 cloudwatch:CreateIngestionEndpoint
 cloudwatch:CreateIntegration
+cloudwatch:CreateOmniAgentAsset
 cloudwatch:CreateOmniDashboard
 cloudwatch:CreateOmniThread
 cloudwatch:CreateOneTimeDeepLinkCode
@@ -4182,6 +4184,7 @@ cloudwatch:DeleteInsightRules
 cloudwatch:DeleteIntegration
 cloudwatch:DeleteMetricDataQueryDefinition
 cloudwatch:DeleteMetricStream
+cloudwatch:DeleteOmniAgentAsset
 cloudwatch:DeleteOmniDashboard
 cloudwatch:DeleteOmniThread
 cloudwatch:DeletePipelineRule
@@ -4223,6 +4226,7 @@ cloudwatch:GetMetricStatistics
 cloudwatch:GetMetricStream
 cloudwatch:GetMetricWidgetImage
 cloudwatch:GetOTelEnrichment
+cloudwatch:GetOmniAgentAsset
 cloudwatch:GetOmniDashboard
 cloudwatch:GetOmniThread
 cloudwatch:GetPreferences
@@ -4257,6 +4261,7 @@ cloudwatch:ListManagedInsightRules
 cloudwatch:ListMetricDataQueryDefinitions
 cloudwatch:ListMetricStreams
 cloudwatch:ListMetrics
+cloudwatch:ListOmniAgentAssets
 cloudwatch:ListOmniDashboards
 cloudwatch:ListOmniThreads
 cloudwatch:ListServiceLevelObjectives
@@ -4306,6 +4311,7 @@ cloudwatch:UpdateDomainForOrganization
 cloudwatch:UpdateIngestionEndpoint
 cloudwatch:UpdateIntegration
 cloudwatch:UpdateOTelEnrichment
+cloudwatch:UpdateOmniAgentAsset
 cloudwatch:UpdateOmniDashboard
 cloudwatch:UpdateOmniThread
 cloudwatch:UpdatePreferences
@@ -4872,10 +4878,12 @@ cognito-idp:AdminUpdateUserAttributes
 cognito-idp:AdminUserGlobalSignOut
 cognito-idp:AssociateSoftwareToken
 cognito-idp:AssociateWebACL
+cognito-idp:CancelPointInTimeRecovery
 cognito-idp:ChangePassword
 cognito-idp:ConfirmDevice
 cognito-idp:ConfirmForgotPassword
 cognito-idp:ConfirmSignUp
+cognito-idp:CreateCIMDPolicy
 cognito-idp:CreateGroup
 cognito-idp:CreateIdentityProvider
 cognito-idp:CreateManagedLoginBranding
@@ -4886,6 +4894,7 @@ cognito-idp:CreateUserPool
 cognito-idp:CreateUserPoolClient
 cognito-idp:CreateUserPoolDomain
 cognito-idp:CreateUserPoolReplica
+cognito-idp:DeleteCIMDPolicy
 cognito-idp:DeleteGroup
 cognito-idp:DeleteIdentityProvider
 cognito-idp:DeleteManagedLoginBranding
@@ -4898,9 +4907,11 @@ cognito-idp:DeleteUserPoolClient
 cognito-idp:DeleteUserPoolClientSecret
 cognito-idp:DeleteUserPoolDomain
 cognito-idp:DeleteUserPoolReplica
+cognito-idp:DescribeCIMDPolicy
 cognito-idp:DescribeIdentityProvider
 cognito-idp:DescribeManagedLoginBranding
 cognito-idp:DescribeManagedLoginBrandingByClient
+cognito-idp:DescribePointInTimeRecovery
 cognito-idp:DescribeResourceServer
 cognito-idp:DescribeRiskConfiguration
 cognito-idp:DescribeTerms
@@ -4914,6 +4925,7 @@ cognito-idp:ForgetDevice
 cognito-idp:ForgotPassword
 cognito-idp:GetCSVHeader
 cognito-idp:GetClientToken
+cognito-idp:GetDerivedToken
 cognito-idp:GetDevice
 cognito-idp:GetGroup
 cognito-idp:GetIdentityProviderByIdentifier
@@ -4930,9 +4942,13 @@ cognito-idp:GetUserPoolSessionConfiguration
 cognito-idp:GetWebACLForResource
 cognito-idp:GlobalSignOut
 cognito-idp:InitiateAuth
+cognito-idp:InitiatePointInTimeRecovery
+cognito-idp:ListCIMDPolicies
+cognito-idp:ListClientMetadataURLs
 cognito-idp:ListDevices
 cognito-idp:ListGroups
 cognito-idp:ListIdentityProviders
+cognito-idp:ListPointInTimeRecoveries
 cognito-idp:ListResourceServers
 cognito-idp:ListResourcesForWebACL
 cognito-idp:ListTagsForResource
@@ -4958,11 +4974,14 @@ cognito-idp:SetUserPoolMfaConfig
 cognito-idp:SetUserPoolSessionConfiguration
 cognito-idp:SetUserSettings
 cognito-idp:SignUp
+cognito-idp:StartPointInTimeRecovery
 cognito-idp:StartUserImportJob
 cognito-idp:StopUserImportJob
 cognito-idp:TagResource
 cognito-idp:UntagResource
 cognito-idp:UpdateAuthEventFeedback
+cognito-idp:UpdateCIMDPolicy
+cognito-idp:UpdateClientMetadataURLState
 cognito-idp:UpdateDeviceStatus
 cognito-idp:UpdateGroup
 cognito-idp:UpdateIdentityProvider
@@ -8990,10 +9009,12 @@ events:PutRawEvents
 events:PutResourcePolicy
 events:PutRule
 events:PutTargets
+events:PutWebhookEvents
 events:RemovePermission
 events:RemoveTargets
 events:RetrieveConnectionCredentials
 events:RevokeResource
+events:RotateWebhookCredentials
 events:StartReplay
 events:TagResource
 events:TestEventPattern
@@ -10736,6 +10757,7 @@ iam:UpdateAssumeRolePolicy
 iam:UpdateCloudFrontPublicKey
 iam:UpdateGroup
 iam:UpdateLoginProfile
+iam:UpdateOpenIDConnectProvider
 iam:UpdateOpenIDConnectProviderThumbprint
 iam:UpdateRole
 iam:UpdateRoleDescription
@@ -12054,6 +12076,7 @@ kafka-cluster:WriteData
 kafka-cluster:WriteDataIdempotently
 kafka:BatchAssociateScramSecret
 kafka:BatchDisassociateScramSecret
+kafka:CreateAssessment
 kafka:CreateChannel
 kafka:CreateCluster
 kafka:CreateClusterV2
@@ -12061,6 +12084,7 @@ kafka:CreateConfiguration
 kafka:CreateReplicator
 kafka:CreateTopic
 kafka:CreateVpcConnection
+kafka:DeleteAssessment
 kafka:DeleteChannel
 kafka:DeleteCluster
 kafka:DeleteClusterPolicy
@@ -12068,6 +12092,7 @@ kafka:DeleteConfiguration
 kafka:DeleteReplicator
 kafka:DeleteTopic
 kafka:DeleteVpcConnection
+kafka:DescribeAssessment
 kafka:DescribeChannel
 kafka:DescribeCluster
 kafka:DescribeClusterOperation
@@ -12078,10 +12103,13 @@ kafka:DescribeConfigurationRevision
 kafka:DescribeReplicator
 kafka:DescribeTopic
 kafka:DescribeTopicPartitions
+kafka:DescribeTopicReassignment
 kafka:DescribeVpcConnection
 kafka:GetBootstrapBrokers
 kafka:GetClusterPolicy
 kafka:GetCompatibleKafkaVersions
+kafka:ListAssessmentFindings
+kafka:ListAssessments
 kafka:ListChannels
 kafka:ListClientVpcConnections
 kafka:ListClusterOperations
@@ -12095,11 +12123,14 @@ kafka:ListNodes
 kafka:ListReplicators
 kafka:ListScramSecrets
 kafka:ListTagsForResource
+kafka:ListTopicReassignments
 kafka:ListTopics
 kafka:ListVpcConnections
 kafka:PutClusterPolicy
 kafka:RebootBroker
 kafka:RejectClientVpcConnection
+kafka:StartTopicReassignment
+kafka:StopTopicReassignment
 kafka:TagResource
 kafka:UntagResource
 kafka:UpdateBrokerCount
@@ -17873,6 +17904,7 @@ route53:ChangeResourceRecordSets
 route53:ChangeTagsForResource
 route53:CreateCidrCollection
 route53:CreateHealthCheck
+route53:CreateHealthCheckSource
 route53:CreateHostedZone
 route53:CreateIpGuardrailPolicy
 route53:CreateKeySigningKey
@@ -17886,6 +17918,7 @@ route53:CreateVPCAssociationAuthorization
 route53:DeactivateKeySigningKey
 route53:DeleteCidrCollection
 route53:DeleteHealthCheck
+route53:DeleteHealthCheckSource
 route53:DeleteHostedZone
 route53:DeleteIpGuardrailPolicy
 route53:DeleteKeySigningKey
@@ -17906,6 +17939,7 @@ route53:GetGeoLocation
 route53:GetHealthCheck
 route53:GetHealthCheckCount
 route53:GetHealthCheckLastFailureReason
+route53:GetHealthCheckSource
 route53:GetHealthCheckStatus
 route53:GetHostedZone
 route53:GetHostedZoneCount
@@ -17921,7 +17955,9 @@ route53:ListCidrBlocks
 route53:ListCidrCollections
 route53:ListCidrLocations
 route53:ListGeoLocations
+route53:ListHealthCheckSources
 route53:ListHealthChecks
+route53:ListHealthChecksBySource
 route53:ListHostedZones
 route53:ListHostedZonesByName
 route53:ListHostedZonesByVPC
@@ -18500,6 +18536,7 @@ s3tables:DeleteTableBucketPolicy
 s3tables:DeleteTableBucketReplication
 s3tables:DeleteTablePolicy
 s3tables:DeleteTableReplication
+s3tables:DisassociateTableReplication
 s3tables:GetNamespace
 s3tables:GetTable
 s3tables:GetTableBucket
@@ -21081,11 +21118,13 @@ sts:GetAccessKeyInfo
 sts:GetCallerIdentity
 sts:GetDelegatedAccessToken
 sts:GetFederationToken
+sts:GetScopedCredentials
 sts:GetServiceBearerToken
 sts:GetSessionToken
 sts:GetWebIdentityToken
 sts:SetContext
 sts:SetSourceIdentity
+sts:SetWebIdentityTokenScope
 sts:TagGetWebIdentityToken
 sts:TagSession
 support-console:CheckSubscription
