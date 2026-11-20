@@ -4573,6 +4573,7 @@ codeconnections:GetIndividualAccessToken
 codeconnections:GetInstallationUrl
 codeconnections:GetRepositoryLink
 codeconnections:GetRepositorySyncStatus
+codeconnections:GetResourcePolicy
 codeconnections:GetResourceSyncStatus
 codeconnections:GetSyncBlockerSummary
 codeconnections:GetSyncConfiguration
@@ -9082,6 +9083,7 @@ finops-agent:GetConnection
 finops-agent:GetDocumentContent
 finops-agent:GetDocumentMetadata
 finops-agent:GetIntegration
+finops-agent:GetOrganizationAccess
 finops-agent:GetTask
 finops-agent:GetTurn
 finops-agent:ListAgentSpaces
@@ -9101,6 +9103,7 @@ finops-agent:UpdateAgentSpace
 finops-agent:UpdateAutomation
 finops-agent:UpdateConnection
 finops-agent:UpdateDocument
+finops-agent:UpdateOrganizationAccess
 finspace-api:GetProgrammaticAccessCredentials
 finspace:ConnectKxCluster
 finspace:CreateEnvironment
