@@ -4206,6 +4206,7 @@ cloudtrail:UpdateEventDataStore
 cloudtrail:UpdateServiceLinkedChannel
 cloudtrail:UpdateTrail
 cloudwatch:AssumeAccessProfile
+cloudwatch:BatchGetOmniSloReport
 cloudwatch:BatchGetServiceLevelIndicatorReport
 cloudwatch:BatchGetServiceLevelObjectiveBudgetReport
 cloudwatch:CallWithBearerToken
@@ -4219,6 +4220,7 @@ cloudwatch:CreateIngestionEndpoint
 cloudwatch:CreateIntegration
 cloudwatch:CreateOmniAgentAsset
 cloudwatch:CreateOmniDashboard
+cloudwatch:CreateOmniSlo
 cloudwatch:CreateOmniThread
 cloudwatch:CreateOneTimeDeepLinkCode
 cloudwatch:CreateResourceMetricsConfiguration
@@ -4242,6 +4244,7 @@ cloudwatch:DeleteMetricDataQueryDefinition
 cloudwatch:DeleteMetricStream
 cloudwatch:DeleteOmniAgentAsset
 cloudwatch:DeleteOmniDashboard
+cloudwatch:DeleteOmniSlo
 cloudwatch:DeleteOmniThread
 cloudwatch:DeletePipelineRule
 cloudwatch:DeleteResourceMetricsConfiguration
@@ -4285,6 +4288,7 @@ cloudwatch:GetMonitoringAssessment
 cloudwatch:GetOTelEnrichment
 cloudwatch:GetOmniAgentAsset
 cloudwatch:GetOmniDashboard
+cloudwatch:GetOmniSlo
 cloudwatch:GetOmniThread
 cloudwatch:GetPreferences
 cloudwatch:GetProfileRecords
@@ -4313,6 +4317,7 @@ cloudwatch:ListDomainAccessGrantsForOrganization
 cloudwatch:ListDomains
 cloudwatch:ListEntitiesForMetric
 cloudwatch:ListIngestionEndpoints
+cloudwatch:ListIntegrationTargets
 cloudwatch:ListIntegrations
 cloudwatch:ListManagedInsightRules
 cloudwatch:ListMetricDataQueryDefinitions
@@ -4322,6 +4327,7 @@ cloudwatch:ListMonitoringAssessmentResults
 cloudwatch:ListMonitoringAssessments
 cloudwatch:ListOmniAgentAssets
 cloudwatch:ListOmniDashboards
+cloudwatch:ListOmniSlos
 cloudwatch:ListOmniThreads
 cloudwatch:ListServiceLevelObjectives
 cloudwatch:ListServices
@@ -4373,6 +4379,7 @@ cloudwatch:UpdateIntegration
 cloudwatch:UpdateOTelEnrichment
 cloudwatch:UpdateOmniAgentAsset
 cloudwatch:UpdateOmniDashboard
+cloudwatch:UpdateOmniSlo
 cloudwatch:UpdateOmniThread
 cloudwatch:UpdatePreferences
 cloudwatch:UpdateResourceMetricsConfiguration
