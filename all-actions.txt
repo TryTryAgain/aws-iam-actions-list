@@ -17348,6 +17348,7 @@ rds:DescribeRecommendationGroups
 rds:DescribeRecommendations
 rds:DescribeReservedDBInstances
 rds:DescribeReservedDBInstancesOfferings
+rds:DescribeSchemas
 rds:DescribeSourceRegions
 rds:DescribeTenantDatabases
 rds:DescribeValidDBInstanceModifications
